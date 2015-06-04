@@ -5,8 +5,7 @@ Jupyter
 User Interfaces
 ---------------
 
-Notebook
-~~~~~~~~
+**Notebook**
 
 The Jupyter Notebook is a web-based application for interactive and exploratory
 computing.
@@ -15,11 +14,9 @@ computing.
 - `GitHub Repo <https://github.com/jupyter/notebook>`_  
 - `Gitter Chat Room <https://github.com/jupyter/notebook>`_  
 
-Console
-~~~~~~~
+**Console**
 
-QtConsole
-~~~~~~~~~
+**QtConsole**
 
 Kernels
 -------
