@@ -4,12 +4,17 @@ Jupyter
 
 User Interfaces
 ---------------
+
 Notebook
-    The Jupyter Notebook is a web-based application for interactive and exploratory
-    computing.
-    :ref:`Documentation <notebook:index>`
-    `GitHub Repo <https://github.com/jupyter/notebook>`_
-    `Gitter Chat Room <https://github.com/jupyter/notebook>`_
+~~~~~~~~
+
+The Jupyter Notebook is a web-based application for interactive and exploratory
+computing.
+
+- :ref:`Documentation <notebook:index>`  
+- `GitHub Repo <https://github.com/jupyter/notebook>`_  
+- `Gitter Chat Room <https://github.com/jupyter/notebook>`_  
+
 Console
 QtConsole
 
