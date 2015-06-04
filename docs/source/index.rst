@@ -16,7 +16,10 @@ computing.
 - `Gitter Chat Room <https://github.com/jupyter/notebook>`_  
 
 Console
+~~~~~~~
+
 QtConsole
+~~~~~~~~~
 
 Kernels
 -------
