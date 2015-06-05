@@ -1,9 +1,17 @@
+.. _landing:
+
+
 =======
 Jupyter
 =======
 
 The following is an overview of the documentation and developer resources for the various open source projects in the Jupyter
 and IPython ecosystem.
+
+Installation
+------------
+
+For a quick start installation guide this :ref:`this page <install>`.
 
 User Interfaces
 ---------------
