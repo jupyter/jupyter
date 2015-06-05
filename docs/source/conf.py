@@ -296,5 +296,5 @@ intersphinx_mapping = {
     'ipyparallel': ('http://ipyparallel.readthedocs.org/en/latest/', None),
     'notebook': ('http://jupyter-notebook.readthedocs.org/en/latest/', None),
     'jupyter-client': ('http://jupyter-client.readthedocs.org/en/latest/', None),
-    # 'qtconsole': ('http://qtconsole.readthedocs.org/en/latest/', None)
+    'qtconsole': ('http://qtconsole.readthedocs.org/en/latest/', None)
 }
