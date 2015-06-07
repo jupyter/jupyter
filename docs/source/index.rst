@@ -11,7 +11,7 @@ and IPython ecosystem.
 Installation
 ------------
 
-For a quick start installation guide this :ref:`this page <install>`.
+For a quick start installation guide this `page <install.rst>`_.
 
 User Interfaces
 ---------------
