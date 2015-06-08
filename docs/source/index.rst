@@ -85,3 +85,4 @@ The following projects are lower level utilities used to build custom applicatio
    :hidden:
 
    install
+   config
