@@ -46,8 +46,9 @@ See `this page <https://github.com/ipython/ipython/wiki/IPython-kernels-for-othe
 Working with Notebooks
 ----------------------
 
-Notebooks are interactive documents that combine live code, narrative text (markdown), visualizations and other rich media. The following projects
-allow the programmatic convertion and manipulation of notebook documents.
+Notebooks are interactive documents that combine live code, narrative text
+(markdown), visualizations and other rich media. The following projects
+allow the programmatic conversion and manipulation of notebook documents.
 
 * nbconvert (`Documentation <http://nbconvert.readthedocs.org/en/latest/>`_, `GitHub Repo <https://github.com/jupyter/nbconvert>`_, `Gitter Chat Room <https://gitter.im/jupyter/notebook>`_)
 * nbformat (`Documentation <http://nbformat.readthedocs.org/en/latest/>`_, `GitHub Repo <https://github.com/jupyter/nbformat>`_, `Gitter Chat Room <https://gitter.im/jupyter/notebook>`_)
