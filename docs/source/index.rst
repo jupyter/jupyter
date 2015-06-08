@@ -11,7 +11,7 @@ and IPython ecosystem.
 Installation
 ------------
 
-For a quick start installation guide this `page <install.rst>`_.
+See the :doc:`installation overview <install>`.
 
 User Interfaces
 ---------------
@@ -80,3 +80,7 @@ The following projects are lower level utilities used to build custom applicatio
 * jupyter_client (`Documentation <http://jupyter-client.readthedocs.org/en/latest/>`_, `GitHub Repo <https://github.com/jupyter/jupyter_client>`_, `Gitter Chat Room <https://github.com/jupyter/jupyter_client>`_)
 * jupyter_core (`GitHub Repo <https://github.com/jupyter/jupyter_core>`_)
 
+.. toctree::
+   :hidden:
+
+   install
