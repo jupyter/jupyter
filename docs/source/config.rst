@@ -21,7 +21,7 @@ To create the blank config files, run::
 
     jupyter {application} --generate-config
 
-The file will be named :file:`jupyter_{application}.py`
+The file will be named :file:`jupyter_{application}_config.py`
 
 Inside the file, you can configure class attributes like this::
 
