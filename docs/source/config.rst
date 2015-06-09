@@ -45,7 +45,7 @@ Command line arguments
 Every configurable value can be set from the command line, using this
 syntax::
 
-    jupyter {application} --ClassName.attribute=value
+    jupyter notebook --NotebookApp.port=8754
 
 Many frequently used options have short aliases and flags, such as
 ``--port 8754`` or ``--no-browser``.
