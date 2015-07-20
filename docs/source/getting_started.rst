@@ -1,9 +1,9 @@
-.. _install:
+.. _getting_started:
 
 
-============
-Installation
-============
+===============
+Getting Started
+===============
 
 The following is a quick start overview of installing the Jupyter Notebook and kernels. For detailed installation
 instructions for individual Jupyter or IPython projects, please see the documentation and/or GitHub repos
