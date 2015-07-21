@@ -44,7 +44,10 @@ powerful environment for interactive computing in Python.
 - `ipyparallel <http://ipyparallel.readthedocs.org/en/latest/>`__: lightweight parallel computing in Python with seamless notebook integration.
 - `ipywidgets <https://github.com/ipython/ipywidgets>`__: interactive widgets for Python in the Jupyter Notebook.
 
-See `this page <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_ for a full list of kernels available for other languages.
+.. seealso::
+
+   `Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
+      A full list of kernels available for other languages
 
 Working with notebook files
 ---------------------------
