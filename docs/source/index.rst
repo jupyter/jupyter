@@ -19,7 +19,6 @@ and IPython organizations.
     :maxdepth: 1
 
     install
-    getting_started
     data_science
 
 Applications
