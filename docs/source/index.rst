@@ -5,8 +5,6 @@
 Jupyter
 =======
 
-Welcome to the Jupyter documentation! 
-
 The Jupyter Notebook is a web application for interactive data science and scientific computing. It
 allows users to author documents that combine live-code with narrative text, equations, images, video
 and visualizations. These documents encode a complete and reproducible record of a computation that
