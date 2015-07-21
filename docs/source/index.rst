@@ -34,12 +34,11 @@ languages for scientific computing, data science and analytics.
 Kernels
 -------
 
-for interactive computing in Python: `IPython <http://ipython.org>`__ is the reference Jupyter kernel
-and provides the de-facto environment
+Kernels are separate processes that sit behind the Jupyter user interfaces and
+run code in a particular programming language.
 
-particular programming language. Kernels are separate processes that sit behind the Jupyter user
-interfaces and run code in a
-
+`IPython <http://ipython.org>`__ is the reference Jupyter kernel, providing a
+powerful environment for interactive computing in Python.
 
 - `IPython Kernel <http://ipython.readthedocs.org/en/master/>`__: interactive computing in Python.
 - `Traitlets <http://traitlets.readthedocs.org/en/latest/>`__: typed, reactive attributes for Python classes.
@@ -48,8 +47,8 @@ interfaces and run code in a
 
 See `this page <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_ for a full list of kernels available for other languages.
 
-Working with Notebooks
-----------------------
+Working with notebook files
+---------------------------
 
 Notebooks are interactive documents that combine live code, narrative text (markdown), visualizations
 and other rich media. The following projects allow the programmatic conversion and manipulation of
@@ -69,7 +68,7 @@ The following projects are focused on addressing the pain points of using the Ju
 Deployment
 ----------
 
-The following projects are being developed to support deploying the notebook in various contexts that include multiuser capabilities and secure/scalable cloud deployments.
+These projects are being developed to support deploying the notebook in various contexts that include multiuser capabilities and secure/scalable cloud deployments.
 
 * `jupyterhub <https://github.com/jupyter/jupyterhub>`__: multi-user notebook for organizations with plugglable authentication and scalability.
 * `jupyter-drive <https://github.com/jupyter/jupyter-drive>`__: store notebooks on Google Drive.
