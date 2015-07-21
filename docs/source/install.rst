@@ -14,14 +14,23 @@ Installing the Jupyter Notebook
 
 While the Jupyter Notebook allows users to run code in many different programming language, the Notebook itself is implemented in Python.
 
-You already have Python\   conda update conda
+**If you already have Python**, you can install the notebook using pip::
+
+    pip install jupyter
+
+
+**If you're new to Python**, we recommend installing `Anaconda
+<http://continuum.io/downloads#py34>`_, a Python distribution which includes
+Jupyter. After you install it, ensure that Jupyter is up to date by running::
+
     conda update jupyter
-
-Enthought Canopy::
-
-    enpkg ipython
 
 Installing kernels
 ------------------
 
-To use the Jupyter Notebook, you need to install a kernel for the programming languages you want to use.
+Installing the Jupyter Notebook should also have installed the `IPython kernel
+<http://ipython.readthedocs.org/en/master/>`_ for the Python programming language.
+
+To run notebooks in other languages, you'll need to install additional kernels:
+see the `list of available kernels
+<https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_.
