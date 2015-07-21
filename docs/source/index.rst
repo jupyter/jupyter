@@ -41,7 +41,6 @@ run code in a particular programming language.
 powerful environment for interactive computing in Python.
 
 - `IPython Kernel <http://ipython.readthedocs.org/en/master/>`__: interactive computing in Python.
-- `Traitlets <http://traitlets.readthedocs.org/en/latest/>`__: typed, reactive attributes for Python classes.
 - `ipyparallel <http://ipyparallel.readthedocs.org/en/latest/>`__: lightweight parallel computing in Python with seamless notebook integration.
 - `ipywidgets <https://github.com/ipython/ipywidgets>`__: interactive widgets for Python in the Jupyter Notebook.
 
