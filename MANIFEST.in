@@ -1,0 +1,7 @@
+graft docs
+prune docs/build
+prune build
+prune dist
+
+include LICENSE
+include README.md
