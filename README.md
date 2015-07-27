@@ -1,2 +1,3 @@
-# jupyter
-Jupyter metapackage for installation and docs!
+# Jupyter
+
+Jupyter metapackage for installation and docs.
