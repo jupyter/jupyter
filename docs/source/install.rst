@@ -12,6 +12,12 @@ of the individual projects listed :ref:`here <landing>`.
 Installing the Jupyter Notebook
 -------------------------------
 
+.. note::
+
+   We're still in the process of releasing Jupyter, and these instructions are
+   being prepared for when it is released. In the meantime, we recommend
+   `installing IPython 3 <http://ipython.org/install.html>`_ to use the notebook.
+
 While the Jupyter Notebook allows users to run code in many different programming language, the Notebook itself is implemented in Python.
 
 **If you already have Python**, you can install the notebook using pip::
@@ -24,6 +30,10 @@ While the Jupyter Notebook allows users to run code in many different programmin
 Jupyter. After you install it, ensure that Jupyter is up to date by running::
 
     conda update jupyter
+
+To **upgrade from IPython 3 or older to Jupyter**, use pip or conda—according
+to which one IPython was installed with—to install the ``jupyter`` package. This
+should install the Jupyter Notebook and upgrade IPython to version 4.
 
 Installing kernels
 ------------------
