@@ -17,6 +17,7 @@ and IPython organizations.
     :maxdepth: 1
 
     install
+    config
     data_science
 
 Applications
