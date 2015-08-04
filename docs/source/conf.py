@@ -296,7 +296,8 @@ intersphinx_mapping = {
     'ipyparallel': ('http://ipyparallel.readthedocs.org/en/latest/', None),
     'notebook': ('http://jupyter-notebook.readthedocs.org/en/latest/', None),
     'jupyter_client': ('http://jupyter-client.readthedocs.org/en/latest/', None),
-    'qtconsole': ('http://jupyter.org/qtconsole/dev/', None)
+    'qtconsole': ('http://jupyter.org/qtconsole/dev/', None),
+    'jupytercore': ('http://jupyter-core.readthedocs.org/en/latest/', None),
 }
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org

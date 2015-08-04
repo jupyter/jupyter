@@ -18,6 +18,7 @@ and IPython organizations.
 
     install
     config
+    system
     data_science
 
 Applications

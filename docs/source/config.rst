@@ -1,18 +1,12 @@
 Configuring Jupyter applications
 ================================
 
-The Jupyter applications have a common config system.
+The Jupyter applications have a common config system, and a common
+:ref:`config directory <config_dir>`. By default, this is ``~/.jupyter``.
 
-.. _config_dir:
-
-The Jupyter config directory
-----------------------------
-
-Config files are stored in :file:`~/.jupyter` by default.
-
-.. envvar:: JUPYTER_CONFIG_DIR
-
-   Set this environment variable to use another location for Jupyter config files.
+If kernels use config files, these will normally be organised separately.
+For instance, the IPython kernel looks for files in the :ref:`IPython directory
+<ipythondir>`.
 
 Python config files
 -------------------
