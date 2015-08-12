@@ -29,6 +29,7 @@ setup_args = dict(
         'jupyter-console',
         'nbconvert',
         'ipykernel',
+        'ipywidgets',
     ],
     url                 = "http://jupyter.org",
     license             = "BSD",
