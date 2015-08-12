@@ -27,9 +27,9 @@ Applications
 The Jupyter Applications provide interactive computing environments across a wide range of programming
 languages for scientific computing, data science and analytics.
 
-- `Jupyter Notebook <http://jupyter-notebook.readthedocs.org/en/latest/>`__: web-based application for authoring documents that combine live-code with narrative text, equations and visulizations.
+- `Jupyter Notebook <http://jupyter-notebook.readthedocs.org/en/latest/>`__: web-based application for authoring documents that combine live-code with narrative text, equations and visualizations.
 - `Jupyter Console <https://github.com/jupyter/jupyter_console>`__: terminal based console for interactive computing.
-- `Jupyter QtConsole <https://github.com/jupyter/qtconsole>`__: Qt application for interactive computing with rich output
+- `Jupyter QtConsole <https://github.com/jupyter/qtconsole>`__: Qt application for interactive computing with rich output.
 
 Kernels
 -------
