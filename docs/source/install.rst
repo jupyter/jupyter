@@ -26,6 +26,13 @@ Jupyter. After you install it, ensure that Jupyter is up to date by running::
 
     conda update jupyter
 
+.. note::
+
+   Jupyter has just been released, and it will be packaged for conda in a few
+   days. In the meantime, all of the Jupyter functionality is included in
+   the latest packaged version of IPython. Make sure that the ``ipython`` and
+   ``ipython-notebook`` packages are installed.
+
 To **upgrade from IPython 3 or older to Jupyter**, use pip or conda—according
 to which one IPython was installed with—to install the ``jupyter`` package. This
 should install the Jupyter Notebook and upgrade IPython to version 4.
