@@ -12,13 +12,8 @@ of the individual projects listed :ref:`here <landing>`.
 Installing the Jupyter Notebook
 -------------------------------
 
-.. note::
-
-   We're still in the process of releasing Jupyter, and these instructions are
-   being prepared for when it is released. In the meantime, we recommend
-   `installing IPython 3 <http://ipython.org/install.html>`_ to use the notebook.
-
-While the Jupyter Notebook allows users to run code in many different programming language, the Notebook itself is implemented in Python.
+While the Jupyter Notebook allows users to run code in many different programming
+language, the Notebook itself is implemented in Python.
 
 **If you already have Python**, you can install the notebook using pip::
 
