@@ -18,3 +18,4 @@ Kernels for data science languages
      - IJulia Kernel (`GitHub Repo <https://github.com/JuliaLang/IJulia.jl>`__)
      - Interactive Widgets (`GitHub Repo <https://github.com/JuliaLang/Interact.jl>`__)
 * Bash (`GitHub Repo <https://github.com/takluyver/bash_kernel>`__)
+* MATLAB (`GitHub Repo <https://github.com/calysto/matlab_kernel>`__)
