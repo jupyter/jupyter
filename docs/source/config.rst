@@ -1,3 +1,5 @@
+.. _jupyter_config:
+
 Configuring Jupyter applications
 ================================
 
