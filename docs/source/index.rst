@@ -44,7 +44,7 @@ a wide range of programming languages.
 Kernels
 -------
 
-Kernels are `programming language specfic` processes that run independently
+Kernels are `programming language specific` processes that run independently
 and interact with the Jupyter Applications and their user interfaces.
 
 `IPython <http://ipython.org>`__ is the reference Jupyter kernel, providing a
