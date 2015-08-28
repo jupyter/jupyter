@@ -16,10 +16,10 @@ Glossary of Jupyter Projects
         lightweight parallel computing in Python offering seamless notebook integration.
 
     `IPython <http://ipython.org>`__
-        the reference Jupyter kernel, providing a powerful environment for
         interactive computing in Python.
 
-    `IPython Kernel <http://ipython.readthedocs.org/en/master/>`__
+    `IPython Kernel <http://ipykernel.readthedocs.org/en/master/>`__
+        the reference Jupyter kernel, providing a powerful environment for
         interactive computing in Python.
 
     `ipywidgets <https://github.com/ipython/ipywidgets>`__
