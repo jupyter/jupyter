@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Jupyter'
+project = 'Jupyter Documentation'
 copyright = '2015, Jupyter Team, https://jupyter.org'
 author = 'The Jupyter Team'
 
