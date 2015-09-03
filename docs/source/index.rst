@@ -18,9 +18,9 @@ Project Jupyter consists of a large number of
     :maxdepth: 1
 
     install
+    running
     subprojects
     config
     system
     data_science
-    glossary
 
