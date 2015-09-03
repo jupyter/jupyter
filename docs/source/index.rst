@@ -12,8 +12,6 @@ and visualizations. By encoding a complete and reproducible record of a
 computation, the documents can be shared with others on GitHub, Dropbox, and
 the `Jupyter Notebook Viewer <https://github.com/jupyter/nbviewer>`__.
 
-Project Jupyter consists of a large number of 
-
 .. toctree::
     :maxdepth: 1
 
