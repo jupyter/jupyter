@@ -6,7 +6,7 @@ Jupyter Documentation
 =====================
 
 The Jupyter Notebook is a web application for interactive data science and
-scientific computing. Using Jupyter Notebook, users can author engaging
+scientific computing. Using the Jupyter Notebook, you can author engaging
 documents that combine live-code with narrative text, equations, images, video,
 and visualizations. By encoding a complete and reproducible record of a
 computation, the documents can be shared with others on GitHub, Dropbox, and

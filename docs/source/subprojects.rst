@@ -5,17 +5,19 @@
 Jupyter subprojects
 ===================
 
-Project Jupyter is developed as a set of subprojects. The following is a topical list of the
-officially supported and maintained subprojects with links to the documentation or GitHub repo of
-each.
+Project Jupyter is developed as a set of subprojects. The following is a topical
+list of the officially supported and maintained subprojects with links to the
+documentation or GitHub repo of each.
 
 
-Jupyter applications
---------------------
 
-The Jupyter Applications create a foundation of interactive computing environments
-where scientific computing, data science, and analytics can be performed using
-a wide range of programming languages.
+Jupyter user interfaces
+-----------------------
+
+The Jupyter user interfaces offer a foundation of interactive computing
+environments where scientific computing, data science, and analytics can be
+performed using a wide range of programming languages.
+
 
 .. glossary::
 
@@ -51,12 +53,13 @@ powerful environment for interactive computing in Python.
 
 .. seealso::
 
-   `Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
-      A full list of kernels available for other languages
+   See the `Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
+      page for a full list of kernels available for other languages. Many of
+      these kernels are developed by third parties and may or may not be stable.
 
 
-Formatting and conversion subprojects
--------------------------------------
+Formatting and conversion
+-------------------------
 
 Notebooks are rich interactive documents that combine live code, narrative text
 (using markdown), visualizations, and other rich media. The following utility
@@ -72,8 +75,8 @@ subprojects allow programmatic format conversion and manipulation of notebook do
         Work with notebook documents programmatically.
 
 
-Education subprojects
----------------------
+Education
+---------
 
 Jupyter Notebooks offer exciting and creative possibilities in education. The
 following subprojects are focused on supporting the use of Jupyter Notebook in
@@ -86,8 +89,8 @@ a variety of educational settings.
         assignments.
 
 
-Deployment subprojects
-----------------------
+Deployment
+----------
 
 To serve a variety of users and use cases, these subprojects are being
 developed to support notebook deployment in various contexts, including
@@ -118,8 +121,8 @@ multiuser capabilities and secure, scalable cloud deployments.
         Stacks of Jupyter applications and kernels as Docker containers.
 
 
-Architecture subprojects
-------------------------
+Architecture
+------------
 
 The following projects are lower level utilities used to build custom
 applications with the Jupyter architecture.
