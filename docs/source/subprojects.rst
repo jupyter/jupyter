@@ -25,12 +25,19 @@ performed using a wide range of programming languages.
     `Jupyter Notebook <http://jupyter-notebook.readthedocs.org/en/latest/>`__
         Web-based application for authoring documents that combine live-code
         with narrative text, equations and visualizations.
+        `Documentation <http://jupyter-notebook.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyter/notebook>`__
 
-    `Jupyter Console <https://github.com/jupyter/jupyter_console>`__
+
+    `Jupyter Console <https://jupyter-console.readthedocs.org/en/latest/>`__
         Terminal based console for interactive computing.
+        `Documentation <https://jupyter-console.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyter/jupyter_console>`__
 
-    `Jupyter QtConsole <https://github.com/jupyter/qtconsole>`__
+    `Jupyter QtConsole <http://jupyter.org/qtconsole/stable/>`__
         Qt application for interactive computing with rich output.
+        `Documentation <http://jupyter.org/qtconsole/stable/>`__ |
+        `Repo <https://github.com/jupyter/qtconsole>`__
 
 
 Kernels
@@ -44,12 +51,18 @@ powerful environment for interactive computing in Python.
 
     `IPython <http://ipython.org>`__
         interactive computing in Python.
+        `Documentation <https://ipython.org/documentation.html>`__ |
+        `Repo <https://github.com/ipython/ipython>`__
 
     `ipywidgets <https://github.com/ipython/ipywidgets>`__
         interactive widgets for Python in the Jupyter Notebook.
+        `Documentation <https://github.com/ipython/ipywidgets>`__ |
+        `Repo <https://github.com/ipython/ipywidgets>`__
 
     `ipyparallel <http://ipyparallel.readthedocs.org/en/latest/>`__
         lightweight parallel computing in Python offering seamless notebook integration.
+        `Documentation <https://ipyparallel.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/ipython/ipyparallel>`__
 
 .. seealso::
 
@@ -70,9 +83,13 @@ subprojects allow programmatic format conversion and manipulation of notebook do
     `nbconvert <http://nbconvert.readthedocs.org/en/latest/>`__
         Convert dynamic notebooks to static formats such as HTML, Markdown,
         LaTeX/PDF, and reStrucuredText.
+        `Documentation <http://nbconvert.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyter/nbconvert>`__
 
     `nbformat <http://nbformat.readthedocs.org/en/latest/>`__
         Work with notebook documents programmatically.
+        `Documentation <https://nbformat.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyter/nbformat>`__
 
 
 Education
@@ -87,6 +104,8 @@ a variety of educational settings.
     `nbgrader <http://nbgrader.readthedocs.org/en/stable/>`__
         tools for managing, grading, and reporting of notebook based
         assignments.
+        `Documentation <http://nbgrader.readthedocs.org/en/stable/>`__ |
+        `Repo <https://github.com/jupyter/nbgrader>`__
 
 
 Deployment
@@ -101,24 +120,38 @@ multiuser capabilities and secure, scalable cloud deployments.
     `jupyterhub <https://github.com/jupyter/jupyterhub>`__
         Multi-user notebook for organizations with plugglable authentication
         and scalability.
+        `Documentation <https://github.com/jupyter/jupyterhub>`__ |
+        `Repo <https://github.com/jupyter/jupyterhub>`__
 
     `jupyter-drive <https://github.com/jupyter/jupyter-drive>`__
         Store notebooks on Google Drive.
+        `Documentation <https://github.com/jupyter/jupyter-drive>`__ |
+        `Repo <https://github.com/jupyter/jupyter-drive>`__
 
-    `nbviewer <https://github.com/jupyter/nbviewer>`__
+    `nbviewer <http://nbviewer.ipython.org/>`__
         Share notebooks as static HTML on the web.
+        `Documentation <https://github.com/jupyter/nbviewer>`__ |
+        `Repo <https://github.com/jupyter/nbviewer>`__
 
     `tmpnb <https://github.com/jupyter/tmpnb>`__
         Create temporary, transient notebooks in the cloud.
+        `Documentation <https://github.com/jupyter/tmpnb>`__ |
+        `Repo <https://github.com/jupyter/tmpnb>`__
 
     `tmpnb-deploy <https://github.com/jupyter/tmpnb-deploy>`__
         Deployment tools for tmpnb.
+        `Documentation <https://github.com/jupyter/tmpnb-deploy>`__ |
+        `Repo <https://github.com/jupyter/tmpnb-deploy>`__
 
     `dockerspawner <https://github.com/jupyter/dockerspawner>`__
         Deploy notebooks for 'jupyterhub' inside Docker containers.
-        
+        `Documentation <https://github.com/jupyter/dockerspawner>`__ |
+        `Repo <https://github.com/jupyter/dockerspawner>`__
+
     `docker-stacks <https://github.com/jupyter/docker-stacks>`__
         Stacks of Jupyter applications and kernels as Docker containers.
+        `Documentation <https://github.com/jupyter/docker-stacks>`__ |
+        `Repo <https://github.com/jupyter/docker-stacks>`__
 
 
 Architecture
@@ -132,8 +165,12 @@ applications with the Jupyter architecture.
     `jupyter_client <http://jupyter-client.readthedocs.org/en/latest/>`__
         The specification of the Jupyter message protocol and a client library
         in Python.
+        `Documentation <http://jupyter-client.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyter/jupyter_client>`__
 
     `jupyter_core <http://jupyter-core.readthedocs.org/en/latest/>`__
         Core functionality and miscellaneous utilities.
+        `Documentation <http://jupyter-core.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyter/jupyter_core>`__
 
 
