@@ -19,6 +19,7 @@ the `Jupyter Notebook Viewer <https://github.com/jupyter/nbviewer>`__.
     running
     subprojects
     config
+    migrating
     system
     data_science
 
