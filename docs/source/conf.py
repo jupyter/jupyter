@@ -291,11 +291,11 @@ intersphinx_mapping = {
     'ipython': ('http://ipython.org/ipython-doc/dev/', None),
     'nbconvert': ('http://nbconvert.readthedocs.org/en/latest/', None),
     'nbformat': ('http://nbformat.readthedocs.org/en/latest/', None),
-    'ipywidgets': ('http://ipywidgets.readthedocs.org/en/latest/', None),
+#    'ipywidgets': ('http://ipywidgets.readthedocs.org/en/latest/', None),  TODO: Enable once ipywidgets is on RTD
     'traitlets': ('http://traitlets.readthedocs.org/en/latest/', None),
     'ipyparallel': ('http://ipyparallel.readthedocs.org/en/latest/', None),
     'notebook': ('http://jupyter-notebook.readthedocs.org/en/latest/', None),
-    'jupyter_client': ('http://jupyter-client.readthedocs.org/en/latest/', None),
+    'jupyterclient': ('http://jupyter-client.readthedocs.org/en/latest/', None),
     'qtconsole': ('http://jupyter.org/qtconsole/dev/', None),
     'jupytercore': ('http://jupyter-core.readthedocs.org/en/latest/', None),
 }
