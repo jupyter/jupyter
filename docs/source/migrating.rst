@@ -2,9 +2,18 @@ Migrating from IPython
 ======================
 
 `The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
-has changed a few things, moving the various language-agnostict
-components of IPython under the Jupyter umbrella. This doc should help
-you find what's changed, and how to keep doing what you've been doing.
+has changed a few things, moving the various language-agnostic
+components of IPython under the Jupyter umbrella. This document
+describes what has changed, and how you may need to modify your code or
+configuration.
+
+The first time you run any jupyter command, it will perform an automatic
+migration of files. This **copies** (not moves, so IPython 3 will be
+unaffected) files to their new homes, You can re-run the migration by
+calling ``jupyter migrate``. This means that you shouldn't need to do
+anything to keep using your custom configuration with Jupyter. What it
+does mean, though, is that when you go to update or modify your
+configuration, the relevant locations may have changed.
 
 Where have all my files gone?
 -----------------------------
@@ -13,15 +22,19 @@ AKA Why isn't my configuration having any effect anymore?
 
 Jupyter splitting out from IPython means that the locations of some
 files have moved, and Jupyter projects have not inherited everything
-from how IPython did it.
-
-The ``jupyter migrate`` command copies several of these files to their
-new homes.
+from how IPython did it. When you start your first jupyter application,
+the relevant configuration files are automatically copied to their new
+Jupyter locations. The configuration files in their IPython locations no
+longer affect Jupyter, so if you edit your existing config file and it
+is not having the desired effect, this is the likely cause—you are
+editing the old location of a file, rather than the file that is
+actually loaded.
 
 Quick reference
 ~~~~~~~~~~~~~~~
 
-A quick reference for common locations of relocated files.
+A quick reference for common locations of relocated files. **These
+should all be automatically copied to their new locations.**
 
 Configuration files
 ^^^^^^^^^^^^^^^^^^^
@@ -42,8 +55,11 @@ Data files
 ^^^^^^^^^^
 
 Data files are things that are installed, but not configuration. This
-includes kernelspecs and notebook extensions. Data files use
-platform-appropriate locations:
+includes kernelspecs and notebook extensions. Like config files above,
+**data files are automatically migrated to their new locations**.
+
+In IPython 3, these data files lived in ``~/.ipython``. In Jupyter, data
+files use platform-appropriate locations:
 
 -  OS X: ``~/Library/Jupyter``
 -  Windows: the ``%APPDATA%`` environment variable is used
@@ -53,7 +69,7 @@ platform-appropriate locations:
 In all cases, ``JUPYTER_DATA_DIR`` can be used to specify this location
 explicitly. Data files installed system-wide (e.g. in
 ``/usr/local/share/jupyter``) have not changed. Per-user installation of
-these has changed from going in .ipython to the above locations:
+these has changed from going in ``.ipython`` to the above locations.
 
 Profiles
 ~~~~~~~~
@@ -91,42 +107,22 @@ effect every time you start a new kernel. The less good thing is that
 there isn't a great way to modify the kernelspecs. You can see where the
 file is with ``jupyter kernelspec list``, and then modify
 ``kernels/python3/kernel.json`` by hand.
+`a2km <https://github.com/minrk/a2km>`__ is an experimental project that
+tries to make these things easier.
 
 Installation
 ------------
 
-I want everything
-~~~~~~~~~~~~~~~~~
-
-In IPython 3, to get everything you would type:
-
-::
-
-    pip install "ipython[all]"
-
-In Jupyter, there is a metapackage that means the same thing:
-
-::
-
-    pip install jupyter
-
-Just the notebook, please
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you wanted a subset of the functionality, say
-
-::
-
-    pip install "ipython[notebook]"
-
-you would now install the ``notebook`` package:
-
-::
-
-    pip install notebook
+See the :ref:`install` page for more information about
+installing Jupyter itself. There are some things that you install *with
+Jupyter*, which are a kind of data files, described above. Jupyter
+automatically migrates these
 
 Notebook extensions
 ~~~~~~~~~~~~~~~~~~~
+
+Any IPython notebook extensions should be automatically migrated as part
+of the data-files migration above.
 
 Notebook extensions used to be installed with
 
@@ -148,10 +144,10 @@ be done by manually guessing where the files should go.
 Kernels
 ~~~~~~~
 
-Kernels are installed in much the same way as notebook extensions,
-above:
+Kernels are installed in much the same way as notebook extensions above,
+and also like notebook extensions, they will be automatically migrated.
 
-Notebook extensions used to be installed with
+Kernel specs used to be installed with
 
 ::
 
@@ -180,9 +176,9 @@ Some changed imports:
 
 -  ``IPython.html`` → ``notebook``
 -  ``IPython.html.widgets`` → ``ipywidgets``
--  ``IPython.kernel`` → ``jupyter_client``, ``ipykernel`` (this became
-   two packages - one for the client-side APIs, one for the IPython
-   kernel for Jupyter)
+-  ``IPython.kernel`` → ``jupyter_client``, ``ipykernel``
+   (``IPython.kernel`` became two packages - one for the client-side
+   APIs, one for the IPython kernel for Jupyter)
 -  ``IPython.parallel`` → ``ipyparallel``
 -  ``IPython.qt.console`` → ``qtconsole``
 -  ``IPython.utils.traitlets`` → ``traitlets``
