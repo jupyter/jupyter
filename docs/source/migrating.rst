@@ -5,7 +5,7 @@
 Migrating from IPython
 ======================
 
-`The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
+`The Big Split <http://blog.jupyter.org/2015/04/15/the-big-split/>`__
 has changed a few things, moving the various language-agnostic
 components of IPython under the Jupyter umbrella. This document
 describes what has changed, and how you may need to modify your code or
