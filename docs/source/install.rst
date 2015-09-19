@@ -121,7 +121,8 @@ upgrade using::
 If the older version of the IPython Notebook was installed using `conda` or Anaconda,
 upgrade using::
 
-    conda update jupyter
+    conda update ipython
+    conda install jupyter
 
 
 The :ref:`Migrating from IPython <migrating>` document gives additional information
