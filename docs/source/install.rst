@@ -121,7 +121,6 @@ upgrade using::
 If the older version of the IPython Notebook was installed using `conda` or Anaconda,
 upgrade using::
 
-    conda update ipython
     conda install jupyter
 
 
