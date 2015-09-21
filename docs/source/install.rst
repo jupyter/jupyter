@@ -12,8 +12,6 @@ Jupyter requires Python 2.7 or ≥ 3.3.
     If you need to use Python 2.6 or 3.2, you can find IPython 1.2
     `here <http://archive.ipython.org/release/>`__.
 
-This document will get you up and running with the Jupyter Notebook.
-
 These installation instructions explain how to install the Jupyter Notebook and
 the IPython kernel.
 
@@ -25,8 +23,8 @@ the IPython kernel.
     document.
 
 
-How to Install Jupyter Notebook
--------------------------------
+Quickstart
+----------
 
 While the Jupyter Notebook allows users to run code in many different
 programming languages, the Jupyter Notebook itself is implemented in Python.
@@ -35,9 +33,9 @@ To install Jupyter Notebook, you will also need Python installed on your system.
 
 **Installation Scenarios**
 
-* :ref:`New to Python and Jupyter <new-to-python-and-jupyter>`
-* :ref:`Existing Python user and new to Jupyter <existing-python-new-jupyter>`
-* :ref:`Existing IPython Notebook user upgrading to Jupyter <existing-upgrading>`
+* :ref:`New Users - New to Python and Jupyter <new-to-python-and-jupyter>`
+* :ref:`Experienced Python user - New to Jupyter <existing-python-new-jupyter>`
+* :ref:`Upgrading Jupyter <upgrading>`
 
 
 .. note::
@@ -47,8 +45,8 @@ To install Jupyter Notebook, you will also need Python installed on your system.
 
 .. _new-to-python-and-jupyter:
 
-If you are new to Python and Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New Users - New to Python and Jupyter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you're new to Python, we highly recommend installing `Anaconda
 <http://continuum.io/downloads>`_. Anaconda includes and conveniently
@@ -72,8 +70,8 @@ and :ref:`next steps <next-steps>` such as running the Jupyter Notebook.
 
 .. _existing-python-new-jupyter:
 
-If you are an existing Python user but new to Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Experienced Python user - New to Jupyter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As an existing Python user, you may have installed Python from the Python website,
 a system package manager, or using Anaconda. The command for installing Jupyter
@@ -84,12 +82,11 @@ Jupyter on your system.
 
 .. _existing-anaconda-new-jupyter:
 
-If you use Python with Anaconda
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Anaconda and conda users
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you have Anaconda installed but have not yet installed or used Jupyter, you
-should run the following command in the Terminal (Mac/Linux) or Command
-Prompt (Windows) to install Jupyter::
+If you have Anaconda installed, run the following command in the Terminal
+(Mac/Linux) or CommandPrompt (Windows) to install Jupyter::
 
     conda install jupyter
 
@@ -97,10 +94,10 @@ Now, you may consider :ref:`installing kernels <installing-kernels>` and
 :ref:`next steps <next-steps>`.
 
 
-.. _python-not-using-Anaconda:
+.. _python-using-pip:
 
-If you use Python but do not use Anaconda
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pip users
+^^^^^^^^^
 
 If you already have Python installed and are **not** using `conda` or Anaconda,
 you may install the Jupyter Notebook using Python's package manager `pip`::
@@ -130,28 +127,28 @@ Now, you may consider :ref:`installing kernels <installing-kernels>` and
 :ref:`next steps <next-steps>`.
 
 
-.. _existing-upgrading:
+.. _upgrading:
 
-Existing IPython Notebook users upgrading to Jupyter Notebook
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Upgrading to Jupyter - Experienced Users
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Jupyter Notebook used to be called the IPython Notebook. If you are running
 an older version of the IPython Notebook (version 3 or earlier) you can use the
 following to upgrade to the latest version of the Jupyter Notebook.
 
-If the older version of the IPython Notebook was installed using `pip`,
-upgrade using::
+**If using 'pip'**::
 
     pip install -U jupyter
 
-If the older version of the IPython Notebook was installed using `conda` or Anaconda,
-upgrade using::
+OR
 
-    conda install jupyter
+**If using Anaconda or `conda`**::
 
+    conda update jupyter
 
-The :ref:`Migrating from IPython <migrating>` document gives additional information
-about migrating from IPython 3 to Jupyter.
+.. seealso::
+
+    The :ref:`Migrating from IPython <migrating>` document has additional
+    information about migrating from IPython 3 to Jupyter.
 
 
 .. _installing-kernels:
@@ -175,5 +172,3 @@ Next steps
 
 Congratulations. You have installed Jupyter Notebook and are ready to
 :ref:`run the notebook <running>`.
-
-

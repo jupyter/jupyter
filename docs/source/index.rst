@@ -30,7 +30,7 @@ development of Jupyter as well as technical details helpful for development.
     :maxdepth: 2
     :caption: User Documentation
 
-    quickstart
+    tryjupyter
     install
     running
     migrating
