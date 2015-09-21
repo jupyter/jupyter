@@ -4,70 +4,63 @@
 Quickstart
 ==========
 
-Try Jupyter without Installing
+Try Jupyter
+-----------
+Would you like to try Jupyter in your web browser?
+
+Go to https://try.jupyter.org. No installation is needed.
+
+
+Quickstart - New Users
 ------------------------------
-Would you like to try Jupyter in your web browser? You may try out the current
-version of Jupyter Notebook in your browser.
-
-**Try Jupyter Notebook**
-https://try.jupyter.org
-
-
-Installing Jupyter for New Users
---------------------------------
-If you are new to Jupyter, we highly recommend reading and using our detailed
+If you are new to Jupyter, please use our detailed
 :ref:`installation guide <install>`.
 
+Quickstart - Experienced Users
+------------------------------
 
-Quickstart for Experienced Users
---------------------------------
+Installing Jupyter - Experienced Users
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Jupyter and Anaconda
-~~~~~~~~~~~~~~~~~~~~
+1. Make sure that you have Python installed (versions 2.7 or >=3.3).
 
-1. Install `Anaconda <http://continuum.io/downloads>`_ following Anaconda's
-   instructions.
+2. Run one of the following command in the Terminal (Mac/Linux) or Command
+   Prompt (Windows).
 
-2. Run the following command in the Terminal (Mac/Linux) or Command
-   Prompt (Windows)::
-
-    conda install jupyter
-
-3. Start Jupyter::
-
-    jupyter notebook
-
-
-Jupyter and Python's pip
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-1. If you already have Python installed and are **not** using `conda` or Anaconda,
-   install the Jupyter Notebook using Python's package manager `pip`::
+**If using 'pip'**::
 
     pip install jupyter
 
-3. Start Jupyter::
+OR
+
+
+**If using Anaconda or 'conda'**::
+
+    conda install jupyter
+
+3. Start Jupyter Notebook::
 
     jupyter notebook
 
+.. seealso::
 
-Existing IPython Notebook users upgrading to Jupyter Notebook
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    :ref:`Installation guide <install>`
 
-If the older version of the IPython Notebook was installed using `pip`,
-upgrade using::
+
+Upgrading to Jupyter - Experienced Users
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**If using 'pip'**::
 
     pip install -U jupyter
 
-If the older version of the IPython Notebook was installed using `conda` or
-Anaconda, upgrade using::
+OR
+
+**If using Anaconda or `conda`**::
 
     conda update jupyter
 
-The :ref:`Migrating from IPython <migrating>` document gives additional
-information about migrating from IPython 3 to Jupyter.
+.. seealso::
 
-
-Start Jupyter::
-
-    jupyter notebook
+    The :ref:`Migrating from IPython <migrating>` document has additional
+    information about migrating from IPython 3 to Jupyter.
