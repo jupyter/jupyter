@@ -105,7 +105,26 @@ If you use Python but do not use Anaconda
 If you already have Python installed and are **not** using `conda` or Anaconda,
 you may install the Jupyter Notebook using Python's package manager `pip`::
 
-    pip install jupyter
+    pip3 install jupyter
+
+(*Use ``pip`` instead of ``pip3`` for legacy Python 2*)
+
+.. note::
+
+    Some of Jupyter's dependencies may require compilation,
+    in which case you would need the ability to compile Python C-extensions.
+    This means a C compiler and the Python headers.
+    On Debian-based systems (e.g. Ubuntu), you can get this with::
+
+        apt-get install build-essential python3-dev
+
+    And on Fedora-based systems (e.g. Red Hat, CentOS)::
+
+        yum groupinstall 'Development Tools'
+        yum install python3-devel
+    
+    (Use ``python`` instead of ``python3`` for legacy Python 2)
+
 
 Now, you may consider :ref:`installing kernels <installing-kernels>` and
 :ref:`next steps <next-steps>`.
