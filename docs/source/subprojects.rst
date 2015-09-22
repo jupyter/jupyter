@@ -51,7 +51,7 @@ powerful environment for interactive computing in Python.
 
     `IPython <http://ipython.org>`__
         interactive computing in Python.
-        `Documentation <http://ipython.org/documentation.html>`__ |
+        `Documentation <https://ipython.org/documentation.html>`__ |
         `Repo <https://github.com/ipython/ipython>`__
 
     `ipywidgets <https://github.com/ipython/ipywidgets>`__
