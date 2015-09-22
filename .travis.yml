@@ -1,0 +1,8 @@
+language: python
+sudo: false
+python:
+    - 3.4
+install:
+    - pip install --upgrade sphinx
+script:
+    - cd docs && make html && make linkcheck
