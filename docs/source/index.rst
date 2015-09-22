@@ -6,22 +6,22 @@ Jupyter Documentation
 =====================
 
 The Jupyter Notebook is a web application for interactive data science and
-scientific computing. Using the Jupyter Notebook, you can author engaging
+scientific computing.
+
+Using the Jupyter Notebook, you can author engaging
 documents that combine live-code with narrative text, equations, images, video,
 and visualizations. By encoding a complete and reproducible record of a
 computation, the documents can be shared with others on GitHub, Dropbox, and
-the `Jupyter Notebook Viewer <https://github.com/jupyter/nbviewer>`__.
+the `Jupyter Notebook Viewer <http://nbviewer.ipython.org/>`__.
 
+The main documentation for Jupyter users is organized into several sections:
 
-The main documentation for Jupyter is organized into several sections:
+  :ref:`User Documentation<user-docs>` |
+  :ref:`Jupyter Subprojects<jupyter-subprojects>` |
+  :ref:`About Jupyter<about-docs>`
 
-* :ref:`user-docs`
-* :ref:`jupyter-subprojects`
-* :ref:`about-docs`
-
-Information about development is also available:
-
-* :ref:`dev-docs`
+:ref:`Developer Documentation<dev-docs>` covers how to help with the
+development of Jupyter as well as technical details helpful for development.
 
 
 .. _user-docs:
@@ -52,6 +52,7 @@ Information about development is also available:
    :caption: Developer Documentation
 
    system
+   contrib_guide_docs
 
 
 .. _about-docs:
