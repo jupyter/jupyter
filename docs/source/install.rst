@@ -61,7 +61,7 @@ After you have Anaconda installed, you should make sure that Jupyter is up to
 date. Run the following command in the Terminal (Mac/Linux) or Command
 Prompt (Windows)::
 
-    conda update jupyter
+    conda install jupyter
 
 Alternatively, you may also use the Anaconda Launcher application to update to
 the latest version.
