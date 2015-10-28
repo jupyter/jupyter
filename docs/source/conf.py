@@ -288,7 +288,7 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 intersphinx_mapping = {
-    'ipython': ('http://ipython.org/ipython-doc/dev/', None),
+    'ipython': ('http://ipython.readthedocs.org/en/latest/', None),
     'nbconvert': ('http://nbconvert.readthedocs.org/en/latest/', None),
     'nbformat': ('http://nbformat.readthedocs.org/en/latest/', None),
 #    'ipywidgets': ('http://ipywidgets.readthedocs.org/en/latest/', None),  TODO: Enable once ipywidgets is on RTD
