@@ -11,7 +11,7 @@ or Command Prompt (Windows)::
 
     jupyter notebook
 
-This should result in the Notebok web application opening in your default
+This should result in the Notebook web application opening in your default
 web browser.
 
 
