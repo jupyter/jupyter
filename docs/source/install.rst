@@ -23,8 +23,8 @@ the IPython kernel.
     document.
 
 
-Quickstart
-----------
+How to install Jupyter Notebook
+-------------------------------
 
 While the Jupyter Notebook allows users to run code in many different
 programming languages, the Jupyter Notebook itself is implemented in Python.
@@ -33,8 +33,8 @@ To install Jupyter Notebook, you will also need Python installed on your system.
 
 **Installation Scenarios**
 
-* :ref:`New Users - New to Python and Jupyter <new-to-python-and-jupyter>`
-* :ref:`Experienced Python user - New to Jupyter <existing-python-new-jupyter>`
+* :ref:`New Users: New to Python and Jupyter <new-to-python-and-jupyter>`
+* :ref:`Experienced Python user: New to Jupyter <existing-python-new-jupyter>`
 * :ref:`Upgrading Jupyter <upgrading>`
 
 
@@ -45,8 +45,8 @@ To install Jupyter Notebook, you will also need Python installed on your system.
 
 .. _new-to-python-and-jupyter:
 
-New Users - New to Python and Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New Users: New to Python and Jupyter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you're new to Python, we highly recommend installing `Anaconda
 <http://continuum.io/downloads>`_. Anaconda includes and conveniently
@@ -70,8 +70,8 @@ and :ref:`next steps <next-steps>` such as running the Jupyter Notebook.
 
 .. _existing-python-new-jupyter:
 
-Experienced Python user - New to Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Experienced Python user: New to Jupyter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As an existing Python user, you may have installed Python from the Python website,
 a system package manager, or using Anaconda. The command for installing Jupyter
@@ -129,8 +129,8 @@ Now, you may consider :ref:`installing kernels <installing-kernels>` and
 
 .. _upgrading:
 
-Upgrading to Jupyter - Experienced Users
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upgrading to Jupyter: Experienced Users
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Jupyter Notebook used to be called the IPython Notebook. If you are running
 an older version of the IPython Notebook (version 3 or earlier) you can use the
 following to upgrade to the latest version of the Jupyter Notebook.

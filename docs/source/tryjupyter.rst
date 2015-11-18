@@ -13,4 +13,4 @@ Ready to install Jupyter?
 -------------------------
 If you have tried Jupyter and like it, please use our detailed
 :ref:`installation guide <install>` to install it in your
-environment.
+computer.
