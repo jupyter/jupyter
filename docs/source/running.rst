@@ -9,7 +9,7 @@ After you have installed the Jupyter Notebook on your computer, you are ready to
 run the Notebook. To do this, run the following command in the Terminal (Mac/Linux)
 or Command Prompt (Windows)::
 
-    jupyter notebook
+    jupyter-notebook
 
 This should result in the Notebook web application opening in your default
 web browser.
