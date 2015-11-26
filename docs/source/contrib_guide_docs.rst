@@ -1,3 +1,48 @@
+========================================
+Submitting a Bug or Enhancement Request
+========================================
+While using the Notebook, you might experience a bug or discover room for a 
+potential enhancement. If so, we encourage you to open issues on Github.
+To make the navigating issues eaasier for both developers and users, we ask
+that you take the following steps before submitting an issue.
+
+1. Search through StackOverflow and existing Github issues to ensure that 
+the issue has not already been reported by another user. If so, provide
+your input on the existing issue if you think it would be valuable.
+
+2. Prepare a small, self-contained snippet of code that will allow others
+to reproduce the issue that you are experiencing.
+
+3. Prepare information about the environment that you are executing the code
+in, in order to aid in the debugging of the issue. You can use ``python 
+-c "import IPython; print(IPython.sys_info())"`` to get some initial
+information about the environment. You can also use ``pip list`` or 
+``conda list`` and ``grep`` in order to identify the versions of the
+libraries that are relevant to the issue that you are submitting.
+
+4. Prepare a simple test that outlines the expected behavior of the code.
+
+5. Prepare an explanation of why the current behavior is not desired and 
+what it should be.
+
+
+==================================
+Contributing to the Python Backend
+==================================
+
+How can I help?
+---------------
+Individuals are welcome, and encourage, to submit issues, enhancements, and
+new idea to the codebase. If you are a first-time contributor looking to get
+involved with Jupyter, you can use the following query in a Github search to
+find beginner-friendly issues to tackle across the Jupyter codebase.
+
+**is:issue is:open is:sprint-friendly user:jupyter**
+
+Once you've found an issue that you are eager to solve, you can use the guide
+below to get started. If you experience any issues while working on the issue,
+you can contact the mailing list or the approrpiate Gitter channel.
+
 =================================
 Contributing to the Documentation
 =================================
