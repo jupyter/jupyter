@@ -12,7 +12,7 @@ Jupyter requires Python 2.7 or ≥ 3.3.
     If you need to use Python 2.6 or 3.2, you can find IPython 1.2
     `here <http://archive.ipython.org/release/>`__.
 
-This document will get you up and running with the the Jupyter Notebook.
+This document will get you up and running with the Jupyter Notebook.
 
 These installation instructions explain how to install the Jupyter Notebook and
 the IPython kernel.
