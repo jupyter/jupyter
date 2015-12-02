@@ -27,7 +27,7 @@ what it should be.
 
 
 ==================================
-Contributing to the Python Backend
+Contributing to the Code
 ==================================
 
 How can I help?
@@ -165,9 +165,9 @@ the ``docs` directory:
 
 Create a pull request
 ~~~~~~~~~~~~~~~~~~~~~
-Once you are satisfied with your changes, submit a GitHub pull request. If the
-documentation change is related to an open GitHub issue, please mention the
-issue number in the pull request message.
+Once you are satisfied with your changes, submit a GitHub pull request, per 
+the instructions above. If the documentation change is related to an open 
+GitHub issue, please mention the issue number in the pull request message.
 
 A project reviewer will look over your changes and provide feedback or merge
 your changes into the documentation.
@@ -177,4 +177,14 @@ Questions
 Feel free to ask questions in the Google Group for Jupyter or on an open issue
 on GitHub.
 
+=========================
+Git and Github Resources
+=========================
+
+If this is your first time working with Github or git, you can leverage the following
+resources to learn about the tools.
+
+* `Try Git  <https://try.github.io>`_
+* `Github Guides  <https://guides.github.com>`_
+* `Git Real  <https://www.codeschool.com/courses/git-real>`_
 
