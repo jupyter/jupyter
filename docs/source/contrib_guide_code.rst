@@ -13,7 +13,7 @@ find beginner-friendly issues to tackle across the Jupyter codebase.
 
 Once you've found an issue that you are eager to solve, you can use the guide
 below to get started. If you experience any issues while working on the issue,
-you can contact the mailing list or the approrpiate Gitter channel.
+you can contact the mailing list or the appropriate Gitter channel.
 
 1. Fork the repository associated with the issue you are addressing and clone
 it to a local directory on your machine.
