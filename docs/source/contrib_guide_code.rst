@@ -74,3 +74,7 @@ and you will have the chance to edit your code and apply fixes.
 
 11. Once your PR is perfected, it will be merged into the master branch of the main
 repository and you can celebrate!
+
+Contribution Workflow
+----------------------
+.. image:: http://i.imgur.com/J0Q5H7s.png
