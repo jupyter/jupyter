@@ -5,8 +5,8 @@ Contributing to the Code
 How can I help?
 ---------------
 Individuals are welcome, and encouraged, to submit issues, enhancements, and
-new idea to the codebase. If you are a first-time contributor looking to get
-involved with Jupyter, you can use the following query in a Github search to
+new ideas to the codebase. If you are a first-time contributor looking to get
+involved with Jupyter, you can use the following query in a GitHub search to
 find beginner-friendly issues to tackle across the Jupyter codebase.
 
 **is:issue is:open is:sprint-friendly user:jupyter**
@@ -56,7 +56,7 @@ make the updates necessary to have them pass.
 
 8. Once all of your test cases have passed, commit both the test cases and the
 updated module and push the updates to the branch on your forked repository. Once
-you have done this, you can go back to your forked repository on Github. You'll
+you have done this, you can go back to your forked repository on GitHub. You'll
 notice a bar at the top that will allow you to submit a pull request based on
 the branch that you have just pushed.
 
@@ -68,7 +68,7 @@ the issue number of the issue that you are addressing in this PR.
 
 10. After you have submitted a pull request, a project reviewer will review your
 code for quality. You can expect the reviewer to check for the documentation
-provided in the changes you made, how thorougb the test cases you provided are,
+provided in the changes you made, how thorough the test cases you provided are,
 and how efficient your code is. Your reviewer will provide feedback on your code
 and you will have the chance to edit your code and apply fixes.
 
