@@ -82,4 +82,5 @@ resources to learn about the tools.
 * `Try Git  <https://try.github.io>`_
 * `Github Guides  <https://guides.github.com>`_
 * `Git Real  <https://www.codeschool.com/courses/git-real>`_
+* `Git Documentation <https://git-scm.com/documentation>`_
 
