@@ -29,10 +29,9 @@ what it should be.
 ==================================
 Submitting an Enhancement Proposal
 ==================================
-In addition to experiencing bugs (yikes!) while using the Notebook, you
-might discover opportunities for growth and ideas for useful new features.
-If so, feel free to submit an enhancement proposal. The process for submitting
-enhancements is as follows:
+While using the Notebook, you might discover opportunities for growth and ideas
+for useful new features. If so, feel free to submit an enhancement proposal. 
+The process for submitting enhancements is as follows:
 
 1. Identify the scope of the enhancement. Is it a change that affects only on
 part of the codebase? Is the enhancement, to the best of your knowledge, fairly
