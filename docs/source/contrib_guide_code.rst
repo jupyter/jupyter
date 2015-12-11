@@ -22,9 +22,13 @@ How can I help?
 Individuals are welcome, and encouraged, to submit pull requests and contribute
 to the Jupyter source. If you are a first-time contributor looking to get
 involved with Jupyter, you can use the following query in a GitHub search to
-find beginner-friendly issues to tackle across the Jupyter codebase.
+find beginner-friendly issues to tackle across the Jupyter codebase. This query
+is particularly useful because the Jupyter codebase is scattered across several
+repositories within the jupyter organization, as opposed to a single repository.
+You can click the link below to find sprint-friendly issues.
 
-**is:issue is:open is:sprint-friendly user:jupyter**
+`**is:issue is:open is:sprint-friendly user:jupyter** 
+<https://github.com/search?utf8=✓&q=is%3Aissue+is%3Aopen+is%3Asprint-friendly+user%3Ajupyter&type=Issues&ref=searchresults>`_
 
 Once you've found an issue that you are eager to solve, you can use the guide
 below to get started. If you experience any problems while working on the issue,
