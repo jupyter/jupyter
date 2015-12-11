@@ -62,9 +62,9 @@ the issue number of the issue that you are addressing in this PR.
 6. Run the test suite locally in order to ensure that everything is properly
 configured on your system. Refer to the repository's README for information
 on how to run the test suite. This will typically require that you run the
-``noetests`` 
+``noetests`` command on the commandline.
 
-4. Find the test file associated with the module that you will be changing. 
+7. Find the test file associated with the module that you will be changing. 
 In the test file, add some tests that outline what you expect the behavior 
 of the change should be. If we continue with our example of updating the 
 text that is logged on error, we might write test cases that check to see 
@@ -82,24 +82,24 @@ If you need assistance writing test cases, you can place a comment on the
 pull request that was opened earlier and one of the core team members will
 be able to help you.
 
-6. Go back to the file that you are updating and begin adding the code for your
+8. Go back to the file that you are updating and begin adding the code for your
 pull request.
 
-7. Run the test suite again to see if your changes have caused any of the test
+9. Run the test suite again to see if your changes have caused any of the test
 cases to pass. If any of the test cases have failed, go back to your code and 
 make the updates necessary to have them pass.
 
-8. Once all of your test cases have passed, commit both the test cases and the
+10. Once all of your test cases have passed, commit both the test cases and the
 updated module and push the updates to the branch on your forked repository.
 
-10. Once you are ready for your pull request to be reviewed, remove the [WIP] tag 
+11. Once you are ready for your pull request to be reviewed, remove the [WIP] tag 
 from the front of isse, a project reviewer will review your code for quality. 
 You can expect the reviewer to check for the documentation provided in the changes 
 you made, how thorough the test cases you provided are, and how efficient your 
 code is. Your reviewer will provide feedback on your code and you will 
 have the chance to edit your code and apply fixes.
 
-11. Once your PR is ready to become a part of the code base, it will be merged
+12. Once your PR is ready to become a part of the code base, it will be merged
 by a member of the core team.
 
 Contribution Workflow
