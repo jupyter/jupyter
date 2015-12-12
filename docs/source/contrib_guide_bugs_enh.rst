@@ -14,11 +14,12 @@ your input on the existing issue if you think it would be valuable.
 to reproduce the issue that you are experiencing.
 
 3. Prepare information about the environment that you are executing the code
-in, in order to aid in the debugging of the issue. You can use ``python 
--c "import IPython; print(IPython.sys_info())"`` to get some initial
-information about the environment. You can also use ``pip list`` or 
-``conda list`` and ``grep`` in order to identify the versions of the
-libraries that are relevant to the issue that you are submitting.
+in, in order to aid in the debugging of the issue. You will need to provide
+information about the Python version, Jupyter version, operating system,
+and browser that you are using when submitting bugs. You can also use 
+``pip list`` or  ``conda list`` and ``grep`` in order to identify the 
+versions of the libraries that are relevant to the issue that you are
+submitting.
 
 4. Prepare a simple test that outlines the expected behavior of the code
 or a description of the what the expected behavior should be.
