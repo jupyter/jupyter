@@ -44,8 +44,7 @@ what the issue you are fixing is. For example, if you are updating the text
 that is logged out by the program when a certain error happens you might 
 name your branch `update-error-text`.
 
-3. Reference the README of the repository you have forked and cloned for
-information about how to set up the repository in development mode.
+3. Refer to the repository's README and documentation for details on configuring your system for development.
 
 4. Identify the module or class where the code change you will make will
 reside and leave a comment in the file describing what issue you are trying
