@@ -62,7 +62,7 @@ the issue number of the issue that you are addressing in this PR.
 6. Run the test suite locally in order to ensure that everything is properly
 configured on your system. Refer to the repository's README for information
 on how to run the test suite. This will typically require that you run the
-``noetests`` command on the commandline.
+``nosetests`` command on the commandline.
 
 7. Find the test file associated with the module that you will be changing. 
 In the test file, add some tests that outline what you expect the behavior 
@@ -93,7 +93,7 @@ make the updates necessary to have them pass.
 updated module and push the updates to the branch on your forked repository.
 
 11. Once you are ready for your pull request to be reviewed, remove the [WIP] tag 
-from the front of isse, a project reviewer will review your code for quality. 
+from the front of issue, a project reviewer will review your code for quality. 
 You can expect the reviewer to check for the documentation provided in the changes 
 you made, how thorough the test cases you provided are, and how efficient your 
 code is. Your reviewer will provide feedback on your code and you will 
