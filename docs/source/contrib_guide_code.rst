@@ -103,4 +103,4 @@ by a member of the core team.
 
 Contribution Workflow
 ----------------------
-.. image:: http://i.imgur.com/J0Q5H7s.png
+.. image:: _images/contribution_workflow.png
