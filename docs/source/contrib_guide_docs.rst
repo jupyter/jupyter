@@ -47,7 +47,7 @@ we recommend that you install the stable development version Sphinx
 current released version of Sphinx (``pip install sphinx``).
 
 The following commands should be executed using the Terminal/command line from
-the ``docs` directory:
+the ``docs`` directory:
 
 * ``make html`` builds a local html version of the documentation. The output
   message will either display errors or provide the location of the html documents.
@@ -83,4 +83,5 @@ resources to learn about the tools.
 * `Github Guides  <https://guides.github.com>`_
 * `Git Real  <https://www.codeschool.com/courses/git-real>`_
 * `Git Documentation <https://git-scm.com/documentation>`_
+* `Git Rebase <https://github.com/pydata/pandas/wiki/Git-Workflows#git-rebase>`_
 
