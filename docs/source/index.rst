@@ -53,8 +53,9 @@ development of Jupyter as well as technical details helpful for development.
    :caption: Developer Documentation
 
    system
+   contrib_guide_bugs_enh
    contrib_guide_docs
-
+   contrib_guide_code
 
 .. _about-docs:
 
