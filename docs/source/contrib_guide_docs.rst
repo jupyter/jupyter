@@ -83,5 +83,5 @@ resources to learn about the tools.
 * `Github Guides  <https://guides.github.com>`_
 * `Git Real  <https://www.codeschool.com/courses/git-real>`_
 * `Git Documentation <https://git-scm.com/documentation>`_
-* `Git Rebase <https://github.com/pydata/pandas/wiki/Git-Workflows#git-rebase>`_
+* `Git Rebase <https://github.com/pydata/pandas/wiki/Git-Workflows#user-content-git-rebase>`_
 
