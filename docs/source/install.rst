@@ -49,7 +49,7 @@ New Users: New to Python and Jupyter
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you're new to Python, we highly recommend installing `Anaconda
-<http://continuum.io/downloads>`_. Anaconda includes and conveniently
+<https://www.continuum.io/downloads>`_. Anaconda includes and conveniently
 installs Python, the Jupyter Notebook, and other commonly used packages for
 scientific computing and data science. Follow Anaconda's instructions for
 downloading the Python 3.4 version. You may need to click on the "I want
