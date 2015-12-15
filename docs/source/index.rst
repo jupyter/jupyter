@@ -8,6 +8,15 @@ Jupyter Documentation
 The Jupyter Notebook is a web application for interactive data science and
 scientific computing.
 
+.. sidebar:: What's New in Jupyter Notebook
+   :subtitle: `Beta Release 4.1.0b1 Changelog <https://jupyter-notebook.readthedocs.org/en/latest/changelog.html#id1>`_
+
+   - Cell toolbar selector moved to View menu
+   - Restart & Run All Cells added to Kernel menu
+   - Multiple-cell selection and actions including cut, copy, paste and execute
+   - Command palette added for executing Jupyter actions
+   - Find and replace added to Edit menu
+
 Using the Jupyter Notebook, you can author engaging
 documents that combine live-code with narrative text, equations, images, video,
 and visualizations. By encoding a complete and reproducible record of a
