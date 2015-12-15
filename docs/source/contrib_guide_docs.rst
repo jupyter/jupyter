@@ -72,9 +72,9 @@ Questions
 Feel free to ask questions in the Google Group for Jupyter or on an open issue
 on GitHub.
 
-=========================
+========================
 Git and Github Resources
-=========================
+========================
 
 If this is your first time working with Github or git, you can leverage the following
 resources to learn about the tools.
