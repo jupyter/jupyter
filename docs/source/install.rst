@@ -5,15 +5,16 @@
 Installation
 ============
 
-Jupyter requires Python 2.7 or ≥ 3.3.
-
-.. note::
-
-    If you need to use Python 2.6 or 3.2, you can find IPython 1.2
-    `here <http://archive.ipython.org/release/>`__.
-
 These installation instructions explain how to install the Jupyter Notebook and
 the IPython kernel.
+
+.. important::
+
+    **Jupyter installation requires Python 3.3 or greater or Python 2.7.**
+
+    If you need to use Python 2.6 or 3.2, you may install
+    `IPython 1.2 <http://archive.ipython.org/release/1.2.0/>`_.
+    Older releases of IPython are available `here <http://archive.ipython.org/release/>`__.
 
 .. seealso::
 
@@ -119,7 +120,7 @@ you may install the Jupyter Notebook using Python's package manager `pip`::
 
         yum groupinstall 'Development Tools'
         yum install python3-devel
-    
+
     (Use ``python`` instead of ``python3`` for legacy Python 2)
 
 
