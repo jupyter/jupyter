@@ -118,7 +118,7 @@ multiuser capabilities and secure, scalable cloud deployments.
 .. glossary::
 
     `jupyterhub <https://github.com/jupyter/jupyterhub>`__
-        Multi-user notebook for organizations with plugglable authentication
+        Multi-user notebook for organizations with pluggable authentication
         and scalability.
         `Documentation <https://github.com/jupyter/jupyterhub>`__ |
         `Repo <https://github.com/jupyter/jupyterhub>`__
