@@ -54,9 +54,9 @@ powerful environment for interactive computing in Python.
         `Documentation <https://ipython.org/documentation.html>`__ |
         `Repo <https://github.com/ipython/ipython>`__
 
-    `ipywidgets <https://github.com/ipython/ipywidgets>`__
+    `ipywidgets <http://ipywidgets.readthedocs.org/>`__
         interactive widgets for Python in the Jupyter Notebook.
-        `Documentation <https://github.com/ipython/ipywidgets>`__ |
+        `Documentation <http://ipywidgets.readthedocs.org/>`__ |
         `Repo <https://github.com/ipython/ipywidgets>`__
 
     `ipyparallel <http://ipyparallel.readthedocs.org/en/latest/>`__
@@ -172,5 +172,3 @@ applications with the Jupyter architecture.
         Core functionality and miscellaneous utilities.
         `Documentation <http://jupyter-core.readthedocs.org/en/latest/>`__ |
         `Repo <https://github.com/jupyter/jupyter_core>`__
-
-
