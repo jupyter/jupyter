@@ -9,7 +9,7 @@ The Jupyter Notebook is a web application for interactive data science and
 scientific computing.
 
 .. sidebar:: What's New in Jupyter Notebook
-   **Release candidate 4.1.0rc1**
+   **Release 4.1** `Announcement <https://blog.jupyter.org/2016/01/08/notebook-4-1-release/>`_
 
    - Cell toolbar selector moved to View menu
    - Restart & Run All Cells added to Kernel menu
@@ -17,8 +17,10 @@ scientific computing.
    - Command palette added for executing Jupyter actions
    - Find and replace added to Edit menu
 
-   To install release candidate:
-   ``python -m pip install notebook --pre --upgrade``
+   To upgrade to the release:
+   ``pip install notebook --upgrade``
+   or
+   ``conda upgrade notebook``
 
 Using the Jupyter Notebook, you can author engaging
 documents that combine live-code with narrative text, equations, images, video,
