@@ -8,36 +8,15 @@ Installation
 These installation instructions explain how to install the Jupyter Notebook and
 the IPython kernel.
 
-.. important::
-
-    **Jupyter installation requires Python 3.3 or greater or Python 2.7.**
-
-    If you need to use Python 2.6 or 3.2, you may install
-    `IPython 1.2 <http://archive.ipython.org/release/1.2.0/>`_.
-    Older releases of IPython are available `here <http://archive.ipython.org/release/>`__.
-
-.. seealso::
-
-    For detailed installation instructions for individual Jupyter or IPython
-    subprojects, please see the documentation or GitHub repos of the
-    individual subprojects listed in :ref:`Jupyter Subprojects <subprojects>`
-    document.
-
-
-How to install Jupyter Notebook
--------------------------------
-
-While the Jupyter Notebook allows users to run code in many different
+While Jupyter allows users to run code in many different
 programming languages, the Jupyter Notebook itself is implemented in Python.
 To install Jupyter Notebook, you will also need Python installed on your system.
 
-
 **Installation Scenarios**
 
-* :ref:`New Users: New to Python and Jupyter <new-to-python-and-jupyter>`
+* :ref:`New user: New to Python and Jupyter <new-to-python-and-jupyter>`
 * :ref:`Experienced Python user: New to Jupyter <existing-python-new-jupyter>`
 * :ref:`Upgrading Jupyter <upgrading>`
-
 
 .. note::
 
@@ -47,14 +26,13 @@ To install Jupyter Notebook, you will also need Python installed on your system.
 .. _new-to-python-and-jupyter:
 
 New Users: New to Python and Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
-If you're new to Python, we highly recommend installing `Anaconda
+If you're new to Python, we highly recommend `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda includes and conveniently
 installs Python, the Jupyter Notebook, and other commonly used packages for
 scientific computing and data science. Follow Anaconda's instructions for
-downloading the Python 3.4 version. You may need to click on the "I want
-Python 3.4" link to download Anaconda for Python 3.4.
+downloading the Python 3.5 version.
 
 After you have Anaconda installed, you should make sure that Jupyter is up to
 date. Run the following command in the Terminal (Mac/Linux) or Command
@@ -72,7 +50,15 @@ and :ref:`next steps <next-steps>` such as running the Jupyter Notebook.
 .. _existing-python-new-jupyter:
 
 Experienced Python user: New to Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
+
+.. important::
+
+    **Jupyter installation requires Python 3.3 or greater, or Python 2.7.**
+
+    If you need to use Python 2.6 or 3.2, you may install
+    `IPython 1.2 <http://archive.ipython.org/release/1.2.0/>`_.
+    Older releases of IPython are available `here <http://archive.ipython.org/release/>`__.
 
 As an existing Python user, you may have installed Python from the Python website,
 a system package manager, or using Anaconda. The command for installing Jupyter
@@ -131,7 +117,8 @@ Now, you may consider :ref:`installing kernels <installing-kernels>` and
 .. _upgrading:
 
 Upgrading to Jupyter: Experienced Users
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
+
 The Jupyter Notebook used to be called the IPython Notebook. If you are running
 an older version of the IPython Notebook (version 3 or earlier) you can use the
 following to upgrade to the latest version of the Jupyter Notebook.
@@ -173,3 +160,11 @@ Next steps
 
 Congratulations. You have installed Jupyter Notebook and are ready to
 :ref:`run the notebook <running>`.
+
+
+.. seealso::
+
+    For detailed installation instructions for individual Jupyter or IPython
+    subprojects, please see the documentation or GitHub repos of the
+    individual subprojects listed in :ref:`Jupyter Subprojects <subprojects>`
+    document.
