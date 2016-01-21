@@ -115,7 +115,7 @@ following to upgrade to the latest version of the Jupyter Notebook.
 
 OR
 
-**If using Anaconda or conda**::
+**If using Anaconda**::
 
     conda update jupyter
 
