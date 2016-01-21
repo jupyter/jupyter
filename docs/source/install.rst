@@ -31,17 +31,9 @@ installs Python, the Jupyter Notebook, and other commonly used packages for
 scientific computing and data science. Follow Anaconda's instructions for
 downloading and installing the Python 3.5 version.
 
-After installing Anaconda, run the following command in the Terminal or the
-Command Prompt to install Jupyter::
-
-    conda install jupyter
-
-Alternatively, use the Anaconda Launcher application to update to the latest
-Jupyter version.
-
-See :ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python and :ref:`next steps <next-steps>` for running the
-Jupyter Notebook.
+See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
+:ref:`installing additional kernels <installing-kernels>` to use programming
+languages other than Python.
 
 .. _existing-python-new-jupyter:
 
@@ -51,9 +43,6 @@ Installing Jupyter (I already have Python)
 .. important::
 
     **Prerequisite: Jupyter installation requires Python 3.3 or greater, or Python 2.7.**
-
-    If Python 2.6 or 3.2 is needed, install
-    `IPython 1.2 <http://archive.ipython.org/release/1.2.0/>`_.
     Older releases of IPython are available
     `here <http://archive.ipython.org/release/>`__.
 
@@ -74,9 +63,10 @@ If Anaconda is installed, run the following command in the Terminal
 
     conda install jupyter
 
-See :ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python and :ref:`next steps <next-steps>` for running the
-Jupyter Notebook.
+See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
+:ref:`installing additional kernels <installing-kernels>` to use programming
+languages other than Python.
+
 
 .. _python-using-pip:
 
@@ -106,9 +96,9 @@ you may install the Jupyter Notebook using Python's package manager, pip::
 
     (Use ``python`` instead of ``python3`` for legacy Python 2.)
 
-See :ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python and :ref:`next steps <next-steps>` for running the
-Jupyter Notebook.
+See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
+:ref:`installing additional kernels <installing-kernels>` to use programming
+languages other than Python.
 
 .. _upgrading:
 
