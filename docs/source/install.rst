@@ -11,8 +11,8 @@ While Jupyter runs code in many different programming languages, Python is a
 prerequisite for installing Jupyter notebook. Select one of the scenarios to
 install Jupyter:
 
-    - :ref:`Jupyter (new to Python) <new-to-python-and-jupyter>`
-    - :ref:`Jupyter (experience with Python) <existing-python-new-jupyter>`
+    - :ref:`Installing Jupyter and Python <new-to-python-and-jupyter>`
+    - :ref:`Installing Jupyter (I already have Python) <existing-python-new-jupyter>`
     - :ref:`Upgrading a Jupyter installation <upgrading>`
 
 .. note::
@@ -22,8 +22,8 @@ install Jupyter:
 
 .. _new-to-python-and-jupyter:
 
-Jupyter (new to Python)
------------------------
+Installing Jupyter and Python
+-----------------------------
 
 For new users, we **highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
@@ -45,8 +45,8 @@ Jupyter Notebook.
 
 .. _existing-python-new-jupyter:
 
-Jupyter (experience with Python)
---------------------------------
+Installing Jupyter (I already have Python)
+------------------------------------------
 
 .. important::
 
