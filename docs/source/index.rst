@@ -30,9 +30,9 @@ the `Jupyter Notebook Viewer <http://nbviewer.ipython.org/>`__.
 
 The main documentation for Jupyter users is organized into several sections:
 
-  :ref:`User Documentation<user-docs>` |
-  :ref:`Jupyter Subprojects<jupyter-subprojects>` |
-  :ref:`About Jupyter<about-docs>`
+    - :ref:`User Documentation<user-docs>`
+    - :ref:`Jupyter Subprojects<jupyter-subprojects>`
+    - :ref:`About Jupyter<about-docs>`
 
 :ref:`Developer Documentation<dev-docs>` covers how to help with the
 development of Jupyter as well as technical details helpful for development.
