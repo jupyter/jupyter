@@ -5,7 +5,7 @@ A Note on Contributing to Open Source
 -------------------------------------
 Contributing to open source can be a nerve-wrecking process, but don't worry
 everyone on the Jupyter team is dedicated to making sure that your open source
-experience is as fun as possibly. At any time during the process described below,
+experience is as fun as possible. At any time during the process described below,
 you can reach out to the Jupyter team on Gitter or the mailing list for
 assistance. If you are nervous about asking questions in public, you can also
 reach out to one of the Jupyter developers in private. You can use the public
