@@ -26,7 +26,7 @@ Using the Jupyter Notebook, you can author engaging
 documents that combine live-code with narrative text, equations, images, video,
 and visualizations. By encoding a complete and reproducible record of a
 computation, the documents can be shared with others on GitHub, Dropbox, and
-the `Jupyter Notebook Viewer <http://nbviewer.ipython.org/>`__.
+the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
 
 The main documentation for Jupyter users is organized into several sections:
 

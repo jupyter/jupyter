@@ -11,7 +11,7 @@ The following Jupyter kernels are widely used in data science:
 * python
     - IPython (`GitHub Repo <https://github.com/ipython/ipykernel>`__)
 * R
-    - IRkernel (`Documentation <http://irkernel.github.io/>`__, `GitHub Repo <https://github.com/IRkernel/IRkernel>`__)
+    - IRkernel (`Documentation <https://irkernel.github.io/>`__, `GitHub Repo <https://github.com/IRkernel/IRkernel>`__)
     - IRdisplay (`GitHub Repo <https://github.com/IRkernel/IRdisplay>`__)
     - repr (`GitHub Repo <https://github.com/IRkernel/repr>`__)
 * Julia
