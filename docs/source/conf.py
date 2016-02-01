@@ -288,16 +288,16 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 intersphinx_mapping = {
-    'ipython': ('http://ipython.readthedocs.org/en/latest/', None),
-    'nbconvert': ('http://nbconvert.readthedocs.org/en/latest/', None),
-    'nbformat': ('http://nbformat.readthedocs.org/en/latest/', None),
-#    'ipywidgets': ('http://ipywidgets.readthedocs.org/en/latest/', None),  TODO: Enable once ipywidgets is on RTD
-    'traitlets': ('http://traitlets.readthedocs.org/en/latest/', None),
-    'ipyparallel': ('http://ipyparallel.readthedocs.org/en/latest/', None),
-    'notebook': ('http://jupyter-notebook.readthedocs.org/en/latest/', None),
-    'jupyterclient': ('http://jupyter-client.readthedocs.org/en/latest/', None),
-    'qtconsole': ('http://jupyter.org/qtconsole/dev/', None),
-    'jupytercore': ('http://jupyter-core.readthedocs.org/en/latest/', None),
+    'ipython': ('https://ipython.readthedocs.org/en/latest/', None),
+    'nbconvert': ('https://nbconvert.readthedocs.org/en/latest/', None),
+    'nbformat': ('https://nbformat.readthedocs.org/en/latest/', None),
+#    'ipywidgets': ('https://ipywidgets.readthedocs.org/en/latest/', None),  TODO: Enable once ipywidgets is on RTD
+    'traitlets': ('https://traitlets.readthedocs.org/en/latest/', None),
+    'ipyparallel': ('https://ipyparallel.readthedocs.org/en/latest/', None),
+    'notebook': ('https://jupyter-notebook.readthedocs.org/en/latest/', None),
+    'jupyterclient': ('https://jupyter-client.readthedocs.org/en/latest/', None),
+    'qtconsole': ('https://jupyter.org/qtconsole/dev/', None),
+    'jupytercore': ('https://jupyter-core.readthedocs.org/en/latest/', None),
 }
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
