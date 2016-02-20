@@ -46,7 +46,7 @@ we recommend that you install the stable development version Sphinx
 (``pip install git+https://github.com/sphinx-doc/sphinx@stable``) or the
 current released version of Sphinx (``pip install sphinx``).
 
-In addition, you may need the following packages: sphinxcontrib-spelling, sphinx_rtd_theme, and pyenchant, which can be installed via ``pip install sphinxcontrib-spelling``, ``pip install sphinx_rtd_theme``, and ``pip install pyenchant``.
+In addition, you may need the following packages: sphinxcontrib-spelling, sphinx_rtd_theme, and pyenchant, which can be installed via ``pip install sphinxcontrib-spelling sphinx_rtd_theme pyenchant``.
 
 If you are on Linux, the last command will fail if you don't have the Enchant C library, and you will need to run ``sudo apt-get install enchant``.
 
