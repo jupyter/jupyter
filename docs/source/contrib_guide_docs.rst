@@ -48,7 +48,7 @@ current released version of Sphinx (``pip install sphinx``).
 
 In addition, you may need the following packages: sphinxcontrib-spelling, sphinx_rtd_theme, and pyenchant, which can be installed via ``pip install sphinxcontrib-spelling sphinx_rtd_theme pyenchant``.
 
-If you are on Linux, the last command will fail if you don't have the Enchant C library, and you will need to run ``sudo apt-get install enchant``.
+If you are on Linux, you may also need to install the Enchant C library by running ``sudo apt-get install enchant``.
 
 Once everything is installed, the following commands should be executed using the Terminal/command line from
 the ``docs`` directory:
