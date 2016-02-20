@@ -2,7 +2,7 @@
 
 
 ====================
-Starting the notebook server using the command line
+Running the Notebook
 ====================
 
 After you have installed the Jupyter Notebook on your computer, you are ready to run the Notebook. You can start the notebook server from the command line (Terminal on Mac/Linux, CMD prompt on Windows) by running the following command::
@@ -17,12 +17,12 @@ When the notebook opens, you will see the notebook dashboard, which will show a 
 Additional options
 ====================
 
-By default, the notebook server starts on port 8888. If port 8888 is unavailable, the notebook server searchs the next available port.
+By default, the notebook server starts on port 8888. If port 8888 is unavailable, the notebook server searches the next available port.
 You can also specify the port manually::
 
     jupyter notebook--port 9999
 
-Or start notebook server without opening a web browser.::
+Or start notebook server without opening a web browser::
     
     jupyter notebook --no-browser
 
