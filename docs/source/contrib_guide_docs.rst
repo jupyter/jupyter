@@ -46,7 +46,11 @@ we recommend that you install the stable development version Sphinx
 (``pip install git+https://github.com/sphinx-doc/sphinx@stable``) or the
 current released version of Sphinx (``pip install sphinx``).
 
-The following commands should be executed using the Terminal/command line from
+In addition, you may need the following packages: sphinxcontrib-spelling, sphinx_rtd_theme, and pyenchant, which can be installed via ``pip install sphinxcontrib-spelling``, ``pip install sphinx_rtd_theme``, and ``pip install pyenchant``.
+
+If you are on Linux, the last command will fail if you don't have the Enchant C library, and you will need to run ``sudo apt-get install enchant``.
+
+Once everything is installed, the following commands should be executed using the Terminal/command line from
 the ``docs`` directory:
 
 * ``make html`` builds a local html version of the documentation. The output
