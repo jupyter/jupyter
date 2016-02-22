@@ -20,7 +20,7 @@ Additional options
 By default, the notebook server starts on port 8888. If port 8888 is unavailable, the notebook server searches the next available port.
 You can also specify the port manually::
 
-    jupyter notebook--port 9999
+    jupyter notebook --port 9999
 
 Or start notebook server without opening a web browser::
     
