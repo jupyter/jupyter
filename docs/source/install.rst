@@ -131,12 +131,16 @@ Installing kernels
 ------------------
 
 Installing the Jupyter Notebook as described above will also install the `IPython
-kernel <https://ipython.readthedocs.org/en/master/>`_ which allows working on
+kernel <https://ipython.readthedocs.org/en/latest/>`_ which allows working on
 notebooks using the Python programming language.
 
 To run notebooks in languages other than Python, you will need to install
 additional kernels. For more information, see the full `list of available kernels
 <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_.
+
+To install extra Python kernels—to make both Python 2 and 3 available in
+Jupyter, or to set up kernels in environments—see `the IPython docs on
+installing kernels <https://ipython.readthedocs.org/en/latest/install/kernel_install.html>`__.
 
 
 .. _next-steps:
