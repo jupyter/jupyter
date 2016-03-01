@@ -78,3 +78,9 @@ development of Jupyter as well as technical details helpful for development.
    :caption: About Jupyter
 
    data_science
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Communication Channels
+
+    blog
