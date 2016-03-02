@@ -52,7 +52,7 @@ Try not to link to external images. If you want to put an image in the post,
 insert ``![]()`` in the editor and drag and drop an image from your desktop
 into the newly created field. External images can change, and can break the
 blog post if they are taken down, if you drag and drop images they will be
-served from the same CDN (Content delivery network) as the blog, which will
+served from the same CDN (Content Delivery Network) as the blog, which will
 insure the best overall experience for our readers.
 
 The featured image you see at the top of a blog posts is set from within the
