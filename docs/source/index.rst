@@ -34,8 +34,10 @@ The main documentation for Jupyter users is organized into several sections:
     - :ref:`Jupyter Subprojects<jupyter-subprojects>`
     - :ref:`About Jupyter<about-docs>`
 
-:ref:`Developer Documentation<dev-docs>` covers how to help with the
-development of Jupyter as well as technical details helpful for development.
+:ref:`Contributor Documentation<dev-docs>` covers how to help with the
+development of Jupyter as well as technical details helpful for development. It
+also covers how to contribute to our documentation, blog, website, and
+newsletter.
 
 
 .. _user-docs:
@@ -64,12 +66,16 @@ development of Jupyter as well as technical details helpful for development.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Developer Documentation
+   :caption: Contributor Documentation
 
    system
+   contrib_guide_code
    contrib_guide_bugs_enh
    contrib_guide_docs
-   contrib_guide_code
+   contrib_guide_site
+   contrib_guide_blog
+   contrib_guide_newsletter
+
 
 .. _about-docs:
 
@@ -79,8 +85,3 @@ development of Jupyter as well as technical details helpful for development.
 
    data_science
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Communication Channels
-
-    blog
