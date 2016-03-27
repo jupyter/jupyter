@@ -50,6 +50,7 @@ newsletter.
     install
     running
     migrating
+    system
 
 
 .. _jupyter-subprojects:
@@ -68,7 +69,7 @@ newsletter.
    :maxdepth: 2
    :caption: Contributor Documentation
 
-   system
+   contrib_guide_welcome
    contrib_guide_code
    contrib_guide_bugs_enh
    contrib_guide_docs
