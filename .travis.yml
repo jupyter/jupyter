@@ -4,6 +4,6 @@ python:
     - 3.5
     - 3.4
 install:
-    - pip install --upgrade sphinx
+    - pip install --upgrade sphinx sphinx_rtd_theme
 script:
     - cd docs && make html && make linkcheck
