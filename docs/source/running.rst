@@ -15,9 +15,9 @@ It will then open your default web browser to this URL.
 
 When the notebook opens, you will see the notebook dashboard, which will show a list of the notebooks, files, and subdirectories in the directory where the notebook server was started (as seen in the next section, below). Most of the time, you will want to start a notebook server in the highest directory in your filesystem where notebooks can be found. Often this will be your home directory.
 
-====================
+
 Additional options
-====================
+------------------
 
 By default, the notebook server starts on port 8888. If port 8888 is unavailable, the notebook server searches the next available port.
 You can also specify the port manually::

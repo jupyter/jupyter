@@ -1,50 +1,26 @@
 .. _landing:
 
 
-=====================
-Jupyter Documentation
-=====================
+===============
+Project Jupyter
+===============
 
+Welcome to Project Jupyter's documentation hosted on Read the Docs.
+
+Jupyter Notebook Quickstart
+---------------------------
 The Jupyter Notebook is a web application for interactive data science and
-scientific computing.
-
-.. sidebar:: What's New in Jupyter Notebook
-   **Release 4.1** `Announcement <https://blog.jupyter.org/2016/01/08/notebook-4-1-release/>`_
-
-   - Cell toolbar selector moved to View menu
-   - Restart & Run All Cells added to Kernel menu
-   - Multiple-cell selection and actions including cut, copy, paste and execute
-   - Command palette added for executing Jupyter actions
-   - Find and replace added to Edit menu
-
-   To upgrade to the release:
-   ``pip install notebook --upgrade``
-   or
-   ``conda upgrade notebook``
-
-Using the Jupyter Notebook, you can author engaging
+scientific computing. Using the Jupyter Notebook, you can author engaging
 documents that combine live-code with narrative text, equations, images, video,
 and visualizations. By encoding a complete and reproducible record of a
 computation, the documents can be shared with others on GitHub, Dropbox, and
 the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
 
-The main documentation for Jupyter users is organized into several sections:
-
-    - :ref:`User Documentation<user-docs>`
-    - :ref:`Jupyter Subprojects<jupyter-subprojects>`
-    - :ref:`About Jupyter<about-docs>`
-
-:ref:`Contributor Documentation<dev-docs>` covers how to help with the
-development of Jupyter as well as technical details helpful for development. It
-also covers how to contribute to our documentation, blog, website, and
-newsletter.
-
-
 .. _user-docs:
 
 .. toctree::
-    :maxdepth: 2
-    :caption: User Documentation
+    :maxdepth: 1
+    :caption: Notebook Quickstart
 
     tryjupyter
     install
@@ -56,17 +32,30 @@ newsletter.
 .. _jupyter-subprojects:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Jupyter Subprojects
+   :maxdepth: 1
+   :caption: Projects
 
    subprojects
+   incubator
+   kernels
+   jupyter_enhancement_proposals
    config
 
+.. _about-docs:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User Stories
+
+   data_science
+   science
+   education
+   hpc
 
 .. _dev-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contributor Documentation
 
    contrib_guide_welcome
@@ -76,15 +65,6 @@ newsletter.
    contrib_guide_site
    contrib_guide_blog
    contrib_guide_newsletter
-
-
-.. _about-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: About Jupyter
-
-   data_science
 
 .. toctree::
    :maxdepth: 1
