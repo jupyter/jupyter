@@ -116,7 +116,7 @@ how to rerun that group individually. For example, this tests the
 ``IPython.utils`` subpackage, the ``-v`` option shows progress
 indicators:
 
-.. code:: /bash
+.. code:: bash
 
        $ iptest IPython.utils -- -v
        ..........................SS..SSS............................S.S...
