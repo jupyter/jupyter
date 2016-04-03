@@ -5,18 +5,19 @@
 Project Jupyter and IPython
 ===========================
 
-Welcome to **Project Jupyter and IPython** "official" documentation landing
-page. From this page, you may access all "official" documentation for Project
-Jupyter and IPython projects.
+Welcome to the **Project Jupyter and IPython** "official" documentation
+landing page where you may access all documentation for all
+Project Jupyter and IPython projects.
 
 **What is Project Jupyter?** Project Jupyter was born out of the IPython
 Project in 2014 as the project evolved to support interactive data science
-and scientific computing across all programming languages. The popular
-**Jupyter Notebook** (formerly IPython notebook) is a cornerstone of the project.
-Using the Jupyter Notebook, you can author engaging documents that combine
-live-code with narrative text, equations, images, video,
-and visualizations. By encoding a complete and reproducible record of a
-computation, the documents can be shared with others on GitHub, Dropbox, and
+and scientific computing across all programming languages.
+
+The popular **Jupyter Notebook** (formerly IPython notebook) provides a
+web-based application for authoring engaging documents combining live-code
+with narrative text, equations, images, video, and visualizations. By
+encoding a complete and reproducible record of a computation, the documents
+can be shared with others on GitHub, Dropbox, and
 the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
 
 .. _user-docs:
@@ -37,17 +38,18 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    :caption: Projects
 
    subprojects
+   ipython_projects
    incubator
    kernels
    jupyter_enhancement_proposals
 
-    ,, toctree::
-       :maxdepth: 1
-       :caption: Technical overview
+,, toctree::
+   :maxdepth: 1
+   :caption: Technical overview
 
-       visual_projects
-       system
-       config
+   visual_projects
+   system
+   config
 
 .. _about-docs:
 
