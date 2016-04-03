@@ -30,6 +30,7 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
     running
     migrating
 
+
 .. _jupyter-subprojects:
 
 .. toctree::
@@ -42,13 +43,17 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    kernels
    jupyter_enhancement_proposals
 
-,, toctree::
+
+.. _tech-overview:
+
+.. toctree::
    :maxdepth: 1
    :caption: Technical overview
 
    visual_projects
    system
    config
+
 
 .. _about-docs:
 
@@ -61,7 +66,8 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    education
    hpc
 
-   User stories and use cases will be added in this section.
+   *User stories and use cases will be added in this section.*
+
 
 .. _dev-docs:
 
@@ -77,7 +83,7 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    contrib_guide_blog
    contrib_guide_newsletter
 
-   The contributor guide will be reorganized.
+   *The contributor guide will be reorganized.*
 
 .. toctree::
    :maxdepth: 1
@@ -88,13 +94,13 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
 
 Links to project documentation
 ------------------------------
-From this section you may access documentation for all
+*When completed, this section will have links to documentation for all
 Project Jupyter and IPython projects. This section will provide names,
 one-line-maximum description, and
-links to each individual project.
+links to each individual project.*
 
 Links to support and help
 -------------------------
 
-This section will provide a link to the Help repo, mailing list/google group,
-NumFocus donations, Jupyter website, IPython website.
+*When commpleted, this section will provide a link to the Help repo, mailing list/google group,
+NumFocus donations, Jupyter website, IPython website.*
