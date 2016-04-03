@@ -5,7 +5,15 @@
 Project Jupyter
 ===============
 
-Welcome to Project Jupyter's documentation hosted on Read the Docs.
+Welcome to **Project Jupyter's "official" documentation landing page**. From
+this page, you may access all "official" documentation for Project Jupyter and
+IPython projects.
+
+**What is Project Jupyter?** Project Jupyter was born out of the IPython
+Project in 2014 as the project evolved to support interactive data science
+and scientific computing across all programming languages. The popular
+Jupyter Notebook (formerly IPython notebook) is a cornerstone of the project.
+
 
 Jupyter Notebook Quickstart
 ---------------------------
@@ -71,3 +79,11 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    :caption: Old IPython Wiki
 
    development_guide/index
+
+
+Links to project documentation
+------------------------------
+
+Links to support and help
+-------------------------
+
