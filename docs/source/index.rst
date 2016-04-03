@@ -50,7 +50,7 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    :maxdepth: 1
    :caption: Technical overview
 
-   visual_projects
+   visual_overview
    system
    config
 
