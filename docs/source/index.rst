@@ -34,8 +34,6 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
     install
     running
     migrating
-    system
-
 
 .. _jupyter-subprojects:
 
@@ -47,6 +45,7 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
    incubator
    kernels
    jupyter_enhancement_proposals
+   system
    config
 
 .. _about-docs:
