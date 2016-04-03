@@ -86,3 +86,8 @@ newsletter.
 
    data_science
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Old IPython Wiki
+
+   development_guide/index
