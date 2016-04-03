@@ -6,8 +6,7 @@ Project Jupyter and IPython
 ===========================
 
 Welcome to the **Project Jupyter and IPython** "official" documentation
-landing page where you may access all documentation for all
-Project Jupyter and IPython projects.
+landing page.
 
 **What is Project Jupyter?** Project Jupyter was born out of the IPython
 Project in 2014 as the project evolved to support interactive data science
@@ -89,8 +88,10 @@ the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
 
 Links to project documentation
 ------------------------------
-
-This section will provide names and links to each individual project.
+From this section you may access documentation for all
+Project Jupyter and IPython projects. This section will provide names,
+one-line-maximum description, and
+links to each individual project.
 
 Links to support and help
 -------------------------
