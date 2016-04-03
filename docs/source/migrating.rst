@@ -1,9 +1,9 @@
 .. _migrating:
 
 
-======================
-Migrating from IPython
-======================
+===============================
+Migrating from IPython Notebook
+===============================
 
 `The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
 has changed a few things, moving the various language-agnostic

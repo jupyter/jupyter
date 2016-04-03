@@ -1,72 +1,78 @@
 .. _landing:
 
 
-=====================
-Jupyter Documentation
-=====================
+===========================
+Project Jupyter and IPython
+===========================
 
-The Jupyter Notebook is a web application for interactive data science and
-scientific computing.
+Welcome to the **Project Jupyter and IPython** "official" documentation
+landing page.
 
-.. sidebar:: What's New in Jupyter Notebook
-   **Release 4.1** `Announcement <https://blog.jupyter.org/2016/01/08/notebook-4-1-release/>`_
+**What is Project Jupyter?** Project Jupyter was born out of the IPython
+Project in 2014 as the project evolved to support interactive data science
+and scientific computing across all programming languages.
 
-   - Cell toolbar selector moved to View menu
-   - Restart & Run All Cells added to Kernel menu
-   - Multiple-cell selection and actions including cut, copy, paste and execute
-   - Command palette added for executing Jupyter actions
-   - Find and replace added to Edit menu
-
-   To upgrade to the release:
-   ``pip install notebook --upgrade``
-   or
-   ``conda upgrade notebook``
-
-Using the Jupyter Notebook, you can author engaging
-documents that combine live-code with narrative text, equations, images, video,
-and visualizations. By encoding a complete and reproducible record of a
-computation, the documents can be shared with others on GitHub, Dropbox, and
+The popular **Jupyter Notebook** (formerly IPython notebook) provides a
+web-based application for authoring engaging documents combining live-code
+with narrative text, equations, images, video, and visualizations. By
+encoding a complete and reproducible record of a computation, the documents
+can be shared with others on GitHub, Dropbox, and
 the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`__.
-
-The main documentation for Jupyter users is organized into several sections:
-
-    - :ref:`User Documentation<user-docs>`
-    - :ref:`Jupyter Subprojects<jupyter-subprojects>`
-    - :ref:`About Jupyter<about-docs>`
-
-:ref:`Contributor Documentation<dev-docs>` covers how to help with the
-development of Jupyter as well as technical details helpful for development. It
-also covers how to contribute to our documentation, blog, website, and
-newsletter.
-
 
 .. _user-docs:
 
 .. toctree::
-    :maxdepth: 2
-    :caption: User Documentation
+    :maxdepth: 1
+    :caption: Jupyter Notebook Quickstart
 
     tryjupyter
     install
     running
     migrating
-    system
 
 
 .. _jupyter-subprojects:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Jupyter Subprojects
+   :maxdepth: 1
+   :caption: Projects
 
    subprojects
+   ipython_projects
+   incubator
+   kernels
+   jupyter_enhancement_proposals
+
+
+.. _tech-overview:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Technical overview
+
+   visual_overview
+   system
    config
+
+
+.. _about-docs:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User Stories
+
+   data_science
+   science
+   education
+   hpc
+
+   *User stories and use cases will be added in this section.*
 
 
 .. _dev-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contributor Documentation
 
    contrib_guide_welcome
@@ -77,17 +83,24 @@ newsletter.
    contrib_guide_blog
    contrib_guide_newsletter
 
-
-.. _about-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: About Jupyter
-
-   data_science
+   *The contributor guide will be reorganized.*
 
 .. toctree::
    :maxdepth: 1
    :caption: Old IPython Wiki
 
    development_guide/index
+
+
+Links to project documentation
+------------------------------
+*When completed, this section will have links to documentation for all
+Project Jupyter and IPython projects. This section will provide names,
+one-line-maximum description, and
+links to each individual project.*
+
+Links to support and help
+-------------------------
+
+*When commpleted, this section will provide a link to the Help repo, mailing list/google group,
+NumFocus donations, Jupyter website, IPython website.*
