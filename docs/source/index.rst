@@ -145,5 +145,5 @@ Usage, configuration and development information
    `jupyter/help repo <https://github.com/jupyter/help>`_, Start here for help and support questions
    `Jupyter mailing list <https://groups.google.com/forum/#!forum/jupyter>`_, General discussion of Jupyter's use
    `Jupyter in Education group <https://groups.google.com/forum/#!forum/jupyter-education>`_, Discussion of Jupyter's use in education
-   `NumFocus <https://www.numfocus.org>`_, "Promotes world-class, innovative, open source scientific software"
+   `NumFocus <http://www.numfocus.org>`_, "Promotes world-class, innovative, open source scientific software"
    `Donate to Project Jupyter <https://jupyter.org/donate.html>`_, Please contribute to open science collaboration and sustainability
