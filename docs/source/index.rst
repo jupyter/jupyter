@@ -4,9 +4,6 @@
 Project Jupyter and IPython
 ===========================
 
-The "official" documentation for **Project Jupyter and IPython.**
-
-
 **Parts of the documentation:**
 
 .. csv-table::
