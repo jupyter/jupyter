@@ -9,26 +9,17 @@ The "official" documentation for **Project Jupyter and IPython.**
 
 **Parts of the documentation:**
 
-:ref:`Jupyter Notebook Quickstart <user-docs>`
-    Start here
+.. csv-table::
+   :header: "Site", "Description"
+   :widths: 18, 35
 
-:ref:`User Stories <about-docs>`
-    Common use cases in industries
-
-:ref:`Projects <jupyter-subprojects>`
-    High level descriptions
-
-:ref:`Documentation by project <project-links>`
-    Usage, configuration, and development information
-
-:ref:`Technical overview <tech-overview>`
-    Visual overview of how projects are used together
-
-:ref:`Contributor Guide <dev-docs>`
-    The general process of contributing code, documentation, community resources, and more
-
-:ref:`IPython Development guide <ipydevguide>`
-    Legacy IPython wiki reference documentation
+   :ref:`Jupyter Notebook Quickstart <user-docs>`, Get started
+   :ref:`User Stories <about-docs>`, Common use cases in industries
+   :ref:`Projects <jupyter-subprojects>`, High level descriptions
+   :ref:`Documentation by project <project-links>`, "Usage, configuration, and development information"
+   :ref:`Technical overview <tech-overview>`, Visual overview of how projects are used together
+   :ref:`Contributor Guide <dev-docs>`, "Contribute code, documentation, tutorials, and more"
+   :ref:`IPython Development guide <ipydevguide>`, Legacy IPython wiki reference documentation
 
 
 .. _fulltoc:
@@ -148,23 +139,14 @@ Usage, configuration and development information
 
 **Resources:**
 
-`Jupyter website <https://jupyter.org>`_
-    Keep up to date on Jupyter
+.. csv-table::
+   :header: "Site", "Description"
+   :widths: 18, 35
 
-`IPython website <https://ipython.org>`_
-    Learn more about IPython
-
-`jupyter/help repo <https://github.com/jupyter/help>`_
-    Start here for help and support questions
-
-`Jupyter mailing list and Google group <https://groups.google.com/forum/#!forum/jupyter>`_
-    General discussion of Jupyter's use<
-
-`Jupyter in Education Google group <https://groups.google.com/forum/#!forum/jupyter-education>`_
-    Discussion of Jupyter's use in education
-
-`NumFocus <https://www.numfocus.org>`_
-    Promotes world-class, innovative, open source scientific software
-
-`Donate to Project Jupyter <https://jupyter.org/donate.html>`_
-    Please contribute to open science collaboration and sustainability
+   `Jupyter website <https://jupyter.org>`_, Keep up to date on Jupyter
+   `IPython website <https://ipython.org>`_, Learn more about IPython
+   `jupyter/help repo <https://github.com/jupyter/help>`_, Start here for help and support questions
+   `Jupyter mailing list <https://groups.google.com/forum/#!forum/jupyter>`_, General discussion of Jupyter's use
+   `Jupyter in Education group <https://groups.google.com/forum/#!forum/jupyter-education>`_, Discussion of Jupyter's use in education
+   `NumFocus <https://www.numfocus.org>`_, "Promotes world-class, innovative, open source scientific software"
+   `Donate to Project Jupyter <https://jupyter.org/donate.html>`_, Please contribute to open science collaboration and sustainability
