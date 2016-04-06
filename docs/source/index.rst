@@ -8,16 +8,27 @@ The "official" documentation for **Project Jupyter and IPython.**
 
 **Parts of the documentation:**
 
-.. hlist::
-    :columns: 2
+.. raw:: html
 
-    * :ref:`user-docs`
-    * :ref:`jupyter-subprojects`
-    * :ref:`project-links`
-    * :ref:`tech-overview`
-    * :ref:`about-docs`
-    * :ref:`Contributor Documentation <dev-docs>`
-    * :ref:`IPython Development guide (from Old IPython wiki) <ipy_wiki>`
+  <table align="center"><tr>
+    <td width="50%">
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#user-docs">Jupyter Notebook Quickstart</a><br/>
+        <span class="linkdescr">start here</span></p>
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#about-docs"User stories</a><br/>
+        <span class="linkdescr">Common use cases in industries, like science, data science, education, high performance computing</span></p>
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#jupyter-subprojects">Projects</a><br/>
+         <span class="linkdescr">high level project descriptions including language kernels and incubator process</span></p>
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#project-links">Documentation by project</a><br/>
+         <span class="linkdescr">Usage, configuration and development information</span></p>
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#tech-overview">Technical overview</a><br/>
+         <span class="linkdescr">visual overview of how projects are used together</span></p>
+      </td><td width="50%">
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#dev-docs">Contributor Guide</a><br/>
+         <span class="linkdescr">the general process of contributing code, documentation, community resources, and more</span></p>
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#ipy_wiki">IPython Development guide</a><br/>
+         <span class="linkdescr">Legacy IPython wiki documentation for reference</span></p>
+    </td></tr>
+  </table>
 
 .. _fulltoc:
 
@@ -35,6 +46,17 @@ Full Table of Contents
     running
     migrating
 
+.. _about-docs:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User Stories
+
+   data_science
+   science
+   education
+   hpc
+
 .. _jupyter-subprojects:
 
 .. toctree::
@@ -47,11 +69,12 @@ Full Table of Contents
    kernels
    jupyter_enhancement_proposals
 
-
 .. _project-links:
 
 Documentation by project
 ------------------------
+
+Usage, configuration and development information
 
 .. hlist::
     :columns: 2
@@ -98,17 +121,6 @@ Documentation by project
    visual_overview
    system
    config
-
-.. _about-docs:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: User Stories
-
-   data_science
-   science
-   education
-   hpc
 
 .. _dev-docs:
 
