@@ -19,31 +19,6 @@ The "official" documentation for **Project Jupyter and IPython.**
     * :ref:`Contributor Documentation <dev-docs>`
     * :ref:`IPython Development guide (from Old IPython wiki) <ipy_wiki>`
 
-**Resources:**
-
-.. raw:: html
-
-  <table align="center"><tr>
-    <td width="50%">
-      <p><a href="https://jupyter.org">Jupyter website</a><br/>
-        <span class="linkdescr">Keep up to date on Jupyter</span></p>
-
-      <p class="biglink"><a class="biglink" href="https://ipython.org">IPython website</a><br/>
-         <span class="linkdescr">Learn more about IPython</span></p>
-      <p class="biglink"><a class="biglink" href="https://github.com/jupyter/help">jupyter/help repo</a><br/>
-         <span class="linkdescr">Start here for help and support questions</span></p>
-      <p class="biglink"><a class="biglink" href="https://groups.google.com/forum/#!forum/jupyter">Jupyter mailing list and Google group</a><br/>
-         <span class="linkdescr">general discussion of Jupyter's use</span></p>
-      </td><td width="50%">
-      <p class="biglink"><a class="biglink" href="https://groups.google.com/forum/#!forum/jupyter-education">Jupyter in Education Google group</a><br/>
-         <span class="linkdescr">discussion of Jupyter's use in education</span></p>
-      <p class="biglink"><a class="biglink" href="https://numfocus.org">NumFocus</a><br/>
-         <span class="linkdescr">promotes world-class, innovative, open source scientific software</span></p>
-      <p class="biglink"><a class="biglink" href="https://jupyter.org/donate.html">Donate to Project Jupyter</a><br/>
-         <span class="linkdescr">please contribute to open science collaboration</p>
-    </td></tr>
-  </table>
-
 .. _fulltoc:
 
 Full Table of Contents
@@ -156,3 +131,28 @@ Documentation by project
    :caption: Old IPython Wiki
 
    development_guide/index
+
+
+**Resources:**
+
+.. raw:: html
+
+  <table align="center"><tr>
+    <td width="50%">
+      <p><a href="https://jupyter.org">Jupyter website</a><br/>
+        <span class="linkdescr">Keep up to date on Jupyter</span></p>
+      <p><a href="https://ipython.org">IPython website</a><br/>
+         <span class="linkdescr">Learn more about IPython</span></p>
+      <p><a href="https://github.com/jupyter/help">jupyter/help repo</a><br/>
+         <span class="linkdescr">Start here for help and support questions</span></p>
+      <p><a href="https://groups.google.com/forum/#!forum/jupyter">Jupyter mailing list and Google group</a><br/>
+         <span class="linkdescr">general discussion of Jupyter's use</span></p>
+      </td><td width="50%">
+      <p><a href="https://groups.google.com/forum/#!forum/jupyter-education">Jupyter in Education Google group</a><br/>
+         <span class="linkdescr">discussion of Jupyter's use in education</span></p>
+      <p><a href="https://www.numfocus.org">NumFocus</a><br/>
+         <span class="linkdescr">promotes world-class, innovative, open source scientific software</span></p>
+      <p><a href="https://jupyter.org/donate.html">Donate to Project Jupyter</a><br/>
+         <span class="linkdescr">please contribute to open science collaboration</p>
+    </td></tr>
+  </table>
