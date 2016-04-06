@@ -13,13 +13,70 @@ The "official" documentation for **Project Jupyter and IPython.**
 
     * :ref:`user-docs`
     * :ref:`jupyter-subprojects`
+    * :ref:`project-links`
     * :ref:`tech-overview`
     * :ref:`about-docs`
     * :ref:`Contributor Documentation <dev-docs>`
-    * :ref:`ipy_wiki`
+    * :ref:`IPython Development guide (from Old IPython wiki) <ipy_wiki>`
+
+**Resources:**
+
+.. raw:: html
+
+  <table align="center"><tr>
+    <td width="50%">
+      <p><a href="https://jupyter.org">Jupyter website</a><br/>
+        <span class="linkdescr">Keep up to date on Jupyter</span></p>
+
+      <p class="biglink"><a class="biglink" href="https://ipython.org">IPython website</a><br/>
+         <span class="linkdescr">Learn more about IPython</span></p>
+      <p class="biglink"><a class="biglink" href="https://github.com/jupyter/help">jupyter/help repo</a><br/>
+         <span class="linkdescr">Start here for help and support questions</span></p>
+      <p class="biglink"><a class="biglink" href="https://groups.google.com/forum/#!forum/jupyter">Jupyter mailing list and Google group</a><br/>
+         <span class="linkdescr">general discussion of Jupyter's use</span></p>
+      </td><td width="50%">
+      <p class="biglink"><a class="biglink" href="https://groups.google.com/forum/#!forum/jupyter-education">Jupyter in Education Google group</a><br/>
+         <span class="linkdescr">discussion of Jupyter's use in education</span></p>
+      <p class="biglink"><a class="biglink" href="https://numfocus.org">NumFocus</a><br/>
+         <span class="linkdescr">promotes world-class, innovative, open source scientific software</span></p>
+      <p class="biglink"><a class="biglink" href="https://jupyter.org/donate.html">Donate to Project Jupyter</a><br/>
+         <span class="linkdescr">please contribute to open science collaboration</p>
+    </td></tr>
+  </table>
+
+.. _fulltoc:
+
+Full Table of Contents
+======================
+
+.. _user-docs:
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Jupyter Notebook Quickstart
+
+    tryjupyter
+    install
+    running
+    migrating
+
+.. _jupyter-subprojects:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Projects
+
+   subprojects
+   ipython_projects
+   incubator
+   kernels
+   jupyter_enhancement_proposals
 
 
-**Project documentation:**
+.. _project-links:
+
+Documentation by project
+------------------------
 
 .. hlist::
     :columns: 2
@@ -56,47 +113,6 @@ The "official" documentation for **Project Jupyter and IPython.**
     * oauthenticator
     * sudospawner
     * tmpnb
-
-
-**Resources:**
-
-.. hlist::
-    :columns: 2
-
-    * jupyter/help repo
-    * mailing list and google group
-    * jupyter in education google group
-    * Jupyter website
-    * IPython website
-    * NumFocus Donations
-
-.. _fulltoc:
-
-Full Table of Contents
-======================
-
-.. _user-docs:
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Jupyter Notebook Quickstart
-
-    tryjupyter
-    install
-    running
-    migrating
-
-.. _jupyter-subprojects:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Projects
-
-   subprojects
-   ipython_projects
-   incubator
-   kernels
-   jupyter_enhancement_proposals
 
 .. _tech-overview:
 
