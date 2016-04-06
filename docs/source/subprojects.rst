@@ -54,9 +54,9 @@ powerful environment for interactive computing in Python.
         `Documentation <https://ipython.org/documentation.html>`__ |
         `Repo <https://github.com/ipython/ipython>`__
 
-    `ipywidgets <https://ipywidgets.readthedocs.org/>`__
+    `ipywidgets <https://ipywidgets.readthedocs.org/en/latest/>`__
         interactive widgets for Python in the Jupyter Notebook.
-        `Documentation <https://ipywidgets.readthedocs.org/>`__ |
+        `Documentation <https://ipywidgets.readthedocs.org/en/latest/>`__ |
         `Repo <https://github.com/ipython/ipywidgets>`__
 
     `ipyparallel <https://ipyparallel.readthedocs.org/en/latest/>`__

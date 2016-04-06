@@ -16,7 +16,7 @@ General coding conventions
 --------------------------
 
 In general, we follow the standard Python style conventions as described
-in Python's `PEP 8 <http://www.python.org/dev/peps/pep-0008/>`__, the
+in Python's `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`__, the
 official Python Style Guide.
 
 Other general comments:
@@ -34,7 +34,7 @@ Naming conventions
 ------------------
 
 For naming conventions, we also follow the guidelines of `PEP
-8 <http://www.python.org/dev/peps/pep-0008/>`__. Some of the existing
+8 <https://www.python.org/dev/peps/pep-0008/>`__. Some of the existing
 code doesn't honor this perfectly, but for all new and refactored
 IPython code, we'll use:
 

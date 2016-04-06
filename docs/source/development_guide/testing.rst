@@ -32,7 +32,7 @@ not found. This is very important so users don't get tests failing
 simply because they don't have dependencies.
 
 The testing system we use is an extension of the
-`nose <http://code.google.com/p/python-nose>`__ test runner. In
+`nose <https://code.google.com/archive/p/python-nose>`__ test runner. In
 particular we've developed a nose plugin that allows us to paste
 verbatim IPython sessions and test them as doctests, which is extremely
 important for us.
@@ -174,8 +174,8 @@ The number is the pull request number from Github; the ``-p`` flag makes
 it post the results to a comment on the pull request. Any further
 arguments are passed to ``iptest``.
 
-This requires the `requests <http://pypi.python.org/pypi/requests>`__
-and `keyring <http://pypi.python.org/pypi/keyring>`__ packages.
+This requires the `requests <https://pypi.python.org/pypi/requests>`__
+and `keyring <https://pypi.python.org/pypi/keyring>`__ packages.
 
 For developers: writing tests
 -----------------------------

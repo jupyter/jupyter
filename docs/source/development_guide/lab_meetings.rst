@@ -29,9 +29,9 @@ parts:
    YouTube link afterwards.
 -  During the meeting, all chat that needs to happen by typing can be
    done on our `Gitter chat
-   room <https://www.gitter.im/ipython/ipython>`__.
+   room <https://gitter.im/ipython/ipython>`__.
 -  We keep a running document with `minutes of the meeting on
-   HackPad <http://ipython.hackpad.com>`__ where we summarize main
+   HackPad <https://ipython.hackpad.com/>`__ where we summarize main
    points. (`2015 part 1 <https://ipython.hackpad.com/3YJG5lv2Hws>`__)
 
 We welcome and encourage help from others in updating these minutes

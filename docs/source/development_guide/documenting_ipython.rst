@@ -138,9 +138,9 @@ code. While both of these were rejected, the ideas therein form much of
 the basis of docutils (the machinery to process reStructuredText):
 
 -  `Docstring Processing System
-   Framework <http://www.python.org/peps/pep-0256.html>`__
+   Framework <https://www.python.org/dev/peps/pep-0256/>`__
 -  `Docutils Design
-   Specification <http://www.python.org/peps/pep-0258.html>`__
+   Specification <https://www.python.org/dev/peps/pep-0258/>`__
 
     **note**
 

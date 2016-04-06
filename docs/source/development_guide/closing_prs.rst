@@ -41,7 +41,7 @@ When a pull request is closed we will do the following:
 
 This policy was discussed in the following thread:
 
-http://mail.scipy.org/pipermail/ipython-dev/2012-August/010025.html
+https://mail.scipy.org/pipermail/ipython-dev/2012-August/010025.html
 
 Example Message:
 ----------------
