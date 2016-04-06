@@ -13,18 +13,18 @@ The "official" documentation for **Project Jupyter and IPython.**
   <table align="center"><tr>
     <td width="50%">
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#user-docs">Jupyter Notebook Quickstart</a><br/>
-        <span class="linkdescr">start here</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#about-docs"User stories</a><br/>
+        <span class="linkdescr">Start here</span></p>
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#about-docs">User stories</a><br/>
         <span class="linkdescr">Common use cases in industries, like science, data science, education, high performance computing</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#jupyter-subprojects">Projects</a><br/>
-         <span class="linkdescr">high level project descriptions including language kernels and incubator process</span></p>
+         <span class="linkdescr">High level project descriptions including language kernels and incubator process</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#project-links">Documentation by project</a><br/>
          <span class="linkdescr">Usage, configuration and development information</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#tech-overview">Technical overview</a><br/>
-         <span class="linkdescr">visual overview of how projects are used together</span></p>
       </td><td width="50%">
+      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#tech-overview">Technical overview</a><br/>
+         <span class="linkdescr">Visual overview of how projects are used together</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#dev-docs">Contributor Guide</a><br/>
-         <span class="linkdescr">the general process of contributing code, documentation, community resources, and more</span></p>
+         <span class="linkdescr">The general process of contributing code, documentation, community resources, and more</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#ipy_wiki">IPython Development guide</a><br/>
          <span class="linkdescr">Legacy IPython wiki documentation for reference</span></p>
     </td></tr>
