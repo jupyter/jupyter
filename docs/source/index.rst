@@ -15,9 +15,9 @@ The "official" documentation for **Project Jupyter and IPython.**
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#user-docs">Jupyter Notebook Quickstart</a><br/>
         <span class="linkdescr">Start here</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#about-docs">User stories</a><br/>
-        <span class="linkdescr">Common use cases in industries, like science, data science, education, high performance computing</span></p>
+        <span class="linkdescr">Common use cases in industries</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#jupyter-subprojects">Projects</a><br/>
-         <span class="linkdescr">High level project descriptions including language kernels and incubator process</span></p>
+         <span class="linkdescr">High level descriptions</span></p>
       <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#project-links">Documentation by project</a><br/>
          <span class="linkdescr">Usage, configuration and development information</span></p>
       </td><td width="50%">
@@ -33,7 +33,7 @@ The "official" documentation for **Project Jupyter and IPython.**
 .. _fulltoc:
 
 Full Table of Contents
-======================
+----------------------
 
 .. _user-docs:
 
