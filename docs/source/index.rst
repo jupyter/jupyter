@@ -6,29 +6,30 @@ Project Jupyter and IPython
 
 The "official" documentation for **Project Jupyter and IPython.**
 
+
 **Parts of the documentation:**
 
-.. raw:: html
+:ref:`Jupyter Notebook Quickstart <user-docs>`
+    Start here
 
-  <table align="center"><tr>
-    <td width="50%">
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#user-docs">Jupyter Notebook Quickstart</a><br/>
-        <span class="linkdescr">Start here</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#about-docs">User stories</a><br/>
-        <span class="linkdescr">Common use cases in industries</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#jupyter-subprojects">Projects</a><br/>
-         <span class="linkdescr">High level descriptions</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#project-links">Documentation by project</a><br/>
-         <span class="linkdescr">Usage, configuration, and development information</span></p>
-      </td><td width="50%">
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#tech-overview">Technical overview</a><br/>
-         <span class="linkdescr">Visual overview of how projects are used together</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/#dev-docs">Contributor Guide</a><br/>
-         <span class="linkdescr">The general process of contributing code, documentation, community resources, and more</span></p>
-      <p><a href="https://test-jupyter.readthedocs.org/en/landing-twocol/development_guide/index.html">IPython Development guide</a><br/>
-         <span class="linkdescr">Legacy IPython wiki reference documentation</span></p>
-    </td></tr>
-  </table>
+:ref:`User Stories <about-docs>`
+    Common use cases in industries
+
+:ref:`Projects <jupyter-subprojects>`
+    High level descriptions
+
+:ref:`Documentation by project <project-links>`
+    Usage, configuration, and development information
+
+:ref:`Technical overview <tech-overview>`
+    Visual overview of how projects are used together
+
+:ref:`Contributor Guide <dev-docs>`
+    The general process of contributing code, documentation, community resources, and more
+
+:ref:`IPython Development guide <ipydevguide>`
+    Legacy IPython wiki reference documentation
+
 
 .. _fulltoc:
 
@@ -147,24 +148,23 @@ Usage, configuration and development information
 
 **Resources:**
 
-.. raw:: html
+`Jupyter website <https://jupyter.org>`_
+    Keep up to date on Jupyter
 
-  <table align="center"><tr>
-    <td width="50%">
-      <p><a href="https://jupyter.org">Jupyter website</a><br/>
-        <span class="linkdescr">Keep up to date on Jupyter</span></p>
-      <p><a href="https://ipython.org">IPython website</a><br/>
-         <span class="linkdescr">Learn more about IPython</span></p>
-      <p><a href="https://github.com/jupyter/help">jupyter/help repo</a><br/>
-         <span class="linkdescr">Start here for help and support questions</span></p>
-      <p><a href="https://groups.google.com/forum/#!forum/jupyter">Jupyter mailing list and Google group</a><br/>
-         <span class="linkdescr">general discussion of Jupyter's use</span></p>
-      </td><td width="50%">
-      <p><a href="https://groups.google.com/forum/#!forum/jupyter-education">Jupyter in Education Google group</a><br/>
-         <span class="linkdescr">discussion of Jupyter's use in education</span></p>
-      <p><a href="https://www.numfocus.org">NumFocus</a><br/>
-         <span class="linkdescr">promotes world-class, innovative, open source scientific software</span></p>
-      <p><a href="https://jupyter.org/donate.html">Donate to Project Jupyter</a><br/>
-         <span class="linkdescr">please contribute to open science collaboration</p>
-    </td></tr>
-  </table>
+`IPython website <https://ipython.org>`_
+    Learn more about IPython
+
+`jupyter/help repo <https://github.com/jupyter/help>`_
+    Start here for help and support questions
+
+`Jupyter mailing list and Google group <https://groups.google.com/forum/#!forum/jupyter>`_
+    General discussion of Jupyter's use<
+
+`Jupyter in Education Google group <https://groups.google.com/forum/#!forum/jupyter-education>`_
+    Discussion of Jupyter's use in education
+
+`NumFocus <https://www.numfocus.org>`_
+    Promotes world-class, innovative, open source scientific software
+
+`Donate to Project Jupyter <https://jupyter.org/donate.html>`_
+    Please contribute to open science collaboration and sustainability
