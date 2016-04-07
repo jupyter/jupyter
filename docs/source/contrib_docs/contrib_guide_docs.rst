@@ -9,6 +9,22 @@ the rest of the documentation up-to-date.
 
 **This guide is under active development.**
 
+Getting started
+===============
+
+New contributors
+~~~~~~~~~~~~~~~~
+
+Developers
+~~~~~~~~~~
+
+New incubator projects
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+First Contribution
+==================
+
 Preparing for your first contribution
 -------------------------------------
 1. Our documentation uses reStructured Text as well as Jupyter notebooks.
