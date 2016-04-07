@@ -120,7 +120,7 @@ Usage, configuration and development information
    contrib_guide_welcome
    contrib_guide_code
    contrib_guide_bugs_enh
-   contrib_docs/index.html
+   contrib_docs/index
    contrib_guide_site
    contrib_guide_blog
    contrib_guide_newsletter
