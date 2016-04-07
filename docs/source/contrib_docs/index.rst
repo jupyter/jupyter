@@ -1,6 +1,6 @@
-=====================
-Jupyter Documentation
-=====================
+===================
+Documentation Guide
+===================
 
 This guide gives information about contributing to documentation. Please
 refer to this guide so Project Jupyter's documentation can be helpful,
