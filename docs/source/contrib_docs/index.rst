@@ -1,6 +1,6 @@
-=======================================
-Jupyter Documentation Contributor Guide
-=======================================
+=====================
+Jupyter Documentation
+=====================
 
 This guide gives information about contributing to documentation. Please
 refer to this guide so Project Jupyter's documentation can be helpful,
@@ -18,5 +18,5 @@ Contents
    doc-tools.rst
    doc-style.rst
    doc-bugs.rst
-   doc-builds.rst
+   doc-build.rst
    doc-tracking.rst
