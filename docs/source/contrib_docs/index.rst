@@ -15,7 +15,7 @@ Contents
    getting-started.rst
    doc-workflow.rst
    repo-structure.rst
-   tools.rst
+   doc-tools.rst
    doc-style.rst
    doc-bugs.rst
    doc-builds.rst
