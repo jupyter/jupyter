@@ -13,7 +13,7 @@ starting at ``1``.  The inputs will be fed to an embedded ipython
 interpreter and the outputs from that interpreter will be inserted as
 well.  For example, code blocks like the following::
 
-  .. ipython::
+  .. code:: python3
 
      In [136]: x = 2
 
@@ -22,7 +22,7 @@ well.  For example, code blocks like the following::
 
 will be rendered as
 
-.. ipython::
+.. code:: python3
 
    In [136]: x = 2
 
@@ -44,7 +44,7 @@ inserted, and prompts will be renumbered. So the prompt below should
 be renumbered in the rendered docs, and pick up where the block above
 left off.
 
-.. ipython::
+.. code:: python3
 
   In [138]: z = x*3   # x is recalled from previous block
 
@@ -72,7 +72,7 @@ your doc.  If the output in your doc and in the ipython session don't
 match on a doctest assertion, an error will be
 
 
-.. ipython::
+.. code:: python3
 
    In [1]: x = 'hello world'
 
@@ -91,7 +91,7 @@ match on a doctest assertion, an error will be
 
 Multi-line input is supported. 
 
-.. ipython::
+.. code:: python3
 
    In [130]: url = 'http://ichart.finance.yahoo.com/table.csv?s=CROX\
       .....: &d=9&e=22&f=2009&g=d&a=1&br=8&c=2006&ignore=.csv'
@@ -107,7 +107,7 @@ if you are doctesting random output you will get an error.  Here we
 "seed" the random number generator for deterministic output, and we
 suppress the seed line so it doesn't show up in the rendered output
 
-.. ipython::
+.. code:: python3
 
    In [133]: import numpy.random
 
@@ -131,7 +131,7 @@ suppress the seed line so it doesn't show up in the rendered output
 
 Another demonstration of multi-line input and output
 
-.. ipython::
+.. code:: python3
 
    In [106]: print x
    --------> print(x)
@@ -162,15 +162,13 @@ interpreter and subsequent line numbers will be incremented to reflect
 the inputs::
 
 
-  .. ipython::
-     :suppress:
+  .. code:: python3
 
      In [144]: from pylab import *
 
      In [145]: ion()
 
-.. ipython::
-   :suppress:
+.. code:: python3
 
    In [144]: from pylab import *
 
@@ -179,8 +177,7 @@ the inputs::
 Likewise, you can set ``:doctest:`` or ``:verbatim:`` to apply these
 settings to the entire block.  For example,
 
-.. ipython::
-   :verbatim:
+.. code:: python3
 
    In [9]: cd mpl/examples/
    /home/jdhunter/mpl/examples
@@ -214,7 +211,7 @@ settings to the entire block.  For example,
 You can create one or more pyplot plots and insert them with the
 ``@savefig`` decorator.
 
-.. ipython::
+.. code:: python3
 
    @savefig plot_simple.png width=4in
    In [151]: plot([1,2,3]);
@@ -226,7 +223,7 @@ You can create one or more pyplot plots and insert them with the
 In a subsequent session, we can update the current figure with some
 text, and then resave 
 
-.. ipython::
+.. code:: python3
 
 
    In [151]: ylabel('number')
@@ -238,7 +235,7 @@ text, and then resave
 
 You can also have function definitions included in the source.
 
-.. ipython::
+.. code:: python3
 
    In [3]: def square(x):   
       ...:     """
@@ -252,7 +249,7 @@ You can also have function definitions included in the source.
 
 Then call it from a subsequent section.
 
-.. ipython::
+.. code:: python3
 
    In [4]: square(3)
    Out [4]: 9
@@ -268,7 +265,7 @@ Pure python code is supported by the optional argument `python`. In this pure
 python syntax you do not include the output from the python interpreter. The 
 following markup::
 
-   .. ipython:: python
+   .. code:: python
       
       foo = 'bar'
       print foo
@@ -277,7 +274,7 @@ following markup::
 
 Renders as
 
-.. ipython:: python
+.. code:: python
 
    foo = 'bar'
    print foo
@@ -287,36 +284,35 @@ Renders as
 We can even plot from python, using the savefig decorator, as well as, suppress
 output with a semicolon
 
-.. ipython:: python
+.. code:: python
 
    @savefig plot_simple_python.png width=4in
    plot([1,2,3]);
 
 Similarly, std err is inserted
 
-.. ipython:: python
+.. code:: python
 
    foo = 'bar'
    foo[)
 
 Comments are handled and state is preserved
 
-.. ipython:: python
+.. code:: python
 
    # comments are handled
    print foo
 
 If you don't see the next code block then the options work.
 
-.. ipython:: python
-   :suppress:
+.. code:: python
 
    ioff()
    ion()
 
 Multi-line input is handled.
 
-.. ipython:: python
+.. code:: python
 
    line = 'Multi\
            line &\
@@ -326,7 +322,7 @@ Multi-line input is handled.
 
 Functions definitions are correctly parsed
 
-.. ipython:: python
+.. code:: python
 
    def square(x):
        """
@@ -339,7 +335,7 @@ Functions definitions are correctly parsed
 
 And persist across sessions
 
-.. ipython:: python
+.. code:: python
 
    print square(3)
    print square(-2)

@@ -1,3 +1,5 @@
+.. _ipydevguide:
+
 IPython Development Guide
 =========================
 

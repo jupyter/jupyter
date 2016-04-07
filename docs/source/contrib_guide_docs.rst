@@ -38,7 +38,7 @@ notebook files end with ``.ipynb``.
    Jupyter ``.ipynb`` file, please clear the output cells. Save the file and
    test your change.
 
-Test documentation changes\*
+Test documentation changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sphinx should be installed to test your documentation changes. For best results,
@@ -62,7 +62,7 @@ the ``docs`` directory:
   documentation are valid or if they are not longer current (i.e. cause a 500
   not found error).
 
-\* Note: We recommend using Python 3.4+ for building the documentation. If you are editing the documentation, you can use Python 2.7.9+ or the Github editor. 
+Note: We recommend using Python 3.4+ for building the documentation. If you are editing the documentation, you can use Python 2.7.9+ or the Github editor. 
 
 Create a pull request
 ~~~~~~~~~~~~~~~~~~~~~
@@ -87,7 +87,7 @@ Git and Github Resources
 If this is your first time working with Github or git, you can leverage the following
 resources to learn about the tools.
 
-* `Try Git  <https://try.github.io>`_
+* `Try Git  <https://try.github.io/levels/1/challenges/1>`_
 * `Github Guides  <https://guides.github.com>`_
 * `Git Real  <https://www.codeschool.com/courses/git-real>`_
 * `Git Documentation <https://git-scm.com/documentation>`_
