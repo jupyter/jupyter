@@ -1,6 +1,10 @@
-================================
-Contributing to the Jupyter Blog
-================================
+====================
+Communications Guide
+====================
+
+====
+Blog
+====
 
 We publish our blog at `<https://blog.jupyter.org>`_. We welcome ideas for posts
 or guest posts to the Jupyter blog. If you have a suggestion for a future post,
@@ -118,4 +122,15 @@ strike-through to mark it as obsolete. This would help reader determine which
 information is correct when dealing with multiple source giving different
 informations. 
 
+==========
+Newsletter
+==========
+
+Documentation in progress.
+
+=======
+Website
+=======
+
+Documentation in progress.
 
