@@ -1,6 +1,6 @@
-========================
-Contributing to the Code
-========================
+===============
+Developer Guide
+===============
 
 A Note on Contributing to Open Source
 -------------------------------------
