@@ -15,9 +15,19 @@ Contents
 
    getting-started.rst
    doc-workflow.rst
-   repo-structure.rst
    doc-tools.rst
    doc-style.rst
    doc-bugs.rst
    doc-build.rst
    doc-tracking.rst
+
+
+Setting up a new project
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 1
+
+   doc-new-repos.md
+   repo-structure.rst
+   doc-new-build.md
