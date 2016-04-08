@@ -1,9 +1,9 @@
 .. _subprojects:
 
 
-========
-Projects
-========
+================
+Jupyter projects
+================
 
 Project Jupyter is developed as a set of subprojects. The following is a topical
 list of the officially supported and maintained subprojects with links to the

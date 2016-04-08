@@ -1,6 +1,10 @@
-================================
-Contributing to the Jupyter Blog
-================================
+====================
+Communications Guide
+====================
+
+
+Blog
+----
 
 We publish our blog at `<https://blog.jupyter.org>`_. We welcome ideas for posts
 or guest posts to the Jupyter blog. If you have a suggestion for a future post,
@@ -11,13 +15,13 @@ Do you enjoy writing? Please contact us about becoming a guest blogger. We can
 help guide you through the process of creating a post.
 
 Technical overview
-------------------
+~~~~~~~~~~~~~~~~~~
 
 Jupyter's blog uses the Ghost blog platform for its contributor flexibility and
 ease of use. Jupyter's blog is deployed at `<https://blog.jupyter.org>`_.
 
 Basic workflow from blog idea to published post
------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are several major steps in the workflow from blog idea to a published post
 including:
@@ -31,15 +35,15 @@ We'll cover each of these as well as how to update a post once it has been
 published.
 
 Creating a draft
-----------------
+~~~~~~~~~~~~~~~~
 
 Title and metadata
-~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^
 
 Alway check in the metadata fields that a blog post has a title and a canonical
 URL. It is possible to put the date in the canonical URL, in particular for events
 like jupyter-day, that can occur several times. The date of the event can differ
-from the date of the blog post. 
+from the date of the blog post.
 
 Once a post is published, **never** change the post's title or the url. These
 changes will break links of tweets and RSS feeds that have already referenced
@@ -49,10 +53,10 @@ a 404 page.
 
 Title and metadata can always be refined after the actual content of the blog
 is written, but should not be changed after publication. As a guest you do not
-have to worry about metadata, the editor or admins will take care of that. 
+have to worry about metadata, the editor or admins will take care of that.
 
 Working with images
-~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^
 
 Try not to link to external images. If you want to put an image in the post,
 insert ``![]()`` in the editor view and drag and drop an image from your
@@ -66,47 +70,47 @@ The featured image you see at the top of a blog posts is set from within the
 metadata field, not using the `![]()`. The featured image is treated differently
 than inlined images by many feedreaders (especially on mobile) and allows a user
 on a slow connection to read the content of the blog earlier, which is a much
-better experience for the user than waiting for the featured image to render.  
+better experience for the user than waiting for the featured image to render.
 
 Links
-~~~~~
+^^^^^
 
 Do not use minified links when possible. The multiple redirects of minified
 links degrades the mobile browsing experience. If you need analytics of
-the number of page views, this information is tracked by Google Analytics. 
+the number of page views, this information is tracked by Google Analytics.
 
 Draft review
-------------
+~~~~~~~~~~~~
 
 Ask for a review
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 
 Once you think you are done, ask someone else to reread your post, and check
-the various parameters that you might have forgotten before publishing. 
+the various parameters that you might have forgotten before publishing.
 You are not on your own, this is teamwork, we are here to help you.
-If we do things in a hurry you will probably spend more time fixing mistakes 
-that actually doing things right in a first place. 
+If we do things in a hurry you will probably spend more time fixing mistakes
+that actually doing things right in a first place.
 
 Editorial acceptance
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Publishing the post
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Usually an editor or admin will take care of publishing the post. The task of
 the Editor/Admin is to check all metadata are correctly set, that no external
-images are used, as well as all other quality check describe before. 
+images are used, as well as all other quality check describe before.
 
 It is then just a matter of making th post visible to everyone.
 
 Changing an existing post
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Posts Updates
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 Blog subscribers may receive notification at every update. So use updates and
-fixes parsimoniously. It is OK to wait a few hours to fix a typo. 
+fixes parsimoniously. It is OK to wait a few hours to fix a typo.
 
 If some substantial updates have to be made, like change of location, time etc,
 please insert an `[Update]` section at top (or bottom of the blog post
@@ -114,6 +118,16 @@ depending on importance) with the Date/Time of the update. If the information
 in the body of the blog is wrong, try not to replace it, and just use
 strike-through to mark it as obsolete. This would help reader determine which
 information is correct when dealing with multiple source giving different
-informations. 
+informations.
 
+Newsletter
+----------
+
+Documentation in progress.
+
+
+Website
+-------
+
+Documentation in progress.
 

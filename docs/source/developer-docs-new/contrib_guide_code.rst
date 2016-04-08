@@ -1,6 +1,6 @@
-========================
-Contributing to the Code
-========================
+===============
+Developer Guide
+===============
 
 A Note on Contributing to Open Source
 -------------------------------------
@@ -105,4 +105,4 @@ be able to lend you assistance.
 
 Contribution Workflow
 ---------------------
-.. image:: _static/_images/contribution_workflow.png
+.. image:: ../_static/_images/contribution_workflow.png

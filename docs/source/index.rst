@@ -6,17 +6,20 @@ Project Jupyter and IPython
 
 **Parts of the documentation:**
 
-.. csv-table::
-   :header: "Site", "Description"
-   :widths: 18, 35
-
-   :ref:`Jupyter Notebook Quickstart <user-docs>`, Get started
-   :ref:`User Stories <about-docs>`, Common use cases in industries
-   :ref:`Projects <jupyter-subprojects>`, High level descriptions
-   :ref:`Documentation by project <project-links>`, "Usage, configuration, and development information"
-   :ref:`Technical overview <tech-overview>`, Visual overview of how projects are used together
-   :ref:`Contributor Guide <dev-docs>`, "Contribute code, documentation, tutorials, and more"
-   :ref:`IPython Development guide <ipydevguide>`, Legacy IPython wiki reference documentation
+:ref:`Jupyter Notebook Quickstart <user-docs>`
+    Get started
+:ref:`User Stories <about-docs>`
+    Common use cases in industries
+:ref:`Technical Overview <tech-overview>`
+    Visual overview of projects and architecture
+:ref:`Projects <jupyter-subprojects>`
+    High level descriptions
+:ref:`Documentation by Project <project-links>`
+    Usage, configuration, and development information
+:ref:`Contributor Guide <dev-docs>`
+    Contribute code, documentation, tutorials, and more
+:ref:`IPython Development Guide <ipydevguide>`
+    Legacy IPython wiki reference documentation
 
 
 .. _fulltoc:
@@ -46,6 +49,16 @@ Full Table of Contents
    education
    hpc
 
+.. _tech-overview:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Technical Overview
+
+   visual_overview
+   system
+   config
+
 .. _jupyter-subprojects:
 
 .. toctree::
@@ -56,60 +69,15 @@ Full Table of Contents
    ipython_projects
    incubator
    kernels
-   jupyter_enhancement_proposals
 
 .. _project-links:
 
-Documentation by project
-------------------------
-
-Usage, configuration and development information
-
-.. hlist::
-    :columns: 2
-
-    * Jupyter Notebook
-    * JupyterHub
-    * jupyter_client
-    * jupyter_console
-    * jupyter_core
-    * nbconvert
-    * nbgrader
-    * qtconsole
-    * ipykernel
-    * ipyparallel
-    * IPython
-    * ipywidgets
-    * traitlets
-    * colaboratory
-    * configurable-http-proxy
-    * docker-stacks
-    * dockspawner
-    * jupyter-driver
-    * jupyter-js-notebook
-    * jupyter-js-phosphide
-    * jupyter-js-plugins
-    * jupyter-js-services
-    * jupyter-js-ui
-    * jupyter-js-utils
-    * jupyter-sphinx-theme
-    * kernel_gateway
-    * ldapauthenticator
-    * nbformat
-    * nbviewer
-    * oauthenticator
-    * sudospawner
-    * tmpnb
-
-.. _tech-overview:
-
 .. toctree::
    :maxdepth: 1
-   :caption: Technical overview
+   :caption: Project Documentation
 
-   visual_overview
-   system
-   config
+   doc-proj-alpha
+   doc-proj-categories
 
 .. _dev-docs:
 
@@ -118,12 +86,9 @@ Usage, configuration and development information
    :caption: Contributor Documentation
 
    contrib_guide_welcome
-   contrib_guide_code
-   contrib_guide_bugs_enh
-   contrib_guide_docs
-   contrib_guide_site
+   developer-docs-new/index
+   contrib_docs/index
    contrib_guide_blog
-   contrib_guide_newsletter
 
 .. _ipy-wiki:
 

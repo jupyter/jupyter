@@ -1,2 +1,2 @@
-Jupyter Incubator Projects
+Jupyter Incubator projects
 ==========================

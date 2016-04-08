@@ -1,2 +1,0 @@
-Jupyter Enhancement Proposals
-=============================
