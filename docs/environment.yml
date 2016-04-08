@@ -1,0 +1,6 @@
+name: jupyter_docs
+dependencies:
+- sphinx_rtd_theme
+- pip:
+    - sphinx>=1.3.6
+    - recommonmark
