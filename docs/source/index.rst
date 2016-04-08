@@ -36,7 +36,6 @@ Project Jupyter and IPython
    ipython_projects
    incubator
    kernels
-   jupyter_enhancement_proposals
 
 .. _tech-overview:
 
@@ -55,8 +54,7 @@ Project Jupyter and IPython
    :caption: Contributor Documentation
 
    contrib_guide_welcome
-   contrib_guide_code
-   contrib_guide_bugs_enh
+   developer-docs-new/index
    contrib_docs/index
    contrib_guide_blog
 
