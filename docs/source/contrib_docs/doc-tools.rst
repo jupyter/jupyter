@@ -6,11 +6,11 @@ Builders
 For user documentation, contributor guides, and communications content, we
 use:
 
-    - [Sphinx](http://www.sphinx-doc.org/en/stable/)
+    - `Sphinx <http://www.sphinx-doc.org/en/stable>`_
 
 For developer API documentation (especially for JupyterLab js repos), we use:
 
-    - [swagger](http://swagger.io/)
+    - `swagger <http://swagger.io/>`_
 
 Source file formats
 -------------------
@@ -22,7 +22,7 @@ documentation:
     - Notebook (``.ipynb)
 
 A modern code editor should be used. Many are available including Atom,
-SublimeText, gedit, vim, emacs. [Atom](https://atom.io/) is a good choice for
+SublimeText, gedit, vim, emacs. `Atom <https://atom.io/>`_ is a good choice for
 new contributors.
 
 Sphinx themes
