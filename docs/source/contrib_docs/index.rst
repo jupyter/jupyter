@@ -29,5 +29,5 @@ Setting up a new project
    :maxdepth: 1
 
    doc-new-repos.md
-   repo-structure.rst
+   repo-structure.md
    doc-new-build.md
