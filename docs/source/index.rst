@@ -37,6 +37,19 @@ Project Jupyter and IPython
    incubator
    kernels
 
+<<<<<<< HEAD
+=======
+.. _project-links:
+
+.. toctree::
+   :titlesonly:
+   :caption: Project Documentation
+
+   doc-proj-categories
+   doc-proj-alpha
+
+
+>>>>>>> ea3930f... Update the index
 .. _tech-overview:
 
 .. toctree::
