@@ -29,9 +29,9 @@ Project Documentation (alphabetically)
 * `nbconvert <http://nbconvert.readthedocs.org/en/latest/>`_
 * `nbformat <http://nbformat.readthedocs.org/en/latest/>`_
 * `nbgrader <http://nbgrader.readthedocs.org/en/latest/>`_
-* `nbviewer <http://nbviewer.readthedocs.org/en/latest/>`_
-* `oauthenticator <http://oauthenticator.readthedocs.org/en/latest/>`_
+* `nbviewer <https://github.com/jupyter/nbviewer>`_
+* `oauthenticator <https://github.com/jupyter/oauthenticator>`_
 * `qtconsole <https://qtconsole.readthedocs.org/en/stable/>`_
-* `sudospawner <http://sudospawner.readthedocs.org/en/latest/>`_
+* `sudospawner <https://github.com/jupyter/sudospawner>`_
 * `tmpnb <https://github.com/jupyter/tmpnb>`_
 * `traitlets <http://traitlets.readthedocs.org/en/stable/>`_

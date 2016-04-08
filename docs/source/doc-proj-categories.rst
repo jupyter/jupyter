@@ -16,8 +16,8 @@ JupyterHub
     * `configurable-http-proxy <https://github.com/jupyter/configurable-http-proxy>`_
     * `dockerspawner <https://github.com/jupyter/dockerspawner>`_
     * `ldapauthenticator <https://github.com/jupyter/ldapauthenticator>`_
-    * `oauthenticator <http://oauthenticator.readthedocs.org/en/latest/>`_
-    * `sudospawner <http://sudospawner.readthedocs.org/en/latest/>`_
+    * `oauthenticator <https://github.com/jupyter/oauthenticator>`_
+    * `sudospawner <https://github.com/jupyter/sudospawner>`_
 
 Education
 ~~~~~~~~~
@@ -40,7 +40,7 @@ Deployment
     * `jupyter-drive <https://github.com/jupyter/jupyter-drive>`_
     * `jupyter-sphinx-theme <https://github.com/jupyter/jupyter-sphinx-theme>`_
     * `kernel_gateway <http://jupyter-kernel-gateway.readthedocs.org/en/latest/>`_
-    * `nbviewer <http://nbviewer.readthedocs.org/en/latest/>`_
+    * `nbviewer <https://github.com/jupyter/nbviewer>`_
     * `tmpnb <https://github.com/jupyter/tmpnb>`_
     * `traitlets <http://traitlets.readthedocs.org/en/stable/>`_
 
