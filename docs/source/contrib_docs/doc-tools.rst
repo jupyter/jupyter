@@ -19,7 +19,7 @@ documentation:
 
     - reStructuredText (``.rst``)
     - Markdown (``.md``)
-    - Notebook (``.ipynb)
+    - Notebook (``.ipynb``)
 
 A modern code editor should be used. Many are available including Atom,
 SublimeText, gedit, vim, emacs. `Atom <https://atom.io/>`_ is a good choice for
