@@ -26,6 +26,16 @@ Project Jupyter and IPython
    education
    hpc
 
+.. _tech-overview:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Technical Overview
+
+   visual_overview
+   system
+   config
+
 .. _jupyter-subprojects:
 
 .. toctree::
@@ -37,19 +47,14 @@ Project Jupyter and IPython
    incubator
    kernels
 
-<<<<<<< HEAD
-=======
 .. _project-links:
 
 .. toctree::
-   :titlesonly:
+   :maxdepth: 1
    :caption: Project Documentation
 
-   doc-proj-categories
    doc-proj-alpha
 
-
->>>>>>> ea3930f... Update the index
 .. _tech-overview:
 
 .. toctree::
