@@ -56,7 +56,6 @@ Full Table of Contents
    ipython_projects
    incubator
    kernels
-   jupyter_enhancement_proposals
 
 .. _project-links:
 
@@ -118,8 +117,7 @@ Usage, configuration and development information
    :caption: Contributor Documentation
 
    contrib_guide_welcome
-   contrib_guide_code
-   contrib_guide_bugs_enh
+   developer-docs-new/index
    contrib_docs/index
    contrib_guide_blog
 
