@@ -2,9 +2,10 @@
 Documentation Guide
 ===================
 
-This guide gives information about contributing to documentation. Please
-refer to this guide so Project Jupyter's documentation can be helpful,
-concise, and consistent across the various projects and tools.
+Documentation helps guide new users, fosters communication between developers,
+and shares tips and best practices with other community members. That's why
+the Jupyter project is focused on documenting new features and to keeping
+the documentation up-to-date.
 
 Contents
 --------
