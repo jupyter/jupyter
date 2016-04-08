@@ -1,5 +1,4 @@
-name: jupyterhub
-type: sphinx
-requirements_file: docs/requirements.txt
+conda:
+    file: docs/environment.yml
 python:
-  version: 3
+    version: 3
