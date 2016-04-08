@@ -60,7 +60,7 @@ Full Table of Contents
 .. _project-links:
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
    :caption: Project Documentation
 
    doc-proj-categories
