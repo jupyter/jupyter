@@ -105,4 +105,4 @@ be able to lend you assistance.
 
 Contribution Workflow
 ---------------------
-.. image:: _static/_images/contribution_workflow.png
+.. image:: ../_static/_images/contribution_workflow.png
