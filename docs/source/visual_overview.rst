@@ -1,7 +1,8 @@
 A Visual Overview of Projects
 =============================
 
-This will be a high level visual overview of project relationships (i.e.
-Thomas' graphic from the dev meeting.)
+**A high level visual overview of project relationships**
 
-Down the road a project dependency matrix will be added.
+
+.. image:: _static/_images/repos_map.svg
+
