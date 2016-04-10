@@ -15,6 +15,16 @@ Project Jupyter and IPython
     running
     migrating
 
+.. _tech-overview:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Architecture
+
+   visual_overview
+   system
+   config
+
 .. _about-docs:
 
 .. toctree::
@@ -25,16 +35,6 @@ Project Jupyter and IPython
    science
    education
    hpc
-
-.. _tech-overview:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Technical Overview
-
-   visual_overview
-   system
-   config
 
 .. _jupyter-subprojects:
 
@@ -72,18 +72,22 @@ Project Jupyter and IPython
    :caption: Contributor Documentation
 
    contrib_guide_welcome
-   developer-docs-new/index
+   developer-docs/index
+   development_guide/index
    contrib_docs/index
    contrib_guide_blog
 
-.. _ipy-wiki:
+.. _reference:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Old IPython Wiki
+   :caption: Reference
 
-   development_guide/index
+.. _community:
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Community
 
 **Resources:**
 
