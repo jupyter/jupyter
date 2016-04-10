@@ -1,4 +1,4 @@
-.. _landing:
+.. _contents:
 
 ===========================
 Project Jupyter and IPython
@@ -92,6 +92,13 @@ Project Jupyter and IPython
    :caption: Community
 
    community
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
 
 
 **Resources:**
