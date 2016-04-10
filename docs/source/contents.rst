@@ -83,11 +83,16 @@ Project Jupyter and IPython
    :maxdepth: 1
    :caption: Reference
 
+   reference
+
 .. _community:
 
 .. toctree::
    :maxdepth: 1
    :caption: Community
+
+   community
+
 
 **Resources:**
 

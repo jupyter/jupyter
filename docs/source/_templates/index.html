@@ -3,26 +3,29 @@
 {% block body %}
   <h1>{{ _('Welcome') }}</h1>
 
-  <h2 style="margin-bottom: 0">{%trans%}Documentation{%endtrans%}</h2>
+
+  <h2 style="margin-bottom: 10 px">{%trans%}Documentation{%endtrans%}</h2>
 
   <table class="contentstable" align="center" style="margin-left: 30px"><tr>
     <td width="50%">
-      <p class="biglink"><a class="biglink" href="{{ pathto("tutorial") }}">{%trans%}Jupyter Notebook Quickstart{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("tryjupyter") }}">{%trans%}Jupyter Notebook Quickstart{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}Try the notebook{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">{%trans%}Architecture{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("visual_overview") }}">{%trans%}Architecture{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}What is Jupyter?{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">{%trans%}User Stories{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("data_science") }}">{%trans%}User Stories{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}Common use cases{%endtrans%}</span></p>
 
-      <p class="biglink"><a class="biglink" href="{{ pathto("search") }}">{%trans%}Projects{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("subprojects") }}">{%trans%}Projects{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}Installation, configuration, and usage{%endtrans%}</span></p>
     </td><td width="50%">
-      <p class="biglink"><a class="biglink" href="{{ pathto("genindex") }}">{%trans%}Contributor Guides{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("contrib_guide_welcome") }}">{%trans%}Contributor Guides{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}How to contribute to the projects{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("genindex") }}">{%trans%}Reference{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("reference") }}">{%trans%}Reference{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}apis{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("genindex") }}">{%trans%}Community{%endtrans%}</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("community") }}">{%trans%}Community{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}Sustainability and growth{%endtrans%}</span></p>
+       <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">{%trans%}Contents{%endtrans%}</a><br/>
+         <span class="linkdescr">{%trans%}Full table of contents{%endtrans%}</span></p>
     </td></tr>
   </table>
 
