@@ -4,7 +4,7 @@
   <h1>{{ _('Welcome') }}</h1>
 
 
-  <h2 style="margin-bottom: 10 px">{%trans%}Documentation{%endtrans%}</h2>
+  <h2 style="margin-bottom: 10 px">{%trans%}Start Here{%endtrans%}</h2>
 
   <table class="contentstable" align="center" style="margin-left: 30px"><tr>
     <td width="50%">
@@ -14,10 +14,10 @@
          <span class="linkdescr">{%trans%}What is Jupyter?{%endtrans%}</span></p>
       <p class="biglink"><a class="biglink" href="{{ pathto("data_science") }}">{%trans%}User Stories{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}Common use cases{%endtrans%}</span></p>
-
       <p class="biglink"><a class="biglink" href="{{ pathto("subprojects") }}">{%trans%}Projects{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}Installation, configuration, and usage{%endtrans%}</span></p>
-    </td><td width="50%">
+    </td>
+    <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("contrib_guide_welcome") }}">{%trans%}Contributor Guides{%endtrans%}</a><br/>
          <span class="linkdescr">{%trans%}How to contribute to the projects{%endtrans%}</span></p>
       <p class="biglink"><a class="biglink" href="{{ pathto("reference") }}">{%trans%}Reference{%endtrans%}</a><br/>
@@ -29,85 +29,50 @@
     </td></tr>
   </table>
 
-  <h2>Jupyter and IPython Projects</h2>
-
+  <h2 style="margin-bottom: 10 px">{%trans%}Project documentation{%endtrans%}</h2>
 
   <table class="contentstable" align="center" style="margin-left: 30px"><tr>
     <td width="50%">
-      <p class="biglink">{%trans%}Jupyter user interfaces{%endtrans%}<br/>
-         <span class="linkdescr">{%trans%}<a href="http://jupyter-notebook.readthedocs.org/en/latest/" Jupyter Notebook>{%endtrans%}</span></p>
-         <span class="linkdescr">{%trans%}<a href="http://jupyter-consolereadthedocs.org/en/latest/" jupyter_console{%endtrans%}</span></p>
-         <span class="linkdescr">{%trans%}<a href="https://qtconsole.readthedocs.org/en/stable/" qtconsole>{%endtrans%}</span></p>
-
-      <p class="biglink"><a class="biglink" href="{{ pathto("visual_overview") }}">{%trans%}JupyterHub{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}What is Jupyter?{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("dhttp://jupyter-notebook.readthedocs.org/en/latest/" ata_science") }}">{%trans%}User Stories{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}Common use cases{%endtrans%}</span></p>
-
-      <p class="biglink"><a class="biglink" href="{{ pathto("subprojects") }}">{%trans%}Projects{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}Installation, configuration, and usage{%endtrans%}</span></p>
-    </td><td width="50%">
-      <p class="biglink"><a class="biglink" href="{{ pathto("contrib_guide_welcome") }}">{%trans%}Contributor Guides{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}How to contribute to the projects{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("reference") }}">{%trans%}Reference{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}apis{%endtrans%}</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("community") }}">{%trans%}Community{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}Sustainability and growth{%endtrans%}</span></p>
-       <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">{%trans%}Contents{%endtrans%}</a><br/>
-         <span class="linkdescr">{%trans%}Full table of contents{%endtrans%}</span></p>
-    </td></tr>
-  </table>
-
-    * `Jupyter Notebook <http://jupyter-notebook.readthedocs.org/en/latest/>`_
-    * `jupyter_console <http://jupyter-console.readthedocs.org/en/latest/>`_
-    * `qtconsole <https://qtconsole.readthedocs.org/en/stable/>`_
-
-JupyterHub
-~~~~~~~~~~
-    * `JupyterHub <http://jupyterhub.readthedocs.org/en/latest/>`_
-    * `configurable-http-proxy <https://github.com/jupyter/configurable-http-proxy>`_
-    * `dockerspawner <https://github.com/jupyter/dockerspawner>`_
-    * `ldapauthenticator <https://github.com/jupyter/ldapauthenticator>`_
-    * `oauthenticator <https://github.com/jupyter/oauthenticator>`_
-    * `sudospawner <https://github.com/jupyter/sudospawner>`_
-
-Education
-~~~~~~~~~
-    * `nbgrader <http://nbgrader.readthedocs.org/en/latest/>`_
-
-Notebook conversion and formatting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    * `nbconvert <http://nbconvert.readthedocs.org/en/latest/>`_
-    * `nbformat <http://nbformat.readthedocs.org/en/latest/>`_
-
-Kernels
-~~~~~~~
-    * `ipykernel <https://ipython.readthedocs.org/en/stable/>`_
-    * `ipyparallel <https://ipyparallel.readthedocs.org/en/latest/>`_
-
-Deployment
-~~~~~~~~~~
-    * `docker-stacks <https://github.com/jupyter/docker-stacks>`_
-    * `ipywidgets <https://ipywidgets.readthedocs.org/en/latest/>`_
-    * `jupyter-drive <https://github.com/jupyter/jupyter-drive>`_
-    * `jupyter-sphinx-theme <https://github.com/jupyter/jupyter-sphinx-theme>`_
-    * `kernel_gateway <http://jupyter-kernel-gateway.readthedocs.org/en/latest/>`_
-    * `nbviewer <https://github.com/jupyter/nbviewer>`_
-    * `tmpnb <https://github.com/jupyter/tmpnb>`_
-    * `traitlets <http://traitlets.readthedocs.org/en/stable/>`_
-
-JupyterLab
-~~~~~~~~~~
-    * `jupyter-js-notebook <https://github.com/jupyter/jupyter-js-notebook>`_
-    * `jupyter-js-phosphide <https://github.com/jupyter/jupyter-js-phosphide>`_
-    * `jupyter-js-plugins <https://github.com/jupyter/jupyter-js-plugins>`_
-    * `jupyter-js-services <http://jupyter.org/jupyter-js-services/>`_
-    * `jupyter-js-ui <http://jupyter.org/jupyter-js-ui/>`_
-    * `jupyter-js-utils <http://jupyter.org/jupyter-js-utils/>`_
-
-Architecture
-~~~~~~~~~~~~
-    * `jupyter_client <http://jupyter-client.readthedocs.org/en/latest/>`_
-    * `jupyter_core <http://jupyter-core.readthedocs.org/en/latest/>`_
+      <p>Jupyter user interfaces</p>
+         <a href="http://jupyter-notebook.readthedocs.org/en/latest/"> {%trans%}Jupyter Notebook{%endtrans%}</a><br/>
+         <a href="http://jupyter_consolereadthedocs.org/en/latest/"> {%trans%}Jupyter console{%endtrans%}</a><br/>
+         <a href="https://qtconsole.readthedocs.org/en/stable/"> {%trans%}Qt console{%endtrans%}</a></p>
+      <p>JupyterHub</p>
+         <a href="http://jupyterhub.readthedocs.org/en/latest/"> {%trans%}JupyterHub{%endtrans%}</a><br/>
+         <a href="https://github.com/jupyter/configurable-http-proxy"> {%trans%}configurable HTTP proxy{%endtrans%}</a><br/>
+         <a href="https://github.com/jupyter/dockerspawner"> {%trans%}dockerspawner{%endtrans%}</a><br/>
+         <a href="https://github.com/jupyter/ldapauthenticator"> {%trans%}ldapauthenticator{%endtrans%}</a><br/>
+         <a href="https://github.com/jupyter/oauthenticator"> {%trans%}oauthenticator{%endtrans%}</a><br/>
+         <a href="https://github.com/jupyter/sudospawner"> {%trans%}sudospawner{%endtrans%}</a></p>
+      <p>Education</p>
+         <a href="http://nbgrader.readthedocs.org/en/latest/">{%trans%}nbgrader{%endtrans%}</a></p>
+      <p>Conversion and formatting</p>
+         <a href="http://nbconvert.readthedocs.org/en/latest/">{%trans%}nbconvert{%endtrans%}</a><br/>
+         <a href="http://nbformat.readthedocs.org/en/latest/">{%trans%}nbformat{%endtrans%}</a></p>
+      <p>Kernels</p>
+         <a href="https://ipython.readthedocs.org/en/stable/">{%trans%}ipykernel{%endtrans%}</a><br/>
+         <a href="https://ipyparallel.readthedocs.org/en/latest/">{%trans%}ipyparallel{%endtrans%}</a></p>
+    </td><td width="50%">      
+      <p>Architecture</p>
+         <a href="http://jupyter-client.readthedocs.org/en/latest/">{%trans%}jupyter_client{%endtrans%}</a><br/>
+         <a href="http://jupyter-core.readthedocs.org/en/latest/">{%trans%}jupyter_core{%endtrans%}</a></p> 
+      <p>Deployment</p>
+      <a href="https://github.com/jupyter/docker-stacks">{%trans%}docker-stacks{%endtrans%}</a><br/>
+      <a href="https://ipywidgets.readthedocs.org/en/latest/">{%trans%}ipywidgets{%endtrans%}</a><br/>
+      <a href="https://github.com/jupyter/jupyter-drive">{%trans%}jupyter-drive{%endtrans%}</a><br/>
+      <a href="https://github.com/jupyter/jupyter-sphinx-theme">{%trans%}jupyter-sphinx-theme{%endtrans%}</a><br/>
+      <a href="http://jupyter-kernel-gateway.readthedocs.org/en/latest/">{%trans%}kernel_gateway{%endtrans%}</a><br/>
+      <a href="https://github.com/jupyter/nbviewer/">{%trans%}nbviewer{%endtrans%}</a><br/>
+      <a href="https://github.com/jupyter/tmpnb">{%trans%}tmpnb{%endtrans%}</a><br/>
+      <a href="http://traitlets.readthedocs.org/en/stable/">{%trans%}traitlets{%endtrans%}</a></p>
+      <p>JupyterLab</p>
+      <a href="https://github.com/jupyter/jupyter-js-notebook">{%trans%}jupyter-js-notebook{%endtrans%}</a><br/>
+      <a href="https://github.com/jupyter/jupyter-js-phosphide">{%trans%}jupyter-js-phosphide{%endtrans%}</a><br/>
+      <a href="https://github.com/jupyter/jupyter-js-plugins">{%trans%}jupyter-js-plugins{%endtrans%}</a><br/>
+      <a href="http://jupyter.org/jupyter-js-services/">{%trans%}jupyter-js-services{%endtrans%}</a><br/>
+      <a href="http://jupyter.org/jupyter-js-ui/">{%trans%}jupyter-js-ui{%endtrans%}</a><br/>
+      <a href="http://jupyter.org/jupyter-js-utils/">{%trans%}jupyter-js-utils{%endtrans%}</a></p>
+</td></tr>
+</table>
 
 {% endblock %}

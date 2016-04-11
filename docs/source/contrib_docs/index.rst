@@ -21,9 +21,8 @@ Contents
    doc-build.rst
    doc-tracking.rst
 
-
-Setting up a new project
-~~~~~~~~~~~~~~~~~~~~~~~~
+Adding documentation to a new project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 1

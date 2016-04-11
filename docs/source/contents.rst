@@ -77,15 +77,11 @@ Project Jupyter and IPython
    contrib_docs/index
    contrib_guide_blog
 
-.. _reference:
-
 .. toctree::
    :maxdepth: 1
    :caption: Reference
 
    reference
-
-.. _community:
 
 .. toctree::
    :maxdepth: 1
@@ -93,12 +89,11 @@ Project Jupyter and IPython
 
    community
 
-
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`search`
+:ref:`genindex`
+:ref:`search`
 
 
 **Resources:**

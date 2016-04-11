@@ -298,7 +298,7 @@ intersphinx_mapping = {
     'ipython': ('https://ipython.readthedocs.org/en/latest/', None),
     'nbconvert': ('https://nbconvert.readthedocs.org/en/latest/', None),
     'nbformat': ('https://nbformat.readthedocs.org/en/latest/', None),
-#    'ipywidgets': ('https://ipywidgets.readthedocs.org/en/latest/', None),  TODO: Enable once ipywidgets is on RTD
+    'ipywidgets': ('https://ipywidgets.readthedocs.org/en/latest/', None),
     'traitlets': ('https://traitlets.readthedocs.org/en/latest/', None),
     'ipyparallel': ('https://ipyparallel.readthedocs.org/en/latest/', None),
     'notebook': ('https://jupyter-notebook.readthedocs.org/en/latest/', None),
