@@ -10,11 +10,12 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    contrib_guide_code.rst
    contrib_guide_bugs_enh.rst
    jupyter_enhancement_proposals.rst
+   ../development_guide/index.rst
 
 
 

@@ -1,10 +1,9 @@
-=======
-Welcome
-=======
+=====================
+Welcome, Contributors
+=====================
 
 Whether you are a new, returning, or current contributor to Project
-Jupyter's subprojects, such as Jupyter Notebook, or language kernels, like
-IPython, **we welcome you**.
+Jupyter's subprojects or IPython, **we welcome you**.
 
 Project Jupyter has seen strong growth over the past several years, and it is
 wonderful to see the many ways people are using these projects. As a result of
@@ -28,3 +27,13 @@ involved.
 We are very pleased to have you as a contributor, and we hope you
 will find valuable your impact on the projects. Again, **thank you** for
 sharing your interests, ideas, and skills with us.
+
+**Contributor Guides**
+
+.. toctree::
+   :maxdepth: 1
+
+   developer-docs/index
+   development_guide/index
+   contrib_docs/index
+   contrib_guide_blog

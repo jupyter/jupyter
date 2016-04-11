@@ -69,7 +69,7 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contributor Documentation
+   :caption: Contributor Guides
 
    contrib_guide_welcome
    developer-docs/index
@@ -92,8 +92,8 @@ Project Jupyter and IPython
 Indices and tables
 ==================
 
-:ref:`genindex`
-:ref:`search`
+- :ref:`genindex`
+- :ref:`search`
 
 
 **Resources:**

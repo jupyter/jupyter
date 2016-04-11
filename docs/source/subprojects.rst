@@ -1,6 +1,5 @@
 .. _subprojects:
 
-
 ================
 Jupyter projects
 ================

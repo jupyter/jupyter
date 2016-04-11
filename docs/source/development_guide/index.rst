@@ -1,7 +1,7 @@
 .. _ipydevguide:
 
-IPython Development Guide
-=========================
+IPython Development Guide (source: old IPython wiki)
+====================================================
 
 .. attention::
     This is copied verbatim from the old IPython wiki and is currently under development. Much of the information in this part of the development guide is out of date.
