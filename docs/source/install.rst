@@ -11,9 +11,9 @@ While Jupyter runs code in many different programming languages, Python is a
 prerequisite for installing Jupyter notebook. Select one of the scenarios to
 install Jupyter:
 
-    - :ref:`Installing Jupyter and Python <new-to-python-and-jupyter>`
-    - :ref:`Installing Jupyter (I already have Python) <existing-python-new-jupyter>`
-    - :ref:`Upgrading a Jupyter installation <upgrading>`
+- :ref:`Installing Jupyter and Python <new-to-python-and-jupyter>`
+- :ref:`Installing Jupyter (I already have Python) <existing-python-new-jupyter>`
+- :ref:`Upgrading a Jupyter installation <upgrading>`
 
 .. note::
 
@@ -27,13 +27,18 @@ Installing Jupyter and Python
 
 For new users, we **highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
-installs Python, the Jupyter Notebook, and other commonly used packages for
-scientific computing and data science. Follow Anaconda's instructions for
+installs:
+
+- Python, 
+- the Jupyter Notebook, and 
+- other commonly used packages forscientific computing and data science. 
+
+Follow Anaconda's instructions for
 downloading and installing the Python 3.5 version.
 
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
-:ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python.
+See :ref:`next steps <next-steps>` for running the Jupyter Notebook. For
+use of programming languages other than Python, refer to 
+:ref:`installing additional language kernels <installing-kernels>`.
 
 .. _existing-python-new-jupyter:
 
@@ -66,7 +71,6 @@ If Anaconda is installed, run the following command in the Terminal
 See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
 :ref:`installing additional kernels <installing-kernels>` to use programming
 languages other than Python.
-
 
 .. _python-using-pip:
 
