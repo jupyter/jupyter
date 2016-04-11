@@ -147,9 +147,9 @@ Congratulations. You have installed Jupyter Notebook and are ready to
 Installing kernels (optional)
 -----------------------------
 
-Installing the Jupyter Notebook as described above will also install the `IPython
-kernel <https://ipython.readthedocs.org/en/latest/>`_ which allows working on
-notebooks using the Python programming language.
+Installing the Jupyter Notebook as described above will also install the 
+`IPython <https://ipython.readthedocs.org/en/latest/>`_ :term:`kernel` which
+allows working on notebooks using the Python programming language.
 
 To run notebooks in languages other than Python, you will need to install
 additional kernels. For more information, see the full `list of available kernels
