@@ -7,7 +7,7 @@ Project Jupyter and IPython
 .. _user-docs:
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Jupyter Notebook Quickstart
 
     tryjupyter
@@ -18,28 +18,23 @@ Project Jupyter and IPython
 .. _tech-overview:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Architecture
 
-   visual_overview
-   system
-   config
+   content-architecture
 
 .. _about-docs:
 
 .. toctree::
-   :maxdepth: 1
-   :caption: User Stories
+   :maxdepth: 2
+   :caption: Use Cases
 
-   data_science
-   science
-   education
-   hpc
+   content-user
 
 .. _jupyter-subprojects:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Projects
 
    subprojects
@@ -68,26 +63,22 @@ Project Jupyter and IPython
 .. _dev-docs:
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contributor Guides
+  :maxdepth: 2
+  :caption: Contributor Guides
 
-   contrib_guide_welcome
-   developer-docs/index
-   development_guide/index
-   contrib_docs/index
-   contrib_guide_blog
+  content-contributor
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Reference
 
-   reference
+   content-reference
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Community
 
-   community
+   content-community
 
 Indices and tables
 ==================
