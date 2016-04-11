@@ -116,7 +116,7 @@ Installation
 See the :ref:`install` page for more information about
 installing Jupyter itself. There are some things that you install *with
 Jupyter*, which are a kind of data files, described above. Jupyter
-automatically migrates these
+automatically migrates these.
 
 Notebook extensions
 ~~~~~~~~~~~~~~~~~~~
