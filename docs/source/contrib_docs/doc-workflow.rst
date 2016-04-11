@@ -25,7 +25,8 @@ Understanding our workflow
      or your pull request to be merged.
 
    - If tests show an error: Revise and resubmit your pull
-     request.You do not need to open a new pull request. . If needed, please ask for assistance.
+     request. You do not need to open a new pull request. If needed, please
+     ask for assistance.
 
 7. Celebrate your documentation contribution.
 

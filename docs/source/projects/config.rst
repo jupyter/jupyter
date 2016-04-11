@@ -29,7 +29,7 @@ class attributes like this::
 
     c.NotebookApp.port = 8754
 
-Be careful with spelling--incorrect names will simply be ignored, with
+Be careful with spelling -- incorrect names will simply be ignored, with
 no error.
 
 To add to a collection which may have already been defined elsewhere,

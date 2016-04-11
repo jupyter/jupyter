@@ -18,7 +18,7 @@ Project Jupyter and IPython
 .. _tech-overview:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Architecture
 
    architecture/content-architecture.rst

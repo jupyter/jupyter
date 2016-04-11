@@ -1,25 +1,25 @@
 Tools for documentation
 =======================
 
-Builders
+Packages
 --------
 For user documentation, contributor guides, and communications content, we
 use:
 
-    - `Sphinx <http://www.sphinx-doc.org/en/stable>`_
+- `Sphinx <http://www.sphinx-doc.org/en/stable>`_
 
 For developer API documentation (especially for JupyterLab js repos), we use:
 
-    - `swagger <http://swagger.io/>`_
+- `swagger <http://swagger.io/>`_
 
 Source file formats
 -------------------
 We use the following input source file formats when developing Sphinx
 documentation:
 
-    - reStructuredText (``.rst``)
-    - Markdown (``.md``)
-    - Notebook (``.ipynb``)
+- reStructuredText (``.rst``)
+- Markdown (``.md``)
+- Notebook (``.ipynb``)
 
 A modern code editor should be used. Many are available including Atom,
 SublimeText, gedit, vim, emacs. `Atom <https://atom.io/>`_ is a good choice for
@@ -29,13 +29,11 @@ Sphinx themes
 -------------
 Our projects use the following themes:
 
-    - sphinx_rtd_theme (currently used by Jupyter projects)
-    - jupyter_sphinx_theme (used by ipywidgets)
-
+- sphinx_rtd_theme (currently used by Jupyter projects)
+- jupyter_sphinx_theme (used by ipywidgets)
 
 Git and Github Resources
 ------------------------
-
 If this is your first time working with Github or git, you can leverage the following
 resources to learn about the tools.
 

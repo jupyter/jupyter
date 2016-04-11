@@ -20,13 +20,11 @@ performed using a wide range of programming languages.
 
 .. glossary::
 
-
     `Jupyter Notebook <https://jupyter-notebook.readthedocs.org/en/latest/>`__
         Web-based application for authoring documents that combine live-code
         with narrative text, equations and visualizations.
         `Documentation <https://jupyter-notebook.readthedocs.org/en/latest/>`__ |
         `Repo <https://github.com/jupyter/notebook>`__
-
 
     `Jupyter Console <https://jupyter-console.readthedocs.org/en/latest/>`__
         Terminal based console for interactive computing.
@@ -65,8 +63,8 @@ powerful environment for interactive computing in Python.
 
 .. seealso::
 
-   See the `Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
-      page for a full list of kernels available for other languages. Many of
+      `Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
+      for a full list of kernels available for other languages. Many of
       these kernels are developed by third parties and may or may not be stable.
 
 

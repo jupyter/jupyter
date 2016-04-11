@@ -2,9 +2,8 @@
 Communications Guide
 ====================
 
-
 Blog
-----
+====
 
 We publish our blog at `<https://blog.jupyter.org>`_. We welcome ideas for posts
 or guest posts to the Jupyter blog. If you have a suggestion for a future post,
@@ -15,13 +14,13 @@ Do you enjoy writing? Please contact us about becoming a guest blogger. We can
 help guide you through the process of creating a post.
 
 Technical overview
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Jupyter's blog uses the Ghost blog platform for its contributor flexibility and
 ease of use. Jupyter's blog is deployed at `<https://blog.jupyter.org>`_.
 
 Basic workflow from blog idea to published post
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------
 
 There are several major steps in the workflow from blog idea to a published post
 including:
@@ -37,10 +36,10 @@ We'll cover each of these as well as how to update a post once it has been
 published.
 
 Creating a draft
-~~~~~~~~~~~~~~~~
+----------------
 
 Title and metadata
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Alway check in the metadata fields that a blog post has a title and a canonical
 URL. It is possible to put the date in the canonical URL, in particular for events
@@ -58,7 +57,7 @@ is written, but should not be changed after publication. As a guest you do not
 have to worry about metadata, the editor or admins will take care of that.
 
 Working with images
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 Try not to link to external images. If you want to put an image in the post,
 insert ``![]()`` in the editor view and drag and drop an image from your
@@ -75,17 +74,17 @@ on a slow connection to read the content of the blog earlier, which is a much
 better experience for the user than waiting for the featured image to render.
 
 Links
-^^^^^
+~~~~~
 
 Do not use minified links when possible. The multiple redirects of minified
 links degrades the mobile browsing experience. If you need analytics of
 the number of page views, this information is tracked by Google Analytics.
 
 Draft review
-~~~~~~~~~~~~
+------------
 
 Ask for a review
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Once you think you are done, ask someone else to reread your post, and check
 the various parameters that you might have forgotten before publishing.
@@ -94,7 +93,7 @@ If we do things in a hurry you will probably spend more time fixing mistakes
 that actually doing things right in a first place.
 
 Editorial acceptance
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Publishing the post
 ~~~~~~~~~~~~~~~~~~~
@@ -123,13 +122,13 @@ information is correct when dealing with multiple source giving different
 informations.
 
 Newsletter
-----------
+==========
 
 Documentation in progress.
 
 
 Website
--------
+=======
 
 Documentation in progress.
 
