@@ -3,7 +3,7 @@ Project guides
 
 .. toctree::
    :maxdepth: 1
-
+   
    subprojects
    ipython_projects
    incubator

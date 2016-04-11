@@ -7,13 +7,13 @@ Project Jupyter and IPython
 .. _user-docs:
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Jupyter Notebook Quickstart
+   :maxdepth: 2
+   :caption: Jupyter Notebook Quickstart
 
-    tryjupyter
-    install
-    running
-    migrating
+   tryjupyter
+   install
+   running
+   migrating
 
 .. _tech-overview:
 
@@ -21,7 +21,7 @@ Project Jupyter and IPython
    :maxdepth: 2
    :caption: Architecture
 
-   content-architecture
+   architecture/content-architecture.rst
 
 .. _about-docs:
 
@@ -29,7 +29,7 @@ Project Jupyter and IPython
    :maxdepth: 2
    :caption: Use Cases
 
-   content-user
+   use-cases/content-user.rst
 
 .. _jupyter-subprojects:
 
@@ -63,22 +63,22 @@ Project Jupyter and IPython
 .. _dev-docs:
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Contributor Guides
+   :maxdepth: 2
+   :caption: Contributor Guides
 
-  content-contributor
+   contributor/content-contributor
 
 .. toctree::
    :maxdepth: 2
    :caption: Reference
 
-   content-reference
+   reference/content-reference
 
 .. toctree::
    :maxdepth: 2
    :caption: Community
 
-   content-community
+   community/content-community
 
 Indices and tables
 ==================
