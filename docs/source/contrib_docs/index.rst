@@ -20,13 +20,4 @@ Contents
    doc-bugs.rst
    doc-build.rst
    doc-tracking.rst
-
-Adding documentation to a new project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. toctree::
-   :maxdepth: 1
-
-   doc-new-repos.md
-   repo-structure.md
-   doc-new-build.md
+   doc-future-index.rst

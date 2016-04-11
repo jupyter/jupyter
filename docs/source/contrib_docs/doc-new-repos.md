@@ -1,4 +1,4 @@
-# Setting up a README in a new Jupyter repo
+# Setting up a README
 
 Providing users and developers consistency across repos is a valuable time
 saver and improves user productivity.
