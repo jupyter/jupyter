@@ -5,4 +5,4 @@ Reference
    :maxdepth: 1
 
    reference
-
+   glossary

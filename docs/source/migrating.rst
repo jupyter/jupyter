@@ -1,6 +1,5 @@
 .. _migrating:
 
-
 ===============================
 Migrating from IPython Notebook
 ===============================
@@ -14,7 +13,7 @@ configuration.
 The first time you run any jupyter command, it will perform an automatic
 migration of files. This **copies** (not moves, so IPython 3 will be
 unaffected) files to their new homes, You can re-run the migration by
-calling ``jupyter migrate``. This means that you shouldn't need to do
+calling :command:`jupyter migrate`. This means that you shouldn't need to do
 anything to keep using your custom configuration with Jupyter. What it
 does mean, though, is that when you go to update or modify your
 configuration, the relevant locations may have changed.
@@ -43,7 +42,7 @@ should all be automatically copied to their new locations.**
 Configuration files
 ^^^^^^^^^^^^^^^^^^^
 
--  ``~/.ipython/profile_default/static/custom`` → ``~/.jupyter/custom``
+-  :file:`~/.ipython/profile_default/static/custom` → :file:`~/.jupyter/custom`
 -  ``~/.ipython/profile_default/ipython_notebook_config.py`` →
    ``~/.jupyter/jupyter_notebook_config.py``
 -  ``~/.ipython/profile_default/ipython_nbconvert_config.py`` →
@@ -53,7 +52,8 @@ Configuration files
 -  ``~/.ipython/profile_default/ipython_console_config.py`` →
    ``~/.jupyter/jupyter_console_config.py``
 
-``JUPYTER_CONFIG_DIR`` env can be used if ``~/.jupyter`` is not desired.
+``JUPYTER_CONFIG_DIR`` environment variable can be used if :file:`~/.jupyter`
+is not desired.
 
 Data files
 ^^^^^^^^^^
@@ -87,19 +87,15 @@ configuration files (``ipython_config.py``,
 ``security/kernel-*.json``). Profiles could be used to switch between
 configurations of IPython. **Jupyter does not have profiles**.
 
-People could use commands like ``ipython notebook --profile demo`` to
+People could use commands like :command:`ipython notebook --profile demo` to
 set the profile for *both* the notebook server and the IPython kernel.
 This is no longer possible in one go with Jupyter, just like it wasn't
 possible in IPython 3 for any other kernels. If you wanted to change the
-notebook configuration, you can set the ``JUPYTER_CONFIG_DIR``:
-
-::
+notebook configuration, you can set the ``JUPYTER_CONFIG_DIR``::
 
     JUPYTER_CONFIG_DIR=./jupyter_config jupyter notebook
 
-If you just want to change the config file, you can do:
-
-::
+If you just want to change the config file, you can do::
 
     jupyter notebook --config=/path/to/myconfig.py
 
@@ -128,15 +124,11 @@ Notebook extensions
 Any IPython notebook extensions should be automatically migrated as part
 of the data-files migration above.
 
-Notebook extensions used to be installed with
-
-::
+Notebook extensions used to be installed with::
 
     ipython install-nbextension [--user] EXTENSION
 
-They are now installed with
-
-::
+They are now installed with::
 
     jupyter nbextension install [--user] EXTENSION
 
@@ -151,15 +143,11 @@ Kernels
 Kernels are installed in much the same way as notebook extensions above,
 and also like notebook extensions, they will be automatically migrated.
 
-Kernel specs used to be installed with
-
-::
+Kernel specs used to be installed with::
 
     ipython kernelspec install [--user] KERNEL
 
-They are now installed with
-
-::
+They are now installed with::
 
     jupyter kernelspec install [--user] KERNEL
 
