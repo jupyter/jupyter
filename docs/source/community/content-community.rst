@@ -1,12 +1,30 @@
+================
 Community Guides
 ================
 
-Contents
+Events
 --------
+- JupyterCon
+- JupyterDays
+- User group workshop and training
 
-- Events
-    - JupyterCon
-    - JupyterDays
-- Governance
-- Code of Conduct
-- Publications
+Conferences
+-----------
+- PyData
+- SciPy
+
+Publications about Jupyter and IPython
+--------------------------------------
+- Papers
+- Talks
+- Posters
+- Books
+
+Project history and timeline
+----------------------------
+
+Governance
+----------
+
+Code of Conduct
+---------------
