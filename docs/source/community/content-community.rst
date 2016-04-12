@@ -13,6 +13,14 @@ Conferences
 - PyData
 - SciPy
 
+Jupyter communications and social media
+---------------------------------------
+- Blog
+- Newsletter
+- Website
+- Links to social media channels
+- Mailing lists (Jupyter, Jupyter in Education)
+
 Publications about Jupyter and IPython
 --------------------------------------
 - Papers
@@ -25,6 +33,8 @@ Project history and timeline
 
 Governance
 ----------
+- Steering council
+- JEP process
 
-Code of Conduct
+Code of conduct
 ---------------
