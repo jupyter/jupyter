@@ -8,6 +8,9 @@ Would you like to try Jupyter in your web browser?
 
 Go to https://try.jupyter.org. No installation is needed.
 
+.. image:: _static/_images/tryjupyter_file.png
+
+.. image:: _static/_images/trynb.png
 
 Ready to install Jupyter?
 -------------------------
