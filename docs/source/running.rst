@@ -31,3 +31,8 @@ Or start notebook server without opening a web browser::
 The notebook server has a number of other command line arguments that can be displayed with the --help flag::
     
     jupyter notebook --help
+
+.. seealso::
+
+   `Jupyter Notebook` documentation
+   Detailed information about configuration and usage.
