@@ -4,26 +4,6 @@
 Project Jupyter and IPython
 ===========================
 
-**Parts of the documentation:**
-
-.. csv-table::
-   :header: "Site", "Description"
-   :widths: 18, 35
-
-   :ref:`Jupyter Notebook Quickstart <user-docs>`, Get started
-   :ref:`User Stories <about-docs>`, Common use cases in industries
-   :ref:`Projects <jupyter-subprojects>`, High level descriptions
-   :ref:`Documentation by project <project-links>`, "Usage, configuration, and development information"
-   :ref:`Technical overview <tech-overview>`, Visual overview of how projects are used together
-   :ref:`Contributor Guide <dev-docs>`, "Contribute code, documentation, tutorials, and more"
-   :ref:`IPython Development guide <ipydevguide>`, Legacy IPython wiki reference documentation
-
-
-.. _fulltoc:
-
-Full Table of Contents
-----------------------
-
 .. _user-docs:
 
 .. toctree::
@@ -57,49 +37,6 @@ Full Table of Contents
    incubator
    kernels
    jupyter_enhancement_proposals
-
-.. _project-links:
-
-Documentation by project
-------------------------
-
-Usage, configuration and development information
-
-.. hlist::
-    :columns: 2
-
-    * Jupyter Notebook
-    * JupyterHub
-    * jupyter_client
-    * jupyter_console
-    * jupyter_core
-    * nbconvert
-    * nbgrader
-    * qtconsole
-    * ipykernel
-    * ipyparallel
-    * IPython
-    * ipywidgets
-    * traitlets
-    * colaboratory
-    * configurable-http-proxy
-    * docker-stacks
-    * dockspawner
-    * jupyter-driver
-    * jupyter-js-notebook
-    * jupyter-js-phosphide
-    * jupyter-js-plugins
-    * jupyter-js-services
-    * jupyter-js-ui
-    * jupyter-js-utils
-    * jupyter-sphinx-theme
-    * kernel_gateway
-    * ldapauthenticator
-    * nbformat
-    * nbviewer
-    * oauthenticator
-    * sudospawner
-    * tmpnb
 
 .. _tech-overview:
 
