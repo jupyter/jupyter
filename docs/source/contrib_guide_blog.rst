@@ -22,6 +22,8 @@ Basic workflow from blog idea to published post
 There are several major steps in the workflow from blog idea to a published post
 including:
 
+* Be inspired to write a post
+* Send us a message on the Jupyter mailing list and ask us for an author account on our blog
 * Creating a draft
 * Draft Review
 * Editorial acceptance
