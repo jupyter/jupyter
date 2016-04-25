@@ -114,11 +114,11 @@ multiuser capabilities and secure, scalable cloud deployments.
 
 .. glossary::
 
-    `jupyterhub <https://github.com/jupyter/jupyterhub>`__
+    `jupyterhub <https://github.com/jupyterhub/jupyterhub>`__
         Multi-user notebook for organizations with pluggable authentication
         and scalability.
-        `Documentation <https://github.com/jupyter/jupyterhub>`__ |
-        `Repo <https://github.com/jupyter/jupyterhub>`__
+        `Documentation <https://jupyterhub.readthedocs.org/en/latest/>`__ |
+        `Repo <https://github.com/jupyterhub/jupyterhub>`__
 
     `jupyter-drive <https://github.com/jupyter/jupyter-drive>`__
         Store notebooks on Google Drive.
@@ -140,10 +140,10 @@ multiuser capabilities and secure, scalable cloud deployments.
         `Documentation <https://github.com/jupyter/tmpnb-deploy>`__ |
         `Repo <https://github.com/jupyter/tmpnb-deploy>`__
 
-    `dockerspawner <https://github.com/jupyter/dockerspawner>`__
+    `dockerspawner <https://github.com/jupyterhub/dockerspawner>`__
         Deploy notebooks for 'jupyterhub' inside Docker containers.
-        `Documentation <https://github.com/jupyter/dockerspawner>`__ |
-        `Repo <https://github.com/jupyter/dockerspawner>`__
+        `Documentation <https://github.com/jupyterhub/dockerspawner>`__ |
+        `Repo <https://github.com/jupyterhub/dockerspawner>`__
 
     `docker-stacks <https://github.com/jupyter/docker-stacks>`__
         Stacks of Jupyter applications and kernels as Docker containers.

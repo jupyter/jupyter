@@ -153,7 +153,7 @@ intersphinx_mapping = {
     'traitlets': ('https://traitlets.readthedocs.org/en/latest/', (None, 'traitlets-inv.txt')),
     'ipyparallel': ('https://ipyparallel.readthedocs.org/en/latest/', (None, 'ipyparallel-inv.txt')),
     'notebook': ('https://jupyter-notebook.readthedocs.org/en/latest/', (None, 'notebook-inv.txt')),
-    'jupyterclient': ('https://jupyter_client.readthedocs.org/en/latest/', (None, 'jupyter_client-inv.txt')),
+    'jupyterclient': ('https://jupyter-client.readthedocs.org/en/latest/', (None, 'jupyter-client-inv.txt')),
     'qtconsole': ('https://jupyter.org/qtconsole/dev/', (None, 'qtconsole-inv.txt')),
     'jupytercore': ('https://jupyter-core.readthedocs.org/en/latest/', (None, 'jupyter-core-inv.txt')),
 }

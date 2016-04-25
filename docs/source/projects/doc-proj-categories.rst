@@ -13,11 +13,11 @@ Jupyter user interfaces
 JupyterHub
 ----------
 * `JupyterHub <http://jupyterhub.readthedocs.org/en/latest/>`_
-* `configurable-http-proxy <https://github.com/jupyter/configurable-http-proxy>`_
-* `dockerspawner <https://github.com/jupyter/dockerspawner>`_
-* `ldapauthenticator <https://github.com/jupyter/ldapauthenticator>`_
-* `oauthenticator <https://github.com/jupyter/oauthenticator>`_
-* `sudospawner <https://github.com/jupyter/sudospawner>`_
+* `configurable-http-proxy <https://github.com/jupyterhub/configurable-http-proxy>`_
+* `dockerspawner <https://github.com/jupyterhub/dockerspawner>`_
+* `ldapauthenticator <https://github.com/jupyterhub/ldapauthenticator>`_
+* `oauthenticator <https://github.com/jupyterhub/oauthenticator>`_
+* `sudospawner <https://github.com/jupyterhub/sudospawner>`_
 
 Education
 ---------
