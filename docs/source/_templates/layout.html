@@ -1,11 +1,9 @@
 {% extends "!layout.html" %}
 
 {% block relbar1 %}
-<div style="background-color: white; text-align: center; padding: 10px 10px 15px 15px; width=100%; height=auto;"{% autoescape off %}
-
-{% endautoescape %}">
+<div style="background-color: white; text-align: center; padding: 10px 10px 15px 15px; width=100%; height=auto">
 <a href="{{ pathto('index') }}"><img src="{{
-pathto("_static/_images/jupyter.svg", 1) }}" border="0" alt="jupyter" width=800 /></a>
+pathto("_static/_images/jupyter.svg", 1) }}" border="0" alt="jupyter" width=800/></a>
 </div>
 {{ super() }}
 {% endblock %}
