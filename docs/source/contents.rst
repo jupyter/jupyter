@@ -37,28 +37,7 @@ Project Jupyter and IPython
    :maxdepth: 2
    :caption: Projects
 
-   subprojects
-   ipython_projects
-   incubator
-   kernels
-
-.. _project-links:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Project Documentation
-
-   doc-proj-alpha
-
-.. _tech-overview:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Technical overview
-
-   visual_overview
-   system
-   config
+   projects/content-projects
 
 .. _dev-docs:
 
