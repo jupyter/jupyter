@@ -1,15 +1,10 @@
 Architecture guides
 ===================
 
+.. note::
+    We are improving this section to give you more architecture information.
+
 .. toctree::
    :maxdepth: 1
 
    visual_overview
-
-- High level explanation of architecture
-     - Message formats
-     - Clients - Display
-     - Servers - scale
-     - Language agnostic
-
-- Overview video or notebook with embedded video/animation
