@@ -1,6 +1,6 @@
-=====================
-Welcome, Contributors
-=====================
+=======
+Welcome
+=======
 
 Whether you are a new, returning, or current contributor to Project
 Jupyter's subprojects or IPython, **we welcome you**.
@@ -22,7 +22,7 @@ By fostering respectful, courteous participation within the projects, we
 believe that Project Jupyter will thrive and evolve to meet community needs.
 On a personal note, we ask you to be mindful in your communication with
 others as well as focusing discussions on the issues and not the individuals
-involved. 
+involved.
 
 We are very pleased to have you as a contributor, and we hope you
 will find valuable your impact on the projects. Again, **thank you** for
