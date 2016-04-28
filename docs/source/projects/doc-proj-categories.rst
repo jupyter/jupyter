@@ -30,6 +30,13 @@ Notebook conversion and formatting
 
 Kernels
 -------
+* `IPython <https://ipython.readthedocs.org/en/stable/>`_
+* `IRkernel <https://irkernel.github.io/>`_
+* `IJulia <https://github.com/JuliaLang/IJulia.jl>`_
+
+IPython
+-------
+* `IPython`_
 * `ipykernel <https://ipython.readthedocs.org/en/stable/>`_
 * `ipyparallel <https://ipyparallel.readthedocs.org/en/latest/>`_
 

@@ -1,5 +1,5 @@
-Jupyter on your system
-======================
+Jupyter on your system: Commands, directories, files
+====================================================
 
 .. _jupyter_command:
 

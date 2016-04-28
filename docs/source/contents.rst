@@ -27,15 +27,23 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 2
-   :caption: Use Cases
+   :caption: Narratives and Use Cases
 
    use-cases/content-user.rst
+
+.. _about-ipython:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: IPython
+
+   ipython/content-ipython.rst
 
 .. _jupyter-subprojects:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Projects
+   :caption: Installation, Configuration, and Usage
 
    projects/content-projects
 
@@ -46,6 +54,12 @@ Project Jupyter and IPython
    :caption: Contributor Guides
 
    contributor/content-contributor
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Release Notes
+
+   releases/content-releases
 
 .. toctree::
    :maxdepth: 2
