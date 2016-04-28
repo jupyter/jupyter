@@ -10,4 +10,3 @@ Narratives and use cases
    data_science
    science
    education
-   hpc
