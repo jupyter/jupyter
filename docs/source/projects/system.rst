@@ -15,7 +15,7 @@ available as a subcommand ``jupyter foo``.
 
 The jupyter command can also do a few basic things itself:
 
-.. option:: --help , -h 
+.. option:: --help , -h
 
    Show help information, including available subcommands.
 
@@ -57,7 +57,7 @@ Configuration
 Config files are stored by default in the :file:`~/.jupyter` directory.
 
 .. envvar:: JUPYTER_CONFIG_DIR
-   
+
    Set this environment variable to use a directory, other than the above
    default, for Jupyter config files.
 
