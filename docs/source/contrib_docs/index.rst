@@ -7,9 +7,6 @@ and shares tips and best practices with other community members. That's why
 the Jupyter project is focused on documenting new features and to keeping
 the documentation up-to-date.
 
-Contents
---------
-
 .. toctree::
    :maxdepth: 2
 

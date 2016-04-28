@@ -1,5 +1,5 @@
-Project guides
-==============
+Installation, Configuration, and Usage
+======================================
 
 .. toctree::
    :maxdepth: 1
