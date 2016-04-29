@@ -6,13 +6,13 @@ Project Documentation
 
 Jupyter user interfaces
 -----------------------
-* `Jupyter Notebook <http://jupyter-notebook.readthedocs.org/en/latest/>`_
-* `jupyter_console <http://jupyter-console.readthedocs.org/en/latest/>`_
-* `qtconsole <https://qtconsole.readthedocs.org/en/stable/>`_
+* `Jupyter Notebook <http://jupyter-notebook.readthedocs.io/en/latest/>`_
+* `jupyter_console <http://jupyter-console.readthedocs.io/en/latest/>`_
+* `qtconsole <https://qtconsole.readthedocs.io/en/stable/>`_
 
 JupyterHub
 ----------
-* `JupyterHub <http://jupyterhub.readthedocs.org/en/latest/>`_
+* `JupyterHub <http://jupyterhub.readthedocs.io/en/latest/>`_
 * `configurable-http-proxy <https://github.com/jupyterhub/configurable-http-proxy>`_
 * `dockerspawner <https://github.com/jupyterhub/dockerspawner>`_
 * `ldapauthenticator <https://github.com/jupyterhub/ldapauthenticator>`_
@@ -21,35 +21,35 @@ JupyterHub
 
 Education
 ---------
-* `nbgrader <http://nbgrader.readthedocs.org/en/latest/>`_
+* `nbgrader <http://nbgrader.readthedocs.io/en/latest/>`_
 
 Notebook conversion and formatting
 ----------------------------------
-* `nbconvert <http://nbconvert.readthedocs.org/en/latest/>`_
-* `nbformat <http://nbformat.readthedocs.org/en/latest/>`_
+* `nbconvert <http://nbconvert.readthedocs.io/en/latest/>`_
+* `nbformat <http://nbformat.readthedocs.io/en/latest/>`_
 
 Kernels
 -------
-* `IPython <https://ipython.readthedocs.org/en/stable/>`_
+* `IPython <https://ipython.readthedocs.io/en/stable/>`_
 * `IRkernel <https://irkernel.github.io/>`_
 * `IJulia <https://github.com/JuliaLang/IJulia.jl>`_
 
 IPython
 -------
 * `IPython`_
-* `ipykernel <https://ipython.readthedocs.org/en/stable/>`_
-* `ipyparallel <https://ipyparallel.readthedocs.org/en/latest/>`_
+* `ipykernel <https://ipython.readthedocs.io/en/stable/>`_
+* `ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`_
 
 Deployment
 ----------
 * `docker-stacks <https://github.com/jupyter/docker-stacks>`_
-* `ipywidgets <https://ipywidgets.readthedocs.org/en/latest/>`_
+* `ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`_
 * `jupyter-drive <https://github.com/jupyter/jupyter-drive>`_
 * `jupyter-sphinx-theme <https://github.com/jupyter/jupyter-sphinx-theme>`_
-* `kernel_gateway <http://jupyter-kernel-gateway.readthedocs.org/en/latest/>`_
+* `kernel_gateway <http://jupyter-kernel-gateway.readthedocs.io/en/latest/>`_
 * `nbviewer <https://github.com/jupyter/nbviewer>`_
 * `tmpnb <https://github.com/jupyter/tmpnb>`_
-* `traitlets <http://traitlets.readthedocs.org/en/stable/>`_
+* `traitlets <http://traitlets.readthedocs.io/en/stable/>`_
 
 JupyterLab
 ----------
@@ -62,5 +62,5 @@ JupyterLab
 
 Architecture
 ------------
-* `jupyter_client <http://jupyter-client.readthedocs.org/en/latest/>`_
-* `jupyter_core <http://jupyter-core.readthedocs.org/en/latest/>`_
+* `jupyter_client <http://jupyter-client.readthedocs.io/en/latest/>`_
+* `jupyter_core <http://jupyter-core.readthedocs.io/en/latest/>`_

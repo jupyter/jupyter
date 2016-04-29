@@ -20,15 +20,15 @@ performed using a wide range of programming languages.
 
 .. glossary::
 
-    `Jupyter Notebook <https://jupyter-notebook.readthedocs.org/en/latest/>`__
+    `Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`__
         Web-based application for authoring documents that combine live-code
         with narrative text, equations and visualizations.
-        `Documentation <https://jupyter-notebook.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://jupyter-notebook.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/notebook>`__
 
-    `Jupyter Console <https://jupyter-console.readthedocs.org/en/latest/>`__
+    `Jupyter Console <https://jupyter-console.readthedocs.io/en/latest/>`__
         Terminal based console for interactive computing.
-        `Documentation <https://jupyter-console.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://jupyter-console.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/jupyter_console>`__
 
     `Jupyter QtConsole <https://jupyter.org/qtconsole/stable/>`__
@@ -51,14 +51,14 @@ powerful environment for interactive computing in Python.
         `Documentation <https://ipython.org/documentation.html>`__ |
         `Repo <https://github.com/ipython/ipython>`__
 
-    `ipywidgets <https://ipywidgets.readthedocs.org/en/latest/>`__
+    `ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`__
         interactive widgets for Python in the Jupyter Notebook.
-        `Documentation <https://ipywidgets.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://ipywidgets.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/ipython/ipywidgets>`__
 
-    `ipyparallel <https://ipyparallel.readthedocs.org/en/latest/>`__
+    `ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`__
         lightweight parallel computing in Python offering seamless notebook integration.
-        `Documentation <https://ipyparallel.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://ipyparallel.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/ipython/ipyparallel>`__
 
 .. seealso::
@@ -77,15 +77,15 @@ subprojects allow programmatic format conversion and manipulation of notebook do
 
 .. glossary::
 
-    `nbconvert <https://nbconvert.readthedocs.org/en/latest/>`__
+    `nbconvert <https://nbconvert.readthedocs.io/en/latest/>`__
         Convert dynamic notebooks to static formats such as HTML, Markdown,
         LaTeX/PDF, and reStrucuredText.
-        `Documentation <https://nbconvert.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://nbconvert.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/nbconvert>`__
 
-    `nbformat <https://nbformat.readthedocs.org/en/latest/>`__
+    `nbformat <https://nbformat.readthedocs.io/en/latest/>`__
         Work with notebook documents programmatically.
-        `Documentation <https://nbformat.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://nbformat.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/nbformat>`__
 
 
@@ -98,10 +98,10 @@ a variety of educational settings.
 
 .. glossary::
 
-    `nbgrader <https://nbgrader.readthedocs.org/en/stable/>`__
+    `nbgrader <https://nbgrader.readthedocs.io/en/stable/>`__
         tools for managing, grading, and reporting of notebook based
         assignments.
-        `Documentation <https://nbgrader.readthedocs.org/en/stable/>`__ |
+        `Documentation <https://nbgrader.readthedocs.io/en/stable/>`__ |
         `Repo <https://github.com/jupyter/nbgrader>`__
 
 
@@ -117,7 +117,7 @@ multiuser capabilities and secure, scalable cloud deployments.
     `jupyterhub <https://github.com/jupyterhub/jupyterhub>`__
         Multi-user notebook for organizations with pluggable authentication
         and scalability.
-        `Documentation <https://jupyterhub.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://jupyterhub.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyterhub/jupyterhub>`__
 
     `jupyter-drive <https://github.com/jupyter/jupyter-drive>`__
@@ -159,13 +159,13 @@ applications with the Jupyter architecture.
 
 .. glossary::
 
-    `jupyter_client <https://jupyter-client.readthedocs.org/en/latest/>`__
+    `jupyter_client <https://jupyter-client.readthedocs.io/en/latest/>`__
         The specification of the Jupyter message protocol and a client library
         in Python.
-        `Documentation <https://jupyter-client.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://jupyter-client.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/jupyter_client>`__
 
-    `jupyter_core <https://jupyter-core.readthedocs.org/en/latest/>`__
+    `jupyter_core <https://jupyter-core.readthedocs.io/en/latest/>`__
         Core functionality and miscellaneous utilities.
-        `Documentation <https://jupyter-core.readthedocs.org/en/latest/>`__ |
+        `Documentation <https://jupyter-core.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/jupyter_core>`__

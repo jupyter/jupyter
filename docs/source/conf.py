@@ -100,7 +100,9 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
-
+html_sidebars = {
+   '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
+}
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
 html_additional_pages = {'index': 'index.html'}
@@ -146,16 +148,16 @@ texinfo_documents = [
 # -- Options for intersphinx -----------------------------------------------
 
 intersphinx_mapping = {
-    'ipython': ('https://ipython.readthedocs.org/en/latest/', (None, 'ipython-inv.txt')),
-    'nbconvert': ('https://nbconvert.readthedocs.org/en/latest/', (None, 'nbconvert-inv.txt')),
-    'nbformat': ('https://nbformat.readthedocs.org/en/latest/', (None, 'nbformat-inv.txt')),
-    'ipywidgets': ('https://ipywidgets.readthedocs.org/en/latest/', (None, 'ipywidgets-inv.txt')),
-    'traitlets': ('https://traitlets.readthedocs.org/en/latest/', (None, 'traitlets-inv.txt')),
-    'ipyparallel': ('https://ipyparallel.readthedocs.org/en/latest/', (None, 'ipyparallel-inv.txt')),
-    'notebook': ('https://jupyter-notebook.readthedocs.org/en/latest/', (None, 'notebook-inv.txt')),
-    'jupyterclient': ('https://jupyter-client.readthedocs.org/en/latest/', (None, 'jupyter-client-inv.txt')),
+    'ipython': ('https://ipython.readthedocs.io/en/latest/', (None, 'ipython-inv.txt')),
+    'nbconvert': ('https://nbconvert.readthedocs.io/en/latest/', (None, 'nbconvert-inv.txt')),
+    'nbformat': ('https://nbformat.readthedocs.io/en/latest/', (None, 'nbformat-inv.txt')),
+    'ipywidgets': ('https://ipywidgets.readthedocs.io/en/latest/', (None, 'ipywidgets-inv.txt')),
+    'traitlets': ('https://traitlets.readthedocs.io/en/latest/', (None, 'traitlets-inv.txt')),
+    'ipyparallel': ('https://ipyparallel.readthedocs.io/en/latest/', (None, 'ipyparallel-inv.txt')),
+    'notebook': ('https://jupyter-notebook.readthedocs.io/en/latest/', (None, 'notebook-inv.txt')),
+    'jupyterclient': ('https://jupyter-client.readthedocs.io/en/latest/', (None, 'jupyter-client-inv.txt')),
     'qtconsole': ('https://jupyter.org/qtconsole/dev/', (None, 'qtconsole-inv.txt')),
-    'jupytercore': ('https://jupyter-core.readthedocs.org/en/latest/', (None, 'jupyter-core-inv.txt')),
+    'jupytercore': ('https://jupyter-core.readthedocs.io/en/latest/', (None, 'jupyter-core-inv.txt')),
 }
 
 intersphinx_cache_limit = 5
