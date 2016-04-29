@@ -33,6 +33,7 @@ Kernels
 * `IPython <https://ipython.readthedocs.io/en/stable/>`_
 * `IRkernel <https://irkernel.github.io/>`_
 * `IJulia <https://github.com/JuliaLang/IJulia.jl>`_
+* `List of community maintained language kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
 
 IPython
 -------
