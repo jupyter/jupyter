@@ -11,3 +11,5 @@ Installation, Configuration, and Usage
    incubator
    kernels
    doc-proj-categories
+
+.. image:: ../_static/_images/DecideProject_v2.png
