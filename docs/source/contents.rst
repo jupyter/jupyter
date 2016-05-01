@@ -19,7 +19,6 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 1
-   :caption: Architecture
 
    architecture/content-architecture.rst
 
@@ -27,7 +26,6 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 2
-   :caption: Narratives and Use Cases
 
    use-cases/content-user.rst
 
@@ -35,7 +33,6 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 2
-   :caption: IPython
 
    ipython/content-ipython.rst
 
@@ -43,35 +40,32 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 2
-   :caption: Installation, Configuration, and Usage
 
    projects/content-projects
+
+.. toctree::
+   :maxdepth: 2
+
+   community/content-community
 
 .. _dev-docs:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contributor Guides
 
    contributor/content-contributor
 
 .. toctree::
    :maxdepth: 2
-   :caption: Release Notes
 
    releases/content-releases
 
 .. toctree::
    :maxdepth: 2
-   :caption: Reference
 
    reference/content-reference
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Community
 
-   community/content-community
 
 Indices and tables
 ==================

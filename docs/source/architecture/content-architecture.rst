@@ -1,4 +1,4 @@
-Architecture guides
+Architecture Guides
 ===================
 
 .. note::

@@ -1,4 +1,4 @@
-Narratives and use cases
+Narratives and Use Cases
 ========================
 
 .. toctree::
