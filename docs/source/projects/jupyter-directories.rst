@@ -1,49 +1,7 @@
-Jupyter on your system: Commands, directories, files
-====================================================
-
-.. _jupyter_command:
-
-The jupyter command
--------------------
-
-.. program:: jupyter
-
-Jupyter applications are started with commands like ``jupyter notebook``.
-The ``jupyter`` command is primarily a namespace for subcommands:
-a command like ``jupyter-foo`` found on your :envvar:`PATH` will be
-available as a subcommand ``jupyter foo``.
-
-The jupyter command can also do a few basic things itself:
-
-.. option:: --help , -h
-
-   Show help information, including available subcommands.
-
-.. option:: --config-dir
-
-   Show the location of the config directory.
-
-.. option:: --data-dir
-
-   Show the location of the data directory.
-
-.. option:: --runtime-dir
-
-   Show the location of the data directory.
-
-.. option:: --paths
-
-   Show all Jupyter directories and search paths.
-
-.. option:: --json
-
-   Print directories and search paths in machine-readable JSON format.
-
-
 .. _jupyter_directories:
 
-Jupyter directories
--------------------
+Common Directories and File Locations
+=====================================
 
 Jupyter stores different files (i.e. configuration, data, runtime) in a
 number of different locations. Environment variables may be set for each
@@ -51,8 +9,8 @@ location.
 
 .. _config_dir:
 
-Configuration
-~~~~~~~~~~~~~
+Configuration files
+~~~~~~~~~~~~~~~~~~~
 
 Config files are stored by default in the :file:`~/.jupyter` directory.
 

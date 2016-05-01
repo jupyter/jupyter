@@ -1,7 +1,7 @@
 .. _subprojects:
 
 ================
-Jupyter projects
+Jupyter Projects
 ================
 
 Project Jupyter is developed as a set of subprojects. The following is a topical
@@ -10,7 +10,7 @@ documentation or GitHub repo of each.
 
 
 
-Jupyter user interfaces
+Jupyter User Interfaces
 -----------------------
 
 The Jupyter user interfaces offer a foundation of interactive computing
@@ -68,7 +68,7 @@ powerful environment for interactive computing in Python.
       these kernels are developed by third parties and may or may not be stable.
 
 
-Formatting and conversion
+Formatting and Conversion
 -------------------------
 
 Notebooks are rich interactive documents that combine live code, narrative text

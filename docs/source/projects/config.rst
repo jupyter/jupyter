@@ -1,7 +1,7 @@
 .. _jupyter_config:
 
-Configuring Jupyter applications
-================================
+Jupyter's Common Configuration Approach
+=======================================
 
 **Common Jupyter configuration system**
 The Jupyter applications have a common config system, and a common

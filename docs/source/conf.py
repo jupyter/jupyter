@@ -148,16 +148,16 @@ texinfo_documents = [
 # -- Options for intersphinx -----------------------------------------------
 
 intersphinx_mapping = {
-    'ipython': ('https://ipython.readthedocs.io/en/latest/', (None, 'ipython-inv.txt')),
-    'nbconvert': ('https://nbconvert.readthedocs.io/en/latest/', (None, 'nbconvert-inv.txt')),
-    'nbformat': ('https://nbformat.readthedocs.io/en/latest/', (None, 'nbformat-inv.txt')),
-    'ipywidgets': ('https://ipywidgets.readthedocs.io/en/latest/', (None, 'ipywidgets-inv.txt')),
-    'traitlets': ('https://traitlets.readthedocs.io/en/latest/', (None, 'traitlets-inv.txt')),
-    'ipyparallel': ('https://ipyparallel.readthedocs.io/en/latest/', (None, 'ipyparallel-inv.txt')),
-    'notebook': ('https://jupyter-notebook.readthedocs.io/en/latest/', (None, 'notebook-inv.txt')),
-    'jupyterclient': ('https://jupyter-client.readthedocs.io/en/latest/', (None, 'jupyter-client-inv.txt')),
-    'qtconsole': ('https://jupyter.org/qtconsole/dev/', (None, 'qtconsole-inv.txt')),
-    'jupytercore': ('https://jupyter-core.readthedocs.io/en/latest/', (None, 'jupyter-core-inv.txt')),
+    'ipython': ('https://ipython.readthedocs.io/en/latest/', None),
+    'nbconvert': ('https://nbconvert.readthedocs.io/en/latest/', None),
+    'nbformat': ('https://nbformat.readthedocs.io/en/latest/', None),
+    'ipywidgets': ('https://ipywidgets.readthedocs.io/en/latest/', None),
+    'traitlets': ('https://traitlets.readthedocs.io/en/latest/', None),
+    'ipyparallel': ('https://ipyparallel.readthedocs.io/en/latest/', None),
+    'notebook': ('https://jupyter-notebook.readthedocs.io/en/latest/', None),
+    'jupyterclient': ('https://jupyter-client.readthedocs.io/en/latest/', None),
+    'qtconsole': ('https://jupyter.org/qtconsole/dev/', None),
+    'jupytercore': ('https://jupyter-core.readthedocs.io/en/latest/', None),
 }
 
 intersphinx_cache_limit = 5

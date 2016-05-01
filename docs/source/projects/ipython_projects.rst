@@ -1,4 +1,4 @@
-IPython projects
+IPython Projects
 ================
 
 `IPython <https://ipython.org>`_ provides a rich architecture for interactive

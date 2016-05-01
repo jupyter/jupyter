@@ -1,4 +1,4 @@
-Programming Languages (Kernels)
+Kernels (Programming Languages)
 ===============================
 
 The IPython :term:`kernel` is maintained by the Jupyter team since the

@@ -4,7 +4,7 @@ Project Documentation
 
 **Information on usage, configuration and development**
 
-Jupyter user interfaces
+Jupyter User Interfaces
 -----------------------
 * `Jupyter Notebook <http://jupyter-notebook.readthedocs.io/en/latest/>`_
 * `jupyter_console <http://jupyter-console.readthedocs.io/en/latest/>`_
@@ -23,7 +23,7 @@ Education
 ---------
 * `nbgrader <http://nbgrader.readthedocs.io/en/latest/>`_
 
-Notebook conversion and formatting
+Notebook Conversion and Formatting
 ----------------------------------
 * `nbconvert <http://nbconvert.readthedocs.io/en/latest/>`_
 * `nbformat <http://nbformat.readthedocs.io/en/latest/>`_

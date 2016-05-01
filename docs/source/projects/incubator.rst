@@ -1,5 +1,5 @@
-Jupyter Incubator projects
-==========================
+Incubator Projects
+==================
 
 .. note::
     We're actively working on this section of the documentation to improve
