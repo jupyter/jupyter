@@ -8,12 +8,8 @@ Project Jupyter and IPython
 
 .. toctree::
    :maxdepth: 2
-   :caption: Jupyter Notebook Quickstart
 
-   tryjupyter
-   install
-   running
-   migrating
+   content-quickstart
 
 .. _tech-overview:
 
