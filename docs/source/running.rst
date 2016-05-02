@@ -5,7 +5,7 @@ Running the Notebook
 ====================
 
 After you have installed the Jupyter Notebook on your computer, you are ready
-to run the Notebook. You can start the notebook server from the
+to run the notebook server. You can start the notebook server from the
 :term:`command line` (using :term:`Terminal` on Mac/Linux,
 :term:`Command Prompt` on Windows) by running::
 
@@ -28,8 +28,8 @@ It will then open your default web browser to this URL.
 When the notebook opens in your browser, you will see the :term:`Notebook Dashboard`,
 which will show a list of the notebooks, files, and subdirectories in the
 directory where the notebook server was started. Most of the time, you will
-want to start a notebook server in the highest directory in your filesystem
-where notebooks can be found. Often this will be your home directory.
+wish to start a notebook server in the highest level directory containing
+notebooks. Often this will be your home directory.
 
 **Notebook Dashboard**
 
@@ -64,7 +64,7 @@ using the ``--help`` flag:
 
 .. seealso::
 
-   :ref:`Jupyter Installation, Configuration, and Usage <content-projects>`
+   :ref:`Jupyter Installation, Configuration, and Usage <projects/content-projects>`
 
    Detailed information about command line arguments, configuration, and
    usage.
