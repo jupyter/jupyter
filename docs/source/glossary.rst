@@ -31,5 +31,9 @@ Glossary
    pip
        Python package manager.
 
+   profiles
+       Not available in Jupyter. In IPython 3, profiles are collections of
+       configuration and runtime files.
+
    terminal
        A window used to type in commands to be executed (Linux and OS X).

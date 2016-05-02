@@ -44,6 +44,8 @@ automatically copied to their new Jupyter locations.**
 
 Configuration files
 ~~~~~~~~~~~~~~~~~~~
+Configuration files customize Jupyter to the user's preferences. Here are
+location changes:
 
 ==============================================================  =====    ==============================================
 IPython location                                                          Jupyter location
@@ -55,13 +57,10 @@ IPython location                                                          Jupyte
 :file:`~/.ipython/profile_default/ipython_console_config.py`      →      :file:`~/.jupyter/jupyter_console_config.py`
 ==============================================================  =====    ==============================================
 
-.. tip::
-
-    Set the ``JUPYTER_CONFIG_DIR`` environment variable to choose a directory
-    location other than the default :file:`~/.jupyter`.
-
-    You may need to run ``jupyter migrate`` after setting the environment
-    variable for files to be copied to the desired directory.
+To choose a directory location other than the default :file:`~/.jupyter`, set
+the ``JUPYTER_CONFIG_DIR`` environment variable. You may need to run
+``jupyter migrate`` after setting the environment variable for files to be
+copied to the desired directory.
 
 Data files
 ~~~~~~~~~~
@@ -88,7 +87,7 @@ not changed. Per-user installation of data files has changed location from
 
 Elimination of Profiles in Jupyter
 ----------------------------------
-While IPython has the concept of **profiles**, **Jupyter does not have profiles**.
+While IPython has the concept of :term:`profiles`, **Jupyter does not have profiles**.
 
 In IPython, profiles are collections of configuration and runtime files.
 Inside the IPython directory (``~/.ipython``), there are directories with
@@ -115,15 +114,13 @@ If you just want to change the config file, you can do:
 
 If you do want to change the IPython kernel's profile, you
 can't do this at the server command-line anymore. Kernel arguments must
-be changed by modifying the kernelspec. The good thing about this is that
-you can do this without relaunching the server. Kernelspec changes take
-effect every time you start a new kernel. The less good thing is that
-there isn't a great way to modify the kernelspecs.
-
-One approach would be to use ``jupyter kernelspec list`` to find the
-``kernel.json``file and then modify ``kernels/python3/kernel.json`` by hand.
-Alternatively, `a2km <https://github.com/minrk/a2km>`__ is an experimental
-project that tries to make these things easier.
+be changed by modifying the kernelspec. You can do this without relaunching
+the server. Kernelspec changes take effect every time you start a new kernel.
+However, there isn't a great way to modify the kernelspecs.
+One approach uses ``jupyter kernelspec list`` to find the
+``kernel.json`` file and then modifies it, e.g. ``kernels/python3/kernel.json``,
+by hand. Alternatively, `a2km <https://github.com/minrk/a2km>`__ is an
+experimental project that tries to make these things easier.
 
 Understanding Installation Changes
 ----------------------------------
