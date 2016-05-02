@@ -64,7 +64,7 @@ using the ``--help`` flag:
 
 .. seealso::
 
-   `Jupyter Installation, Configuration, and Usage <projects/content-projects>`_
+   :ref:`Jupyter Installation, Configuration, and Usage <content-projects>`
 
    Detailed information about command line arguments, configuration, and
    usage.
