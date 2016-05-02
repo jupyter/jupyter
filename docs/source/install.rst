@@ -9,8 +9,8 @@ kernel.
 
 Prerequisites
 -------------
-While Jupyter runs code in many different programming languages, Python is a
-prerequisite (required Python 3.3 or greater, or Python 2.7) for installing
+While Jupyter runs code in many different programming languages, **Python** is
+a prerequisite (required Python 3.3 or greater, or Python 2.7) for installing
 Jupyter notebook. We recommend using Anaconda to install Python and Jupyter.
 Anaconda supports all major operating systems and is user-friendly.
 
@@ -19,7 +19,7 @@ Anaconda supports all major operating systems and is user-friendly.
 Installing Jupyter using Anaconda
 ---------------------------------
 
-**For new users, we highly recommend** `installing Anaconda
+For new users, we **highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
 installs Python, the Jupyter Notebook, and other commonly used packages for
 scientific computing and data science.
@@ -34,9 +34,9 @@ Use the following installation steps:
 3. Install Jupyter using :command:`conda` from the :term:`Terminal` (Mac and
    Linux) or a :term:`Command Prompt` window (Windows):
 
-.. code-block:: bash
+   .. code-block:: bash
 
-    conda install jupyter
+       conda install jupyter
 
 See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 
@@ -100,13 +100,13 @@ Congratulations. You have installed Jupyter Notebook and are ready to
 *Optional*: Installing Kernels
 ------------------------------
 
-Installing the Jupyter Notebook as described above will also install the
+Installing the Jupyter Notebook will also install the
 `IPython <https://ipython.readthedocs.io/en/latest/>`_ :term:`kernel` which
 allows working on notebooks using the Python programming language.
 
-To run notebooks in languages other than Python, you will need to install
-additional kernels. For more information, see the full `list of available kernels
-<https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_.
+To run notebooks in languages other than Python, such as R or Julia, you will
+need to install additional kernels. For more information, see the full
+`list of available kernels<https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_.
 
 To install extra Python kernels, to make both Python 2 and 3 available in
 Jupyter, or to set up kernels in environments, see `the IPython docs on
