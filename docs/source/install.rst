@@ -12,7 +12,7 @@ Prerequisites
 While Jupyter runs code in many different programming languages, Python is a
 prerequisite (required Python 3.3 or greater, or Python 2.7) for installing
 Jupyter notebook. We recommend using Anaconda to install Python and Jupyter.
-Anaconda supports all major operating systems and is user friendly.
+Anaconda supports all major operating systems and is user-friendly.
 
 .. _new-to-python-and-jupyter:
 
@@ -27,16 +27,16 @@ scientific computing and data science.
 Use the following installation steps:
 
 1. Download `Anaconda <https://www.continuum.io/downloads>`_. We recommend
-downloading Anaconda's latest Python 3 version (currently Python 3.5).
+   downloading Anaconda's latest Python 3 version (currently Python 3.5).
 
-2. Install the version of Anaconda which you downloaded.
+2. Install the version of Anaconda, which you downloaded.
 
 3. Install Jupyter using `conda` from the Terminal (Mac and Linux) or
-CommandPrompt (Windows) to install Jupyter:
+   CommandPrompt (Windows):
 
-.. code-block:: bash
+    .. code-block:: bash
 
-    conda install jupyter
+        conda install jupyter
 
 See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 
@@ -69,7 +69,7 @@ Install the Jupyter Notebook using:
 
     Some of Jupyter's dependencies may require compilation,
     in which case you would need the ability to compile Python C-extensions.
-    This means having a C compiler and the Python headers.
+    You will need a C compiler and the Python headers.
     On Debian-based systems (e.g. Ubuntu), you can get this with:
 
     .. code-block:: bash
@@ -110,10 +110,9 @@ additional kernels. For more information, see the full `list of available kernel
 
 To install extra Python kernels, to make both Python 2 and 3 available in
 Jupyter, or to set up kernels in environments, see `the IPython docs on
-installing kernels <https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`__.
+installing kernels <https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_.
 
 .. seealso::
 
     For detailed installation instructions for individual Jupyter or IPython
-    subprojects, see the :ref:`Jupyter Subprojects <subprojects>`
-    document.
+    projects, see the :ref:`Jupyter Projects <subprojects>` document.
