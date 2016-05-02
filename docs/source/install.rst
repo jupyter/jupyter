@@ -31,12 +31,12 @@ Use the following installation steps:
 
 2. Install the version of Anaconda, which you downloaded.
 
-3. Install Jupyter using `conda` from the Terminal (Mac and Linux) or
+3. Install Jupyter using :command:`conda` from the Terminal (Mac and Linux) or
    CommandPrompt (Windows):
 
-    .. code-block:: bash
+.. code-block:: bash
 
-        conda install jupyter
+    conda install jupyter
 
 See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 
@@ -52,7 +52,7 @@ See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
     `here <http://archive.ipython.org/release/>`__.
 
 We recommend Anaconda for installing Jupyter. As an existing Python
-user, you may wish to use Python's package manager, :file:`pip`, as an
+user, you may wish to use Python's package manager, :command:`pip`, as an
 alternative.
 
 .. _python-using-pip:
@@ -83,13 +83,13 @@ Install the Jupyter Notebook using:
         yum groupinstall 'Development Tools'
         yum install python3-devel
 
-    (Use ``python`` instead of ``python3`` for legacy Python 2.)
+    (Use :command:`python` instead of :command:`python3` for legacy Python 2.)
 
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook.
+See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 
 .. _next-steps:
 
-Next steps
+Next Steps
 ----------
 
 Congratulations. You have installed Jupyter Notebook and are ready to
