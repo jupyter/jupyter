@@ -61,10 +61,7 @@ using the ``--help`` flag:
 
     jupyter notebook --help
 
-
 .. seealso::
 
-   :ref:`Jupyter Installation, Configuration, and Usage <projects/content-projects>`
-
-   Detailed information about command line arguments, configuration, and
-   usage.
+   :ref:`Jupyter Installation, Configuration, and Usage <content-projects>`
+        Detailed information about command line arguments, configuration, and usage.

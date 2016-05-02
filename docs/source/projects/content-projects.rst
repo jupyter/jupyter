@@ -1,3 +1,5 @@
+.. _content-projects:
+
 Installation, Configuration, and Usage
 ======================================
 
