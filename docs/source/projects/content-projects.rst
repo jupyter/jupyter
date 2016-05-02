@@ -11,7 +11,7 @@ Installation
 
    ../install
    upgrade-notebook
-   <installing-kernels>
+   ../install-kernel
 
 .. image:: ../_static/_images/DecideProject_v2.png
    :width: 100%

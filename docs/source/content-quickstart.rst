@@ -6,5 +6,6 @@ Jupyter Notebook Quickstart
 
    tryjupyter.rst
    install.rst
+   install-kernel.rst
    running.rst
    migrating.rst

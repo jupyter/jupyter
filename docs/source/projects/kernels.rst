@@ -1,3 +1,5 @@
+.. _kernels-langs:
+
 Kernels (Programming Languages)
 ===============================
 
