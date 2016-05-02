@@ -106,13 +106,15 @@ allows working on notebooks using the Python programming language.
 
 To run notebooks in languages other than Python, such as R or Julia, you will
 need to install additional kernels. For more information, see the full
-`list of available kernels<https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_.
+`list of available kernels`_.
 
 To install extra Python kernels, to make both Python 2 and 3 available in
-Jupyter, or to set up kernels in environments, see `the IPython docs on
-installing kernels <https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_.
+Jupyter, or to set up kernels in environments, see the IPython docs on
+`installing kernels <https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_.
 
 .. seealso::
 
     For detailed installation instructions for individual Jupyter or IPython
     projects, see the :ref:`Jupyter Projects <subprojects>` document.
+
+.. _`list of available kernels`: https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages
