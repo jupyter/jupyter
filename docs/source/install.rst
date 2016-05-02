@@ -31,7 +31,7 @@ Use the following installation steps:
 
 2. Install the version of Anaconda, which you downloaded.
 
-3. Install Jupyter using :command:`conda` from the :term:`Terminal` (Mac and
+3. Install Jupyter using ``conda`` from the :term:`Terminal` (Mac and
    Linux) or a :term:`Command Prompt` window (Windows):
 
    .. code-block:: bash
@@ -47,12 +47,12 @@ See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 
 .. important::
 
-    Prerequisite: Jupyter installation requires Python 3.3 or greater, or
+    Jupyter installation requires Python 3.3 or greater, or
     Python 2.7. Older releases of IPython are available
     `here <http://archive.ipython.org/release/>`__.
 
 We recommend Anaconda for installing Jupyter. As an existing Python
-user, you may wish to use Python's package manager, :command:`pip`, as an
+user, you may wish to use Python's package manager, :term:`pip`, as an
 alternative.
 
 .. _python-using-pip:
@@ -63,7 +63,7 @@ Install the Jupyter Notebook using:
 
     pip3 install jupyter
 
-(Use :command:`pip` if using legacy Python 2.)
+(Use ``pip`` if using legacy Python 2.)
 
 .. note::
 
@@ -83,7 +83,7 @@ Install the Jupyter Notebook using:
         yum groupinstall 'Development Tools'
         yum install python3-devel
 
-    (Use :command:`python` instead of :command:`python3` for legacy Python 2.)
+    (Use ``python`` for legacy Python 2.)
 
 See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 

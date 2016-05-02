@@ -13,7 +13,7 @@ configuration.
 The first time you run any jupyter command, it will perform an automatic
 migration of files. This **copies** (not moves, so IPython 3 will be
 unaffected) files to their new homes, You can re-run the migration by
-calling :command:`jupyter migrate`. This means that you shouldn't need to do
+calling ``jupyter migrate``. This means that you shouldn't need to do
 anything to keep using your custom configuration with Jupyter. What it
 does mean, though, is that when you go to update or modify your
 configuration, the relevant locations may have changed.
@@ -87,7 +87,7 @@ configuration files (``ipython_config.py``,
 ``security/kernel-*.json``). Profiles could be used to switch between
 configurations of IPython. **Jupyter does not have profiles**.
 
-People could use commands like :command:`ipython notebook --profile demo` to
+People could use commands like ``ipython notebook --profile demo`` to
 set the profile for *both* the notebook server and the IPython kernel.
 This is no longer possible in one go with Jupyter, just like it wasn't
 possible in IPython 3 for any other kernels. If you wanted to change the
