@@ -1,38 +1,65 @@
 .. _running:
 
-
 ====================
 Running the Notebook
 ====================
 
-After you have installed the Jupyter Notebook on your computer, you are ready to run the Notebook. You can start the notebook server from the command line (Terminal on Mac/Linux, CMD prompt on Windows) by running the following command::
+After you have installed the Jupyter Notebook on your computer, you are ready
+to run the Notebook. You can start the notebook server from the
+:term:`command line` (using :term:`Terminal` on Mac/Linux,
+:term:`Command Prompt` on Windows) by running::
 
     jupyter notebook
 
 This will print some information about the notebook server in your terminal,
-including the URL of the web application (by default, ``http://127.0.0.1:8888``).
+including the URL of the web application
+(by default, ``http://localhost:8888``):
+
+.. code:: bash
+
+    $ jupyter notebook
+    [I 08:58:24.417 NotebookApp] Serving notebooks from local directory: /Users/catherine
+    [I 08:58:24.417 NotebookApp] 0 active kernels
+    [I 08:58:24.417 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+    [I 08:58:24.417 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
 It will then open your default web browser to this URL.
 
-When the notebook opens, you will see the notebook dashboard, which will show a list of the notebooks, files, and subdirectories in the directory where the notebook server was started (as seen in the next section, below). Most of the time, you will want to start a notebook server in the highest directory in your filesystem where notebooks can be found. Often this will be your home directory.
+When the notebook opens in your browser, you will see the notebook dashboard,
+which will show a list of the notebooks, files, and subdirectories in the
+directory where the notebook server was started. Most of the time, you will
+want to start a notebook server in the highest directory in your filesystem
+where notebooks can be found. Often this will be your home directory.
 
+**Notebook Dashboard**
+
+.. image:: _static/_images/tryjupyter_file.png
 
 Additional options
 ------------------
 
-By default, the notebook server starts on port 8888. If port 8888 is unavailable, the notebook server searches the next available port.
-You can also specify the port manually::
+By default, the notebook server starts on port 8888. If port 8888 is
+unavailable or in use, the notebook server searches the next available port.
+You may also specify a port manually:
+
+.. code:: bash
 
     jupyter notebook --port 9999
 
-Or start notebook server without opening a web browser::
-    
+Or start notebook server without opening a web browser:
+
+.. code:: bash
+
     jupyter notebook --no-browser
 
-The notebook server has a number of other command line arguments that can be displayed with the --help flag::
-    
+The notebook server provides help messages for other command line arguments
+using the ``--help`` flag:
+
+.. code:: bash
+
     jupyter notebook --help
 
 .. seealso::
 
-   `Jupyter Notebook` documentation
+   `Jupyter Installation, Configuration, and Usage <content-projects>`_
    Detailed information about configuration and usage.
