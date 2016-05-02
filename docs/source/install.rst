@@ -14,8 +14,8 @@ and is user friendly.
 
 .. _new-to-python-and-jupyter:
 
-*Recommended*: Installing Jupyter and Python using Anaconda
------------------------------------------------------------
+Installing Jupyter and Python using Anaconda
+--------------------------------------------
 
 **For new users, we highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
@@ -25,8 +25,7 @@ installs:
 - the Jupyter Notebook, and
 - other commonly used packages for scientific computing and data science.
 
-Installation steps
-~~~~~~~~~~~~~~~~~~
+Use the following installation steps:
 
 1. Download `Anaconda <https://www.continuum.io/downloads>`_. We recommend
 downloading Anaconda's latest Python 3 version (currently Python 3.5).
@@ -44,18 +43,6 @@ See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
 
 .. _existing-anaconda-new-jupyter:
 
-Installing Jupyter (I have Anaconda on my system)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you already have Anaconda installed, install Jupyter using `conda` from
-the Terminal (Mac and Linux) or CommandPrompt (Windows) to install Jupyter:
-
-.. code-block:: bash
-
-    conda install jupyter
-
-See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
-
 Upgrading Jupyter using Anaconda
 --------------------------------
 If using **Anaconda**, update Jupyter using `conda`:
@@ -65,7 +52,6 @@ If using **Anaconda**, update Jupyter using `conda`:
     conda update jupyter
 
 See :ref:`next steps <next-steps>` for running the Jupyter Notebook.
-
 
 .. _existing-python-new-jupyter:
 
