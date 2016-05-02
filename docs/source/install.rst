@@ -11,7 +11,7 @@ Prerequisites
 -------------
 While Jupyter runs code in many different programming languages, Python is a
 prerequisite (required Python 3.3 or greater, or Python 2.7) for installing
-Jupyter notebook. We recommend using Anaconda when installing Jupyter since
+Jupyter notebook. We recommend using Anaconda to install Python and Jupyter.
 Anaconda supports all major operating systems and is user friendly.
 
 .. _new-to-python-and-jupyter:
@@ -21,11 +21,8 @@ Installing Jupyter using Anaconda
 
 **For new users, we highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
-installs:
-
-- Python,
-- the Jupyter Notebook, and
-- other commonly used packages for scientific computing and data science.
+installs Python, the Jupyter Notebook, and other commonly used packages for
+scientific computing and data science.
 
 Use the following installation steps:
 
