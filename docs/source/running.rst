@@ -25,7 +25,7 @@ including the URL of the web application
 
 It will then open your default web browser to this URL.
 
-When the notebook opens in your browser, you will see the notebook dashboard,
+When the notebook opens in your browser, you will see the :term:`Notebook Dashboard`,
 which will show a list of the notebooks, files, and subdirectories in the
 directory where the notebook server was started. Most of the time, you will
 want to start a notebook server in the highest directory in your filesystem
@@ -35,8 +35,8 @@ where notebooks can be found. Often this will be your home directory.
 
 .. image:: _static/_images/tryjupyter_file.png
 
-Additional options
-------------------
+Introducing the Notebook's Command Line Options
+-----------------------------------------------
 
 By default, the notebook server starts on port 8888. If port 8888 is
 unavailable or in use, the notebook server searches the next available port.
@@ -52,6 +52,8 @@ Or start notebook server without opening a web browser:
 
     jupyter notebook --no-browser
 
+The ``--help`` option
+~~~~~~~~~~~~~~~~~~~~~
 The notebook server provides help messages for other command line arguments
 using the ``--help`` flag:
 
@@ -59,7 +61,10 @@ using the ``--help`` flag:
 
     jupyter notebook --help
 
+
 .. seealso::
 
-   `Jupyter Installation, Configuration, and Usage <content-projects>`_
-   Detailed information about configuration and usage.
+   `Jupyter Installation, Configuration, and Usage <projects/content-projects>`_
+
+   Detailed information about command line arguments, configuration, and
+   usage.

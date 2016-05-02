@@ -23,6 +23,11 @@ Glossary
        A kernel provides programming language support in Jupyter. IPython is
        the default kernel. Additional kernels include R, Julia, and many more.
 
+   Notebook Dashboard
+       The notebook user interface which shows a list of the notebooks, files,
+       and subdirectories in the directory where the notebook server is
+       started.
+
    pip
        Python package manager.
 
