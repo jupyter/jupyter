@@ -31,8 +31,8 @@ Use the following installation steps:
 
 2. Install the version of Anaconda, which you downloaded.
 
-3. Install Jupyter using :command:`conda` from the Terminal (Mac and Linux) or
-   CommandPrompt (Windows):
+3. Install Jupyter using :command:`conda` from the :term:`Terminal` (Mac and
+   Linux) or a :term:`Command Prompt` window (Windows):
 
 .. code-block:: bash
 
