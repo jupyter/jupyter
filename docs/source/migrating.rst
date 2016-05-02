@@ -38,14 +38,14 @@ server.
 
 Quick Reference to File Locations
 ---------------------------------
-This section provides quick reference for common locations for IPython 3 files
-and the migrated Jupyter files. **The migrated files should all be
-automatically copied to their new Jupyter locations.**
+This section provides quick reference for common locations of IPython 3 files
+and the migrated Jupyter files.
 
 Configuration files
 ~~~~~~~~~~~~~~~~~~~
-Configuration files customize Jupyter to the user's preferences. Here are
-location changes:
+Configuration files customize Jupyter to the user's preferences.
+The migrated files should all be **automatically copied** to their new Jupyter
+locations. Here are the location changes:
 
 ==============================================================  =====    ==============================================
 IPython location                                                          Jupyter location
@@ -66,10 +66,10 @@ Data files
 ~~~~~~~~~~
 Data files include files, other than configuration files, which are
 user installed. Examples include kernelspecs and notebook extensions. Like
-the configuration files, **data files are also automatically migrated to
-their new Jupyter locations**.
+the configuration files, data files are also **automatically migrated** to
+their new Jupyter locations.
 
-In **IPython 3**, these data files lived in ``~/.ipython``.
+In **IPython 3**, data files lived in ``~/.ipython``.
 
 In **Jupyter**, data files use platform-appropriate locations:
 
@@ -83,11 +83,12 @@ a location explicitly.
 
 Data files installed system-wide (e.g. in ``/usr/local/share/jupyter``) have
 not changed. Per-user installation of data files has changed location from
-``.ipython`` to these Jupyter locations.
+``.ipython`` to the platform-appropriate Jupyter location.
 
 Elimination of Profiles in Jupyter
 ----------------------------------
-While IPython has the concept of :term:`profiles`, **Jupyter does not have profiles**.
+While IPython has the concept of :term:`profiles`, **Jupyter does not have
+profiles**.
 
 In IPython, profiles are collections of configuration and runtime files.
 Inside the IPython directory (``~/.ipython``), there are directories with
@@ -104,7 +105,8 @@ notebook configuration, you can set the ``JUPYTER_CONFIG_DIR``:
 
 .. code-block:: bash
 
-    JUPYTER_CONFIG_DIR=./jupyter_config jupyter notebook
+    JUPYTER_CONFIG_DIR=./jupyter_config
+    jupyter notebook
 
 If you just want to change the config file, you can do:
 
@@ -130,7 +132,7 @@ like Notebook extensions and kernels.
 
 Notebook extensions
 ~~~~~~~~~~~~~~~~~~~
-Any IPython notebook extensions should be automatically migrated as part
+Any IPython notebook extensions should be **automatically migrated** as part
 of the data files migration.
 
 Notebook extensions were installed with:
@@ -146,15 +148,15 @@ Now, extensions are installed with:
     jupyter nbextension install [--user] EXTENSION
 
 The notebook extensions will be installed in a system-wide location (e.g.
-``/usr/local/share/jupyter/nbextensions``). If a ``--user``
-install is specified, the notebook extensions will go in the
-``JUPYTER_DATA_DIR`` location. Installation **SHOULD NOT** be done manually
-by guessing where the files should go.
+``/usr/local/share/jupyter/nbextensions``). If doing a ``--user``
+install, the notebook extensions will go in the ``JUPYTER_DATA_DIR`` location.
+Installation **SHOULD NOT** be done manually by guessing where the files
+should go.
 
 Kernels
 ~~~~~~~
 Kernels are installed in much the same way as notebook extensions. They will
-also be automatically migrated.
+also be **automatically migrated**.
 
 Kernel specs used to be installed with:
 
@@ -168,8 +170,8 @@ They are now installed with:
 
     jupyter kernelspec install [--user] KERNEL
 
-Kernel specs will go in a system-wide location (e.g.
-``/usr/local/share/jupyter/kernels``). If a ``--user`` install is specified,
+By default, kernel specs will go in a system-wide location
+(e.g. ``/usr/local/share/jupyter/kernels``). If doing a ``--user`` install,
 the kernel specs will go in the ``JUPYTER_DATA_DIR`` location. Installation
 **SHOULD NOT** be done manually by guessing where the files should go.
 
