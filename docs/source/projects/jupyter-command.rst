@@ -1,18 +1,32 @@
 .. _jupyter_command:
 
-The ``jupyter`` Command
-=======================
+The :command:`jupyter` Command
+==============================
 
 .. program:: jupyter
 
-Jupyter applications are started with commands like ``jupyter notebook``.
-The ``jupyter`` command is primarily a namespace for subcommands:
-a command like ``jupyter-foo`` found on your :envvar:`PATH` will be
+Synopsis
+--------
+
+::
+
+    jupyter <subcommand> [options]
+
+Description
+-----------
+
+Commands like ``jupyter notebook`` start Jupyter applications.
+The ``jupyter`` command is primarily a namespace for subcommands.
+A command like ``jupyter-foo`` found on your :envvar:`PATH` will be
 available as a subcommand ``jupyter foo``.
 
-The jupyter command can also do a few basic things itself:
+The :command:`jupyter` command can also be used to do actions other than
+starting a Jupyter application.
 
-.. option:: --help , -h
+Command options
+----------------
+
+.. option:: -h, --help
 
    Show help information, including available subcommands.
 
