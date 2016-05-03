@@ -14,16 +14,17 @@ Interesting projects include:
 * `sparkmagic <https://github.com/jupyter-incubator/sparkmagic>`_ - Jupyter magics and kernels for working with remote Spark clusters
 * `traittypes <https://github.com/jupyter-incubator/traittypes>`_ - Traitlets types for NumPy, SciPy and friends
 
-There's also a `repository <https://github.com/jupyter-incubator/proposals>`_
-with proposals of projects wishing to enter the incubator.
+There's also a `repository with proposals <https://github.com/jupyter-incubator/proposals>`_
+of projects wishing to enter the incubator.
 
 Try the Incubator Projects
 --------------------------
 
-The `showcase`_ application allows you to try demos of one or more incubating Jupyter projects in `Binder <http://mybinder.org/>`_. Just head over the `showcase`_ repo and press the Binder button badge to launch the online trial. You should see an interactive notebook similar to this one:
+The `showcase`_ application allows you to try demos of one or more incubating
+Jupyter projects in `Binder <http://mybinder.org/>`_. Just head over to the
+`showcase`_ repo and press the :guilabel:`Launch Binder` button badge to launch
+the online trial. You should see an interactive notebook similar to this one:
 
 .. image:: ../_static/_images/showcase.png
-
-
 
 .. _showcase: https://github.com/jupyter-incubator/showcase
