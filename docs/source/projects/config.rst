@@ -54,7 +54,7 @@ an argument, using this syntax:
 Frequently used options will also have short aliases and flags, such as
 ``--port 8754`` or ``--no-browser``.
 
-To see the abbreviated options, pass :option:`--help` or :option:`--help-all`
+To see the abbreviated options, pass ``--help`` or ``--help-all``
 as follows:
 
 .. code-block:: bash
