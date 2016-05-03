@@ -22,7 +22,7 @@ setup_args = dict(
     long_description    = """Install the Jupyter system, including the notebook, qtconsole, and the IPython kernel.""",
     author              = "Jupyter Development Team",
     author_email        = "jupyter@googlegroups.org",
-    py_modules          = ['jupyter'],
+    py_modules          = ['jupyter_run'],
     install_requires    = [
         'notebook',
         'qtconsole',
@@ -45,6 +45,11 @@ setup_args = dict(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
     ],
+    entry_points        = {
+        'console_scripts': [
+            'jupyter=jupyter_run:main'
+        ]
+    }
 )
 
 if any(bdist in sys.argv for bdist in ['bdist_wheel', 'bdist_egg']):
