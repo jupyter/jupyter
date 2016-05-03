@@ -4,19 +4,14 @@
 Jupyter Projects
 ================
 
-Project Jupyter is developed as a set of subprojects. The following is a topical
-list of the officially supported and maintained subprojects with links to the
-documentation or GitHub repo of each.
-
-
+Project Jupyter is developed as a set of subprojects. This section describes
+the subprojects with links to their documentation or GitHub repositories.
 
 Jupyter User Interfaces
 -----------------------
-
 The Jupyter user interfaces offer a foundation of interactive computing
 environments where scientific computing, data science, and analytics can be
 performed using a wide range of programming languages.
-
 
 .. glossary::
 
@@ -39,9 +34,9 @@ performed using a wide range of programming languages.
 
 Kernels
 -------
-
 Kernels are `programming language specific` processes that run independently
-and interact with the Jupyter Applications and their user interfaces. `IPython <https://ipython.org>`__ is the reference Jupyter kernel, providing a
+and interact with the Jupyter Applications and their user interfaces.
+`IPython <https://ipython.org>`__ is the reference Jupyter kernel, providing a
 powerful environment for interactive computing in Python.
 
 .. glossary::
@@ -64,16 +59,16 @@ powerful environment for interactive computing in Python.
 .. seealso::
 
       `Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
-      for a full list of kernels available for other languages. Many of
-      these kernels are developed by third parties and may or may not be stable.
 
+      A full list of kernels available for other languages. Many of
+      these kernels are developed by third parties and may or may not be stable.
 
 Formatting and Conversion
 -------------------------
-
 Notebooks are rich interactive documents that combine live code, narrative text
 (using markdown), visualizations, and other rich media. The following utility
-subprojects allow programmatic format conversion and manipulation of notebook documents.
+subprojects allow programmatic format conversion and manipulation of notebook
+documents.
 
 .. glossary::
 
@@ -91,7 +86,6 @@ subprojects allow programmatic format conversion and manipulation of notebook do
 
 Education
 ---------
-
 Jupyter Notebooks offer exciting and creative possibilities in education. The
 following subprojects are focused on supporting the use of Jupyter Notebook in
 a variety of educational settings.
@@ -107,7 +101,6 @@ a variety of educational settings.
 
 Deployment
 ----------
-
 To serve a variety of users and use cases, these subprojects are being
 developed to support notebook deployment in various contexts, including
 multiuser capabilities and secure, scalable cloud deployments.
@@ -153,9 +146,8 @@ multiuser capabilities and secure, scalable cloud deployments.
 
 Architecture
 ------------
-
-The following projects are lower level utilities used to build custom
-applications with the Jupyter architecture.
+The Jupyter architecture relies on these projects' specifications and
+implementation.
 
 .. glossary::
 
