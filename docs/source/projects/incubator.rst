@@ -26,4 +26,4 @@ The `showcase`_ application allows you to try demos of one or more incubating Ju
 
 
 
-.. _showcase:: https://github.com/jupyter-incubator/showcase
+.. _showcase: https://github.com/jupyter-incubator/showcase
