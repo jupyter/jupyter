@@ -18,8 +18,7 @@ notebook web application, etc. have moved to new projects under the name
 Jupyter. IPython itself is focused on interactive Python, part of which is
 providing a Python kernel for Jupyter.
 
-This section will describe briefly the projects with repos in the IPython
-organization on GitHub.
+The projects with repos in the IPython organization on GitHub include:
 
 * IPython `ipykernel <https://ipython.readthedocs.io/en/stable/>`_
   interactive computing in Python.
