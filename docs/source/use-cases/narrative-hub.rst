@@ -1,10 +1,6 @@
 JupyterHub Narratives
 =====================
 
-.. note::
-    We're actively working on this section of the documentation to improve
-    it for you. Thanks for your patience.
-
 Description
 -----------
 JupyterHub Narratives explore deployment and scaling of the Jupyter Notebook
@@ -23,3 +19,8 @@ Narratives
 - A Narrative about Teaching a Course with JupyterHub, nbgrader, and
   containers
 - A Narrative about JupyterHub deployments using Containers including Docker
+
+.. note::
+
+    We're actively working on this section of the documentation to improve
+    it for you. Thanks for your patience.
