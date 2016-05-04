@@ -3,7 +3,7 @@
 Kernels (Programming Languages)
 ===============================
 
-The Jupyter team maintains the :ref:`IPython kernel <ipython_projects>`
+The Jupyter team maintains the `IPython kernel <https://github.com/ipython/ipython>`_
 since the Jupyter notebook server depends on the IPython :term:`kernel`
 functionality. Many other languages, in addition to Python, may be used in
 the notebook.
