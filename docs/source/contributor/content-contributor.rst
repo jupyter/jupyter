@@ -17,12 +17,6 @@ guidance. If you have a question, please ask us. `Community Resources
 <https://jupyter.org/community.html>`_ provides information on our commonly
 used communication methods.
 
-By fostering respectful, courteous participation within the projects, we
-believe that Project Jupyter will thrive and evolve to meet community needs.
-On a personal note, we ask you to be mindful in your communication with
-others as well as focusing discussions on the issues and not the individuals
-involved.
-
 We are very pleased to have you as a contributor, and we hope you
 will find valuable your impact on the projects. **Thank you** for
 sharing your interests, ideas, and skills with us.
