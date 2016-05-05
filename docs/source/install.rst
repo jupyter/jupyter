@@ -38,7 +38,8 @@ Use the following installation steps:
 
        conda install jupyter
 
-See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
+Congratulations. You have installed Jupyter Notebook. See
+:ref:`Run the Notebook <running>` for running the Jupyter Notebook.
 
 .. _existing-python-new-jupyter:
 
@@ -85,12 +86,5 @@ Install the Jupyter Notebook using:
 
     (Use ``python`` for legacy Python 2.)
 
-See :ref:`Next Steps <next-steps>` for running the Jupyter Notebook.
-
-.. _next-steps:
-
-Next Steps
-----------
-
-Congratulations. You have installed Jupyter Notebook and are ready to
-:ref:`Run the Notebook <running>`.
+Congratulations. You have installed Jupyter Notebook. See
+:ref:`Run the Notebook <running>` for running the Jupyter Notebook.
