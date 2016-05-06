@@ -1,10 +1,8 @@
 Architecture Guides
 ===================
 
-.. note::
-    We are improving this section to give you more architecture information.
-
 .. toctree::
    :maxdepth: 1
 
-   visual_overview
+   how_jupyter_ipython_work
+   visual_overviewdiff
