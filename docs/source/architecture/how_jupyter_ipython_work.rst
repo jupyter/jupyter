@@ -96,7 +96,7 @@ steps:
    exporters use templates for this.
 3. Postprocessors work on the file produced by exporting.
 
-The `nbviewer <http://nbviewer.ipython.org/>`_ website uses nbconvert with the
+The `nbviewer <http://nbviewer.jupyter.org/>`_ website uses nbconvert with the
 HTML exporter. When you give it a URL, it fetches the notebook from that URL,
 converts it to HTML, and serves that HTML to you.
 
