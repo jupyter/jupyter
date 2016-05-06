@@ -5,4 +5,4 @@ Architecture Guides
    :maxdepth: 1
 
    how_jupyter_ipython_work
-   visual_overviewdiff
+   visual_overview
