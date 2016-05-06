@@ -1,5 +1,5 @@
-How IPython works
-=================
+How IPython and Jupyter Notebook work
+=====================================
 
 Terminal IPython
 ----------------
