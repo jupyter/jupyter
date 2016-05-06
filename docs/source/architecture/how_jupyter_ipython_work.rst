@@ -62,7 +62,7 @@ are likely to be better maintained by the community using them, like
 
    :ref:`jupyterclient:kernels`
 
-   :doc:`wrapperkernels`
+   :ref:`kernels`
 
 Notebooks
 ---------

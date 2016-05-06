@@ -9,7 +9,8 @@ If using **Anaconda**, update Jupyter using ``conda``:
 
     conda update jupyter
 
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook.
+See :ref:`Run the Notebook <running>` for running the Jupyter Notebook.
+
 
 .. _upgrading:
 
@@ -35,7 +36,7 @@ If using :term:`pip`:
 
     pip install -U jupyter
 
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook.
+See :ref:`Run the Notebook <running>` for running the Jupyter Notebook.
 
 .. seealso::
 
