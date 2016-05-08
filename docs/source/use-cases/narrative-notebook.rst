@@ -1,19 +1,20 @@
 Notebook Narratives
 ===================
 
+.. contents::
+
 Description
 -----------
 The Notebook Narratives explore uses of the Jupyter Notebook in a variety of
-applications. The Notebook's extensibility has inspired many community driven
-innovations.
+applications.
 
 Narratives
 ----------
-- A Narrative about using the Notebook for data exploration
-- A Narrative about using extensions and widgets
-- A Narrative using nbconvert for code execution and workflow simplification
-- A Narrative using nbconvert for publishing
-- A Narrative about using multiple language kernels
+- Using the Notebook for data exploration
+- Using extensions and widgets
+- Using nbconvert for code execution and workflow simplification
+- Using nbconvert for publishing
+- Using multiple language kernels
 
 .. note::
 

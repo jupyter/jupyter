@@ -7,6 +7,9 @@ Migrating from IPython Notebook
 .. contents:: Contents
    :local:
 
+Abstract
+--------
+
 `The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
 moved IPython's various language-agnostic components under the Jupyter
 umbrella. Going forward, Jupyter will contain the language-agnostic

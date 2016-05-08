@@ -1,6 +1,8 @@
 How IPython and Jupyter Notebook work
 =====================================
 
+.. contents::
+
 Terminal IPython
 ----------------
 
@@ -15,7 +17,7 @@ Of course, it's much more complex, because it has to deal with multi-line
 code, tab completion using :mod:`readline`, magic commands, and so on. But the
 model is like code example: prompt the user for some code, and when they've
 entered it, execute it in the same process. This model is often called a
-REPL, or Read-Eval-Print-Loop.
+:term:`REPL`, or Read-Eval-Print-Loop.
 
 The IPython Kernel
 ------------------
@@ -62,7 +64,7 @@ are likely to be better maintained by the community using them, like
 
    :ref:`jupyterclient:kernels`
 
-   :ref:`kernels`
+   :ref:`Kernels <kernels-langs>`
 
 Notebooks
 ---------
