@@ -2,12 +2,12 @@
 *Optional:* Installing Kernels
 ==============================
 
-This information gives a high-level view of using Jupyter Notebook with
-different programming languages (kernels).
-
 .. contents:: Contents
    :local:
    :depth: 2
+
+This information gives a high-level view of using Jupyter Notebook with
+different programming languages (kernels).
 
 Are any languages (kernels) pre-installed?
 ------------------------------------------

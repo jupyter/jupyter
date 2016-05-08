@@ -4,12 +4,12 @@
 Installing Jupyter Notebook
 ===========================
 
-This information explains how to install the Jupyter Notebook and the IPython
-kernel.
-
 .. contents:: Contents
    :local:
    :depth: 2
+
+This information explains how to install the Jupyter Notebook and the IPython
+kernel.
 
 Prerequisite: Python
 --------------------

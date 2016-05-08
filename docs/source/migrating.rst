@@ -4,6 +4,10 @@
 Migrating from IPython Notebook
 ===============================
 
+.. contents:: Contents
+   :local:
+   :depth: 2
+
 `The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
 moved IPython's various language-agnostic components under the Jupyter
 umbrella. Going forward, Jupyter will contain the language-agnostic
@@ -13,10 +17,6 @@ on Python and its use with Jupyter.
 This document describes what has changed, and how you may need to
 modify your code or configuration when migrating from IPython version 3 to
 Jupyter.
-
-.. contents:: Contents
-   :local:
-   :depth: 2
 
 Understanding the Migration Process
 -----------------------------------
