@@ -24,6 +24,7 @@ Go to https://try.jupyter.org. No installation is needed.
 
 Are You Ready to Install Jupyter?
 ---------------------------------
+
 If you have tried Jupyter and like it, please use our detailed
 :ref:`Installation Guide <install>` to install Jupyter on your
 computer.
