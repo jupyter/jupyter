@@ -1,5 +1,3 @@
-.. _contents:
-
 ===========================
 Project Jupyter and IPython
 ===========================

@@ -2,7 +2,7 @@ Jupyter Notebook Quickstart
 ===========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    tryjupyter.rst
    install.rst

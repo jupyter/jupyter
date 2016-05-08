@@ -5,13 +5,25 @@ Migrating from IPython Notebook
 ===============================
 
 `The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
-has changed a few things, moving the various language-agnostic
-components of IPython under the Jupyter umbrella. This document
-describes what has changed, and how you may need to modify your code or
-configuration.
+moved IPython's various language-agnostic components under the Jupyter
+umbrella. Going forward, Jupyter will contain the language-agnostic
+projects that serve many languages. IPython will continue to focus
+on Python and its use with Jupyter.
+
+This document describes what has changed, and how you may need to
+modify your code or configuration when migrating from IPython version 3 to
+Jupyter.
+
+.. contents:: Contents
+   :local:
+   :depth: 2
 
 Understanding the Migration Process
 -----------------------------------
+
+Automatic migration of files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 The first time you run any ``jupyter`` command, it will perform an automatic
 migration of files. The automatic migration process **copies** files,
 instead of moving files, leaving the originals in place and the copies in the
@@ -23,11 +35,14 @@ locations may have changed.
 
 Where have all my files gone?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Also known as: "Why isn't my configuration having any effect anymore?"
 
 Jupyter splitting out from IPython means that the locations of some
 files have moved, and Jupyter projects have not inherited everything
-from how IPython did it. When you start your first Jupyter application,
+from how IPython did it.
+
+When you start your first Jupyter application,
 the relevant configuration files are automatically copied to their new
 Jupyter locations. The original configuration files in the IPython locations
 have no effect on Jupyter's execution. If you accidentally edit your
@@ -36,13 +51,15 @@ Jupyter now. You should check that you are editing Jupyter's configuration
 file, and you should see the expected effect after restarting the Jupyter
 server.
 
-Quick Reference to File Locations
----------------------------------
+Finding the Location of Important Files
+---------------------------------------
+
 This section provides quick reference for common locations of IPython 3 files
 and the migrated Jupyter files.
 
 Configuration files
 ~~~~~~~~~~~~~~~~~~~
+
 Configuration files customize Jupyter to the user's preferences.
 The migrated files should all be **automatically copied** to their new Jupyter
 locations. Here are the location changes:
@@ -62,8 +79,9 @@ the ``JUPYTER_CONFIG_DIR`` environment variable. You may need to run
 ``jupyter migrate`` after setting the environment variable for files to be
 copied to the desired directory.
 
-Data files
-~~~~~~~~~~
+Data files: kernelspecs and notebook extensions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Data files include files, other than configuration files, which are
 user installed. Examples include kernelspecs and notebook extensions. Like
 the configuration files, data files are also **automatically migrated** to
@@ -85,8 +103,9 @@ Data files installed system-wide (e.g. in ``/usr/local/share/jupyter``) have
 not changed. Per-user installation of data files has changed location from
 ``.ipython`` to the platform-appropriate Jupyter location.
 
-Elimination of Profiles in Jupyter
-----------------------------------
+Why are profiles gone in Jupyter? How do I work without my IPython profile?
+---------------------------------------------------------------------------
+
 While IPython has the concept of :term:`profiles`, **Jupyter does not have
 profiles**.
 
@@ -100,19 +119,30 @@ could be used to switch between configurations of IPython.
 Previously, people could use commands like ``ipython notebook --profile demo``
 to set the profile for *both* the notebook server and the IPython kernel.
 This is no longer possible in one go with Jupyter, just like it wasn't
-possible in IPython 3 for any other kernels. If you wanted to change the
-notebook configuration, you can set the ``JUPYTER_CONFIG_DIR``:
+possible in IPython 3 for any other kernels.
+
+Changing the Jupyter notebook configuration directory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you want to change the notebook configuration, you can set the
+``JUPYTER_CONFIG_DIR``:
 
 .. code-block:: bash
 
     JUPYTER_CONFIG_DIR=./jupyter_config
     jupyter notebook
 
+Changing and using the Jupyter notebook configuration file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 If you just want to change the config file, you can do:
 
 .. code-block:: bash
 
     jupyter notebook --config=/path/to/myconfig.py
+
+Changing kernelspecs
+~~~~~~~~~~~~~~~~~~~~
 
 If you do want to change the IPython kernel's profile, you
 can't do this at the server command-line anymore. Kernel arguments must
@@ -126,12 +156,14 @@ experimental project that tries to make these things easier.
 
 Understanding Installation Changes
 ----------------------------------
+
 See the :ref:`install` page for more information about
-installing Jupyter. Jupyter automatically migrates some additional things,
+installing Jupyter. Jupyter automatically migrates some things,
 like Notebook extensions and kernels.
 
 Notebook extensions
 ~~~~~~~~~~~~~~~~~~~
+
 Any IPython notebook extensions should be **automatically migrated** as part
 of the data files migration.
 
@@ -155,6 +187,7 @@ should go.
 
 Kernels
 ~~~~~~~
+
 Kernels are installed in much the same way as notebook extensions. They will
 also be **automatically migrated**.
 
@@ -177,6 +210,7 @@ the kernel specs will go in the ``JUPYTER_DATA_DIR`` location. Installation
 
 Understanding Changes in imports
 --------------------------------
+
 The split has created many new packages. IPython 4.0 includes shims
 to manage dependencies; so, all imports that work on IPython 3 should
 continue to work on IPython 4. If you find any differences, please

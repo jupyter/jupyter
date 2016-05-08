@@ -4,7 +4,12 @@
 Try Jupyter
 ===========
 
-Would you like to try Jupyter in your web browser?
+.. contents:: Contents
+   :local:
+   :depth: 1
+
+Try in Your Browser. No Installation Needed.
+--------------------------------------------
 
 Go to https://try.jupyter.org. No installation is needed.
 
@@ -17,8 +22,8 @@ Go to https://try.jupyter.org. No installation is needed.
 .. image:: _static/_images/trynb.png
 
 
-Ready to install Jupyter?
--------------------------
+Are You Ready to Install Jupyter?
+---------------------------------
 If you have tried Jupyter and like it, please use our detailed
 :ref:`Installation Guide <install>` to install Jupyter on your
 computer.

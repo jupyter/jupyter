@@ -4,20 +4,28 @@
 Installing Jupyter Notebook
 ===========================
 
-This section explains how to install the Jupyter Notebook and the IPython
+This information explains how to install the Jupyter Notebook and the IPython
 kernel.
 
-Prerequisites
--------------
-While Jupyter runs code in many different programming languages, **Python** is
-a prerequisite (required Python 3.3 or greater, or Python 2.7) for installing
-Jupyter notebook. We recommend using Anaconda to install Python and Jupyter.
-Anaconda supports all major operating systems and is user-friendly.
+.. contents:: Contents
+   :local:
+   :depth: 2
+
+Prerequisite: Python
+--------------------
+
+While Jupyter runs code in many programming languages, **Python** is
+a requirement (Python 3.3 or greater, or Python 2.7) for installing
+Jupyter notebook.
+
+We recommend using the `Anaconda <https://www.continuum.io/downloads>`_
+distribution to install Python and Jupyter. We'll go through its installation
+in the next section.
 
 .. _new-to-python-and-jupyter:
 
-Installing Jupyter using Anaconda
----------------------------------
+Installing Jupyter using Anaconda and conda
+-------------------------------------------
 
 For new users, we **highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
@@ -38,13 +46,18 @@ Use the following installation steps:
 
        conda install jupyter
 
-Congratulations. You have installed Jupyter Notebook. See
-:ref:`Run the Notebook <running>` for running the Jupyter Notebook.
+4. Congratulations. You have installed Jupyter Notebook. To run the notebook:
+
+   .. code-block:: bash
+
+       jupyter notebook
+
+   See :ref:`Running the Notebook <running>` for more details.
 
 .. _existing-python-new-jupyter:
 
-*Experienced Python Developers*: Installing Jupyter with pip
-------------------------------------------------------------
+*Optional for experienced Python developers:* Installing Jupyter with pip
+-------------------------------------------------------------------------
 
 .. important::
 
@@ -52,7 +65,7 @@ Congratulations. You have installed Jupyter Notebook. See
     Python 2.7. Older releases of IPython are available
     `here <http://archive.ipython.org/release/>`__.
 
-We recommend Anaconda for installing Jupyter. As an existing Python
+We recommend Anaconda for installing Jupyter. Though as an existing Python
 user, you may wish to use Python's package manager, :term:`pip`, as an
 alternative.
 
@@ -87,4 +100,4 @@ Install the Jupyter Notebook using:
     (Use ``python`` for legacy Python 2.)
 
 Congratulations. You have installed Jupyter Notebook. See
-:ref:`Run the Notebook <running>` for running the Jupyter Notebook.
+:ref:`Running the Notebook <running>` for more details.

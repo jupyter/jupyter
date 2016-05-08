@@ -4,6 +4,20 @@
 Running the Notebook
 ====================
 
+.. contents:: Contents
+   :local:
+   :depth: 2
+
+Abstract
+--------
+1. Start the notebook server from the :term:`command line`::
+
+    jupyter notebook
+
+2. You should see the notebook open in your browser.
+
+Starting the Notebook Server
+----------------------------
 After you have installed the Jupyter Notebook on your computer, you are ready
 to run the notebook server. You can start the notebook server from the
 :term:`command line` (using :term:`Terminal` on Mac/Linux,
@@ -35,9 +49,11 @@ notebooks. Often this will be your home directory.
 
 .. image:: _static/_images/tryjupyter_file.png
 
-Introducing the Notebook's Command Line Options
------------------------------------------------
+Introducing the Notebook Server's Command Line Options
+------------------------------------------------------
 
+How do I start the Notebook using a custom IP or port?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 By default, the notebook server starts on port 8888. If port 8888 is
 unavailable or in use, the notebook server searches the next available port.
 You may also specify a port manually:
@@ -46,14 +62,16 @@ You may also specify a port manually:
 
     jupyter notebook --port 9999
 
-Or start notebook server without opening a web browser:
+How do I start the Notebook server without opening a browser?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start notebook server without opening a web browser:
 
 .. code:: bash
 
     jupyter notebook --no-browser
 
-The ``--help`` option
-~~~~~~~~~~~~~~~~~~~~~
+How do I get help about Notebook server options?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The notebook server provides help messages for other command line arguments
 using the ``--help`` flag:
 
