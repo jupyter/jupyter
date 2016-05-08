@@ -8,8 +8,8 @@ Running the Notebook
    :local:
    :depth: 2
 
-Abstract
---------
+Basic Steps
+-----------
 
 1. Start the notebook server from the :term:`command line`::
 

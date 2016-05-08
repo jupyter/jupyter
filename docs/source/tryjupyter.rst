@@ -6,7 +6,6 @@ Try Jupyter
 
 .. contents:: Contents
    :local:
-   :depth: 1
 
 Try in Your Browser. No Installation Needed.
 --------------------------------------------

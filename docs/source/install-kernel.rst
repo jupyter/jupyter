@@ -9,8 +9,8 @@
 This information gives a high-level view of using Jupyter Notebook with
 different programming languages (kernels).
 
-Are any languages (kernels) pre-installed?
-------------------------------------------
+Are any languages pre-installed?
+--------------------------------
 
 Yes, installing the Jupyter Notebook will also install the
 `IPython <https://ipython.readthedocs.io/en/latest/>`_ :term:`kernel`. This
@@ -23,8 +23,8 @@ To install an additional version of Python, i.e. to have both Python 2 and 3
 available, see the IPython docs on
 `installing kernels <https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_.
 
-How do I install other languages (kernels) like R or Julia?
------------------------------------------------------------
+How do I install other languages like R or Julia?
+-------------------------------------------------
 
 To run notebooks in languages other than Python, such as R or Julia, you will
 need to install additional kernels. For more information, see the full

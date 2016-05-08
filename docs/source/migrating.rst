@@ -6,7 +6,6 @@ Migrating from IPython Notebook
 
 .. contents:: Contents
    :local:
-   :depth: 2
 
 `The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
 moved IPython's various language-agnostic components under the Jupyter
@@ -33,8 +32,8 @@ and should work with Jupyter without further editing. When you update or
 modify your configuration in the future, please keep in mind that the file
 locations may have changed.
 
-Where have all my files gone?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Where have my configuration files gone?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Also known as: "Why isn't my configuration having any effect anymore?"
 
@@ -42,14 +41,13 @@ Jupyter splitting out from IPython means that the locations of some
 files have moved, and Jupyter projects have not inherited everything
 from how IPython did it.
 
-When you start your first Jupyter application,
-the relevant configuration files are automatically copied to their new
-Jupyter locations. The original configuration files in the IPython locations
-have no effect on Jupyter's execution. If you accidentally edit your
-original IPython config file, you may not see the desired effect with
-Jupyter now. You should check that you are editing Jupyter's configuration
-file, and you should see the expected effect after restarting the Jupyter
-server.
+When you start your first Jupyter application, the relevant configuration
+files are automatically copied to their new Jupyter locations. The original
+configuration files in the IPython locations have no effect on Jupyter's
+execution. If you accidentally edit your original IPython config file, you may
+not see the desired effect with Jupyter now. You should check that you are
+editing Jupyter's configuration file, and you should see the expected effect
+after restarting the Jupyter server.
 
 Finding the Location of Important Files
 ---------------------------------------
@@ -103,8 +101,8 @@ Data files installed system-wide (e.g. in ``/usr/local/share/jupyter``) have
 not changed. Per-user installation of data files has changed location from
 ``.ipython`` to the platform-appropriate Jupyter location.
 
-Why are profiles gone in Jupyter? How do I work without my IPython profile?
----------------------------------------------------------------------------
+Since Jupyter does not have profiles, how do I customize it?
+------------------------------------------------------------
 
 While IPython has the concept of :term:`profiles`, **Jupyter does not have
 profiles**.
@@ -132,8 +130,8 @@ If you want to change the notebook configuration, you can set the
     JUPYTER_CONFIG_DIR=./jupyter_config
     jupyter notebook
 
-Changing and using the Jupyter notebook configuration file
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Changing the Jupyter notebook configuration file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you just want to change the config file, you can do:
 
@@ -211,12 +209,11 @@ the kernel specs will go in the ``JUPYTER_DATA_DIR`` location. Installation
 Understanding Changes in imports
 --------------------------------
 
-The split has created many new packages. IPython 4.0 includes shims
-to manage dependencies; so, all imports that work on IPython 3 should
-continue to work on IPython 4. If you find any differences, please
-`let us know <https://github.com/ipython/ipython/issues>`__.
+IPython 4.0 includes shims to manage dependencies; so, all imports that work
+on IPython 3 should continue to work on IPython 4. If you find any
+differences, please `let us know <https://github.com/ipython/ipython/issues>`__.
 
-Some changed imports:
+Some changes include:
 
 ==================================  =====  ==================================
 IPython 3                                   Jupyter and IPython 4.0
