@@ -5,7 +5,8 @@ Project Documentation
 .. contents:: Contents
    :local:
 
-**Information on usage, configuration and development**
+Links to **information on usage, configuration and development** hosted on
+Read The Docs or in the GitHub project repo.
 
 Jupyter User Interfaces
 -----------------------
