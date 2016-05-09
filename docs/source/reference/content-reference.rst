@@ -5,5 +5,10 @@ Reference
    :maxdepth: 1
 
    ../glossary
-   :ref:`genindex`
-   :ref:`search`
+
+
+Resources
+---------
+
+- :ref:`genindex`
+- :ref:`search`
