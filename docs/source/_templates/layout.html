@@ -10,3 +10,17 @@ pathto("_static/_images/jupyter.svg", 1) }}" border="0" alt="jupyter" width=600>
 </div>
 {{ super() }}
 {% endblock %}
+
+{% block footer %}
+<div class="pull-center">
+	<ul class="pager">
+	  {% if prev %}
+	  <li class="previous disabled"><a href="{{ prev.link|e }}">&larr; Previous</a></li>
+	  {% endif %}
+	  {%if next %}
+	  <li class="next"><a href="{{ next.link|e }}">Next &rarr;</a></li>
+	  {% endif %}
+	</ul>
+</div>
+{{ super() }}
+{% endblock %}
