@@ -3,7 +3,7 @@
 Jupyter's Common Configuration Approach
 =======================================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Summary

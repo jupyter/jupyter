@@ -2,7 +2,7 @@
 *Optional:* Installing Kernels
 ==============================
 
-.. contents:: Contents
+.. contents:: Contents Contents
    :local:
    :depth: 2
 

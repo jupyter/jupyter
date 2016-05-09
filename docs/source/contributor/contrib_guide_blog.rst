@@ -2,7 +2,7 @@
 Communications Guide
 ====================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Blog

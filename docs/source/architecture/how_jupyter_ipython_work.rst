@@ -1,7 +1,7 @@
 How IPython and Jupyter Notebook work
 =====================================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Abstract

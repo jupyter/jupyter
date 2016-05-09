@@ -1,7 +1,7 @@
 Tools for documentation
 =======================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Packages

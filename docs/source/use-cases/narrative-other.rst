@@ -1,7 +1,7 @@
 Narratives - Building blocks
 ============================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Description

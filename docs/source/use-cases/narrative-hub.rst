@@ -1,7 +1,7 @@
 JupyterHub Narratives
 =====================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Description

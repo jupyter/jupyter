@@ -1,7 +1,7 @@
 IPython Projects
 ================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Description

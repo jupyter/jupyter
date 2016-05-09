@@ -1,7 +1,7 @@
 Notebook Narratives
 ===================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Description

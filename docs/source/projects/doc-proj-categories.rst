@@ -2,7 +2,7 @@
 Project Documentation
 =====================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 **Information on usage, configuration and development**

@@ -2,7 +2,7 @@
 Community Guides
 ================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Events

@@ -2,7 +2,7 @@
 Developer Guide
 ===============
 
-.. contents::
+.. contents:: Contents
    :local:
 
 A Note on Contributing to Open Source

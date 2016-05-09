@@ -1,7 +1,7 @@
 IPython
 =======
 
-.. contents::
+.. contents:: Contents
    :local:
 
 .. image:: ../_static/_images/ipy_logo.png

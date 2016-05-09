@@ -1,7 +1,7 @@
 Incubator Projects
 ==================
 
-.. contents::
+.. contents:: Contents
    :local:
 
 The `Jupyter incubator <https://github.com/jupyter-incubator>`_

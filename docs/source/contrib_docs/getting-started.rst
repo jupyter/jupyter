@@ -1,7 +1,7 @@
 Getting started
 ===============
 
-.. contents::
+.. contents:: Contents
    :local:
 
 Preparing for your first contribution
