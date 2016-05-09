@@ -2,6 +2,7 @@
 Project Jupyter and IPython
 ===========================
 
+**Table of Contents**
 .. _user-docs:
 
 .. toctree::

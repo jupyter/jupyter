@@ -2,6 +2,9 @@
 Project Documentation
 =====================
 
+.. contents::
+   :local:
+
 **Information on usage, configuration and development**
 
 Jupyter User Interfaces

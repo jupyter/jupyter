@@ -1,6 +1,9 @@
 Tools for documentation
 =======================
 
+.. contents::
+   :local:
+
 Packages
 --------
 For user documentation, contributor guides, and communications content, we

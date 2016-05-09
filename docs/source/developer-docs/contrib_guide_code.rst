@@ -2,6 +2,9 @@
 Developer Guide
 ===============
 
+.. contents::
+   :local:
+
 A Note on Contributing to Open Source
 -------------------------------------
 Contributing to open source can be a nerve-wrecking process, but don't worry

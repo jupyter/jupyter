@@ -1,8 +1,14 @@
 Incubator Projects
 ==================
 
+.. contents::
+   :local:
+
 The `Jupyter incubator <https://github.com/jupyter-incubator>`_
 gives emerging projects a place to evolve.
+
+Descriptions
+------------
 
 Interesting projects include:
 

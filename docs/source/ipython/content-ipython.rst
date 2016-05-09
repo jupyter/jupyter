@@ -1,6 +1,9 @@
 IPython
 =======
 
+.. contents::
+   :local:
+
 .. image:: ../_static/_images/ipy_logo.png
       :width: 50%
       :target: https://ipython.org
@@ -8,6 +11,7 @@ IPython
 
 Description
 -----------
+
 IPython provides a rich architecture for interactive computing with:
 
 * A powerful interactive shell.
@@ -18,6 +22,7 @@ IPython provides a rich architecture for interactive computing with:
 
 Background
 ----------
+
 IPython is a growing project, with increasingly language-agnostic components.
 IPython 3.x was the last monolithic release of IPython, containing the
 notebook server, qtconsole, etc. As of IPython 4.0, the language-agnostic

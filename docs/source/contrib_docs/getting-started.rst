@@ -1,6 +1,9 @@
 Getting started
 ===============
 
+.. contents::
+   :local:
+
 Preparing for your first contribution
 -------------------------------------
 1. Our documentation uses reStructured Text as well as Jupyter notebooks.

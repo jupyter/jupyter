@@ -1,14 +1,19 @@
 Narratives - Building blocks
 ============================
 
+.. contents::
+   :local:
+
 Description
 -----------
-Some projects and integrating different projects together from a set of
-Jupyter, JupyterHub, and IPython. These projects form the foundation of
-innovative services and provide building blocks for future applications.
 
-Narratives
-----------
+This section presents some examples of integrating different projects together.
+These projects form the foundation of innovative services and provide
+building blocks for future applications.
+
+Narrative examples
+------------------
+
 - A Narrative about Creating Dashboards
 - A Narrative about Thebe
 - A Narrative about Hydrogen

@@ -1,6 +1,12 @@
 IPython Projects
 ================
 
+.. contents::
+   :local:
+
+Description
+-----------
+
 `IPython <https://ipython.org>`_ provides a rich architecture for interactive
 computing with:
 
@@ -10,6 +16,9 @@ computing with:
 * Flexible, embeddable interpreters to load into your own projects.
 * Easy to use, high performance tools for parallel computing.
 
+Background
+----------
+
 IPython is a growing project, with increasingly language-agnostic components.
 IPython 3.x was the last monolithic release of IPython, containing the
 notebook server, qtconsole, etc. As of IPython 4.0, the language-agnostic
@@ -17,6 +26,9 @@ parts of the project: the notebook format, message protocol, qtconsole,
 notebook web application, etc. have moved to new projects under the name
 Jupyter. IPython itself is focused on interactive Python, part of which is
 providing a Python kernel for Jupyter.
+
+Resources
+---------
 
 The projects with repos in the IPython organization on GitHub include:
 

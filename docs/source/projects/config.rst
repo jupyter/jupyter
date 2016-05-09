@@ -3,6 +3,12 @@
 Jupyter's Common Configuration Approach
 =======================================
 
+.. contents::
+   :local:
+
+Summary
+-------
+
 **Common Jupyter configuration system**
 The Jupyter applications have a common config system, and a common
 :ref:`config directory <config_dir>`. By default, this directory is
@@ -44,6 +50,7 @@ and sets)::
 
 Command line options for configuration
 --------------------------------------
+
 Every configurable value can also be set from the command line and passed as
 an argument, using this syntax:
 

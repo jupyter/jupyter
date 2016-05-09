@@ -2,6 +2,9 @@
 Community Guides
 ================
 
+.. contents::
+   :local:
+
 Events
 --------
 - JupyterCon

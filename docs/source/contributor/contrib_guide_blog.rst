@@ -2,6 +2,9 @@
 Communications Guide
 ====================
 
+.. contents::
+   :local:
+
 Blog
 ====
 
