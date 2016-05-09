@@ -40,3 +40,7 @@ Glossary
 
    terminal
        A window used to type in commands to be executed (Linux and OS X).
+
+   widget
+       A user interface component, similar to a plugin, that allows customized
+       input, such as a slider.
