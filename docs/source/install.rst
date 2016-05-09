@@ -4,7 +4,7 @@
 Installing Jupyter Notebook
 ===========================
 
-.. contents:: Contents Contents
+.. contents:: Contents
    :local:
    :depth: 2
 
