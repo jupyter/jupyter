@@ -3,7 +3,7 @@
 Common Directories and File Locations
 =====================================
 
-.. contents:: Contents Contents
+.. contents:: Contents
    :local:
 
 Jupyter stores different files (i.e. configuration, data, runtime) in a

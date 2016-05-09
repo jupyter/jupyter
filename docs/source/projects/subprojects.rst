@@ -4,7 +4,7 @@
 Jupyter Projects
 ================
 
-.. contents:: Contents Contents
+.. contents:: Contents
    :local:
 
 Project Jupyter is developed as a set of subprojects. This section describes

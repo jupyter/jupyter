@@ -4,7 +4,7 @@
 Migrating from IPython Notebook
 ===============================
 
-.. contents:: Contents Contents
+.. contents:: Contents
    :local:
 
 Abstract

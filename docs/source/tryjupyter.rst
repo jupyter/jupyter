@@ -4,7 +4,7 @@
 Try Jupyter
 ===========
 
-.. contents:: Contents Contents
+.. contents:: Contents
    :local:
 
 Try in Your Browser. No Installation Needed.

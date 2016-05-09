@@ -1,7 +1,7 @@
 Upgrading Jupyter Notebook
 ==========================
 
-.. contents:: Contents Contents
+.. contents:: Contents
    :local:
 
 Upgrading Jupyter Notebook using Anaconda
