@@ -11,3 +11,12 @@ p.topic-title {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.alert {
+    color: #222222;
+}
+
+p.first.admonition-title {
+	color: #ffffff;
+}
+
