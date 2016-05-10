@@ -1,2 +1,0 @@
-Jupyter and Scientific Computing
-================================

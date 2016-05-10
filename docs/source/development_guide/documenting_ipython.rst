@@ -62,7 +62,7 @@ An interactive Python session:
 
 An IPython session:
 
-.. code:: ipython
+.. code::
 
     In [7]: import IPython
 

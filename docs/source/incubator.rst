@@ -1,2 +1,0 @@
-Jupyter Incubator Projects
-==========================

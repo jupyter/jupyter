@@ -1,159 +1,103 @@
 .. _install:
 
-============
-Installation
-============
+===========================
+Installing Jupyter Notebook
+===========================
 
-This section explains how to install the Jupyter Notebook and the IPython
+.. contents:: Contents
+   :local:
+   :depth: 2
+
+This information explains how to install the Jupyter Notebook and the IPython
 kernel.
 
-While Jupyter runs code in many different programming languages, Python is a
-prerequisite for installing Jupyter notebook. Select one of the scenarios to
-install Jupyter:
+Prerequisite: Python
+--------------------
 
-    - :ref:`Installing Jupyter and Python <new-to-python-and-jupyter>`
-    - :ref:`Installing Jupyter (I already have Python) <existing-python-new-jupyter>`
-    - :ref:`Upgrading a Jupyter installation <upgrading>`
+While Jupyter runs code in many programming languages, **Python** is
+a requirement (Python 3.3 or greater, or Python 2.7) for installing
+Jupyter notebook.
 
-.. note::
-
-     All installation commands should be run in the Terminal (for Mac and Linux)
-     or the Command Prompt (Windows).
+We recommend using the `Anaconda <https://www.continuum.io/downloads>`_
+distribution to install Python and Jupyter. We'll go through its installation
+in the next section.
 
 .. _new-to-python-and-jupyter:
 
-Installing Jupyter and Python
------------------------------
+Installing Jupyter using Anaconda and conda
+-------------------------------------------
 
 For new users, we **highly recommend** `installing Anaconda
 <https://www.continuum.io/downloads>`_. Anaconda conveniently
 installs Python, the Jupyter Notebook, and other commonly used packages for
-scientific computing and data science. Follow Anaconda's instructions for
-downloading and installing the Python 3.5 version.
+scientific computing and data science.
 
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
-:ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python.
+Use the following installation steps:
+
+1. Download `Anaconda <https://www.continuum.io/downloads>`_. We recommend
+   downloading Anaconda's latest Python 3 version (currently Python 3.5).
+
+2. Install the version of Anaconda, which you downloaded.
+
+3. Install Jupyter using ``conda`` from the :term:`Terminal` (Mac and
+   Linux) or a :term:`Command Prompt` window (Windows):
+
+   .. code-block:: bash
+
+       conda install jupyter
+
+4. Congratulations. You have installed Jupyter Notebook. To run the notebook:
+
+   .. code-block:: bash
+
+       jupyter notebook
+
+   See :ref:`Running the Notebook <running>` for more details.
 
 .. _existing-python-new-jupyter:
 
-Installing Jupyter (I already have Python)
-------------------------------------------
+*Optional for experienced Python developers:* Installing Jupyter with pip
+-------------------------------------------------------------------------
 
 .. important::
 
-    **Prerequisite: Jupyter installation requires Python 3.3 or greater, or Python 2.7.**
-    Older releases of IPython are available
+    Jupyter installation requires Python 3.3 or greater, or
+    Python 2.7. Older releases of IPython are available
     `here <http://archive.ipython.org/release/>`__.
 
-As an existing Python user, you may have installed Python from the Python website,
-a system package manager, or using Anaconda. The command for installing Jupyter
-Notebook is slightly different depending on how you installed Python. Depending
-on whether you use Anaconda or pip, select the relevant instructions
-below to install Jupyter on your system.
-
-
-.. _existing-anaconda-new-jupyter:
-
-Using Anaconda and conda
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-If Anaconda is installed, run the following command in the Terminal
-(Mac/Linux) or CommandPrompt (Windows) to install Jupyter::
-
-    conda install jupyter
-
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
-:ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python.
-
+We recommend Anaconda for installing Jupyter. Though as an existing Python
+user, you may wish to use Python's package manager, :term:`pip`, as an
+alternative.
 
 .. _python-using-pip:
 
-Using pip
-^^^^^^^^^
+Install the Jupyter Notebook using:
 
-If you already have Python installed and are **not** using conda or Anaconda,
-you may install the Jupyter Notebook using Python's package manager, pip::
+.. code-block:: bash
 
     pip3 install jupyter
 
-(Use ``pip`` instead of ``pip3`` for legacy Python 2.)
+(Use ``pip`` if using legacy Python 2.)
 
 .. note::
 
     Some of Jupyter's dependencies may require compilation,
     in which case you would need the ability to compile Python C-extensions.
-    This means a C compiler and the Python headers.
-    On Debian-based systems (e.g. Ubuntu), you can get this with::
+    You will need a C compiler and the Python headers.
+    On Debian-based systems (e.g. Ubuntu), you can get this with:
+
+    .. code-block:: bash
 
         apt-get install build-essential python3-dev
 
-    And on Fedora-based systems (e.g. Red Hat, CentOS)::
+    And on Fedora-based systems (e.g. Red Hat, CentOS):
+
+    .. code-block:: bash
 
         yum groupinstall 'Development Tools'
         yum install python3-devel
 
-    (Use ``python`` instead of ``python3`` for legacy Python 2.)
+    (Use ``python`` for legacy Python 2.)
 
-See :ref:`next steps <next-steps>` for running the Jupyter Notebook and
-:ref:`installing additional kernels <installing-kernels>` to use programming
-languages other than Python.
-
-.. _upgrading:
-
-Upgrading a Jupyter installation
---------------------------------
-
-The Jupyter Notebook used to be called the IPython Notebook. If you are running
-an older version of the IPython Notebook (version 3 or earlier) you can use the
-following to upgrade to the latest version of the Jupyter Notebook.
-
-**If using pip**::
-
-    pip install -U jupyter
-
-OR
-
-**If using Anaconda**::
-
-    conda update jupyter
-
-.. seealso::
-
-    The :ref:`Migrating from IPython <migrating>` document has additional
-    information about migrating from IPython 3 to Jupyter.
-
-
-.. _installing-kernels:
-
-Installing kernels
-------------------
-
-Installing the Jupyter Notebook as described above will also install the `IPython
-kernel <https://ipython.readthedocs.org/en/latest/>`_ which allows working on
-notebooks using the Python programming language.
-
-To run notebooks in languages other than Python, you will need to install
-additional kernels. For more information, see the full `list of available kernels
-<https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_.
-
-To install extra Python kernels—to make both Python 2 and 3 available in
-Jupyter, or to set up kernels in environments—see `the IPython docs on
-installing kernels <https://ipython.readthedocs.org/en/latest/install/kernel_install.html>`__.
-
-
-.. _next-steps:
-
-Next steps
-----------
-
-Congratulations. You have installed Jupyter Notebook and are ready to
-:ref:`run the notebook <running>`.
-
-
-.. seealso::
-
-    For detailed installation instructions for individual Jupyter or IPython
-    subprojects, see the :ref:`Jupyter Subprojects <subprojects>`
-    document.
+Congratulations. You have installed Jupyter Notebook. See
+:ref:`Running the Notebook <running>` for more details.

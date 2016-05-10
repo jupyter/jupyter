@@ -1,2 +1,0 @@
-Jupyter in Education
-====================
