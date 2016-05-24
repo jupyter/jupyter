@@ -39,14 +39,7 @@ Use the following installation steps:
 
 2. Install the version of Anaconda, which you downloaded.
 
-3. Install Jupyter using ``conda`` from the :term:`Terminal` (Mac and
-   Linux) or a :term:`Command Prompt` window (Windows):
-
-   .. code-block:: bash
-
-       conda install jupyter
-
-4. Congratulations. You have installed Jupyter Notebook. To run the notebook:
+3. Congratulations, you have installed Jupyter Notebook. To run the notebook:
 
    .. code-block:: bash
 
