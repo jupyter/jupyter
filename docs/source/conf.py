@@ -97,7 +97,6 @@ html_last_updated_fmt = '%Y-%m-%d'
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-html_additional_pages = {'index': 'index.html'}
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Jupyter'
