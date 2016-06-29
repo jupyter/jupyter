@@ -68,7 +68,7 @@ Install the Jupyter Notebook using:
 
 .. code-block:: bash
 
-    pip3 install jupyter
+    sudo -H pip3 install --system jupyter
 
 (Use ``pip`` if using legacy Python 2.)
 
