@@ -69,6 +69,12 @@ Install the Jupyter Notebook using:
 .. code-block:: bash
 
     pip3 install jupyter
+    
+
+On Linux/Ubuntu, you may need to install Jupyter with sudo privilegs.
+.. code-block:: bash
+
+    sudo pip install jupyter
 
 (Use ``pip`` if using legacy Python 2.)
 
