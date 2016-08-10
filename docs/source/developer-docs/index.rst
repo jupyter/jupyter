@@ -10,6 +10,7 @@ Developer Guide
    contrib_guide_code.rst
    contrib_guide_bugs_enh.rst
    jupyter_enhancement_proposals.rst
+   releasing.rst
    ../development_guide/index.rst
 
 Whether you are a new contributor or a seasoned developer, we're pleased that
