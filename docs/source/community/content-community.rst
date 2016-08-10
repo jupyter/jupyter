@@ -35,23 +35,14 @@ We will ping the `dev-meeting-attendance Gitter channel <https://gitter.im/jupyt
 .. contents:: Contents
    :local:
 
-.. Events
-.. --------
+Jupyter communications
+----------------------
 
-
-.. Jupyter communications and social media
-.. ---------------------------------------
-
-
-.. Publications about Jupyter and IPython
-.. --------------------------------------
-.. - Papers
-.. - Talks
-.. - Posters
-.. - Books
-
-.. Project history and timeline
-.. ----------------------------
+- Blog `<https://blog.jupyter.org/>`_
+- Newsletter `<https://newsletter.jupyter.org/>`_
+- Website `<https://jupyter.org>`_
+- Twitter `<https://twitter.com/ProjectJupyter>`_
+- Mailing lists (Jupyter, Jupyter in Education) `<https://jupyter.org/community.html>`_
 
 Governance
 ----------
@@ -64,7 +55,4 @@ Governance
 Code of conduct
 ---------------
 
-.. note::
-
-      We're actively working on this section of the documentation to improve
-      it for you. Thanks for your patience.
+Information can be found in the `Jupyter Governance repo on GitHub <https://github.com/jupyter/governance>`_.
