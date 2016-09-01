@@ -73,7 +73,7 @@ Commit that change::
 
 Build the distributions::
 
-    python setup.py sdist --formats=gztar,zip
+    python setup.py sdist --formats=gztar
     python setup.py bdist_wheel
 
 Tag the commit::
