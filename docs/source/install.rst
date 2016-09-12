@@ -72,25 +72,5 @@ Install the Jupyter Notebook using:
 
 (Use ``pip`` if using legacy Python 2.)
 
-.. note::
-
-    Some of Jupyter's dependencies may require compilation,
-    in which case you would need the ability to compile Python C-extensions.
-    You will need a C compiler and the Python headers.
-    On Debian-based systems (e.g. Ubuntu), you can get this with:
-
-    .. code-block:: bash
-
-        apt-get install build-essential python3-dev
-
-    And on Fedora-based systems (e.g. Red Hat, CentOS):
-
-    .. code-block:: bash
-
-        yum groupinstall 'Development Tools'
-        yum install python3-devel
-
-    (Use ``python`` for legacy Python 2.)
-
 Congratulations. You have installed Jupyter Notebook. See
 :ref:`Running the Notebook <running>` for more details.
