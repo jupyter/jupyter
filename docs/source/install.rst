@@ -16,7 +16,7 @@ Prerequisite: Python
 
 While Jupyter runs code in many programming languages, **Python** is
 a requirement (Python 3.3 or greater, or Python 2.7) for installing
-Jupyter notebook.
+the Jupyter Notebook.
 
 We recommend using the `Anaconda <https://www.continuum.io/downloads>`_
 distribution to install Python and Jupyter. We'll go through its installation
@@ -37,7 +37,8 @@ Use the following installation steps:
 1. Download `Anaconda <https://www.continuum.io/downloads>`_. We recommend
    downloading Anaconda's latest Python 3 version (currently Python 3.5).
 
-2. Install the version of Anaconda, which you downloaded.
+2. Install the version of Anaconda which you downloaded, following the
+   instructions on the download page.
 
 3. Congratulations, you have installed Jupyter Notebook. To run the notebook:
 
@@ -49,48 +50,34 @@ Use the following installation steps:
 
 .. _existing-python-new-jupyter:
 
-*Optional for experienced Python developers:* Installing Jupyter with pip
--------------------------------------------------------------------------
+*Alternative for experienced Python users:* Installing Jupyter with pip
+-----------------------------------------------------------------------
 
 .. important::
 
     Jupyter installation requires Python 3.3 or greater, or
-    Python 2.7. Older releases of IPython are available
-    `here <http://archive.ipython.org/release/>`__.
+    Python 2.7. IPython 1.x, which included the parts that later became Jupyter,
+    was the last version to support Python 3.2 and 2.6.
 
-We recommend Anaconda for installing Jupyter. Though as an existing Python
-user, you may wish to use Python's package manager, :term:`pip`, as an
-alternative.
+As an existing Python user, you may wish to install Jupyter using Python's
+package manager, :term:`pip`, instead of Anaconda.
 
 .. _python-using-pip:
 
-Install the Jupyter Notebook using:
+First, ensure that you have the latest pip;
+older versions may have trouble with some dependencies:
+
+.. code-block:: bash
+
+    pip3 install --upgrade pip
+
+Then install the Jupyter Notebook using:
 
 .. code-block:: bash
 
     pip3 install jupyter
 
 (Use ``pip`` if using legacy Python 2.)
-
-.. note::
-
-    Some of Jupyter's dependencies may require compilation,
-    in which case you would need the ability to compile Python C-extensions.
-    You will need a C compiler and the Python headers.
-    On Debian-based systems (e.g. Ubuntu), you can get this with:
-
-    .. code-block:: bash
-
-        apt-get install build-essential python3-dev
-
-    And on Fedora-based systems (e.g. Red Hat, CentOS):
-
-    .. code-block:: bash
-
-        yum groupinstall 'Development Tools'
-        yum install python3-devel
-
-    (Use ``python`` for legacy Python 2.)
 
 Congratulations. You have installed Jupyter Notebook. See
 :ref:`Running the Notebook <running>` for more details.
