@@ -64,7 +64,14 @@ package manager, :term:`pip`, instead of Anaconda.
 
 .. _python-using-pip:
 
-Install the Jupyter Notebook using:
+First, ensure that you have the latest pip;
+older versions may have trouble with some dependencies:
+
+.. code-block:: bash
+
+    pip3 install --upgrade pip
+
+Then install the Jupyter Notebook using:
 
 .. code-block:: bash
 
