@@ -16,7 +16,7 @@ Prerequisite: Python
 
 While Jupyter runs code in many programming languages, **Python** is
 a requirement (Python 3.3 or greater, or Python 2.7) for installing
-Jupyter notebook.
+the Jupyter Notebook.
 
 We recommend using the `Anaconda <https://www.continuum.io/downloads>`_
 distribution to install Python and Jupyter. We'll go through its installation
@@ -37,7 +37,8 @@ Use the following installation steps:
 1. Download `Anaconda <https://www.continuum.io/downloads>`_. We recommend
    downloading Anaconda's latest Python 3 version (currently Python 3.5).
 
-2. Install the version of Anaconda, which you downloaded.
+2. Install the version of Anaconda which you downloaded, following the
+   instructions on the download page.
 
 3. Congratulations, you have installed Jupyter Notebook. To run the notebook:
 
@@ -49,18 +50,17 @@ Use the following installation steps:
 
 .. _existing-python-new-jupyter:
 
-*Optional for experienced Python developers:* Installing Jupyter with pip
--------------------------------------------------------------------------
+*Alternative for experienced Python users:* Installing Jupyter with pip
+-----------------------------------------------------------------------
 
 .. important::
 
     Jupyter installation requires Python 3.3 or greater, or
-    Python 2.7. Older releases of IPython are available
-    `here <http://archive.ipython.org/release/>`__.
+    Python 2.7. IPython 1.x, which included the parts that later became Jupyter,
+    was the last version to support Python 3.2 and 2.6.
 
-We recommend Anaconda for installing Jupyter. Though as an existing Python
-user, you may wish to use Python's package manager, :term:`pip`, as an
-alternative.
+As an existing Python user, you may wish to install Jupyter using Python's
+package manager, :term:`pip`, instead of Anaconda.
 
 .. _python-using-pip:
 
