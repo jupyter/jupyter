@@ -11,9 +11,6 @@ import os
 import shlex
 import recommonmark.parser
 
-#from jupyter_sphinx_theme import *
-#init_theme()
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -194,7 +191,7 @@ if not on_rtd:
     import cloud_sptheme as csp
 
     html_theme = 'cloud'
-    html_theme_options = { "roottarget": "index" }
+    html_theme_options = {"roottarget": "index"}
 
     # Add any paths that contain custom themes here, relative to this directory.
     html_theme_path = [csp.get_theme_dir()]
