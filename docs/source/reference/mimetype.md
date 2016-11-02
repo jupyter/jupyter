@@ -21,7 +21,7 @@ As types may contain vendor specific items, a
 - `application/vnd.jupyter`
 - `application/vnd.jupyter.cells`
 - `application/vnd.jupyter.dragindex` used by nbdime
-
+- `application/x-ipynb+json` for notebooks
 
 ##  Listing of custom mimetypes used for display
 
