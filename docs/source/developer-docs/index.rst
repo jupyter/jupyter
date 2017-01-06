@@ -28,5 +28,4 @@ Python package, by running:
     pip install .
 
 The Jupyter notebook needs some extra pieces to build Javascript components;
-the information about that is available on ReadTheDocs
-`here <http://jupyter-notebook.readthedocs.io/en/latest/contributing.html#setting-up-a-development-environment>`_.
+the information about that is in the `notebook contributor documentation <http://jupyter-notebook.readthedocs.io/en/latest/contributing.html#setting-up-a-development-environment>`_.
