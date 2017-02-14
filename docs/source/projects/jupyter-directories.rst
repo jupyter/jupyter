@@ -37,6 +37,11 @@ table of the locations to be searched, in order of preference:
 | ``/etc/jupyter/``            |                            |
 +------------------------------+----------------------------+
 
+To list the config directories currrently being used you can run the below command from the :term:`command line`::
+
+    jupyter --paths
+
+
 .. _jupyter_path:
 
 Data files
