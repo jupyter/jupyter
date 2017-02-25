@@ -13,6 +13,6 @@ available often. Please see the `list of available kernels`_ for additional
 languages and `kernel installation instructions`_ to begin using these
 language kernels.
 
-.. _list of available kernels: https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages
+.. _list of available kernels: https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
 
 .. _kernel installation instructions: https://ipython.readthedocs.io/en/latest/install/kernel_install.html
