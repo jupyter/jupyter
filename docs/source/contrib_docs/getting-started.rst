@@ -13,9 +13,11 @@ Preparing for your first contribution
 Developing your contribution
 ----------------------------
 
+Jupyter's documentation is split across several projects, listed on the `Jupyter documentation home page <https://jupyter.readthedocs.io/en/latest/>`_. These instructions apply to all Jupyter projects, though some projects have further contribution guidelines.
+
 Clone the repository
 ~~~~~~~~~~~~~~~~~~~~
-1. Fork the project repository found on GitHub.
+1. Fork the appropriate project repository on GitHub, depending on which project's documentation you want to contribute to.
 2. Clone the repository to your system.
 
 Edit the documentation source file
