@@ -42,4 +42,4 @@ need to install additional kernels. For more information, see the full
     :ref:`Kernels documentation for Jupyter client <kernels>`
         Technical information about kernels.
 
-.. _`list of available kernels`: https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages
+.. _`list of available kernels`: https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
