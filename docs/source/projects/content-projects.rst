@@ -104,12 +104,12 @@ How do I decide which packages I need?
 			label="Extensions", 
 			tooltip="Install & use extensions", 
 			target="_blank", color=blue, // External Link 
-			href="https://github.com/jupyter/help"]
+			href="https://github.com/ipython-contrib/IPython-notebook-extensions"]
 		dash [
 			label="Dashboards", 
 			tooltip="Install & use dashboards",
 			target="_blank", color=blue, // External Link 
-			href="https://github.com/ipython-contrib/IPython-notebook-extensions"]
+			href="https://github.com/jupyter/dashboards"]
 		help [
 			label="Help", 
 			tooltip="Ask on jupyter help", 
