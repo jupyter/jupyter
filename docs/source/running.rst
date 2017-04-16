@@ -17,6 +17,14 @@ Basic Steps
 
 2. You should see the notebook open in your browser.
 
+.. note::
+
+    On Ubuntu/Linux, if you cannot run the `jupyter notebook` command, try the following:
+
+    .. code-block:: bash
+
+        jupyter-noteboook
+
 Starting the Notebook Server
 ----------------------------
 
