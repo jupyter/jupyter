@@ -6,4 +6,4 @@ dependencies:
     - sphinx
     - recommonmark
     - nbsphinx
-    - jupyter_sphinx_theme==0.0.6
+    - cloud-sptheme

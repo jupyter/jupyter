@@ -6,7 +6,7 @@ python:
 install:
     - pip install --upgrade pip
     - pip install --upgrade sphinx
-    - pip install jupyter_sphinx_theme
+    - pip install cloud-sptheme
     - pip install recommonmark
 script:
     - cd docs && make html

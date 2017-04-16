@@ -11,9 +11,6 @@ import os
 import shlex
 import recommonmark.parser
 
-from jupyter_sphinx_theme import *
-init_theme()
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -170,3 +167,32 @@ graphviz_output_format = 'svg'
 # graphviz_dot=r'c:\Program Files (x86)\Graphviz2.38\bin\dot.exe'
 # with your path to graphviz in should work if added to this file.
 # BUT Please do not commit with the path on your computer in place.
+
+# -- ReadTheDocs and Themes
+
+# Documentation is being built on readthedocs, this will be true.
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if on_rtd:
+    import cloud_sptheme as csp
+
+    html_theme = 'cloud'
+    html_theme_options = {"roottarget": "index"}
+
+    # Add any paths that contain custom themes here, relative to this directory.
+    html_theme_path = [csp.get_theme_dir()]
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+#
+
+if not on_rtd:
+
+    import cloud_sptheme as csp
+
+    html_theme = 'cloud'
+    html_theme_options = {"roottarget": "index"}
+
+    # Add any paths that contain custom themes here, relative to this directory.
+    html_theme_path = [csp.get_theme_dir()]
+
