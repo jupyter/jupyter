@@ -25,7 +25,7 @@ to run the notebook server. You can start the notebook server from the
 :term:`command line` (using :term:`Terminal` on Mac/Linux,
 :term:`Command Prompt` on Windows) by running::
 
-    jupyter notebook
+    jupyter-notebook
 
 This will print some information about the notebook server in your terminal,
 including the URL of the web application
