@@ -120,6 +120,11 @@ multiuser capabilities and secure, scalable cloud deployments.
         Store notebooks on Google Drive.
         `Documentation <https://github.com/jupyter/jupyter-drive>`__ |
         `Repo <https://github.com/jupyter/jupyter-drive>`__
+        
+     `jgscm <https://github.com/src-d/jgscm>`__
+        Store notebooks in Google Cloud Storage.
+        `Documentation <https://egorbu.github.io/pydata_2017_barcelona/>`__ |
+        `Repo <https://github.com/src-d/jgscm/>`__
 
     `nbviewer <https://nbviewer.jupyter.org/>`__
         Share notebooks as static HTML on the web.
