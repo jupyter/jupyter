@@ -142,8 +142,8 @@ If you just want to change the config file, you can do:
 
     jupyter notebook --config=/path/to/myconfig.py
 
-Changing kernelspecs
-~~~~~~~~~~~~~~~~~~~~
+Changing IPython's profile using custom kernelspecs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you do want to change the IPython kernel's profile, you
 can't do this at the server command-line anymore. Kernel arguments must
@@ -154,6 +154,23 @@ One approach uses ``jupyter kernelspec list`` to find the
 ``kernel.json`` file and then modifies it, e.g. ``kernels/python3/kernel.json``,
 by hand. Alternatively, `a2km <https://github.com/minrk/a2km>`__ is an
 experimental project that tries to make these things easier.
+
+For example, add the ``--profile`` option to a custom kernelspec under ``kernels/mycustom/kernel.json``
+(see the Jupyter kernelspec directions
+`here <https://jupyter-client.readthedocs.io/en/latest/kernels.html#kernel-specs>`_):
+
+.. code-block:: json
+
+    {
+     "argv": ["python", "-m", "ipykernel",
+              "--profile=my-ipython-profile",
+              "-f", "{connection_file}"],
+     "display_name": "Custom Profile Python",
+     "language": "python"
+    }
+q
+You can then run Jupyter with the ``--kernel=mycustom`` command-line option and IPython
+will find the appropriate profile.
 
 Understanding Installation Changes
 ----------------------------------
