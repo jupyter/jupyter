@@ -157,7 +157,7 @@ experimental project that tries to make these things easier.
 
 For example, add the ``--profile`` option to a custom kernelspec under ``kernels/mycustom/kernel.json``
 (see the Jupyter kernelspec directions
-`here <https://jupyter-client.readthedocs.io/en/latest/kernels.html#kernel-specs>`_):
+`here <https://jupyter-client.readthedocs.io/en/latest/kernels.html#kernel-specs>`__):
 
 .. code-block:: json
 
@@ -168,7 +168,7 @@ For example, add the ``--profile`` option to a custom kernelspec under ``kernels
      "display_name": "Custom Profile Python",
      "language": "python"
     }
-q
+
 You can then run Jupyter with the ``--kernel=mycustom`` command-line option and IPython
 will find the appropriate profile.
 
