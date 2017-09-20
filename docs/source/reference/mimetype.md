@@ -30,3 +30,4 @@ As types may contain vendor specific items, a
   `application/geo+json`
 * `application/geo+json` - preferred [GeoJSON spec](http://geojson.org/geojson-spec.html)
 * `application/vnd.plotly.v1+json` - [Plotly JSON Schema](http://help.plot.ly/json-chart-schema/)
+* `application/vdom.v1+json` - [Virtual DOM spec](https://github.com/nteract/vdom/blob/master/docs/spec.md)
