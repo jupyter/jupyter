@@ -58,7 +58,7 @@ can be found [[here\|Dev: Testing]].
 
 Don't forget to update docstrings, and any relevant parts of `the
 official
-documentation <http://ipython.org/ipython-doc/stable/index.html>`__. New
+documentation <https://ipython.readthedocs.io/en/stable/>`__. New
 features or significant changes warrant an entry in the *What's New*
 section too. Details about documenting IPython can be found [[here\|Dev:
 Documenting IPython]].
