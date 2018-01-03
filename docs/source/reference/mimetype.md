@@ -23,10 +23,8 @@ As types may contain vendor specific items, a
 - `application/vnd.jupyter.dragindex` used by nbdime
 - `application/x-ipynb+json` for notebooks
 - `text/html`
-     - `'--isolated'`, metadata option, can be used as follows: 
-       `display(html, metadata={'text/html':{'isolated':True}})` and
-       can annotate an IPython display magic, `%%html`. Isolated cells are
-       rendered inside their own `<iframe>` tag.
+     * metadata:
+         - `isolated: boolean` -- HTML should be rendered inside an `<iframe>`.
 
 ##  Listing of custom mimetypes used for display
 
