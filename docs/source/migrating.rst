@@ -10,7 +10,7 @@ Migrating from IPython Notebook
 Abstract
 --------
 
-`The Big Split <https://blog.jupyter.org/2015/04/15/the-big-split/>`__
+`The Big Split <https://blog.jupyter.org/the-big-split-9d7b88a031a7>`__
 moved IPython's various language-agnostic components under the Jupyter
 umbrella. Going forward, Jupyter will contain the language-agnostic
 projects that serve many languages. IPython will continue to focus
