@@ -340,7 +340,7 @@ And persist across sessions
    print square(3)
    print square(-2)
 
-Pretty much anything you can do with the ipython code, you can do with
+Pretty much anything you can do with the ipython code, you can do
 with a simple python script. Obviously, though it doesn't make sense 
 to use the doctest option.
 

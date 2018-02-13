@@ -222,7 +222,7 @@ This chart shows the architecture for the IPython notebook website.
 |            |                 | setings                                |
 +------------+-----------------+----------------------------------------+
 | ``GET``    | /<notebook\_id> | opens a duplicate copy or the notebook |
-|            | /copy           | with the given ID in a a new tab       |
+|            | /copy           | with the given ID in a new tab       |
 +------------+-----------------+----------------------------------------+
 | ``GET``    | /<notebook\_id> | prints the notebook with the given ID; |
 |            | /print          | if notebook doesn't exist, displays    |
