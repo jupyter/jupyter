@@ -43,10 +43,10 @@ Dashboard-related events
 app\_initialized.DashboardApp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When the iPython Notebook browser window opens for the first time and
+When the IPython Notebook browser window opens for the first time and
 initializes the Dashboard App. The Dashboard App lists the files and
 notebooks in the current directory. Additionally, it lets you create and
-open new iPython Notebooks.
+open new IPython Notebooks.
 
 Kernel-related events
 ---------------------
