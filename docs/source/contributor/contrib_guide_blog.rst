@@ -64,7 +64,7 @@ Working with images
 
 Try not to link to external images. If you want to put an image in the post,
 insert ``![]()`` in the editor view and drag and drop an image from your
-desktop into the newly created field in in the preview. External images can
+desktop into the newly created field in the preview. External images can
 change, and can break the blog post if they are taken down. This cannot append
 if you drag and drop images. Moreover, these images  will be served from the
 same CDN (Content Delivery Network) as the blog, which will insure the best
