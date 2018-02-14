@@ -6,7 +6,7 @@ JavaScript Events
 .. attention::
     This is copied verbatim from the old IPython wiki and is currently under development. Much of the information in this part of the development guide is out of date.
 
-(Note: this page is not currently consistent with IPython master)
+(Note: this page is not currently consistent with IPython/Jupyter master)
 
 Javascript events are used to notify unrelated parts of the notebook
 interface when something happens. For example, if the kernel is busy
@@ -43,10 +43,10 @@ Dashboard-related events
 app\_initialized.DashboardApp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When the iPython Notebook browser window opens for the first time and
+When the Jupyter Notebook browser window opens for the first time and
 initializes the Dashboard App. The Dashboard App lists the files and
 notebooks in the current directory. Additionally, it lets you create and
-open new iPython Notebooks.
+open new Jupyter Notebooks.
 
 Kernel-related events
 ---------------------
