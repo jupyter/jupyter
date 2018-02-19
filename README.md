@@ -1,28 +1,29 @@
 # Jupyter
 
-Jupyter metapackage for installation and docs.
+Meta paquetes de Jupyter para su instalacion y documentos.
 
-## Running the docs locally
-First navigate to the `/docs` directory and create a `conda` environment:
+## Ejecutando los documentos localmente
+Primero navega al directorio `/docs` y crea un entorno en `conda`:
 
 ```bash
 conda env create -f environment.yml  
 ```  
 
-Activate the environment:
+Activa el entorno:
 
 ```bash
 source activate jupyter_docs  
 ```
 
-Build the docs:
+Construye los documentos:
 
 ```bash
 make clean  
 make html
 ```
 
-The docs will be built in `build/html`. They can be viewed by starting an HTTP server and navigating to `0.0.0.0:8000` in your web browser.
+Los documentos se crearan en `build/html`. Ellos pueden ser vistos iniciando un servidor HTTP y navegando hasta `0.0.0.0:8000` en tu explorador web.
+
 ```bash
 python3 -m http.server
 ```
