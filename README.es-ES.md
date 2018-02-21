@@ -2,7 +2,7 @@
 
 *Leer en otros idiomas: [English](README.md), [Español](README.es-ES.md)*
 
-Meta paquetes de Jupyter para su instalacion y documentos.
+Meta paquete de Jupyter para su instalación y documentación.
 
 ## Ejecutando los documentos localmente
 Primero navega al directorio `/docs` y crea un entorno en `conda`:
@@ -17,14 +17,14 @@ Activa el entorno:
 source activate jupyter_docs  
 ```
 
-Construye los documentos:
+Genera los documentos:
 
 ```bash
 make clean  
 make html
 ```
 
-Los documentos se crearan en `build/html`. Estos pueden ser vistos iniciando un servidor HTTP y navegando hasta `0.0.0.0:8000` en tu explorador web.
+Los documentos se crearán en `build/html`. Éstos pueden ser vistos iniciando un servidor HTTP y navegando hasta `0.0.0.0:8000` en tu explorador web.
 
 ```bash
 python3 -m http.server
