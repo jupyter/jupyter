@@ -1,5 +1,7 @@
 # Jupyter
 
+*Leer en otros idiomas: [English](README.md), [Español](README.es-ES.md)*
+
 Meta paquetes de Jupyter para su instalacion y documentos.
 
 ## Ejecutando los documentos localmente
