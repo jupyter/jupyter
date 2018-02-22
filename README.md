@@ -1,5 +1,7 @@
 # Jupyter
 
+*Read this in other languages: [English](README.md), [Español](README.es-ES.md)*
+
 Jupyter metapackage for installation and docs.
 
 ## Running the docs locally
