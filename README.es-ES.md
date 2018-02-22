@@ -24,7 +24,7 @@ make clean
 make html
 ```
 
-Los documentos se crearán en `build/html`. Éstos pueden ser vistos iniciando un servidor HTTP y navegando hasta `0.0.0.0:8000` en tu explorador web.
+Los documentos se crearán en `build/html`. Éstos pueden ser vistos abriendo `build/html/index.html` o iniciando un servidor HTTP y navegando hasta `0.0.0.0:8000` en tu explorador web.
 
 ```bash
 python3 -m http.server
