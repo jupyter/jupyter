@@ -24,7 +24,7 @@ make clean
 make html
 ```
 
-The docs will be built in `build/html`. They can be viewed by starting an HTTP server and navigating to `0.0.0.0:8000` in your web browser.
+The docs will be built in `build/html`. They can be viewed by opening `build/html/index.html` or starting an HTTP server and navigating to `0.0.0.0:8000` in your web browser.
 ```bash
 python3 -m http.server
 ```
