@@ -54,6 +54,13 @@ notebooks. Often this will be your home directory.
 Introducing the Notebook Server's Command Line Options
 ------------------------------------------------------
 
+How do I run a specific Notebook?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: bash
+
+    jupyter notebook notebook.ipynb
+
 How do I start the Notebook using a custom IP or port?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
