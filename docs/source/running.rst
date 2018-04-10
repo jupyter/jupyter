@@ -57,8 +57,7 @@ Introducing the Notebook Server's Command Line Options
 How do I open a specific Notebook?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following code should open the given notebook in the currently running
-notebook server, starting one if necessary. 
+The following code should open the given notebook in the currently running notebook server, starting one if necessary. 
 
 .. code:: bash
 
