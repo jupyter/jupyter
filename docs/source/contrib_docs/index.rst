@@ -10,7 +10,6 @@ Documentation Guide
    getting-started.rst
    doc-workflow.rst
    doc-tools.rst
-   doc-style.rst
    doc-bugs.rst
    doc-build.rst
    doc-tracking.rst
