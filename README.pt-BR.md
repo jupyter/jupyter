@@ -5,7 +5,7 @@
 Metapacote de Jupyter para instalação e documentação.
 
 ## Executando os documentos localmente
-Primeiro navegue até o diretório `/ docs` e crie um ambiente `conda`:
+Primeiro navegue até o diretório `/docs` e crie um ambiente `conda`:
 
 ```bash
 conda env create -f environment.yml  
