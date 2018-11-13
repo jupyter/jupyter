@@ -1,6 +1,6 @@
 # Jupyter
 
-*Lire ceci dans d'autres idiomes: [English](README.md), [Español](README.es-ES.md), [Português](README.pt-BR.md)*
+*Lire ceci dans d'autres langues: [English](README.md), [Español](README.es-ES.md), [Português](README.pt-BR.md)*
 
 Jupyter metapackage pour installation et docs.
 
