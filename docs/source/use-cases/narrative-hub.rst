@@ -9,7 +9,7 @@ Description
 
 JupyterHub Narratives explore deployment and scaling of the Jupyter Notebook
 for a group of users. JupyterHub allows flexibility in configuration and
-deployment which makes JupyterHub a valuable to education, industry research
+deployment which makes JupyterHub valuable to education, industry research
 teams, and service providers. In these Narratives, we will look at
 differences in deployment, deployment advantages, and best practices.
 
