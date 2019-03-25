@@ -29,6 +29,8 @@ Example Use-Cases
   - `Part 1: Overview <https://adrian-gao.com/2018/02/bloomberg-bqnt-1/>`_
   - `Part 2: The BQNT App <https://adrian-gao.com/2018/04/bloomberg-bqnt-2/>`_
 
+- `Jupyter & Python in the corporate LAN <https://medium.com/@olivier.borderies/jupyter-python-in-the-corporate-lan-109e2ffde897>`_
+
 - `DevOps Intelligence with JupyterHub <https://nbviewer.jupyter.org/github/jhermann/jupyter-by-example/blob/master/complete-scenarios/devops-intelligence.ipynb>`_
 
 
