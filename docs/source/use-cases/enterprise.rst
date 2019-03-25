@@ -10,9 +10,14 @@ Jupyter in the Enterprise
 Description
 -----------
 
-Businesses, especially those that started their ‘digital transformation’ journey, are producing ever-increasing volumes of data. Enterprise data science aims to unearth the hidden value of those digital assets, which are typically siloed, uncategorized, and inaccessible to humans.
+Businesses, especially those that started their ‘digital transformation’ journey, are producing
+ever-increasing volumes of data. Enterprise data science aims to unearth the hidden value of
+those digital assets, which are typically siloed, uncategorized, and inaccessible to humans.
 
-Jupyter and JupyterHub can play a major role in related initiatives, especially in companies with an established open-source culture. The intent of this page is to provide you with ideas how Jupyter technology can fit into *your* organization's processes and system landscapes, by providing real-world examples and showcases.
+Jupyter and JupyterHub can play a major role in related initiatives, especially in companies
+with an established open-source culture. The intent of this page is to provide you with
+ideas how Jupyter technology can fit into *your* organization's processes and system
+landscapes, by providing real-world examples and showcases.
 
 
 Example Use-Cases
@@ -36,4 +41,5 @@ Example Use-Cases
 
 .. note::
     We're actively working on this section of the documentation to improve
-    it for you. Thanks for your patience.
+    it for you. If you've got a suggestion for a resource that would be helpful, please
+    create an issue or a pull request!
