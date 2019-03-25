@@ -22,6 +22,13 @@ Example Use-Cases
 
   - `Part 2: Scheduling Notebooks at Netflix <https://medium.com/netflix-techblog/scheduling-notebooks-348e6c14cfd6>`_
 
+- `PayPal Notebooks: Data science and machine learning at scale, powered by Jupyter <https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/68405>`_ (JupyterCon 2018 · `video <https://youtu.be/KVGrACWVUgE>`_)
+
+- Bloomberg BQuant platform:
+
+  - `Part 1: Overview <https://adrian-gao.com/2018/02/bloomberg-bqnt-1/>`_
+  - `Part 2: The BQNT App <https://adrian-gao.com/2018/04/bloomberg-bqnt-2/>`_
+
 - `DevOps Intelligence with JupyterHub <https://nbviewer.jupyter.org/github/jhermann/jupyter-by-example/blob/master/complete-scenarios/devops-intelligence.ipynb>`_
 
 
