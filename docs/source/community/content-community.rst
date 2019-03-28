@@ -29,7 +29,7 @@ the recording of the meeting will be posted to the `IPython channel
 Collaborative notes are taken before/during the meeting on
 `Hackpad <https://jupyter.hackpad.com>`_. Hackpads are organized by month.
 
-We will ping the `dev-meeting-attendance Gitter channel <https://gitter.im/jupyter/dev-meeting-attendance>`_ 
+We will ping the `dev-meeting-attendance Gitter channel <https://gitter.im/jupyter/dev-meeting-attendance>`_
 1-2 days before each meeting to know who is likely going to attend.
 
 .. contents:: Contents
@@ -58,3 +58,19 @@ Code of conduct
 ---------------
 
 Information can be found in the `Jupyter Governance repo on GitHub <https://github.com/jupyter/governance>`_.
+
+What is a Jovyan?
+-----------------
+
+You may see the word **Jovyan** used in Jupyter tools (such as the user ID in the
+`Jupyter Docker stacks <https://github.com/jupyter/docker-stacks?`_ or referenced in
+conversations. But what is a Jovyan?
+
+In astronomical terms, the word "Jovian" means "like Jupiter". It describes
+`several planets that share Jupyter-like properties <https://www.universetoday.com/33061/what-are-the-jovian-planets/>`_.
+
+Much like the planet Jupiter and our solar system, the Jupyter community
+is large, distributed, and nebulous. We like to use the word **Jovyan** to
+describe members of this community. Jovyans are fellow open enthusiasts that use, develop,
+promote, teach, learn, and otherwise enjoy tools in Jupyter's orbit. They make up the
+Jupyter community. If you're not sure whether you're a Jovyan, you probably are :-)
