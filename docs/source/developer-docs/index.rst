@@ -11,6 +11,7 @@ Developer Guide
 
    contrib_guide_code.rst
    contrib_guide_bugs_enh.rst
+   contrib_guide_vuln.rst
    jupyter_enhancement_proposals.rst
    releasing.rst
    ../development_guide/index.rst
