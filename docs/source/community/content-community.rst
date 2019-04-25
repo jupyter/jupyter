@@ -1,3 +1,5 @@
+.. _community-guide:
+
 ================
 Community Guides
 ================
@@ -8,43 +10,52 @@ provide information about the Jupyter community such as background, events,
 and communication channels. As our community is highly dynamic, information
 may change, and we will do our best to keep it up to date.
 
-Weekly Dev meeting
-------------------
 
-The core developers have weekly meetings to discuss and demo what they have
-been working on, discuss future plans, and bootstrap conversation. These
-meetings are public. The direct link to attend the meeting will be posted to
-the `Hackpad <https://jupyter.hackpad.com>`_ before the meeting. Afterwards,
-the recording of the meeting will be posted to the `IPython channel
-<https://www.youtube.com/channel/UCUuzz1eYiKIzu_Uw1ZQLNoQ>`_ on YouTube.
+Monthly Dev meetings
+--------------------
 
-**Jupyter/IPython meetings:**
+The core developers of various Jupyter sub-projects have regular meetings to
+discuss and demo what they have been working on, discuss future plans,
+and bootstrap conversation. These meetings are public and you are welcome to join remotely.
 
-- Tuesdays at 9am PST
+Each team has their own processes around logistics and planning for the team meetings. The
+following pages should help you find the information for each.
 
-**JupyterLab meetings:**
+**All-Jupyter Community Calls** happen roughly each month, and are focused around demo-ing
+and sharing information across all of the Jupyter projects. Check out
+`this Discourse thread <https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_ for
+information about each call.
 
-- Fridays at 9am PST
+**JupyterHub meetings** happen monthly. For a calendar of future team meetings, see
+`the JupyterHub team compass repository <https://jupyterhub-team-compass.readthedocs.io/en/latest/meetings.html>`_.
 
-Collaborative notes are taken before/during the meeting on
-`Hackpad <https://jupyter.hackpad.com>`_. Hackpads are organized by month.
+**JupyterLab meetings** happen weekly. For more information about when these meetings happen,
+as well as notes from each meeting, see `the JupyterLab README <https://github.com/jupyterlab/jupyterlab#weekly-dev-meeting>`_.
 
-We will ping the `dev-meeting-attendance Gitter channel <https://gitter.im/jupyter/dev-meeting-attendance>`_
-1-2 days before each meeting to know who is likely going to attend.
+**General meeting conversation and planning** often happens in the
+`dev-meeting-attendance Gitter channel <https://gitter.im/jupyter/dev-meeting-attendance>`_.
+We recommend checking it periodically for new information about when meetings are happening.
 
 .. contents:: Contents
    :local:
 
+
 Jupyter communications
 ----------------------
 
+As a general rule, most project-wide conversation happens in the
+`Jupyter community forum <https://discourse.jupyter.org>`_. There are also many other
+kinds of communication that happens within the community. See below for links and other
+relevant information.
+
+- Community forum `<https://discourse.jupyter.org/>`_
 - Blog `<https://blog.jupyter.org/>`_
 - Newsletter `<https://newsletter.jupyter.org/>`_
 - Website `<https://jupyter.org>`_
 - Twitter `<https://twitter.com/ProjectJupyter>`_
-- Discourse `<https://discourse.jupyter.org/>`_
 - Gitter `<https://gitter.im/jupyter/jupyter>`_
 - Mailing lists (Jupyter, Jupyter in Education) `<https://jupyter.org/community.html>`_
+
 
 Governance
 ----------
