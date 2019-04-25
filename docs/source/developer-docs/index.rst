@@ -9,6 +9,7 @@ Developer Guide
 .. toctree::
    :maxdepth: 1
 
+   contrib_first_time.rst
    contrib_guide_code.rst
    contrib_guide_bugs_enh.rst
    contrib_guide_vuln.rst
