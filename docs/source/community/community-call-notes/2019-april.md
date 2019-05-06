@@ -9,39 +9,6 @@
 
 Hello!
 
-If you are joining the team video meeting, sign in below so we know who was here. Roll call:
-
-Name / Institution / Github Handle
-
-* Zach / Jupyter Cal Poly / @Zsailer
-* Pete / Thorn / @parente
-* James Slack / University of Edinburgh / @jamesaslack
-* Anton Akhmerov / TU Delft / @akhmerov
-* Peter Rose / UC San Diego / @pwrose
-* A. T. Darian / Two Sigma / @afshin
-* Ward Harold / Google / @wkharold
-* Damián Avila / / @damianavila
-* Chico Venancio / [BMC Group K.K.](http://www.bmc-group.co.jp/en/home/) / @chicocvenancio
-* Eric Lesch / [BMC Group K.K.](http://www.bmc-group.co.jp/en/home/) / @EricLesch
-* James Munroe / Memorial University of Newfoundland / @jmunroe
-* Lindsey Heagy / UC Berkeley / @lheagy
-* Daniel Smith / The Molecular Sciences Software Institute / @dgasmith
-* Michael Milligan / U. Minnesota/MSI / @mbmilligan 
-* Kevin Bates / IBM / @kevin-bates
-* Cindy Wu / experiment.com / @cindywu
-* Joe Hamman / NCAR / @jhamman
-* Nick Bollweg / GTRI / @bollwyvl
-* Tom Baldwin / Cascade Data Labs / @baldwint
-* Pete Blois / Google Colab / @blois
-* Ana Ruvalcaba / Cal Poly, San Luis Obispo/Jupyter / @ruv7
-* Tim Head / Project Binder / Zurich / @betatim
-* Matthias Bussonnier / Jupyter Project / @carreau
-* Tim George / Cal Poly, San Luis Obispo/Jupyter / @tgeorgeux
-
-
-
-## Purpose
-
 The purpose of these monthly video conference calls is to share and demonstrate the awesome things happening in Jupyter community. We invite **anyone** to present their work, engage in discussion, or just sit in and listen. Whether you have a new [lab extension](https://github.com/jupyterlab) you've created, a new [jupyterhub deployment](https://github.com/jupyterhub) you're excited about, or an [nteract papermill](https://github.com/nteract) pipeline powering your business, we'd love to hear about it! And, we'll  record and publish these calls on YouTube for anyone unable to attend.
 
 For more discussion on the format of these calls, see the thread [here](https://discourse.jupyter.org/t/reviving-the-all-jupyter-team-meetings/423).
@@ -119,3 +86,32 @@ Add your potential agenda item here **24 hours before** the meeting at the lates
 * Blog https://thinking.is.ed.ac.uk/noteable/
 * nbgrader Hackathon - http://edin.ac/2SGmzNu
 * Presentation - https://edin.ac/2PBJc1T
+
+## In Attendance 
+
+Name / Institution / Github Handle
+
+* Zach / Jupyter Cal Poly / @Zsailer
+* Pete / Thorn / @parente
+* James Slack / University of Edinburgh / @jamesaslack
+* Anton Akhmerov / TU Delft / @akhmerov
+* Peter Rose / UC San Diego / @pwrose
+* A. T. Darian / Two Sigma / @afshin
+* Ward Harold / Google / @wkharold
+* Damián Avila / / @damianavila
+* Chico Venancio / [BMC Group K.K.](http://www.bmc-group.co.jp/en/home/) / @chicocvenancio
+* Eric Lesch / [BMC Group K.K.](http://www.bmc-group.co.jp/en/home/) / @EricLesch
+* James Munroe / Memorial University of Newfoundland / @jmunroe
+* Lindsey Heagy / UC Berkeley / @lheagy
+* Daniel Smith / The Molecular Sciences Software Institute / @dgasmith
+* Michael Milligan / U. Minnesota/MSI / @mbmilligan 
+* Kevin Bates / IBM / @kevin-bates
+* Cindy Wu / experiment.com / @cindywu
+* Joe Hamman / NCAR / @jhamman
+* Nick Bollweg / GTRI / @bollwyvl
+* Tom Baldwin / Cascade Data Labs / @baldwint
+* Pete Blois / Google Colab / @blois
+* Ana Ruvalcaba / Cal Poly, San Luis Obispo/Jupyter / @ruv7
+* Tim Head / Project Binder / Zurich / @betatim
+* Matthias Bussonnier / Jupyter Project / @carreau
+* Tim George / Cal Poly, San Luis Obispo/Jupyter / @tgeorgeux
