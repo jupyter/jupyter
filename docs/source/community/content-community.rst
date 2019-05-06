@@ -11,8 +11,8 @@ and communication channels. As our community is highly dynamic, information
 may change, and we will do our best to keep it up to date.
 
 
-Monthly Dev meetings
---------------------
+Monthly Meetings
+----------------
 
 The core developers of various Jupyter sub-projects have regular meetings to
 discuss and demo what they have been working on, discuss future plans,
@@ -21,10 +21,13 @@ and bootstrap conversation. These meetings are public and you are welcome to joi
 Each team has their own processes around logistics and planning for the team meetings. The
 following pages should help you find the information for each.
 
-**All-Jupyter Community Calls** happen roughly each month, and are focused around demo-ing
-and sharing information across all of the Jupyter projects. Check out
-`this Discourse thread <https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_ for
-information about each call.
+**All-Jupyter Community Calls** happens on the last Tuesday of every month, and are focused around demo-ing
+and sharing information across all of the Jupyter projects. 
+
+- Find information on `this Discourse thread <https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_.
+- Watch previous calls on `our YouTube channel <https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_.
+- Read the `notes from previous calls <community-call-notes/index.html>`_.
+
 
 **JupyterHub meetings** happen monthly. For a calendar of future team meetings, see
 `the JupyterHub team compass repository <https://jupyterhub-team-compass.readthedocs.io/en/latest/meetings.html>`_.
