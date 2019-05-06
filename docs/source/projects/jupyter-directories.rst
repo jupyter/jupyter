@@ -55,18 +55,18 @@ directory until it finds where the resource is contained.
 Each category of file is in a subdirectory of each directory of the
 search path. For example, kernel specs are in ``kernels`` subdirectories.
 
-.. envvar:: JUPYTER_PATH
+.. envvar:: JUPYTER_DATA_DIR
 
    Set this environment variable to provide extra directories for the data
-   search path. :envvar:`JUPYTER_PATH` should contain a series of directories,
+   search path. :envvar:`JUPYTER_DATA_DIR` should contain a series of directories,
    separated by ``os.pathsep`` (``;`` on Windows, ``:`` on Unix).
-   Directories given in :envvar:`JUPYTER_PATH` are searched before other
+   Directories given in :envvar:`JUPYTER_DATA_DIR` are searched before other
    locations.
 
 +-------------------------------+----------------------------+----------------------------+
 | Linux (& other free desktops) | Mac                        | Windows                    |
 +===============================+============================+============================+
-| :envvar:`JUPYTER_PATH`                                                                  |
+| :envvar:`JUPYTER_DATA_DIR`                                                              |
 +-------------------------------+----------------------------+----------------------------+
 | ``~/.local/share/jupyter/``   | ``~/Library/Jupyter``      | ``%APPDATA%\jupyter``      |
 | (respects ``$XDG_DATA_HOME``) |                            |                            |
@@ -101,7 +101,7 @@ Summary
 
 :envvar:`JUPYTER_CONFIG_DIR` for config file location
 
-:envvar:`JUPYTER_PATH` for datafile directory locations
+:envvar:`JUPYTER_DATA_DIR` for datafile directory locations
 
 :envvar:`JUPYTER_RUNTIME_DIR` for runtime file location
 
