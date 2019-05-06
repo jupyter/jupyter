@@ -12,36 +12,34 @@ Hello!
 
 If you are joining the team video meeting, sign in below so we know who was here. Roll call:
 
-| Name              | Institution             | Github Handle     | 
-| ----------------- | ----------------------- | ------------------|
-| Zach              | Jupyter Cal Poly        | @Zsailer          |
-| Kyle              | Netflix                 | @rgbkrk           |
-| Pete              | Valassis Digital        | @parente          |
-| Carol             | Project Jupyter         | @willingc (will miss due to OpenEdX conference)        |
-| Brian             | AWS                     | @ellisonbg        |
-| Darian            | Two Sigma               | @afshin           |
-| Ward              | Google                  | @wkharold         |
-| Tim               | Project Jupyter         | @betatim          |
-| Chris             | Berkeley/Project Jupyter| @choldgraf        | 
-| Pete              | Google Colab            | @blois            |
-| Matthias          | UC Merced               | @carreau          |
-| Saul              | Quansight               | @saulshanabrook   |
-| Vidar             | Simula Research         | @vidartf          |
-| Lindsey Heagy     | UC Berkeley             | @lheagy           |
-| Safia ABdalla     | Microsoft/nteract       | @captainsafia     |
-| Leticia Portella  | -                       | @leportella
-| Damián Avila      | Project Jupyter                        | @damianavila      |
-| Craig Citro       | Google Colab            | @craigcitro       |
-| Nick Bollweg      | GTRI                    | @bollwyvl         |
-| Michael Milligan  | U Minnesota / MSI       | @mbmilligan       |
-| Liang Bin Hsueh   | InfuseAI                | @hlb              |
-| Thomas Vander Velde | -             | @tomasdelcampo            |
-| Luciano Resende   | IBM                     | @lresende         |
-| Tony Fast         |  Quansight              | @tonyfast         |
-| James Slack       | University of Edinburgh | @jamesaslack      |
-| Erik Sundell      | Sandvik                 | @consideratio     |
-|
+Name              | Institution             | Github Handle
 
+* Zach              | Jupyter Cal Poly        | @Zsailer          
+* Kyle              | Netflix                 | @rgbkrk           
+* Pete              | Valassis Digital        | @parente          
+* Carol             | Project Jupyter         | @willingc (will miss due to OpenEdX conference)        
+* Brian             | AWS                     | @ellisonbg        
+* Darian            | Two Sigma               | @afshin           
+* Ward              | Google                  | @wkharold         
+* Tim               | Project Jupyter         | @betatim          
+* Chris             | Berkeley/Project Jupyter| @choldgraf        
+* Pete              | Google Colab            | @blois            
+* Matthias          | UC Merced               | @carreau          
+* Saul              | Quansight               | @saulshanabrook   
+* Vidar             | Simula Research         | @vidartf          
+* Lindsey Heagy     | UC Berkeley             | @lheagy           
+* Safia ABdalla     | Microsoft/nteract       | @captainsafia     
+* Leticia Portella  | -                       | @leportella
+* Damián Avila      | Project Jupyter                        | @damianavila      
+* Craig Citro       | Google Colab            | @craigcitro       
+* Nick Bollweg      | GTRI                    | @bollwyvl         
+* Michael Milligan  | U Minnesota / MSI       | @mbmilligan       
+* Liang Bin Hsueh   | InfuseAI                | @hlb              
+* Thomas Vander Velde | -             | @tomasdelcampo            
+* Luciano Resende   | IBM                     | @lresende         
+* Tony Fast         |  Quansight              | @tonyfast         
+* James Slack       | University of Edinburgh | @jamesaslack      
+* Erik Sundell      | Sandvik                 | @consideratio     
 
 ## Purpose
 
