@@ -68,10 +68,42 @@ Governance
 - Jupyter Enhancement Proposal (JEP) process: Details about the process can
   be found in the `jupyter/enhancement-proposals GitHub repo <https://github.com/jupyter/enhancement-proposals>`_.
 
+
 Code of conduct
 ---------------
 
 Information can be found in the `Jupyter Governance repo on GitHub <https://github.com/jupyter/governance>`_.
+
+
+Running Jupyter Events
+----------------------
+
+Members of the Jupyter community often get together to share what they're
+working on, to work together, and to teach and learn from one another.
+
+If you're organizing an event with the Jupyter community (whether it's as
+small as a JupyterDays meetup, or as large as JupyterCon) you should ensure
+that the event follows the values and goals of the Jupyter project - to be a
+place where *everyone* feels welcome and supported and that reflects the
+diversity of developers and users in the Jupyter community.
+
+If you're organizing a Jupyter event,
+here are some resources to have the best event possible.
+
+* The `Mozilla Open Events guide <https://foundation.mozilla.org/en/opportunity/open-events-guide/>`_.
+  This is an excellent resource for planning and running an open, inclusive
+  event. In particular, `this section on making events more inviting <https://foundation.mozilla.org/en/opportunity/open-events-guide/make-it-more-inviting/>`_
+  is a good way to make your event more welcoming, interesting, and accessible
+  to the Jupyter community.
+* The `NumFocus DISCOVER cookbook <https://discover-cookbook.numfocus.org/>`_
+  is another collection of resources for making your event more productive,
+  diverse, and inclusive.
+
+Ultimately, making events more inclusive is not rocket science and there is
+no magic bullet. It requires clear, focused dedication, planning ahead,
+and sustained resources and effort over time. However, we believe this effort
+is worth it!
+
 
 What is a Jovyan?
 -----------------
