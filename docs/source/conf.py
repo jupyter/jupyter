@@ -170,3 +170,8 @@ graphviz_output_format = 'svg'
 # graphviz_dot=r'c:\Program Files (x86)\Graphviz2.38\bin\dot.exe'
 # with your path to graphviz in should work if added to this file.
 # BUT Please do not commit with the path on your computer in place.
+
+# -- Translation ----------------------------------------------------------
+
+gettext_uuid = True
+locale_dirs = ['locale/']

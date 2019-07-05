@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# efdc3f834e74419fa6a4b57c74ee4fcd
+#: ../../source/install-kernel.rst:3
+msgid "*Optional:* Installing Kernels"
+msgstr ""
+
+# a8453d1a49ac44b1a666c35084a9ae4d
+#: ../../source/install-kernel.rst:7
+msgid "Contents"
+msgstr ""
+
+# da930aecf67d4103b678a613f2b8f9ae
+#: ../../source/install-kernel.rst:9
+msgid ""
+"This information gives a high-level view of using Jupyter Notebook with "
+"different programming languages (kernels)."
+msgstr ""
+
+# 0b4e24aa51dd400782dfff162b605bb3
+#: ../../source/install-kernel.rst:13
+msgid "Are any languages pre-installed?"
+msgstr ""
+
+# ea86f10aa988483fbc44ed6fc2ed5c1c
+#: ../../source/install-kernel.rst:15
+msgid ""
+"Yes, installing the Jupyter Notebook will also install the `IPython "
+"<https://ipython.readthedocs.io/en/latest/>`_ :term:`kernel`. This allows"
+" working on notebooks using the Python programming language."
+msgstr ""
+
+# 94ea0ff4960049e8bffc34755b0c57d0
+#: ../../source/install-kernel.rst:20
+msgid "How do I install Python 2 and Python 3?"
+msgstr ""
+
+# 9e28ab95796d4facb934d8a06dbaf56c
+#: ../../source/install-kernel.rst:22
+msgid ""
+"To install an additional version of Python, i.e. to have both Python 2 "
+"and 3 available, see the IPython docs on `installing kernels "
+"<https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_."
+msgstr ""
+
+# fc0d1726d8ff4504922a6164a4841b27
+#: ../../source/install-kernel.rst:27
+msgid "How do I install other languages like R or Julia?"
+msgstr ""
+
+# 3eff7ec0dacb45dc9198c7dc21af8e4e
+#: ../../source/install-kernel.rst:29
+msgid ""
+"To run notebooks in languages other than Python, such as R or Julia, you "
+"will need to install additional kernels. For more information, see the "
+"full `list of available kernels`_."
+msgstr ""
+
+# a15c5c1d7def408f8bf85bb8b39608f6
+#: ../../source/install-kernel.rst:37
+msgid ":ref:`Jupyter Projects <subprojects>`"
+msgstr ""
+
+# 8a2af66f6aa14ac2ae3d77f3214ed281
+#: ../../source/install-kernel.rst:36
+msgid ""
+"Detailed installation instructions for individual Jupyter or IPython "
+"projects."
+msgstr ""
+
+# ea589c0dbe5d4f7a8f61edf4c78fa86b
+#: ../../source/install-kernel.rst:40
+msgid ":ref:`Kernels <kernels-langs>`"
+msgstr ""
+
+# 0bd2cf28af6e4107a801fb8e3d0e0ac3
+#: ../../source/install-kernel.rst:40
+msgid "Information about additional programming language kernels."
+msgstr ""
+
+# 8ce58b34c6cb4505ae83e5359e506a04
+#: ../../source/install-kernel.rst:42
+msgid ":ref:`Kernels documentation for Jupyter client <kernels>`"
+msgstr ""
+
+# 9d06f59e323b40d497adf08f5a3c677f
+#: ../../source/install-kernel.rst:43
+msgid "Technical information about kernels."
+msgstr ""
+

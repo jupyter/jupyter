@@ -1,9 +1,10 @@
 name: jupyter_docs
 dependencies:
-- python=3.5
-- sphinx_rtd_theme
-- pip:
-    - sphinx
-    - recommonmark
-    - nbsphinx
-    - jupyter_sphinx_theme==0.0.6
+  - python=3.7
+  - sphinx_rtd_theme
+  - pip:
+      - sphinx>=1.6
+      - sphinx-intl
+      - recommonmark==0.5.0
+      - nbsphinx
+      - jupyter_sphinx_theme==0.0.6

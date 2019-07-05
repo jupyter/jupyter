@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# c7a3e6ef18974fdf9970ec0c8cf6b1a4
+#: ../../source/use-cases/content-user.rst:2
+msgid "Narratives and Use Cases"
+msgstr ""
+
+# 74a57ce9257b4dcf8cd496659310f050
+#: ../../source/use-cases/content-user.rst:5
+msgid "What are Narratives?"
+msgstr ""
+
+# 4d5ab784c1c0495a953ec916572ab868
+#: ../../source/use-cases/content-user.rst:6
+msgid ""
+"Narratives are *collaborative*, *shareable*, *publishable*, and "
+"*reproducible*. We believe that Narratives help both yourself and other "
+"researchers by sharing your use of Jupyter projects, technical specifics "
+"of your deployment, and installation and configuration tips so that "
+"others can learn from your experiences."
+msgstr ""
+
+# 38991fbc6546442fac82338471a16196
+#: ../../source/use-cases/data_science.rst:5
+msgid "Jupyter for Data Science"
+msgstr ""
+
+# 9b4934127359431a8eae07c4e6d35177
+#: ../../source/use-cases/data_science.rst:7
+msgid ""
+"The purpose of this page is to highlight kernels and other projects that "
+"are central to the usage of Jupyter in data science. This page is not "
+"meant to be comprehensive or unbiased, but rather to provide an "
+"opinionated view of the usage of Jupyter in data science based on our "
+"interactions with users."
+msgstr ""
+
+# 79646aee3a3a4e799435131c32b9fa38
+#: ../../source/use-cases/data_science.rst:12
+msgid "The following Jupyter kernels are widely used in data science:"
+msgstr ""
+
+# 61a8d058c87947fcb61ad48ca8b85c1c
+#: ../../source/use-cases/data_science.rst:14
+msgid "python"
+msgstr ""
+
+# e1ab9a92301d44bbb0e3792b6ed0490d
+#: ../../source/use-cases/data_science.rst:15
+msgid "IPython (`GitHub Repo <https://github.com/ipython/ipykernel>`__)"
+msgstr ""
+
+# 0d1a6ecffddc475596df6bc7d7ab6ac9
+#: ../../source/use-cases/data_science.rst:18
+msgid "R"
+msgstr ""
+
+# b617b75cdf6b4f09bd81a46e54f67b4c
+#: ../../source/use-cases/data_science.rst:17
+msgid ""
+"IRkernel (`Documentation <https://irkernel.github.io/>`__, `GitHub Repo "
+"<https://github.com/IRkernel/IRkernel>`__)"
+msgstr ""
+
+# 6c033e0b10c943c7b1d015a324bd5043
+#: ../../source/use-cases/data_science.rst:18
+msgid "IRdisplay (`GitHub Repo <https://github.com/IRkernel/IRdisplay>`__)"
+msgstr ""
+
+# b5577205b7ea4a5e863601eedc8826fc
+#: ../../source/use-cases/data_science.rst:19
+msgid "repr (`GitHub Repo <https://github.com/IRkernel/repr>`__)"
+msgstr ""
+
+# e204fea1f5694325a9ebb16297f8efff
+#: ../../source/use-cases/data_science.rst:21
+msgid "Julia"
+msgstr ""
+
+# aee5a4b089b04f0080ad7ba2a1f5031f
+#: ../../source/use-cases/data_science.rst:21
+msgid "IJulia Kernel (`GitHub Repo <https://github.com/JuliaLang/IJulia.jl>`__)"
+msgstr ""
+
+# 7bbb9b36f2f84459aef3fb97869ce6b9
+#: ../../source/use-cases/data_science.rst:22
+msgid ""
+"Interactive Widgets (`GitHub Repo "
+"<https://github.com/JuliaLang/Interact.jl>`__)"
+msgstr ""
+
+# 1b6b2ad9e6f3428dbf5172927a9169a9
+#: ../../source/use-cases/data_science.rst:23
+msgid "Bash (`GitHub Repo <https://github.com/takluyver/bash_kernel>`__)"
+msgstr ""
+
+# 37b3885a41144745a83ca6b4cd08778e
+#: ../../source/use-cases/education.rst:2
+msgid "Jupyter in Education"
+msgstr ""
+
+# 537dc039d5b140bdaf1f53e9a7e508ab
+# d387c0b434c84dd2842f3f53e48eaca9
+# 51f6e28c5aae4489afff3acfd1033f00
+# 5824e4f59f5a48a5a8441ea228e71850
+# ad1ed25e378745da95f1815cc1a9c5ca
+#: ../../source/use-cases/education.rst:5
+#: ../../source/use-cases/narrative-hub.rst:29
+#: ../../source/use-cases/narrative-notebook.rst:24
+#: ../../source/use-cases/narrative-other.rst:23
+#: ../../source/use-cases/science.rst:5
+msgid ""
+"We're actively working on this section of the documentation to improve it"
+" for you. Thanks for your patience."
+msgstr ""
+
+# e5ea9daf28014d91919d78648a1a3c6c
+#: ../../source/use-cases/enterprise.rst:5
+msgid "Jupyter in the Enterprise"
+msgstr ""
+
+# e6075014f1a94cb08daccbf89fa4bf7e
+# 0d285e91e9e34a579165b524a3bc024e
+# 04b5bb4dfe2d49c7bcbeb444bd97a735
+# 45567a5466db4b78905ff14d59ede989
+#: ../../source/use-cases/enterprise.rst:8
+#: ../../source/use-cases/narrative-hub.rst:5
+#: ../../source/use-cases/narrative-notebook.rst:5
+#: ../../source/use-cases/narrative-other.rst:5
+msgid "Contents"
+msgstr ""
+
+# 0192beb23b4842a0a1e6cb765973592b
+# aca370754a0b41dbaba092dd77a3f385
+# 9d431db72aa14375914f90b6b7e2d86f
+# 0e0b9dc725fc4c6da2f26d04f88f70a6
+#: ../../source/use-cases/enterprise.rst:11
+#: ../../source/use-cases/narrative-hub.rst:8
+#: ../../source/use-cases/narrative-notebook.rst:8
+#: ../../source/use-cases/narrative-other.rst:8
+msgid "Description"
+msgstr ""
+
+# 4d5b3832ecb24a678ed06238e69a35b8
+#: ../../source/use-cases/enterprise.rst:13
+msgid ""
+"Businesses, especially those that started their ‘digital transformation’ "
+"journey, are producing ever-increasing volumes of data. Enterprise data "
+"science aims to unearth the hidden value of those digital assets, which "
+"are typically siloed, uncategorized, and inaccessible to humans."
+msgstr ""
+
+# e9407a7e2195481583ac70537e535b51
+#: ../../source/use-cases/enterprise.rst:17
+msgid ""
+"Jupyter and JupyterHub can play a major role in related initiatives, "
+"especially in companies with an established open-source culture. The "
+"intent of this page is to provide you with ideas how Jupyter technology "
+"can fit into *your* organization's processes and system landscapes, by "
+"providing real-world examples and showcases."
+msgstr ""
+
+# 92f850f3933a4c82972254363d00920d
+#: ../../source/use-cases/enterprise.rst:24
+msgid "Example Use-Cases"
+msgstr ""
+
+# 1124b2efb8e5441a9bae96db904a4d13
+#: ../../source/use-cases/enterprise.rst:26
+msgid ""
+"`Beyond Interactive: Notebook Innovation at Netflix <https://medium.com"
+"/netflix-techblog/notebook-innovation-591ee3221233>`_"
+msgstr ""
+
+# a032d148013249c19a4b7997d144d6e5
+#: ../../source/use-cases/enterprise.rst:28
+msgid ""
+"`Part 2: Scheduling Notebooks at Netflix <https://medium.com/netflix-"
+"techblog/scheduling-notebooks-348e6c14cfd6>`_"
+msgstr ""
+
+# 3ea08bce807d455c97b4e99507bf7bc1
+#: ../../source/use-cases/enterprise.rst:30
+msgid ""
+"`PayPal Notebooks: Data science and machine learning at scale, powered by"
+" Jupyter <https://conferences.oreilly.com/jupyter/jup-"
+"ny/public/schedule/detail/68405>`_ (JupyterCon 2018 · `video "
+"<https://youtu.be/KVGrACWVUgE>`_)"
+msgstr ""
+
+# 12d4de71971e4485aa5f391ea154dd5f
+#: ../../source/use-cases/enterprise.rst:32
+msgid "Bloomberg BQuant platform:"
+msgstr ""
+
+# b8efa7cb7d964b33a93f5f889328f5e9
+#: ../../source/use-cases/enterprise.rst:34
+msgid "`Part 1: Overview <https://adrian-gao.com/2018/02/bloomberg-bqnt-1/>`_"
+msgstr ""
+
+# ec673432d6994bbca5bcd2e8703688d3
+#: ../../source/use-cases/enterprise.rst:35
+msgid "`Part 2: The BQNT App <https://adrian-gao.com/2018/04/bloomberg-bqnt-2/>`_"
+msgstr ""
+
+# a5be50b562b649af8ab4406992e4e1cb
+#: ../../source/use-cases/enterprise.rst:37
+msgid ""
+"`Jupyter & Python in the corporate LAN "
+"<https://medium.com/@olivier.borderies/jupyter-python-in-the-corporate-"
+"lan-109e2ffde897>`_"
+msgstr ""
+
+# 6319bc990dcd4dca8a8d84f86ed2742e
+#: ../../source/use-cases/enterprise.rst:39
+msgid ""
+"`DevOps Intelligence with JupyterHub "
+"<https://nbviewer.jupyter.org/github/jhermann/jupyter-by-"
+"example/blob/master/complete-scenarios/devops-intelligence.ipynb>`_"
+msgstr ""
+
+# 9684506604dc48f8bf0349b784ab1317
+#: ../../source/use-cases/enterprise.rst:43
+msgid ""
+"We're actively working on this section of the documentation to improve it"
+" for you. If you've got a suggestion for a resource that would be "
+"helpful, please create an issue or a pull request!"
+msgstr ""
+
+# a2f2ed36e51e49eb8e0dafad92b083dd
+#: ../../source/use-cases/narrative-hub.rst:2
+msgid "JupyterHub Narratives"
+msgstr ""
+
+# 5fd29ccb39f546d3b5c56980d35d5443
+#: ../../source/use-cases/narrative-hub.rst:10
+msgid ""
+"JupyterHub Narratives explore deployment and scaling of the Jupyter "
+"Notebook for a group of users. JupyterHub allows flexibility in "
+"configuration and deployment which makes JupyterHub valuable to "
+"education, industry research teams, and service providers. In these "
+"Narratives, we will look at differences in deployment, deployment "
+"advantages, and best practices."
+msgstr ""
+
+# 6a00f5a8c10b4becba9ae2de4e09920d
+# d11d3f4bb4654347884f0e30aeff7efc
+# 93f4d0e4bb044d388ee7e9568d0351c6
+#: ../../source/use-cases/narrative-hub.rst:17
+#: ../../source/use-cases/narrative-notebook.rst:14
+#: ../../source/use-cases/narrative-other.rst:15
+msgid "Narrative examples"
+msgstr ""
+
+# 37667e2cc4db44b7840b61219286817c
+#: ../../source/use-cases/narrative-hub.rst:19
+msgid "A basic JupyterHub deployment"
+msgstr ""
+
+# 9efafc8059f74b20a96a0f2cf057b7ba
+#: ../../source/use-cases/narrative-hub.rst:20
+msgid ""
+"A `reference deployment of JupyterHub using Docker "
+"<https://github.com/jupyterhub/jupyterhub-deploy-docker>`_"
+msgstr ""
+
+# 83e972a4838b45b985c3795f51d91325
+#: ../../source/use-cases/narrative-hub.rst:21
+msgid ""
+"Teaching a Course with JupyterHub and nbgrader using a `reference "
+"deployment on a single server and Ansible scripts "
+"<https://github.com/jupyterhub/jupyterhub-deploy-teaching>`_ to automate "
+"set up"
+msgstr ""
+
+# bc90954a01844a18aabe588e48560982
+#: ../../source/use-cases/narrative-hub.rst:24
+msgid "Teaching a Course with JupyterHub, nbgrader, and containers"
+msgstr ""
+
+# a63a5a9c78b541d39c2ca4a324bfa928
+#: ../../source/use-cases/narrative-hub.rst:25
+msgid "JupyterHub deployments using Containers including Docker"
+msgstr ""
+
+# 1eaed5aeb1c44f48907382a9aa29974f
+#: ../../source/use-cases/narrative-notebook.rst:2
+msgid "Notebook Narratives"
+msgstr ""
+
+# 97653c247b5542f3a630af8650f8bc2a
+#: ../../source/use-cases/narrative-notebook.rst:10
+msgid ""
+"The Notebook Narratives explore uses of the Jupyter Notebook in a variety"
+" of applications."
+msgstr ""
+
+# 5f19fbc7dd8449e4aa030e5c901b4333
+#: ../../source/use-cases/narrative-notebook.rst:16
+msgid "Using the Notebook for data exploration"
+msgstr ""
+
+# 83ddeff477bb456599fe4d3361ef91f2
+#: ../../source/use-cases/narrative-notebook.rst:17
+msgid "Using extensions and widgets"
+msgstr ""
+
+# aa06224177374fe7ab21442a4e3f0e72
+#: ../../source/use-cases/narrative-notebook.rst:18
+msgid "Using nbconvert for code execution and workflow simplification"
+msgstr ""
+
+# 53697b1c3430469484f08a5b162b5f5e
+#: ../../source/use-cases/narrative-notebook.rst:19
+msgid "Using nbconvert for publishing"
+msgstr ""
+
+# 9a1429ea23d141af91a1c12036e2d00e
+#: ../../source/use-cases/narrative-notebook.rst:20
+msgid "Using multiple language kernels"
+msgstr ""
+
+# 8ccaa5dcc48c4ce1af5b541d84bc5402
+#: ../../source/use-cases/narrative-other.rst:2
+msgid "Narratives - Building blocks"
+msgstr ""
+
+# fd119e2d9ecb43c4814df9aa194455f7
+#: ../../source/use-cases/narrative-other.rst:10
+msgid ""
+"This section presents some examples of integrating different projects "
+"together. These projects form the foundation of innovative services and "
+"provide building blocks for future applications."
+msgstr ""
+
+# f9eee5e4fc7445408ff13eaa508df0cf
+#: ../../source/use-cases/narrative-other.rst:17
+msgid "A Narrative about Creating Dashboards"
+msgstr ""
+
+# f4349de4a38643859d8c319858ea9a86
+#: ../../source/use-cases/narrative-other.rst:18
+msgid "A Narrative about Thebe"
+msgstr ""
+
+# 7f4210300d32495db6891fdfb61bce00
+#: ../../source/use-cases/narrative-other.rst:19
+msgid "A Narrative about Hydrogen"
+msgstr ""
+
+# fe891df6078e4c7995cb79e020549cda
+#: ../../source/use-cases/science.rst:2
+msgid "Jupyter and Scientific Computing"
+msgstr ""
+
