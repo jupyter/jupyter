@@ -77,7 +77,7 @@ What is a Jovyan?
 -----------------
 
 You may see the word **Jovyan** used in Jupyter tools (such as the user ID in the
-`Jupyter Docker stacks <https://github.com/jupyter/docker-stacks?`_ or referenced in
+`Jupyter Docker stacks <https://github.com/jupyter/docker-stacks?>`_ or referenced in
 conversations. But what is a Jovyan?
 
 In astronomical terms, the word "Jovian" means "like Jupiter". It describes
