@@ -1,0 +1,562 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 8f5cd3c486474d4b8a13ff41c24e3e75
+#: ../../source/migrating.rst:5
+msgid "Migrating from IPython Notebook"
+msgstr ""
+
+# a0bf9b469b3d41b486c705edbe1a32d3
+#: ../../source/migrating.rst:8
+msgid "Contents"
+msgstr ""
+
+# 661d74638f8e402c8844e1dae8178361
+#: ../../source/migrating.rst:11
+msgid "Abstract"
+msgstr ""
+
+# 7b16ca89f25647868cf204d88a1e4d29
+#: ../../source/migrating.rst:13
+msgid ""
+"`The Big Split <https://blog.jupyter.org/the-big-split-9d7b88a031a7>`__ "
+"moved IPython's various language-agnostic components under the Jupyter "
+"umbrella. Going forward, Jupyter will contain the language-agnostic "
+"projects that serve many languages. IPython will continue to focus on "
+"Python and its use with Jupyter."
+msgstr ""
+
+# 06bf34e702fa456e9ce4f7b616eb546e
+#: ../../source/migrating.rst:19
+msgid ""
+"This document describes what has changed, and how you may need to modify "
+"your code or configuration when migrating from IPython version 3 to "
+"Jupyter."
+msgstr ""
+
+# 3b23232adf694c6cb4998078211d9109
+#: ../../source/migrating.rst:24
+msgid "Understanding the Migration Process"
+msgstr ""
+
+# aa9fcadf57d549aa8a6d3f4126d60ca4
+#: ../../source/migrating.rst:27
+msgid "Automatic migration of files"
+msgstr ""
+
+# f5ec35e6c2494acbac3e543734ba12f2
+#: ../../source/migrating.rst:29
+msgid ""
+"The first time you run any ``jupyter`` command, it will perform an "
+"automatic migration of files. The automatic migration process **copies** "
+"files, instead of moving files, leaving the originals in place and the "
+"copies in the Jupyter file locations. You can re-run the migration, if "
+"needed, by calling ``jupyter migrate``. Your custom configuration will be"
+" migrated automatically and should work with Jupyter without further "
+"editing. When you update or modify your configuration in the future, "
+"please keep in mind that the file locations may have changed."
+msgstr ""
+
+# 2284d903d20c49b7acf289fede63d7e7
+#: ../../source/migrating.rst:39
+msgid "Where have my configuration files gone?"
+msgstr ""
+
+# 14350789ee634cb3a07a1f7564d87294
+#: ../../source/migrating.rst:41
+msgid "Also known as: \"Why isn't my configuration having any effect anymore?\""
+msgstr ""
+
+# 07d5f3408f704edfb54df3fd57924e6e
+#: ../../source/migrating.rst:43
+msgid ""
+"Jupyter splitting out from IPython means that the locations of some files"
+" have moved, and Jupyter projects have not inherited everything from how "
+"IPython did it."
+msgstr ""
+
+# cec706b3328f4024bf9b8cac2bd78686
+#: ../../source/migrating.rst:47
+msgid ""
+"When you start your first Jupyter application, the relevant configuration"
+" files are automatically copied to their new Jupyter locations. The "
+"original configuration files in the IPython locations have no effect on "
+"Jupyter's execution. If you accidentally edit your original IPython "
+"config file, you may not see the desired effect with Jupyter now. You "
+"should check that you are editing Jupyter's configuration file, and you "
+"should see the expected effect after restarting the Jupyter server."
+msgstr ""
+
+# 35761bdec57845c5956afcbd2518fcb2
+#: ../../source/migrating.rst:56
+msgid "Finding the Location of Important Files"
+msgstr ""
+
+# 0e91703834714ff8a450c3e1f4e19183
+#: ../../source/migrating.rst:58
+msgid ""
+"This section provides quick reference for common locations of IPython 3 "
+"files and the migrated Jupyter files."
+msgstr ""
+
+# b3066e3c9a824483918e9feabfddd439
+#: ../../source/migrating.rst:62
+msgid "Configuration files"
+msgstr ""
+
+# d1be8dd7d028443bab89581071668b40
+#: ../../source/migrating.rst:64
+msgid ""
+"Configuration files customize Jupyter to the user's preferences. The "
+"migrated files should all be **automatically copied** to their new "
+"Jupyter locations. Here are the location changes:"
+msgstr ""
+
+# e5dc4b2fb1b2448a9fa739dddd5fdfdc
+#: ../../source/migrating.rst:69
+msgid "IPython location"
+msgstr ""
+
+# 716d92fb1fa94db28397bdfddd9c29f0
+#: ../../source/migrating.rst:69
+msgid "Jupyter location"
+msgstr ""
+
+# 9678737a7e6342c7bb833a2c8242b625
+#: ../../source/migrating.rst:71
+msgid ":file:`~/.ipython/profile_default/static/custom`"
+msgstr ""
+
+# 1008e78186164ff2adcc4c0a92dae223
+# 72fe30c2d0404ee59bde125a2de1e38f
+# d91efb208eae4ad7b4965599aa9fb65e
+# a7a49c506f0e42f19e6f5d03cdbc5096
+# af9332d2f5a34982a36a9bb2cdcd0473
+# e8415a6ea7a14ab9bdc8dd7fbab6d67d
+# 9e046db52de3436fa30a19e5d1d9b045
+# e853fee326ff469da5a56f61d7a961a8
+# 56b6aa8cb49b41c19612910e3afb2563
+# c1d9598dce504f2380373045dfdc7625
+# 128040d623434edb9bbeda55c9507f00
+# 1fe82a47a7eb4b06a73d941d6d5ee283
+#: ../../source/migrating.rst:71 ../../source/migrating.rst:72
+#: ../../source/migrating.rst:73 ../../source/migrating.rst:74
+#: ../../source/migrating.rst:75 ../../source/migrating.rst:241
+#: ../../source/migrating.rst:242 ../../source/migrating.rst:243
+#: ../../source/migrating.rst:244 ../../source/migrating.rst:245
+#: ../../source/migrating.rst:246 ../../source/migrating.rst:247
+msgid "→"
+msgstr ""
+
+# 3305847c2b3c4dd597ec3b649ca0feb4
+#: ../../source/migrating.rst:71
+msgid ":file:`~/.jupyter/custom`"
+msgstr ""
+
+# 8a5dbaf9bbb24302b7f8c44d5c70d748
+#: ../../source/migrating.rst:72
+msgid ":file:`~/.ipython/profile_default/ipython_notebook_config.py`"
+msgstr ""
+
+# 44d5bf8302184c91ab5ea2642ff4b0af
+#: ../../source/migrating.rst:72
+msgid ":file:`~/.jupyter/jupyter_notebook_config.py`"
+msgstr ""
+
+# f17f8f9f52884c2bbc2fce452120161a
+#: ../../source/migrating.rst:73
+msgid ":file:`~/.ipython/profile_default/ipython_nbconvert_config.py`"
+msgstr ""
+
+# 6e8948fba80a4d329cf88b88e14f34a3
+#: ../../source/migrating.rst:73
+msgid ":file:`~/.jupyter/jupyter_nbconvert_config.py`"
+msgstr ""
+
+# 3e89a17fc5b24bdb8db5e054e654b496
+#: ../../source/migrating.rst:74
+msgid ":file:`~/.ipython/profile_default/ipython_qtconsole_config.py`"
+msgstr ""
+
+# 272ac1f228084a03ac2d2114a6412072
+#: ../../source/migrating.rst:74
+msgid ":file:`~/.jupyter/jupyter_qtconsole_config.py`"
+msgstr ""
+
+# 2e3a6302c7924ba29ba73e7c4a68be2f
+#: ../../source/migrating.rst:75
+msgid ":file:`~/.ipython/profile_default/ipython_console_config.py`"
+msgstr ""
+
+# 2ecee964e7b24a10bef99b7524da7344
+#: ../../source/migrating.rst:75
+msgid ":file:`~/.jupyter/jupyter_console_config.py`"
+msgstr ""
+
+# 4d628b8f2fd64ed883e979d8ba54112c
+#: ../../source/migrating.rst:78
+msgid ""
+"To choose a directory location other than the default :file:`~/.jupyter`,"
+" set the ``JUPYTER_CONFIG_DIR`` environment variable. You may need to run"
+" ``jupyter migrate`` after setting the environment variable for files to "
+"be copied to the desired directory."
+msgstr ""
+
+# 6441364aeb0d4174b78105a74f688c16
+#: ../../source/migrating.rst:84
+msgid "Data files: kernelspecs and notebook extensions"
+msgstr ""
+
+# e2924a8235fd431b9f9fd56ae0f39d23
+#: ../../source/migrating.rst:86
+msgid ""
+"Data files include files, other than configuration files, which are user "
+"installed. Examples include kernelspecs and notebook extensions. Like the"
+" configuration files, data files are also **automatically migrated** to "
+"their new Jupyter locations."
+msgstr ""
+
+# ec6e2b0e388b4bafbefdc42d92b69ab1
+#: ../../source/migrating.rst:91
+msgid "In **IPython 3**, data files lived in ``~/.ipython``."
+msgstr ""
+
+# db9667c61df04f03b389007dde80592b
+#: ../../source/migrating.rst:93
+msgid "In **Jupyter**, data files use platform-appropriate locations:"
+msgstr ""
+
+# 6ec16f9359924bcaad831b990915ac81
+#: ../../source/migrating.rst:95
+msgid "OS X: ``~/Library/Jupyter``"
+msgstr ""
+
+# 06b69be6aab34415a18b114a688ef046
+#: ../../source/migrating.rst:96
+msgid "Windows: the location specified in ``%APPDATA%`` environment variable"
+msgstr ""
+
+# b8aa64d12c084a09a9caf7f0997b9694
+#: ../../source/migrating.rst:97
+msgid ""
+"Elsewhere, ``$XDG_DATA_HOME`` is respected, with the default of "
+"``~/.local/share/jupyter``"
+msgstr ""
+
+# bcf6cf06fa7849d5adb27a36bb68475a
+#: ../../source/migrating.rst:100
+msgid ""
+"In all cases, the ``JUPYTER_DATA_DIR`` environment variable can be used "
+"to set a location explicitly."
+msgstr ""
+
+# 5ff8200b58f0422aab90ae5013d1bc60
+#: ../../source/migrating.rst:103
+msgid ""
+"Data files installed system-wide (e.g. in ``/usr/local/share/jupyter``) "
+"have not changed. Per-user installation of data files has changed "
+"location from ``.ipython`` to the platform-appropriate Jupyter location."
+msgstr ""
+
+# 8fc50bfd17e74c08aaee715d4df0aa28
+#: ../../source/migrating.rst:108
+msgid "Since Jupyter does not have profiles, how do I customize it?"
+msgstr ""
+
+# f21e1f21ab634dfeae67d57a810af7e8
+#: ../../source/migrating.rst:110
+msgid ""
+"While IPython has the concept of :term:`profiles`, **Jupyter does not "
+"have profiles**."
+msgstr ""
+
+# fbab5d83e70641b58ba8d8c25a1b5505
+#: ../../source/migrating.rst:113
+msgid ""
+"In IPython, profiles are collections of configuration and runtime files. "
+"Inside the IPython directory (``~/.ipython``), there are directories with"
+" names like ``profile_default`` or ``profile_demo``. In each of these are"
+" configuration files (``ipython_config.py``, "
+"``ipython_notebook_config.py``) and runtime files (``history.sqlite``, "
+"``security/kernel-*.json``). Profiles could be used to switch between "
+"configurations of IPython."
+msgstr ""
+
+# df3baa2e23de4665a1ba0a95d9bd1d53
+#: ../../source/migrating.rst:120
+msgid ""
+"Previously, people could use commands like ``ipython notebook --profile "
+"demo`` to set the profile for *both* the notebook server and the IPython "
+"kernel. This is no longer possible in one go with Jupyter, just like it "
+"wasn't possible in IPython 3 for any other kernels."
+msgstr ""
+
+# 900e8e17d08548eabeaa79549d4aa98b
+#: ../../source/migrating.rst:126
+msgid "Changing the Jupyter notebook configuration directory"
+msgstr ""
+
+# 6e7aba03567842fdb5bcd279d8cf35dd
+#: ../../source/migrating.rst:128
+msgid ""
+"If you want to change the notebook configuration, you can set the "
+"``JUPYTER_CONFIG_DIR``:"
+msgstr ""
+
+# b29b24c9af764ad4a280ddc011a49965
+#: ../../source/migrating.rst:137
+msgid "Changing the Jupyter notebook configuration file"
+msgstr ""
+
+# a7614ee085ba47d488cafe7699656792
+#: ../../source/migrating.rst:139
+msgid "If you just want to change the config file, you can do:"
+msgstr ""
+
+# a6aac6dd2d4943659e18520f5d392cf9
+#: ../../source/migrating.rst:146
+msgid "Changing IPython's profile using custom kernelspecs"
+msgstr ""
+
+# 9563bde765c14e3690a51f73d7c92cf7
+#: ../../source/migrating.rst:148
+msgid ""
+"If you do want to change the IPython kernel's profile, you can't do this "
+"at the server command-line anymore. Kernel arguments must be changed by "
+"modifying the kernelspec. You can do this without relaunching the server."
+" Kernelspec changes take effect every time you start a new kernel. "
+"However, there isn't a great way to modify the kernelspecs. One approach "
+"uses ``jupyter kernelspec list`` to find the ``kernel.json`` file and "
+"then modifies it, e.g. ``kernels/python3/kernel.json``, by hand. "
+"Alternatively, `a2km <https://github.com/minrk/a2km>`__ is an "
+"experimental project that tries to make these things easier."
+msgstr ""
+
+# 45d3b19664bd49fea20a62ec0e77c3ad
+#: ../../source/migrating.rst:158
+msgid ""
+"For example, add the ``--profile`` option to a custom kernelspec under "
+"``kernels/mycustom/kernel.json`` (see the Jupyter kernelspec directions "
+"`here <https://jupyter-client.readthedocs.io/en/latest/kernels.html"
+"#kernel-specs>`__):"
+msgstr ""
+
+# 2a98d819b7e04e5bbfc60ef439b635e2
+#: ../../source/migrating.rst:172
+msgid ""
+"You can then run Jupyter with the ``--kernel=mycustom`` command-line "
+"option and IPython will find the appropriate profile."
+msgstr ""
+
+# df14211cf90e4c57a5fa18626c872c72
+#: ../../source/migrating.rst:176
+msgid "Understanding Installation Changes"
+msgstr ""
+
+# b8d826a3ba3345abbedf16171c095d5c
+#: ../../source/migrating.rst:178
+msgid ""
+"See the :ref:`install` page for more information about installing "
+"Jupyter. Jupyter automatically migrates some things, like Notebook "
+"extensions and kernels."
+msgstr ""
+
+# fa33a2f4f8f94829a7c473d7071b0f43
+#: ../../source/migrating.rst:183
+msgid "Notebook extensions"
+msgstr ""
+
+# 51d5f0d804f442a9a97c7655e580e79b
+#: ../../source/migrating.rst:185
+msgid ""
+"Any IPython notebook extensions should be **automatically migrated** as "
+"part of the data files migration."
+msgstr ""
+
+# 5fd92d1027fb4b85ae426a42c82fe947
+#: ../../source/migrating.rst:188
+msgid "Notebook extensions were installed with:"
+msgstr ""
+
+# 91ab0eeefe084c70a44650fbd51644b7
+#: ../../source/migrating.rst:194
+msgid "Now, extensions are installed with:"
+msgstr ""
+
+# 5b197ef97efc43b5bbd741f814a6ee64
+#: ../../source/migrating.rst:200
+msgid ""
+"The notebook extensions will be installed in a system-wide location (e.g."
+" ``/usr/local/share/jupyter/nbextensions``). If doing a ``--user`` "
+"install, the notebook extensions will go in the ``JUPYTER_DATA_DIR`` "
+"location. Installation **SHOULD NOT** be done manually by guessing where "
+"the files should go."
+msgstr ""
+
+# 8f205aaaf5ee46de8e9d0522c240dc83
+#: ../../source/migrating.rst:207
+msgid "Kernels"
+msgstr ""
+
+# 6835584aca814c54909e4f5519afbf77
+#: ../../source/migrating.rst:209
+msgid ""
+"Kernels are installed in much the same way as notebook extensions. They "
+"will also be **automatically migrated**."
+msgstr ""
+
+# 221543b8255b44c6a970364430b396b9
+#: ../../source/migrating.rst:212
+msgid "Kernel specs used to be installed with:"
+msgstr ""
+
+# 7c691c23e0594313a3eade3815aa8c3f
+#: ../../source/migrating.rst:218
+msgid "They are now installed with:"
+msgstr ""
+
+# 7300ff40baec4daa85964d98a508f28c
+#: ../../source/migrating.rst:224
+msgid ""
+"By default, kernel specs will go in a system-wide location (e.g. "
+"``/usr/local/share/jupyter/kernels``). If doing a ``--user`` install, the"
+" kernel specs will go in the ``JUPYTER_DATA_DIR`` location. Installation "
+"**SHOULD NOT** be done manually by guessing where the files should go."
+msgstr ""
+
+# 7347a7230ab645599d5be543b3b019d0
+#: ../../source/migrating.rst:230
+msgid "Understanding Changes in imports"
+msgstr ""
+
+# e84b04296df74f698d561ee40d3355cc
+#: ../../source/migrating.rst:232
+msgid ""
+"IPython 4.0 includes shims to manage dependencies; so, all imports that "
+"work on IPython 3 should continue to work on IPython 4. If you find any "
+"differences, please `let us know "
+"<https://github.com/ipython/ipython/issues>`__."
+msgstr ""
+
+# 56813b80163249d3b2a3e603b904015d
+#: ../../source/migrating.rst:236
+msgid "Some changes include:"
+msgstr ""
+
+# 4f027d18d7bd44c7a354068d322e7b32
+#: ../../source/migrating.rst:239
+msgid "IPython 3"
+msgstr ""
+
+# 126977d37c5a49c09790822aabadb9fe
+#: ../../source/migrating.rst:239
+msgid "Jupyter and IPython 4.0"
+msgstr ""
+
+# 4243295b32bd48229e2f24ac3feb22c2
+#: ../../source/migrating.rst:241
+msgid "``IPython.html``"
+msgstr ""
+
+# 07dcd5f404274ab0b1593a89a10eda12
+#: ../../source/migrating.rst:241
+msgid "``notebook``"
+msgstr ""
+
+# eb1f964c367445f19d1aebc8b52fa46a
+#: ../../source/migrating.rst:242
+msgid "``IPython.html.widgets``"
+msgstr ""
+
+# 75653597f60c4e2facecc6342d4ee141
+#: ../../source/migrating.rst:242
+msgid "``ipywidgets``"
+msgstr ""
+
+# 2e80aada7b9b4fbfbd8bc21f683b5a33
+#: ../../source/migrating.rst:243
+msgid "``IPython.kernel``"
+msgstr ""
+
+# ee6c0d3100a0430887bc2ec59c836066
+#: ../../source/migrating.rst:243
+msgid "``jupyter_client``, ``ipykernel``"
+msgstr ""
+
+# 6ef0dd165dd9439b869e08965c69222a
+#: ../../source/migrating.rst:244
+msgid "``IPython.parallel``"
+msgstr ""
+
+# 282f79d57dc84378a575ad9037ceda9f
+#: ../../source/migrating.rst:244
+msgid "``ipyparallel``"
+msgstr ""
+
+# 0d2d805e0ebc4d1ca6e714416e5ba544
+#: ../../source/migrating.rst:245
+msgid "``IPython.qt.console``"
+msgstr ""
+
+# 3d9ae3c27ca949228f137c7099ff4dac
+#: ../../source/migrating.rst:245
+msgid "``qtconsole``"
+msgstr ""
+
+# d7fbddb811bc4e4ba54deb111b3f0a87
+#: ../../source/migrating.rst:246
+msgid "``IPython.utils.traitlets``"
+msgstr ""
+
+# e051da2ba487485eb14be36b1cbc0c02
+#: ../../source/migrating.rst:246
+msgid "``traitlets``"
+msgstr ""
+
+# 417499484a6241a5ba01fa609cf782f2
+#: ../../source/migrating.rst:247
+msgid "``IPython.config``"
+msgstr ""
+
+# 5686f8ec952f403bb20dad55c84bd2e7
+#: ../../source/migrating.rst:247
+msgid "``traitlets.config``"
+msgstr ""
+
+# 1069489e11e54f5683906ef69dd939f4
+#: ../../source/migrating.rst:252
+msgid "The ``IPython.kernel`` Split"
+msgstr ""
+
+# b3e32d27b5ec43d8b46b37ab774c3713
+#: ../../source/migrating.rst:254
+msgid "``IPython.kernel`` became two packages:"
+msgstr ""
+
+# 37e65f7a48a049849c032d103355c88c
+#: ../../source/migrating.rst:256
+msgid "``jupyter_client`` for the Jupyter client-side APIs."
+msgstr ""
+
+# daef865437274272bfbf0f835bab4a68
+#: ../../source/migrating.rst:257
+msgid "``ipykernel`` for Jupyter's IPython kernel"
+msgstr ""
+

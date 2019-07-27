@@ -1,0 +1,123 @@
+[main-po--master]
+host = https://www.transifex.com
+
+[jupyter-meta-documentation.contrib_docs-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/contrib_docs.po
+source_file = source/locale/en/LC_MESSAGES/contrib_docs.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.releases-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/releases.po
+source_file = source/locale/en/LC_MESSAGES/releases.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.ipython-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/ipython.po
+source_file = source/locale/en/LC_MESSAGES/ipython.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.community-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/community.po
+source_file = source/locale/en/LC_MESSAGES/community.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.install-kernel-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/install-kernel.po
+source_file = source/locale/en/LC_MESSAGES/install-kernel.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.developer-docs-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/developer-docs.po
+source_file = source/locale/en/LC_MESSAGES/developer-docs.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.contributor-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/contributor.po
+source_file = source/locale/en/LC_MESSAGES/contributor.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.architecture-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/architecture.po
+source_file = source/locale/en/LC_MESSAGES/architecture.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.reference-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/reference.po
+source_file = source/locale/en/LC_MESSAGES/reference.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.install-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/install.po
+source_file = source/locale/en/LC_MESSAGES/install.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.projects-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/projects.po
+source_file = source/locale/en/LC_MESSAGES/projects.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.running-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/running.po
+source_file = source/locale/en/LC_MESSAGES/running.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.glossary-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/glossary.po
+source_file = source/locale/en/LC_MESSAGES/glossary.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.sphinx-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/sphinx.po
+source_file = source/locale/en/LC_MESSAGES/sphinx.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.content-quickstart-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/content-quickstart.po
+source_file = source/locale/en/LC_MESSAGES/content-quickstart.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.contents-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/contents.po
+source_file = source/locale/en/LC_MESSAGES/contents.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.tryjupyter-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/tryjupyter.po
+source_file = source/locale/en/LC_MESSAGES/tryjupyter.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.use-cases-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/use-cases.po
+source_file = source/locale/en/LC_MESSAGES/use-cases.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.development_guide-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/development_guide.po
+source_file = source/locale/en/LC_MESSAGES/development_guide.po
+source_lang = en
+type = PO
+
+[jupyter-meta-documentation.migrating-po--master]
+file_filter = source/locale/<lang>/LC_MESSAGES/migrating.po
+source_file = source/locale/en/LC_MESSAGES/migrating.po
+source_lang = en
+type = PO
+
