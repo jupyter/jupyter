@@ -1,12 +1,40 @@
+dist: xenial
 language: python
 sudo: false
 python:
-    - 3.5
-    - 3.4
-install:
-    - pip install --upgrade pip
-    - pip install --upgrade sphinx
-    - pip install jupyter_sphinx_theme
-    - pip install recommonmark
-script:
-    - cd docs && make html
+  - 3.7
+
+jobs:
+  include:
+    - stage: build-html
+      install:
+        - pip install --upgrade pip sphinx
+        - pip install jupyter_sphinx_theme recommonmark sphinx-intl
+      script:
+        - make -C docs html
+    - stage: build-en-po
+      script:
+        - make -C docs gettext
+        - cd docs && sphinx-intl update -p build/locale -l en
+    - stage: push-en-po
+      script:
+        - git config --global user.email "travis@travis-ci.org"
+        - git config --global user.name "Travis CI"
+        # Stage any changes to the english source files
+        - git add -A docs/source/locale/en
+        # Commit the english templates, exiting early if there are no changes
+        - git commit -m "[ci skip] Update en source strings (build: $TRAVIS_JOB_NUMBER)" ||
+        travis_terminate 0;
+        # Push the commit to master for Transifex to notice and update its strings for translation
+        - git remote add origin-tx https://$${GH_TOKEN}@github.com/jupyter/jupyter.git
+        - git push -u origin-tx master
+
+stages:
+  - name: build-html
+  - name: build-en-po
+  - name: push-en-po
+    if: type = push AND branch = master
+
+env:
+  global:
+    secure: "xWn2cnWWNgtQEm9MXAIQerigtwkZxMDQYQnlbALvHywy63MVsWwvDSi9AnPm9ty+TuNxu8bWXGP99KNjSgPEkvb5wA/uCGmmD1l6eA8CdxWZeRVEQ88NNQMXvAwxmUEGub0OSBaLC37WHXWrM1BzPV9jXQGS5HKC1icu9en/ScorOnw7Waz1wfVpjZRPLbp/8+M5jadpp6VZfCp4rsAdb6wuBy0JKA383azPE8e87WBqDWCS3zR2esZqwJKkOpkMsTcIs+n6naJXFl9rmM5o+l4vEQ0aUpAzzdE2ZrX9HfwCuOAFGJmlYmdmCbNFty3Dh6vkdtZvp2ptysda6Tb2FFc1+5kWhzfrQoHBhkXQW9557YGjwmIohjCy7pmTxtucnd9JgqOUNH1dnvQ8Z4RMOTcIc1loKe80I903Yw4aFkj36gMWtMfqUghpEn1ZYbtl5k/ZWwTnRKyyg8bkFPU7EyXn+u97ItPMdIpRybXUa2qKWGohXoziDur/7ecJOiCI1ynJlUT8sJRa8fhpRd0/iTC28zECU3wa+G1nx4XcOowNX9tJAV4EpaL/DFNLXlxXfs1JX0Ccn0YTaljo/suOnINzBl1Dn87QDdYlvijFwmRrXWS363wjzp0K9OqqSWkfEAEuSBI6d4Ywc64Ob4+pRoBJIW3sT2LHNvP0yUQL39Y="
