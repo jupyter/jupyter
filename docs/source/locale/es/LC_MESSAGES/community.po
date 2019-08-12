@@ -3,44 +3,49 @@
 # This file is distributed under the same license as the Jupyter
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# 
+# Translators:
+# Franco Camporeale <camporeale@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-04 19:51-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-07-27 11:58+0000\n"
+"Last-Translator: Franco Camporeale <camporeale@gmail.com>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/project-jupyter/teams/100899/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # 70d1cfa46ec24e65819ddd4624a9ca6e
 #: ../../source/community/community-call-notes/2019-april.md:1
 msgid "All-Jupyter Community Video Call - April 2019"
-msgstr ""
+msgstr "Video Conferencia de la Comunidad All-Jupyter - Abril 2019"
 
 # 2f49975ac531463b8c6e2c761c400dc1
 #: ../../source/community/community-call-notes/2019-april.md:3
 msgid "Date: 30 April 2019 at 9am PST (your timezome)"
-msgstr ""
+msgstr "Fecha: 30 de Abril 2019, 9am PST "
 
 # 3ff834bb5e6f4062bd88ace0a2863bdd
 # 4037dac263a44247abfb27d9873dd712
 #: ../../source/community/community-call-notes/2019-april.md:5
 #: ../../source/community/community-call-notes/2019-march.md:5
 msgid "Video-conference link: https://calpoly.zoom.us/my/jupyter"
-msgstr ""
+msgstr "Enlace video conferencia: https://calpoly.zoom.us/my/jupyter"
 
 # 683dfa91bfde466eb4283e7adb0dd4d3
 # c7caa4e78e38454cb84d44620583084b
 #: ../../source/community/community-call-notes/2019-april.md:8
 #: ../../source/community/community-call-notes/2019-march.md:9
 msgid "Welcome to the Team Meeting"
-msgstr ""
+msgstr "Bienvenidos a la Reunión de Equipo"
 
 # 04d5ac5c03974dc3ad3024b473dd04b9
 # f796eb5b94c1489a9a5078a95e84a502
@@ -49,7 +54,7 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:11
 #: ../../source/community/community-call-notes/2019-may.md:12
 msgid "Hello!"
-msgstr ""
+msgstr "Hola!"
 
 # 5f85661b1cfe4ac3973039ac4ba67b95
 # 4583925b76234b589f464156251e5ec0
@@ -62,10 +67,16 @@ msgid ""
 "demonstrate the awesome things happening in Jupyter community. We invite "
 "anyone to present their work, engage in discussion, or just sit in and "
 "listen. Whether you have a new lab extension you've created, a new "
-"jupyterhub deployment you're excited about, or an nteract papermill "
-"pipeline powering your business, we'd love to hear about it! And, we'll  "
-"record and publish these calls on YouTube for anyone unable to attend."
+"jupyterhub deployment you're excited about, or an nteract papermill pipeline"
+" powering your business, we'd love to hear about it! And, we'll  record and "
+"publish these calls on YouTube for anyone unable to attend."
 msgstr ""
+"El propósito de estas video conferencias mensuales es compartir y demostrar "
+"las cosas asombrosas que suceden en la comunidad Jupyter. Invitamos a todos "
+"a presentar su trabajo, participar en las discusiones, o sencillamente "
+"escuchar. Ya sea que tengas una nueva extensión de jupyterlab que hayas "
+"creado, un despliegue de jupyterhub que te haya emocionado, o un pipeline de"
+" nteract papermill potenciando tu negocio, ¡nos encantaría escucharte!"
 
 # eb8b2b49c8344b9c9f86af3e3bdd709d
 # 9bd556f607d047e8a63acd17380c885c
@@ -75,6 +86,7 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-may.md:36
 msgid "For more discussion on the format of these calls, see the thread here."
 msgstr ""
+"Para mayor discusión en el formato de estas llamadas, lee el hilo aquí."
 
 # 9b8670fc875040e7a301c3fa32fbc0cb
 # ee073abf726949b3b7548766058b87f9
@@ -83,7 +95,7 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:17
 #: ../../source/community/community-call-notes/2019-may.md:38
 msgid "Short reports, celebrations, shout-outs"
-msgstr ""
+msgstr "Reportes breves, celebraciones, agradecimientos."
 
 # b45b39d83ba8498b9e6e6201e0a0e1a3
 # 4d646269262148788ea6a42810d3598f
@@ -92,10 +104,13 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:19
 #: ../../source/community/community-call-notes/2019-may.md:40
 msgid ""
-"This is a place to make short announcements (without a need for "
-"discussion). This is also a great place to give shout-outs to "
-"contributors! We’ll read through these at the beginning of the meeting."
+"This is a place to make short announcements (without a need for discussion)."
+" This is also a great place to give shout-outs to contributors! We’ll read "
+"through these at the beginning of the meeting."
 msgstr ""
+"Este es un lugar para hacer anuncios breves (sin la necesidad de una "
+"discusión). ¡También es un gran lugar para dar agradecimientos a nuestros "
+"contribuidores! Leeremos estos mensajes al principio de la reunión."
 
 # 86e3c39710ba4d4687e570352ded4fa0
 # 9865f0ad138d4fe4a990ef00b514b730
@@ -104,7 +119,7 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:30
 #: ../../source/community/community-call-notes/2019-may.md:48
 msgid "Agenda Items"
-msgstr ""
+msgstr "Ítems de la agenda"
 
 # 53ec054add254945959fe787b4987fbb
 # 5797de76ce064ac98b3d80b2df943b4e
@@ -115,154 +130,182 @@ msgid ""
 "latest. We will reorganize the agenda so that it fits in the 60m meeting "
 "slot."
 msgstr ""
+"Agrega tu item potencial a la agenda aquí, 24 horas antes de la reunión a "
+"más tardar. Reorganizaremos la agenda para que entre en en el espacio de 60 "
+"minutos"
 
 # bbf4c673748c458fbf4ee88129b415ab
 #: ../../source/community/community-call-notes/2019-april.md:82
 msgid "University of Edinburgh materials and contact:"
-msgstr ""
+msgstr "Materiales y contacto de la Universidad de Edinburgo:"
 
 # 83efbe0c91e740faa2548c87d0be912a
 # d1ad78f64d1e48d090bbcc353cade2c6
 #: ../../source/community/community-call-notes/2019-april.md:90
 #: ../../source/community/community-call-notes/2019-march.md:85
 msgid "In Attendance"
-msgstr ""
+msgstr "Asisten"
 
 # 42562fcb34704715bff217a5180cd439
 #: ../../source/community/community-call-notes/2019-april.md:92
 msgid "Name / Institution / Github Handle"
-msgstr ""
+msgstr "Nombre / Institución / Cuenta de Github"
 
 # 286362fe622748019eea29d3a4524bfa
 #: ../../source/community/community-call-notes/2019-march.md:1
 msgid "All-Jupyter Community Video Call - March 2019"
-msgstr ""
+msgstr "Video Conferencia de la Comunidad All-Jupyter  - Marzo 2019"
 
 # d3ccd0d36a8d4ff9bf551dec59aa23bf
 #: ../../source/community/community-call-notes/2019-march.md:3
 msgid "Date: 26 March 2019 at 9am PST (your timezome)"
-msgstr ""
+msgstr "Fecha: 26 de Marzo 2019, 9am PST"
 
 # 2bae86b710b0411fa1380daeefcb57c4
 #: ../../source/community/community-call-notes/2019-march.md:7
 msgid "Link to prior meeting's virtual meeting report"
-msgstr ""
+msgstr "Enlance al reporte de la última reunión virtual"
 
 # 9a919edea46042fda80ad5719ba42c25
 #: ../../source/community/community-call-notes/2019-march.md:83
 msgid "Don't get limitted to technical discusions !"
-msgstr ""
+msgstr "¡No se limiten a discusiones técnicas!"
 
 # 6a1d536f3f6c46b2b79fcdecd6491c4c
 #: ../../source/community/community-call-notes/2019-march.md:87
 msgid "Name              | Institution             | Github Handle"
-msgstr ""
+msgstr "Nombre | Institución | Cuenta de Github"
 
 # 67d530ac592947f79ea603b5ff446c15
 # b17fcf6338a54b82a41b9406cba398cb
 #: ../../source/community/community-call-notes/2019-may.md:1
 #: ../../source/community/community-call-notes/index.rst:5
 msgid "Jupyter Community Call"
-msgstr ""
+msgstr "Video Conferencia de la Comunidad Jupyter"
 
 # 158d1e8d768f4477b23a3b164ca9655b
 #: ../../source/community/community-call-notes/2019-may.md:3
 msgid "May 28th, 2019"
-msgstr ""
+msgstr "Mayo 28, 2019"
 
 # 12428c2c96ec4c04aefe1b9d747f88d9
 #: ../../source/community/community-call-notes/2019-may.md:5
 msgid "Date: 28 May 2019 at 9am PST (your timezome)"
-msgstr ""
+msgstr "Fecha: 28 de Mayo 2019, 9am PST"
 
 # 79384d54cd5e4953a63c65329e467e2c
 #: ../../source/community/community-call-notes/2019-may.md:7
 msgid "Link: Youtube Video"
-msgstr ""
+msgstr "Enlace: Video de Youtube"
 
 # 34838ee2bdd046babf35699d0a2b17d3
 #: ../../source/community/community-call-notes/2019-may.md:10
 msgid "Welcome to the All-Jupyter Community Meeting"
-msgstr ""
+msgstr "Bienvenidos a la Reunión de la Comunidad All-Jupyter"
 
 # 1ba7041adbf8498ebcaf7bfa6b1be2ed
 #: ../../source/community/community-call-notes/2019-may.md:14
 msgid ""
-"If you are joining the All-Jupyter Community video meeting, sign in below"
-" so we know who was here. Roll call:"
+"If you are joining the All-Jupyter Community video meeting, sign in below so"
+" we know who was here. Roll call:"
 msgstr ""
+"Si estás uniendote a la video conferencia de la Comunidad Jupyter, "
+"regístrate abajo así sabemos quién eres. Roll call:"
 
 # 087428f3c619458ab1215faa7725bfb7
 #: ../../source/community/community-call-notes/2019-may.md:32
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 # 2bdfad80e4bc4c62a0f6f6a24e0fd7f2
 #: ../../source/community/community-call-notes/index.rst:7
 msgid ""
 "The Jupyter Community Call is an open video call. Think of this as a "
-"\"monthly, virtual JupyterCon\". It's a place for *anyone* to announce "
-"and share fun things happening in the Jupyter community. Everyone is "
-"welcome (even if you're not presenting). We record these videos and post "
-"them on YouTube. For more information, `read this discourse thread "
+"\"monthly, virtual JupyterCon\". It's a place for *anyone* to announce and "
+"share fun things happening in the Jupyter community. Everyone is welcome "
+"(even if you're not presenting). We record these videos and post them on "
+"YouTube. For more information, `read this discourse thread "
 "<https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`__."
 msgstr ""
+"La Jupyter Community Call es una video conferencia abierta. Piensa en ella "
+"como la \"JupyterCon mensual y virtual\". Es un lugar para que *cualquiera* "
+"anuncie y comparta cosas divertidas que ocurren en la comunidad Jupyter. "
+"Todos son bienvenidos (aún si no estás presentando). Grabamos estos videos y"
+" los posteamos en YouTube. Para más información `lee este hilo de discourse "
+"<https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`__."
 
 # 1267e686bd0d4b039cedfdb4f29dd262
 #: ../../source/community/community-call-notes/index.rst:9
 msgid "**Previous Community Calls**"
-msgstr ""
+msgstr "** Community Calls previas **"
 
 # ba90bd9d9ad94b8c98e873ac5b4431e6
 #: ../../source/community/content-community.rst:5
 msgid "Community Guides"
-msgstr ""
+msgstr "Guías de la Comunidad"
 
 # d54af2f83db8471499576db794d43eb0
 #: ../../source/community/content-community.rst:8
 msgid ""
-"Welcome to the Community Guides for Jupyter. These guides are intended to"
-" provide information about the Jupyter community such as background, "
-"events, and communication channels. As our community is highly dynamic, "
-"information may change, and we will do our best to keep it up to date."
+"Welcome to the Community Guides for Jupyter. These guides are intended to "
+"provide information about the Jupyter community such as background, events, "
+"and communication channels. As our community is highly dynamic, information "
+"may change, and we will do our best to keep it up to date."
 msgstr ""
+"Bienvenido a las Guías de la Comunidad para Jupyter. Estas guías tienen la "
+"intención de proveer información acerca de la comunidad Jupyter, como los "
+"antencedentes, eventos y canales de comunicación. Como nuestra comunidad es "
+"muy dinámica, la información puede cambiar, y haremos lo mejor posible para "
+"mantenerla al día."
 
 # ddb34dc7214346588c43db31dd75a02c
 #: ../../source/community/content-community.rst:15
 msgid "Monthly Meetings"
-msgstr ""
+msgstr "Reuniones Mensuales"
 
 # 1619503c14774902b78d65ca9b79d141
 #: ../../source/community/content-community.rst:17
 msgid ""
-"The core developers of various Jupyter sub-projects have regular meetings"
-" to discuss and demo what they have been working on, discuss future "
-"plans, and bootstrap conversation. These meetings are public and you are "
-"welcome to join remotely."
+"The core developers of various Jupyter sub-projects have regular meetings to"
+" discuss and demo what they have been working on, discuss future plans, and "
+"bootstrap conversation. These meetings are public and you are welcome to "
+"join remotely."
 msgstr ""
+"Los desarrolladores core de varios subproyectos Jupyter tienen reuniones "
+"regulares para discutir y presentar en qué han estado trabajando, discutir "
+"planes futuros, e iniciar conversaciones. Estas reuniones son públicas y "
+"eres bienvenido a unirte remotamente."
 
 # f34a0721b4874356a8ac819e93fef795
 #: ../../source/community/content-community.rst:21
 msgid ""
-"Each team has their own processes around logistics and planning for the "
-"team meetings. The following pages should help you find the information "
-"for each."
+"Each team has their own processes around logistics and planning for the team"
+" meetings. The following pages should help you find the information for "
+"each."
 msgstr ""
+"Cada equipo tiene sus propios procesos acerca de la logística y el "
+"planeamiento de las reuniones de equipo. Las siguientes páginas deberían "
+"ayudarte a encontrar la información para cada una."
 
 # e191ff6ab041422b94c082b8194f1bb5
 #: ../../source/community/content-community.rst:24
 msgid ""
-"**All-Jupyter Community Calls** happen on the last Tuesday of every "
-"month, and are focused around demonstrations and sharing information "
-"across all of the Jupyter projects."
+"**All-Jupyter Community Calls** happen on the last Tuesday of every month, "
+"and are focused around demonstrations and sharing information across all of "
+"the Jupyter projects."
 msgstr ""
+"** All-Jupyter Community Calls **. Se realizan el último Martes de cada mes,"
+" y están enfocadas en realizar demostraciones y compartir información de "
+"todos los proyectos de Jupyter."
 
 # bab41d17142c4f01a84e8931031ef15b
 #: ../../source/community/content-community.rst:27
 msgid ""
-"Find information on `this Discourse thread "
-"<https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_."
+"Find information on `this Discourse thread <https://discourse.jupyter.org/t"
+"/all-jupyter-community-calls/668>`_."
 msgstr ""
+"Encuentra información en `este hilo de Discourse "
+"<https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_."
 
 # b14012ac8c7d4f7d9b1fa40ad998d8a5
 #: ../../source/community/content-community.rst:28
@@ -270,28 +313,38 @@ msgid ""
 "Watch previous calls on `our YouTube channel "
 "<https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_."
 msgstr ""
+"Mira reuniones previas en  `nuestro canal de YouTube "
+"<https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_."
 
 # 94fd509d19b04c98ac0e82a0aa3003aa
 #: ../../source/community/content-community.rst:29
-msgid "Read the `notes from previous calls <community-call-notes/index.html>`_."
-msgstr ""
+msgid ""
+"Read the `notes from previous calls <community-call-notes/index.html>`_."
+msgstr "Lee las `notas de calls previas  <community-call-notes/index.html>`_."
 
 # b6c188f529e043bb8740f19fad6db3a2
 #: ../../source/community/content-community.rst:32
 msgid ""
 "**JupyterHub meetings** happen monthly. For a calendar of future team "
-"meetings, see `the JupyterHub team compass repository <https"
-"://jupyterhub-team-compass.readthedocs.io/en/latest/meetings.html>`_."
+"meetings, see `the JupyterHub team compass repository <https://jupyterhub-"
+"team-compass.readthedocs.io/en/latest/meetings.html>`_."
 msgstr ""
+"**Reuniones de JupyterHub** . Se realizan mensualmente. Para ver el "
+"calendario de reuniones futuras, ve al `repositorio compass del equipo "
+"JupyterHub <https://jupyterhub-team-"
+"compass.readthedocs.io/en/latest/meetings.html>`_."
 
 # d87217c537f04a3e94fee9b03871ddb8
 #: ../../source/community/content-community.rst:35
 msgid ""
-"**JupyterLab meetings** happen weekly. For more information about when "
-"these meetings happen, as well as notes from each meeting, see `the "
-"JupyterLab README <https://github.com/jupyterlab/jupyterlab#weekly-dev-"
-"meeting>`_."
+"**JupyterLab meetings** happen weekly. For more information about when these"
+" meetings happen, as well as notes from each meeting, see `the JupyterLab "
+"README <https://github.com/jupyterlab/jupyterlab#weekly-dev-meeting>`_."
 msgstr ""
+"** Reuniones JupyterLab **. Se realizan semanalmente. Para más información "
+"acerca de cuando ocurren éstas reuniones y notas de cada una de ellas, ve al"
+" `README de JupyterLab <https://github.com/jupyterlab/jupyterlab#weekly-dev-"
+"meeting>`_."
 
 # 5cb8eb65c5d342cb82cd6e06b515c4bb
 #: ../../source/community/content-community.rst:38
@@ -301,50 +354,57 @@ msgid ""
 "attendance>`_. We recommend checking it periodically for new information "
 "about when meetings are happening."
 msgstr ""
+"** Reunión General de conversación y planeamiento **. Usualmente se realiza "
+"en el  ` canal de Gitter dev-meeting-attendance <https://gitter.im/jupyter"
+"/dev-meeting-attendance>`_"
 
 # 85d662482e654ca8a60eb03ea3c16a49
 #: ../../source/community/content-community.rst:47
 msgid "Jupyter communications"
-msgstr ""
+msgstr "Comunicaciones Jupyter"
 
 # af1931399f504fde9b5c379ab97c3788
 #: ../../source/community/content-community.rst:49
 msgid ""
-"As a general rule, most project-wide conversation happens in the `Jupyter"
-" community forum <https://discourse.jupyter.org>`_. There are also many "
-"other kinds of communication that happens within the community. See below"
-" for links and other relevant information."
+"As a general rule, most project-wide conversation happens in the `Jupyter "
+"community forum <https://discourse.jupyter.org>`_. There are also many other"
+" kinds of communication that happens within the community. See below for "
+"links and other relevant information."
 msgstr ""
+"Como regla general, la mayoría de las conversaciones de proyecto suceden en "
+"el `foro de la comunidad Jupyter<https://discourse.jupyter.org>`_. También "
+"hay muchas otras formas de comunicación que ocurren dentro de la comunidad. "
+"Mira los enlances a continuación para obtener información relevante."
 
 # 2c02c8ede4514562b849edfba6bcc50e
 #: ../../source/community/content-community.rst:54
 msgid "Community forum `<https://discourse.jupyter.org/>`_"
-msgstr ""
+msgstr "Foro de la comunidad `<https://discourse.jupyter.org/>`_"
 
 # fb525140606947bebc38796903ee7659
 #: ../../source/community/content-community.rst:55
 msgid "Blog `<https://blog.jupyter.org/>`_"
-msgstr ""
+msgstr "Blog `<https://blog.jupyter.org/>`_"
 
 # 64fab8ffafb24a7bb060d4359ec04feb
 #: ../../source/community/content-community.rst:56
 msgid "Newsletter `<https://newsletter.jupyter.org/>`_"
-msgstr ""
+msgstr "Newsletter `<https://newsletter.jupyter.org/>`_"
 
 # ef8f773e0424467eb83e939805663888
 #: ../../source/community/content-community.rst:57
 msgid "Website `<https://jupyter.org>`_"
-msgstr ""
+msgstr "Sitio Web `<https://jupyter.org>`_"
 
 # 8e575a689ab845919c525a57feacbdb3
 #: ../../source/community/content-community.rst:58
 msgid "Twitter `<https://twitter.com/ProjectJupyter>`_"
-msgstr ""
+msgstr "Twitter `<https://twitter.com/ProjectJupyter>`_"
 
 # 80103b709d94489da4c958855044ce23
 #: ../../source/community/content-community.rst:59
 msgid "Gitter `<https://gitter.im/jupyter/jupyter>`_"
-msgstr ""
+msgstr "Gitter `<https://gitter.im/jupyter/jupyter>`_"
 
 # dd12e64a1c6242688e11b1e72d4b7d17
 #: ../../source/community/content-community.rst:60
@@ -352,31 +412,39 @@ msgid ""
 "Mailing lists (Jupyter, Jupyter in Education) "
 "`<https://jupyter.org/community.html>`_"
 msgstr ""
+"Mailing lists (Jupyter, Jupyter in Education) "
+"`<https://jupyter.org/community.html>`_"
 
 # d8926bc097014aa68efb0246f0e69e7e
 #: ../../source/community/content-community.rst:64
 msgid "Governance"
-msgstr ""
+msgstr "Gobernancia"
 
 # 415a23b6140845c1b39b127b61a35e6e
 #: ../../source/community/content-community.rst:66
 msgid ""
-"Steering council: Information about the steering council and its members "
-"can be found on the `Jupyter website <https://jupyter.org>`_."
+"Steering council: Information about the steering council and its members can"
+" be found on the `Jupyter website <https://jupyter.org>`_."
 msgstr ""
+"Consejo directivo: La información acerca del concejo directivo y sus "
+"miembros puede ser encontrada en el `sitio web de Jupyter "
+"<https://jupyter.org>`_."
 
 # 9849b1d2be9949b790f8d9cb251e7531
 #: ../../source/community/content-community.rst:68
 msgid ""
-"Jupyter Enhancement Proposal (JEP) process: Details about the process can"
-" be found in the `jupyter/enhancement-proposals GitHub repo "
+"Jupyter Enhancement Proposal (JEP) process: Details about the process can be"
+" found in the `jupyter/enhancement-proposals GitHub repo "
 "<https://github.com/jupyter/enhancement-proposals>`_."
 msgstr ""
+"Proceso Jupyter Enhancement Proposal (JEP): Detalles acerca del proceso "
+"pueden encontrarse en el `repositorio GitHub jupyter/enhancement-proposals "
+"<https://github.com/jupyter/enhancement-proposals>`_."
 
 # 03da538fdae3452f9e7fa72740db23a8
 #: ../../source/community/content-community.rst:72
 msgid "Code of conduct"
-msgstr ""
+msgstr "Código de Conducta"
 
 # b6254391831147a4afcef3c22844e45c
 #: ../../source/community/content-community.rst:74
@@ -384,19 +452,24 @@ msgid ""
 "Information can be found in the `Jupyter Governance repo on GitHub "
 "<https://github.com/jupyter/governance>`_."
 msgstr ""
+"Puede encontrarse información en el `repositorio GitHub de Gobernancia "
+"Jupyter <https://github.com/jupyter/governance>`_."
 
 # 4546949c9a144a1298252a5bd089279d
 #: ../../source/community/content-community.rst:77
 msgid "What is a Jovyan?"
-msgstr ""
+msgstr "¿Qué es Jovyan?"
 
 # c1508a5151854f74bf4c8deb7fde2c73
 #: ../../source/community/content-community.rst:79
 msgid ""
-"You may see the word **Jovyan** used in Jupyter tools (such as the user "
-"ID in the `Jupyter Docker stacks <https://github.com/jupyter/docker-"
-"stacks?`_ or referenced in conversations. But what is a Jovyan?"
+"You may see the word **Jovyan** used in Jupyter tools (such as the user ID "
+"in the `Jupyter Docker stacks <https://github.com/jupyter/docker-stacks?`_ "
+"or referenced in conversations. But what is a Jovyan?"
 msgstr ""
+"Puede que veas la palabra **Jovyan** usada en herramientas Jupyter (como el "
+"ID de usuario en `Jupyter Docker stacks <https://github.com/jupyter/docker-"
+"stacks?`_ ) o referenciada en conversaciones. Pero, ¿Qué es Jovyan?"
 
 # 7a43f41ad815452bb5df25efb5a039bb
 #: ../../source/community/content-community.rst:83
@@ -405,15 +478,24 @@ msgid ""
 "describes `several planets that share Jupyter-like properties "
 "<https://www.universetoday.com/33061/what-are-the-jovian-planets/>`_."
 msgstr ""
+"En términos astronómicos, la palabra \"Jovian\" significa \"cómo Júpiter\". "
+"Describe a `múltiples planetas que comparten propiedades parecidas a las de "
+"Júpiter <https://www.universetoday.com/33061/what-are-the-jovian-"
+"planets/>`_."
 
 # 5f92f3a419da4e1aa815eb1ce1929306
 #: ../../source/community/content-community.rst:86
 msgid ""
-"Much like the planet Jupiter and our solar system, the Jupyter community "
-"is large, distributed, and nebulous. We like to use the word **Jovyan** "
-"to describe members of this community. Jovyans are fellow open "
-"enthusiasts that use, develop, promote, teach, learn, and otherwise enjoy"
-" tools in Jupyter's orbit. They make up the Jupyter community. If you're "
-"not sure whether you're a Jovyan, you probably are :-)"
+"Much like the planet Jupiter and our solar system, the Jupyter community is "
+"large, distributed, and nebulous. We like to use the word **Jovyan** to "
+"describe members of this community. Jovyans are fellow open enthusiasts that"
+" use, develop, promote, teach, learn, and otherwise enjoy tools in Jupyter's"
+" orbit. They make up the Jupyter community. If you're not sure whether "
+"you're a Jovyan, you probably are :-)"
 msgstr ""
-
+"Así como el planeta Júpiter y nuestros sistema solar, la comunidad Jupyter "
+"es grande, distribuida, y nebulosa. Nos gusta usar la palabra **Jovyan** "
+"para describir miembros de esta comunidad. Jovyans son compañeros "
+"entusiastas que usan, desarrollan, promueven, enseñan, aprenden o disfrutan "
+"de las herramientas en la órbita de Jupyter. Ellos conforman la comunidad "
+"Jupyter. Si no estás seguro si eres un Jovyan, probablemente lo eres :-) "
