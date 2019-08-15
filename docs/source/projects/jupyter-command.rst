@@ -40,7 +40,7 @@ Command options
 
 .. option:: --runtime-dir
 
-   Show the location of the data directory.
+   Show the location of the runtime directory.
 
 .. option:: --paths
 
