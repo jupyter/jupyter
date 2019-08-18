@@ -29,8 +29,9 @@ jobs:
       - git config --global user.name "Travis CI"
       # Stage any changes to the english source files
       - git add -A source/locale/en
+      - git status
       # Commit the english templates, exiting early if there are no changes
-      - git commit -m "[ci skip] Update en source strings (build: $TRAVIS_JOB_NUMBER)" || travis_terminate 0;
+      - git commit -m '[ci skip] Update English source strings' || travis_terminate 0;
       # Push the commit to master for Transifex to notice and update its strings for translation
       - git remote add origin-tx https://${GH_TOKEN}@github.com/jupyter/jupyter.git
       - git push -u origin-tx master
