@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"POT-Creation-Date: 2019-08-18 16:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 # 4186a713d84a4c2b806a912fb2becfc9
 #: ../../source/reference/content-reference.rst:2
@@ -72,8 +72,65 @@ msgstr ""
 msgid "Custom mimetypes used in Jupyter and IPython projects"
 msgstr ""
 
+# 13488366acf54ae99e35c0a193373e3f
+#: ../../source/reference/mimetype.md:21
+msgid "application/vnd.jupyter"
+msgstr ""
+
+# aa37d3a5ab444ca7ab7afacfdef0ff21
+#: ../../source/reference/mimetype.md:22
+msgid "application/vnd.jupyter.cells"
+msgstr ""
+
+# 24c61132a36a46deb380013a36d9f5b1
+#: ../../source/reference/mimetype.md:23
+msgid "application/vnd.jupyter.dragindex used by nbdime"
+msgstr ""
+
+# 141cf8b2b00849d5b5c556d6563da96f
+#: ../../source/reference/mimetype.md:24
+msgid "application/x-ipynb+json for notebooks"
+msgstr ""
+
+# 00b15e8e49c54d688712b29eb6aed546
+#: ../../source/reference/mimetype.md:25
+msgid "text/html"
+msgstr ""
+
+# a04e3276582c4710b3b13a854e8aaa65
+#: ../../source/reference/mimetype.md:26
+msgid "metadata:"
+msgstr ""
+
+# 46fe471e17ec4d078022dbe316983039
+#: ../../source/reference/mimetype.md:27
+msgid "isolated: boolean -- HTML should be rendered inside an <iframe>."
+msgstr ""
+
 # e9b912b57b8149408f2ac38653e37ccf
 #: ../../source/reference/mimetype.md:29
 msgid "Listing of custom mimetypes used for display"
+msgstr ""
+
+# b301fd611d78498abf3e9470fd98aa26
+#: ../../source/reference/mimetype.md:31
+msgid ""
+"application/vnd.geo+json - GeoJSON spec application/vnd.geo+json is now "
+"deprecated and replaced by application/geo+json"
+msgstr ""
+
+# f3f9005ea9644be486d8bc7dae3ab0f2
+#: ../../source/reference/mimetype.md:34
+msgid "application/geo+json - preferred GeoJSON spec"
+msgstr ""
+
+# 3f37df0989d9433190dc780efd692190
+#: ../../source/reference/mimetype.md:35
+msgid "application/vnd.plotly.v1+json - Plotly JSON Schema"
+msgstr ""
+
+# 95fe379abab94fa18e2beadf866861fb
+#: ../../source/reference/mimetype.md:36
+msgid "application/vdom.v1+json - Virtual DOM spec"
 msgstr ""
 

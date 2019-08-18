@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"POT-Creation-Date: 2019-08-18 16:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 # 92339a9a41b542e298b60cdb6f6cbf61
 #: ../../source/projects/config.rst:4
@@ -652,8 +652,12 @@ msgstr ""
 # 997e64311bf24e22a8e4e0a0a9b89dbd
 # 22ee798fcab64510b6f0c41b0df73590
 #: ../../source/projects/jupyter-command.rst:39
-#: ../../source/projects/jupyter-command.rst:43
 msgid "Show the location of the data directory."
+msgstr ""
+
+# e5e91677a331416b8f2a98f8aa6fd883
+#: ../../source/projects/jupyter-command.rst:43
+msgid "Show the location of the runtime directory."
 msgstr ""
 
 # e5c4ae5c93e746cda9ba4d8983622523
