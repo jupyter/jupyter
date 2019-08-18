@@ -19,19 +19,20 @@ jobs:
       - pip install --upgrade pip sphinx
       - pip install jupyter_sphinx_theme recommonmark sphinx-intl
       script:
+      - cd docs
       # Rebuild HTML again to test for merge problems
-      - make -C docs html
+      - make html
       # Regenerate English translation templates
-      - make -C docs gettext
-      - cd docs && sphinx-intl update -p build/locale -l en
+      - make gettext
+      - sphinx-intl update -p build/locale -l en
       - git config --global user.email "travis@travis-ci.org"
       - git config --global user.name "Travis CI"
       # Stage any changes to the english source files
-      - git add -A docs/source/locale/en
+      - git add -A source/locale/en
       # Commit the english templates, exiting early if there are no changes
       - git commit -m "[ci skip] Update en source strings (build: $TRAVIS_JOB_NUMBER)" || travis_terminate 0;
       # Push the commit to master for Transifex to notice and update its strings for translation
-      - git remote add origin-tx https://$${GH_TOKEN}@github.com/jupyter/jupyter.git
+      - git remote add origin-tx https://${GH_TOKEN}@github.com/jupyter/jupyter.git
       - git push -u origin-tx master
 
 stages:
