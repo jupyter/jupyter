@@ -28,6 +28,7 @@ jobs:
       - git config --global user.email "travis@travis-ci.org"
       - git config --global user.name "Travis CI"
       # Stage any changes to the english source files
+      - git checkout master
       - git add -A source/locale/en
       - git status
       # Commit the english templates, exiting early if there are no changes
