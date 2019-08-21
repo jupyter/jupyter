@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-18 16:16+0000\n"
+"POT-Creation-Date: 2019-08-21 01:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -561,14 +561,14 @@ msgid ""
 "or the current released version of Sphinx (``pip install sphinx``)."
 msgstr ""
 
-# 521e95671d3349b79075277e3822bc61
+# 5d5be81cd19e45f5acc196516a7aa1ec
 #: ../../source/contrib_docs/getting-started.rst:46
 msgid ""
 "In addition, you may need the following packages: sphinxcontrib-spelling,"
-" sphinx_rtd_theme, nbsphinx, pyenchant, recommonmark and "
+" sphinx_rtd_theme, nbsphinx, pyenchant, recommonmark 0.4.0 and "
 "jupyter_sphinx_theme, which can be installed via ``pip install "
-"sphinxcontrib-spelling sphinx_rtd_theme nbsphinx pyenchant recommonmark "
-"jupyter_sphinx_theme``."
+"sphinxcontrib-spelling sphinx_rtd_theme nbsphinx pyenchant "
+"recommonmark==0.4.0 jupyter_sphinx_theme``."
 msgstr ""
 
 # 1140b74d6bd547d2923b29eb2c769293
@@ -753,5 +753,16 @@ msgstr ""
 
 # 60e584f8cf344d5cbc1bd44ddb579f91
 #~ msgid "directory"
+#~ msgstr ""
+
+# 521e95671d3349b79075277e3822bc61
+#~ msgid ""
+#~ "In addition, you may need the "
+#~ "following packages: sphinxcontrib-spelling, "
+#~ "sphinx_rtd_theme, nbsphinx, pyenchant, recommonmark"
+#~ " and jupyter_sphinx_theme, which can be "
+#~ "installed via ``pip install sphinxcontrib-"
+#~ "spelling sphinx_rtd_theme nbsphinx pyenchant "
+#~ "recommonmark jupyter_sphinx_theme``."
 #~ msgstr ""
 
