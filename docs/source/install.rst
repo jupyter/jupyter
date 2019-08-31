@@ -35,7 +35,7 @@ scientific computing and data science.
 Use the following installation steps:
 
 1. Download `Anaconda <https://www.anaconda.com/download>`_. We recommend
-   downloading Anaconda's latest Python 3 version (currently Python 3.5).
+   downloading Anaconda's latest Python 3 version (currently Python 3.7).
 
 2. Install the version of Anaconda which you downloaded, following the
    instructions on the download page.
