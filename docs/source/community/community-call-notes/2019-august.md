@@ -8,27 +8,6 @@
 
 **Welcome!**
 
-If you are joining the Jupyter Community Call, sign in below so we know who was here.
-
-|   Name   |           Institution     | GitHub Handle   |
-|----------|---------------------------|-----------------|
-| Zach     | Jupyter Cal Poly          | @Zsailer        |
-| Derek    | Jupyter Cal Poly (Intern) | @dLamSlo8       |
-| Isabela  | Jupyter Cal Poly (Intern) | @isabela-pf     |
-| Marisa   | Jupyter Cal Poly (Intern) | @marisaaquilina |
-| Markelle | Jupyter Cal Poly (Intern) | @markellekelly  |
-| Javier   | Jupyter Cal Poly (Intern) | @javag97        |
-| Denton   | Project Drawdown          | @dgentry        |
-| Tony     | Quansight  | @tonyfast |
-| Chico Venancio| BMC Group K. K.| @chicocvenancio|
-| Elizabeth DuPre | McGill University | @emdupre|
-| Wayne Decatur | Upstate Medical University | @fomightez|
-| Saul Shanabrook | Quansight | @saulshanabrook |
-| Joe      | Mavenomics               | @quigleyj-mavenomics|
-| A. T. Darian   | Two Sigma          | @afshin          |
-| Erik Sundell   | Sandvik            | @consideRatio    |
-| Kevin Bates | IBM | @kevin-bates  |
-
 ## Purpose
 
 Think of it as a monthly, virtual JupyterCon. It’s a place to announce and share fun things happening in the Jupyter community.
@@ -61,3 +40,25 @@ Add agenda items here **before** the meeting. We will reorganize the agenda so t
       * [ ] It's meant to make it easier to create new extensions in JupyterLab that deal with different data formats. If you have a data viewer extension, you shouldn't care if the data came from a file or from a notebook output or a database, you just want to be able to render a certain format. 
       * [ ] Able to visualize HDF5 datasets using this extension too!
   * [ ] [Metadata/linked data service](https://github.com/jupyterlab/jupyterlab-data-explorer)
+
+## Attendees
+
+
+If you are joining the Jupyter Community Call, sign in below so we know who was here.
+
+-  Zach     | Jupyter Cal Poly          | @Zsailer        |
+-  Derek    | Jupyter Cal Poly (Intern) | @dLamSlo8       |
+-  Isabela  | Jupyter Cal Poly (Intern) | @isabela-pf     |
+-  Marisa   | Jupyter Cal Poly (Intern) | @marisaaquilina |
+-  Markelle | Jupyter Cal Poly (Intern) | @markellekelly  |
+-  Javier   | Jupyter Cal Poly (Intern) | @javag97        |
+-  Denton   | Project Drawdown          | @dgentry        |
+-  Tony     | Quansight  | @tonyfast |
+-  Chico Venancio| BMC Group K. K.| @chicocvenancio|
+-  Elizabeth DuPre | McGill University | @emdupre|
+-  Wayne Decatur | Upstate Medical University | @fomightez|
+-  Saul Shanabrook | Quansight | @saulshanabrook |
+-  Joe      | Mavenomics               | @quigleyj-mavenomics|
+-  A. T. Darian   | Two Sigma          | @afshin          |
+-  Erik Sundell   | Sandvik            | @consideRatio    |
+-  Kevin Bates | IBM | @kevin-bates  |
