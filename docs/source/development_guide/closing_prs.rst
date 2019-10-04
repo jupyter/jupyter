@@ -57,5 +57,5 @@ Example Message:
 
     Thanks for contributing.
 
-    see https://github.com/ipython/ipython/wiki/Dev%3A-Closing-pull-requests/ for 
-    our policies on closing pull request.
+    see https://github.com/ipython/ipython/wiki/Dev%3A-Closing-pull-requests/ for
+    our policies on closing pull requests.
