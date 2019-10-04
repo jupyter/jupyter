@@ -78,7 +78,7 @@ code harder to read and requires methods to constantly use checks with
 hasattr() or try/except calls. By declaring all attributes of the object
 in the class header, there is a single place one can refer to for
 understanding the object's data interface, where comments can explain
-the role of each variable and when possible, sensible deafaults can be
+the role of each variable and when possible, sensible defaults can be
 assigned.
 
 If an attribute is meant to contain a mutable object, it should be set
@@ -99,7 +99,7 @@ A simple example:
         y = None
         # z starts as an empty list, must be set in constructor
         z = None
-        
+
         def __init__(self, y):
             self.y = y
             self.z = []
