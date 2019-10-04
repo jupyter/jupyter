@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 20:11-0400\n"
+"POT-Creation-Date: 2019-10-04 14:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 # 68594f7b5d5243178cc934fef0ff52ac
 #: ../../source/development_guide/boot2docker.rst:4
@@ -421,7 +421,7 @@ msgstr ""
 msgid "Attribute declarations for objects"
 msgstr ""
 
-# beddc03b335a4e8fb4cd44d441db527b
+# 90a2d8345a8d431d9e85b972149d0aa2
 #: ../../source/development_guide/coding_style.rst:74
 msgid ""
 "In general, objects should declare, in their *class*, all attributes the "
@@ -431,7 +431,7 @@ msgid ""
 "hasattr() or try/except calls. By declaring all attributes of the object "
 "in the class header, there is a single place one can refer to for "
 "understanding the object's data interface, where comments can explain the"
-" role of each variable and when possible, sensible deafaults can be "
+" role of each variable and when possible, sensible defaults can be "
 "assigned."
 msgstr ""
 
@@ -3929,4 +3929,25 @@ msgstr ""
 #: ../../source/development_guide/testing_kernels.rst:82
 msgid "A sample test script for the redis kernel will look like this"
 msgstr ""
+
+# beddc03b335a4e8fb4cd44d441db527b
+#~ msgid ""
+#~ "In general, objects should declare, in"
+#~ " their *class*, all attributes the "
+#~ "object is meant to hold throughout "
+#~ "its life. While Python allows you "
+#~ "to add an attribute to an instance"
+#~ " at any point in time, this "
+#~ "makes the code harder to read and"
+#~ " requires methods to constantly use "
+#~ "checks with hasattr() or try/except "
+#~ "calls. By declaring all attributes of"
+#~ " the object in the class header, "
+#~ "there is a single place one can"
+#~ " refer to for understanding the "
+#~ "object's data interface, where comments "
+#~ "can explain the role of each "
+#~ "variable and when possible, sensible "
+#~ "deafaults can be assigned."
+#~ msgstr ""
 
