@@ -10,6 +10,10 @@ Jupyter stores different files (i.e. configuration, data, runtime) in a
 number of different locations. Environment variables may be set to
 customize for the location of each file type.
 
+Jupyter separates **data files** (nbextensions, kernelspecs)
+from **runtime files** (logs, pid files, connection files)
+from **configuration** (config files, custom.js).
+
 .. _config_dir:
 
 Configuration files
@@ -41,11 +45,15 @@ To list the config directories currrently being used you can run the below comma
 
     jupyter --paths
 
+The following command shows the config directory specifically:::
 
-.. _jupyter_path:
+    jupyter --config-dir
 
 Data files
 ----------
+
+.. _jupyter_path:
+
 
 Jupyter uses a search path to find installable data files, such as
 :ref:`kernelspecs <kernelspecs>` and notebook extensions. When searching for
@@ -61,7 +69,7 @@ search path. For example, kernel specs are in ``kernels`` subdirectories.
    search path. :envvar:`JUPYTER_PATH` should contain a series of directories,
    separated by ``os.pathsep`` (``;`` on Windows, ``:`` on Unix).
    Directories given in :envvar:`JUPYTER_PATH` are searched before other
-   locations.
+   locations. This is used in addition to other entries, rather than replacing any.
 
 +-------------------------------+----------------------------+----------------------------+
 | Linux (& other free desktops) | Mac                        | Windows                    |
@@ -76,6 +84,23 @@ search path. For example, kernel specs are in ``kernels`` subdirectories.
 | ``/usr/local/share/jupyter``                               | ``%PROGRAMDATA\jupyter``   |
 | ``/usr/share/jupyter``                                     |                            |
 +-------------------------------+----------------------------+----------------------------+
+
+.. _jupyter_data_dir:
+
+The config directory for Jupyter data files, which contain non-transient, non-configuration files.
+Examples include kernelspecs, nbextensions, or voila templates.
+
+.. envvar:: JUPYTER_DATA_DIR
+
+   Set this environment variable to use a particular directory, other than the default, as the user data directory. 
+
+As mentioned above, to list the config directories currently being used you can run the below command from the :term:`command line`::
+
+   jupyter --paths
+
+The following command shows the data directory specificially:::
+
+   jupyter --data-dir
 
 .. _jupyter_runtime_dir:
 
@@ -96,12 +121,22 @@ An environment variable may also be used to set the runtime directory.
 
    Set this to override where Jupyter stores runtime files.
 
+As mentioned above, to list the config directories currently being used you can run the below command from the :term:`command line`::
+
+   jupyter --paths
+
+The following command shows the runtime directory specifically:::
+
+   jupyter --runtime-dir
+
 Summary
 -------
 
 :envvar:`JUPYTER_CONFIG_DIR` for config file location
 
 :envvar:`JUPYTER_PATH` for datafile directory locations
+
+:envvar:`JUPYTER_DATA_DIR` for data file location
 
 :envvar:`JUPYTER_RUNTIME_DIR` for runtime file location
 
