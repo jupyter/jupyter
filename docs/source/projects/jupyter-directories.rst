@@ -10,7 +10,9 @@ Jupyter stores different files (i.e. configuration, data, runtime) in a
 number of different locations. Environment variables may be set to
 customize for the location of each file type.
 
-Jupyter separates data files (nbextensions, kernelspecs) from runtime files (logs, pid files, connection files) from configuration (config files, custom.js).
+Jupyter separates **data files** (nbextensions, kernelspecs)
+from **runtime files** (logs, pid files, connection files)
+from **configuration** (config files, custom.js).
 
 .. _config_dir:
 
@@ -85,7 +87,8 @@ search path. For example, kernel specs are in ``kernels`` subdirectories.
 
 .. _jupyter_data_dir:
 
-The config directory for Jupyter data files, which non-transient, non-configuration files. Examples include kernelspecs or nbextensions.
+The config directory for Jupyter data files, which contain non-transient, non-configuration files.
+Examples include kernelspecs, nbextensions, or voila templates.
 
 .. envvar:: JUPYTER_DATA_DIR
 
