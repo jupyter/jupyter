@@ -1,6 +1,6 @@
 # Jupyter Community Call
 
-## September 24th, 2029
+## September 24th, 2019
 
 **Date:** September 24, 2019, at 9am Pacific (your [timezone](https://arewemeetingyet.com/Los%20Angeles/2019-09-24/09:00/Jupyter%20Community%20Call))
 
