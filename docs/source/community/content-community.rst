@@ -14,12 +14,20 @@ may change, and we will do our best to keep it up to date.
 Monthly Meetings
 ----------------
 
+This following calendar shows the various meetings and events from Jupyter sub-projects:
+
+.. raw:: html
+
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZGdwZDM2ZjQzZXQ5Z3JhYm42dGRpbjZwbWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=bTNoZWs2OWRhZzczODF1bXQ4a2NqZDc1dTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YXFwa3VpNXE3b2kzMnBrOXRjcDUzaG5zc2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cGlhaGluZWpqcjZzc3ZpOGlrbWpqb3A2cm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23AD1457&amp;color=%23F6BF26&amp;color=%23616161&amp;color=%239E69AF&amp;showTabs=1&amp;showCalendars=1&amp;showDate=1&amp;showNav=1&amp;showTitle=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
 The core developers of various Jupyter sub-projects have regular meetings to
 discuss and demo what they have been working on, discuss future plans,
 and bootstrap conversation. These meetings are public and you are welcome to join remotely.
 
 Each team has their own processes around logistics and planning for the team meetings. The
 following pages should help you find the information for each.
+
 
 **All-Jupyter Community Calls** happen on the last Tuesday of every month, and are focused around demonstrations
 and sharing information across all of the Jupyter projects. 
