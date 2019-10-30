@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Caaddss <carolinedantas11@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: 2019-07-27 11:59+0000\n"
+"Last-Translator: Caaddss <carolinedantas11@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/project-jupyter/teams/100899/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# 999687e2672c4830be8be849ba17fdd8
+#: ../../source/releases/content-releases.rst:2
+msgid "Release Notes"
+msgstr "Notas de Versão"
+
+# f2e5171237034eeeafdd4917d74a1fdb
+#: ../../source/releases/content-releases.rst:4
+msgid ""
+"Each project's documentation and GitHub repository has information about "
+"releases and changes from the prior release."
+msgstr ""
+"Essa documentação e o repositório do Github contém informações sobre versões"
+" e alterações em relação a versão anterior"
+
+# b6a439cd2ee94119bbd0f928c111ccda
+#: ../../source/releases/content-releases.rst:7
+msgid "Coming Soon"
+msgstr "Em breve"
+
+# eb314f1a6b1c47b8b4aaf0281c3f1c94
+#: ../../source/releases/content-releases.rst:9
+msgid ""
+"We're actively working on a graphic that displays each project, their "
+"current release, and a link to the changelog. Thanks for your patience."
+msgstr ""
+"Nós estamos ativamente trabalhando em um gráfico que exibe cada projeto, sua"
+" atual versão e um link para os histórico de alterações. Muito obrigado pela"
+" sua paciência"
