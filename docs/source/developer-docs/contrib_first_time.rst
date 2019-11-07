@@ -61,11 +61,11 @@ JavaScript/TypeScript
 Jupyter Notebook, JupyterLab, and IPyWidgets use JavaScript and TypeScript.
 
 * `Jupyter Notebook <https://github.com/jupyter/notebook>`__
-    * `Notable Issues <https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22tag%3ANew+Contributor%22>`__
+    * `Notable Issues <https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
     * `Development Installation <https://github.com/jupyter/notebook/blob/master/CONTRIBUTING.rst>`__
     * `Gitter Channel <https://gitter.im/jupyter/notebook>`__
 * `JupyterLab <https://github.com/jupyterlab/jupyterlab>`__
-    * `Notable Issues <https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3AHelp+Wanted%22>`__
+    * `Notable Issues <https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22>`__
     * `Development Installation <https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md>`__
     * `Gitter Channel <https://gitter.im/jupyterlab/jupyterlab>`__
 * `IPyWidgets <https://github.com/jupyter-widgets/ipywidgets>`__
@@ -84,5 +84,5 @@ Web Development
 We have issues related to the website.
 
 * `Project Jupyter's Website <https://github.com/jupyter/jupyter.github.io/>`__
-    * `Notable Issues <https://github.com/jupyter/jupyter.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Asprint-friendly>`__
+    * `Notable Issues <https://github.com/jupyter/jupyter.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
     * `Developer Installation <https://github.com/jupyter/jupyter.github.io#quick-local-testing>`__
