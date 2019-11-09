@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"POT-Creation-Date: 2019-11-09 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 # 4af9f71750c8467e8467b4e5c923c079
 #: ../../source/developer-docs/contrib_first_time.rst:3
@@ -224,11 +224,12 @@ msgstr ""
 msgid "`Jupyter Notebook <https://github.com/jupyter/notebook>`__"
 msgstr ""
 
-# f1a0b2f2975f459e8c85be7dfe502070
+# 4fe96e2afbc140c8852dac6daa01b3fa
 #: ../../source/developer-docs/contrib_first_time.rst:64
+#, python-format
 msgid ""
 "`Notable Issues "
-"<https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22tag%3ANew+Contributor%22>`__"
+"<https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__"
 msgstr ""
 
 # 67ec729c38dd4eb4afc774c99aad3512
@@ -248,12 +249,12 @@ msgstr ""
 msgid "`JupyterLab <https://github.com/jupyterlab/jupyterlab>`__"
 msgstr ""
 
-# f7a939c12a42438796221b1b3216b85c
+# 87259f462bfe4ba692e18e59633251a5
 #: ../../source/developer-docs/contrib_first_time.rst:68
 #, python-format
 msgid ""
 "`Notable Issues "
-"<https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3AHelp+Wanted%22>`__"
+"<https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22>`__"
 msgstr ""
 
 # 60727430accc47a59bdb9fd7c0dc9d10
@@ -322,12 +323,12 @@ msgid ""
 "<https://github.com/jupyter/jupyter.github.io/>`__"
 msgstr ""
 
-# 2d035ecd6e9e40dfa1aa14533fd7e41c
+# d7b47f8c88964db889f77041e5e579ec
 #: ../../source/developer-docs/contrib_first_time.rst:87
+#, python-format
 msgid ""
 "`Notable Issues "
-"<https://github.com/jupyter/jupyter.github.io/issues?q=is%3Aissue+is%3Aopen+label"
-"%3Asprint-friendly>`__"
+"<https://github.com/jupyter/jupyter.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__"
 msgstr ""
 
 # 2192a69a3d2f42008d5632996da49b7f
@@ -990,4 +991,23 @@ msgid ""
 "The pushes assume that `origin` points to the main jupyter/ipython repo. "
 "Depending how you use git, this could be `upstream` or something else."
 msgstr ""
+
+# f1a0b2f2975f459e8c85be7dfe502070
+#~ msgid ""
+#~ "`Notable Issues "
+#~ "<https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22tag%3ANew+Contributor%22>`__"
+#~ msgstr ""
+
+# f7a939c12a42438796221b1b3216b85c
+#~ msgid ""
+#~ "`Notable Issues "
+#~ "<https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3AHelp+Wanted%22>`__"
+#~ msgstr ""
+
+# 2d035ecd6e9e40dfa1aa14533fd7e41c
+#~ msgid ""
+#~ "`Notable Issues "
+#~ "<https://github.com/jupyter/jupyter.github.io/issues?q=is%3Aissue+is%3Aopen+label"
+#~ "%3Asprint-friendly>`__"
+#~ msgstr ""
 
