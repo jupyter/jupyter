@@ -2,4 +2,4 @@ sphinx>=1.6
 sphinx-intl
 recommonmark==0.4.0
 nbsphinx
-jupyter_sphinx_theme==0.0.6
+git+https://github.com/pandas-dev/pandas-sphinx-theme.git@master

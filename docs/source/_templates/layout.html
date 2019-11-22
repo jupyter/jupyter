@@ -2,25 +2,3 @@
 
 {# Custom CSS overrides #}
 {% set bootswatch_css_custom = ['_static/custom.css'] %}
-
-{% block relbar1 %}
-<div class="container" style="background-color: white; text-align: left; padding: 10px 10px 15px 15px; width=100%; height=auto">
-<a href="{{ pathto('index') }}"><img src="{{
-pathto("_static/_images/jupyter.svg", 1) }}" border="0" alt="jupyter" width=200></a>
-</div>
-{{ super() }}
-{% endblock %}
-
-{% block footer %}
-<div class="pull-center">
-	<ul class="pager">
-	  {% if prev %}
-	  <li class="previous"><a href="{{ prev.link|e }}">&larr; Previous</a></li>
-	  {% endif %}
-	  {%if next %}
-	  <li class="next"><a href="{{ next.link|e }}">Next &rarr;</a></li>
-	  {% endif %}
-	</ul>
-</div>
-{{ super() }}
-{% endblock %}

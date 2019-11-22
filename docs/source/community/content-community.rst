@@ -1,8 +1,8 @@
 .. _community-guide:
 
-================
-Community Guides
-================
+=========
+Community
+=========
 
 
 Welcome to the Community Guides for Jupyter. These guides are intended to
@@ -30,7 +30,7 @@ following pages should help you find the information for each.
 
 
 **All-Jupyter Community Calls** happen on the last Tuesday of every month, and are focused around demonstrations
-and sharing information across all of the Jupyter projects. 
+and sharing information across all of the Jupyter projects.
 
 - Find information on `this Discourse thread <https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_.
 - Watch previous calls on `our YouTube channel <https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_.

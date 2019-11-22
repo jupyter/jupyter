@@ -1,7 +1,7 @@
 .. _content-projects:
 
-Installation, Configuration, and Usage
-======================================
+Using Jupyter
+=============
 
 Installation
 ------------
@@ -33,87 +33,87 @@ How do I decide which packages I need?
 			style=filled, color=".3 .7 1.0"]
 		// Second Level
 		try [
-			shape=box, 
-			label="Try the notebook", 
+			shape=box,
+			label="Try the notebook",
 			tooltip="Try the Jupyter notebook!"]
-		install [shape=box, 
-			label="Install the notebook", 
+		install [shape=box,
+			label="Install the notebook",
 			tooltip="Go To Install Jupyter!"]
 		team [
-			shape=box, 
-			label="Install notebooks\n for my team, class,\n or group", 
+			shape=box,
+			label="Install notebooks\n for my team, class,\n or group",
 			tooltip="Install for teams, etc!"]
 		convert [
-			shape=box, 
-			label="Convert my\n notebook file to\n another format", 
+			shape=box,
+			label="Convert my\n notebook file to\n another format",
 			tooltip="Convert to other formats."]
 		lang [
-			shape=box, 
-			label="Use another\n programming\n language such as\n R or Java", 
+			shape=box,
+			label="Use another\n programming\n language such as\n R or Java",
 			tooltip="Use other programming languages."]
 		custom [
-			shape=box, 
+			shape=box,
 			label="Customize the\n notebook for my\n needs",
 			tooltip="Customize Notebooks."]
 		// 3rd Level
 		online [
-			label="Try Online", 
-			tooltip="Try Notebooks Online - without any installation!", 
+			label="Try Online",
+			tooltip="Try Notebooks Online - without any installation!",
 			target="_blank", color=blue, // External Link
 			href="https://try.jupyter.org/"]
 		doinstall [
-			label="Install Jupyter", 
-			tooltip="How to install", 
+			label="Install Jupyter",
+			tooltip="How to install",
 			target="_top", color=green, // Local Link
 			href="../install.html"] // 4th level
 		hub [
-			label="JupyterHub", 
-			tooltip="Install JupyterHub", 
-			target="_blank", color=blue, // External Link 
+			label="JupyterHub",
+			tooltip="Install JupyterHub",
+			target="_blank", color=blue, // External Link
 			href="https://github.com/jupyterhub/jupyterhub"]
 		nbconvert [
-			label="nbconvert", 
-			tooltip="How to convert notebooks", 
-			target="_blank", color=blue, // External Link 
+			label="nbconvert",
+			tooltip="How to convert notebooks",
+			target="_blank", color=blue, // External Link
 			href="https://nbconvert.readthedocs.io/en/latest/"]
 		kernel [
-			label="Install a\nlanguage\nkernel", 
-			tooltip="How to install kernels", 
+			label="Install a\nlanguage\nkernel",
+			tooltip="How to install kernels",
 			target="_top", color=green, // Local Link
 			href="../projects/subprojects.html?highlight=jupyterhub#kernels"]
 		// Path labels
 		noinst [
-			shape=plaintext, 
-			label="No installation\nneeded!", 
+			shape=plaintext,
+			label="No installation\nneeded!",
 			tooltip="Don't wish to install yet?"]
 		like [
-			shape=plaintext, 
-			label="I like it,\nand I wish to install it!", 
+			shape=plaintext,
+			label="I like it,\nand I wish to install it!",
 			tooltip="You like it!"]
 		my [
-			shape=plaintext, 
-			label="On my system", 
+			shape=plaintext,
+			label="On my system",
 			tooltip="Local Installation"]
 		// below kernel
 		widgets [
-			label="Widgets", 
-			tooltip="Install & use ipywidgets", 
-			target="_blank", color=blue, // External Link 
+			label="Widgets",
+			tooltip="Install & use ipywidgets",
+			target="_blank", color=blue, // External Link
 			href="https://ipywidgets.readthedocs.io/en/latest/"]
 		extend [
-			label="Extensions", 
-			tooltip="Install & use extensions", 
-			target="_blank", color=blue, // External Link 
+			label="Extensions",
+			tooltip="Install & use extensions",
+			target="_blank", color=blue, // External Link
 			href="https://github.com/ipython-contrib/IPython-notebook-extensions"]
 		dash [
-			label="Dashboards", 
+			label="Dashboards",
 			tooltip="Install & use dashboards",
-			target="_blank", color=blue, // External Link 
+			target="_blank", color=blue, // External Link
 			href="https://github.com/jupyter/dashboards"]
 		help [
-			label="Help", 
-			tooltip="Ask on jupyter help", 
-			target="_blank", color=blue, // External Link 
+			label="Help",
+			tooltip="Ask on jupyter help",
+			target="_blank", color=blue, // External Link
 			href="https://github.com/jupyter/help"]
 		// Edges
 		what -> {try install team convert lang custom}

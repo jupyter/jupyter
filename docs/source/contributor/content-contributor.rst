@@ -1,5 +1,5 @@
-Contributor Guides
-==================
+Contributors
+============
 
 .. toctree::
    :maxdepth: 1

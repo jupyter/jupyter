@@ -54,11 +54,6 @@ Project Jupyter and IPython
 .. toctree::
    :maxdepth: 2
 
-   releases/content-releases
-
-.. toctree::
-   :maxdepth: 2
-
    reference/content-reference
 
 
