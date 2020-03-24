@@ -18,7 +18,7 @@ import recommonmark.parser
 
 # -- General configuration ------------------------------------------------
 
-html_theme = 'pandas_sphinx_theme'
+html_theme = 'pydata_sphinx_theme'
 html_logo = '_static/_images/jupyter.svg'
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -29,14 +29,11 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz', # Add the graphviz extension
+    'recommonmark'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
-}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
