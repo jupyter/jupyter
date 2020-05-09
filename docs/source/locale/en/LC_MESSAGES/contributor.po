@@ -9,22 +9,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"POT-Creation-Date: 2020-05-09 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-# 621a2e3dd84a4243839c3502e29814d9
 #: ../../source/contributor/content-contributor.rst:2
-msgid "Contributor Guides"
+#: 03859b1b5045413e91671951d71e0b8f
+msgid "Contributors"
 msgstr ""
 
 # 1171d51e6719464b968b01a30c2df1d4
 #: ../../source/contributor/content-contributor.rst:13
+#: d6c85cbfbabb456882d48bfb369c5f2b
 msgid ""
 "Whether you are a new, returning, or current contributor to Project "
 "Jupyter's subprojects or IPython, **we welcome you**."
@@ -32,6 +33,7 @@ msgstr ""
 
 # 300e2003927049dab5e95afdb87961d3
 #: ../../source/contributor/content-contributor.rst:16
+#: 0f5824fe01e84f1e997d8ef85cd9fe97
 msgid ""
 "Project Jupyter has seen steady growth over the past several years, and "
 "it is wonderful to see the many ways people are using these projects. As "
@@ -43,6 +45,7 @@ msgstr ""
 
 # b8bdcf9762b9420b982a51c87522bb59
 #: ../../source/contributor/content-contributor.rst:23
+#: 7d9558a57558495e89fbd211a5d56d6b
 msgid ""
 "The Contributor Guides and individual project documentation offer "
 "guidance. If you have a question, please ask us. `Community Resources "
@@ -52,6 +55,7 @@ msgstr ""
 
 # a6410f8dcf2a40f4bb0ac93598cba376
 #: ../../source/contributor/content-contributor.rst:28
+#: c35196bdf6184975bd0e8786bb7491dc
 msgid ""
 "We are very pleased to have you as a contributor, and we hope you will "
 "find valuable your impact on the projects. **Thank you** for sharing your"
@@ -60,11 +64,13 @@ msgstr ""
 
 # 135f6b0b508342ce97970e34fc45d3e7
 #: ../../source/contributor/content-contributor.rst:33
+#: 8f2a212b40fc453bb27160ca35e45985
 msgid "Do I really have something to contribute to Jupyter?"
 msgstr ""
 
 # c019e9e3e874449c97154d6e7a727e78
 #: ../../source/contributor/content-contributor.rst:35
+#: b9dd11ab6dea4d428fbea31feee96aa6
 msgid ""
 "Absolutely ✅. There are always ways to contribute to this community! "
 "Whether it is is contributing code, improving documentation and "
@@ -74,11 +80,13 @@ msgstr ""
 
 # 98869a235e8a4a889da32cec31b99573
 #: ../../source/contributor/content-contributor.rst:41
+#: a5fb80cddcca426ca527cec6764ab7d8
 msgid "What kinds of contributions can I make?"
 msgstr ""
 
 # 8f10671ad67d4eea908dd64ffee52b4c
 #: ../../source/contributor/content-contributor.rst:43
+#: e922d3aba5c6476ca67843158158bc3b
 msgid ""
 "The following sections try to provide inspirations for different ways "
 "that you can contribute to the Jupyter ecosystem. They're non-complete - "
@@ -87,11 +95,13 @@ msgstr ""
 
 # f409e68056af43bd9e38d096103a3883
 #: ../../source/contributor/content-contributor.rst:48
+#: e10bea632a754c95866c6bafcf534ef5
 msgid "Improving documentation"
 msgstr ""
 
 # 34eefffe7e794af4a56bd5ea20b11a78
 #: ../../source/contributor/content-contributor.rst:50
+#: 1a2de715719949d1b8bd8544a4273969
 msgid ""
 "One of the most important parts of the Jupyter ecosystem is its "
 "documentation. Good documentation makes it easier for users to learn how "
@@ -105,6 +115,7 @@ msgstr ""
 
 # 9e1b5f837c5544e0b1b10324e31869ae
 #: ../../source/contributor/content-contributor.rst:57
+#: 82d07b7da37f4fac95d9291ebb49293b
 msgid ""
 "If you'd like to improve documentation in the Jupyter community, check "
 "out the :ref:`documentation-guide`."
@@ -112,11 +123,13 @@ msgstr ""
 
 # 560230393e4349dd825bc8cb04bd85e8
 #: ../../source/contributor/content-contributor.rst:60
+#: af2fd69723b84962a3f6e31ac6a21b79
 msgid "Improving code"
 msgstr ""
 
 # d630c52da53f4130862db11c2c4d45e6
 #: ../../source/contributor/content-contributor.rst:62
+#: a938252d3dda4c9f86baeb6b943ca272
 msgid ""
 "There are many different codebases that make up the tools in the Jupyter "
 "ecosystem. These are split across many repositories in several GitHub "
@@ -127,6 +140,7 @@ msgstr ""
 
 # 904018e4262349c680f3e06291ab5284
 #: ../../source/contributor/content-contributor.rst:67
+#: b35bc9db2d424ca8b84f430cbe6ddd3d
 msgid ""
 "We recommend checking out the :ref:`developer-guide` for more information"
 " about how you can find the right project to contribute to, and where to "
@@ -135,11 +149,13 @@ msgstr ""
 
 # 25a6e078d67442a2ba84ead181c460b3
 #: ../../source/contributor/content-contributor.rst:71
+#: 9623c68739844896abeae2f25e841685
 msgid "Participating in the community"
 msgstr ""
 
 # a87966fbbbd14c878db02da9489bce82
 #: ../../source/contributor/content-contributor.rst:73
+#: a65ea6a28a1647ceac35c3fae4af439d
 msgid ""
 "The most important part of Jupyter is its community - this is a large and"
 " diverse group of people spread across the globe. One of the best ways to"
@@ -153,21 +169,25 @@ msgstr ""
 
 # 593c43f0e5764d01a171016560a00f00
 #: ../../source/contributor/contrib_guide_blog.rst:3
+#: 14568408f7a24fbb97b9613b10785e7f
 msgid "Communications Guide"
 msgstr ""
 
 # 1b294ad959f94bd3b8dba73f56642cb2
 #: ../../source/contributor/contrib_guide_blog.rst:6
+#: b07f24f4a0e74848bb59eb4516098595
 msgid "Contents"
 msgstr ""
 
 # c6416f19a43d4ae1a19bb1f7b9888966
 #: ../../source/contributor/contrib_guide_blog.rst:9
+#: fbd42b2b5a6b4450bd4b1042260e544d
 msgid "Blog"
 msgstr ""
 
 # a9b5e28dfd994ef29cdf392ff8a36fba
 #: ../../source/contributor/contrib_guide_blog.rst:11
+#: 75b5ccb9a4b74e2a9e0b95a42de154a3
 msgid ""
 "We publish our blog at `<https://blog.jupyter.org>`_. We welcome ideas "
 "for posts or guest posts to the Jupyter blog. If you have a suggestion "
@@ -177,6 +197,7 @@ msgstr ""
 
 # 12ff4c6ea66d445991bcadec7ba0b31f
 #: ../../source/contributor/contrib_guide_blog.rst:16
+#: 4d580892bafa4a4c9aa66e34978c1875
 msgid ""
 "Do you enjoy writing? Please contact us about becoming a guest blogger. "
 "We can help guide you through the process of creating a post."
@@ -184,11 +205,13 @@ msgstr ""
 
 # b3be44427ae8472a8a215b6e33127cca
 #: ../../source/contributor/contrib_guide_blog.rst:20
+#: 87284b5ccc2d4865886dcdc3272528fb
 msgid "Technical overview"
 msgstr ""
 
 # f09b1742f1744a83893baf77b9ff4ffc
 #: ../../source/contributor/contrib_guide_blog.rst:22
+#: dcc4775e4c8d4f19b02b42b866b9ab50
 msgid ""
 "Jupyter's blog uses the Ghost blog platform for its contributor "
 "flexibility and ease of use. Jupyter's blog is deployed at "
@@ -197,11 +220,13 @@ msgstr ""
 
 # 43151242cf8847c792841f97ae59e095
 #: ../../source/contributor/contrib_guide_blog.rst:26
+#: d15ca28ddb584863aa3de9c10d2c5581
 msgid "Basic workflow from blog idea to published post"
 msgstr ""
 
 # 1be90c5561f143808cb47de0c8c8022a
 #: ../../source/contributor/contrib_guide_blog.rst:28
+#: b884df34d75a4c3894fb69ce8443e1c0
 msgid ""
 "There are several major steps in the workflow from blog idea to a "
 "published post including:"
@@ -209,11 +234,13 @@ msgstr ""
 
 # 3c5ad2bb281a4aa6ac16b54a10dbdd1e
 #: ../../source/contributor/contrib_guide_blog.rst:31
+#: d72ece46cb8c4cea9478a9270ffe9225
 msgid "Be inspired to write a post"
 msgstr ""
 
 # 92a83a1a36a144c9ba2bcf30cc4da74b
 #: ../../source/contributor/contrib_guide_blog.rst:32
+#: 25dd5e828bc14f3db74099f7c0da8dfb
 msgid ""
 "Send us a message on the Jupyter mailing list and ask us for an author "
 "account on our blog"
@@ -223,11 +250,13 @@ msgstr ""
 # c454ba131c7947f3b756d636a19e3d39
 #: ../../source/contributor/contrib_guide_blog.rst:33
 #: ../../source/contributor/contrib_guide_blog.rst:42
+#: 63a9a5a395f04b27bfe46a73e17c04ce d2deb25fe3634c24880489a7a57aa0f4
 msgid "Creating a draft"
 msgstr ""
 
 # d60237d5d70c48e289be8db755f5488a
 #: ../../source/contributor/contrib_guide_blog.rst:34
+#: 2cd9fda1c89a4076b409eb3a5dca3499
 msgid "Draft Review"
 msgstr ""
 
@@ -235,6 +264,7 @@ msgstr ""
 # 7a67f5bd5e864a89bdde0121c28c83cb
 #: ../../source/contributor/contrib_guide_blog.rst:35
 #: ../../source/contributor/contrib_guide_blog.rst:99
+#: 12d9c5bdfc8c472e9933d6688530de3a 84b34c348f49425abce902c6b0e8c8d1
 msgid "Editorial acceptance"
 msgstr ""
 
@@ -242,11 +272,13 @@ msgstr ""
 # 8ca1d1189f084c22a6513a9f7f370c3a
 #: ../../source/contributor/contrib_guide_blog.rst:36
 #: ../../source/contributor/contrib_guide_blog.rst:102
+#: f27f7312245343dcb62381bfe940f4f1 fa85d075d9ce44a59436098a27de6c4c
 msgid "Publishing the post"
 msgstr ""
 
 # 205eccbcaafc4d1c87184fdfa20ea1e0
 #: ../../source/contributor/contrib_guide_blog.rst:38
+#: 2272d889e67e4a53b17b72a47356aa19
 msgid ""
 "We'll cover each of these as well as how to update a post once it has "
 "been published."
@@ -254,11 +286,13 @@ msgstr ""
 
 # bbeb420a823542ee9f81fb9a9d9e9a4b
 #: ../../source/contributor/contrib_guide_blog.rst:45
+#: 62ddc6c7e083402dbee8631492dd3325
 msgid "Title and metadata"
 msgstr ""
 
 # cb2170d8f32f40ab8ddb9dfe33eb88ec
 #: ../../source/contributor/contrib_guide_blog.rst:47
+#: 427ff4b043874fa690c2859c8a9da814
 msgid ""
 "Alway check in the metadata fields that a blog post has a title and a "
 "canonical URL. It is possible to put the date in the canonical URL, in "
@@ -268,6 +302,7 @@ msgstr ""
 
 # 275b539c7a0b4de092e7cbf9b0d07286
 #: ../../source/contributor/contrib_guide_blog.rst:52
+#: b60d6964db594eb5be65f4fc84c4bcb4
 msgid ""
 "Once a post is published, **never** change the post's title or the url. "
 "These changes will break links of tweets and RSS feeds that have already "
@@ -278,6 +313,7 @@ msgstr ""
 
 # 7c80a8faf2824bd4a6a0a8848026e336
 #: ../../source/contributor/contrib_guide_blog.rst:58
+#: b31570201201470789f7ccadada8c108
 msgid ""
 "Title and metadata can always be refined after the actual content of the "
 "blog is written, but should not be changed after publication. As a guest "
@@ -287,11 +323,13 @@ msgstr ""
 
 # af2b4dd47be8465d9f86f09e8f35a907
 #: ../../source/contributor/contrib_guide_blog.rst:63
+#: c4a0b56a1bcf42bc994cd6fbb07898d1
 msgid "Working with images"
 msgstr ""
 
 # 1dd8d06687a24b8294060cc78eb07ad9
 #: ../../source/contributor/contrib_guide_blog.rst:65
+#: c13c39a39c2d48d385a9db51b3d56805
 msgid ""
 "Try not to link to external images. If you want to put an image in the "
 "post, insert ``![]()`` in the editor view and drag and drop an image from"
@@ -304,6 +342,7 @@ msgstr ""
 
 # ae794323faec447a81ebde34bfcd39a1
 #: ../../source/contributor/contrib_guide_blog.rst:73
+#: a388284d0b954d56a9c017ea43d2bf0d
 msgid ""
 "The featured image you see at the top of a blog posts is set from within "
 "the metadata field, not using the `![]()`. The featured image is treated "
@@ -315,11 +354,13 @@ msgstr ""
 
 # f8a4d5c3b90a4f598984c027f2b56f71
 #: ../../source/contributor/contrib_guide_blog.rst:80
+#: a111096b25c94235970048bc28268e99
 msgid "Links"
 msgstr ""
 
 # 5a9171fe32504c848544ef93477c13e0
 #: ../../source/contributor/contrib_guide_blog.rst:82
+#: 9efb938b708b4405a94c56e67422b94a
 msgid ""
 "Do not use minified links when possible. The multiple redirects of "
 "minified links degrades the mobile browsing experience. If you need "
@@ -329,16 +370,19 @@ msgstr ""
 
 # 36175d5a99a4463b9397b07b190925e3
 #: ../../source/contributor/contrib_guide_blog.rst:87
+#: c8d346a10df04658bec2a1b02d6db472
 msgid "Draft review"
 msgstr ""
 
 # 0b8e6790a0ea441c828238f2a79a627c
 #: ../../source/contributor/contrib_guide_blog.rst:90
+#: dda1a3dfc8754017af23000ab7eef0af
 msgid "Ask for a review"
 msgstr ""
 
 # 3db41a20769540a18283ea37c44900b2
 #: ../../source/contributor/contrib_guide_blog.rst:92
+#: 984e3f9533704b0eaa6a1a85b58114bc
 msgid ""
 "Once you think you are done, ask someone else to reread your post, and "
 "check the various parameters that you might have forgotten before "
@@ -349,6 +393,7 @@ msgstr ""
 
 # 95365105a2e44a7d818b9f47b05853dc
 #: ../../source/contributor/contrib_guide_blog.rst:104
+#: 0dda5f5f2f1b48c79ca21cc6cee6e2ee
 msgid ""
 "Usually an editor or admin will take care of publishing the post. The "
 "task of the Editor/Admin is to check all metadata are correctly set, that"
@@ -358,21 +403,25 @@ msgstr ""
 
 # 809dc486262e437ebb95ce53542c0b79
 #: ../../source/contributor/contrib_guide_blog.rst:108
+#: 8e357ec4ca414eb8ae3688435132db51
 msgid "It is then just a matter of making th post visible to everyone."
 msgstr ""
 
 # 0b9fd999238245dca7a574888ca974b5
 #: ../../source/contributor/contrib_guide_blog.rst:111
+#: 0291e2d7a89f4cdea2be7b0837c9a949
 msgid "Changing an existing post"
 msgstr ""
 
 # f7eb7e6e67924638b9fd1079ca1fd4be
 #: ../../source/contributor/contrib_guide_blog.rst:114
+#: 0984200e22494815b10a26b1ffa7a6fe
 msgid "Posts Updates"
 msgstr ""
 
 # eee44374b12542d9b54cb3618fd3e868
 #: ../../source/contributor/contrib_guide_blog.rst:116
+#: 31bf62378ed24aaa8590a974fcaf095b
 msgid ""
 "Blog subscribers may receive notification at every update. So use updates"
 " and fixes parsimoniously. It is OK to wait a few hours to fix a typo."
@@ -380,6 +429,7 @@ msgstr ""
 
 # ab638c99ec3c460abfaad8d60a1e8800
 #: ../../source/contributor/contrib_guide_blog.rst:119
+#: d0552763a6c041b69a3ce6d37f92ef8e
 msgid ""
 "If some substantial updates have to be made, like change of location, "
 "time etc, please insert an `[Update]` section at top (or bottom of the "
@@ -392,6 +442,7 @@ msgstr ""
 
 # 5fa61a2b985e43aa94c3cc695b08eed1
 #: ../../source/contributor/contrib_guide_blog.rst:128
+#: d06f0076e60e4d1b88c1750c6066ff3f
 msgid "Newsletter"
 msgstr ""
 
@@ -399,11 +450,17 @@ msgstr ""
 # 424ebb5fc17844658e7b83d9209374ce
 #: ../../source/contributor/contrib_guide_blog.rst:130
 #: ../../source/contributor/contrib_guide_blog.rst:136
+#: 589199db34b04f4c9f624d8d8ea5cbf3 e3c4f8c2796c4d05b01b8ef3c6856b37
 msgid "Documentation in progress."
 msgstr ""
 
 # 174fa91d9686461fa8f40c348d73dda3
 #: ../../source/contributor/contrib_guide_blog.rst:134
+#: f3c2a87a3408474e874df7d84853eaad
 msgid "Website"
 msgstr ""
+
+# 621a2e3dd84a4243839c3502e29814d9
+#~ msgid "Contributor Guides"
+#~ msgstr ""
 

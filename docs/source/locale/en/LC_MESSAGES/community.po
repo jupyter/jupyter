@@ -9,22 +9,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-22 18:29+0000\n"
+"POT-Creation-Date: 2020-05-09 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 # 70d1cfa46ec24e65819ddd4624a9ca6e
 #: ../../source/community/community-call-notes/2019-april.md:1
+#: 9498f70d9cdb411aa2daf364d7b933be
 msgid "All-Jupyter Community Video Call - April 2019"
 msgstr ""
 
 # 2f49975ac531463b8c6e2c761c400dc1
 #: ../../source/community/community-call-notes/2019-april.md:3
+#: e32db75949f04b81bfc7832242e8d923
 msgid "Date: 30 April 2019 at 9am PST (your timezome)"
 msgstr ""
 
@@ -32,6 +34,7 @@ msgstr ""
 # 4037dac263a44247abfb27d9873dd712
 #: ../../source/community/community-call-notes/2019-april.md:5
 #: ../../source/community/community-call-notes/2019-march.md:5
+#: 22abe2c6ad46423c907b8fd08653e3d8 e9dcd41786294b14afc18d59614e1d2f
 msgid "Video-conference link: https://calpoly.zoom.us/my/jupyter"
 msgstr ""
 
@@ -39,6 +42,7 @@ msgstr ""
 # c7caa4e78e38454cb84d44620583084b
 #: ../../source/community/community-call-notes/2019-april.md:8
 #: ../../source/community/community-call-notes/2019-march.md:9
+#: b42a54cb6b134004800b8ba58bfbc537 bcb5b678960d47a9a5a22fff48ef9f25
 msgid "Welcome to the Team Meeting"
 msgstr ""
 
@@ -47,6 +51,7 @@ msgstr ""
 # 678a64e0a30e4d9e8e37391ffb59c761
 #: ../../source/community/community-call-notes/2019-april.md:10
 #: ../../source/community/community-call-notes/2019-march.md:11
+#: 1d200faa905f4f8e88d54d73cf0ac0b2 7785039c53bf47a6aa3af642739a907d
 msgid "Hello!"
 msgstr ""
 
@@ -56,6 +61,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-april.md:12
 #: ../../source/community/community-call-notes/2019-march.md:13
 #: ../../source/community/community-call-notes/2019-may.md:14
+#: a91ee25a07784fe7884de5b23b222fea af6cc415c7a64bc7887faf1b8ee61e71
+#: bb297fbc1ed54cde83c8e49646437e76
 msgid ""
 "The purpose of these monthly video conference calls is to share and "
 "demonstrate the awesome things happening in Jupyter community. We invite "
@@ -75,6 +82,9 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:15
 #: ../../source/community/community-call-notes/2019-may.md:16
 #: ../../source/community/community-call-notes/2019-september.md:13
+#: 1a526876f2bd4bdbab39100f256941c0 1c1f4a548ee741ac9959c47508b1512a
+#: 64c9b525ce1948ee89721273225dcd16 68d9e81f28d546de92101fb091e498a8
+#: 9d02c0deb7694f74b33d70bc395d8cd1 9d6f394c69cc401e84a8487acb920ffa
 msgid "For more discussion on the format of these calls, see the thread here."
 msgstr ""
 
@@ -87,6 +97,9 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:17
 #: ../../source/community/community-call-notes/2019-may.md:18
 #: ../../source/community/community-call-notes/2019-september.md:15
+#: 080aefa94a364ca1ab9628260d4f5f4b b3073ac7220a418985f726cfea462c8a
+#: b5c1831ce211488aa5e3b72f0999c3fb ed65c3c8c64f4263b2d1e7fae1b3daa5
+#: f06eed6e687a4220914335c5cb91130a fc8f8ba3fde14a949a80f5bc7929b4b8
 msgid "Short reports, celebrations, shout-outs"
 msgstr ""
 
@@ -96,6 +109,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-april.md:18
 #: ../../source/community/community-call-notes/2019-march.md:19
 #: ../../source/community/community-call-notes/2019-may.md:20
+#: 4871739325094470aea609b73f14ebe3 806c99e724e14772bf31d26e3a01f7f8
+#: ad6d0444b943457b9b8afd69c4606ebe
 msgid ""
 "This is a place to make short announcements (without a need for "
 "discussion). This is also a great place to give shout-outs to "
@@ -104,6 +119,7 @@ msgstr ""
 
 # f56b988ddfe8483d9fb92075e202af10
 #: ../../source/community/community-call-notes/2019-april.md:20
+#: b850e990bc5c4c3dbf223f8dcd6a2384
 msgid ""
 "[x] Shout-out to @GrahamDumpleton for continued well-researched "
 "improvements to security (e.g., https://github.com/jupyter/docker-"
@@ -112,6 +128,7 @@ msgstr ""
 
 # 342129d844b54290a52b48c17b0b4ee8
 #: ../../source/community/community-call-notes/2019-april.md:21
+#: edfb42e3489148f79c4ab4300a343c3f
 msgid ""
 "[x] Some initial work on enabling Jupyter documentation translation is "
 "happening in https://github.com/jupyter/docker-stacks/issues/827. If you "
@@ -123,6 +140,7 @@ msgstr ""
 
 # c1f51b1d9f974a14af108f120bba80d7
 #: ../../source/community/community-call-notes/2019-april.md:22
+#: 839c6377868b43e6993d7bfbd2f90e56
 msgid ""
 "[x] Work is being done to use BinderHub fully in AWS (hosted docker "
 "registry, ECR, and hosted git repository, CodeCommit are the current "
@@ -131,6 +149,7 @@ msgstr ""
 
 # 5bb4310df72f471494e27fd0915cb721
 #: ../../source/community/community-call-notes/2019-april.md:23
+#: 26658c8ccd1c496393be673214de7a62
 msgid ""
 "[x] JupyterLab 1.0.0a3 has been released since our last call. There are a"
 " ton of updates. One thing I specifically want to give a shout out to is "
@@ -142,6 +161,7 @@ msgstr ""
 
 # 1b353e5d8b4543e597ddbea86d2c2f1a
 #: ../../source/community/community-call-notes/2019-april.md:24
+#: e36726f104fc4693bf2406da012aaefb
 msgid ""
 "[x] RISE 5.5.0 was released, more info about the release in this "
 "blogpost: http://damianavila.github.io/blog/posts/rise-550-is-out.html "
@@ -150,6 +170,7 @@ msgstr ""
 
 # e287ac4ceadf460a8f58ee7d52ff0d60
 #: ../../source/community/community-call-notes/2019-april.md:25
+#: 6fac88a0cfd840bb9823ca8ce4047a80
 msgid ""
 "[x] A big shout-out to Paul Ivanov for helping organize a \"Jupyter Open "
 "Studio Day\" at Bloomberg in SF. Lots of great people came, shared ideas,"
@@ -159,6 +180,7 @@ msgstr ""
 
 # b98e72490a2548bcaa8ee47e569a7ff5
 #: ../../source/community/community-call-notes/2019-april.md:26
+#: 1f58ca54c37943a7bb74af7bf350b5db
 msgid ""
 "[x] (a few quick shout-outs from Chris) Papermill 1.0 is released! "
 "Congrats to the nteract community for releasing papermill 1.0, a tool for"
@@ -168,6 +190,7 @@ msgstr ""
 
 # 643c705474334f12b0d9aec8c9a7dfbf
 #: ../../source/community/community-call-notes/2019-april.md:27
+#: b11cb21f607640f080a936bbc42efa8c
 msgid ""
 "[x] Many thanks to @KirstieJane and @betatim for improving the "
 "contributing documentation in repo2docker (link to one PR on this) "
@@ -176,6 +199,7 @@ msgstr ""
 
 # ea2c2e8e179b42b9801baf7ef40246e8
 #: ../../source/community/community-call-notes/2019-april.md:28
+#: 4842f88bc07e48979d9f62d367e49a91
 msgid ""
 "[x] IPython 7.5 out ! (mostly bugfixes) [name=Matthias, at airport so "
 "will stay muted] (Shout out to Matthias for this too!)"
@@ -183,6 +207,7 @@ msgstr ""
 
 # 28ff4aa780564751a428ff478f2ab1b8
 #: ../../source/community/community-call-notes/2019-april.md:29
+#: e0313beca46244128a04c6ec56056bfa
 msgid ""
 "[x] Matthias,Paul,Carol... are at PyCon for a tutorial (Thursday), and "
 "have Jupyter stickers ! [name=Matthias, at airport so will stay muted]"
@@ -190,6 +215,7 @@ msgstr ""
 
 # 27ac1fb35460431682dceb89c631762b
 #: ../../source/community/community-call-notes/2019-april.md:30
+#: 93086c9b27804988858ea12ccdd55c18
 msgid "[ ] add item here [name=add your name]"
 msgstr ""
 
@@ -202,6 +228,9 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:30
 #: ../../source/community/community-call-notes/2019-may.md:28
 #: ../../source/community/community-call-notes/2019-september.md:25
+#: 27d251015bb143168d9815d1d82fc9bf 7f501e8a01c9456faa4faee52fc6b53a
+#: 7fc22d69c739445b8263099c14361c6e 847d97c5986c44018e90f6565a033a57
+#: da1607294f0e494b80ababd597c6e6c4 f3be995685f04e8bb41562d1143cbe0c
 msgid "Agenda Items"
 msgstr ""
 
@@ -209,6 +238,7 @@ msgstr ""
 # 5797de76ce064ac98b3d80b2df943b4e
 #: ../../source/community/community-call-notes/2019-april.md:34
 #: ../../source/community/community-call-notes/2019-may.md:30
+#: 19b823ab95ef4c5191bc3213d120d29b 587044e44a3b4d9db5a475efb6dc781f
 msgid ""
 "Add your potential agenda item here 24 hours before the meeting at the "
 "latest. We will reorganize the agenda so that it fits in the 60m meeting "
@@ -217,21 +247,25 @@ msgstr ""
 
 # 41fe758403a54a7d9e589ea9a0083169
 #: ../../source/community/community-call-notes/2019-april.md:36
+#: 36956aacfb554d42bd35bfa17cbb2e95
 msgid "[x] Updates from the nteract project [name=Safia Abdalla]"
 msgstr ""
 
 # 06fa470ac82f40eb808455fae428d51d
 #: ../../source/community/community-call-notes/2019-april.md:37
+#: a012c4dd8add4ad1a0935af3deb03caf
 msgid "New release of the cross-platform nteract desktop app is out."
 msgstr ""
 
 # e8fd51d1b3924fe9bb344b5c2dcf9afc
 #: ../../source/community/community-call-notes/2019-april.md:38
+#: d77c39df14834fb6990fc24fa8f37c58
 msgid "papermill v1.0 is released."
 msgstr ""
 
 # 7d625dd6e5f84dc58b42d77493039790
 #: ../../source/community/community-call-notes/2019-april.md:39
+#: 6895a091d07e4790a36f33f76bb93703
 msgid ""
 "[x] Jupyter at the University of Edinburgh, a walkthrough of the Noteable"
 " service [name=James Slack]"
@@ -239,81 +273,97 @@ msgstr ""
 
 # 9d5bb4cbc8b24cd785c0c8daf9818472
 #: ../../source/community/community-call-notes/2019-april.md:40
+#: cc68173c2fb940e383bdc5663571257b
 msgid "Overview of what's happening at University of Edinburgh"
 msgstr ""
 
 # 0c8d73e860a3443b9486206bb2c56814
 #: ../../source/community/community-call-notes/2019-april.md:41
+#: e3cfb2171ef7404e816d4c13ba7362d4
 msgid "Large support teams."
 msgstr ""
 
 # a314be8356e2421a979988b289a33f6c
 #: ../../source/community/community-call-notes/2019-april.md:42
+#: 518ef12699b645c39ef18a8d1b7b61cc
 msgid "Very open mindset."
 msgstr ""
 
 # 94f5bfff31c34f848386b41a3fb763ae
 #: ../../source/community/community-call-notes/2019-april.md:43
+#: 459e4e91f80f463f838865ce028f7089
 msgid "http://open.ed.ac.uk/"
 msgstr ""
 
 # 9501a1c240b6400a9b3bf92f6ae0dc29
 #: ../../source/community/community-call-notes/2019-april.md:44
+#: 2114f3e947a84e9cb77e71df30283794
 msgid "How Jupyter came to the University"
 msgstr ""
 
 # 6804ebef6d9943d0b6f237e86f010b3a
 #: ../../source/community/community-call-notes/2019-april.md:45
+#: a74df914772e42e8887fe75cf1af288b
 msgid "Small scale adoption to start"
 msgstr ""
 
 # cb445feb597649daad29ef6a17eba633
 #: ../../source/community/community-call-notes/2019-april.md:46
+#: f1b50a6c225e4a3b81f2034c9adb5064
 msgid "Students were installing Jupyter on university computers."
 msgstr ""
 
 # db381499ea9a4bd09e7f37a1f42f4ddc
 #: ../../source/community/community-call-notes/2019-april.md:47
+#: a8dc0ce52f854e3a9fc7f71b12e0e42a
 msgid "Make Jupyter a shared central service."
 msgstr ""
 
 # aa926fa3cf8a485e8b15457069062686
 #: ../../source/community/community-call-notes/2019-april.md:48
+#: 08bb8e74d8a44a2c9c1b26d321167531
 msgid "JupyterHub service university wide for use in education."
 msgstr ""
 
 # 85492fedd31144a79d14c954bdf2e633
 #: ../../source/community/community-call-notes/2019-april.md:49
+#: e8d71bf7460f43658022d7cf06931ab0
 msgid "Pilot phase of Noteable."
 msgstr ""
 
 # 7c466276d697401d98bc9915ec546e7f
 #: ../../source/community/community-call-notes/2019-april.md:50
+#: 9f9866f9fb9443c7ac1f2cae36ccaf25
 msgid "6 courses with 6 different schools (~600 students)."
 msgstr ""
 
 # 18f0783d9cf54a60a2073ed2a5812aaa
 #: ../../source/community/community-call-notes/2019-april.md:51
+#: 6c91867b361248ef9326dbe6ac3675f8
 msgid "Political science, art, computer science..."
 msgstr ""
 
 # f77898eab2664628b6681b7952a5ba87
 #: ../../source/community/community-call-notes/2019-april.md:52
+#: 3826ed2e74ff4edfb596c5e4d1472563
 msgid "Integrated with nbgrader."
 msgstr ""
 
 # 79664cf3f5194ab48f91fa467a483c47
 #: ../../source/community/community-call-notes/2019-april.md:53
+#: a970a744726e487f9306c8cceecf04ba
 msgid "Jupyter Commnity Hackathon on NBGrader in Edinburgh."
 msgstr ""
 
 # da7b6708b6424495947e1379778d2cd1
 #: ../../source/community/community-call-notes/2019-april.md:54
+#: 30d179c1fd734afebe48a205531e643e
 msgid "Questions and comments:"
 msgstr ""
 
 # aaba393bb774486f81ce54c99487da09
 #: ../../source/community/community-call-notes/2019-april.md:55
+#: 19fbed9c614d4a30b56f79408a10b424
 msgid ""
 "Connections or interactions with Canadian group? https://syzygy.ca "
 "[name=Lindsey Heagy]"
@@ -321,21 +371,25 @@ msgstr ""
 
 # a24cd6437e3b40d1bebe68f79791f705
 #: ../../source/community/community-call-notes/2019-april.md:56
+#: aa0eeb06c7b04fa5a4875e90504bb3d2
 msgid "Is this running in the cloud or university server? [name=Anton Akhmerov]"
 msgstr ""
 
 # 1a55b9feb09647a5b322a4ac52b1c77a
 #: ../../source/community/community-call-notes/2019-april.md:57
+#: 581314b5d4434a9d96f49d190f4dd51e
 msgid "University server"
 msgstr ""
 
 # c92677aeebe3404099c7a6d5099efd1a
 #: ../../source/community/community-call-notes/2019-april.md:58
+#: 94dab194b9da4c30811ba56ad44aaaee
 msgid "Have you explored Binderhub? [name=Chico Vernancio]"
 msgstr ""
 
 # 43fd1f8f66b34ed285a4098b2dd76bcf
 #: ../../source/community/community-call-notes/2019-april.md:59
+#: 4012b092b5a546269f48bce0a54d222e
 msgid ""
 "BinderHub now can run with \"auth\" and persistent storage, see "
 "https://github.com/jupyterhub/binderhub/issues/794 for more details and a"
@@ -344,6 +398,7 @@ msgstr ""
 
 # 02b82b8fc4d04e5ea7f326e16b74fe9c
 #: ../../source/community/community-call-notes/2019-april.md:60
+#: 00d86331d3944d7f86fce79efba6d4e7
 msgid ""
 "[ ] Introducing the rewrite of jupyter-sphinx (example here) and a "
 "discussion about markup format in the notebooks "
@@ -352,11 +407,13 @@ msgstr ""
 
 # 5a69fd142cc74281a51d934287eb223d
 #: ../../source/community/community-call-notes/2019-april.md:61
+#: 0fd152dbbdae4fe599d6eac967fb9172
 msgid "Publishing documents with complex content and computed output."
 msgstr ""
 
 # e48b4dc116304200ac7e4da4c517c369
 #: ../../source/community/community-call-notes/2019-april.md:63
+#: 46477489472748dc95a4135adb5b25cd
 msgid ""
 "Questions/Comments: - [name=matthias (can't speak)]: I'd love to merge "
 "that with ipython built-in sphinx-ext, /(deprecate sphinx-ext potentially"
@@ -365,6 +422,7 @@ msgstr ""
 
 # 4fc5830c8d3b44b2a8033ac074a95fa1
 #: ../../source/community/community-call-notes/2019-april.md:66
+#: 4de59668b1274653932d622b251f4b38
 msgid ""
 "[ ] Quantum Chemistry Database exploration with Jupyter through the "
 "QCArchive project, [name=Daniel Smith]."
@@ -372,16 +430,19 @@ msgstr ""
 
 # fba7c56c8b914ed9b43b5da90ea9ed61
 #: ../../source/community/community-call-notes/2019-april.md:67
+#: fd65bfc236244e5a96ff8158198dba77
 msgid "The Molecular Sciences Software Institute"
 msgstr ""
 
 # 706fd60e9f4a49a1bd39dba670195b24
 #: ../../source/community/community-call-notes/2019-april.md:68
+#: 6458d8d040e7402693e27f73dd5ebdd8
 msgid "NSF funded."
 msgstr ""
 
 # 0014fb3a1de94a3bb3f32f1d8c1ddff8
 #: ../../source/community/community-call-notes/2019-april.md:69
+#: a332e718f43f41e4994167e9a9bebb95
 msgid ""
 "Designed to serve and enhance software development efforts of broad field"
 " of computational molecular science."
@@ -389,81 +450,97 @@ msgstr ""
 
 # beee5940e94347c79137c16f548d9198
 #: ../../source/community/community-call-notes/2019-april.md:70
+#: be106cd0761541e8a696dd67f4a3e43d
 msgid "8 universities represented on Board of Directors"
 msgstr ""
 
 # c1d969e8856e4171af4793fb45ca342a
 #: ../../source/community/community-call-notes/2019-april.md:71
+#: 1bab5d4adaec4185a33c5a232fa84c19
 msgid "Github org: https://github.com/MolSSI"
 msgstr ""
 
 # 2b1e1636b7af499ab63139437e2fe6c0
 #: ../../source/community/community-call-notes/2019-april.md:72
+#: 299500b0e8224476983bc32a15b23a29
 msgid "https://molssi.org"
 msgstr ""
 
 # 2a672273ea9640c8a39b5dcde56440d6
 #: ../../source/community/community-call-notes/2019-april.md:73
+#: afc2941e8ac74248a13f59fdd80c3a23
 msgid "QCFractal"
 msgstr ""
 
 # 96bf772398994f85a7b2860d1070f520
 #: ../../source/community/community-call-notes/2019-april.md:74
+#: 8bba63e4225e4d20b4aa9c480ace2505
 msgid "Join our Slack to get involved."
 msgstr ""
 
 # 65d936b5b5a546c89af03964b32af243
 #: ../../source/community/community-call-notes/2019-april.md:75
+#: 277c207630f34d34a2131f825603a614
 msgid "Questions/comments:"
 msgstr ""
 
 # f85773a2fed94fd991a59fdd19bdfa73
 #: ../../source/community/community-call-notes/2019-april.md:76
+#: e8fd47661ec243a7a64d4625fe74951c
 msgid "Is this user created content or hostesd content?"
 msgstr ""
 
 # 4aa7080662664070b2e65614c6546305
 #: ../../source/community/community-call-notes/2019-april.md:77
+#: d14af4fc2cd54027b6902273318d57f3
 msgid "Completely user created."
 msgstr ""
 
 # f770337b1b9e45df8a36d900e11a588c
 #: ../../source/community/community-call-notes/2019-april.md:79
+#: 65873954ee7343579be277d538e4c088
 msgid "[ ] May 13 & 14 W4A Hackathon on Accessibility of JupyterLab"
 msgstr ""
 
 # 2f177e7a343c43f5bcb6dcc312ec9f8f
 #: ../../source/community/community-call-notes/2019-april.md:80
+#: bee22d86bf064ca496e0d9467b231868
 msgid "[ ] Add your item here [name=and your name]"
 msgstr ""
 
 # bbf4c673748c458fbf4ee88129b415ab
 #: ../../source/community/community-call-notes/2019-april.md:82
+#: 755ba5ad302240c089303f3a71283401
 msgid "University of Edinburgh materials and contact:"
 msgstr ""
 
 # 9a571f3c56554fc7b30eb83326ced2d7
 #: ../../source/community/community-call-notes/2019-april.md:84
+#: cdbf82ee08624b9b9b6921c512885412
 msgid "Contact  james.slack@ed.ac.uk"
 msgstr ""
 
 # 7b188d49f40445a691eebb5287c9560a
 #: ../../source/community/community-call-notes/2019-april.md:85
+#: d8554f924e5841b9b8ebedb0f115c185
 msgid "Noteable - https://noteable.edina.ac.uk/"
 msgstr ""
 
 # f154c819041f4459a541d165a0d61497
 #: ../../source/community/community-call-notes/2019-april.md:86
+#: 660b680aa5184f3799d9f4e52d0f1136
 msgid "Blog https://thinking.is.ed.ac.uk/noteable/"
 msgstr ""
 
 # d5f1193dadf44db29f8e5e9a0756ffbd
 #: ../../source/community/community-call-notes/2019-april.md:87
+#: f8c2147453bb4d92b49b481d2564ec4b
 msgid "nbgrader Hackathon - http://edin.ac/2SGmzNu"
 msgstr ""
 
 # 0335a1ec922147428bcc1c61208a6cd4
 #: ../../source/community/community-call-notes/2019-april.md:88
+#: 500b2e495a3f4fd3b2be6846598532f2
 msgid "Presentation - https://edin.ac/2PBJc1T"
 msgstr ""
 
@@ -471,131 +548,157 @@ msgstr ""
 # d1ad78f64d1e48d090bbcc353cade2c6
 #: ../../source/community/community-call-notes/2019-april.md:90
 #: ../../source/community/community-call-notes/2019-march.md:85
+#: 26bab9c6ad3e4a18bd569e0b7ea05cb0 d8f9738d3a754265a6cb8dc3059affeb
 msgid "In Attendance"
 msgstr ""
 
 # 42562fcb34704715bff217a5180cd439
 #: ../../source/community/community-call-notes/2019-april.md:92
+#: a22b7c1353374cebb26297615ae233c5
 msgid "Name / Institution / Github Handle"
 msgstr ""
 
 # d09bd84909e94d15ab95533d4d7562ba
 #: ../../source/community/community-call-notes/2019-april.md:94
+#: f74d8ad84b34444f814313ab2b6237f0
 msgid "Zach / Jupyter Cal Poly / @Zsailer"
 msgstr ""
 
 # be287aa0663642cea613afb34c63e192
 #: ../../source/community/community-call-notes/2019-april.md:95
+#: 7c81a9c5b6b742e4aeb2f243b747e184
 msgid "Pete / Thorn / @parente"
 msgstr ""
 
 # c51c4c8e0e0e4c028df48691f7291065
 #: ../../source/community/community-call-notes/2019-april.md:96
+#: b076b16be2874d63a3fa8a879388e7aa
 msgid "James Slack / University of Edinburgh / @jamesaslack"
 msgstr ""
 
 # 55f5f19a346a4db2a9bc86b3e1e3dcc4
 #: ../../source/community/community-call-notes/2019-april.md:97
+#: e113b13418e043df906ab7d46d578823
 msgid "Anton Akhmerov / TU Delft / @akhmerov"
 msgstr ""
 
 # 01c974ff81914cb281bb1dc5231e77dc
 #: ../../source/community/community-call-notes/2019-april.md:98
+#: 2246326409e04f0c9d5ccce5bb04f014
 msgid "Peter Rose / UC San Diego / @pwrose"
 msgstr ""
 
 # 0599f37f3c624f94baabd272dad9a603
 #: ../../source/community/community-call-notes/2019-april.md:99
+#: 479cfaac47c14688a1457ebea2e7c6c3
 msgid "A. T. Darian / Two Sigma / @afshin"
 msgstr ""
 
 # 10d504db7f2d49ad9a6e5ab57b41fab5
 #: ../../source/community/community-call-notes/2019-april.md:100
+#: 8147a2aa1fdb47e58f39885b527323e3
 msgid "Ward Harold / Google / @wkharold"
 msgstr ""
 
 # b14ce8eed0054e22b4c191df113909ac
 #: ../../source/community/community-call-notes/2019-april.md:101
+#: abec588f7802401e832c7ed95b3b1995
 msgid "Damián Avila / / @damianavila"
 msgstr ""
 
 # 8700a8970b4a4bbda9bc63d8c1387b30
 #: ../../source/community/community-call-notes/2019-april.md:102
+#: eb82f7a071e54bec85a3509c99365821
 msgid "Chico Venancio / BMC Group K.K. / @chicocvenancio"
 msgstr ""
 
 # 3bca1599420a4b63ac196896b337f920
 #: ../../source/community/community-call-notes/2019-april.md:103
+#: 1a559cf8601a4670ab5ac9f05c4c876f
 msgid "Eric Lesch / BMC Group K.K. / @EricLesch"
 msgstr ""
 
 # ca568c83d79b4accb50b60680bd427c9
 #: ../../source/community/community-call-notes/2019-april.md:104
+#: 5ce0b17e786a4a179768b1c9d6ba8210
 msgid "James Munroe / Memorial University of Newfoundland / @jmunroe"
 msgstr ""
 
 # b26134512ca34ecca3fa2dffbe8d5860
 #: ../../source/community/community-call-notes/2019-april.md:105
+#: 272fe97f942f4b7c988f4bec67cc8463
 msgid "Lindsey Heagy / UC Berkeley / @lheagy"
 msgstr ""
 
 # 3952552d27f34fa098fcbbb6f713db7e
 #: ../../source/community/community-call-notes/2019-april.md:106
+#: 6199f02d11094212aea1ff8aceec7d3f
 msgid "Daniel Smith / The Molecular Sciences Software Institute / @dgasmith"
 msgstr ""
 
 # 9d06cf89baca4dfd86bfc95cd9b80d5c
 #: ../../source/community/community-call-notes/2019-april.md:107
+#: 99f21dabfff249dda930c05d591b5514
 msgid "Michael Milligan / U. Minnesota/MSI / @mbmilligan"
 msgstr ""
 
 # 1467c37f42cb4c4cb4119a3dd29f3135
 #: ../../source/community/community-call-notes/2019-april.md:108
+#: 08b68ce4449c4b3ba4cf7d34912be68e
 msgid "Kevin Bates / IBM / @kevin-bates"
 msgstr ""
 
 # 25e45067de3f4262bbfbf0df2747321b
 #: ../../source/community/community-call-notes/2019-april.md:109
+#: f70ec238de494cdca6ef0e516d4b47fe
 msgid "Cindy Wu / experiment.com / @cindywu"
 msgstr ""
 
 # ab1d2ec08ce64f1c85e9154f51aab5b1
 #: ../../source/community/community-call-notes/2019-april.md:110
+#: 61150d20476f42bfb1cb0411e76d04ef
 msgid "Joe Hamman / NCAR / @jhamman"
 msgstr ""
 
 # 7077e51fe5884829ba4fd74741f61f0b
 #: ../../source/community/community-call-notes/2019-april.md:111
+#: 56a019be31f741aa954e1292813da05a
 msgid "Nick Bollweg / GTRI / @bollwyvl"
 msgstr ""
 
 # aa19dbcc9b1642c89061c85e6d5a9a7b
 #: ../../source/community/community-call-notes/2019-april.md:112
+#: eb9babc47b9d46ca802d0e93f1bdac21
 msgid "Tom Baldwin / Cascade Data Labs / @baldwint"
 msgstr ""
 
 # e914ee8e583840018ec681c69a4ba6d5
 #: ../../source/community/community-call-notes/2019-april.md:113
+#: 7aad8a813f8b4432a2edaec1892f115b
 msgid "Pete Blois / Google Colab / @blois"
 msgstr ""
 
 # 8509e33906204614b41b177da02dd9dd
 #: ../../source/community/community-call-notes/2019-april.md:114
+#: 57e3a349efbe4a7ea3be912e026383f9
 msgid "Ana Ruvalcaba / Cal Poly, San Luis Obispo/Jupyter / @ruv7"
 msgstr ""
 
 # 877bd91b3d324c49a569507fa672e423
 #: ../../source/community/community-call-notes/2019-april.md:115
+#: fd69e12a07fa4717a7941a63b4dca55d
 msgid "Tim Head / Project Binder / Zurich / @betatim"
 msgstr ""
 
 # e052dedf8ee8467a940fcacedfdadae6
 #: ../../source/community/community-call-notes/2019-april.md:116
+#: 1adf786347b84b349ce37fb63d9da7df
 msgid "Matthias Bussonnier / Jupyter Project / @carreau"
 msgstr ""
 
 # 9ca6d660e28a4f8e942cc19ef4ede306
 #: ../../source/community/community-call-notes/2019-april.md:117
+#: 94d3d6fde95e4a3383fdb8e661d059ba
 msgid "Tim George / Cal Poly, San Luis Obispo/Jupyter / @tgeorgeux"
 msgstr ""
 
@@ -606,16 +709,21 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-may.md:1
 #: ../../source/community/community-call-notes/2019-september.md:1
 #: ../../source/community/community-call-notes/index.rst:5
+#: 191d2215500045f794dc7062f5104c8a 1e1db10648824db6b53fe2ed9be5f9fa
+#: 95a5229de868474a8d0f85706649b514 989dcdc3b33d4e718bd50626b3c2b070
+#: b66d7b578d57460c94efc492cd04689a
 msgid "Jupyter Community Call"
 msgstr ""
 
 # c038a2dd021341bc9cb3d8ee84d66358
 #: ../../source/community/community-call-notes/2019-august.md:3
+#: fda284f631164baaa8fa5caf46f39387
 msgid "August 27th, 2019"
 msgstr ""
 
 # ba3a404a157943a49b8124484166e44d
 #: ../../source/community/community-call-notes/2019-august.md:5
+#: a3de36c11d194c499919b171c832dbb1
 msgid "Date: August 27, 2019, at 9am Pacific (your timezone)"
 msgstr ""
 
@@ -623,6 +731,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-august.md:7
 #: ../../source/community/community-call-notes/2019-may.md:7
 #: ../../source/community/community-call-notes/2019-september.md:7
+#: 398857edd3f647d891a70d204f4e3226 7503d6e4da0f46f39769d712c7260b0e
+#: f0fcdd1d77104f229d2ae1953d1d306d
 msgid "Link: Youtube Video"
 msgstr ""
 
@@ -630,6 +740,7 @@ msgstr ""
 # 7b5c379854574aa1a34eb540e31e52af
 #: ../../source/community/community-call-notes/2019-august.md:9
 #: ../../source/community/community-call-notes/2019-june.md:10
+#: 009ded81db7740b0bf13038fbcefad5e 7761f21c897e46eab1314a10b4d037fd
 msgid "Welcome!"
 msgstr ""
 
@@ -638,6 +749,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-june.md:13
 #: ../../source/community/community-call-notes/2019-may.md:12
 #: ../../source/community/community-call-notes/2019-september.md:9
+#: 4ba9a00529394d43943d10ae90177dd5 724cd53ace09411882a8d0b51baa242c
+#: 9a2486f334c74912924cf6c5f49f93cc 9efa71aeb5134e098cbbba49b2399519
 msgid "Purpose"
 msgstr ""
 
@@ -646,6 +759,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-august.md:13
 #: ../../source/community/community-call-notes/2019-june.md:15
 #: ../../source/community/community-call-notes/2019-september.md:11
+#: 3d9675602f47430b9717043be1781cc5 97547b5e11d140b5a8981f5cb7b9fdb4
+#: bac88f1078124189b8478a50af406c41
 msgid ""
 "Think of it as a monthly, virtual JupyterCon. It’s a place to announce "
 "and share fun things happening in the Jupyter community."
@@ -656,6 +771,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-august.md:19
 #: ../../source/community/community-call-notes/2019-june.md:21
 #: ../../source/community/community-call-notes/2019-september.md:17
+#: 941fbfca4c8140c6b63c70f4280fce92 ce3a9e838d9d41b180a7016dd8b2204f
+#: f7396d0e78a34262bcd1a4d73ac76617
 msgid ""
 "This is a place to make short announcements (without a need for "
 "discussion)."
@@ -663,11 +780,13 @@ msgstr ""
 
 # c02e5983e65247c0873f26b45ba6250e
 #: ../../source/community/community-call-notes/2019-august.md:21
+#: a965806c1263458582b95209775764a5
 msgid "[x] Tracking Jupyter Newsletter, 22nd edition. Thank you, Tony Hirst!"
 msgstr ""
 
 # cd1b9b6350664e1ca6f10ece07f8ce4b
 #: ../../source/community/community-call-notes/2019-august.md:22
+#: eb0f695c1a974c2fbba987ef6c52963d
 msgid ""
 "[x] JupyterLab 1.1.0rc0 is up on PyPI and conda-forge. Please test! "
 "JupyterLab 1.1.0 will be released tomorrow."
@@ -675,11 +794,13 @@ msgstr ""
 
 # 49f3e0d75c2a478da679e048791baab4
 #: ../../source/community/community-call-notes/2019-august.md:23
+#: af62cda289a047fca89259ae2712ae40
 msgid "pip install --pre jupyterlab==1.1.0rc0 or"
 msgstr ""
 
 # 8990ec4ed89543ff99fbf2e5ca3b965f
 #: ../../source/community/community-call-notes/2019-august.md:24
+#: 5c5331d400c94811b361bc9405effa2d
 msgid ""
 "conda install -c conda-forge/label/prerelease-jupyterlab "
 "jupyterlab=1.1.0rc0"
@@ -689,6 +810,7 @@ msgstr ""
 # da313b5119cb433090c8c0735c863485
 #: ../../source/community/community-call-notes/2019-august.md:25
 #: ../../source/community/community-call-notes/2019-june.md:34
+#: 06bfc3bf0a114463abbd810c8f8685b0 ba97af6f46e642c08547c448583c69cd
 msgid "[ ] [name=yournamehere]"
 msgstr ""
 
@@ -697,6 +819,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-august.md:29
 #: ../../source/community/community-call-notes/2019-june.md:38
 #: ../../source/community/community-call-notes/2019-september.md:27
+#: 69d46d1e5d904c798bb647b99611ccc0 a90ebdb111b04028adc4ef102e5c4e00
+#: d872a780514c4be6afd6117992af6699
 msgid ""
 "Add agenda items here before the meeting. We will reorganize the agenda "
 "so that it fits in the 60m meeting slot."
@@ -704,11 +828,13 @@ msgstr ""
 
 # a279762132ac4ed8afc9845b7018413c
 #: ../../source/community/community-call-notes/2019-august.md:31
+#: 7fbc636c4140488694fea685fdf33d6b
 msgid "[x] [name=Jupyter Cal Poly Intern Team] Rich Text JupyterLab extension"
 msgstr ""
 
 # c6e2e060dc834cd2b03cad5e668e34e6
 #: ../../source/community/community-call-notes/2019-august.md:32
+#: b09b5dc9fa224473a8481ed748ea7e2c
 msgid ""
 "[x] [name=Jupyter Cal Poly Intern Team] Python Package Installer "
 "JupyterLab extension"
@@ -716,41 +842,49 @@ msgstr ""
 
 # bd3a96cb5b9c42ce9f23a1b210c43e0c
 #: ../../source/community/community-call-notes/2019-august.md:33
+#: b20a2e1485de40d8a1d81aacddeec6bd
 msgid "[x] [name=Tony Fast] Gist to Binder"
 msgstr ""
 
 # f60290d0faf24437bae7f8cd84d4dcee
 #: ../../source/community/community-call-notes/2019-august.md:34
+#: f2a39f81dcd24ae5a014bf4cfedad964
 msgid "https://gist.github.com/Zsailer/6da0dc3c97ec873685b7fe58e52d36d7"
 msgstr ""
 
 # 3aa54d82bd4242268b4fa5cdcdfed27c
 #: ../../source/community/community-call-notes/2019-august.md:35
+#: 1754c50a99d9495981977b9be37d2652
 msgid "People say reproducibility is hard."
 msgstr ""
 
 # 73e3a2adef1d4816802d822e55e8ad45
 #: ../../source/community/community-call-notes/2019-august.md:36
+#: 6e5ef82cdcc9421bb90e324e4173696d
 msgid "User mybinder.org to generate a live notebook from a Gist."
 msgstr ""
 
 # cc2bc565c6d14abca6512edb0dd25da5
 #: ../../source/community/community-call-notes/2019-august.md:37
+#: bb2e78f6f4a24a12ab081d41e383a535
 msgid "dependencies in requirement.txt lead to a faster build."
 msgstr ""
 
 # 9fa774fc3bbb4293a8c94b6de79b3157
 #: ../../source/community/community-call-notes/2019-august.md:38
+#: 0fa3d74361764fdfb4b53507673f4a34
 msgid "[x] [name=Saul Shanabrook] JupyterLab Rich Context Extensions"
 msgstr ""
 
 # 87a2d88da5584245a11f1f8823c6d6f2
 #: ../../source/community/community-call-notes/2019-august.md:39
+#: 6727e8d4235649408d3c3f4e89b0a026
 msgid "[ ] Data registry with HDF5 Viewer"
 msgstr ""
 
 # 2a0b448dced4418398535add43652f6e
 #: ../../source/community/community-call-notes/2019-august.md:40
+#: 998d241dc8d44771ae3d98d6d418b7eb
 msgid ""
 "[ ] It's meant to make it easier to create new extensions in JupyterLab "
 "that deal with different data formats. If you have a data viewer "
@@ -761,11 +895,13 @@ msgstr ""
 
 # fe52e076c5664572980df5677f546b1d
 #: ../../source/community/community-call-notes/2019-august.md:41
+#: 9bcb62aebb184a31a6d27e277e4c4687
 msgid "[ ] Able to visualize HDF5 datasets using this extension too!"
 msgstr ""
 
 # 5d90976cb1c0438794fce7313e019a14
 #: ../../source/community/community-call-notes/2019-august.md:42
+#: 87787d04b4bf4e9d8d9a836fb09c418e
 msgid "[ ] Metadata/linked data service"
 msgstr ""
 
@@ -776,6 +912,8 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-june.md:57
 #: ../../source/community/community-call-notes/2019-may.md:60
 #: ../../source/community/community-call-notes/2019-september.md:44
+#: 5f21986060b4481fb72a799c0a149a75 664ef288f6234f97ac5641f63b75e281
+#: ae07be2e4a954aab97daf4c186939989 b07bb7d75429460f993a37a099863ea3
 msgid "Attendees"
 msgstr ""
 
@@ -783,6 +921,7 @@ msgstr ""
 # a14aafdd62bb43c9be74b86f40987627
 #: ../../source/community/community-call-notes/2019-august.md:47
 #: ../../source/community/community-call-notes/2019-june.md:59
+#: 11b4827cccd14818b3a37adc399d04f8 9342a174c50e4c79bc80f908db702470
 msgid ""
 "If you are joining the Jupyter Community Call, sign in below so we know "
 "who was here."
@@ -791,101 +930,121 @@ msgstr ""
 # 214b40c5d407492aac8cf210fa49f089
 #: ../../source/community/community-call-notes/2019-august.md:49
 #: ../../source/community/community-call-notes/2019-september.md:47
+#: 3dd5e2c965804bb9a7e2f5bce62da761 6170ecf08b104bf18e241dec11612852
 msgid "Zach     | Jupyter Cal Poly          | @Zsailer        |"
 msgstr ""
 
 # c850262dfa8241afa4a195575fa7a9c9
 #: ../../source/community/community-call-notes/2019-august.md:50
+#: 2e98c14e0f7b4fd0bf127055e4aa3ef5
 msgid "Derek    | Jupyter Cal Poly (Intern) | @dLamSlo8       |"
 msgstr ""
 
 # 86a650b3d5754ec4b0616654b382f7d8
 #: ../../source/community/community-call-notes/2019-august.md:51
+#: 0f6de33eb5854f3da1c65564cbfb0146
 msgid "Isabela  | Jupyter Cal Poly (Intern) | @isabela-pf     |"
 msgstr ""
 
 # 06b2e175880e4744a899b364f9cb89b4
 #: ../../source/community/community-call-notes/2019-august.md:52
+#: ce45877b42c54a5dbf0c0369c3dbb931
 msgid "Marisa   | Jupyter Cal Poly (Intern) | @marisaaquilina |"
 msgstr ""
 
 # 7fd569b0b2124ca6b72091c959788a71
 #: ../../source/community/community-call-notes/2019-august.md:53
+#: f94ad451686a438b9bbbe50a5760f50a
 msgid "Markelle | Jupyter Cal Poly (Intern) | @markellekelly  |"
 msgstr ""
 
 # 632ce11b167a450d9313f3b1b228a56b
 #: ../../source/community/community-call-notes/2019-august.md:54
+#: 4711b47956c545c7a6fc3d101b3a5804
 msgid "Javier   | Jupyter Cal Poly (Intern) | @javag97        |"
 msgstr ""
 
 # 056f27ff12a4459c95058f9205312b29
 #: ../../source/community/community-call-notes/2019-august.md:55
+#: a9caacc506994fac9748e0d6a7f81907
 msgid "Denton   | Project Drawdown          | @dgentry        |"
 msgstr ""
 
 # 168efabbb3f6425dabbfb42e6600ec6c
 #: ../../source/community/community-call-notes/2019-august.md:56
+#: 3ffcc2f5f2ea477b8cc1934b5a7e619b
 msgid "Tony     | Quansight  | @tonyfast |"
 msgstr ""
 
 # 732d6b7583074b7ca3c2c71d8b36bf14
 #: ../../source/community/community-call-notes/2019-august.md:57
+#: bc36e8ebd95840ba91a393bd48c5ae96
 msgid "Chico Venancio| BMC Group K. K.| @chicocvenancio|"
 msgstr ""
 
 # d20eaa785647473faabd23be9c0744c1
 #: ../../source/community/community-call-notes/2019-august.md:58
+#: 6d42df09684b43e5b5368917ab62af0f
 msgid "Elizabeth DuPre | McGill University | @emdupre|"
 msgstr ""
 
 # 7d6d2cd4ce384e4aadec978d60ff97b5
 #: ../../source/community/community-call-notes/2019-august.md:59
+#: b68baf152822401eb9da02953ca5b11d
 msgid "Wayne Decatur | Upstate Medical University | @fomightez|"
 msgstr ""
 
 # 5998deb954d442e08d3798744b992751
 #: ../../source/community/community-call-notes/2019-august.md:60
+#: 1c80d95cd3b74b9aa35b3eced702fd0c
 msgid "Saul Shanabrook | Quansight | @saulshanabrook |"
 msgstr ""
 
 # 4d57c62f1600466bb92f277d422eb292
 #: ../../source/community/community-call-notes/2019-august.md:61
+#: 2582d1b63c154a85bf3b84b158e0401a
 msgid "Joe      | Mavenomics               | @quigleyj-mavenomics|"
 msgstr ""
 
 # 6f3d0d98a57746a8bcdf59d168e34c50
 #: ../../source/community/community-call-notes/2019-august.md:62
+#: 81481b5170e24c098b01a89d635badf5
 msgid "A. T. Darian   | Two Sigma          | @afshin          |"
 msgstr ""
 
 # 8fa7f9222d5f4ea48e62b0c77cc7e0a9
 #: ../../source/community/community-call-notes/2019-august.md:63
+#: f7aac687da1847db98cd21fa2abf9a46
 msgid "Erik Sundell   | Sandvik            | @consideRatio    |"
 msgstr ""
 
 # 534b69b41eb8461a8fb8d14486cce85e
 #: ../../source/community/community-call-notes/2019-august.md:64
+#: f31e43b3be114cceb89ca2d496b97584
 msgid "Kevin Bates | IBM | @kevin-bates  |"
 msgstr ""
 
 # 19b1cb00c9e94d5a9a5e30c55507feac
 #: ../../source/community/community-call-notes/2019-june.md:4
+#: eb9e4dea4b4245dea08009f8dbad0ac5
 msgid "June 25th, 2019"
 msgstr ""
 
 # ac6500204d0945f8998b97b5f36f6355
 #: ../../source/community/community-call-notes/2019-june.md:6
+#: d98cfef607744ad3a319986d0febba4e
 msgid "Date: June 25th, 2019, at 9am PST (your timezome)"
 msgstr ""
 
 # ba7bf4ddb73a461ba680a8cef473d4ec
 #: ../../source/community/community-call-notes/2019-june.md:8
+#: f94e92f4823146d5adb546f4b03df758
 msgid "Link Youtube Video"
 msgstr ""
 
 # 2934112773504a77adf4402b1b12ac9e
 #: ../../source/community/community-call-notes/2019-june.md:23
+#: 784fbd83518d4a21bf4b2ee8be2883da
 msgid ""
 "[ ] [name=willingc] Congrats again to our newest BinderHub/JupyterHub "
 "team member, Sarah :tada:"
@@ -893,11 +1052,13 @@ msgstr ""
 
 # fb23b23b3e684ca28874402cb265a324
 #: ../../source/community/community-call-notes/2019-june.md:24
+#: 872be0093e2848128b9cf21168cb9808
 msgid "[ ] [name=Zsailer] Welcome the new Jupyter Cal Poly Intern team."
 msgstr ""
 
 # 7072df0cf9f648f387a4d7ca6fda3f51
 #: ../../source/community/community-call-notes/2019-june.md:25
+#: 1a575823e9ac4d26bd76894453524137
 msgid ""
 "[ ] [name=tgeorgeux] Introduction to Rich Context Work: Metadata, Data "
 "Registry, Commenting and Annotation, Real-Time Collaboration, Telemetry."
@@ -905,26 +1066,31 @@ msgstr ""
 
 # 625a69571ef94b6dbe460d9735eda678
 #: ../../source/community/community-call-notes/2019-june.md:26
+#: 3ed438ed9ccf40b38a7ac0161a4c1124
 msgid "Data Registry/Explorer"
 msgstr ""
 
 # 4a5a155d249949b0b830fbfd78fef7a1
 #: ../../source/community/community-call-notes/2019-june.md:27
+#: 4f2b5c0441d9415d9b13e3c88a164e5e
 msgid "Commenting"
 msgstr ""
 
 # 86968bee0f3f4c9da5de3fd52dfa7610
 #: ../../source/community/community-call-notes/2019-june.md:28
+#: f763377c1da94d45bb4881985d5e7e34
 msgid "Metadata"
 msgstr ""
 
 # 5818dbd59c0f462fb059c4d5c4450d4f
 #: ../../source/community/community-call-notes/2019-june.md:29
+#: 658fa712496b489b8c5ea5940d872b3b
 msgid "Telemetry"
 msgstr ""
 
 # e68e3c6ffe2948f8a8e2138e0d1b71f4
 #: ../../source/community/community-call-notes/2019-june.md:30
+#: 6d5c65f2c83b4c778c6ee3816ccc6e12
 msgid ""
 "[ ] [name=Erik Sundell] repo2docker / MyBinder.org support for git "
 "repositories with Pipfile / Pipfile.lock coming up soon I hope ;D "
@@ -933,6 +1099,7 @@ msgstr ""
 
 # 545fa94a22bb4e17bed6be059eb02fcc
 #: ../../source/community/community-call-notes/2019-june.md:40
+#: 7ee63211ed4a43a1be0eb7a75b223618
 msgid "[ ] [name=kbates] Brief overview of Jupyter Enterprise Gateway"
 msgstr ""
 
@@ -941,41 +1108,50 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-june.md:41
 #: ../../source/community/community-call-notes/2019-march.md:59
 #: ../../source/community/community-call-notes/2019-march.md:67
+#: 635ddd4288a94d37ba320140315d7d80 b3afa01d00fc4724a199407fc5d7903e
+#: d238540fd9e14dd4ad9816b055b3fa5f
 msgid "Questions:"
 msgstr ""
 
 # 5cef67cb787b469bac11ff11bd25ee48
 #: ../../source/community/community-call-notes/2019-june.md:42
+#: 1d504c8e0e0445c3b52ce275eb956138
 msgid "Where can we find information to share with others?"
 msgstr ""
 
 # 0a6b7a24d431438b9f5ed3b580019912
 #: ../../source/community/community-call-notes/2019-june.md:43
+#: cf9da67600a44915b5b3e21340282b68
 msgid "See this post"
 msgstr ""
 
 # a109573ad06f4685833b3f789b231cc9
 #: ../../source/community/community-call-notes/2019-june.md:44
+#: 194a73b0a5864d7ba15e8ddfce845fbc
 msgid "Comments:"
 msgstr ""
 
 # af5bd56782184f5c8eb920cfbc79cae1
 #: ../../source/community/community-call-notes/2019-june.md:45
+#: 2add780975b4492f8ad7d16033593b9a
 msgid "Add talks to EG docs"
 msgstr ""
 
 # b95d9e06395c4b09a9a807d4df0b8cef
 #: ../../source/community/community-call-notes/2019-june.md:46
+#: 2fd28db31a4a45bf90e434a8b42187bb
 msgid "Check if Docker Stacks has a link to the EG docker stacks"
 msgstr ""
 
 # ac9542a7f10d4905bd45ebab1b57fef8
 #: ../../source/community/community-call-notes/2019-june.md:47
+#: da6d25b1a155494bb3c214bbc937fa55
 msgid "Add link to this demo to the EG docs"
 msgstr ""
 
 # 7beec91928de4ac890222116506e783f
 #: ../../source/community/community-call-notes/2019-june.md:48
+#: fc76570cb74348179281c4abf1e3984d
 msgid ""
 "[ ] [name=dgentry] existing system for git commit+push without requiring "
 "a forked repo? Similar to submitting homework for grading?"
@@ -983,11 +1159,13 @@ msgstr ""
 
 # 948e4c278e1e4594b53418a21f3775eb
 #: ../../source/community/community-call-notes/2019-june.md:49
+#: b6e99fc87e27493aa4543993b9b64b97
 msgid "nbgrader and hubshare mentioned by Zach"
 msgstr ""
 
 # 226c1f050c474abe944be6989ae2e6fb
 #: ../../source/community/community-call-notes/2019-june.md:50
+#: 5fe03b25921a4bd7a9af8075b33a48f2
 msgid ""
 "nbstripout / fastai-nbstripout can play a part of making git merges more "
 "reasonable"
@@ -995,16 +1173,19 @@ msgstr ""
 
 # 2941d97b294c49d9a44399b539e453e1
 #: ../../source/community/community-call-notes/2019-june.md:51
+#: d17f6779205149fc887afa780d7a3976
 msgid "Ask the Jupyter education community"
 msgstr ""
 
 # 988257f6e4c64d55abc61db6ff36ce8a
 #: ../../source/community/community-call-notes/2019-june.md:52
+#: e7ad96757795458880eb1d33d99b6547
 msgid "Jupyter Education Mailing List"
 msgstr ""
 
 # 10883e256ebd4123892ff9bc3e37c276
 #: ../../source/community/community-call-notes/2019-june.md:53
+#: bbe6f96d254b42649b60bd75b42eafd0
 msgid ""
 "Check out solutions from Gigantum, a tech company started out of Johns "
 "Hopkins"
@@ -1014,101 +1195,121 @@ msgstr ""
 # 09beb5999f2d4600838e4c855a626b3c
 #: ../../source/community/community-call-notes/2019-june.md:54
 #: ../../source/community/community-call-notes/2019-june.md:55
+#: 39dd4ec33c8e45a1899ece5485c36f4e bd7a0b333f824538883557974512c677
 msgid "[ ] [name=YourNameHere]"
 msgstr ""
 
 # a5f40f6e13b84808b0e6bd80ca4faf86
 #: ../../source/community/community-call-notes/2019-june.md:61
+#: 00fe7eb709fe4c53a44d037b5049d47b
 msgid "Zach    | Jupyter Cal Poly          | @Zsailer        |"
 msgstr ""
 
 # 35dbce6660f44c5c8762b79815f37321
 #: ../../source/community/community-call-notes/2019-june.md:62
+#: 717f07484ed94c14bb8a786d231aebdd
 msgid "Erik    | Sandvik                   | @consideRatio   |"
 msgstr ""
 
 # e2f6d95bb87044588a7538e22290595e
 #: ../../source/community/community-call-notes/2019-june.md:63
+#: e43db9a2b4a04210907ae0c57528882e
 msgid "Denton  | individual                | @DentonGentry   |"
 msgstr ""
 
 # 849f5928bcf2488d9994bbfbf3d59d99
 #: ../../source/community/community-call-notes/2019-june.md:64
+#: 67668668fcc349e9a28da1d220170493
 msgid "Tim     | Jupyter Cal Poly          | @tgeorgeux      |"
 msgstr ""
 
 # 9eba765b73cf4901baab7c3d71a10c47
 #: ../../source/community/community-call-notes/2019-june.md:65
+#: 810389fa008f43fd95cba0c9b2f13738
 msgid "Kevin   | IBM                       | @kevin-bates    |"
 msgstr ""
 
 # bd580edd7a1147fa993c941637857709
 #: ../../source/community/community-call-notes/2019-june.md:66
+#: 09ef72bfb4dc42f5af76fe439e9d4f06
 msgid "Wayne   | Upstate Medical University| @Fomightez      |"
 msgstr ""
 
 # 39788dc41fef46bba8335b5a2444706a
 #: ../../source/community/community-call-notes/2019-june.md:67
+#: 0a90324e310b49d3b2e19df34888a45c
 msgid "Dav     | Gigantum                  | @davclark       |"
 msgstr ""
 
 # ab23397c870944cd91406099afd69b33
 #: ../../source/community/community-call-notes/2019-june.md:68
+#: 43c362ce682b4602be0641ae06de24d1
 msgid "Mike Trizna  | Smithsonian          | @MikeTrizna     |"
 msgstr ""
 
 # be0a7274e1c34e5988d69e1342a03b4d
 #: ../../source/community/community-call-notes/2019-june.md:69
+#: c2988245404f4fadbc6d20ccdcba90df
 msgid "Anton Akhmerov   | TU Delft | @akhmerov |"
 msgstr ""
 
 # c574adb76c22402cbb55ff254f36314b
 #: ../../source/community/community-call-notes/2019-june.md:70
+#: acc0bbb03906460da19512a9e26b51d0
 msgid "Markelle   |  Jupyter Cal Poly      |       |"
 msgstr ""
 
 # 52a39c930c1640b99d87580de77ec9b0
 #: ../../source/community/community-call-notes/2019-june.md:71
+#: bad42b55187946e8a42a8af4f164ff35
 msgid "Carol   | Jupyter   |      @willingc |"
 msgstr ""
 
 # 8a3445588709466d9a3a073153961fa4
 #: ../../source/community/community-call-notes/2019-june.md:72
+#: 0c8248bb76444182a333afd6ac8309ac
 msgid "Saul | Quansight | @saulshanabrook |"
 msgstr ""
 
 # a0800aa51b3c4d24b9de0ac8e61a5be8
 #: ../../source/community/community-call-notes/2019-june.md:73
+#: 5de202a547da424584222bfbb39be0ba
 msgid "Yair    | Mavenomics                | @YairMarcowMavenomics|"
 msgstr ""
 
 # 5f9eee8502ba4832a9c63f46d2e4cf5c
 #: ../../source/community/community-call-notes/2019-june.md:74
+#: 3c36fe2c6e574a7c950d638ac871ea46
 msgid "Joe     | Mavenomics                | @quigleyj-mavenomics|"
 msgstr ""
 
 # 148ee6b6bf234785952cddae2ac7ede3
 #: ../../source/community/community-call-notes/2019-june.md:75
+#: e3137b67b14541c3a875614debf18c5d
 msgid "Ruixin     | Microsoft              | @ruixinxu            |"
 msgstr ""
 
 # 286362fe622748019eea29d3a4524bfa
 #: ../../source/community/community-call-notes/2019-march.md:1
+#: 7fd0dbd32f154d98b22677b3b64bbfb1
 msgid "All-Jupyter Community Video Call - March 2019"
 msgstr ""
 
 # d3ccd0d36a8d4ff9bf551dec59aa23bf
 #: ../../source/community/community-call-notes/2019-march.md:3
+#: 925cb022d14c4f3a9505bbb94aa539ab
 msgid "Date: 26 March 2019 at 9am PST (your timezome)"
 msgstr ""
 
 # 2bae86b710b0411fa1380daeefcb57c4
 #: ../../source/community/community-call-notes/2019-march.md:7
+#: 77963cbafd0d4024adab6a96aac00d68
 msgid "Link to prior meeting's virtual meeting report"
 msgstr ""
 
 # f3ce016de5874330b74e688a2edbb469
 #: ../../source/community/community-call-notes/2019-march.md:21
+#: 34f63ef46d7046ef9a0c2085cf6f294f
 msgid ""
 "[x] Shout out to Damian Avila for the second community docker stack: "
 "umsimads/education-notebook [Peter Parente, jupyter/docker-stacks]"
@@ -1116,6 +1317,7 @@ msgstr ""
 
 # 3c3796ff21bc4030b0e272ef51b8778c
 #: ../../source/community/community-call-notes/2019-march.md:22
+#: 65373b6bc1064239bf738cda66e54b91
 msgid ""
 "[x] Thank you Tony Hirst for your weekly newsletter Tracking Jupyter "
 "[Carol Willing, JupyterHub]"
@@ -1123,6 +1325,7 @@ msgstr ""
 
 # 4ea07ce04b3040449deb6931e15aa9a0
 #: ../../source/community/community-call-notes/2019-march.md:23
+#: bb29e93d616d4e5296be41d6c8a030c8
 msgid ""
 "[x] Thank you to Professor Lorena Barba at GWU for hosting the recent "
 "Jupyter team meeting [Carol Willing, JupyterHub]"
@@ -1130,6 +1333,7 @@ msgstr ""
 
 # 87d9e729693f43d5934a2512d2ce8218
 #: ../../source/community/community-call-notes/2019-march.md:24
+#: 3aac0ab2a6174d36a95de1a239fbd818
 msgid ""
 "[x] Kudos, Zach Sailer et al, for kicking off the revitalization of this "
 "meeting over on the Jupyter Discourse site [Peter Parente (and everyone "
@@ -1138,11 +1342,13 @@ msgstr ""
 
 # b469ec28a001463bb62c835516090d58
 #: ../../source/community/community-call-notes/2019-march.md:25
+#: 9123da150e48499db553095a612e3b3e
 msgid "[x] Leave your feedback about our new all-Jupyter community call here"
 msgstr ""
 
 # 8c19d6354bec44d99e8d9ab5bba336f2
 #: ../../source/community/community-call-notes/2019-march.md:26
+#: 766b10a1abd147418c094ae02bdbea6a
 msgid ""
 "[x] Come join us on the Jupyter Discourse Forum! (in case you aren't "
 "already tired of me telling you this :-) )"
@@ -1150,16 +1356,19 @@ msgstr ""
 
 # 095d4c78eef24cbbbf17ad5f69877f49
 #: ../../source/community/community-call-notes/2019-march.md:27
+#: 29cb53f86ff04afd89e5789ad9572cd8
 msgid "https://discourse.jupyter.org/t/introduce-yourself/17"
 msgstr ""
 
 # 8b6f8a96f6224c2783617b279ad16d8f
 #: ../../source/community/community-call-notes/2019-march.md:28
+#: efaf74d8c03441f8a27fea2f4d298d6d
 msgid "Turn off add blocker if you want to login with google or github."
 msgstr ""
 
 # 42503a156ef841f8b65a3bfa42b59ad4
 #: ../../source/community/community-call-notes/2019-march.md:32
+#: 25c400be7ced4dd88c8654d7191b78c6
 msgid ""
 "Let’s collect all potential agenda items here before the start of the "
 "meeting (closing time 24h before). We will then attempt to create a "
@@ -1169,6 +1378,7 @@ msgstr ""
 
 # 37e673b044fb4eaea7a3106c4e309772
 #: ../../source/community/community-call-notes/2019-march.md:34
+#: 367ed015e5a74a3a9bf2df7ce89038a1
 msgid ""
 "[x] Suggested demo: docker-stacks project now posts image build manifests"
 " back to the GitHub project wiki for inspection [Peter Parente, "
@@ -1177,6 +1387,7 @@ msgstr ""
 
 # 42265e1f00e546ddbd81db0bba6eb88c
 #: ../../source/community/community-call-notes/2019-march.md:35
+#: 0417766cb85442e182a7cf3b47a46f4d
 msgid ""
 "[x] Introduction to mybinder.org, how to make a repository ready  for "
 "running on mybinder.org [Tim Head, 10minutes]"
@@ -1184,26 +1395,31 @@ msgstr ""
 
 # 24d5c9e1a338498ebda6a798cb3364f1
 #: ../../source/community/community-call-notes/2019-march.md:36
+#: 4c5df3f8425347fcae431f41efda36fc
 msgid "https://mybinder.org/"
 msgstr ""
 
 # 854f973f06d14ee28b19b00fedec7b61
 #: ../../source/community/community-call-notes/2019-march.md:37
+#: 7cdb470eaeab48eea80565ecb08be300
 msgid "https://github.com/betatim/my-first-binder"
 msgstr ""
 
 # e0de2e1622b246638188033646a13f6a
 #: ../../source/community/community-call-notes/2019-march.md:38
+#: eb4ef3238f5b4c12abf706909b985196
 msgid "Lots of example repositories: https://github.com/binder-examples/"
 msgstr ""
 
 # b084dbfe6bd7455db583202d55e66ff8
 #: ../../source/community/community-call-notes/2019-march.md:39
+#: 87f7afad870d482f9994c282255530b6
 msgid "Not just notebooks: https://github.com/betatim/vscode-binder"
 msgstr ""
 
 # f115663b207842d08e7f50c26bf8ea84
 #: ../../source/community/community-call-notes/2019-march.md:40
+#: 59e2b50007114870b1a8227fc9f3b09a
 msgid ""
 "Documentation on how to specify dependencies and such "
 "https://repo2docker.readthedocs.io/en/latest/"
@@ -1211,21 +1427,25 @@ msgstr ""
 
 # bb63324fe45a433babf0f6ed99d90d5a
 #: ../../source/community/community-call-notes/2019-march.md:41
+#: d7934a62254844c098a4eb2dc2bf85ac
 msgid "Questions, comments and support: https://discourse.jupyter.org/c/questions"
 msgstr ""
 
 # 85738a54e439443386fa6379f01e21cf
 #: ../../source/community/community-call-notes/2019-march.md:42
+#: 025f4a5e23e34fbcbcff79b0a0cbf3f9
 msgid "Write questions you have here:"
 msgstr ""
 
 # 8f6656c371754cf890fbf0ec645c129f
 #: ../../source/community/community-call-notes/2019-march.md:43
+#: 17aa216635c844e1879dfca4d21a00de
 msgid "..."
 msgstr ""
 
 # 1809dc99df1840eea5a3ba67e4a8293b
 #: ../../source/community/community-call-notes/2019-march.md:44
+#: b6b211c06906408ba2e5b022f4cf5b9b
 msgid ""
 "Is it true that you personally are the only user of "
 "https://github.com/Carreau/open-with-binder ?"
@@ -1233,6 +1453,7 @@ msgstr ""
 
 # 7fd9ece1b20c4b08bbdd623ad539370f
 #: ../../source/community/community-call-notes/2019-march.md:45
+#: 0db749cecacf42beb87d5b65942ab189
 msgid ""
 "If running an event/tutorial type thing with Binder, how many users "
 "should we feel comfortable sending to MyBinder vs setting up our own Z2JH"
@@ -1241,6 +1462,7 @@ msgstr ""
 
 # d584ca69a41c438d88c2d0e0d1cd8db5
 #: ../../source/community/community-call-notes/2019-march.md:46
+#: 89c654cb39644b3a87b2f27ce5504436
 msgid ""
 "By default it prevents more than 100 concurent launches of the same repo."
 " You can ask for more if you are nice."
@@ -1248,6 +1470,7 @@ msgstr ""
 
 # 0ecf242c9bec4cfa8f0f1173b255bd3b
 #: ../../source/community/community-call-notes/2019-march.md:47
+#: a4394f62c87342c6837b0da2a2cfdc5f
 msgid ""
 "fun fact: apparently the reason this launch was slow is because somebody "
 "is teaching a \"learn java\" course on Binder just now and a bunch of "
@@ -1256,11 +1479,13 @@ msgstr ""
 
 # b310fceed5d14b7fbd7ff7f3aea1380f
 #: ../../source/community/community-call-notes/2019-march.md:48
+#: 8c27692fda184c688c61c425128b4e0d
 msgid "Show the log dashboard :P"
 msgstr ""
 
 # 53813024a5e74f90af276c84a1eced67
 #: ../../source/community/community-call-notes/2019-march.md:49
+#: 5d1f8a97d47c44feb15671b96325a4e4
 msgid ""
 "sure thing: https://grafana.mybinder.org/d/fZWsQmnmz/pod-"
 "activity?refresh=1m&panelId=1&fullscreen&orgId=1"
@@ -1268,16 +1493,19 @@ msgstr ""
 
 # ce5df9e9ff06483fa666e1ef54087f24
 #: ../../source/community/community-call-notes/2019-march.md:50
+#: d72fb8a431e447ba925bbb2fe0fd18a8
 msgid "We'd love to figure out a funding model for binder"
 msgstr ""
 
 # 926b6a913747478baa9bae2c0338b473
 #: ../../source/community/community-call-notes/2019-march.md:53
+#: 3848901c750c4ec2949d18dee10bc3dc
 msgid "[x] [10minutes ] Update from the nteract team [Safia]."
 msgstr ""
 
 # be841d1862024767b49b29fcfaee94c1
 #: ../../source/community/community-call-notes/2019-march.md:54
+#: c97325f3a0e74e51877715b23172469d
 msgid ""
 "Version 1.0 of papermill, notebook execution and parameterization "
 "library, will be released in early April. "
@@ -1286,6 +1514,7 @@ msgstr ""
 
 # 5eb198cfcaa045029021da8b1d31697d
 #: ../../source/community/community-call-notes/2019-march.md:55
+#: ee2d6be484e24ef2972904a2e2af7f9d
 msgid ""
 "Scrapbook, tool for extracting and assembling generated outputs and data "
 "from notebooks, known as scraps, will allow you to host scraps remotely "
@@ -1294,6 +1523,7 @@ msgstr ""
 
 # 801440793f0e425aa2defa145970d24e
 #: ../../source/community/community-call-notes/2019-march.md:56
+#: a2b013704be940409632029ed7255372
 msgid ""
 "Plan laid out for version 1.0 of the kernel-relay, a GraphQL API for "
 "interfacing with Jupyter kernels. (https://github.com/nteract/kernel-"
@@ -1302,6 +1532,7 @@ msgstr ""
 
 # c23623786e5b4dd9acd259a455dfa7e2
 #: ../../source/community/community-call-notes/2019-march.md:57
+#: 3bd4f20b5c7d4a7f9e3aac016e45b6d5
 msgid ""
 "Effort to modularize the Data Explorer, an automatic visualization "
 "library, is underway."
@@ -1309,6 +1540,7 @@ msgstr ""
 
 # bab4d7361bae4ae9b2ff585598fa5ebd
 #: ../../source/community/community-call-notes/2019-march.md:58
+#: 545b2243cb144c089d3ea5aac6b7f1fa
 msgid ""
 "nteract is participating in Google Summer of Code "
 "(https://summerofcode.withgoogle.com/organizations/5447807656263680/)"
@@ -1316,71 +1548,85 @@ msgstr ""
 
 # 23bb0f9e952c4f21aab28e692da49187
 #: ../../source/community/community-call-notes/2019-march.md:60
+#: 7948a525ec24425e994b5502a22b3f3f
 msgid "How to learn more:"
 msgstr ""
 
 # 390b8f9c2d78493e99d76710077fb4ce
 #: ../../source/community/community-call-notes/2019-march.md:61
+#: 7bcf3246ea014a2492c76adcc2116ed9
 msgid "Nteract slack https://slack.nteract.io/"
 msgstr ""
 
 # d88c460c30f1414fa878ce41d8d9e4f2
 #: ../../source/community/community-call-notes/2019-march.md:62
+#: f53f7235335848a9947d4e76323f7a76
 msgid "Weekly meeting on Monday Afternoon"
 msgstr ""
 
 # 578b2e5b5c7d4302b6ac9e2b2375fcf6
 #: ../../source/community/community-call-notes/2019-march.md:63
+#: a80afd25e7634d1a987d89a13323e681
 msgid "Where is the Data Explorer repo?"
 msgstr ""
 
 # ebef350151214f508f0d6729916dd744
 #: ../../source/community/community-call-notes/2019-march.md:64
+#: f8d91786273d4a19a16de7d5e8de1639
 msgid "[x] deathbeds stuff [Nick, github.com/deathbeds, 5min]."
 msgstr ""
 
 # 3d91d27d96b247858d2203bd7061faf9
 #: ../../source/community/community-call-notes/2019-march.md:65
+#: da88e6f9577b4978b38e71372b7208d5
 msgid "lintotype: interactive linting & formatting"
 msgstr ""
 
 # 7ac4d2655d274edcb2148ea2c13cae37
 #: ../../source/community/community-call-notes/2019-march.md:66
+#: cd65e6276bca4f66a1854b34581eece4
 msgid "wxyz: some crazy widgets"
 msgstr ""
 
 # 1c89c48468524b7baec0c063e9789dfd
 #: ../../source/community/community-call-notes/2019-march.md:68
+#: dc23bee4cd3d44b894e8478514dd00fa
 msgid "The SVG messed with my eyes. <3"
 msgstr ""
 
 # 67555afea1fe46fbabfb35ef2daf0f3a
 #: ../../source/community/community-call-notes/2019-march.md:69
+#: 677892375e5c4e8aa992a7854387eb34
 msgid "Can you expand upon the \"cell-id\" things?"
 msgstr ""
 
 # bb7dc12a4c5e4d48b1f884a371102d25
 #: ../../source/community/community-call-notes/2019-march.md:70
+#: 2c4acc9d9e884fa3b49a5cf977db2c3f
 msgid "cell id in lintotype"
 msgstr ""
 
 # ad1cc7e33a294e298e95bdbba099f2e4
 #: ../../source/community/community-call-notes/2019-march.md:71
+#: 05ebd74817d14eaba9f16138ecb9dd52
 msgid "cell id in irobotframework"
 msgstr ""
 
 # 6e2574521fe94e9ebb42406d92ce0894
 #: ../../source/community/community-call-notes/2019-march.md:72
+#: 803f6c44e77945deb74340bf0f36a9dd
 msgid "Are those suposed to be extension ? Built-in ?...?"
 msgstr ""
 
 # 012c1ebe05084778a57c646dc99871f8
 #: ../../source/community/community-call-notes/2019-march.md:73
+#: d71adbc5a6c64637b9bae24a8866c2e0
 msgid "ready to be packaged (not yet). Some of the stuff could go into ipywidgets"
 msgstr ""
 
 # 248321ccf26d44aaa70813dcb24dc8f5
 #: ../../source/community/community-call-notes/2019-march.md:74
+#: 0e768ca2ec1f4e3f875adb33c3c3e2d7
 msgid ""
 "[x] IPython releases [Matthias, IPython, "
 "https://github.com/ipython/ipython, 2min.]"
@@ -1388,26 +1634,31 @@ msgstr ""
 
 # 86328c25f6a440b18498fd75aa70a47f
 #: ../../source/community/community-call-notes/2019-march.md:75
+#: 4b1dc1378d52483f86a20bc8b0c8c06d
 msgid "Trying to do monthly release close to End Of Month."
 msgstr ""
 
 # a3bff58397d14548b0a589b6ed34b746
 #: ../../source/community/community-call-notes/2019-march.md:76
+#: 863a19641aeb47959235d121d5497f22
 msgid "7.4 has been released ! Thanks to everyone."
 msgstr ""
 
 # 10cf7fd1b78140f586b0e030906d86d3
 #: ../../source/community/community-call-notes/2019-march.md:77
+#: c0f22fa3e5ff420da9bca0840a556575
 msgid "If you want to help with 7.5 subscribe to the following issue."
 msgstr ""
 
 # 3cdd82e3aae0483390d52d067996ba29
 #: ../../source/community/community-call-notes/2019-march.md:78
+#: 7d02e96bdcca4c56bda07084ac1c5e5a
 msgid "https://github.com/ipython/ipython/issues/11657"
 msgstr ""
 
 # 069760dc518c4be1a9ec1b622611a63e
 #: ../../source/community/community-call-notes/2019-march.md:79
+#: debb2369daef48889c71e05d10bce691
 msgid ""
 "[x] Async Kernels startup : [Matthias, Jupyter Client , "
 "https://github.com/jupyter/jupyter_client/pull/428, 4min.]"
@@ -1415,41 +1666,49 @@ msgstr ""
 
 # 78e107a4d23e404f9e0894820a18b989
 #: ../../source/community/community-call-notes/2019-march.md:80
+#: c678d12729744b70a0e123bc10bc8feb
 msgid "https://github.com/jupyter/jupyter_client/pull/428"
 msgstr ""
 
 # ba575c52f6614673ba74d5a26511c9b7
 #: ../../source/community/community-call-notes/2019-march.md:81
+#: 862328fc80214c998ca718b75ac6129a
 msgid "add item here [name, project name/url, estimated time for discussion]."
 msgstr ""
 
 # 9a919edea46042fda80ad5719ba42c25
 #: ../../source/community/community-call-notes/2019-march.md:83
+#: f852380bb51042818061acf966b5679c
 msgid "Don't get limitted to technical discusions !"
 msgstr ""
 
 # 6a1d536f3f6c46b2b79fcdecd6491c4c
 #: ../../source/community/community-call-notes/2019-march.md:87
+#: 88f684731dea4722ada66e4c02bd8c24
 msgid "Name              | Institution             | Github Handle"
 msgstr ""
 
 # 1732e5aff57b4c4da3bb50f28c6b0c62
 #: ../../source/community/community-call-notes/2019-march.md:89
+#: f457d3286bbf49e7b86cdd2057c97326
 msgid "Zach              | Jupyter Cal Poly        | @Zsailer"
 msgstr ""
 
 # b11a95084ddf4b2c9a29a2b4aab7f7d6
 #: ../../source/community/community-call-notes/2019-march.md:90
+#: 12964e8ae7cc4a94a9fb788576075b43
 msgid "Kyle              | Netflix                 | @rgbkrk"
 msgstr ""
 
 # 98e54a5ef37643a7bd3ed27fd9a631c1
 #: ../../source/community/community-call-notes/2019-march.md:91
+#: c77c6ac7d2db4c43833aa7d798269997
 msgid "Pete              | Valassis Digital        | @parente"
 msgstr ""
 
 # 65a7b3e76af0494dbcd380b916cb375b
 #: ../../source/community/community-call-notes/2019-march.md:92
+#: ab55b0c00b4440c49445d3fc37493d5c
 msgid ""
 "Carol             | Project Jupyter         | @willingc (will miss due to"
 " OpenEdX conference)"
@@ -1457,131 +1716,157 @@ msgstr ""
 
 # 35546464a79a4d67a9291c47c369554f
 #: ../../source/community/community-call-notes/2019-march.md:93
+#: 78325a41ad25493c8c67698a69d4a4a6
 msgid "Brian             | AWS                     | @ellisonbg"
 msgstr ""
 
 # 0440aca017e645d19de2bc481c5a797c
 #: ../../source/community/community-call-notes/2019-march.md:94
+#: 25459f04e7074b63bb9434365fe90eab
 msgid "Darian            | Two Sigma               | @afshin"
 msgstr ""
 
 # 77b9417cf46e46a38c0a47d5f29bf3fc
 #: ../../source/community/community-call-notes/2019-march.md:95
+#: 7c308a047269424781b9e8a3d6ecf0b7
 msgid "Ward              | Google                  | @wkharold"
 msgstr ""
 
 # c50cf028579347d7a55a83faa4bd3382
 #: ../../source/community/community-call-notes/2019-march.md:96
+#: 40ff6e72bb554545bd8258a896327c7d
 msgid "Tim               | Project Jupyter         | @betatim"
 msgstr ""
 
 # 49103926264a459291e15f49e7e5ed2e
 #: ../../source/community/community-call-notes/2019-march.md:97
+#: 46cb7dca301046029d8c7a9cb89bb1a4
 msgid "Chris             | Berkeley/Project Jupyter| @choldgraf"
 msgstr ""
 
 # 58a1958fa38b419eb6a9ed4b8ce60478
 #: ../../source/community/community-call-notes/2019-march.md:98
+#: 292d03513aa44a289dc300aa4902455d
 msgid "Pete              | Google Colab            | @blois"
 msgstr ""
 
 # 140b0f78582045b8b0d61a860a292a36
 #: ../../source/community/community-call-notes/2019-march.md:99
+#: 5172ff7b7e3c4024b7ca57dc154034a9
 msgid "Matthias          | UC Merced               | @carreau"
 msgstr ""
 
 # e2831caffe3643739d2f2e1654fea586
 #: ../../source/community/community-call-notes/2019-march.md:100
+#: ee4dd862471942a1bd0d43cbdfadee33
 msgid "Saul              | Quansight               | @saulshanabrook"
 msgstr ""
 
 # c21bc34a60b244fd8d82e4c60736f7d6
 #: ../../source/community/community-call-notes/2019-march.md:101
+#: 797707bbf6e64013b869dad4c93cdd9f
 msgid "Vidar             | Simula Research         | @vidartf"
 msgstr ""
 
 # 9559e6b327a544f0a342ad6957843444
 #: ../../source/community/community-call-notes/2019-march.md:102
+#: ee0092a655ae414f8988026b1cb3d6ec
 msgid "Lindsey Heagy     | UC Berkeley             | @lheagy"
 msgstr ""
 
 # fcabe7d6182c4feaa5c68e2c1e7c2716
 #: ../../source/community/community-call-notes/2019-march.md:103
+#: 64470bc129d448188d4204c9ef487cbf
 msgid "Safia ABdalla     | Microsoft/nteract       | @captainsafia"
 msgstr ""
 
 # 24577687e8a2477cb670afb803a4dd0f
 #: ../../source/community/community-call-notes/2019-march.md:104
+#: f285e19dc448412ab9c2b34c6e5a06ba
 msgid "Leticia Portella  | -                       | @leportella"
 msgstr ""
 
 # 7e4960f551e248e4970b53f55e895d1c
 #: ../../source/community/community-call-notes/2019-march.md:105
+#: 05f15d140a0a4e7e94eba8c58a774086
 msgid "Damián Avila      | Project Jupyter                        | @damianavila"
 msgstr ""
 
 # 6ff0836b9600403b94a196469214e269
 #: ../../source/community/community-call-notes/2019-march.md:106
+#: ff8c33ec9e5c4c58ad2370523480e1a3
 msgid "Craig Citro       | Google Colab            | @craigcitro"
 msgstr ""
 
 # 2b083f8a972240e9ac40611b77004932
 #: ../../source/community/community-call-notes/2019-march.md:107
+#: 3bd46699a0b344ac9d5d9fe19c85cb0a
 msgid "Nick Bollweg      | GTRI                    | @bollwyvl"
 msgstr ""
 
 # c512ec8cf1514a138acb0e2e071d4c5b
 #: ../../source/community/community-call-notes/2019-march.md:108
+#: 1316eb1843ef475a88c7b4d08cde2e22
 msgid "Michael Milligan  | U Minnesota / MSI       | @mbmilligan"
 msgstr ""
 
 # 18f7ee76c90f48a5969d057a6d9bd8b0
 #: ../../source/community/community-call-notes/2019-march.md:109
+#: 5707e12b8150436c82d6c9ce1c3a0036
 msgid "Liang Bin Hsueh   | InfuseAI                | @hlb"
 msgstr ""
 
 # 78fdf3bcb4d44055830b378dd73c452a
 #: ../../source/community/community-call-notes/2019-march.md:110
+#: 00b07c53b20e414f996ca7a3a40155ba
 msgid "Thomas Vander Velde | -             | @tomasdelcampo"
 msgstr ""
 
 # 161172282fa048429a2c2e24595ccdb1
 #: ../../source/community/community-call-notes/2019-march.md:111
+#: 31f9a78d48cd427793f7b80953bd3fa6
 msgid "Luciano Resende   | IBM                     | @lresende"
 msgstr ""
 
 # 8866787cffa8479d90cebf2e4e093ddb
 #: ../../source/community/community-call-notes/2019-march.md:112
+#: 2e93f231fd6f42f4899f81ffba5ed8d6
 msgid "Tony Fast         |  Quansight              | @tonyfast"
 msgstr ""
 
 # c1a675c15f0e405abb5451925bcdfca2
 #: ../../source/community/community-call-notes/2019-march.md:113
+#: 9560c3ffa0db4eef993321204fb9c7a4
 msgid "James Slack       | University of Edinburgh | @jamesaslack"
 msgstr ""
 
 # b2706534998848e79d847b02b2505493
 #: ../../source/community/community-call-notes/2019-march.md:114
+#: 5a8d16204bd84d9d88c7a6a1cb3edf7f
 msgid "Erik Sundell      | Sandvik                 | @consideratio"
 msgstr ""
 
 # 158d1e8d768f4477b23a3b164ca9655b
 #: ../../source/community/community-call-notes/2019-may.md:3
+#: 352efdd64d814860a39dd47982150eb6
 msgid "May 28th, 2019"
 msgstr ""
 
 # 12428c2c96ec4c04aefe1b9d747f88d9
 #: ../../source/community/community-call-notes/2019-may.md:5
+#: 87d2ffdaadbf47eaa47b5f72c53efe97
 msgid "Date: 28 May 2019 at 9am PST (your timezome)"
 msgstr ""
 
 # 34838ee2bdd046babf35699d0a2b17d3
 #: ../../source/community/community-call-notes/2019-may.md:10
+#: 62e8bb2ce79a45ba83b7d918c8780193
 msgid "Welcome to the All-Jupyter Community Meeting"
 msgstr ""
 
 # c9e1893a74e740d19900c97f17dc2359
 #: ../../source/community/community-call-notes/2019-may.md:22
+#: 3f048d9bc97e4dd29e76da68d0552ff8
 msgid ""
 "Hello from The Turing Way Book Dash :books::dash::dash: in London. This "
 "call is right at the end of a day of 18 people working together to "
@@ -1594,26 +1879,31 @@ msgstr ""
 
 # 295f9c8273934552b5fd2faf8a8c114a
 #: ../../source/community/community-call-notes/2019-may.md:23
+#: d97a3046b68a4fe7a32fbeaa8f3ae594
 msgid "GitHub repo: https://github.com/alan-turing-institute/the-turing-way"
 msgstr ""
 
 # 653c75891ad14098a0e579d59d898965
 #: ../../source/community/community-call-notes/2019-may.md:24
+#: a92e415e07464d229a4b066fca0e900c
 msgid "The book: https://the-turing-way.netlify.com"
 msgstr ""
 
 # 0a9c3be871154b04995a110271b45fb0
 #: ../../source/community/community-call-notes/2019-may.md:25
+#: 081f813df378423facbb2afafe14e7d8
 msgid "Chat room: https://gitter.im/alan-turing-institute/the-turing-way"
 msgstr ""
 
 # a7fc516567844ee3a4e091d9bf605a52
 #: ../../source/community/community-call-notes/2019-may.md:32
+#: 5c45a7be44c84e4b8cf1e43d240f16b8
 msgid "Feedback and report from Research Software Reactor Sprint [name=Sarah]"
 msgstr ""
 
 # 8f686208571a487d920e727b364000ec
 #: ../../source/community/community-call-notes/2019-may.md:33
+#: 16e7ef9e1cb94861b42bfe911e5c99bb
 msgid ""
 "Event website: "
 "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6927743abcd"
@@ -1621,11 +1911,13 @@ msgstr ""
 
 # c96517d3b28d48c8be40a211a28e309b
 #: ../../source/community/community-call-notes/2019-may.md:34
+#: b6fdf8f98c3b4c26af893e33e353a1b2
 msgid "Project list: https://github.com/research-software-reactor"
 msgstr ""
 
 # c67790ff92a04962add5f28c73be77d5
 #: ../../source/community/community-call-notes/2019-may.md:35
+#: c1ea4bd9fd6c49949ecb7b4d460b103a
 msgid ""
 "New binderhub in the world :baby: :confetti_ball: "
 "https://twitter.com/gerardjgorman/status/1131097133292183553"
@@ -1633,6 +1925,7 @@ msgstr ""
 
 # cb3cf9c7532e4eefafef21622f5e5ee3
 #: ../../source/community/community-call-notes/2019-may.md:36
+#: 39952b630ba449d58c3adc4a6aa8cd79
 msgid ""
 "Feedback and report from Jupyter Server Design and Roadmap workshop "
 "[name=Luciano]"
@@ -1640,66 +1933,79 @@ msgstr ""
 
 # cf170dce042a4fa9af4aa3c97080a854
 #: ../../source/community/community-call-notes/2019-may.md:37
+#: 904784d546074199ae889a5b6849fb6d
 msgid "sponsored by bloomberg"
 msgstr ""
 
 # dfc0167e90054f48a87ca906289e5aae
 #: ../../source/community/community-call-notes/2019-may.md:38
+#: 95fc0d8d6fab4156a8e9dc88001617de
 msgid "thomas, kevin, etc."
 msgstr ""
 
 # db8c534028974a04b8cca41a4635a4ff
 #: ../../source/community/community-call-notes/2019-may.md:39
+#: 02aa4d81f3b94444968c1cd421c217fe
 msgid "functionality directions, high-level roadmap"
 msgstr ""
 
 # 45971081706749199a95955a04941bc9
 #: ../../source/community/community-call-notes/2019-may.md:40
+#: 39d12c63e9414e6eba98cf1bbdcbe00e
 msgid "decouple frontend from backend: notebook, lab, nteract, voila"
 msgstr ""
 
 # 8aab688ea9044652812de80acf7c4c4e
 #: ../../source/community/community-call-notes/2019-may.md:41
+#: 8a73630d4df4421a816a0c07ff90a21b
 msgid "using the backend functionality, providing different UIs"
 msgstr ""
 
 # ecdc0515ad3943ae97090a26a85c22f5
 #: ../../source/community/community-call-notes/2019-may.md:42
+#: a990b0464d7d4cd0ae1bed287a3d9a39
 msgid "how do we accomplish that? jupyter_server extension points"
 msgstr ""
 
 # ee80afd9ea044c49bbb6cec9742a3c90
 #: ../../source/community/community-call-notes/2019-may.md:43
+#: 13fae5a6a5a14b739f881c145463af6e
 msgid "ui"
 msgstr ""
 
 # ce36561a4e624c489f77ec0508c37264
 #: ../../source/community/community-call-notes/2019-may.md:44
+#: d42d8c2b4fca4f3289ef4c7924f89707
 msgid "backend"
 msgstr ""
 
 # c67c120c090f4978a8fe171269f0c269
 #: ../../source/community/community-call-notes/2019-may.md:45
+#: 10c0d394da754242ae9ddff26d9d056e
 msgid "handlers"
 msgstr ""
 
 # cf7a63882a10418fa6eda0ed55f9a59c
 #: ../../source/community/community-call-notes/2019-may.md:46
+#: 256bd715ad15458b83a8f9909a7438d0
 msgid "roadmap"
 msgstr ""
 
 # ad54ad19c71741e1bd1b5c099f7bd084
 #: ../../source/community/community-call-notes/2019-may.md:47
+#: 20684cf68ac54ad5ab5139a880621e8d
 msgid "phase 1: integrating with existing uis (notebookclassic, lab)"
 msgstr ""
 
 # 54edb5a787fa43028b0eccc811ed2222
 #: ../../source/community/community-call-notes/2019-may.md:48
+#: 2c6ee7f402c54234b5765935bb4ea75c
 msgid "phase 2: expand functionality"
 msgstr ""
 
 # 82642dd5ee114d6c8d96581165506242
 #: ../../source/community/community-call-notes/2019-may.md:49
+#: 9ac0f5a5edff4c4b81959dc8b7d216ea
 msgid ""
 "kernel provider pr (e.g. different kernel managers, like Enterprise "
 "Kernel Gateway)"
@@ -1707,41 +2013,49 @@ msgstr ""
 
 # 37fa4b509f17412cb5196f304f3fd903
 #: ../../source/community/community-call-notes/2019-may.md:50
+#: a7b7d9574da94169954ceb6757287d15
 msgid "next steps:"
 msgstr ""
 
 # 0a7f05066f404c538534e1f60d6355fa
 #: ../../source/community/community-call-notes/2019-may.md:51
+#: 81f34f2e34c84fe0bd59acf4d865e995
 msgid "pr from zak"
 msgstr ""
 
 # cd233eff74d549d79448285aa6e25862
 #: ../../source/community/community-call-notes/2019-may.md:52
+#: 386fcd6ec4164e01a2fecad276cbca6f
 msgid "blog post (illustration)"
 msgstr ""
 
 # b249ab49156e44e7904ea94a0cf0c3ea
 #: ../../source/community/community-call-notes/2019-may.md:53
+#: 8a50b2b5162c4de78707afb48892b39b
 msgid "biweekly calls"
 msgstr ""
 
 # 97d3aa18a57e4580a09ae4293ebd813e
 #: ../../source/community/community-call-notes/2019-may.md:54
+#: 707b2990657a4d4db43eca01f5d53433
 msgid "timeline:"
 msgstr ""
 
 # e0ffef45c88f42cca859c993d36753b8
 #: ../../source/community/community-call-notes/2019-may.md:55
+#: 2896afada6074fb4a22d1ff4901265d3
 msgid "6.0 release of notebook?"
 msgstr ""
 
 # adffe082166f4c5f89c55f67f4b41e6f
 #: ../../source/community/community-call-notes/2019-may.md:56
+#: 267f0db62b51407ab8fee33a63bdd9d6
 msgid "post jupyterlab 1.0?"
 msgstr ""
 
 # fee81f93e54244e997c3565e166bab82
 #: ../../source/community/community-call-notes/2019-may.md:57
+#: 05c590cebdf942ec96609071c75a0f9b
 msgid ""
 "Qt(5.6)-based PDF output from JupyterLab (0.35) Quick demo of using "
 "QtWebEngine to load a notebook in lab and make a PDF. $_{n+1}$th time's "
@@ -1750,6 +2064,7 @@ msgstr ""
 
 # 1ba7041adbf8498ebcaf7bfa6b1be2ed
 #: ../../source/community/community-call-notes/2019-may.md:62
+#: 525cf5d5d4c844189659a3ac54cbc95a
 msgid ""
 "If you are joining the All-Jupyter Community video meeting, sign in below"
 " so we know who was here. Roll call:"
@@ -1757,91 +2072,109 @@ msgstr ""
 
 # c777fd0ebef7412dbab32239faf7f6fd
 #: ../../source/community/community-call-notes/2019-may.md:64
+#: 206013aa7661454cbc30e2be2fc0430d
 msgid "| Zach    | Jupyter Cal Poly          | @Zsailer        |"
 msgstr ""
 
 # 7aec5bbb0f3c4fcdb072e665f234eaea
 #: ../../source/community/community-call-notes/2019-may.md:65
+#: 14edae36bd11467d9bc98132a239f300
 msgid "| Amit    | ReviewNB                  | @amit1rrr       |"
 msgstr ""
 
 # 31277324bd204fbf9adfc5544afc5c7b
 #: ../../source/community/community-call-notes/2019-may.md:66
+#: 396a65893d6e4f7c955dd2ea36ce6da7
 msgid "| Kirstie | Alan Turing Institute     | @KirstieJane    |"
 msgstr ""
 
 # 7b5d1538de4344249ae10a973ffd8164
 #: ../../source/community/community-call-notes/2019-may.md:67
+#: 7bde5bc7bffe4ac181a17254a04bfef9
 msgid "| Pete    | Thorn                     | @parente        |"
 msgstr ""
 
 # efc0b521adb54d66a9164ffdb17688e3
 #: ../../source/community/community-call-notes/2019-may.md:68
+#: b91d35af7bb34ebe98de8a6015937fb9
 msgid "| Tony    | Quansight                 | @tonyfast       |"
 msgstr ""
 
 # a62d7494497e4e19b0a2f8de3188215d
 #: ../../source/community/community-call-notes/2019-may.md:69
+#: 0e5fd3ca5bc940bfac03539bd15c317d
 msgid "| Nick    | GTRI                      | @bollwyvl       |"
 msgstr ""
 
 # ebeaab919bf843bcb74c89dc5b569f6b
 #: ../../source/community/community-call-notes/2019-may.md:70
+#: 05ce56db4f09410e86bb1449f93543cc
 msgid "| Luciano | IBM                       | @lresende       |"
 msgstr ""
 
 # 8be46b5e27e043f1a3366bfcfd3d7afc
 #: ../../source/community/community-call-notes/2019-may.md:71
+#: b795609b619c4f94a2082ee658da05f7
 msgid "| Sarah   | The Alan Turing Institute | @sgibson91      |"
 msgstr ""
 
 # dc32da81f7f74a6c96fd0b27ede5357c
 #: ../../source/community/community-call-notes/2019-may.md:72
+#: 36e06aa9881c4b6089d0406f43f441c3
 msgid "| Saul    | Quansight                 | @saulshanabrook |"
 msgstr ""
 
 # 6fa78279eced4403b0d5e9ac2206bdb2
 #: ../../source/community/community-call-notes/2019-may.md:73
+#: bc6c85a949444da4afb231d2a4e42b42
 msgid "| James   | MUN                       | @jmunroe        |"
 msgstr ""
 
 # 26c3381ff5c94f1fad9b2d93cf26748f
 #: ../../source/community/community-call-notes/2019-may.md:74
+#: 8428e14bdab64aa7a17b357555cd7d18
 msgid "| Darian  | Two Sigma                 | @afshin         |"
 msgstr ""
 
 # 1396eb1cf1ba4cc9ade0ebadb0390e35
 #: ../../source/community/community-call-notes/2019-may.md:75
+#: 6aa0936e782247f197099c4e6b2b9df5
 msgid "| Matthias| UC Merced                 | @carreau        |"
 msgstr ""
 
 # 0086413e36da4e4c9b5871fe87300aea
 #: ../../source/community/community-call-notes/2019-may.md:76
+#: b2ebd8b5eba245c994d1aae9e882c99e
 msgid "| Tania   | Microsoft                 | @trallard       |"
 msgstr ""
 
 # 9c87f045a2704f16b112a4a075017b99
 #: ../../source/community/community-call-notes/2019-may.md:77
+#: 2bcd26f33d364996a02fad0ed3cd1fa6
 msgid "| Carol   | Project Jupyter           | @willingc       |"
 msgstr ""
 
 # f43d9891e6c647c79a6c6eaa271be723
 #: ../../source/community/community-call-notes/2019-may.md:78
+#: af61e1f25472458e8231ae92638bfe1a
 msgid "| Chris   | UNC-Chapel Hill           | @cbcunc         |"
 msgstr ""
 
 # 5fdd64c28ae047c4ba425817816138db
 #: ../../source/community/community-call-notes/2019-september.md:3
+#: 2060a09d770847ef9b99174d295ece72
 msgid "September 24th, 2019"
 msgstr ""
 
 # a0d2488626fe4b0298b758893bc59dc0
 #: ../../source/community/community-call-notes/2019-september.md:5
+#: cf365776854440248f1b9f1af5c8c203
 msgid "Date: September 24, 2019, at 9am Pacific (your timezone)"
 msgstr ""
 
 # f1af2ebd19024419862ff9c0657a9d27
 #: ../../source/community/community-call-notes/2019-september.md:19
+#: d4cb086aa87c4cb88844948db9420355
 msgid ""
 "Co-locating a Jupyter Server and Dask Scheduler _By Matthew Rocklin "
 "[name=tonyfast]"
@@ -1849,26 +2182,31 @@ msgstr ""
 
 # ba66e52342434b038c2e599a64b1e432
 #: ../../source/community/community-call-notes/2019-september.md:21
+#: ea7cc212fed9467fba711583f228dc67
 msgid "Language server protocol"
 msgstr ""
 
 # 5abdc73e71984c7bbed5596c27902fd2
 #: ../../source/community/community-call-notes/2019-september.md:22
+#: 5d73f4227c604c20a9731e0934925ae9
 msgid "current work on jupyterlab-lsp [name=krassowski]"
 msgstr ""
 
 # 4864df309d1e443d87af44126611557c
 #: ../../source/community/community-call-notes/2019-september.md:23
+#: 8d72f8bb79004565abae8402359f7aa6
 msgid "wip binder [name=bollwyvl]"
 msgstr ""
 
 # a86ac74cea6d444391994bf2c9479e60
 #: ../../source/community/community-call-notes/2019-september.md:29
+#: d4630d6ce58642009420a8cfe224d1fe
 msgid "importing notebooks with importnb [name=tonyfast]"
 msgstr ""
 
 # e44d04914ad745eb8dff857eb86d3143
 #: ../../source/community/community-call-notes/2019-september.md:31
+#: 8da4ad81fd174583a2599612e1220f69
 msgid ""
 "importnb provides easy, flexible reuse of IPython notebooks from other "
 "notebooks, .py scripts and libraries, and even the command line."
@@ -1876,6 +2214,7 @@ msgstr ""
 
 # 990f76c718c84f13abfcfa182eeb6360
 #: ../../source/community/community-call-notes/2019-september.md:33
+#: 26ef12470db74d8a9ae64575e2f00193
 msgid ""
 "🤖 RobotLab: a one-click Jupyter and Robot Framework environment "
 "[name=bollwyvl]"
@@ -1883,6 +2222,7 @@ msgstr ""
 
 # 7265771b29124c79ab4a74df73dd946a
 #: ../../source/community/community-call-notes/2019-september.md:35
+#: 14be0f1f7b174807abc726fe14f8e561
 msgid ""
 "RobotLab was built to support a workshop introducing acceptance-test-"
 "driven development and robot process automation with robotkernel, a Robot"
@@ -1894,11 +2234,13 @@ msgstr ""
 
 # 0b0ac86150fd45469496be18bac27af6
 #: ../../source/community/community-call-notes/2019-september.md:38
+#: a4baa0d50027414b9bcf0bfc7fa64af9
 msgid "Project Drawdown [name=dgentry]"
 msgstr ""
 
 # 401a81f1227c4a86ad483299041ab1f8
 #: ../../source/community/community-call-notes/2019-september.md:39
+#: 2809b2c0aa944c3fb3e864f3f2655551
 msgid ""
 "Project Drawdown is a global research organization that identifies, "
 "reviews, and analyzes the most viable solutions to climate change, and "
@@ -1909,41 +2251,73 @@ msgstr ""
 
 # 56a88190763a4b149eaea8fc6eaf3d8d
 #: ../../source/community/community-call-notes/2019-september.md:48
+#: a2a2d4b39f234dd2b922bc4909551580
 msgid "Denton   | Project Drawdown          | @DentonGentry   |"
 msgstr ""
 
 # 09a6d7c4ff3d4ee5b3d73e9eab227531
 #: ../../source/community/community-call-notes/2019-september.md:49
+#: a49cec8a2c1b4ec596c9cbfd98655566
 msgid "Nick     | GTRI                      | @nrbgt          |"
 msgstr ""
 
 # 2aea07b7205241f68da015e495e392fe
 #: ../../source/community/community-call-notes/2019-september.md:50
+#: 53e14fd4aea8404a94cdce5bb90c18dd
 msgid "Chico Venancio | BMC Group K. K.     | @chicocvenancio |"
 msgstr ""
 
 # 2ae4c693876a4d6db1252ced76c5a611
 #: ../../source/community/community-call-notes/2019-september.md:51
+#: 513d5609f5be42ada515a7bdf65cb649
 msgid "Tony Fast | Quansight | @tonyfast |"
 msgstr ""
 
 # 2e782ce8de7a492984bc64cdd2b084f6
 #: ../../source/community/community-call-notes/2019-september.md:52
+#: 61eda12742124d318ac9b17881ace2a5
 msgid "Wayne Decatur | Upstate Medical | @fomightez |"
 msgstr ""
 
 # 74fc5744ec6642d483b911cb4b1e031b
 #: ../../source/community/community-call-notes/2019-september.md:53
+#: 714c32fb48cf4cd8b681cebd86ed639d
 msgid "Kevin Bates | IBM | @kevin-bates |"
 msgstr ""
 
 # 6bd6bb6774b1433f8f1bf98b08d6725f
 #: ../../source/community/community-call-notes/2019-september.md:54
+#: ba9ca6c88442469cb62e6a5540baf7f5
 msgid "Carol | Jupyter | @willingc |"
+msgstr ""
+
+#: ../../source/community/community-call-notes/index.rst:11
+msgid "September 2019"
+msgstr ""
+
+#: ../../source/community/community-call-notes/index.rst:11
+msgid "August 2019"
+msgstr ""
+
+#: ../../source/community/community-call-notes/index.rst:11
+msgid "June 2019"
+msgstr ""
+
+#: ../../source/community/community-call-notes/index.rst:11
+msgid "May 2019"
+msgstr ""
+
+#: ../../source/community/community-call-notes/index.rst:11
+msgid "April 2019"
+msgstr ""
+
+#: ../../source/community/community-call-notes/index.rst:11
+msgid "March 2019"
 msgstr ""
 
 # 2bdfad80e4bc4c62a0f6f6a24e0fd7f2
 #: ../../source/community/community-call-notes/index.rst:7
+#: 6cf57dd682cd4c7ba0f91c1e4e479e35
 msgid ""
 "The Jupyter Community Call is an open video call. Think of this as a "
 "\"monthly, virtual JupyterCon\". It's a place for *anyone* to announce "
@@ -1955,16 +2329,18 @@ msgstr ""
 
 # 1267e686bd0d4b039cedfdb4f29dd262
 #: ../../source/community/community-call-notes/index.rst:9
+#: ecfa147cd5bb40fa87f10013458fb7e7
 msgid "**Previous Community Calls**"
 msgstr ""
 
-# ba90bd9d9ad94b8c98e873ac5b4431e6
 #: ../../source/community/content-community.rst:5
-msgid "Community Guides"
+#: 8eef8ca4478a4624b4310121afbce8ff
+msgid "Community"
 msgstr ""
 
 # d54af2f83db8471499576db794d43eb0
 #: ../../source/community/content-community.rst:8
+#: 5ca6907bc196497999950e1f3d8813ac
 msgid ""
 "Welcome to the Community Guides for Jupyter. These guides are intended to"
 " provide information about the Jupyter community such as background, "
@@ -1974,11 +2350,13 @@ msgstr ""
 
 # ddb34dc7214346588c43db31dd75a02c
 #: ../../source/community/content-community.rst:15
+#: 1d30bb1cefbc43cc8d5180489920b3f3
 msgid "Monthly Meetings"
 msgstr ""
 
 # 6baa512bd6c34089936b8ec1cfabb762
 #: ../../source/community/content-community.rst:17
+#: bd950265a1894c68ab0e88aa9ac57015
 msgid ""
 "This following calendar shows the various meetings and events from "
 "Jupyter sub-projects:"
@@ -1986,6 +2364,7 @@ msgstr ""
 
 # 1619503c14774902b78d65ca9b79d141
 #: ../../source/community/content-community.rst:24
+#: d7c03a950e1b4f67871e185800c31930
 msgid ""
 "The core developers of various Jupyter sub-projects have regular meetings"
 " to discuss and demo what they have been working on, discuss future "
@@ -1995,6 +2374,7 @@ msgstr ""
 
 # f34a0721b4874356a8ac819e93fef795
 #: ../../source/community/content-community.rst:28
+#: 6e9a0d556b314f8d9feb6e9b2126825e
 msgid ""
 "Each team has their own processes around logistics and planning for the "
 "team meetings. The following pages should help you find the information "
@@ -2003,6 +2383,7 @@ msgstr ""
 
 # e191ff6ab041422b94c082b8194f1bb5
 #: ../../source/community/content-community.rst:32
+#: 26797d5403974b89bfc9ffdce07ce2f4
 msgid ""
 "**All-Jupyter Community Calls** happen on the last Tuesday of every "
 "month, and are focused around demonstrations and sharing information "
@@ -2011,6 +2392,7 @@ msgstr ""
 
 # bab41d17142c4f01a84e8931031ef15b
 #: ../../source/community/content-community.rst:35
+#: 4b7fabaaed364d57a156e4326d88ceff
 msgid ""
 "Find information on `this Discourse thread "
 "<https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_."
@@ -2018,6 +2400,7 @@ msgstr ""
 
 # b14012ac8c7d4f7d9b1fa40ad998d8a5
 #: ../../source/community/content-community.rst:36
+#: 8354e8e0412844beb336dbd4a98e25ea
 msgid ""
 "Watch previous calls on `our YouTube channel "
 "<https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_."
@@ -2025,11 +2408,13 @@ msgstr ""
 
 # 94fd509d19b04c98ac0e82a0aa3003aa
 #: ../../source/community/content-community.rst:37
+#: 0690ef12062240658d6f56fc086aacf8
 msgid "Read the `notes from previous calls <community-call-notes/index.html>`_."
 msgstr ""
 
 # b6c188f529e043bb8740f19fad6db3a2
 #: ../../source/community/content-community.rst:40
+#: e3a5b3de3144470da4f2d823566c8bef
 msgid ""
 "**JupyterHub meetings** happen monthly. For a calendar of future team "
 "meetings, see `the JupyterHub team compass repository <https"
@@ -2038,6 +2423,7 @@ msgstr ""
 
 # d87217c537f04a3e94fee9b03871ddb8
 #: ../../source/community/content-community.rst:43
+#: 3594d5ed33284cb892d0b2dfd4bdc744
 msgid ""
 "**JupyterLab meetings** happen weekly. For more information about when "
 "these meetings happen, as well as notes from each meeting, see `the "
@@ -2047,6 +2433,7 @@ msgstr ""
 
 # 5cb8eb65c5d342cb82cd6e06b515c4bb
 #: ../../source/community/content-community.rst:46
+#: 27ba7ce1c1764b548a4a9c8e55b34fe7
 msgid ""
 "**General meeting conversation and planning** often happens in the `dev-"
 "meeting-attendance Gitter channel <https://gitter.im/jupyter/dev-meeting-"
@@ -2056,11 +2443,13 @@ msgstr ""
 
 # 85d662482e654ca8a60eb03ea3c16a49
 #: ../../source/community/content-community.rst:55
+#: 14a36b3a63f942f49d2c73033d5f837e
 msgid "Jupyter communications"
 msgstr ""
 
 # af1931399f504fde9b5c379ab97c3788
 #: ../../source/community/content-community.rst:57
+#: b841cfc9f71c42e6bcf2655076645e79
 msgid ""
 "As a general rule, most project-wide conversation happens in the `Jupyter"
 " community forum <https://discourse.jupyter.org>`_. There are also many "
@@ -2070,36 +2459,43 @@ msgstr ""
 
 # 2c02c8ede4514562b849edfba6bcc50e
 #: ../../source/community/content-community.rst:62
+#: 47f94ed6ee404101aa3cb3b2b5cb3884
 msgid "Community forum `<https://discourse.jupyter.org/>`_"
 msgstr ""
 
 # fb525140606947bebc38796903ee7659
 #: ../../source/community/content-community.rst:63
+#: 421d80ff95c54334846423e466e258f6
 msgid "Blog `<https://blog.jupyter.org/>`_"
 msgstr ""
 
 # 64fab8ffafb24a7bb060d4359ec04feb
 #: ../../source/community/content-community.rst:64
+#: e57920a1d756466a96451ebc23b4b6ca
 msgid "Newsletter `<https://newsletter.jupyter.org/>`_"
 msgstr ""
 
 # ef8f773e0424467eb83e939805663888
 #: ../../source/community/content-community.rst:65
+#: 45b6201d80874d76a7dcca2974ecf24c
 msgid "Website `<https://jupyter.org>`_"
 msgstr ""
 
 # 8e575a689ab845919c525a57feacbdb3
 #: ../../source/community/content-community.rst:66
+#: b377f137cadf4552a530ab82e154e9e3
 msgid "Twitter `<https://twitter.com/ProjectJupyter>`_"
 msgstr ""
 
 # 80103b709d94489da4c958855044ce23
 #: ../../source/community/content-community.rst:67
+#: 749b21805ada4a4d9ef038cebc082294
 msgid "Gitter `<https://gitter.im/jupyter/jupyter>`_"
 msgstr ""
 
 # dd12e64a1c6242688e11b1e72d4b7d17
 #: ../../source/community/content-community.rst:68
+#: 78dcad4520cb4732888150fd434a5117
 msgid ""
 "Mailing lists (Jupyter, Jupyter in Education) "
 "`<https://jupyter.org/community.html>`_"
@@ -2107,11 +2503,13 @@ msgstr ""
 
 # d8926bc097014aa68efb0246f0e69e7e
 #: ../../source/community/content-community.rst:72
+#: 838167eac4fe492f84ae0fab7db55d95
 msgid "Governance"
 msgstr ""
 
 # 415a23b6140845c1b39b127b61a35e6e
 #: ../../source/community/content-community.rst:74
+#: e4caa5a9f7f1446bbe326872001cfc2d
 msgid ""
 "Steering council: Information about the steering council and its members "
 "can be found on the `Jupyter website <https://jupyter.org>`_."
@@ -2119,6 +2517,7 @@ msgstr ""
 
 # 9849b1d2be9949b790f8d9cb251e7531
 #: ../../source/community/content-community.rst:76
+#: 68a1411b3d034f6b926eecacdd25f0c9
 msgid ""
 "Jupyter Enhancement Proposal (JEP) process: Details about the process can"
 " be found in the `jupyter/enhancement-proposals GitHub repo "
@@ -2127,11 +2526,13 @@ msgstr ""
 
 # 03da538fdae3452f9e7fa72740db23a8
 #: ../../source/community/content-community.rst:81
+#: 4be816056e184257964139a7d16060c7
 msgid "Code of conduct"
 msgstr ""
 
 # b6254391831147a4afcef3c22844e45c
 #: ../../source/community/content-community.rst:83
+#: 18cc7ee69156472eb64dea76a70d94f5
 msgid ""
 "Information can be found in the `Jupyter Governance repo on GitHub "
 "<https://github.com/jupyter/governance>`_."
@@ -2139,11 +2540,13 @@ msgstr ""
 
 # 8631493f520c4c5d9aa3b82c61b18697
 #: ../../source/community/content-community.rst:87
+#: a08bc52275454f38a4c74a8dfc81f2fc
 msgid "Running Jupyter Events"
 msgstr ""
 
 # 137649fb2f5245deafef6be8d2c45f67
 #: ../../source/community/content-community.rst:89
+#: 6b2188da01a4485ab362ce69c80a0af1
 msgid ""
 "Members of the Jupyter community often get together to share what they're"
 " working on, to work together, and to teach and learn from one another."
@@ -2151,6 +2554,7 @@ msgstr ""
 
 # 18ab4d3d9f3740539a0ea04a1434ae48
 #: ../../source/community/content-community.rst:92
+#: 587425b78bd5489ab530894359bfdc26
 msgid ""
 "If you're organizing an event with the Jupyter community (whether it's as"
 " small as a JupyterDays meetup, or as large as JupyterCon) you should "
@@ -2161,6 +2565,7 @@ msgstr ""
 
 # da3a24e3be164ae5acc14cc40b89efa7
 #: ../../source/community/content-community.rst:98
+#: 239c7d95978a4346a8e0459071486939
 #, python-format
 msgid ""
 "Shoot for having **25% of your participants come from under-represented "
@@ -2170,6 +2575,7 @@ msgstr ""
 
 # c2b3b009069d47a68b80607d72c3aac3
 #: ../../source/community/content-community.rst:102
+#: 9f249dd2f76740db86c05a5ea3de9373
 msgid ""
 "**Mozilla** has a number of excellent resources on hosting open events. "
 "The `Mozilla Open Events guide "
@@ -2186,6 +2592,7 @@ msgstr ""
 
 # caf59581a04945b19d2b984c39c0568b
 #: ../../source/community/content-community.rst:109
+#: b355e491c8754c578417668da28f2c2b
 msgid ""
 "The `NumFocus DISCOVER cookbook <https://discover-"
 "cookbook.numfocus.org/>`_ is another collection of resources for making "
@@ -2194,6 +2601,7 @@ msgstr ""
 
 # f5d3e95f70224993a8ee5b6f06c1c366
 #: ../../source/community/content-community.rst:112
+#: f7fdba01fdab4fcc90ef81b81dbbf865
 msgid ""
 "The `National Center for Women & Information Technology "
 "<https://www.ncwit.org/>`_ has an excellent collection of resources for "
@@ -2207,6 +2615,7 @@ msgstr ""
 
 # 3bc67786253a4cb4b32b9832fa2adb7f
 #: ../../source/community/content-community.rst:116
+#: 12dd4172bdbf4d549d7772e4b883799a
 msgid ""
 "The `PyCascades <https://pycascades.com>`_ community has `several efforts"
 " in improving diversity and inclusion <https://2019.pycascades.com"
@@ -2215,6 +2624,7 @@ msgstr ""
 
 # d7ff8abd9f234f10889c38cb7f961992
 #: ../../source/community/content-community.rst:117
+#: ae582545ce144d0dab528e821f49643d
 msgid ""
 "`Write the Docs <http://www.writethedocs.org/>`_ has a `Welcome Wagon "
 "Guide <https://www.writethedocs.org/organizer-guide/confs/welcome-"
@@ -2223,6 +2633,7 @@ msgstr ""
 
 # f06cd4cad8664f3eb2130b00c6e909e2
 #: ../../source/community/content-community.rst:120
+#: b0a93a156dfe4362b239b879b85d184a
 msgid ""
 "Ultimately, making events more inclusive is not rocket science and there "
 "is no magic bullet. It requires clear, focused dedication, planning "
@@ -2232,11 +2643,13 @@ msgstr ""
 
 # 4546949c9a144a1298252a5bd089279d
 #: ../../source/community/content-community.rst:127
+#: e10f0c096e7846ceb59d313e0dc4dc4f
 msgid "What is a Jovyan?"
 msgstr ""
 
 # b38815a36fd840c69333c684d44fc01e
 #: ../../source/community/content-community.rst:129
+#: 01fbc7cbb55644e58c64d63012a69c1d
 msgid ""
 "You may see the word **Jovyan** used in Jupyter tools (such as the user "
 "ID in the `Jupyter Docker stacks <https://github.com/jupyter/docker-"
@@ -2245,6 +2658,7 @@ msgstr ""
 
 # 7a43f41ad815452bb5df25efb5a039bb
 #: ../../source/community/content-community.rst:133
+#: e1e128ab25b14145b52616cdf3f88fab
 msgid ""
 "In astronomical terms, the word \"Jovian\" means \"like Jupiter\". It "
 "describes `several planets that share Jupyter-like properties "
@@ -2253,6 +2667,7 @@ msgstr ""
 
 # 5f92f3a419da4e1aa815eb1ce1929306
 #: ../../source/community/content-community.rst:136
+#: 9dea16a6264242a199774780800d5bac
 msgid ""
 "Much like the planet Jupiter and our solar system, the Jupyter community "
 "is large, distributed, and nebulous. We like to use the word **Jovyan** "
@@ -2270,5 +2685,9 @@ msgstr ""
 #~ "stacks <https://github.com/jupyter/docker-stacks?`_ "
 #~ "or referenced in conversations. But what"
 #~ " is a Jovyan?"
+#~ msgstr ""
+
+# ba90bd9d9ad94b8c98e873ac5b4431e6
+#~ msgid "Community Guides"
 #~ msgstr ""
 
