@@ -1,5 +1,5 @@
-Jupyter Notebook Quickstart
-===========================
+Quickstart
+==========
 
 .. toctree::
    :maxdepth: 1

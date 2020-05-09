@@ -1,5 +1,5 @@
-Architecture Guides
-===================
+Architecture
+============
 
 .. toctree::
    :maxdepth: 1
