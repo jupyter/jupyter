@@ -12,8 +12,7 @@ jobs:
             - cache-pip
       - run: pip install --user -e .
       - run: pip install --user -r docs/doc-requirements.txt
-      - run: pip install --user sphinx_rtd_theme
-      
+
       # Cache some files for a speedup in subsequent builds
       - save_cache:
           key: cache-pip
@@ -25,7 +24,7 @@ jobs:
           command: |
             cd docs
             make html
-      
+
       # Tell Circle to store the documentation output in a folder that we can access later
       - store_artifacts:
           path: docs/build/html/

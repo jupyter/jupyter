@@ -20,3 +20,28 @@ p.first.admonition-title {
 	color: #ffffff;
 }
 
+
+/* Front page table styling */
+
+.front-page-table td > p {
+    margin-bottom: 0em;
+}
+
+.front-page-table td > p:last-child {
+    font-style: italic;
+}
+
+.front-page-table a.reference {
+    font-size: 1.3em;
+}
+
+.front-page-table.table td, .front-page-table.table th {
+    border: none;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+div.card ul.simple {
+    list-style: none;
+    padding-left: 1em;
+}
