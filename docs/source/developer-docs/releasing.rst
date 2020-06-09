@@ -1,4 +1,4 @@
-.. _releasing:
+.. _releasing-Jupyter-Project:
 
 ==============================================
 Basic template for releasing a Jupyter project

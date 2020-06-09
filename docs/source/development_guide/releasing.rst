@@ -1,4 +1,4 @@
-.. _releasing:
+.. _releasing-IPython:
 
 Steps for Releasing IPython
 ===========================

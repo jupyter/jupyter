@@ -29,10 +29,7 @@ Example Use-Cases
 
 - `PayPal Notebooks: Data science and machine learning at scale, powered by Jupyter <https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/68405>`_ (JupyterCon 2018 · `video <https://youtu.be/KVGrACWVUgE>`_)
 
-- Bloomberg BQuant platform:
-
-  - `Part 1: Overview <https://adrian-gao.com/2018/02/bloomberg-bqnt-1/>`_
-  - `Part 2: The BQNT App <https://adrian-gao.com/2018/04/bloomberg-bqnt-2/>`_
+- `Bloomberg BQuant platform <https://mingze-gao.com/posts/bloomberg-bquant/>`_
 
 - `Jupyter & Python in the corporate LAN <https://medium.com/@olivier.borderies/jupyter-python-in-the-corporate-lan-109e2ffde897>`_
 
