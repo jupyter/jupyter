@@ -78,4 +78,4 @@ Indices and tables
    `Jupyter mailing list <https://groups.google.com/forum/#!forum/jupyter>`_, General discussion of Jupyter's use
    `Jupyter in Education group <https://groups.google.com/forum/#!forum/jupyter-education>`_, Discussion of Jupyter's use in education
    `NumFocus <http://www.numfocus.org>`_, "Promotes world-class, innovative, open source scientific software"
-   `Donate to Project Jupyter <https://jupyter.org/donate.html>`_, Please contribute to open science collaboration and sustainability
+   `Donate to Project Jupyter <https://numfocus.salsalabs.org/donate-to-jupyter/index.html>`_, Please contribute to open science collaboration and sustainability

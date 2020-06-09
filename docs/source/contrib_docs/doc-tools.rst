@@ -9,7 +9,7 @@ Packages
 For user documentation, contributor guides, and communications content, we
 use:
 
-- `Sphinx <http://www.sphinx-doc.org/en/stable>`_
+- `Sphinx <https://www.sphinx-doc.org/en/master/contents.html>`_
 
 For developer API documentation (especially for JupyterLab js repos), we use:
 
