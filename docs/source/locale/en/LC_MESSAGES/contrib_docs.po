@@ -9,27 +9,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-21 01:31+0000\n"
+"POT-Creation-Date: 2020-06-09 19:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 # 8951f6f4ecb1413bbb04b398218015c5
 #: ../../source/contrib_docs/doc-future-index.rst:2
+#: 5bc423eb9ad84dcca4fa62619e8f8e64
 msgid "Setting up a project's documentation infrastructure"
 msgstr ""
 
 # 7cdfc8fab5b84b2a888d19fbfe55aa37
 #: ../../source/contrib_docs/doc-future-index.rst:4
+#: 35897e924b334e43bdc33a5d4213e355
 msgid "Contents:"
 msgstr ""
 
 # 1bde3a53c29249958887df3f45554bdf
 #: ../../source/contrib_docs/doc-future-index.rst:13
+#: 6147a985e3cb4520b59ec40ca2080a7b
 msgid ""
 "This section helps a contributor set up the documentation infrastructure "
 "for a new project or an existing project without Sphinx documentation."
@@ -37,11 +40,13 @@ msgstr ""
 
 # 232486a6287c412b99f0022d6d84e90a
 #: ../../source/contrib_docs/doc-new-build.md:1
+#: 8b2a7a0ec330488b88ed8fe0e4a31e9d
 msgid "Building automatically on ReadTheDocs"
 msgstr ""
 
 # fbc01acaa56d459985a5988de5128194
 #: ../../source/contrib_docs/doc-new-build.md:3
+#: 6370cc5241fb4687828f334e70f37b88
 msgid ""
 "This explains how to automatically rebuild documentation on ReadtheDocs "
 "every time a pull request is merged into its corresponding GitHub repo."
@@ -49,11 +54,13 @@ msgstr ""
 
 # 27905f3382e1420588048c37cb32d617
 #: ../../source/contrib_docs/doc-new-build.md:6
+#: 0a72dd8a8b7b4ac0a6abbdacdf6e88e5
 msgid "Using the ReadTheDocs service"
 msgstr ""
 
 # 548f76347eeb494da8083cb3c13d39f2
 #: ../../source/contrib_docs/doc-new-build.md:8
+#: 4b8a1bc2b0f444f8b8810691af802a18
 msgid ""
 "Webhooks and services can be enabled in GitHub repo settings to allow "
 "third party services such as ReadTheDocs. The ReadTheDocs service "
@@ -63,11 +70,13 @@ msgstr ""
 
 # 1ff476bad0cf4c0bab9ba8c06d1af401
 #: ../../source/contrib_docs/doc-new-build.md:12
+#: b9dc8d53cd6e420c9f1f43df710aade4
 msgid "Navigate to Settings"
 msgstr ""
 
 # c3fb69257cb4414f8c0b7af8054e4811
 #: ../../source/contrib_docs/doc-new-build.md:14
+#: 99131f924d2c43f9afa1a69ce272674e
 msgid ""
 "Each GitHub repo has a Settings tab at the far right of the repo menubar."
 " Navigate to Settings and then the Webhooks & services submenu tab."
@@ -75,16 +84,19 @@ msgstr ""
 
 # 3dedea5f462f482580216a01d0730972
 #: ../../source/contrib_docs/doc-new-build.md:16
+#: ac23e2668242474a9efe245945b95ff4
 msgid "Settings and Webhooks & services submenu"
 msgstr ""
 
 # e1791743951046f796933c3014462134
 #: ../../source/contrib_docs/doc-new-build.md:18
+#: b7aba101621c4a19a6937a3602879c43
 msgid "Add the ReadTheDocs service"
 msgstr ""
 
 # b492918cb93240ed8719e6876a9ef1d9
 #: ../../source/contrib_docs/doc-new-build.md:20
+#: 3deb82c130fe42189452078312db76fa
 msgid ""
 "Select Add service and enter ReadTheDocs in the Available Services input "
 "box."
@@ -92,6 +104,7 @@ msgstr ""
 
 # 55a4fff635a5445fb6d765c4e40ce046
 #: ../../source/contrib_docs/doc-new-build.md:22
+#: 3df73e52746747d6b79d0582995c6405
 msgid ""
 "The Services/Add ReadTheDocs window will open. Press the green Add "
 "service button to activate the ReadTheDocs service."
@@ -99,16 +112,19 @@ msgstr ""
 
 # 505867437b214d4f812e8fb9b70ca0d9
 #: ../../source/contrib_docs/doc-new-build.md:24
+#: 2601ad2f2c8d4473bd1e6b70bb2e5f38
 msgid "Add ReadTheDocs service"
 msgstr ""
 
 # 112b55c373134049a1fc640695b3799e
 #: ../../source/contrib_docs/doc-new-build.md:26
+#: 44d84a8d52e84483b5c73e8651a30c4e
 msgid "Success"
 msgstr ""
 
 # f38a664a1d164422ae6a4aa7b3d5bb50
 #: ../../source/contrib_docs/doc-new-build.md:28
+#: f38ee10a13f84dc6ad8ebfd7ac572e8c
 msgid ""
 "The ReadTheDocs service is added successfully. The service will take "
 "effect on the next merged pull request to the project repo."
@@ -116,21 +132,25 @@ msgstr ""
 
 # 4012a2bd5b4a452aa2bc78013a0ae401
 #: ../../source/contrib_docs/doc-new-build.md:30
+#: db5c61477bad44f19a6d72ff00411e24
 msgid "Service successfully added"
 msgstr ""
 
 # c03788a9bdba433c9198fb72eaf07450
 #: ../../source/contrib_docs/doc-new-build.md:33
+#: 008f468d95164ad3a10e024037d63f65
 msgid "Created: 01-07-2016"
 msgstr ""
 
 # 64bec8ddf86a46e3be1010335ab3b857
 #: ../../source/contrib_docs/doc-new-repos.md:1
+#: f0fb453bb2d64fe1aab70de7af54c1d6
 msgid "Setting up a README"
 msgstr ""
 
 # d22ac7f8b0574e0493a17b325c369177
 #: ../../source/contrib_docs/doc-new-repos.md:3
+#: 0ae1c50a94264cac80a06cf37c5dbbe1
 msgid ""
 "Providing users and developers consistency across repos is a valuable "
 "time saver and improves user productivity."
@@ -138,6 +158,7 @@ msgstr ""
 
 # f3c2890b764d4be989a58f23591ac8f4
 #: ../../source/contrib_docs/doc-new-repos.md:6
+#: 7861154d70314484bdd062e15fef783a
 msgid ""
 "On a larger scope, having the Jupyter name appear prominently in a repo's"
 " README.md file improves the project's name awareness."
@@ -145,31 +166,37 @@ msgstr ""
 
 # 36da1d4b745446a184f24d86860ee5cf
 #: ../../source/contrib_docs/doc-new-repos.md:9
+#: f926a5f9a9234b8ea4aebccfad0f59b9
 msgid "Recommended elements in Jupyter project repos"
 msgstr ""
 
 # d7ed0a7e260844f3929c586a5bcec7d6
 #: ../../source/contrib_docs/doc-new-repos.md:11
+#: ec7254e99ead4b779854ba09acf9548b
 msgid "Link in repo description"
 msgstr ""
 
 # 3188a81d5e804531bc59f4fc56d45db5
 #: ../../source/contrib_docs/doc-new-repos.md:12
+#: 3b7f145d1372429694d12937574f63c8
 msgid "Please include a link to the documentation in the repo's description."
 msgstr ""
 
 # 7077cfb8652645adb68f9d5bf15d8c2b
 #: ../../source/contrib_docs/doc-new-repos.md:14
+#: a86df70025304750b1a6e0aabbf0c397
 msgid "Repo description and documentation link"
 msgstr ""
 
 # 362deb326ee04287888a851b40b75f26
 #: ../../source/contrib_docs/doc-new-repos.md:16
+#: 24581cfaea6840a7b5c17b5f2ba10f02
 msgid "Badges in README"
 msgstr ""
 
 # ac386bdd61694670af3624cef2c354fa
 #: ../../source/contrib_docs/doc-new-repos.md:17
+#: 6108457767134bd2bea4aa81447bc77c
 msgid ""
 "One common way that individuals find documentation is to look for and "
 "click on the doc badge that commonly is found right after the title. "
@@ -179,16 +206,19 @@ msgstr ""
 
 # b7335017aa17487d8a3e44cbdc89d333
 #: ../../source/contrib_docs/doc-new-repos.md:21
+#: 48987bad95da4bae9dc52953fe8f4214
 msgid "Badges in README.md"
 msgstr ""
 
 # 16fc8f66cf7b406b8c2876ba146d5761
 #: ../../source/contrib_docs/doc-new-repos.md:23
+#: d1be302aa97b4d8282742d25708f5051
 msgid "Resources section in README"
 msgstr ""
 
 # 85c29f39bd9e4b7b9148b6d98300bf75
 #: ../../source/contrib_docs/doc-new-repos.md:25
+#: b524f3911f0b4cc6a02eb91fa69fb264
 msgid ""
 "A Resources section at the end of the README.md gives useful links and "
 "information to users about the individual project and the larger Project "
@@ -198,21 +228,25 @@ msgstr ""
 
 # e3415ff12b4b44e49f2851fb583115a4
 #: ../../source/contrib_docs/doc-new-repos.md:30
+#: 3a5b27337c414600869a88141608a639
 msgid "The Resources section includes:"
 msgstr ""
 
 # 1b42fb1633d64f88b651ae5509fc2bea
 #: ../../source/contrib_docs/doc-new-repos.md:32
+#: 374408f30a33498c802080beeea95323
 msgid "Resources section in README.md"
 msgstr ""
 
 # 49575d164ce8451592d3bc3717307aa3
 #: ../../source/contrib_docs/doc-new-repos.md:35
+#: 51d99643ed534a279eec170819316171
 msgid "Checklist adding docs to a new or existing GitHub Repo"
 msgstr ""
 
 # 4843875169d544fca6173c7f5221420c
 #: ../../source/contrib_docs/doc-new-repos.md:37
+#: cbfede1eb9af40d59d775ca5ebba122c
 msgid ""
 "[ ] Add a link to documentation in repo description (requires GitHub repo"
 " privileges)"
@@ -220,11 +254,13 @@ msgstr ""
 
 # f07c40e2f2e647e8b825d52f3563785e
 #: ../../source/contrib_docs/doc-new-repos.md:38
+#: 66c5e3ab35f94a7ebddde47b8bee9b62
 msgid "[ ] Add badges to README (Edit README.md and submit pull request)"
 msgstr ""
 
 # bf01c15439204d35b9a4a91ffc86f239
 #: ../../source/contrib_docs/doc-new-repos.md:39
+#: 47043f4602d94574a7093080eccec06a
 msgid ""
 "[ ] Add resources section to README (Edit README.md and submit pull "
 "request)"
@@ -232,11 +268,12 @@ msgstr ""
 
 # 335e33a3a2ec4b8994a769c697be5039
 #: ../../source/contrib_docs/doc-new-repos.md:42
+#: 09d5b72f3a3a47a59f087bd3955c0d82
 msgid "Dated: 1-4-2016 Revised: 1-7-2016"
 msgstr ""
 
 # 7f017745d5c34b3f91c54f653b2793d1
-#: ../../source/contrib_docs/doc-tools.rst:2
+#: ../../source/contrib_docs/doc-tools.rst:2 e79756a26c0e49a38e0cc6611e6b43ca
 msgid "Tools for documentation"
 msgstr ""
 
@@ -244,67 +281,67 @@ msgstr ""
 # 0e6a4fd1bdd7427dbc0d45d78f5cd710
 #: ../../source/contrib_docs/doc-tools.rst:5
 #: ../../source/contrib_docs/getting-started.rst:5
+#: 1f83bc921e584cd8a68f233c05083341 eb3aab58d0f948e79b7828f9d9524513
 msgid "Contents"
 msgstr ""
 
 # 70ea135c1ab44fbba9a46a8f7992d014
-#: ../../source/contrib_docs/doc-tools.rst:8
+#: ../../source/contrib_docs/doc-tools.rst:8 d493d20bd7084bb5a63a4a873a120eb8
 msgid "Packages"
 msgstr ""
 
 # 0cd99c51dc1344f2a28d229978446fdb
-#: ../../source/contrib_docs/doc-tools.rst:9
+#: ../../source/contrib_docs/doc-tools.rst:9 2a6fda1866534243a6d4331c50645334
 msgid ""
 "For user documentation, contributor guides, and communications content, "
 "we use:"
 msgstr ""
 
-# e4db7b119bc747ab932bd5b9475de798
-#: ../../source/contrib_docs/doc-tools.rst:12
-msgid "`Sphinx <http://www.sphinx-doc.org/en/stable>`_"
+#: ../../source/contrib_docs/doc-tools.rst:12 c4a992865f7d4f5091449783ff411a7a
+msgid "`Sphinx <https://www.sphinx-doc.org/en/master/contents.html>`_"
 msgstr ""
 
 # 89cb08a083b7405b899da55da2c386dc
-#: ../../source/contrib_docs/doc-tools.rst:14
+#: ../../source/contrib_docs/doc-tools.rst:14 34df3195b187439a969d34ff175c5b06
 msgid ""
 "For developer API documentation (especially for JupyterLab js repos), we "
 "use:"
 msgstr ""
 
 # 66229f6c114e4652b13bd066643cae2a
-#: ../../source/contrib_docs/doc-tools.rst:16
+#: ../../source/contrib_docs/doc-tools.rst:16 5e5e2db1e7f14c9c9a21ea209bbec69d
 msgid "`swagger <http://swagger.io/>`_"
 msgstr ""
 
 # 4241f08f75b745cc91401487dfb43473
-#: ../../source/contrib_docs/doc-tools.rst:19
+#: ../../source/contrib_docs/doc-tools.rst:19 3a1f0e3add234e6aa64585eeaa9c73ff
 msgid "Source file formats"
 msgstr ""
 
 # 0e502ec731f24f729b096c7ef2aac637
-#: ../../source/contrib_docs/doc-tools.rst:20
+#: ../../source/contrib_docs/doc-tools.rst:20 4b401445534a43d4992eb3e829490706
 msgid ""
 "We use the following input source file formats when developing Sphinx "
 "documentation:"
 msgstr ""
 
 # c35638daf71349ab94f174d9c40088fa
-#: ../../source/contrib_docs/doc-tools.rst:23
+#: ../../source/contrib_docs/doc-tools.rst:23 0019c077de094961ac25f1421544d404
 msgid "reStructuredText (``.rst``)"
 msgstr ""
 
 # 31a7dcfa85f545308ff3c24f7f5fa6da
-#: ../../source/contrib_docs/doc-tools.rst:24
+#: ../../source/contrib_docs/doc-tools.rst:24 abb6a30f83414c169fc5b60d07be8b8c
 msgid "Markdown (``.md``)"
 msgstr ""
 
 # 99f22d7ed28e4ec6b6739ab4d3b0fca1
-#: ../../source/contrib_docs/doc-tools.rst:25
+#: ../../source/contrib_docs/doc-tools.rst:25 160ab829382c44e993ca1b2fa9d4115b
 msgid "Notebook (``.ipynb``)"
 msgstr ""
 
 # 6bc8c61685c94741b9a52990ac840a31
-#: ../../source/contrib_docs/doc-tools.rst:27
+#: ../../source/contrib_docs/doc-tools.rst:27 490f1ff27d7d400e9e77b1433a79a387
 msgid ""
 "A modern code editor should be used. Many are available including Atom, "
 "SublimeText, gedit, vim, emacs. `Atom <https://atom.io/>`_ is a good "
@@ -312,59 +349,59 @@ msgid ""
 msgstr ""
 
 # 36d19549dd2e4365a6c5e8e035cd54c6
-#: ../../source/contrib_docs/doc-tools.rst:32
+#: ../../source/contrib_docs/doc-tools.rst:32 4e5d9059f3d94489ba329bf68bb8367c
 msgid "Sphinx themes"
 msgstr ""
 
 # 1eb43a99bb26411382f63038cc477cee
-#: ../../source/contrib_docs/doc-tools.rst:33
+#: ../../source/contrib_docs/doc-tools.rst:33 83e6ce90fdbd47bfaf290b35e9e577bf
 msgid "Our projects use the following themes:"
 msgstr ""
 
 # 29670e07c5044935b15456980e34fae1
-#: ../../source/contrib_docs/doc-tools.rst:35
+#: ../../source/contrib_docs/doc-tools.rst:35 0a7d5fd6131245bd889c0bf4df2f4b55
 msgid "sphinx_rtd_theme (currently used by Jupyter projects)"
 msgstr ""
 
 # f9cd1912e9bc4bd79e22274b5ce9acdf
-#: ../../source/contrib_docs/doc-tools.rst:36
+#: ../../source/contrib_docs/doc-tools.rst:36 0357af9517434a55aace22d73d4a02c7
 msgid "jupyter_sphinx_theme (used by ipywidgets)"
 msgstr ""
 
 # d987578c0b164c1ba1296f4b300cac54
-#: ../../source/contrib_docs/doc-tools.rst:39
+#: ../../source/contrib_docs/doc-tools.rst:39 faa457f05e524ae89a928c20f971c7d6
 msgid "Git and Github Resources"
 msgstr ""
 
 # 50b964b050404597b31edeb7431ffb85
-#: ../../source/contrib_docs/doc-tools.rst:40
+#: ../../source/contrib_docs/doc-tools.rst:40 a090e668797144f8818223b58399f2e5
 msgid ""
 "If this is your first time working with Github or git, you can leverage "
 "the following resources to learn about the tools."
 msgstr ""
 
 # 0b58d8ea7318429ba17fb25d493dbe11
-#: ../../source/contrib_docs/doc-tools.rst:43
+#: ../../source/contrib_docs/doc-tools.rst:43 0225bf9ea3d443859958779f6fc2bffc
 msgid "`Try Git  <https://try.github.io/levels/1/challenges/1>`_"
 msgstr ""
 
 # 319d5b76f66a42d3894269987178b99c
-#: ../../source/contrib_docs/doc-tools.rst:44
+#: ../../source/contrib_docs/doc-tools.rst:44 8a1d3dbd0a6e475ba15965f78edb597b
 msgid "`Github Guides  <https://guides.github.com>`_"
 msgstr ""
 
 # 3b0ab86be2604595be117b97ae517309
-#: ../../source/contrib_docs/doc-tools.rst:45
+#: ../../source/contrib_docs/doc-tools.rst:45 97f6ec44d4b8400e9c03792a218b8e44
 msgid "`Git Real  <https://www.codeschool.com/courses/git-real>`_"
 msgstr ""
 
 # 9bf487d7abfc44c3ab65fc60610916db
-#: ../../source/contrib_docs/doc-tools.rst:46
+#: ../../source/contrib_docs/doc-tools.rst:46 3dbe5b9f66654a4da209d098de6da222
 msgid "`Git Documentation <https://git-scm.com/documentation>`_"
 msgstr ""
 
 # 6f130c2608c74cd481206a5302ce6ab4
-#: ../../source/contrib_docs/doc-tools.rst:47
+#: ../../source/contrib_docs/doc-tools.rst:47 48d9919a51e64646aebbf9acd5ad93e8
 msgid ""
 "`Git Rebase <https://github.com/pydata/pandas/wiki/Git-Workflows#user-"
 "content-git-rebase>`_"
@@ -372,26 +409,31 @@ msgstr ""
 
 # 73369309d0264c91801dadff4096eda3
 #: ../../source/contrib_docs/doc-workflow.rst:2
+#: ea7692f5f2734f0ca79c055921f9b8ba
 msgid "Understanding our workflow"
 msgstr ""
 
 # 3ad46563bdea4c718af906b06996645d
 #: ../../source/contrib_docs/doc-workflow.rst:4
+#: e5cf17a559f34e7fbf073b9f01dbca57
 msgid "**High level documentation workflow**"
 msgstr ""
 
 # bea011364bb5447f9a5ee2e0a1813bb7
 #: ../../source/contrib_docs/doc-workflow.rst:6
+#: b6924d231cb1460d94eb2e6fca4df4a2
 msgid "Identify a documentation change."
 msgstr ""
 
 # 0ecc5172dfa9449bb3fd7ddee5ab7a8f
 #: ../../source/contrib_docs/doc-workflow.rst:8
+#: 8e6d81b3ccc445d2bbb85a0f95d491f8
 msgid "*Typos:* please go ahead and fix it (or report as a bug)."
 msgstr ""
 
 # d2eec42d01aa43c49c9f599c56cf67f7
 #: ../../source/contrib_docs/doc-workflow.rst:9
+#: eeff4194e764423e9e210f71f1f1e005
 msgid ""
 "*Open issues:* leave a note in the issue comments that you are working on"
 " the issue."
@@ -399,6 +441,7 @@ msgstr ""
 
 # 5594fd91be4844ba8361a65dfea30f57
 #: ../../source/contrib_docs/doc-workflow.rst:11
+#: ed984abff71d4435a0cb338e95b65708
 msgid ""
 "*New documentation:* open an issue with your idea or suggestion. We'll "
 "review the issue and work with you to identify next steps."
@@ -406,31 +449,37 @@ msgstr ""
 
 # df7b4d15c41f4003b695a2e4ba5f9257
 #: ../../source/contrib_docs/doc-workflow.rst:14
+#: 6a8df2ca1f56463fb69389c7cffbb1da
 msgid "Update the source file."
 msgstr ""
 
 # 0a600b26d0214280b77a6ae44f71294f
 #: ../../source/contrib_docs/doc-workflow.rst:16
+#: a6e38000421f4e8db09d856941a172dd
 msgid "Commit the change."
 msgstr ""
 
 # 241782c238de4ebeb594ebe6cc2fe7a6
 #: ../../source/contrib_docs/doc-workflow.rst:18
+#: c50941211ed74037859a29d38d7b26f0
 msgid "Test changes locally."
 msgstr ""
 
 # b8f4ff91d74f453e8e4c680f537967de
 #: ../../source/contrib_docs/doc-workflow.rst:20
+#: 19d390746738418cabe07a95a13ab34c
 msgid "Open a pull request."
 msgstr ""
 
 # e943c50580c64ecaa32dd38a2ac2f8e2
 #: ../../source/contrib_docs/doc-workflow.rst:22
+#: 8b31d7bff9bf412ab1fa66e6385b6e9b
 msgid "Check response of automated tests."
 msgstr ""
 
 # 47edb06fb3c0469f87b591aa0e30925c
 #: ../../source/contrib_docs/doc-workflow.rst:24
+#: 9ad66293c95d49d284ff6c51d4c1aeef
 msgid ""
 "If tests pass: Nice job. Wait for reviewer feedback and/ or your pull "
 "request to be merged."
@@ -438,6 +487,7 @@ msgstr ""
 
 # 6b9c7c1cbd7d4772a778cc9c2f33a0d4
 #: ../../source/contrib_docs/doc-workflow.rst:27
+#: d50bae1ccf1d492a9edbd48bff6b8553
 msgid ""
 "If tests show an error: Revise and resubmit your pull request. You do not"
 " need to open a new pull request. If needed, please ask for assistance."
@@ -445,11 +495,13 @@ msgstr ""
 
 # 6c100a83bc8547909df09e2de4fa16f2
 #: ../../source/contrib_docs/doc-workflow.rst:31
+#: 5a486fd199cf4c00bb1e6f65729c337d
 msgid "Celebrate your documentation contribution."
 msgstr ""
 
 # 7f491e4696da4e01af2e68b97352a3f4
 #: ../../source/contrib_docs/doc-workflow.rst:33
+#: 564924b3d0a04066916dcd36007c0354
 msgid ""
 "Repeat. If you would like suggestions for a new documentation issue to "
 "work on, please ask."
@@ -457,41 +509,49 @@ msgstr ""
 
 # 4837ec4c20d84023875b77de40950374
 #: ../../source/contrib_docs/doc-workflow.rst:37
+#: 7cb336f4e5e049fd9cdd01019ba107aa
 msgid "Thanks for contributing!"
 msgstr ""
 
 # 96f8c8d5bd6b48b79a6fbfdadfe293b9
 #: ../../source/contrib_docs/getting-started.rst:2
+#: 78b9c029eb2e46019f8cdb3ec2fedf2b
 msgid "Getting started"
 msgstr ""
 
 # 41b8445aaef14b0f9277132ef8f7c64d
 #: ../../source/contrib_docs/getting-started.rst:8
+#: 94b1017476df46a689d7d2d551081e7a
 msgid "Preparing for your first contribution"
 msgstr ""
 
 # 5ff1615eb97f4322bc6b824fe2975e78
 #: ../../source/contrib_docs/getting-started.rst:9
+#: 03df2a78874f4895ab0e0cf372ceb249
 msgid "Our documentation uses reStructured Text as well as Jupyter notebooks."
 msgstr ""
 
 # 4f862af8ce2648e6a6f36a65f166c17a
 #: ../../source/contrib_docs/getting-started.rst:10
+#: 2a66eca0258f409cbe0af136e0de9790
 msgid "We use Sphinx extensively to build documentation."
 msgstr ""
 
 # 074f79e5aada4cf48e49e75da9a6f2e4
 #: ../../source/contrib_docs/getting-started.rst:11
+#: 417e35abed24443d82015699d64c4e88
 msgid "We host our documentation on Read the Docs."
 msgstr ""
 
 # 273c21f2f4c64cdc905c4b9c65df07e6
 #: ../../source/contrib_docs/getting-started.rst:14
+#: 61a73b1b627447d5bb667d155570a822
 msgid "Developing your contribution"
 msgstr ""
 
 # d34708a450ae4c98b03feb4ff944a1cc
 #: ../../source/contrib_docs/getting-started.rst:16
+#: 699f50d28f8b4852916c2090e2e35b5d
 msgid ""
 "Jupyter's documentation is split across several projects, listed on the "
 "`Jupyter documentation home page "
@@ -502,11 +562,13 @@ msgstr ""
 
 # 583255d870384645b0b076e657c2e763
 #: ../../source/contrib_docs/getting-started.rst:19
+#: 2dbe8807c514420ea566fda5150a51df
 msgid "Clone the repository"
 msgstr ""
 
 # 024a7bc45f3a45fab5500b2d1904d9bc
 #: ../../source/contrib_docs/getting-started.rst:20
+#: 5e565db72d444d4f8956717a697a95e8
 msgid ""
 "Fork the appropriate project repository on GitHub, depending on which "
 "project's documentation you want to contribute to."
@@ -514,16 +576,19 @@ msgstr ""
 
 # 7e9da73cdb4c469db3dce5d160b5208a
 #: ../../source/contrib_docs/getting-started.rst:21
+#: 61b0bb6dc6254dafb679db72a4e35370
 msgid "Clone the repository to your system."
 msgstr ""
 
 # 9e4c1b704e594ce19b00ef8075748237
 #: ../../source/contrib_docs/getting-started.rst:24
+#: c02a56e7f4b545ae9ecbac3f982954ea
 msgid "Edit the documentation source file"
 msgstr ""
 
 # a6b8f285170c4f8eb6aecdd1cbfdb7b9
 #: ../../source/contrib_docs/getting-started.rst:26
+#: e313656f1fa144fa97a105fa45ffb038
 msgid ""
 "Source files for projects are typically found in the project's "
 "``docs/source`` directory. The reStructured text filenames end with "
@@ -532,6 +597,7 @@ msgstr ""
 
 # 8b7b25fa65204498b0a9266c8541311e
 #: ../../source/contrib_docs/getting-started.rst:30
+#: 0c09cfe3f0e841f0bd1302a5a05e1c17
 msgid ""
 "In your favorite text editor, make desired changes to the ``.rst`` file "
 "when working with a reStructured text source file."
@@ -539,6 +605,7 @@ msgstr ""
 
 # 28f854c4861346b09d69499d50d03dd4
 #: ../../source/contrib_docs/getting-started.rst:32
+#: 2fef5e0878ce48b7b5ab43a954a895fe
 msgid ""
 "If a notebook file requires editing, you will need to install Jupyter "
 "notebook according to the :ref:`Installation <install>` document. Then, "
@@ -549,11 +616,13 @@ msgstr ""
 
 # 41995af34a5046bca276d62634ae3b10
 #: ../../source/contrib_docs/getting-started.rst:39
+#: 2471739539f04733b1e5243bfc9d9029
 msgid "Testing changes"
 msgstr ""
 
 # 65e377a9fbe04a0b8775881db9467ab8
 #: ../../source/contrib_docs/getting-started.rst:41
+#: 8fb28f3ea5f44f71834df67fac3de524
 msgid ""
 "Sphinx should be installed to test your documentation changes. For best "
 "results, we recommend that you install the stable development version "
@@ -563,6 +632,7 @@ msgstr ""
 
 # 5d5be81cd19e45f5acc196516a7aa1ec
 #: ../../source/contrib_docs/getting-started.rst:46
+#: 7fb221afe15b4ea78d9a38f088e4528b
 msgid ""
 "In addition, you may need the following packages: sphinxcontrib-spelling,"
 " sphinx_rtd_theme, nbsphinx, pyenchant, recommonmark 0.4.0 and "
@@ -573,6 +643,7 @@ msgstr ""
 
 # 1140b74d6bd547d2923b29eb2c769293
 #: ../../source/contrib_docs/getting-started.rst:48
+#: 085c5aa140384e8081b6374bc295995d
 msgid ""
 "If you are on Linux, you may also need to install the Enchant C library "
 "by running ``sudo apt-get install enchant``."
@@ -580,6 +651,7 @@ msgstr ""
 
 # 710e465eeb7d49f8bcf3279361e211ea
 #: ../../source/contrib_docs/getting-started.rst:50
+#: 6d5961a87e664a13a0499efa10e0fc43
 msgid ""
 "Once everything is installed, the following commands should be executed "
 "using the Terminal/command line from the ``docs`` directory:"
@@ -587,6 +659,7 @@ msgstr ""
 
 # 874edec47dfe41aab09ca2dc976ac9be
 #: ../../source/contrib_docs/getting-started.rst:53
+#: bdeda6a60fd54185ba080051f78fccca
 msgid ""
 "``make html`` builds a local html version of the documentation. The "
 "output message will either display errors or provide the location of the "
@@ -597,6 +670,7 @@ msgstr ""
 
 # 3c47075546064151940cfddaa6b97e97
 #: ../../source/contrib_docs/getting-started.rst:58
+#: 1fbf691a94e04089b7211ae8548317ee
 msgid ""
 "``make linkcheck`` will check whether the external links in the "
 "documentation are valid or if they are not longer current (i.e. cause a "
@@ -605,6 +679,7 @@ msgstr ""
 
 # 3b5e8519815b43ab82350bed26580555
 #: ../../source/contrib_docs/getting-started.rst:62
+#: 851edbb1be694170aaa5abc2467ca24e
 msgid ""
 "Note: We recommend using Python 3.4+ for building the documentation. If "
 "you are editing the documentation, you can use Python 2.7.9+ or the "
@@ -613,11 +688,13 @@ msgstr ""
 
 # 3a598ce6355d49589108ebb8b3584478
 #: ../../source/contrib_docs/getting-started.rst:65
+#: d0ec0c5d33664b0cb05eef767c480b29
 msgid "Creating a pull request"
 msgstr ""
 
 # c5b5c1b181a54762a10f3d97ce5d19e8
 #: ../../source/contrib_docs/getting-started.rst:66
+#: 454aa693a71644cf8e7997c7fa0e9896
 msgid ""
 "Once you are satisfied with your changes, submit a GitHub pull request, "
 "per the instructions above. If the documentation change is related to an "
@@ -627,6 +704,7 @@ msgstr ""
 
 # 4ae44c0cf02a45b99d0c7f14640c4f6e
 #: ../../source/contrib_docs/getting-started.rst:70
+#: fbbb50c0a0bf4429aa02bf8e0f27cce0
 msgid ""
 "A project reviewer will look over your changes and provide feedback or "
 "merge your changes into the documentation."
@@ -634,28 +712,30 @@ msgstr ""
 
 # baccae949fb54e6491856084b68e4827
 #: ../../source/contrib_docs/getting-started.rst:74
+#: 30fcf35373ce4b379769944dfa269e05
 msgid "Asking questions"
 msgstr ""
 
 # 990c9e57e8fc4e9c9da2ea3980ddebac
 #: ../../source/contrib_docs/getting-started.rst:75
+#: ac8afbe00b6140d2b24022f01efab823
 msgid ""
 "Feel free to ask questions in the Google Group for Jupyter or on an open "
 "issue on GitHub."
 msgstr ""
 
 # 6ad43967c19843df85781d3ee0ba0658
-#: ../../source/contrib_docs/index.rst:5
+#: ../../source/contrib_docs/index.rst:5 b19cea791b094ddbab8154ba5cf7d307
 msgid "Documentation Guide"
 msgstr ""
 
 # e53cdb8f3ebb4f9d97c7824dfd462fef
-#: ../../source/contrib_docs/index.rst:7
+#: ../../source/contrib_docs/index.rst:7 6e9539e9363d446a9c91d71034efbecd
 msgid "**Contents**"
 msgstr ""
 
 # 8710f55c2e51435881a40b68457010b8
-#: ../../source/contrib_docs/index.rst:17
+#: ../../source/contrib_docs/index.rst:17 ef08f43a4eb94e04aca55da32ea18dcd
 msgid ""
 "Documentation helps guide new users, fosters communication between "
 "developers, and shares tips and best practices with other community "
@@ -665,36 +745,43 @@ msgstr ""
 
 # 785e0d441719499ab42d427cbc7d6247
 #: ../../source/contrib_docs/repo-structure.md:1
+#: 5a7e30d179bb47db8fdc53d98bd929d1
 msgid "Structuring a repo for docs"
 msgstr ""
 
 # 90d5b35701d841f49957792e24da870a
 #: ../../source/contrib_docs/repo-structure.md:4
+#: 92b432a2c06e4bd18b03bbfc38f2d2e5
 msgid "Root level of the repo"
 msgstr ""
 
 # d0b32743c3ad4a5886315590d3892ea0
 #: ../../source/contrib_docs/repo-structure.md:6
+#: 3884d70175e4453386c32dc28a1d2292
 msgid "docs directory : All source files for documentation go here."
 msgstr ""
 
 # d57907b568b343cca47c18ffaeb3671e
 #: ../../source/contrib_docs/repo-structure.md:7
+#: 134bef717cda4250a7089ca0d653e37e
 msgid "readthedocs.yml : configuration file for readthedocs to build using conda"
 msgstr ""
 
 # 7367f9983e43442b8e2e72da5ed51518
 #: ../../source/contrib_docs/repo-structure.md:10
+#: c79ffc4c9f1a4ded8608a60320422d9b
 msgid "Repo root directory"
 msgstr ""
 
 # 98dae640b1424bad968989a88f0bbbac
 #: ../../source/contrib_docs/repo-structure.md:12
+#: d64004fb0b6446148079e9177a838c52
 msgid "Inside the docs directory"
 msgstr ""
 
 # 777d45f1bb1646df8b6ad7aad5debcb9
 #: ../../source/contrib_docs/repo-structure.md:14
+#: a2db2400ed3b46dcb7d84a11d2b247c6
 msgid ""
 "source directory : contains all content source files in .rst, .md, or "
 ".ipynb"
@@ -702,46 +789,55 @@ msgstr ""
 
 # eecddf6ec78e476da0f09fa9a5ca6ffa
 #: ../../source/contrib_docs/repo-structure.md:16
+#: 67ad90a4fd6f42d898acd0f08de40c3f
 msgid "makefile : used by Sphinx to build the docs"
 msgstr ""
 
 # 28bc9914229b4259b586741106d9d7a3
 #: ../../source/contrib_docs/repo-structure.md:17
+#: 63608283ad1c42f59a986a1814bd5e29
 msgid "environment.yml : conda build instructions"
 msgstr ""
 
 # cf9eb215541d434c85b47db86d4444d9
 #: ../../source/contrib_docs/repo-structure.md:19
+#: 5c6815e57a8042c799fd7258b1969be6
 msgid "docs directory"
 msgstr ""
 
 # 18b0121e5dbd4d0cbfdc139f2087f09c
 #: ../../source/contrib_docs/repo-structure.md:22
+#: f4483c607cab40ad956d5f168205b69a
 msgid "Sphinx"
 msgstr ""
 
 # a3e4b0243ffd4bf5bddada96c44151e6
 #: ../../source/contrib_docs/repo-structure.md:24
+#: a1b56fb5654246c195c52b54cb63d15c
 msgid "conf.py : Sphinx configuration file"
 msgstr ""
 
 # c9f4d0451fdc454fb3f359696e241f9a
 #: ../../source/contrib_docs/repo-structure.md:25
+#: a1074f67af564100a071cefe34e87296
 msgid "index.rst of contents.rst : Sphinx master table of contents file"
 msgstr ""
 
 # dc22bda3587e4032942c8c8e4474a2c6
 #: ../../source/contrib_docs/repo-structure.md:26
+#: 12198847aaa148f68a7300ce9b019f05
 msgid "_static directory : contains images, drawings, icons"
 msgstr ""
 
 # 9c91324873de4da996554cd0d18ec4a9
 #: ../../source/contrib_docs/repo-structure.md:27
+#: cf60086e6cbb4aa89fb31b7b4d6e6b17
 msgid "_templates directory: overrides theme templates and layouts"
 msgstr ""
 
 # ca1c2a5b5670489ebfb0fcabba566457
 #: ../../source/contrib_docs/repo-structure.md:28
+#: 581643946e1149968d21faa3fdb8674c
 msgid ""
 "build directory : html files generated by Sphinx (do not check this "
 "directory into GitHub)"
@@ -764,5 +860,9 @@ msgstr ""
 #~ "installed via ``pip install sphinxcontrib-"
 #~ "spelling sphinx_rtd_theme nbsphinx pyenchant "
 #~ "recommonmark jupyter_sphinx_theme``."
+#~ msgstr ""
+
+# e4db7b119bc747ab932bd5b9475de798
+#~ msgid "`Sphinx <http://www.sphinx-doc.org/en/stable>`_"
 #~ msgstr ""
 
