@@ -177,16 +177,8 @@ Table of Contents
    reference/content-reference
 
 
-
-Indices and tables
-==================
-
-- :ref:`genindex`
-- :ref:`glossary`
-- :ref:`search`
-
-
-**Resources:**
+Resources
+=========
 
 .. csv-table::
    :header: "Site", "Description"
@@ -199,3 +191,11 @@ Indices and tables
    `Jupyter in Education group <https://groups.google.com/forum/#!forum/jupyter-education>`_, Discussion of Jupyter's use in education
    `NumFocus <http://www.numfocus.org>`_, "Promotes world-class, innovative, open source scientific software"
    `Donate to Project Jupyter <https://numfocus.salsalabs.org/donate-to-jupyter/index.html>`_, Please contribute to open science collaboration and sustainability
+
+
+Indices and tables
+==================
+
+- :ref:`genindex`
+- :ref:`glossary`
+- :ref:`search`
