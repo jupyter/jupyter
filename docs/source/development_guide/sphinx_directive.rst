@@ -177,7 +177,7 @@ the inputs::
 Likewise, you can set ``:doctest:`` or ``:verbatim:`` to apply these
 settings to the entire block.  For example,
 
-.. code:: python3
+.. code:: bash
 
    In [9]: cd mpl/examples/
    /home/jdhunter/mpl/examples
