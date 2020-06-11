@@ -39,4 +39,4 @@ Resources
 
    IPython website <https://ipython.org>
    Gallery of interesting notebooks <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>
-   IPython documentation <http://ipython.readthedocs.io/en/stable/>
+   IPython documentation <https://ipython.readthedocs.io/en/stable/>
