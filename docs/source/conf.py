@@ -29,8 +29,11 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz', # Add the graphviz extension
-    'recommonmark'
+    'recommonmark',
+    'sphinx_panels'
 ]
+
+panels_add_boostrap_css = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -43,7 +46,7 @@ source_suffix = ['.rst', '.md']
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'contents'
+master_doc = 'index'
 
 # General information about the project.
 project = 'Jupyter Documentation'
@@ -92,7 +95,7 @@ html_last_updated_fmt = '%Y-%m-%d'
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-html_additional_pages = {'index': 'index.html'}
+html_additional_pages = {}
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Jupyter'
@@ -169,3 +172,7 @@ graphviz_output_format = 'svg'
 
 gettext_uuid = True
 locale_dirs = ['locale/']
+
+
+def setup(app):
+    app.add_css_file("custom.css")
