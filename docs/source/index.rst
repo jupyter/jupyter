@@ -13,39 +13,39 @@ Start Here
 .. list-table::
    :class: front_page_table
 
-   * - `Jupyter Notebook Quickstart <content-quickstart>`_
+   * - :doc:`Jupyter Notebook Quickstart <content-quickstart>`
 
        Try the notebook
 
-     - `Community <community/content-community>`_
+     - :doc:`Community <community/content-community>`
 
        Sustainability and growth
 
-   * - `Architecture <architecture/content-architecture>`_
+   * - :doc:`Architecture <architecture/content-architecture>`
 
        What is Jupyter?
 
-     - `Contributor Guides <contributor/content-contributor>`_
+     - :doc:`Contributor Guides <contributor/content-contributor>`
 
        How to contribute to the projects
 
-   * - `Narratives and Use Cases <use-cases/content-user>`_
+   * - :doc:`Narratives and Use Cases <use-cases/content-user>`
 
        Narratives of common deployment scenarios
 
-     - `Release Notes <releases/content-releases>`_
+     - :doc:`Release Notes <releases>`
 
        New features, upgrades, deprecation notes, and bug fixes
 
-   * - `IPython <ipython/content-ipython>`_
+   * - :doc:`IPython <ipython/content-ipython>`
 
        An interactive Python kernel and REPL
 
-     - `Reference <reference/content-reference>`_
+     - :doc:`Reference <reference/content-reference>`
 
        APIs
 
-   * - `Installation, Configuration, and Usage <projects/content-projects>`_
+   * - :doc:`Installation, Configuration, and Usage <projects/content-projects>`
 
        Documentation for users
 
