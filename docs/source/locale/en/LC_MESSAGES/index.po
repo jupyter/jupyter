@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-15 20:21+0000\n"
+"POT-Creation-Date: 2020-06-22 16:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/index.rst:3 e9bfab4b5f814dfcbb2de824e4b138e1
+#: ../../source/index.rst:3 91242c5f444b4720a2386904a1ed7158
 msgid "Jupyter Project Documentation"
 msgstr ""
 
-#: ../../source/index.rst:5 e66747158d9947ae8da7d719e2746fad
+#: ../../source/index.rst:5 52e6102e410744358e9af72cdac074c8
 msgid ""
 "**Welcome to the Jupyter Project documentation**. This website acts as "
 "\"meta\" documentation for the Jupyter ecosystem. It has a collection of "
@@ -30,331 +30,358 @@ msgid ""
 " help you get started."
 msgstr ""
 
-#: ../../source/index.rst:11 fc23a7e71f38447a8414f11bbd209b07
+#: ../../source/index.rst:11 1460dcf494974488a9cce6db6fd3aca6
 msgid "Start Here"
 msgstr ""
 
-#: ../../source/index.rst:16 e625ee62dc0243018bdf17b7060f0fc8
-msgid "`Jupyter Notebook Quickstart <content-quickstart>`_"
+#: ../../source/index.rst:16 2ad0f5b6f45c478ea31f0494e70dae4b
+msgid ":doc:`Jupyter Notebook Quickstart <content-quickstart>`"
 msgstr ""
 
-#: ../../source/index.rst:18 fe28763e89f642168eb89207398b4c72
+#: ../../source/index.rst:18 64d2fb88e721403d930f916e8369ec08
 msgid "Try the notebook"
 msgstr ""
 
-#: ../../source/index.rst:20 218008d807ba4a4aae670cd3061a13c8
-msgid "`Community <community/content-community>`_"
+#: ../../source/index.rst:20 4b579ebe45324f3fb2463083324c2ace
+msgid ":doc:`Community <community/content-community>`"
 msgstr ""
 
-#: ../../source/index.rst:22 f571472f7e414fe99713ebd9876a344a
+#: ../../source/index.rst:22 4b1f9a1e7e5d4b438fcb270c187ca38a
 msgid "Sustainability and growth"
 msgstr ""
 
-#: ../../source/index.rst:24 12e3e78360ca4f039ae0c2435fa2f00c
-msgid "`Architecture <architecture/content-architecture>`_"
+#: ../../source/index.rst:24 ae9ed17cc06a4af7908b707adb6c6855
+msgid ":doc:`Architecture <architecture/content-architecture>`"
 msgstr ""
 
-#: ../../source/index.rst:26 9fa5baab17e84018b796c2d4079b53b0
+#: ../../source/index.rst:26 627205ed23ef407ab5a5d05d854eee19
 msgid "What is Jupyter?"
 msgstr ""
 
-#: ../../source/index.rst:28 8a9f13a2549942faaa4a8cc1db5b13aa
-msgid "`Contributor Guides <contributor/content-contributor>`_"
+#: ../../source/index.rst:28 f1decba951464ff98d40b13dbcf66ba2
+msgid ":doc:`Contributor Guides <contributor/content-contributor>`"
 msgstr ""
 
-#: ../../source/index.rst:30 9436b83658b94863a47bcce5b3d68341
+#: ../../source/index.rst:30 e243dd27a0d24ca8adcf027cc7bfb6b5
 msgid "How to contribute to the projects"
 msgstr ""
 
-#: ../../source/index.rst:32 ee15f3399dae48f68ea8b0ef4c4b132e
-msgid "`Narratives and Use Cases <use-cases/content-user>`_"
+#: ../../source/index.rst:32 0db365877fe946b4948e19f227c5abee
+msgid ":doc:`Narratives and Use Cases <use-cases/content-user>`"
 msgstr ""
 
-#: ../../source/index.rst:34 85799ab4550e4326b8dec390ca23bf1a
+#: ../../source/index.rst:34 da38d4305d274692b96264a0bb27934d
 msgid "Narratives of common deployment scenarios"
 msgstr ""
 
-#: ../../source/index.rst:36 f51e0ec3e8304c5f9d4b0c336be687fb
-msgid "`Release Notes <releases/content-releases>`_"
+#: ../../source/index.rst:36 96ee853215ba4c59bcbbd993876d8728
+msgid ":doc:`Release Notes <releases>`"
 msgstr ""
 
-#: ../../source/index.rst:38 2bbcdbd7b12d4058bb62874084046c91
+#: ../../source/index.rst:38 643379275f2d4cf7b8a8cc34f65e4143
 msgid "New features, upgrades, deprecation notes, and bug fixes"
 msgstr ""
 
-#: ../../source/index.rst:40 8751e0caa7644da4bb879e4258be6b94
-msgid "`IPython <ipython/content-ipython>`_"
+#: ../../source/index.rst:40 62c2d195f3d5465d937f4d0a73dd3676
+msgid ":doc:`IPython <ipython/content-ipython>`"
 msgstr ""
 
-#: ../../source/index.rst:42 4bc6167fb3014ac4a3e4d4c70112eb39
+#: ../../source/index.rst:42 a9e9b09b529f4d25a7bd9d2a5343ce9d
 msgid "An interactive Python kernel and REPL"
 msgstr ""
 
-#: ../../source/index.rst:44 6075d0de5fde4059a778fd41a0712a55
-msgid "`Reference <reference/content-reference>`_"
+#: ../../source/index.rst:44 94a0f584a7f04aa7b1ef65bd3f4ce7a7
+msgid ":doc:`Reference <reference/content-reference>`"
 msgstr ""
 
-#: ../../source/index.rst:46 18aee1c283e04d0480addc8fe73ed251
+#: ../../source/index.rst:46 48d24debe0f24a3fb9c8047934260054
 msgid "APIs"
 msgstr ""
 
-#: ../../source/index.rst:48 07063bbcbfa949a0b0c8c6e59868ed91
-msgid "`Installation, Configuration, and Usage <projects/content-projects>`_"
+#: ../../source/index.rst:48 23a3e7bbe6544d8f89324e1ace381e1f
+msgid ":doc:`Installation, Configuration, and Usage <projects/content-projects>`"
 msgstr ""
 
-#: ../../source/index.rst:50 0c060ec64a274361b5dfafa2b53d32c7
+#: ../../source/index.rst:50 4866957f3e72443db05e4de65a896918
 msgid "Documentation for users"
 msgstr ""
 
-#: ../../source/index.rst:55 4918e5cc711f4b908b4afa5f44f5476a
+#: ../../source/index.rst:55 bf995db284ac41bd843fb81f87c34059
 msgid "Sub-project documentation"
 msgstr ""
 
-#: ../../source/index.rst:59 a6fc598b95464414a660f07f8702b6b5
+#: ../../source/index.rst:59 27f53b4ff07b43a697fa24471f610ae2
 msgid "Jupyter User Interfaces"
 msgstr ""
 
-#: ../../source/index.rst:61 db4d300ffb2840c68ac24984e5cc6ce1
+#: ../../source/index.rst:61 7dd23b8b878a4d12acdf3f34fca26524
 msgid "`Jupyter Notebook <http://jupyter-notebook.readthedocs.io/en/latest/>`_"
 msgstr ""
 
-#: ../../source/index.rst:62 c74a21d762c1436faf42e07436ca7ee4
+#: ../../source/index.rst:62 2375cad8f1934f50863a5ab857f96414
 msgid "`Jupyter console <http://jupyter_console.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:63 9df2e6036fab4f5baaf49fc3b84dfe87
+#: ../../source/index.rst:63 e5ddd043145f4f639a559baa4dae9c0f
 msgid "`Qt console <https://qtconsole.readthedocs.io/en/stable>`_"
 msgstr ""
 
-#: ../../source/index.rst:66 a416ad34aef84e89a37d17a142cecf10
+#: ../../source/index.rst:66 219a501d0feb4606b15ddb2286d85c97
 msgid "JupyterHub"
 msgstr ""
 
-#: ../../source/index.rst:68 32e7139da8a8458f9cdee44ad19f953f
+#: ../../source/index.rst:68 707ab5e8ed594a098b6b19c51608ae3e
 msgid "`JupyterHub <http://jupyterhub.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:69 53bdd1b87f8c4372b3ab76f9cfbefe12
+#: ../../source/index.rst:69 b32e72bc92984c05b48c3667c1311e7c
 msgid ""
 "`configurable HTTP proxy <https://github.com/jupyter/configurable-http-"
 "proxy>`_"
 msgstr ""
 
-#: ../../source/index.rst:70 573af6c1bcf24becb22eca13fec1707a
+#: ../../source/index.rst:70 ed4b00a2fddf44d8899bc5fe2da6666c
 msgid "`dockerspawner <https://github.com/jupyter/dockerspawner>`_"
 msgstr ""
 
-#: ../../source/index.rst:71 566c48647e6944c484b85c69a2573047
+#: ../../source/index.rst:71 2d0fa54369f4405ab19faf8e9090c0bc
 msgid "`ldapauthenticator <https://github.com/jupyter/ldapauthenticator>`_"
 msgstr ""
 
-#: ../../source/index.rst:72 284b3919f2f0488b983e519a16acacce
+#: ../../source/index.rst:72 2940d5aa46504500abd7f1169468345a
 msgid "`oauthenticator <https://github.com/jupyter/oauthenticator>`_"
 msgstr ""
 
-#: ../../source/index.rst:73 7bcbb19e2a0044bb89653951d8a71471
+#: ../../source/index.rst:73 19ccfc9268d242948e8ffb84147ee54f
 msgid "`sudospawner <https://github.com/jupyter/sudospawner>`_"
 msgstr ""
 
-#: ../../source/index.rst:76 fd73b4298ec547aab97721a689facad0
+#: ../../source/index.rst:76 967274a6a89b4302911ba42bd7159ca6
 msgid "Education"
 msgstr ""
 
-#: ../../source/index.rst:78 076fe336d6cb43a4a04f73e58c2025c9
+#: ../../source/index.rst:78 575396e5344c4674aa4d6fc343344eb7
 msgid "`nbgrader <http://nbgrader.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:81 e26a4865324f4ba09b822d2f1aaaa6db
+#: ../../source/index.rst:81 bd6955360e374ed0aafc5d54bf0b22cb
 msgid "Conversion and Formatting"
 msgstr ""
 
-#: ../../source/index.rst:83 ff0407fa1d9847258b4dfc03e88f509f
+#: ../../source/index.rst:83 b7429bdd751d41ee8c437047b82dd2ae
 msgid "`nbconvert <http://nbconvert.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:84 10d63e20c2984017bf27b6e1054a5836
+#: ../../source/index.rst:84 102cf44f5a044cceabaed3d76c7fd2c8
 msgid "`nbformat <http://nbformat.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:87 93763affd398441396b0a7446d7255a0
+#: ../../source/index.rst:87 b9a2535049ec472eaa680ff5b35a5989
 msgid "Kernels"
 msgstr ""
 
-#: ../../source/index.rst:89 785f7b2b557747d7988a853c1643b5dd
+#: ../../source/index.rst:89 3280446e5d444c63b44f570b467c86f6
 msgid "`IPython <https://ipython.readthedocs.io/en/stable>`_"
 msgstr ""
 
-#: ../../source/index.rst:90 39c03a79df1740d380549bb9b9418f13
+#: ../../source/index.rst:90 3b7b99840af44a1f8a23516689c591bd
 msgid "`IRkernel <https://irkernel.github.io>`_"
 msgstr ""
 
-#: ../../source/index.rst:91 31cb101f08694cea8225a13606d42bb1
+#: ../../source/index.rst:91 388437151381401a84a2d75699e265df
 msgid "`IJulia <https://github.com/JuliaLang/IJulia.jl>`_"
 msgstr ""
 
-#: ../../source/index.rst:92 380ee64d2c3c41c48713a803f3980820
+#: ../../source/index.rst:92 a0839c7b31cc45c083712b38c6eceb5c
 msgid ""
 "`Community maintained kernels <https://github.com/ipython/ipython/wiki"
 "/IPython-kernels-for-other-languages>`_"
 msgstr ""
 
-#: ../../source/index.rst:95 6bf0dfe77dcd4aee9307f561cf5bfdc6
+#: ../../source/index.rst:95 d333ba93d15344e18c5e42346811d706
 msgid "IPython"
 msgstr ""
 
-#: ../../source/index.rst:97 2d648978d5dd49399d6c5cc79cd940c2
+#: ../../source/index.rst:97 5887210f4e3948dda960074d6488d0f4
 msgid "`IPython <http://ipython.readthedocs.io/en/stable>`_"
 msgstr ""
 
-#: ../../source/index.rst:98 43a5a1bd8a7d4ca2bb2e5ba8dfaaf6d2
+#: ../../source/index.rst:98 654178b34b9d4d0495aa7290d298f930
 msgid "`ipykernel <https://ipython.readthedocs.io/en/stable>`_"
 msgstr ""
 
-#: ../../source/index.rst:99 0ad803e550504d96b26b91eb8e4170b2
+#: ../../source/index.rst:99 271fa433f7054e6b99251d726570ec3f
 msgid "`ipyparallel <https://ipyparallel.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:102 00a2582b592243e29bc238388e66966e
+#: ../../source/index.rst:102 7a888a5d5ce74ac0a525298a3918a63b
 msgid "Architecture"
 msgstr ""
 
-#: ../../source/index.rst:104 6124e6c8d4954283aadb475f29b91265
+#: ../../source/index.rst:104 3b93aa9112044281b90625febee48f68
 msgid "`jupyter_client <http://jupyter-client.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:105 0433b3c3837e4fe0b616bc301ba62e85
+#: ../../source/index.rst:105 307de8e4ffb64245bee9f0e55edb1e9f
 msgid "`jupyter_core <http://jupyter-core.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:108 9dab90bc8b6144c09406e19afbdbaf8b
+#: ../../source/index.rst:108 f28cbd990deb4e5ca62b8b8ef7a458ed
 msgid "Deployment"
 msgstr ""
 
-#: ../../source/index.rst:110 0700d374fb4a45918f4ca3498a0e47ac
+#: ../../source/index.rst:110 df410d091d194dfaa32d2d0d3b647dcc
 msgid "`docker-stacks <https://github.com/jupyter/docker-stacks>`_"
 msgstr ""
 
-#: ../../source/index.rst:111 1719c553747c4ea287f503c8543054cd
+#: ../../source/index.rst:111 ebb0955520674de4b01877e8858525cd
 msgid "`jupyter-sphinx-theme <https://github.com/jupyter/jupyter-sphinx-theme>`_"
 msgstr ""
 
-#: ../../source/index.rst:112 8bb9c8eb945045ceb47bcd756fdb47cb
+#: ../../source/index.rst:112 c9a3a76dac574191aea0cf2c06d8deb0
 msgid "`kernel_gateway <http://jupyter-kernel-gateway.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:113 6ee1297033d642a5ad66983b4a1f7e75
+#: ../../source/index.rst:113 4e11e29ea2b044a69c653e67e06aab7d
 msgid "`nbviewer <https://github.com/jupyter/nbviewer>`_"
 msgstr ""
 
-#: ../../source/index.rst:114 ddf4197127954dea9f1497cf2a550d72
+#: ../../source/index.rst:114 ea6d8817f6d24eceb2a0b44daa8d7c57
 msgid "`tmpnb <https://github.com/jupyter/tmpnb>`_"
 msgstr ""
 
-#: ../../source/index.rst:115 603104e1b1144e309ce9d28a65ac1ff3
+#: ../../source/index.rst:115 3b49120e0bb243369dc2ff9e738ff7f9
 msgid "`traitlets <http://traitlets.readthedocs.io/en/stable>`_"
 msgstr ""
 
-#: ../../source/index.rst:118 d228e393c95042b79332804d8fa0768f
+#: ../../source/index.rst:118 d40aba185e24457b8d3a8fc5b032c2ab
 msgid "JupyterLab"
 msgstr ""
 
-#: ../../source/index.rst:120 fffa2ec53ff24f5f989a58eb4cffe655
+#: ../../source/index.rst:120 161c5d1854cf42b5be3dab70a23dbcb7
 msgid "`JupyterLab <https://github.com/jupyterlab/jupyterlab>`_"
 msgstr ""
 
-#: ../../source/index.rst:121 b2faf61af0414adca2119341cf68145e
+#: ../../source/index.rst:121 c66a0a619a4a4ccdb739cbc1d50b1526
 msgid "`ipywidgets <https://ipywidgets.readthedocs.io/en/latest>`_"
 msgstr ""
 
-#: ../../source/index.rst:125 702a61eea65c45d69cf13acfbb112254
+#: ../../source/index.rst:125 a7ec54bacc62430b9c9cbf2e5493b432
 msgid "Table of Contents"
 msgstr ""
 
-#: ../../source/index.rst:181 6d886716b80241d1a88deebe147d575d
+#: ../../source/index.rst:181 575454ec6cee4e4680b611b5ad7c72a0
 msgid "Resources"
 msgstr ""
 
-#: ../../source/index.rst:1 48c17d144cda4bb88473a21aee1c9c07
+#: ../../source/index.rst:1 78224720c887401bb2b23c7e2d6582f6
 msgid "Site"
 msgstr ""
 
-#: ../../source/index.rst:1 b41c57942f824b37bd11a2b339d4482a
+#: ../../source/index.rst:1 24d389d19aef435786536d5a41d9600b
 msgid "Description"
 msgstr ""
 
-#: ../../source/index.rst:1 380f0dc4f75e46ffa6c30a3e7df097ee
+#: ../../source/index.rst:1 b307e7af487041a7849b84665d3a7436
 msgid "`Jupyter website <https://jupyter.org>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 4587d0e7269b42528b1cb0ef9876c0e3
+#: ../../source/index.rst:1 e8a09fe3fe03489c8b0b36f649b9087f
 msgid "Keep up to date on Jupyter"
 msgstr ""
 
-#: ../../source/index.rst:1 7bd4d2b7b3294d47bd6f6a8dce4e2042
+#: ../../source/index.rst:1 62a4bd98b6d74880a10a130d65f6e16c
 msgid "`IPython website <https://ipython.org>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 924b012629ac4048b5bffea40c9dac91
+#: ../../source/index.rst:1 4bcab9adc78f4bdcbfd80fd4ccf73b8c
 msgid "Learn more about IPython"
 msgstr ""
 
-#: ../../source/index.rst:1 cd78ec683aec44ca9fdea11414267973
+#: ../../source/index.rst:1 8d219c03883041cdb416698607a91a98
 msgid "`jupyter/help repo <https://github.com/jupyter/help>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 659db434cda7450e85118bd1815c39f2
+#: ../../source/index.rst:1 db84364370c34a66a617938312373267
 msgid "Start here for help and support questions"
 msgstr ""
 
-#: ../../source/index.rst:1 6bdaefe1d5fb4abb8f1abdd5cffb7b7b
+#: ../../source/index.rst:1 d7154bec79a646e5bf6fb1f4d385dbd0
 msgid "`Jupyter mailing list <https://groups.google.com/forum/#!forum/jupyter>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 20880e11f2b64342a0d15ae89e10697a
+#: ../../source/index.rst:1 4e634b8e0d004abfac26b00c9095f5c3
 msgid "General discussion of Jupyter's use"
 msgstr ""
 
-#: ../../source/index.rst:1 5c5a33b2a95b489896e72c7d83d2bc50
+#: ../../source/index.rst:1 495cd61cbd7542c8ac01890545ebf4d8
 msgid ""
 "`Jupyter in Education group <https://groups.google.com/forum/#!forum"
 "/jupyter-education>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 eb52fd38bd464e8e9991975c397c2d6e
+#: ../../source/index.rst:1 281ab5a2893e4963bf06e544ba1a20da
 msgid "Discussion of Jupyter's use in education"
 msgstr ""
 
-#: ../../source/index.rst:1 b05f9703e2df45089d1a79c277df24d5
+#: ../../source/index.rst:1 dbe02451c4fe447d830a6802a20c5403
 msgid "`NumFocus <http://www.numfocus.org>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 f9db7e257de4499bbf66bfc98ba46348
+#: ../../source/index.rst:1 792c938bf22545568256c63b76439f74
 msgid "Promotes world-class, innovative, open source scientific software"
 msgstr ""
 
-#: ../../source/index.rst:1 94d35e6d546b43258759f728031ca771
+#: ../../source/index.rst:1 5f87a000d54c4e7f8b652486b6979ca1
 msgid ""
 "`Donate to Project Jupyter <https://numfocus.salsalabs.org/donate-to-"
 "jupyter/index.html>`_"
 msgstr ""
 
-#: ../../source/index.rst:1 03b8e0d1a11d4cf688e71188839dcb5a
+#: ../../source/index.rst:1 50b6e46c7e26433d9ef2e6bd8d95c761
 msgid "Please contribute to open science collaboration and sustainability"
 msgstr ""
 
-#: ../../source/index.rst:197 d4768a655fa748ed83accf246166039e
+#: ../../source/index.rst:197 1612d06be0974f8c9e4936f6c2d6e62e
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../source/index.rst:199 bea5c28579e544fcb03f542d28243d9f
+#: ../../source/index.rst:199 6e3a894792e84ddcb90a401e982ed222
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../source/index.rst:200 b1e3a7d59c0c4b25887c8e90d5e53a85
+#: ../../source/index.rst:200 4e16de7174554ee1ad87eff81b87453d
 msgid ":ref:`glossary`"
 msgstr ""
 
-#: ../../source/index.rst:201 6756afb7512d44d2870ecfd0607ad4f9
+#: ../../source/index.rst:201 9993396c544b4da1b284586fa8fcebab
 msgid ":ref:`search`"
 msgstr ""
+
+#~ msgid "`Jupyter Notebook Quickstart <content-quickstart>`_"
+#~ msgstr ""
+
+#~ msgid "`Community <community/content-community>`_"
+#~ msgstr ""
+
+#~ msgid "`Architecture <architecture/content-architecture>`_"
+#~ msgstr ""
+
+#~ msgid "`Contributor Guides <contributor/content-contributor>`_"
+#~ msgstr ""
+
+#~ msgid "`Narratives and Use Cases <use-cases/content-user>`_"
+#~ msgstr ""
+
+#~ msgid "`Release Notes <releases/content-releases>`_"
+#~ msgstr ""
+
+#~ msgid "`IPython <ipython/content-ipython>`_"
+#~ msgstr ""
+
+#~ msgid "`Reference <reference/content-reference>`_"
+#~ msgstr ""
+
+#~ msgid "`Installation, Configuration, and Usage <projects/content-projects>`_"
+#~ msgstr ""
 
