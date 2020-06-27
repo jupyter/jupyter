@@ -3,15 +3,18 @@
 **Work in progress**: Rough notes to be replaced with a first draft
 (https://github.com/jupyter/jupyter/issues/511#issuecomment-644221822)
 
-- Define what we mean by translation
-- Explain that we're using a workflow borrowed from Python and Django in this jupyter/jupyter repo
-  and others (docker-stacks) to support translation
-- Explain that the same system can be setup for other jupyter projects
+We support and encourage the translation of Jupyter documentation to other languages as one way of
+making our community more inclusive and diverse. We are working toward having a consistent model for
+translation of Sphinx documentation across Jupyter projects based on prior work in the
+[Python](https://python.org) and [Django](https://www.djangoproject.com/) communities. This
+documentation (https://jupyter.readthedocs.io) and the
+[Jupyter Docker Stacks documentation](https://jupyter-docker-stacks.readthedocs.io/) are early
+adopters, meant to prove out the workflows described on this page.
 
 ## Overview
 
 - Diagram of the translation CI/CD flow _after_ setup
-- Sumamry: travis creates en_US po files from English documentation, transifex watches for po file
+- Summary: CI creates en_US po files from English documentation, transifex watches for po file
   changes and makes strings available for translators, transifex creates pull requests when a
   document is 100% translated and/or reviewed, read the docs makes translations available under
   separate paths, changes to the English source trigger po file updates from travis, process repeats
