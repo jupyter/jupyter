@@ -27,7 +27,8 @@ has a handful of actors:
   projects, a friendly web interface, and support for the defacto
   [portable object (`.po`)](https://en.wikipedia.org/wiki/Gettext) translation format
 
-TODO: diagram
+![Translation CI/CD](static/translation-ci-cd.png "Diagram of the translation continuous integration
+and deployment flow")
 
 1. A user creates or edits restructuredText (`.rst`) or Markdown (`.md`) documents written in U.S.
    English.
