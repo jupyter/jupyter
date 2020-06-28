@@ -1,15 +1,12 @@
 # Supporting document translations
 
-**Work in progress**: Rough notes to be replaced with a first draft
-(https://github.com/jupyter/jupyter/issues/511#issuecomment-644221822)
-
 We support and encourage the translation of Jupyter documentation to other languages as one way of
 making our community more inclusive and diverse. We are working toward having a consistent model for
 translation of [Sphinx](https://www.sphinx-doc.org/) documentation across Jupyter projects based on
 prior work in the [Python](https://python.org) and [Django](https://www.djangoproject.com/)
-communities. This documentation (https://jupyter.readthedocs.io) and the
-[Jupyter Docker Stacks documentation](https://jupyter-docker-stacks.readthedocs.io/) are early
-adopters, meant to prove out the workflows described on this page.
+communities. This project (https://jupyter.readthedocs.io) and the
+[Jupyter Docker Stacks project](https://jupyter-docker-stacks.readthedocs.io/) are early adopters,
+meant to prove out the workflows described on this page.
 
 ## Overview
 
