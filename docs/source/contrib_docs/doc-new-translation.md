@@ -60,9 +60,6 @@ contributions.
 
 ## Translator workflows
 
-(Copied almost directly from
-https://jupyter-docker-stacks.readthedocs.io/en/latest/contributing/translations.html to start)
-
 We are delighted when members of the Jupyter community want to help translate documentation. We use
 [Transifex](https://transifex.com) to on-board translators in a friendly web interface without
 requiring knowledge of git, GitHub, Sphinx, or other software developer tools.
@@ -70,21 +67,31 @@ requiring knowledge of git, GitHub, Sphinx, or other software developer tools.
 ### Creating translations
 
 [Getting Started as a Translator](https://docs.transifex.com/getting-started-1/translators>) is an
-excellent on-boarding guide for new Transifex users. Follow the instructions to create and account.
+excellent on-boarding guide for new Transifex users. Follow the instructions to create an account.
 When prompted to join a team, look for _jupyter-meta-documentation_ to start contributing
 translations to this documentation site. Alternatively, visit
 https://www.transifex.com/project-jupyter/jupyter-meta-documentation/ after creating your account
-and request to join the project.
+and request to join the project. A project maintainer or language team coordinator will review and
+approve your request.
 
 ### Reviewing translations
 
-- Optional step before changes go live
-- Useful when teams become large to ensure quality
+Transifex supports
+[Reviewing Translations](https://docs.transifex.com/translation/reviewing-strings), peer review by
+members of a language team, to ensure translation quality. Project maintainers can choose whether
+Transifex should immediately send a pull request when translations of all text in a document are
+available or delay submitting a pull request until after all of those translations are also reviewed
+(the
+[current setting for this project](https://github.com/jupyter/jupyter/issues/430#issuecomment-552138547)).
 
 ### Coordinating translation teams
 
-- Can manage translation team members
-- Empower members of the community to grow translator teams
+Project maintainers can also grant Transfex team members the role of
+[language coordinator](https://docs.transifex.com/teams/understanding-user-roles#organization-administrator).
+Language coordinators have permission to invite users to language teams, approve or deny join
+requests, assign language team roles, and perform other administrative actions for a particular
+project language. Empowering trusted members of the community as coordinators can help grow
+translation teams without software developer involvement.
 
 ## Administrator workflows
 
@@ -93,10 +100,11 @@ and request to join the project.
 ### Creating a project on Transifex
 
 - Jupyter org
+- https://docs.transifex.com/getting-started-as-a-localization-manager/1-set-up-your-projects
 - New project
 - Make sure to mark it as open source
 
-### Adding a new translation team to Transifex
+### Adding a new language to the project
 
 - Create language
 - Assign coordinators
