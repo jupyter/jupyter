@@ -49,7 +49,9 @@ Start Here
 
        Documentation for users
 
-     -
+     - :doc:`Advanced <migrating>`
+
+       Documentation for advanced use-cases
 
 Sub-project documentation
 =========================
