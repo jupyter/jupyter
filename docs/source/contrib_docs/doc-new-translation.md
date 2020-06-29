@@ -1,4 +1,4 @@
-# Supporting document translations
+# Supporting translations of documentation
 
 We support and encourage the translation of Jupyter documentation to other languages as one way of
 making our community more inclusive and diverse. We are working toward having a consistent model for
@@ -93,39 +93,180 @@ translation teams without software developer involvement.
 
 ## Administrator workflows
 
-- Responsible for configuring Transifex-GitHub to work together, CI/CD
+The translation CI/CD workflow described above requires configuration in GitHub and in Transifex to
+function. Project maintainers can follow the instructions below to enable translations for their
+Sphinx documentation.
 
-### Creating a project on Transifex
+### Creating a Transifex organization
 
-- Jupyter org
-- https://docs.transifex.com/getting-started-as-a-localization-manager/1-set-up-your-projects
-- New project
-- Make sure to mark it as open source
+Transifex organizes translation projects under organizations that mirror organizations and
+repositories on GitHub. At present, only the https://github.com/jupyter organization has a
+corresponding org on Transifex (https://www.transifex.com/project-jupyter/public/) with the
+following
+[organization administrators](https://docs.transifex.com/teams/understanding-user-roles#organization-administrator):
 
-### Adding a new language to the project
+- @choldgraf
+- @parente
+- @willingc
 
-- Create language
-- Assign coordinators
-- Assign translators
-- Decide reviews required or not
+GitHub users with permissions to install applications in a GitHub org can follow these instructions
+to create a new Transifex-GitHub organization link (e.g., for https://github.com/jupyterhub,
+https://github.com/jupyterlab).
+
+1. Create a new user account at https://transifex.com.
+2. Complete the sign-up wizard.
+3. Create and name a new organization.
+4. Click the organization drop down in the top right of the Transifex dashboard page and select
+   _Organization Settings_.
+5. Click _Details_ in the left sidebar.
+6. Click _inviting administrators_ in the _Management_ section to add additional admins to the
+   Transifex org.
+7. Click _Manage integrations_ in the left sidebar.
+8. Click _Install the Transifex app_ in the GitHub section.
+9. Select the GitHub organization to associate with the new Transifex organization.
+10. Select the repositories that Transifex will have permission to access.
+11. Return to the tab where you clicked _Install the Transifex app_ and click _authorize Transifex_
+    in the GitHub section.
+12. Choose the GitHub organization you just configured in the popup dialog.
+
+Note that you can revise the GitHub-Transifex integration at any time by visiting
+https://github.com/settings/installations.
+
+### Creating a Transifex project
+
+Transifex
+[organization administrators](https://docs.transifex.com/teams/understanding-user-roles#organization-administrator)
+can follow the instructions below to configure new translation projects for GitHub projects in the
+GitHub org corresponding to the one on Transifex.
+
+1. Visit https://www.transifex.com.
+2. Sign in with the appropriate admin user account for the organization.
+3. Click the organization drop down in the top right of the Transifex dashboard page and select
+   _Organization Settings_.
+4. Click _Create new project_ in the lower left sidebar.
+5. Name the translation project after the project on GitHub.
+6. Select _Public_ as the privacy type, indicate that the project is open source, and provide the
+   GitHub URL for the repository.
+7. Select a file-based project.
+8. Create a new team for the project.
+9. Select _English (en)_ as the source language.
+10. Select known target languages. (You can add these later as well.)
+11. Click _Create project_.
+12. Click _Settings_ under the project name in the left sidebar.
+13. Click the _Maintainers_ tab.
+14. Invite additional
+    [project maintainers](https://docs.transifex.com/teams/understanding-user-roles#project-maintainers),
+    typically software developers who will be responsible for maintaining the continuous integration
+    and bootstrapping language teams.
+
+### Configuring languages and teams
+
+Transifex organization admins and project managers can add translation languages to a project.
+
+1. Visit https://www.transifex.com.
+2. Sign in with the appropriate admin user account for the organization.
+3. Click _Languages_ under the project name in the left sidebar.
+4. Click _Edit languages_.
+5. Add or remove target translation languages.
+6. Click _Apply_.
+
+Organization admins, project maintainers, and
+[team managers](https://docs.transifex.com/teams/understanding-user-roles#team-managers) can add
+users to translation teams with the roles of language coordinator, reviewer, or translator.
+
+1. Click _Teams_ in the top nav bar.
+2. Click the _Invite Collaborators_ button in the top right.
+3. Enter the username, email address, or full name of a person to add to the project. Note that the
+   autocomplete in this field does not always display a popup for the user you wish to invite.
+   Confirm you've entered the correct value and move on.
+4. Select [the role](https://docs.transifex.com/teams/understanding-user-roles) to assign to the
+   user.
+5. If the role applies to a specific team, select the team.
+6. If the role applies to a specific language, select the language.
+7. Click _Invite more_ to enter additional users or _Send invitation_.
 
 ### Configuring Transifex-GitHub integration
 
-See https://github.com/jupyter/jupyter/pull/432
+After configuring organization and project resources on Transifex, project developers can:
 
-- Set up GitHub integration + filters config in Transifex UI
-- Configure locale dir for Sphinx
-- Create docs/.tx/config
-- Create en_US templates
-- PR it
+- configure Sphinx to produce `.po` files for the source language and read `.po` files containing
+  translations
+- configure Transifex to watch for source language `.po` file changes
+- configure the project CI service to update source language `.po` files when contributors make
+  changes to the source documentation
 
-See https://github.com/jupyter/jupyter/pull/440 plus follow-ons to fix bugs: #445-447
+The instructions in this section assume a git repository already contains Sphinx documentation in
+the following directory structure:
 
-- Update en_US locale on merge to master
-- PR it
-- Should we also be updating the docs/.tx/config mapping for new files?
+```
+my-project/
+  docs/
+    build/              # built sphinx artifacts go here
+    source/             # documentation source is in here
+      conf.py           # sphinx config file
+      index.rst         # root of the documentation
+    requirements.txt    # sphinx, sphinx-intl, etc.
+```
+
+Project developers can do the following to configure Sphinx to seed source `.po` files and
+recognization translation `.po` files.
+
+1. Add `sphinx-intl` to your Sphinx project `requirements.txt` or `environment.yaml` if it does not
+   already exist.
+2. Run `sphinx-intl create-txconfig` in the `docs/` directory.
+3. Add the following to the Sphinx `source/conf.py` file.
+
+```python
+# -- Translation -------------------------------------------------------------
+
+gettext_uuid = True
+locale_dirs = ["locale/"]
+```
+
+3. Run `make gettext` to extract all strings from the English source documentation.
+4. Run `sphinx-intl update -l en` to generate the English source `.po` files.
+5. Submit, review, and merge a pull request with the changes and generated `.po` files.
+
+After merging the pull request, link to the Transifex project to the GitHub repository.
+
+1. Visit https://www.transifex.com.
+2. Click _Settings_ under the project name in the left sidebar.
+3. Click the _Integrations_ tab.
+4. Click _Link Repository_ in the GitHub section.
+5. Select the appropriate GitHub repository and integration branch. Then click _Next_.
+6. Copy and paste the following configuration into the dialog, adjusting the commented values as
+   appropriate, and then click _Next_.
+
+```yaml
+filters:
+  - filter_type: dir
+    file_format: PO
+    source_file_extension: po
+    # Change this if you selected a different source language during project setup
+    source_language: en
+    # The path in the GitHub repository where the source .po files reside
+    source_file_dir: "docs/source/locale/en/LC_MESSAGES"
+    # The path in the GitHub repository where translation .po files reside
+    translation_files_expression: "docs/source/locale/<lang>/LC_MESSAGES"
+```
+
+7. Select when Transifex will submit translations a back to the repository. Then click _Save &
+   Sync_.
+8. Click _Close_.
+9. Watch the sync status progress.
+10. Click _Resources_ in the left sidebar.
+11. Click one of the `.po` files to see translation progress by language.
+12. Click one of the languages to see details about translation progress, translate text, and review
+    translations. See the [Translator workflows](#translator-workflows) section above for details.
+
+TODO
+
+- example of configure github actions to run gettext + sphinx-intl
+- link to hello world project commits and PRs
 
 ### Hosting translations on ReadTheDocs
+
+TODO
 
 - New project `<name>-<locale>`
 - Set as translation of root project in Admin -> Translations
