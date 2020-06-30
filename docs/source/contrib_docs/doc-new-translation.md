@@ -307,16 +307,43 @@ jobs:
 
 3. Submit, review, and merge a pull request containing the workflow YAML.
 
-Once you complete the steps in this section, any changes to the source English documentation merged
-to master are pushed to Transifex for translation. Likewise, and translations completed on Trasifex
-are submitted as pull requests back to the project on GitHub.
+Once you complete the steps in this section, any changes to the source English documentation on the
+master branch are pulled into Transifex for translation. Likewise, any translations completed on
+Transifex are submitted as pull requests back to the project on GitHub.
 
 ### Hosting translations on ReadTheDocs
 
-TODO
+ReadTheDocs supports building HTML documentation sites from a single GitHub project and its
+translations. Administrators of the source language documentation project on ReadTheDocs can
+following these instructions to enable builds for other languages.
 
-- New project `<name>-<locale>`
-- Set as translation of root project in Admin -> Translations
+1. Visit https://readthedocs.org/dashboard/
+2. Note the name of existing ReadTheDocs project containing your source language (e.g., `jupyter`).
+3. Click `Import a Project`.
+4. Click `Import Manually`.
+5. Enter the project name you noted above suffixed with a target language locale (e.g.,
+   `jupyter-es`, `jupyter-pt-br`).
+6. Enter the GitHub URL of the project.
+7. Check _Edit advanced project options_.
+8. Click _Next_.
+9. Select the name of the target language from the _Language_ drop down (e.g. `es` -> _Spanish_,
+   `es-mx` -> _Mexican Spanish_, `pt-br` -> _Brazillian Portuguese_).
+10. Click `Finish`.
+11. Return to the list of projects at https://readthedocs.org/dashboard/
+12. Click the project containing the source language.
+13. Click _Admin_.
+14. Click _Translations_.
+15. Choose the name of the translation project created in step 5 from the _Project_ drop down.
+16. Click _Add_.
+17. Repeat these steps for all other languages the project supports.
+
+Now, any time you merge a pull request from Transifex containing `.po` translation file updates,
+ReadTheDocs will build both the source documentation site as well as sites for all supported
+languages. ReadTheDocs will associate the sites with one another and make them accessible via
+language links in a popup.
+
+![ReadTheDocs popup](static/translation-rtd-popup.png "Screenshot of the ReadTheDocs popup that
+allows a user to view documentation in a different language")
 
 ## Reference
 
