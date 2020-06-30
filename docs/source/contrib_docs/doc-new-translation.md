@@ -265,7 +265,8 @@ documentation changes. The steps to accomplish this end vary depending on the CI
 following describes how what to do when using GitHub Actions.
 
 1. Create a new GitHub actions workflow file `.github/workflows/gettext.yml` in the project.
-2. Add the following content to the file:
+2. Add the following content to the file. Note that `secrets.GITHUB_TOKEN` is a built-in secret, not
+   something you need to configure ahead of time.
 
 ```yaml
 name: Extract Translatable Strings
