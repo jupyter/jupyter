@@ -259,10 +259,56 @@ filters:
 12. Click one of the languages to see details about translation progress, translate text, and review
     translations. See the [Translator workflows](#translator-workflows) section above for details.
 
-TODO
+After confirming the initial English `.po` files have reached Transifex, set up continuous
+integration to ensure source strings are kept up-to-date in Transifex whenever the English
+documentation changes. The steps to accomplish this end vary depending on the CI provider. The
+following describes how what to do when using GitHub Actions.
 
-- example of configure github actions to run gettext + sphinx-intl
-- link to hello world project commits and PRs
+1. Create a new GitHub actions workflow file `.github/workflows/gettext.yml` in the project.
+2. Add the following content to the file:
+
+```yaml
+name: Extract Translatable Strings
+
+# Run on all branch pushes
+on:
+  push:
+    paths:
+      - "docs/source/**"
+      - "!docs/source/locale/**"
+      - ".github/workflows/gettext.yml"
+
+jobs:
+  gettext:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@master
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        working-directory: docs
+        run: pip install -r requirements.txt
+      - name: Extract source strings
+        working-directory: docs
+        run: |
+          make gettext
+          sphinx-intl update -l en
+      - name: Push to master
+        # Only commit changes to master if master just changed
+        if: github.ref == 'refs/heads/master'
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Submit, review, and merge a pull request containing the workflow YAML.
+
+Once you complete the steps in this section, any changes to the source English documentation merged
+to master are pushed to Transifex for translation. Likewise, and translations completed on Trasifex
+are submitted as pull requests back to the project on GitHub.
 
 ### Hosting translations on ReadTheDocs
 
@@ -270,3 +316,8 @@ TODO
 
 - New project `<name>-<locale>`
 - Set as translation of root project in Admin -> Translations
+
+## Reference
+
+https://github.com/parente/helloworld-transifex-rtd is a mini-project configured to support the
+entire workflow described in this document.
