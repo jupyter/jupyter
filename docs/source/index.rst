@@ -13,7 +13,7 @@ Start Here
 .. list-table::
    :class: front_page_table
 
-   * - :doc:`Jupyter Notebook Quickstart <content-quickstart>`
+   * - :doc:`Get started with Jupyter Notebook <content-quickstart>`
 
        Try the notebook
 
