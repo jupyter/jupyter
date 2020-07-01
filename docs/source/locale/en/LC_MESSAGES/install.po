@@ -9,39 +9,121 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-31 16:50+0000\n"
+"POT-Creation-Date: 2020-07-01 16:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-# ffbb37b4a6064c4293bd70b5fddb96e4
-#: ../../source/install.rst:5
-msgid "Installing Jupyter Notebook"
+#: ../../source/install.rst:5 1e379a9d7f2645889a62285af2b77526
+msgid "Install Instructions"
 msgstr ""
 
 # 7ab1cb39403041899fd89e70ec072c36
-#: ../../source/install.rst:9
+#: ../../source/install.rst:8 396811c8a2df4663ab070aa1e78b3fa7
 msgid "Contents"
 msgstr ""
 
+#: ../../source/install.rst:10 0777b4254e6f491cbc46fcbe38c1b669
+msgid ""
+"This section includes instructions on how to get started with **Jupyter "
+"Notebook**. But there are multiple Jupyter user interfaces one can use, "
+"based on their needs. Please checkout the list and links below for "
+"additional information and instructions about how to get started with "
+"each of them."
+msgstr ""
+
+#: ../../source/install.rst:15 d9bc639dbf794cbfb388f20159faa818
+msgid ""
+"**Jupyter Notebook** - *Web-based application for authoring documents "
+"that combine live-code with narrative text, equations and "
+"visualizations.*"
+msgstr ""
+
+#: ../../source/install.rst:18 14a0b83505d94406b48651e1be96805c
+msgid "`GitHub Repo <https://github.com/jupyter/notebook>`_"
+msgstr ""
+
+#: ../../source/install.rst:19 7b3099b8353f427a9ecd1a7aa1743d41
+msgid "`Docs <https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest>`_"
+msgstr ""
+
+#: ../../source/install.rst:21 1fcb8b25239541b48696dbd06267d665
+msgid ""
+"**JupyterLab** - *A next-generation web-based user interface for Project "
+"Jupyter.*"
+msgstr ""
+
+#: ../../source/install.rst:23 f23ab4518e3f4dec8d70dfa070082f38
+msgid "`GitHub Repo <https://github.com/jupyterlab/jupyterlab>`_"
+msgstr ""
+
+#: ../../source/install.rst:24 b10c9a8ad96a4ced89599316d4c8e1f7
+msgid "`Docs <https://jupyterlab.readthedocs.io/en/stable/>`_"
+msgstr ""
+
+#: ../../source/install.rst:25 6b26557dfee44d8988f11150d0da59fb
+msgid ""
+"`Install instructions "
+"<https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>`_"
+msgstr ""
+
+#: ../../source/install.rst:27 9d1c30c5519540aeaf7c89ba7d6d6dfc
+msgid "**Jupyter Console** - Terminal based console for interactive computing."
+msgstr ""
+
+#: ../../source/install.rst:29 f60783197b6e47f3b99840b95c957e7f
+msgid "`GitHub Repo <https://github.com/jupyter/jupyter_console>`_"
+msgstr ""
+
+#: ../../source/install.rst:30 da07f03ca16f4d1aa28bbc1a5d07ff5d
+msgid ""
+"`Docs and Install instructions <https://jupyter-"
+"console.readthedocs.io/en/latest/>`_"
+msgstr ""
+
+#: ../../source/install.rst:32 2e91bad1e3a64a118ab7b438441477ad
+msgid ""
+"**Jupyter QtConsole** - Qt application for interactive computing with "
+"rich output."
+msgstr ""
+
+#: ../../source/install.rst:34 a61fc40d6cb3449381454a6cd8297095
+msgid "`GitHub Repo <https://github.com/jupyter/qtconsole>`_"
+msgstr ""
+
+#: ../../source/install.rst:35 e1bd776a0d0b4783ad23c36720dbcea6
+msgid "`Docs <https://qtconsole.readthedocs.io/en/stable/index.html>`_"
+msgstr ""
+
+#: ../../source/install.rst:36 c5998e2c76924328bd2d71bb5a0952a8
+msgid ""
+"`Install instructions "
+"<https://qtconsole.readthedocs.io/en/stable/installation.html>`_"
+msgstr ""
+
+# ffbb37b4a6064c4293bd70b5fddb96e4
+#: ../../source/install.rst:40 c6241463b97d46cca54f07c6d63a10a3
+msgid "Installing Jupyter Notebook"
+msgstr ""
+
 # 24944b561f924ddd911096f48f136f64
-#: ../../source/install.rst:11
+#: ../../source/install.rst:42 b04ab555cda34ac7914eddf423fd80cd
 msgid ""
 "This information explains how to install the Jupyter Notebook and the "
 "IPython kernel."
 msgstr ""
 
 # 9adca524080f4c91b4eb73369181cac7
-#: ../../source/install.rst:15
+#: ../../source/install.rst:46 32ef094710234743a86f2fd5f41446b9
 msgid "Prerequisite: Python"
 msgstr ""
 
 # d169910c38f948b7ac2952e799e585d5
-#: ../../source/install.rst:17
+#: ../../source/install.rst:48 fac0f80e138442c996135f68d1303ce9
 msgid ""
 "While Jupyter runs code in many programming languages, **Python** is a "
 "requirement (Python 3.3 or greater, or Python 2.7) for installing the "
@@ -49,7 +131,7 @@ msgid ""
 msgstr ""
 
 # 085979bf68e84b0e9b15d137d1234a8b
-#: ../../source/install.rst:21
+#: ../../source/install.rst:52 dfee6cf3ebfd4fe6ba1309ae64035171
 msgid ""
 "We recommend using the `Anaconda <https://www.anaconda.com/download>`_ "
 "distribution to install Python and Jupyter. We'll go through its "
@@ -57,12 +139,12 @@ msgid ""
 msgstr ""
 
 # 16c5366b626b4d39b19b501cccb27142
-#: ../../source/install.rst:28
+#: ../../source/install.rst:59 ddb98be648ca48b0ac2d239915b5d04f
 msgid "Installing Jupyter using Anaconda and conda"
 msgstr ""
 
 # 767eb05028794e92bc704d599083862d
-#: ../../source/install.rst:30
+#: ../../source/install.rst:61 fdf03a3efe7b47dc94499283a54d1ce1
 msgid ""
 "For new users, we **highly recommend** `installing Anaconda "
 "<https://www.anaconda.com/download>`_. Anaconda conveniently installs "
@@ -71,41 +153,41 @@ msgid ""
 msgstr ""
 
 # 05c5808a5e0148158765958378b90b6f
-#: ../../source/install.rst:35
+#: ../../source/install.rst:66 8156df38e8bd40f3b355889afcd44508
 msgid "Use the following installation steps:"
 msgstr ""
 
 # a27f5cc69d014699b0df24449e9429fd
-#: ../../source/install.rst:37
+#: ../../source/install.rst:68 6718994e72ce4bc2a3492b9929816bcf
 msgid ""
 "Download `Anaconda <https://www.anaconda.com/download>`_. We recommend "
 "downloading Anaconda's latest Python 3 version (currently Python 3.7)."
 msgstr ""
 
 # 4a21fbaf720541fda995cb60551befb4
-#: ../../source/install.rst:40
+#: ../../source/install.rst:71 c6f1000c7fd34a7eb45f878c0d6300c7
 msgid ""
 "Install the version of Anaconda which you downloaded, following the "
 "instructions on the download page."
 msgstr ""
 
 # d5a47880420642eaba90590b54097b26
-#: ../../source/install.rst:43
+#: ../../source/install.rst:74 fd0065cdb2d94fb7ab48be5a31d02e84
 msgid "Congratulations, you have installed Jupyter Notebook. To run the notebook:"
 msgstr ""
 
 # 6227c09c5e6b4a59be669bfb1c4c2fdc
-#: ../../source/install.rst:49
+#: ../../source/install.rst:80 9b51f84762fe436db08e79ba6c50eec3
 msgid "See :ref:`Running the Notebook <running>` for more details."
 msgstr ""
 
 # a57622d290e3435084627a34b100ce79
-#: ../../source/install.rst:54
+#: ../../source/install.rst:85 f59b19c872b34729b8b8c5d017e7d44a
 msgid "*Alternative for experienced Python users:* Installing Jupyter with pip"
 msgstr ""
 
 # 4ff159ed555344a5b35b67086a401fda
-#: ../../source/install.rst:58
+#: ../../source/install.rst:89 1fdd9cb431f54ed384985b93b90a824f
 msgid ""
 "Jupyter installation requires Python 3.3 or greater, or Python 2.7. "
 "IPython 1.x, which included the parts that later became Jupyter, was the "
@@ -113,34 +195,103 @@ msgid ""
 msgstr ""
 
 # dbff8577777040db8c06790617420c29
-#: ../../source/install.rst:62
+#: ../../source/install.rst:93 59d210e7bfe64f1681ffc35a7ee82045
 msgid ""
 "As an existing Python user, you may wish to install Jupyter using "
 "Python's package manager, :term:`pip`, instead of Anaconda."
 msgstr ""
 
 # ef9257faebfd4ba4bbf41fda5f195413
-#: ../../source/install.rst:67
+#: ../../source/install.rst:98 b30aff8ccb9043daa737b13e9fe23588
 msgid ""
 "First, ensure that you have the latest pip; older versions may have "
 "trouble with some dependencies:"
 msgstr ""
 
 # bc2ec7faaa854a36bd339cbebc78741c
-#: ../../source/install.rst:74
+#: ../../source/install.rst:105 7911527814574fe59a720eec149fb072
 msgid "Then install the Jupyter Notebook using:"
 msgstr ""
 
 # cc79a3bf6e1a46b4bb1ab37da05e643d
-#: ../../source/install.rst:80
+#: ../../source/install.rst:111 d3fa9d95ea3c46f9b62624ab900245a0
 msgid "(Use ``pip`` if using legacy Python 2.)"
 msgstr ""
 
 # bedb9ecab9554259ae2a7d28ea48e972
-#: ../../source/install.rst:82
+#: ../../source/install.rst:113 c03ad61ee7ca4a6ab1be522f1071f09d
 msgid ""
 "Congratulations. You have installed Jupyter Notebook. See :ref:`Running "
 "the Notebook <running>` for more details."
+msgstr ""
+
+#: ../../source/install.rst:117 28f9e4b883044af699f7ef981bb546a6
+msgid "*Optional:* Installing Kernels"
+msgstr ""
+
+#: ../../source/install.rst:119 a9dd333a8ce14ac3b71d8e089ace3fa0
+msgid ""
+"This information gives a high-level view of using Jupyter Notebook with "
+"different programming languages (kernels)."
+msgstr ""
+
+#: ../../source/install.rst:123 63563dd639fd4fd99606f43eb59f1f82
+msgid "Are any languages pre-installed?"
+msgstr ""
+
+#: ../../source/install.rst:125 a0186f67bba4498f80fb6d9dcb4d491e
+msgid ""
+"Yes, installing the Jupyter Notebook will also install the `IPython "
+"<https://ipython.readthedocs.io/en/latest/>`_ :term:`kernel`. This allows"
+" working on notebooks using the Python programming language."
+msgstr ""
+
+#: ../../source/install.rst:130 8d3dee1755a3479fb683e4ff4055e58b
+msgid "How do I install Python 2 and Python 3?"
+msgstr ""
+
+#: ../../source/install.rst:132 561967fb173c417d9d483c38183989a9
+msgid ""
+"To install an additional version of Python, i.e. to have both Python 2 "
+"and 3 available, see the IPython docs on `installing kernels "
+"<https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_."
+msgstr ""
+
+#: ../../source/install.rst:137 ecddd5ccd7f44b30a84a365a20dec810
+msgid "How do I install other languages like R or Julia?"
+msgstr ""
+
+#: ../../source/install.rst:139 7cb056251b12479c8a7eb6538d6e2b41
+msgid ""
+"To run notebooks in languages other than Python, such as R or Julia, you "
+"will need to install additional kernels. For more information, see the "
+"full `list of available kernels`_."
+msgstr ""
+
+#: ../../source/install.rst:147 86b1f3bf11254f4d8a0daef615cc3c93
+msgid ":ref:`Jupyter Projects <subprojects>`"
+msgstr ""
+
+#: ../../source/install.rst:146 86f9bc8ef0744d72928c8848f89c0890
+msgid ""
+"Detailed installation instructions for individual Jupyter or IPython "
+"projects."
+msgstr ""
+
+#: ../../source/install.rst:150 0bcb4f42697a43d9aadb9b5552005e19
+msgid ":ref:`Kernels <kernels-langs>`"
+msgstr ""
+
+#: ../../source/install.rst:150 a1bb654812164cf5944f1b0d2e545630
+msgid "Information about additional programming language kernels."
+msgstr ""
+
+#: ../../source/install.rst:152 d6a42115126e44f8953cd452ff2c8b1b
+msgid ":ref:`Kernels documentation for Jupyter client <kernels>`"
+msgstr ""
+
+#: ../../source/install.rst:153 9b63e23297cd4462a3733d653732a936
+msgid "Technical information about kernels."
 msgstr ""
 
 # 54686805017a467b9a216e0a7704ce74
