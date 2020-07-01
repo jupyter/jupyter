@@ -18,7 +18,7 @@ how to get started with each of them.
   * `GitHub Repo <https://github.com/jupyter/notebook>`_
   * `Docs <https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest>`_
 
-* **JupyterLab** - *The next-generation web-based user interface for Project Jupyter.*
+* **JupyterLab** - *A next-generation web-based user interface for Project Jupyter.*
 
   * `GitHub Repo <https://github.com/jupyterlab/jupyterlab>`_
   * `Docs <https://jupyterlab.readthedocs.io/en/stable/>`_
