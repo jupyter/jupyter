@@ -3,15 +3,28 @@
 Using Jupyter
 =============
 
+.. toctree::
+   :hidden:
+
+   ../install
+   upgrade-notebook
+   jupyter-command
+   jupyter-directories
+   config
+   subprojects
+   ipython_projects
+   incubator
+   kernels
+   doc-proj-categories
+
 Installation
 ------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    ../install
    upgrade-notebook
-   ../install-kernel
 
 How do I decide which packages I need?
 --------------------------------------

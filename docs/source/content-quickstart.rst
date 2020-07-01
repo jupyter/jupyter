@@ -1,11 +1,9 @@
-Quickstart
-==========
+Get Started
+===========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   tryjupyter.rst
-   install.rst
-   install-kernel.rst
-   running.rst
-   migrating.rst
+   tryjupyter
+   install
+   running

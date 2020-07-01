@@ -1,12 +1,43 @@
 .. _install:
 
-===========================
-Installing Jupyter Notebook
-===========================
-
+====================
+Install Instructions
+====================
 .. contents:: Contents
    :local:
    :depth: 2
+
+This section includes instructions on how to get started with **Jupyter Notebook**.
+But there are multiple Jupyter user interfaces one can use, based on their needs.
+Please checkout the list and links below for additional information and instructions about
+how to get started with each of them.
+
+* **Jupyter Notebook** - *Web-based application for authoring documents that combine
+  live-code with narrative text, equations and visualizations.*
+
+  * `GitHub Repo <https://github.com/jupyter/notebook>`_
+  * `Docs <https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest>`_
+
+* **JupyterLab** - *A next-generation web-based user interface for Project Jupyter.*
+
+  * `GitHub Repo <https://github.com/jupyterlab/jupyterlab>`_
+  * `Docs <https://jupyterlab.readthedocs.io/en/stable/>`_
+  * `Install instructions <https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>`_
+
+* **Jupyter Console** - Terminal based console for interactive computing.
+
+  * `GitHub Repo <https://github.com/jupyter/jupyter_console>`_
+  * `Docs and Install instructions <https://jupyter-console.readthedocs.io/en/latest/>`_
+
+* **Jupyter QtConsole** - Qt application for interactive computing with rich output.
+
+  * `GitHub Repo <https://github.com/jupyter/qtconsole>`_
+  * `Docs <https://qtconsole.readthedocs.io/en/stable/index.html>`_
+  * `Install instructions <https://qtconsole.readthedocs.io/en/stable/installation.html>`_
+
+
+Installing Jupyter Notebook
+===========================
 
 This information explains how to install the Jupyter Notebook and the IPython
 kernel.
@@ -81,3 +112,44 @@ Then install the Jupyter Notebook using:
 
 Congratulations. You have installed Jupyter Notebook. See
 :ref:`Running the Notebook <running>` for more details.
+
+*Optional:* Installing Kernels
+==============================
+
+This information gives a high-level view of using Jupyter Notebook with
+different programming languages (kernels).
+
+Are any languages pre-installed?
+--------------------------------
+
+Yes, installing the Jupyter Notebook will also install the
+`IPython <https://ipython.readthedocs.io/en/latest/>`_ :term:`kernel`. This
+allows working on notebooks using the Python programming language.
+
+How do I install Python 2 and Python 3?
+---------------------------------------
+
+To install an additional version of Python, i.e. to have both Python 2 and 3
+available, see the IPython docs on
+`installing kernels <https://ipython.readthedocs.io/en/latest/install/kernel_install.html>`_.
+
+How do I install other languages like R or Julia?
+-------------------------------------------------
+
+To run notebooks in languages other than Python, such as R or Julia, you will
+need to install additional kernels. For more information, see the full
+`list of available kernels`_.
+
+.. seealso::
+
+    :ref:`Jupyter Projects <subprojects>`
+        Detailed installation instructions for individual Jupyter or IPython
+        projects.
+
+    :ref:`Kernels <kernels-langs>`
+        Information about additional programming language kernels.
+
+    :ref:`Kernels documentation for Jupyter client <kernels>`
+        Technical information about kernels.
+
+.. _`list of available kernels`: https://github.com/jupyter/jupyter/wiki/Jupyter-kernels

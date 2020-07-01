@@ -13,7 +13,7 @@ Start Here
 .. list-table::
    :class: front_page_table
 
-   * - :doc:`Jupyter Notebook Quickstart <content-quickstart>`
+   * - :doc:`Get started with Jupyter Notebook <content-quickstart>`
 
        Try the notebook
 
@@ -49,7 +49,9 @@ Start Here
 
        Documentation for users
 
-     -
+     - :doc:`Advanced <migrating>`
+
+       Documentation for advanced use-cases
 
 Sub-project documentation
 =========================
