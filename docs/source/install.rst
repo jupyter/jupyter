@@ -3,10 +3,38 @@
 ====================
 Install Instructions
 ====================
-
 .. contents:: Contents
    :local:
    :depth: 2
+
+This section includes instructions on how to get started with **Jupyter Notebook**.
+But there are multiple Jupyter user interfaces one can use, based on their needs.
+Please checkout the list and links below for additional information and instructions about
+how to get started with each of them.
+
+* **Jupyter Notebook** - *Web-based application for authoring documents that combine
+  live-code with narrative text, equations and visualizations.*
+
+  * `GitHub Repo <https://github.com/jupyter/notebook>`_
+  * `Docs <https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest>`_
+
+* **JupyterLab** - *The next-generation web-based user interface for Project Jupyter.*
+
+  * `GitHub Repo <https://github.com/jupyterlab/jupyterlab>`_
+  * `Docs <https://jupyterlab.readthedocs.io/en/stable/>`_
+  * `Install instructions <https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>`_
+
+* **Jupyter Console** - Terminal based console for interactive computing.
+
+  * `GitHub Repo <https://github.com/jupyter/jupyter_console>`_
+  * `Docs and Install instructions <https://jupyter-console.readthedocs.io/en/latest/>`_
+
+* **Jupyter QtConsole** - Qt application for interactive computing with rich output.
+
+  * `GitHub Repo <https://github.com/jupyter/qtconsole>`_
+  * `Docs <https://qtconsole.readthedocs.io/en/stable/index.html>`_
+  * `Install instructions <https://qtconsole.readthedocs.io/en/stable/installation.html>`_
+
 
 Installing Jupyter Notebook
 ===========================
