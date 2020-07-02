@@ -11,8 +11,12 @@ meant to prove out the workflows described on this page.
 ## Overview
 
 After initial project setup, changes to Sphinx documentation and its translations follow a
-continuous integration (CI) and continuous deployment (CD), much like project source code. This flow
-has a handful of actors:
+continuous integration (CI) and continuous deployment (CD), much like project source code.
+
+## Who is involved in translating documentation
+
+Anyone is welcome to participate in writing and translating Jupyter documentation by participating
+in the workflow described below. This workflow has a handful of actors:
 
 - A person who makes changes to the English project documentation
 - A person who translates snippets of text in the English documentations into another language
@@ -23,6 +27,8 @@ has a handful of actors:
 - [Transifex](https://transifex.com), a localization platform with free plans for open source
   projects, a friendly web interface, and support for the defacto
   [portable object (`.po`)](https://en.wikipedia.org/wiki/Gettext) translation format
+
+### The translation process
 
 ![Translation CI/CD](static/translation-ci-cd.png "Diagram of the translation continuous integration
 and deployment flow")
@@ -56,7 +62,7 @@ Note: We recognize this flow assumes documentation starts life written in U.S. E
 look into removing this assumption in the future if it becomes a significant barrier to new
 contributions.
 
-## Translator workflows
+## Community translator workflows
 
 We are delighted when members of the Jupyter community want to help translate documentation. We use
 [Transifex](https://transifex.com) to on-board translators in a friendly web interface without
@@ -64,7 +70,7 @@ requiring knowledge of git, GitHub, Sphinx, or other software developer tools.
 
 ### Creating translations
 
-[Getting Started as a Translator](https://docs.transifex.com/getting-started-1/translators>) is an
+[Getting Started as a Translator](https://docs.transifex.com/getting-started-1/translators) is an
 excellent on-boarding guide for new Transifex users. Follow the instructions to create an account.
 When prompted to join a team, look for _jupyter-meta-documentation_ to start contributing
 translations to this documentation site. Alternatively, visit
