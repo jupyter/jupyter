@@ -37,7 +37,7 @@ Start Here
 
        New features, upgrades, deprecation notes, and bug fixes
 
-   * - :doc:`IPython <ipython/content-ipython>`
+   * - :doc:`IPython <reference/ipython>`
 
        An interactive Python kernel and REPL
 
@@ -49,7 +49,7 @@ Start Here
 
        Documentation for users
 
-     - :doc:`Advanced <migrating>`
+     - :doc:`Advanced <advanced/content-advanced>`
 
        Documentation for advanced use-cases
 
@@ -147,19 +147,17 @@ Table of Contents
 
    use-cases/content-user.rst
 
-.. _about-ipython:
-
-.. toctree::
-   :maxdepth: 2
-
-   ipython/content-ipython.rst
-
 .. _jupyter-subprojects:
 
 .. toctree::
    :maxdepth: 2
 
    projects/content-projects
+
+.. toctree::
+   :maxdepth: 2
+
+   advanced/content-advanced
 
 .. toctree::
    :maxdepth: 2

@@ -1,5 +1,3 @@
-.. _migrating:
-
 ===============================
 Migrating from IPython Notebook
 ===============================
