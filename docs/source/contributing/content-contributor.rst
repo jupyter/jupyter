@@ -1,14 +1,15 @@
-Contributors
+Contributing
 ============
 
 .. toctree::
    :maxdepth: 1
 
 
-   ../developer-docs/index
-   ../development_guide/index
-   ../contrib_docs/index
-   contrib_guide_blog
+   start-contributing
+   dev-contributions/index
+   docs-contributions/index
+   communication-contributions
+   ipython-dev-guide/index
 
 Whether you are a new, returning, or current contributor to Project
 Jupyter's subprojects or IPython, **we welcome you**.

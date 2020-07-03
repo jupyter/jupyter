@@ -171,7 +171,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   contributor/content-contributor
+   contributing/content-contributor
 
 .. toctree::
    :maxdepth: 2
