@@ -16,47 +16,71 @@ continuous integration (CI) and continuous deployment (CD), much like project so
 ## Who is involved in translating documentation
 
 Anyone is welcome to participate in writing and translating Jupyter documentation by participating
-in the workflow described below. This workflow has a handful of actors:
+in the workflow described below. This workflow has a handful of actors and components:
 
 - A person who makes changes to the English project documentation
 - A person who translates snippets of text in the English documentations into another language
   (locale)
-- A continuous integration system like TravisCI, CircleCI, GitHub Actions
+- [Portable object files (`.po`)](https://en.wikipedia.org/wiki/Gettext) for the source
+  documentation language (e.g., U.S. English, `en-US`) and for other locales (e.g., Brazilian
+  Portuguese, `pt-BR`; Moroccan Arabic, `ar-MA`)
+- A continuous integration system like TravisCI, CircleCI, or GitHub Actions, responsible for
 - [ReadTheDocs](https:/readthedocs.org), our preferred service for building and hosting
   documentation
 - [Transifex](https://transifex.com), a localization platform with free plans for open source
-  projects, a friendly web interface, and support for the defacto
-  [portable object (`.po`)](https://en.wikipedia.org/wiki/Gettext) translation format
+  projects, a friendly web interface, and support for `.po` files
 
 ### The translation process
 
 ![Translation CI/CD](static/translation-ci-cd.png "Diagram of the translation continuous integration
 and deployment flow")
 
-1. A user creates or edits restructuredText (`.rst`) or Markdown (`.md`) documents written in U.S.
+1. A user creates or edits reStructuredText (`.rst`) or Markdown (`.md`) documents written in U.S.
    English.
 2. The user submits a pull request on GitHub.
 3. A project maintainer reviews and merges the pull request.
-4. ReadTheDocs converts the U.S. English source documents into HTML (e.g.,
+4. ReadTheDocs runs Sphinx to convert U.S. English source documents into HTML (e.g.,
    https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
-5. ReadTheDocs substitutes string translations for the English originals for all other configured
-   locales and converts those documents into HTML also (e.g.,
-   https://jupyter.readthedocs.io/pt_BR/latest/architecture/how_jupyter_ipython_work.html)
-6. Meanwhile, the CI service runs a Sphinx command to extract translatable text from U.S. English
-   documents into `en_US` portable object (`.po`) files.
-7. The CI service commits the `.po` files to the project on GitHub. (e.g.,
+5. Meanwhile, the CI service runs Sphinx commands to extract translatable _messages_ from U.S.
+   English documents into `en-US` portable object (`.po`) files. For example:
+
+```
+# 5164fcd91a8a4700ac734562245773ad
+#: ../../source/architecture/how_jupyter_ipython_work.rst:13
+#: f68a21b0bc884dad9021c276e6490e6d
+msgid ""
+"The IPython kernel that provides computation and communication with the "
+"frontend interfaces, like the notebook"
+msgstr ""
+```
+
+6. The CI service commits the English `.po` files to the project on GitHub. (e.g.,
    https://github.com/jupyter/jupyter/commit/1330bc409842d8b8a7bbb3a1c63259c34a543be0)
-8. Transifex makes new strings found in the `.po` files available for translation in all configured
-   languages.
-9. Over time, translation teams use the Transifex web application to create, review, and update
-   translations for extracted strings (e.g.,
+7. Transifex makes the messages in the English `.po` files available for translation in all
+   configured languages.
+8. Over time, translation teams use the Transifex web application to create, review, and update
+   translations for those languages (e.g.,
    https://docs.transifex.com/translation/translating-with-the-web-editor)
-10. Transifex submits a pull request to the GitHub project containing a `.po` file when all of its
-    strings have been translated, and optionally reviewed, for a given locale (e.g.,
-    https://github.com/jupyter/jupyter/pull/485)
-11. A project maintainer reviews and merges the pull request.
-12. ReadTheDocs once again builds HTML documentation for the the U.S. English source and other
-    configured locales, including the latest translations.
+9. Transifex submits a pull request to the GitHub project containing a localized `.po` file when all
+   of the English messages have been translated, and optionally reviewed, for a given language
+   (e.g., https://github.com/jupyter/jupyter/pull/485). For example:
+
+```
+# 5164fcd91a8a4700ac734562245773ad
+#: ../../source/architecture/how_jupyter_ipython_work.rst:13
+msgid ""
+"The IPython kernel that provides computation and communication with the "
+"frontend interfaces, like the notebook"
+msgstr ""
+"The IPython kernel que fornece o cálculo e  a comunicação com as interfaces "
+"de frontend como o notebook"
+```
+
+10. A project maintainer reviews and merges the pull request.
+11. ReadTheDocs once again runs Sphinx to convert U.S. English source documents into HTML.
+12. ReadTheDocs also runs Sphinx to load localized `.po` files, substitute translations into the
+    original English text, and convert those translated documents into HTML (e.g.,
+    https://jupyter.readthedocs.io/pt_BR/latest/architecture/how_jupyter_ipython_work.html)
 
 Note: We recognize this flow assumes documentation starts life written in U.S. English. We should
 look into removing this assumption in the future if it becomes a significant barrier to new
