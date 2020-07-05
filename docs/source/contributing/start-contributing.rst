@@ -1,6 +1,6 @@
-===============================
-Contributing for the First Time
-===============================
+============================
+Getting Started Contributing
+============================
 
 .. contents:: Contents
    :local:

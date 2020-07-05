@@ -1,12 +1,9 @@
 ===============
-Developer Guide
+How can I help?
 ===============
 
 .. contents:: Contents
    :local:
-
-A Note on Contributing to Open Source
--------------------------------------
 
 Contributing to open source can be a nerve-wrecking process, but don't worry
 everyone on the Jupyter team is dedicated to making sure that your open source
@@ -22,8 +19,9 @@ understand something, it's OK to make mistakes, and it's OK to only contribute
 a small amount of the code necessary to fix the issue you are tackling. Any and
 all help is welcome and any and all people are encouraged to contribute.
 
-How can I help?
----------------
+
+Submitting Pull Requests
+========================
 
 Individuals are welcome, and encouraged, to submit pull requests and contribute
 to the Jupyter source. If you are a first-time contributor looking to get
@@ -160,3 +158,40 @@ In this case, it would be:
 
     python /path/to/ipython-repo/tools/backport_pr.py jupyter/notebook 4.x 1645
 
+
+Submitting a Bug
+=================
+
+While using the Notebook, you might experience a bug that manifests itself in 
+unexpected behavior.  If so, we encourage you  to open issues on GitHub. To 
+make the navigating issues easier for both developers and users, we ask that
+you take the following steps before submitting an issue.
+
+1. Search through StackOverflow and existing GitHub issues to ensure that 
+   the issue has not already been reported by another user. If so, provide
+   your input on the existing issue if you think it would be valuable.
+
+2. Prepare a small, self-contained snippet of code that will allow others
+   to reproduce the issue that you are experiencing.
+
+3. Prepare information about the environment that you are executing the code
+   in, in order to aid in the debugging of the issue. You will need to provide
+   information about the Python version, Jupyter version, operating system,
+   and browser that you are using when submitting bugs. You can also use
+   ``pip list`` or  ``conda list`` and ``grep`` in order to identify the
+   versions of the libraries that are relevant to the issue that you are
+   submitting.
+
+4. Prepare a simple test that outlines the expected behavior of the code
+   or a description of the what the expected behavior should be.
+
+5. Prepare an explanation of why the current behavior is not desired and 
+   what it should be.
+
+Reporting a Vulnerability
+=========================
+
+If you believe you've found a security vulnerability in a Jupyter project,
+please report it to `security@ipython.org <mailto:security@ipython.org>`_. If you
+prefer to encrypt your security reports, you can use `this PGP public
+key <https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc>`_.

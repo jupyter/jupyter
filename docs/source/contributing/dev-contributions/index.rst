@@ -10,12 +10,9 @@ Developer Guide
    :maxdepth: 1
 
    contrib_first_time.rst
-   contrib_guide_code.rst
-   contrib_guide_bugs_enh.rst
-   contrib_guide_vuln.rst
+   contrib_guide.rst
    jupyter_enhancement_proposals.rst
    releasing.rst
-   ../development_guide/index.rst
 
 Whether you are a new contributor or a seasoned developer, we're pleased that
 you are working on Jupyter. We hope you find the Developer Guide is useful.
