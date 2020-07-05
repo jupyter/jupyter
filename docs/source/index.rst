@@ -29,7 +29,7 @@ Start Here
 
        How to contribute to the projects
 
-   * - :doc:`Narratives and Use Cases <use-cases/content-user>`
+   * - :doc:`Narratives and Use Cases <projects/use-cases/content-user>`
 
        Narratives of common deployment scenarios
 
@@ -49,7 +49,7 @@ Start Here
 
        Documentation for users
 
-     - :doc:`Advanced <advanced/content-advanced>`
+     - :doc:`Advanced <projects/advanced/content-advanced>`
 
        Documentation for advanced use-cases
 
@@ -140,24 +140,12 @@ Table of Contents
 
    architecture/content-architecture.rst
 
-.. _about-docs:
-
-.. toctree::
-   :maxdepth: 2
-
-   use-cases/content-user.rst
-
 .. _jupyter-subprojects:
 
 .. toctree::
    :maxdepth: 2
 
    projects/content-projects
-
-.. toctree::
-   :maxdepth: 2
-
-   advanced/content-advanced
 
 .. toctree::
    :maxdepth: 2
