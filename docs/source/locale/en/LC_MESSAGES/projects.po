@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-11 23:18+0000\n"
+"POT-Creation-Date: 2020-07-06 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-# 92339a9a41b542e298b60cdb6f6cbf61
-#: ../../source/projects/config.rst:4 889c6befa4a342b8b39c2994e9ba0e23
-msgid "Jupyter's Common Configuration Approach"
+#: ../../source/projects/advanced/content-advanced.rst:2
+#: 49fe7c64ce1a4c0fa33f6f5c9b591fb3
+msgid "Advanced Use Cases"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:3
+#: 873cc92dca9841e2a64d057b4fd831d6
+msgid "Migrating from IPython Notebook"
 msgstr ""
 
 # 90da53f4dfa74557a08b864016016453
@@ -30,6 +35,7 @@ msgstr ""
 # d8a293acd5814a1d8797cdf904961a54
 # bb604039b6df48aeb10f4bfd47611399
 # 79fb4da0ecf7403f8bdf26c7e5200dea
+#: ../../source/projects/advanced/migrating.rst:6
 #: ../../source/projects/config.rst:7
 #: ../../source/projects/doc-proj-categories.rst:6
 #: ../../source/projects/incubator.rst:5
@@ -37,23 +43,572 @@ msgstr ""
 #: ../../source/projects/jupyter-directories.rst:7
 #: ../../source/projects/subprojects.rst:8
 #: ../../source/projects/upgrade-notebook.rst:5
-#: 0ead0468cc3a4ade8d143416e5597f81 223c5a0ecc7f4bb99bad9d6589d5dedb
-#: 258bc8615e3b4797bfbbdef86857794a 31263e3553b3431c9e4b36f0e7a8286a
-#: 6b97c2cb6e714934af810667bd0f9219 7311e8a836a146bea87a6a4357c34df4
-#: c26c5d7e3ec640a5b830c26445b5eb4b
+#: ../../source/projects/use-cases/enterprise.rst:8
+#: ../../source/projects/use-cases/narrative-hub.rst:5
+#: ../../source/projects/use-cases/narrative-notebook.rst:5
+#: ../../source/projects/use-cases/narrative-other.rst:5
+#: 00f9517232bf44cc94a641f8532c771d 039c8f3c7512463691ab3c374d4f2676
+#: 08f23d093965447686135a7adc55039b 18ba9990c9c645a6aba9aeb8a545481e
+#: 198af3bf6f1f418c9b5bccc7f884ccaa 2cec5d0fd9344514ae16092a96e63c6e
+#: 452076b038354e7ca9b248de245d863f 4c099212be68499586b0785f0ba1cce4
+#: 521d536445634c5b8c09fad835918876 69fb228a7cf745ca9c06e7499bd452d7
+#: 96ec272ccc824b1eb076d44e4767d56f db92fe112bfe4053addbda773039e3f2
 msgid "Contents"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:9
+#: 4cf68e0aaf82451da03f70826a55629e
+msgid "Abstract"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:11
+#: 2b3529a0d1134becb501f8bd40001a4d
+msgid ""
+"`The Big Split <https://blog.jupyter.org/the-big-split-9d7b88a031a7>`__ "
+"moved IPython's various language-agnostic components under the Jupyter "
+"umbrella. Going forward, Jupyter will contain the language-agnostic "
+"projects that serve many languages. IPython will continue to focus on "
+"Python and its use with Jupyter."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:17
+#: d9e62b28fde846edaa910fd91d056a0f
+msgid ""
+"This document describes what has changed, and how you may need to modify "
+"your code or configuration when migrating from IPython version 3 to "
+"Jupyter."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:22
+#: fa827fb2cc0e4021a83064df41418b1b
+msgid "Understanding the Migration Process"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:25
+#: 3d921842fef64d638573cece277501f0
+msgid "Automatic migration of files"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:27
+#: 7fb69f292b5647c39af64397ee387728
+msgid ""
+"The first time you run any ``jupyter`` command, it will perform an "
+"automatic migration of files. The automatic migration process **copies** "
+"files, instead of moving files, leaving the originals in place and the "
+"copies in the Jupyter file locations. You can re-run the migration, if "
+"needed, by calling ``jupyter migrate``. Your custom configuration will be"
+" migrated automatically and should work with Jupyter without further "
+"editing. When you update or modify your configuration in the future, "
+"please keep in mind that the file locations may have changed."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:37
+#: b3680eb14e0240989e9b82011215b787
+msgid "Where have my configuration files gone?"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:39
+#: 182aaf6ba85345da99a6bf0de680d8d8
+msgid "Also known as: \"Why isn't my configuration having any effect anymore?\""
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:41
+#: 1db4aa749aa04cc1b94cbfaff92ad6d1
+msgid ""
+"Jupyter splitting out from IPython means that the locations of some files"
+" have moved, and Jupyter projects have not inherited everything from how "
+"IPython did it."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:45
+#: 3e188d69fa754c639492cc337059982e
+msgid ""
+"When you start your first Jupyter application, the relevant configuration"
+" files are automatically copied to their new Jupyter locations. The "
+"original configuration files in the IPython locations have no effect on "
+"Jupyter's execution. If you accidentally edit your original IPython "
+"config file, you may not see the desired effect with Jupyter now. You "
+"should check that you are editing Jupyter's configuration file, and you "
+"should see the expected effect after restarting the Jupyter server."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:54
+#: 74d8e939b25244c18c1fdf9061805acb
+msgid "Finding the Location of Important Files"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:56
+#: d0e2a5b3932943a0b57b8f578b03e987
+msgid ""
+"This section provides quick reference for common locations of IPython 3 "
+"files and the migrated Jupyter files."
+msgstr ""
+
+# bee4d55638044b5ca68875379f764a1c
+#: ../../source/projects/advanced/migrating.rst:60
+#: ../../source/projects/jupyter-directories.rst:20
+#: 2d1b79714f364ef6a14ee817f2f9fd4b 959d1bbaa1bb4dd69b1e4386abebdf5e
+msgid "Configuration files"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:62
+#: 758b95a731234ff1af46946f47a0137a
+msgid ""
+"Configuration files customize Jupyter to the user's preferences. The "
+"migrated files should all be **automatically copied** to their new "
+"Jupyter locations. Here are the location changes:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:67
+#: 84b7ff7803bb4862aa550ab1a5974885
+msgid "IPython location"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:67
+#: e47d595df21e4607a60c893c28ce3e68
+msgid "Jupyter location"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:69
+#: 691db8d3ef9549f485eedd1053d9eb59
+msgid ":file:`~/.ipython/profile_default/static/custom`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:69
+#: ../../source/projects/advanced/migrating.rst:70
+#: ../../source/projects/advanced/migrating.rst:71
+#: ../../source/projects/advanced/migrating.rst:72
+#: ../../source/projects/advanced/migrating.rst:73
+#: ../../source/projects/advanced/migrating.rst:239
+#: ../../source/projects/advanced/migrating.rst:240
+#: ../../source/projects/advanced/migrating.rst:241
+#: ../../source/projects/advanced/migrating.rst:242
+#: ../../source/projects/advanced/migrating.rst:243
+#: ../../source/projects/advanced/migrating.rst:244
+#: ../../source/projects/advanced/migrating.rst:245
+#: 0e29ae9fff564d6c8111c5b1e7bcd589 167c679da6624ed2a5aa0f4174f8d214
+#: 635559ae41d44841bf58c7b0012cdf55 67f4c105291c4b40b275fad52119e44a
+#: 70f02e8029b84ac7b02e6c6da1a8a248 9aa9a351aab1496792677dd49b5efd4a
+#: a4df08a22fe443b6a1fea3ef639cfc3c b04e7be1c74d451f8800687b21630e28
+#: c033fdc33da9440db1e9deeaad651e6d cf156a21d44f4d468bc5c57255eaca4d
+#: cf5cfc03b73d4b4b81a49736101664fa e27ec0aa13084aecabe2b35f45670e54
+msgid "→"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:69
+#: 776c083e5ef54a58bc3ca6e902994f64
+msgid ":file:`~/.jupyter/custom`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:70
+#: 49ca08b698024997a90efa5d6ad11946
+msgid ":file:`~/.ipython/profile_default/ipython_notebook_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:70
+#: c9a3198258d44cc5bd8e245916820daa
+msgid ":file:`~/.jupyter/jupyter_notebook_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:71
+#: 6e2a1dad7e1748dfa50f77f87bd26f57
+msgid ":file:`~/.ipython/profile_default/ipython_nbconvert_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:71
+#: 088d2d806ebe457cae5cc31841d142ff
+msgid ":file:`~/.jupyter/jupyter_nbconvert_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:72
+#: afbefa3a6d044046b6c4259612547baf
+msgid ":file:`~/.ipython/profile_default/ipython_qtconsole_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:72
+#: 01ae416b369e423994f54b9dca732ee9
+msgid ":file:`~/.jupyter/jupyter_qtconsole_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:73
+#: c2778b5053874b6f9ad21d69ac47fc4e
+msgid ":file:`~/.ipython/profile_default/ipython_console_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:73
+#: 55249708dd6c4147b6b7d65c2c7b1746
+msgid ":file:`~/.jupyter/jupyter_console_config.py`"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:76
+#: bbd7b26b52234fb782646e7d74641107
+msgid ""
+"To choose a directory location other than the default :file:`~/.jupyter`,"
+" set the ``JUPYTER_CONFIG_DIR`` environment variable. You may need to run"
+" ``jupyter migrate`` after setting the environment variable for files to "
+"be copied to the desired directory."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:82
+#: a4e2a730a1cf4773b4cd062a5dc19e88
+msgid "Data files: kernelspecs and notebook extensions"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:84
+#: 7d9bc946cf0b47bb8d6bc28e073f1a79
+msgid ""
+"Data files include files, other than configuration files, which are user "
+"installed. Examples include kernelspecs and notebook extensions. Like the"
+" configuration files, data files are also **automatically migrated** to "
+"their new Jupyter locations."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:89
+#: d2f3de45c8c447918c3fde0a9e7808f8
+msgid "In **IPython 3**, data files lived in ``~/.ipython``."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:91
+#: 4b51149b04314afc94765d8d38e5cdc6
+msgid "In **Jupyter**, data files use platform-appropriate locations:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:93
+#: a273ee52893245d0a59bde6d67b9e81e
+msgid "OS X: ``~/Library/Jupyter``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:94
+#: 222e5d761eda4e2ebad812029990cc98
+msgid "Windows: the location specified in ``%APPDATA%`` environment variable"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:95
+#: 913c531e0a824011a6550585c62a7bd4
+msgid ""
+"Elsewhere, ``$XDG_DATA_HOME`` is respected, with the default of "
+"``~/.local/share/jupyter``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:98
+#: d5d0e7ae616a49aa9c7d12e599739756
+msgid ""
+"In all cases, the ``JUPYTER_DATA_DIR`` environment variable can be used "
+"to set a location explicitly."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:101
+#: bdfe8494360447f7a88c54e134eb1397
+msgid ""
+"Data files installed system-wide (e.g. in ``/usr/local/share/jupyter``) "
+"have not changed. Per-user installation of data files has changed "
+"location from ``.ipython`` to the platform-appropriate Jupyter location."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:106
+#: b67863a104d14edab1729714bcf50bff
+msgid "Since Jupyter does not have profiles, how do I customize it?"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:108
+#: 01813cc4e525471a88f2e627d30f8e59
+msgid ""
+"While IPython has the concept of :term:`profiles`, **Jupyter does not "
+"have profiles**."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:111
+#: 4e5d43e6aede420f8473515abaeea656
+msgid ""
+"In IPython, profiles are collections of configuration and runtime files. "
+"Inside the IPython directory (``~/.ipython``), there are directories with"
+" names like ``profile_default`` or ``profile_demo``. In each of these are"
+" configuration files (``ipython_config.py``, "
+"``ipython_notebook_config.py``) and runtime files (``history.sqlite``, "
+"``security/kernel-*.json``). Profiles could be used to switch between "
+"configurations of IPython."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:118
+#: 2fae4e84be10460bae0e60b87edf28b4
+msgid ""
+"Previously, people could use commands like ``ipython notebook --profile "
+"demo`` to set the profile for *both* the notebook server and the IPython "
+"kernel. This is no longer possible in one go with Jupyter, just like it "
+"wasn't possible in IPython 3 for any other kernels."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:124
+#: 90fca51a9ea242c38f5661f02a039815
+msgid "Changing the Jupyter notebook configuration directory"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:126
+#: f85dc4b39bb2402baa4942245c84acce
+msgid ""
+"If you want to change the notebook configuration, you can set the "
+"``JUPYTER_CONFIG_DIR``:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:135
+#: 01242e35fb634e50a94874de2df97508
+msgid "Changing the Jupyter notebook configuration file"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:137
+#: e5b382cead004c98beda1f62d2eaf534
+msgid "If you just want to change the config file, you can do:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:144
+#: 63ad0c4ea0714bfeb90de80289a47348
+msgid "Changing IPython's profile using custom kernelspecs"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:146
+#: 7bc4c1d610ba406cbe2b8e47443b6191
+msgid ""
+"If you do want to change the IPython kernel's profile, you can't do this "
+"at the server command-line anymore. Kernel arguments must be changed by "
+"modifying the kernelspec. You can do this without relaunching the server."
+" Kernelspec changes take effect every time you start a new kernel. "
+"However, there isn't a great way to modify the kernelspecs. One approach "
+"uses ``jupyter kernelspec list`` to find the ``kernel.json`` file and "
+"then modifies it, e.g. ``kernels/python3/kernel.json``, by hand. "
+"Alternatively, `a2km <https://github.com/minrk/a2km>`__ is an "
+"experimental project that tries to make these things easier."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:156
+#: b57ec48e52e647bfabb99a0cf940fbcd
+msgid ""
+"For example, add the ``--profile`` option to a custom kernelspec under "
+"``kernels/mycustom/kernel.json`` (see the Jupyter kernelspec directions "
+"`here <https://jupyter-client.readthedocs.io/en/latest/kernels.html"
+"#kernel-specs>`__):"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:170
+#: 576803762bb2443496875b2d685f80a1
+msgid ""
+"You can then run Jupyter with the ``--kernel=mycustom`` command-line "
+"option and IPython will find the appropriate profile."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:174
+#: f8a6a2a0fab94e39af9fef3b595d7638
+msgid "Understanding Installation Changes"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:176
+#: 0d76ffd1910c4c779357035f3609dabd
+msgid ""
+"See the :ref:`install` page for more information about installing "
+"Jupyter. Jupyter automatically migrates some things, like Notebook "
+"extensions and kernels."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:181
+#: 49a56beaf2464cf08a64ce7e0414642c
+msgid "Notebook extensions"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:183
+#: 984ed60fe6e0485aae643c3cbdbb23c8
+msgid ""
+"Any IPython notebook extensions should be **automatically migrated** as "
+"part of the data files migration."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:186
+#: 9222c5de02274aa7b686fcaa61dd2ae2
+msgid "Notebook extensions were installed with:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:192
+#: 387e5ebf09af419e99e8b77772022a59
+msgid "Now, extensions are installed with:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:198
+#: 7cee2373b5784126988e3c7ac3ff7750
+msgid ""
+"The notebook extensions will be installed in a system-wide location (e.g."
+" ``/usr/local/share/jupyter/nbextensions``). If doing a ``--user`` "
+"install, the notebook extensions will go in the ``JUPYTER_DATA_DIR`` "
+"location. Installation **SHOULD NOT** be done manually by guessing where "
+"the files should go."
+msgstr ""
+
+# 1642454b670a4f23b884da1cf8b42095
+# 838d9a305b6d4cf29191f3b95bd29e52
+#: ../../source/projects/advanced/migrating.rst:205
+#: ../../source/projects/doc-proj-categories.rst:36
+#: ../../source/projects/subprojects.rst:39 22317dea02c74b23b775b7ddcd4b48d8
+#: 4f8beb2257004092b9783413e2d86bf0 b179ebf7fd91473b8f5ecf39593d6ab6
+msgid "Kernels"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:207
+#: 8931433edc7343f5a11ef9386c91d5a0
+msgid ""
+"Kernels are installed in much the same way as notebook extensions. They "
+"will also be **automatically migrated**."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:210
+#: 5d5a6d8a2a5640a398f99f28a84ead3d
+msgid "Kernel specs used to be installed with:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:216
+#: 5727e4be53d8437da36cd8a53c6c57f5
+msgid "They are now installed with:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:222
+#: c3da8613b449444c93a5912e57de8c7a
+msgid ""
+"By default, kernel specs will go in a system-wide location (e.g. "
+"``/usr/local/share/jupyter/kernels``). If doing a ``--user`` install, the"
+" kernel specs will go in the ``JUPYTER_DATA_DIR`` location. Installation "
+"**SHOULD NOT** be done manually by guessing where the files should go."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:228
+#: 7ad6ab5af29b40808ed6187461b54d34
+msgid "Understanding Changes in imports"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:230
+#: a36ebf1b4e2b40d789e689043f574b79
+msgid ""
+"IPython 4.0 includes shims to manage dependencies; so, all imports that "
+"work on IPython 3 should continue to work on IPython 4. If you find any "
+"differences, please `let us know "
+"<https://github.com/ipython/ipython/issues>`__."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:234
+#: 74fd239d7d7c4229aacd4b7d5d3ae790
+msgid "Some changes include:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:237
+#: 316c1bff82b149468561562222a1cea4
+msgid "IPython 3"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:237
+#: 4ac3ea3442a040f09e76dff93887a788
+msgid "Jupyter and IPython 4.0"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:239
+#: f85384e8191b440ea3ea59b80b309fb8
+msgid "``IPython.html``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:239
+#: 92d8409c6b0e41a199fea141caee4162
+msgid "``notebook``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:240
+#: 845db8fe29854f2c9cb476055214b3b8
+msgid "``IPython.html.widgets``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:240
+#: b06223ae3cf942b99464f39bcef22ed6
+msgid "``ipywidgets``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:241
+#: 566ede16254e4f0e9330f1a772e10b3f
+msgid "``IPython.kernel``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:241
+#: 55176b3522f541d8bd8ebcb5a2930ceb
+msgid "``jupyter_client``, ``ipykernel``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:242
+#: fcbd734dfc694608bf93d0855eb18e97
+msgid "``IPython.parallel``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:242
+#: a706d47b2c9845bcbe0829588f829066
+msgid "``ipyparallel``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:243
+#: 9186082cab7849fda4af7a6c9dc77724
+msgid "``IPython.qt.console``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:243
+#: 5eb4e04e6ee544f8a1b0f72e2f315663
+msgid "``qtconsole``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:244
+#: feee000e6eea47768fe3f87f79a40e9e
+msgid "``IPython.utils.traitlets``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:244
+#: aa306fd7d9fb49c5810860e090ecaebd
+msgid "``traitlets``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:245
+#: 283a9b8741fd4b4bba03f65c2a93d3ef
+msgid "``IPython.config``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:245
+#: 2ab3b26ce9d74dadab4c7a7b79c3bb15
+msgid "``traitlets.config``"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:250
+#: 4f1865862bd94395a0aeb800157433e7
+msgid "The ``IPython.kernel`` Split"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:252
+#: 4a8083c9f2a241e5a9d602e99f8124cc
+msgid "``IPython.kernel`` became two packages:"
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:254
+#: be7734c42ead4dcb9c7e34419520a951
+msgid "``jupyter_client`` for the Jupyter client-side APIs."
+msgstr ""
+
+#: ../../source/projects/advanced/migrating.rst:255
+#: 29b775fb0e0b407689ca0df1bc681ce9
+msgid "``ipykernel`` for Jupyter's IPython kernel"
+msgstr ""
+
+# 92339a9a41b542e298b60cdb6f6cbf61
+#: ../../source/projects/config.rst:4 07ded36a4d5c4001bd825ffefb24d829
+msgid "Jupyter's Common Configuration Approach"
 msgstr ""
 
 # 50ef143cd1864073a32ebb2bebdb1498
 # 4e98dda3ce1c4ddb8e35780e8e7651a6
 #: ../../source/projects/config.rst:10
 #: ../../source/projects/jupyter-directories.rst:133
-#: 17c7ab096f574378934fecdce894f9a4 822ccf9cd015441c9f4a59cb955f8388
+#: 497a0fb3b73d44ee948a829cad05b3b9 b195e70b9edb4184a4337d6f96d9c217
 msgid "Summary"
 msgstr ""
 
 # 67c9b078874340d2a7434509d80b1dcb
-#: ../../source/projects/config.rst:12 6fefe68f1e004252b2ec3ca4c80b94ad
+#: ../../source/projects/config.rst:12 d1420e8da44c4975878dc7a34ee5dd0e
 msgid ""
 "**Common Jupyter configuration system** The Jupyter applications have a "
 "common config system, and a common :ref:`config directory <config_dir>`. "
@@ -61,7 +616,7 @@ msgid ""
 msgstr ""
 
 # 631c35d8d9ea49129b1a252a853e4683
-#: ../../source/projects/config.rst:17 172743fb634c4a8fb28009503472d21b
+#: ../../source/projects/config.rst:17 6ccaac49c1084d878093f9e18085d830
 msgid ""
 "**Kernel configuration directories** If kernels use config files, these "
 "will normally be organised in separate directories for each kernel. For "
@@ -71,36 +626,36 @@ msgid ""
 msgstr ""
 
 # c275e83d19c14b30a5fed2db4d317a77
-#: ../../source/projects/config.rst:24 959640433c9b4931a513f362c78a5628
+#: ../../source/projects/config.rst:24 5f7ca198da3140b288ea663f7eb8d99e
 msgid "The Python config file"
 msgstr ""
 
 # 883c3694cddb4a79b753d056967b392f
-#: ../../source/projects/config.rst:26 5b0976ba5f4247f4b8b47bdc7134ce9d
+#: ../../source/projects/config.rst:26 c011b9f5d1eb423bb5c64d1dc95c3352
 msgid "To create a default config file, run:"
 msgstr ""
 
 # 249e9606296f42fd9d3d746ce2e2e818
-#: ../../source/projects/config.rst:32 629746457cd9475ea5d9f3c5834c9eda
+#: ../../source/projects/config.rst:32 82fffe19fc4c49018573ad902fc5925e
 msgid "The generated file will be named :file:`jupyter_{application}_config.py`."
 msgstr ""
 
 # 5885d077ef0c4a399da2fd455a465fca
-#: ../../source/projects/config.rst:34 397eef2359bb4b8abe595c6b218d4586
+#: ../../source/projects/config.rst:34 4390728bd3de428b919a5d249e049bdf
 msgid ""
 "By editing the :file:`jupyter_{application}_config.py` file, you can "
 "configure class attributes like this::"
 msgstr ""
 
 # 5b49864fb34346d38f53ab5c5cc396dc
-#: ../../source/projects/config.rst:39 32b23c4639524609a8bced777ce38680
+#: ../../source/projects/config.rst:39 0ea4cd386ca94ff88beb6477ddb7a532
 msgid ""
 "Be careful with spelling. Incorrect names will simply be ignored, with no"
 " error message."
 msgstr ""
 
 # ab038bbb09b648e59a1f74f6d2a58d7a
-#: ../../source/projects/config.rst:42 ba73cd8d21164754bafd48427a04a21d
+#: ../../source/projects/config.rst:42 8d00bd1ef87c489c93477d5261a34cd9
 msgid ""
 "To add to a collection which may have already been defined elsewhere, you"
 " can use methods like those found on lists, dicts and sets: ``append``, "
@@ -110,86 +665,86 @@ msgid ""
 msgstr ""
 
 # ee2b6c90ccd04fe4b948fcc54a29816f
-#: ../../source/projects/config.rst:52 8c05dc3f14884a93a42f399f9f5a96cd
+#: ../../source/projects/config.rst:52 d4864bd9835f4226a45a8759d2fb1caf
 msgid "Command line options for configuration"
 msgstr ""
 
 # e9fa04aaf42e49cbb4d8262ce23da43d
-#: ../../source/projects/config.rst:54 f8662ce98b7843b48c639adbf4974b9c
+#: ../../source/projects/config.rst:54 a1e61f8c558e4bb68024bf710d7d3de9
 msgid ""
 "Every configurable value can also be set from the command line and passed"
 " as an argument, using this syntax:"
 msgstr ""
 
 # 4ab9825a5d064abb8181c8eecc58c8aa
-#: ../../source/projects/config.rst:61 3c0240f7c8fa43d0a01222c713dbc435
+#: ../../source/projects/config.rst:61 a7dc8db72aee45c9ba80013b5a5b934b
 msgid ""
 "Frequently used options will also have short aliases and flags, such as "
 "``--port 8754`` or ``--no-browser``."
 msgstr ""
 
 # b4439d388ac44302a41c3f75677822ef
-#: ../../source/projects/config.rst:64 70784bca18a3468483b027bb54b86774
+#: ../../source/projects/config.rst:64 6dbae989131b4f2f9e676ff7f2372fe9
 msgid ""
 "To see the abbreviated options, pass ``--help`` or ``--help-all`` as "
 "follows:"
 msgstr ""
 
 # 2029a2c8cf304fc1a83b1903b362fe7e
-#: ../../source/projects/config.rst:72 32979f636f664b26af57e5a1439f826a
+#: ../../source/projects/config.rst:72 8d14b875c1ba448c86b8e6822f260838
 msgid ""
 "Command line options **will override** options set within a configuration"
 " file."
 msgstr ""
 
 # 36415b5e588946969565a4a22179fb99
-#: ../../source/projects/config.rst:77 ae891dc7c0844df682fc7687b20e0f77
+#: ../../source/projects/config.rst:77 303edc87fd39442493094a72946bc4fc
 msgid ":mod:`traitlets:traitlets.config`"
 msgstr ""
 
 # ae0cd4a04e9e4835a145e80ea304ec17
-#: ../../source/projects/config.rst:78 f324194eccb645d79a8fecffad768590
+#: ../../source/projects/config.rst:78 d303be26dbf643208088d2e3c65d5d3e
 msgid "The low-level architecture of this config system."
 msgstr ""
 
 #: ../../source/projects/content-projects.rst:4
-#: b98b0ae4a513496ea48bb9c755cceae5
+#: 38d7bf5785044bbd8e7d7cf5e736b486
 msgid "Using Jupyter"
 msgstr ""
 
 # b3daae6ac8b8407d9311cebd6b0cd982
-#: ../../source/projects/content-projects.rst:7
-#: 94301b5f388647c58fc5742a7d4dbfa1
+#: ../../source/projects/content-projects.rst:23
+#: ed7f58ba845e47f285e51bab7d0ced48
 msgid "Installation"
 msgstr ""
 
 # 25e5f9f40ad84a3183e46a0701c5d083
-#: ../../source/projects/content-projects.rst:17
-#: aa6b2fb0524b454cb6f9aa2acc2c3a4a
+#: ../../source/projects/content-projects.rst:32
+#: c74aff58d2c647ed9644b23ab0f1059c
 msgid "How do I decide which packages I need?"
 msgstr ""
 
 # c96ce8e348c543bfbb7beb3622bd7d3b
-#: ../../source/projects/content-projects.rst:136
-#: 10ab2199c8444f5cb93243fff01725ff
+#: ../../source/projects/content-projects.rst:151
+#: 9c7ee6847d3b4337bcd34428949e59a8
 msgid "Configuration"
 msgstr ""
 
 # 54d90121c5e24975be1c0cb3350e3a0b
-#: ../../source/projects/content-projects.rst:146
-#: 1ed23ad9c5be441eb693202167307091
+#: ../../source/projects/content-projects.rst:161
+#: 02411d82e9304950b547a04900b27b79
 msgid "Usage and Projects"
 msgstr ""
 
 # 878b87f3b5334557964db57fe6ecfc00
 #: ../../source/projects/doc-proj-categories.rst:3
-#: 964503ccac99495d95564131d2ec0b79
+#: 5f53e390cffd4b4f88e090fcd1e098c1
 msgid "Project Documentation"
 msgstr ""
 
 # da1412ca76794532b4409e1da1d6a9c6
 #: ../../source/projects/doc-proj-categories.rst:8
-#: 604375c8ab524679bcc3383fff5e020b
+#: f21bd958a5c0421b9708132a7f000ddc
 msgid ""
 "Links to **information on usage, configuration and development** hosted "
 "on Read The Docs or in the GitHub project repo."
@@ -198,44 +753,44 @@ msgstr ""
 # 05e0c934a6004550a2bbc836a9f8241e
 # fc0cfc8377c448dd87f57ad3d7faf590
 #: ../../source/projects/doc-proj-categories.rst:12
-#: ../../source/projects/subprojects.rst:14 2b70ff37b7e54de0877b878a7dd22d95
-#: 9527265929364ba99c8a6e796131d2b0
+#: ../../source/projects/subprojects.rst:14 1c285686a090476b8f84ba359dc4517a
+#: 84a488c54eca4b96917125c1037aacd4
 msgid "Jupyter User Interfaces"
 msgstr ""
 
 # 67a117c7d3874a8b9183c9c321d6a4a0
 #: ../../source/projects/doc-proj-categories.rst:13
-#: 12ad016934be4822b91a0a3489edb8cb
+#: e08872ef721d453989133c94c1b13561
 msgid "`Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # f0f7ba9f5be24319a67f3822fdca4e63
 #: ../../source/projects/doc-proj-categories.rst:14
-#: 0f59a296ee5e4a79bdd22769f28f6edd
+#: c6aedd1054bb4955809d6d6b2f187421
 msgid "`jupyter_console <https://jupyter-console.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # d11bac142e77476e8ed00dbc47d8cca4
 #: ../../source/projects/doc-proj-categories.rst:15
-#: 6da56903b9004619a8a2af2c5124714b
+#: 7220c95f8b7d4b34b1405aa639a654f7
 msgid "`qtconsole <https://qtconsole.readthedocs.io/en/stable/>`_"
 msgstr ""
 
 # 2c1b9d78c1164045b7e3ee67011405cb
 #: ../../source/projects/doc-proj-categories.rst:18
-#: acf131214bfc40d9814070e0e8e6e5a9
+#: 2d4704305bd84901b08c4042fc339875
 msgid "JupyterHub"
 msgstr ""
 
 # fed298a75504421993d6e9e5bc630551
 #: ../../source/projects/doc-proj-categories.rst:19
-#: fe29a140c2874fc39fc9937195070dae
+#: 939ede93adef4c018d77fd5982b4a3fe
 msgid "`JupyterHub <https://jupyterhub.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 7572a9cc7da44692b9f3bc4386564364
 #: ../../source/projects/doc-proj-categories.rst:20
-#: f770cdb2e68d4369bb7902d83dc09320
+#: 0e95f3796e0f4cdb8da385aaf2e39668
 msgid ""
 "`configurable-http-proxy <https://github.com/jupyterhub/configurable-"
 "http-proxy>`_"
@@ -243,89 +798,81 @@ msgstr ""
 
 # 5c5566158224426295e9e97bb73ecc46
 #: ../../source/projects/doc-proj-categories.rst:21
-#: 127ae62e781b435eba1a90b395d96ec6
+#: d3c2f592ff60412b81ab4d6c05fc7d3a
 msgid "`dockerspawner <https://github.com/jupyterhub/dockerspawner>`_"
 msgstr ""
 
 # bb55cce340ef4ea4892839cbd8337e8f
 #: ../../source/projects/doc-proj-categories.rst:22
-#: f1c086f2b7fb440fa07fa12ce5571d6d
+#: a9b848d179be4ab4b7d2b4e749355f95
 msgid "`ldapauthenticator <https://github.com/jupyterhub/ldapauthenticator>`_"
 msgstr ""
 
 # f7d54f483595450fa4b37781fd887452
 #: ../../source/projects/doc-proj-categories.rst:23
-#: a8eccb2704e34c4384494446aefc0546
+#: 10e9837beeb64389921a87650b41bc4e
 msgid "`oauthenticator <https://github.com/jupyterhub/oauthenticator>`_"
 msgstr ""
 
 # dc23452377da44edbe127d34cd305a19
 #: ../../source/projects/doc-proj-categories.rst:24
-#: e414a60996884b3aaeb3207eeaa3e4c2
+#: da4caee8a78640238470fe7a37fc962d
 msgid "`sudospawner <https://github.com/jupyterhub/sudospawner>`_"
 msgstr ""
 
 # fec520fc2c8a4b7aa8f54bda8447e976
 # e31418dae87748369b4fa4826b428dfc
 #: ../../source/projects/doc-proj-categories.rst:27
-#: ../../source/projects/subprojects.rst:91 aad139314f694de48322174202d6c3b0
-#: b2a191e91d3c48078904b656868303b0
+#: ../../source/projects/subprojects.rst:91 8cff5162aa99493e929cacd81eb026d9
+#: 96b29849e71e4d53966f6b0018b6c9c5
 msgid "Education"
 msgstr ""
 
 # e8ecf2b2e0e240438b897616cb0d1cec
 #: ../../source/projects/doc-proj-categories.rst:28
-#: 33f738776c864ae18bfb511484c7f772
+#: 2b114b2559184db7bdb29ea34ec2759d
 msgid "`nbgrader <https://nbgrader.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # bcf3e08d367944c39c38201049663273
 #: ../../source/projects/doc-proj-categories.rst:31
-#: 3bd7c914f2a240c583a74ae57d47d429
+#: bb4fc2686b8749a183006dca74082864
 msgid "Notebook Conversion and Formatting"
 msgstr ""
 
 # 6f5a84f0d0b64958a31aeb68b9bd9d43
 #: ../../source/projects/doc-proj-categories.rst:32
-#: fa25ef1b47f54e9c9b5eabf1d14c3dce
+#: 3a9c6578dfef4c3baa8f4c27a0c3eb5a
 msgid "`nbconvert <https://nbconvert.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 87e7cf3391ae49e2b5719e4f2843a9bc
 #: ../../source/projects/doc-proj-categories.rst:33
-#: 76575c9b0e4e41fe9751c5fc79d37cb6
+#: a098711c3a9f4af8a2141c0510aa3ac4
 msgid "`nbformat <https://nbformat.readthedocs.io/en/latest/>`_"
-msgstr ""
-
-# 1642454b670a4f23b884da1cf8b42095
-# 838d9a305b6d4cf29191f3b95bd29e52
-#: ../../source/projects/doc-proj-categories.rst:36
-#: ../../source/projects/subprojects.rst:39 0f604fd4846e401baf3500c5fc231232
-#: 6147afa936554fb497458f55f0d1e2e7
-msgid "Kernels"
 msgstr ""
 
 # 12d4b4b3066048b68cc4ff247e2beb3c
 #: ../../source/projects/doc-proj-categories.rst:37
-#: a38e47c885df4f6598e7a597360d8307
+#: 6202f560c92c4b5e809d7beccc88a3d7
 msgid "`IPython <https://ipython.readthedocs.io/en/stable/>`_"
 msgstr ""
 
 # 0939ba530c894801ae11b4e65e2530f2
 #: ../../source/projects/doc-proj-categories.rst:38
-#: 28533efd1a974499aadc8481e6499e55
+#: 54b703ae6ef94a0c97b825e644cb2e98
 msgid "`IRkernel <https://irkernel.github.io/>`_"
 msgstr ""
 
 # 10e09d0397ef4458890c8ed800194814
 #: ../../source/projects/doc-proj-categories.rst:39
-#: b895b26a442a46f9b7477fde15032421
+#: 1d7c11edd25d4121bafc8e3d602e7c93
 msgid "`IJulia <https://github.com/JuliaLang/IJulia.jl>`_"
 msgstr ""
 
 # e7d05d24d92f4db3a46dd43f6b247ad6
 #: ../../source/projects/doc-proj-categories.rst:40
-#: b1f78b07c5234d9094da3ba55875a962
+#: a21d991268a44be7999aea0674b35c11
 msgid ""
 "`List of community maintained language kernels "
 "<https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-"
@@ -334,62 +881,62 @@ msgstr ""
 
 # 831ada76059b4ebea4e80a139b91ef06
 #: ../../source/projects/doc-proj-categories.rst:43
-#: 322fe017f72a425e957fbd2e07cef61c
+#: e84c4a68d9d8464c81eccd1940c24c5d
 msgid "IPython"
 msgstr ""
 
 # 38ae294a26394b5d97233f08b0fe9b0d
 #: ../../source/projects/doc-proj-categories.rst:44
-#: 764f3e34e13a420f87e724b82114ff4e
+#: 08a6a1bcc5784d6d893e89ffd13679ab
 msgid "`IPython`_"
 msgstr ""
 
 # 8c06cd6a311e440a8b4b90313e599a5d
 #: ../../source/projects/doc-proj-categories.rst:45
-#: 7d709568be9c42ffbda3c2ff340d6896
+#: 4ed1138a58924e0aaf5020e3b9550458
 msgid "`ipykernel <https://ipython.readthedocs.io/en/stable/>`_"
 msgstr ""
 
 # b890abfa9d4c4040a128bf67fdaa6139
 #: ../../source/projects/doc-proj-categories.rst:46
-#: f63d48bf937941bf92ca04e861e402db
+#: 4532e8895c7347a9bb71c4c90b006a9e
 msgid "`ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 1f0fbbbf059d4c7182c15c9c48dd5450
 # aafbcd62f5d4479f9501ef2df6a138f0
 #: ../../source/projects/doc-proj-categories.rst:49
-#: ../../source/projects/subprojects.rst:106 f4b8279ca1564517a55a24ff746b4dd5
-#: f8c6f076edea41ba9e2a8964936005e5
+#: ../../source/projects/subprojects.rst:106 c40812f039894783bf65ddae9a13a182
+#: d6bc92008d8c46dd8e20a9a8027c08b5
 msgid "Deployment"
 msgstr ""
 
 # 3e5210e31d784c19acf03439c303ab54
 #: ../../source/projects/doc-proj-categories.rst:50
-#: 46b0ee90aa8642b58e467aede607affd
+#: 8e11ce7034e048648726bdaf5ec0b777
 msgid "`docker-stacks <https://github.com/jupyter/docker-stacks>`_"
 msgstr ""
 
 # 4ee088e2656c4478ae6af2f710282744
 #: ../../source/projects/doc-proj-categories.rst:51
-#: 9f9d80c83cc14ac8b1c7b76cd4c59fb0
+#: d8353afcbef8421f99deddc709556f50
 msgid "`ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 6ce5c42884a14600bb1271b40d06d02b
 #: ../../source/projects/doc-proj-categories.rst:52
-#: 3fb963670d4648deb4865e07bd7e2383
+#: 5fda89ff701b49ff8c59564e84d9a8b7
 msgid "`jupyter-drive <https://github.com/jupyter/jupyter-drive>`_"
 msgstr ""
 
 # 97e013d4dc7e44dc88d18c6151f7f7e7
 #: ../../source/projects/doc-proj-categories.rst:53
-#: 3c1073e0166844f5a5f82f7d8d6523f9
+#: 0be2ea51f3b245a99dc2876b87349990
 msgid "`jupyter-sphinx-theme <https://github.com/jupyter/jupyter-sphinx-theme>`_"
 msgstr ""
 
 #: ../../source/projects/doc-proj-categories.rst:54
-#: dbf89976d6d14a47a75877db6eed1cdb
+#: 5e5385dcae7347e29e284935982616c5
 msgid ""
 "`kernel_gateway <https://jupyter-kernel-"
 "gateway.readthedocs.io/en/latest/>`_"
@@ -397,129 +944,129 @@ msgstr ""
 
 # 6b76351692c6479493985193869e2a03
 #: ../../source/projects/doc-proj-categories.rst:55
-#: 0fdff681c3b54c21be5a645a9d8fcff5
+#: 58d668fdce834abdb06080505957bda6
 msgid "`nbviewer <https://github.com/jupyter/nbviewer>`_"
 msgstr ""
 
 # 66405b5e2ad54aa39e2dd7f77874a08c
 #: ../../source/projects/doc-proj-categories.rst:56
-#: 97a7d32936484238bb77f139afff929c
+#: f6ffdc3c4c0941a282adea52bc4c7211
 msgid "`tmpnb <https://github.com/jupyter/tmpnb>`_"
 msgstr ""
 
 # 0a3317a3f98a4a428c7af8adb2d282be
 #: ../../source/projects/doc-proj-categories.rst:57
-#: 6781265659e044a18849f700ffd0231e
+#: 5e450ba5f56a4baeb6b208c1c72d053d
 msgid "`traitlets <https://traitlets.readthedocs.io/en/stable/>`_"
 msgstr ""
 
 # 469c33adacf44e77be8479c50a3afde7
 #: ../../source/projects/doc-proj-categories.rst:60
-#: bf02ce7151374b9fbb7acc89ab3d20da
+#: 4b49ab49903a4fb1857253d0158cd22a
 msgid "JupyterLab"
 msgstr ""
 
 # e73d09d0ce1245c88186f99fb6d07143
 #: ../../source/projects/doc-proj-categories.rst:61
-#: 5537a9604ab149339332ba8463610736
+#: 42ef2fa8d850458ca6b8e747c455bbf1
 msgid "`jupyter-js-notebook <https://github.com/jupyter/jupyter-js-notebook>`_"
 msgstr ""
 
 # 312f96ae98194c598857978bec70d4e1
 #: ../../source/projects/doc-proj-categories.rst:62
-#: 4b4090fb7b2d4159b69ca48e54d7ac6a
+#: 4e406f480d1b4deca6b30913b27eebdf
 msgid "`jupyter-js-phosphide <https://github.com/jupyter/jupyter-js-phosphide>`_"
 msgstr ""
 
 # 3f8abf0c8fa54d01ba938fe0cfa6ae3f
 #: ../../source/projects/doc-proj-categories.rst:63
-#: 8156be5eed2341feb70fcd55b7930b70
+#: db7de9ad5c5044349d4e7f77d9c5e40b
 msgid "`jupyter-js-plugins <https://github.com/jupyter/jupyter-js-plugins>`_"
 msgstr ""
 
 # f563f0f8921b40c9a56aa72a62a7ae08
 #: ../../source/projects/doc-proj-categories.rst:64
-#: bc0b994429ed40c680ddcdf692b3be19
+#: 221dcc0328a14d8eaf3f57d076811445
 msgid "`jupyter-js-services <http://jupyter.org/jupyter-js-services/>`_"
 msgstr ""
 
 # 932e4e56da8149dc9b19c939d0ce6291
 #: ../../source/projects/doc-proj-categories.rst:65
-#: e919ff8c3b0c4b4cbdac13572bca18e9
+#: 686d8e7f588a40549d82ea25cc11ceea
 msgid "`jupyter-js-ui <http://jupyter.org/jupyter-js-ui/>`_"
 msgstr ""
 
 # 5d5e4940d3624873a4b2c39ce7d4ea00
 #: ../../source/projects/doc-proj-categories.rst:66
-#: 96b5afb7cc9a4d2db6c3536fcb2bd8b8
+#: 4974064feb824a7bb3325cb04e3629f6
 msgid "`jupyter-js-utils <http://jupyter.org/jupyter-js-utils/>`_"
 msgstr ""
 
 # edd42737bc98463498d711d9d916c157
 # 73d33f0f3c864e74b012a215450194c5
 #: ../../source/projects/doc-proj-categories.rst:69
-#: ../../source/projects/subprojects.rst:151 1ff89fba420947cd944e03023f15e7a7
-#: 338e6161bbb94e2a99999913fa60f16b
+#: ../../source/projects/subprojects.rst:151 583f483294bc420e9cc8b1599dd4011e
+#: a4f4119ca4cb48388377e35f884968a9
 msgid "Architecture"
 msgstr ""
 
 # 94f4104fc2a346e9b752026e94ccb9b8
 #: ../../source/projects/doc-proj-categories.rst:70
-#: 0c5fa8bc976e4e44841ba174b5c1c6d5
+#: 582fea661cd14d2096ca8e483a0c9b3e
 msgid "`jupyter_client <https://jupyter-client.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # a7c0c77907204a10aa56b382435e60e7
 #: ../../source/projects/doc-proj-categories.rst:71
-#: fc3e9e271cdc460ea6e8dab92953f225
+#: a742203f4464404b86b3f2f953aa1ea9
 msgid "`jupyter_core <https://jupyter-core.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # cba6565dfef44292847ee4619fb67cdd
-#: ../../source/projects/incubator.rst:2 930b437dd1c642cfb191ffdbcbe39628
+#: ../../source/projects/incubator.rst:2 283d67841351488fa5b0096a65fe0677
 msgid "Incubator Projects"
 msgstr ""
 
 # 28287c3575fc4697829583939cfd9ef0
-#: ../../source/projects/incubator.rst:7 ccfa7d81fd5d43eb9ced70ec9b00c134
+#: ../../source/projects/incubator.rst:7 68ed687d26434e6fadc9174b81c93596
 msgid ""
 "The `Jupyter incubator <https://github.com/jupyter-incubator>`_ gives "
 "emerging projects a place to evolve."
 msgstr ""
 
 # b6fadf1a90d64f40bc531afda9e7f181
-#: ../../source/projects/incubator.rst:11 d0f155db86c84dec90495a8034da7d58
+#: ../../source/projects/incubator.rst:11 9bde70e095574e1a9484ee69a8c9116d
 msgid "Descriptions"
 msgstr ""
 
 # 75694883742b41c7b1dbf76b66fab082
-#: ../../source/projects/incubator.rst:13 d2f7c5056370492b8a96f3b79157d74a
+#: ../../source/projects/incubator.rst:13 5e185034a6b441e49269d4626d28de5a
 msgid "Interesting projects include:"
 msgstr ""
 
 # edf5c1a57381452f81241ced74bfd684
-#: ../../source/projects/incubator.rst:15 3dcddcc467c344be85a61f4c40a64e11
+#: ../../source/projects/incubator.rst:15 cf992672ca4c4e1b873e9037bb7ec33e
 msgid ""
 "`content management extensions <https://github.com/jupyter-"
 "incubator/contentmanagement>`_ - Jupyter Content Management Extensions"
 msgstr ""
 
 # 60cda82020be42c08afd057695bea4a4
-#: ../../source/projects/incubator.rst:16 a8bb6294210e47c69959acbdd67db8fa
+#: ../../source/projects/incubator.rst:16 8bd31bed01df40bd90c576940b64a241
 msgid ""
 "`dashboards <https://github.com/jupyter-incubator/dashboards>`_ - Jupyter"
 " Dynamic Dashboards from Notebooks"
 msgstr ""
 
 # 254de647304647ab8073b020d1cc3b01
-#: ../../source/projects/incubator.rst:17 7451ff9806584564a4ad550f6af773eb
+#: ../../source/projects/incubator.rst:17 44bd74f6ab8a48aaa5ae7dbaddcede99
 msgid ""
 "`declarative widgets <https://github.com/jupyter-"
 "incubator/declarativewidgets>`_ - Jupyter Declarative Widgets Extension"
 msgstr ""
 
 # 43b5a7a788f74c0fa8d7532dcec2a001
-#: ../../source/projects/incubator.rst:18 149f1a7d84004ec59250e416ce3432f6
+#: ../../source/projects/incubator.rst:18 b3492a4269bd48b38282f8826a062ee7
 msgid ""
 "`kernel gateway bundlers <https://github.com/jupyter-"
 "incubator/kernel_gateway_bundlers>`_ - Converts a notebook to a kernel "
@@ -527,40 +1074,40 @@ msgid ""
 msgstr ""
 
 # a70e8c643c034c8f95ecc7d52c3b76eb
-#: ../../source/projects/incubator.rst:19 a4994d99c4ab4c94b1f53a477317b5f8
+#: ../../source/projects/incubator.rst:19 8c28951dce614734a0fef72421401e61
 msgid ""
 "`showcase`_ - A spot to try demos of one or more incubating Jupyter "
 "projects in `Binder <http://mybinder.org/>`_"
 msgstr ""
 
 # d70eebc552ab4bd197ee7bbd9def1a9b
-#: ../../source/projects/incubator.rst:20 56ca626d6a3c4e4d8880aff1ac77d685
+#: ../../source/projects/incubator.rst:20 e6a6e7fe27384b8f9424b558af65d4bb
 msgid ""
 "`sparkmagic <https://github.com/jupyter-incubator/sparkmagic>`_ - Jupyter"
 " magics and kernels for working with remote Spark clusters"
 msgstr ""
 
 # 99fd5864d2694a498188465e90d5e366
-#: ../../source/projects/incubator.rst:21 e7746c0142d543a8ab4c9bb666a87d50
+#: ../../source/projects/incubator.rst:21 d8e44a044551430c957dfa285faedbb1
 msgid ""
 "`traittypes <https://github.com/jupyter-incubator/traittypes>`_ - "
 "Traitlets types for NumPy, SciPy and friends"
 msgstr ""
 
 # 39368898693b438885f9f91f59f62a9f
-#: ../../source/projects/incubator.rst:23 e873aed0e82d4ca481518a27509e47c9
+#: ../../source/projects/incubator.rst:23 76c59001ce684116ab25f78c3dae5d08
 msgid ""
 "There's also a `repository with proposals <https://github.com/jupyter-"
 "incubator/proposals>`_ of projects wishing to enter the incubator."
 msgstr ""
 
 # 71076519b1d94f87afd451f597df50a4
-#: ../../source/projects/incubator.rst:27 bb8caaa85fe74804abfaacfa239dae99
+#: ../../source/projects/incubator.rst:27 ca378e4380854d95b5b77c820b722562
 msgid "Try the Incubator Projects"
 msgstr ""
 
 # a90ed853561445ad937d3baab7ed807a
-#: ../../source/projects/incubator.rst:29 a401b134a84e4d04968e2e0212609f9a
+#: ../../source/projects/incubator.rst:29 cd691554758144aa9636f7b985d9de94
 msgid ""
 "The `showcase`_ application allows you to try demos of one or more "
 "incubating Jupyter projects in `Binder <http://mybinder.org/>`_. Just "
@@ -571,7 +1118,7 @@ msgstr ""
 
 # d70338c3f7bf458daf73b7925ba29e35
 #: ../../source/projects/ipython_projects.rst:2
-#: fb7f855f739c4361b7ccfd7e7a888bdd
+#: a5eb0e5c32c240008e3428ac4aa99882
 msgid "IPython Projects"
 msgstr ""
 
@@ -579,13 +1126,19 @@ msgstr ""
 # 40bf2641321f415f931e61d4e62e90cb
 #: ../../source/projects/ipython_projects.rst:8
 #: ../../source/projects/jupyter-command.rst:16
-#: 13d9f3652a33498bafa5bb21baa9ec31 fe75d66cd19e4df79f53559482297f1c
+#: ../../source/projects/use-cases/enterprise.rst:11
+#: ../../source/projects/use-cases/narrative-hub.rst:8
+#: ../../source/projects/use-cases/narrative-notebook.rst:8
+#: ../../source/projects/use-cases/narrative-other.rst:8
+#: 4c6c285012e14817a9191a54250e8a14 5242c503f32847c2a3e06db4ec29052b
+#: 54c09b38348344438eb5220405c2028d 620ca16cf0624c15a8ab14e2c48d3cf5
+#: dc3e8449c86141f5a3bb3acc94529288 fbf9cfa0168a4ea7a05cd2fd72b1728a
 msgid "Description"
 msgstr ""
 
 # 543da61e80f44ef1b1e3d57d909161c4
 #: ../../source/projects/ipython_projects.rst:10
-#: c7d5d84b19a04d5c8995ec54b6b35a0b
+#: fe369c8cf2e54825911bdea7da52f21c
 msgid ""
 "`IPython <https://ipython.org>`_ provides a rich architecture for "
 "interactive computing with:"
@@ -593,43 +1146,43 @@ msgstr ""
 
 # 8e4ff36b60e9432594471c8fee1d7163
 #: ../../source/projects/ipython_projects.rst:13
-#: 11d717e369b44882bb0e721384648c50
+#: faade9166add44bbb419258c8b804ab9
 msgid "A powerful interactive shell."
 msgstr ""
 
 # d432b9c2e4c64adfb2f6100665eb0f9c
 #: ../../source/projects/ipython_projects.rst:14
-#: a975114fffb54820b6949f4b2392b4d3
+#: a991b26bdbe74b5996e5b2a686dc9898
 msgid "A kernel for Jupyter."
 msgstr ""
 
 # b0e52b8513b0457eb61bda3e14f785ec
 #: ../../source/projects/ipython_projects.rst:15
-#: fada9289ae2b412cbfc8f29ff0b3f9f0
+#: c4c5f4c7454040799373626aefd77dc8
 msgid "Support for interactive data visualization and use of GUI toolkits."
 msgstr ""
 
 # aaaead17f2ca44c896c99ed5e1192dee
 #: ../../source/projects/ipython_projects.rst:16
-#: fdfb55ebe267418d8c11634a4c9a14af
+#: 87392225d1184caa90cec49c465c8578
 msgid "Flexible, embeddable interpreters to load into your own projects."
 msgstr ""
 
 # ea29a6d9e0734512a00cfa5ad436bec1
 #: ../../source/projects/ipython_projects.rst:17
-#: 39d8ed44c1044819b5c842795239266b
+#: 59b254f365874dd5b5a256a024a1e8b6
 msgid "Easy to use, high performance tools for parallel computing."
 msgstr ""
 
 # 2cc5f1f88b0c4d8cb1a1613e4282356c
 #: ../../source/projects/ipython_projects.rst:20
-#: 137594552efc400c985e324ee36ec4ed
+#: 1ad94ad5009347929546e125b0a6b526
 msgid "Background"
 msgstr ""
 
 # 3fe872113f4c4e15b82282d04efface1
 #: ../../source/projects/ipython_projects.rst:22
-#: 60509c426ebe4a5a9db018d9e8203be3
+#: c5442b11be3548859edc7e922f1eecb6
 msgid ""
 "IPython is a growing project, with increasingly language-agnostic "
 "components. IPython 3.x was the last monolithic release of IPython, "
@@ -642,19 +1195,19 @@ msgstr ""
 
 # b42a67733d444e32973954185f0f70cb
 #: ../../source/projects/ipython_projects.rst:31
-#: b9c79490f114463cbc5a08541c5d8d5e
+#: b5a1bf81bd2f429e9b1e8c142166380c
 msgid "Resources"
 msgstr ""
 
 # 3e453e9551974bec9e26dd108e807789
 #: ../../source/projects/ipython_projects.rst:33
-#: 235000a731e64d9eab62a782301331db
+#: 68efbbbf18a0401c80128c12b9e1020d
 msgid "The projects with repos in the IPython organization on GitHub include:"
 msgstr ""
 
 # 5031645557cd44ecb80e167383ac147f
 #: ../../source/projects/ipython_projects.rst:35
-#: 0a799a687c644d74a90036c1ae9656a1
+#: 8ad7bccd503948db97d603fe2d4301d4
 msgid ""
 "IPython `ipykernel <https://ipython.readthedocs.io/en/stable/>`_ "
 "interactive computing in Python."
@@ -662,7 +1215,7 @@ msgstr ""
 
 # fcd79ae7b74b40ccbf3aaf50a7ace569
 #: ../../source/projects/ipython_projects.rst:37
-#: ca08349009c64ef9a8478680e82adcfb
+#: dba654ec543245519c275f7c202936f8
 msgid ""
 "`ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`_ "
 "lightweight parallel computing in Python offering seamless notebook "
@@ -671,25 +1224,25 @@ msgstr ""
 
 # 69568ee92daf451489775caebb747947
 #: ../../source/projects/ipython_projects.rst:39
-#: 1ea7c4a4fc4843ad985c2a9cf6902d90
+#: 4df139a5557349eaac7728cf2026cf49
 msgid ""
 "`ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`_ interactive "
 "widgets for Python in the Jupyter Notebook"
 msgstr ""
 
 # 5873cdc3af584936a50d5b8af40991b8
-#: ../../source/projects/jupyter-command.rst:4 de0390df9c0f4180bc30d58096e86c7c
+#: ../../source/projects/jupyter-command.rst:4 6b1a593a787f450b8e512c52a4ae7c69
 msgid "The :command:`jupyter` Command"
 msgstr ""
 
 # dc3c602ec8854657a96f6c09c3dd9f45
-#: ../../source/projects/jupyter-command.rst:9 039adaa8a6a64d57a21111a3dec6d8dc
+#: ../../source/projects/jupyter-command.rst:9 f77f5124c41242db985f5ef05e7fb0b4
 msgid "Synopsis"
 msgstr ""
 
 # 5d111077ba074d05aa380c53ba1077ea
 #: ../../source/projects/jupyter-command.rst:18
-#: 122bedcfc2df4bffb59d498f2f4e013e
+#: 93bedccb011c4326a725986fcf2ceb26
 msgid ""
 "Commands like ``jupyter notebook`` start Jupyter applications. The "
 "``jupyter`` command is primarily a namespace for subcommands. A command "
@@ -699,7 +1252,7 @@ msgstr ""
 
 # 0e8211d5b2854743b58424aefd143a97
 #: ../../source/projects/jupyter-command.rst:23
-#: 062d2523f63f40608bce188852cf4e4f
+#: 842e93f98b2045238452c6337a342f9b
 msgid ""
 "The :command:`jupyter` command can also be used to do actions other than "
 "starting a Jupyter application."
@@ -707,56 +1260,56 @@ msgstr ""
 
 # a546e6c4a3b24260a822ed09c7693c0b
 #: ../../source/projects/jupyter-command.rst:27
-#: 0b08b28388f941b8ba8e7728c00afdb5
+#: e722e0949242415f9802ea90bb4cbfbb
 msgid "Command options"
 msgstr ""
 
 # d3d42ef830c540d385919f7ed738f6a4
 #: ../../source/projects/jupyter-command.rst:31
-#: 997a9c0f5c8449619ce3f3943b4d0e65
+#: 565c1ac414a24aee8b214674ed7bd792
 msgid "Show help information, including available subcommands."
 msgstr ""
 
 # 2ee91915ba0a4908852438e641def692
 #: ../../source/projects/jupyter-command.rst:35
-#: 73b0d17e42f04820b8015a0cea953d6c
+#: 3db5dbb1a3734a7cbe35ae00e185dbcd
 msgid "Show the location of the config directory."
 msgstr ""
 
 # 997e64311bf24e22a8e4e0a0a9b89dbd
 # 22ee798fcab64510b6f0c41b0df73590
 #: ../../source/projects/jupyter-command.rst:39
-#: 0098bf3a2bc347f1b9b3eda3b269b55c
+#: 8e03aa393c64427e9c890421c9cd4e23
 msgid "Show the location of the data directory."
 msgstr ""
 
 # e5e91677a331416b8f2a98f8aa6fd883
 #: ../../source/projects/jupyter-command.rst:43
-#: 0c42dca53a84476ea6c913bb62df9070
+#: 3f62fce868c64895aeab17b4c1f375c5
 msgid "Show the location of the runtime directory."
 msgstr ""
 
 # e5c4ae5c93e746cda9ba4d8983622523
 #: ../../source/projects/jupyter-command.rst:47
-#: 77ec53cffb8347a4a2652a45d6c5ba51
+#: 272c9a93fac34f6bb28b5d46178e836b
 msgid "Show all Jupyter directories and search paths."
 msgstr ""
 
 # 4d02755d025148c1a043839fec6f39ac
 #: ../../source/projects/jupyter-command.rst:51
-#: a60d94bb279a4a51955b52ba0ebb51fd
+#: af10d9f4816a4d8592b3735c45066d24
 msgid "Print directories and search paths in machine-readable JSON format."
 msgstr ""
 
 # ccb6b7bfee9d4fad9e1e4da9ab283003
 #: ../../source/projects/jupyter-directories.rst:4
-#: a32d3fd40757402da0fa9e77ef86de2b
+#: 4b7ffde9bec0485d86ddc91cba7e55a3
 msgid "Common Directories and File Locations"
 msgstr ""
 
 # 0b4e49809d05429a85146eae83d1b3a5
 #: ../../source/projects/jupyter-directories.rst:9
-#: 00089b93f61847df9e850b3ae90e9610
+#: ae06a0e4ea974bbc988849d605e2b9d0
 msgid ""
 "Jupyter stores different files (i.e. configuration, data, runtime) in a "
 "number of different locations. Environment variables may be set to "
@@ -765,28 +1318,22 @@ msgstr ""
 
 # 5ee6c30612914af782ef9436a418d1ea
 #: ../../source/projects/jupyter-directories.rst:13
-#: b1284aad69584e5484e1f391f3fd4f51
+#: 22bdaebe6bcd4317b4cd3dae62639ae4
 msgid ""
 "Jupyter separates **data files** (nbextensions, kernelspecs) from "
 "**runtime files** (logs, pid files, connection files) from "
 "**configuration** (config files, custom.js)."
 msgstr ""
 
-# bee4d55638044b5ca68875379f764a1c
-#: ../../source/projects/jupyter-directories.rst:20
-#: 9ea3f1601be04631981e56b328c02a07
-msgid "Configuration files"
-msgstr ""
-
 # a2bb292bb5b44bc6ac0a00926eb1a21c
 #: ../../source/projects/jupyter-directories.rst:22
-#: 13e150f90bca45b18cf7e22cc100daf9
+#: 2b006d49c535420a829c7a2929084b55
 msgid "Config files are stored by default in the :file:`~/.jupyter` directory."
 msgstr ""
 
 # e41adbe74f6d474e9cc3eb26c516ce89
 #: ../../source/projects/jupyter-directories.rst:26
-#: 5c9337832b2945beb7988f5f17a4180c
+#: 8081f55eb9ae480cbc86ea199f365534
 msgid ""
 "Set this environment variable to use a particular directory, other than "
 "the default, for Jupyter config files."
@@ -794,7 +1341,7 @@ msgstr ""
 
 # e12398b48b1340d6bbaf749a104ae9e7
 #: ../../source/projects/jupyter-directories.rst:29
-#: 0c3653a9b80a41aaad00f218d713316c
+#: 6076b6b233c14e3db9865318b482e2fd
 msgid ""
 "Besides the user config directory mentioned above, Jupyter has a search "
 "path of additional locations from which a config file will be loaded. "
@@ -803,7 +1350,7 @@ msgstr ""
 
 # 279e6f91f5d44886a35a4c1357897789
 #: ../../source/projects/jupyter-directories.rst:34
-#: fc2fa25bd6f041baba5364d9980bfdc3
+#: 29a7e5f465e54e1785e415e9ba09f49b
 msgid "Unix"
 msgstr ""
 
@@ -811,37 +1358,37 @@ msgstr ""
 # 7ac748a5da594a0e8795dc4d126d5ff6
 #: ../../source/projects/jupyter-directories.rst:34
 #: ../../source/projects/jupyter-directories.rst:75
-#: 81a46442328b448c83f2d651e2cffb7f b65ed301a99d48f1ada5b932f11f852e
+#: a530bbc47e56476d83f88e819d3e7915 ff63013f833747f6bc421190bcfbecd1
 msgid "Windows"
 msgstr ""
 
 # 7d93e5f1b6964a0a8749d3f4589b2c66
 #: ../../source/projects/jupyter-directories.rst:36
-#: d49afdf387934e15970312d52300ff53
+#: 742728baa4b947f18b3233ef73de64b7
 msgid ":envvar:`JUPYTER_CONFIG_DIR`"
 msgstr ""
 
 # 76ba7f9b667d4164a38b80798883a1b7
 #: ../../source/projects/jupyter-directories.rst:38
-#: 3e35abba1df741fc9a216dff7033c205
+#: 3ce0ea39dfe0429c827958b282f94cbc
 msgid "``{sys.prefix}/etc/jupyter/``"
 msgstr ""
 
 # 91813f6c49834cf3af9f4a75bdd82a3f
 #: ../../source/projects/jupyter-directories.rst:40
-#: ceeea080a6444f8f8942c934d733d435
+#: f88122e8203a47e3bd7962bf4c136a30
 msgid "``/usr/local/etc/jupyter/`` ``/etc/jupyter/``"
 msgstr ""
 
 # e74637fd387f47ccb068dbc01bded802
 #: ../../source/projects/jupyter-directories.rst:40
-#: 55db637eb08c4b39a00da053e40d3481
+#: b94db69c3dd640f08d2e3b97efdb0029
 msgid "``%PROGRAMDATA%\\jupyter\\``"
 msgstr ""
 
 # 712a90ba320f4bda9acb4e6df9b85bc2
 #: ../../source/projects/jupyter-directories.rst:44
-#: 100f3c64a1ac499b8ca8e8a270c6b422
+#: ae6d0850de004248942935f293e81809
 msgid ""
 "To list the config directories currrently being used you can run the "
 "below command from the :term:`command line`::"
@@ -849,19 +1396,19 @@ msgstr ""
 
 # 3d7cf86772e94325921cf76bee6e2870
 #: ../../source/projects/jupyter-directories.rst:48
-#: c2c03c9b7b63456f9cdac88bbeb2fa54
+#: 9703bf08600043a7926f591fa3e61970
 msgid "The following command shows the config directory specifically:::"
 msgstr ""
 
 # 64964fbe2be242c8bac8ee7af6ec573a
 #: ../../source/projects/jupyter-directories.rst:53
-#: a36e9fc667324f81b38f594dc1f48c5f
+#: b20ff2f1d25b4564923300d01ec8f1cc
 msgid "Data files"
 msgstr ""
 
 # 11ceec0e782b4fc29d0268325a9e2a2c
 #: ../../source/projects/jupyter-directories.rst:58
-#: 45833d355c0c49cf8078b0150880a941
+#: 263c786f47454543ad1db5c2e26f0a5f
 msgid ""
 "Jupyter uses a search path to find installable data files, such as "
 ":ref:`kernelspecs <kernelspecs>` and notebook extensions. When searching "
@@ -871,7 +1418,7 @@ msgstr ""
 
 # c90c9a0db78f48a2a2d9c62ec1d46ab6
 #: ../../source/projects/jupyter-directories.rst:63
-#: fa5173f4d66f446381e655ca99034fef
+#: a3deb81773a244188d4485aac9176ecb
 msgid ""
 "Each category of file is in a subdirectory of each directory of the "
 "search path. For example, kernel specs are in ``kernels`` subdirectories."
@@ -879,7 +1426,7 @@ msgstr ""
 
 # 647d5ad697844066856582f9798bac8c
 #: ../../source/projects/jupyter-directories.rst:68
-#: f46e69deeb284e60bb7f1f5aaff39dfe
+#: ee3e00c14c7d4916a538d3c6eabb5efb
 msgid ""
 "Set this environment variable to provide extra directories for the data "
 "search path. :envvar:`JUPYTER_PATH` should contain a series of "
@@ -891,61 +1438,61 @@ msgstr ""
 
 # f8a146011f294865a766b75fa7e17ca7
 #: ../../source/projects/jupyter-directories.rst:75
-#: 69fcf24d18a24fa784b7ff3cdffac2b5
+#: 8f38ba5f5499426597c5b76992692fc0
 msgid "Linux (& other free desktops)"
 msgstr ""
 
 # b050321d85634c2b8e2b2a6dcd904919
 #: ../../source/projects/jupyter-directories.rst:75
-#: 1899711971f548ceb4f51bbb35f73c02
+#: 9714d54304214bbb9f2eb96cf243d0eb
 msgid "Mac"
 msgstr ""
 
 # cd9e53136025484cacee2884c4b0d516
 #: ../../source/projects/jupyter-directories.rst:77
-#: f2c0f1ba387a492188fb6fd32d3937ba
+#: 0ca50b6b365d4616ab712857d63eafb3
 msgid ":envvar:`JUPYTER_PATH`"
 msgstr ""
 
 # 391fe50861314e57a7daa84d3e5e2bab
 #: ../../source/projects/jupyter-directories.rst:79
-#: 5d767a05dd1647f1aa75a5a806ea4269
+#: fe0343260c964a8189b137e54ef54937
 msgid "``~/.local/share/jupyter/`` (respects ``$XDG_DATA_HOME``)"
 msgstr ""
 
 # 06e83363053c4fbba0effd942e901744
 #: ../../source/projects/jupyter-directories.rst:79
-#: 8479897abefc4c3e8d6ea66e5e84623c
+#: d419590b0d734434aa7685bdc405fa70
 msgid "``~/Library/Jupyter``"
 msgstr ""
 
 # 6d67a10caff64039a15564a99c3006f9
 #: ../../source/projects/jupyter-directories.rst:79
-#: b9eeba57a88b42b49ef778b48f654312
+#: 2645806a6f474c268f3cdaef17e4a4c5
 msgid "``%APPDATA%\\jupyter``"
 msgstr ""
 
 # deb75cfd63164420803927a5649e969a
 #: ../../source/projects/jupyter-directories.rst:82
-#: 6c162a1abcac4d938eb53ea77cfe227f
+#: 4c05310477584e059c25c6c9555bca06
 msgid "``{sys.prefix}/share/jupyter/``"
 msgstr ""
 
 # f0d3dcdaccca4791b9a44deae35c97e4
 #: ../../source/projects/jupyter-directories.rst:84
-#: 139728f5278a4187a030d335dbcb1990
+#: 5a961f101fe4426fa2b79f2263f4fef8
 msgid "``/usr/local/share/jupyter`` ``/usr/share/jupyter``"
 msgstr ""
 
 # b7b523630e9242a4a12dbf7542ad65dc
 #: ../../source/projects/jupyter-directories.rst:84
-#: d99d23ad634148e298d6b703ae4125f4
+#: cc13647ad3b24770892edf8e37aac49e
 msgid "``%PROGRAMDATA\\jupyter``"
 msgstr ""
 
 # c016305bf516483f8048f46243bedb89
 #: ../../source/projects/jupyter-directories.rst:90
-#: 49d56dfbe11b4c71bf00f8c489bc35a6
+#: cd268fcbd9be48ae8041037f46898792
 msgid ""
 "The config directory for Jupyter data files, which contain non-transient,"
 " non-configuration files. Examples include kernelspecs, nbextensions, or "
@@ -954,7 +1501,7 @@ msgstr ""
 
 # 93f141ed01a04032ba00104d9008f0ce
 #: ../../source/projects/jupyter-directories.rst:95
-#: b453a65c0ab44ef69ddb6baf27798c4d
+#: ea25792d87d94ccf8b64187f29cfc354
 msgid ""
 "Set this environment variable to use a particular directory, other than "
 "the default, as the user data directory."
@@ -964,7 +1511,7 @@ msgstr ""
 # 17b2259855234b139898fe8b707f7f99
 #: ../../source/projects/jupyter-directories.rst:97
 #: ../../source/projects/jupyter-directories.rst:124
-#: 59a98819525149c6975a30163a189aae f566284215f74f6b830fea4ecb47a025
+#: 2297ccca630a4b958cf813c084f4bf66 770ecfb9bbee4da998c1cb00f0cee6c1
 msgid ""
 "As mentioned above, to list the config directories currently being used "
 "you can run the below command from the :term:`command line`::"
@@ -972,19 +1519,19 @@ msgstr ""
 
 # e1f07d1d80ef45ab86cfab2a02a686e2
 #: ../../source/projects/jupyter-directories.rst:101
-#: 0c90d412fe4f41448876fde54e578b6b
+#: 674d475db10d4749a3af61102a62171d
 msgid "The following command shows the data directory specificially:::"
 msgstr ""
 
 # b93aebf5941e4312998c3a4c9f1e295e
 #: ../../source/projects/jupyter-directories.rst:108
-#: d70e65d53d8b4ae69ee8d8ba1329a29e
+#: 5a804311dcb1497389a554d06eca89f9
 msgid "Runtime files"
 msgstr ""
 
 # 9e1d0a2fed714ebdad259185c2c0ebbc
 #: ../../source/projects/jupyter-directories.rst:110
-#: eb288432273a4758ab3ecdd3a2db2850
+#: 34ef4fd242b940efaf87fa6011529eda
 msgid ""
 "Things like connection files, which are only useful for the lifetime of a"
 " particular process, have a runtime directory."
@@ -992,7 +1539,7 @@ msgstr ""
 
 # 6863708a008443d2b5c64ccc5536c1e0
 #: ../../source/projects/jupyter-directories.rst:113
-#: ae9a37d942b14db2978dd2325eafa6d7
+#: 4c6df3d81e3b42ea8816bc51c26cf244
 msgid ""
 "On Linux and other free desktop platforms, these runtime files are stored"
 " in ``$XDG_RUNTIME_DIR/jupyter`` by default. On other platforms, it's a "
@@ -1002,77 +1549,77 @@ msgstr ""
 
 # bd275402d825484bb6293ac54280c325
 #: ../../source/projects/jupyter-directories.rst:118
-#: 15c99ce17085452bb1fbdc4ffa754135
+#: 88721bb54e324c03801be0026af37a45
 msgid "An environment variable may also be used to set the runtime directory."
 msgstr ""
 
 # dffbcd47c8624f2b9add3a0577b40ea2
 #: ../../source/projects/jupyter-directories.rst:122
-#: 6a3c9c5586034decb63d3344110531bd
+#: fcecf06ba2164529af4fc6599de6e50a
 msgid "Set this to override where Jupyter stores runtime files."
 msgstr ""
 
 # ff2734f738bc4684a4f5005e16bf7a29
 #: ../../source/projects/jupyter-directories.rst:128
-#: c9ae3809e08241aa87a3ed46925cdf44
+#: c4d6de82c5364577bdc3057790714ba5
 msgid "The following command shows the runtime directory specifically:::"
 msgstr ""
 
 # f79b9f3ae9f64f58abb71234571306d4
 #: ../../source/projects/jupyter-directories.rst:135
-#: ad1eb7bfb50148179d233b92850fd4f8
+#: aae72c8573fb4ff4af991ef974c31c13
 msgid ":envvar:`JUPYTER_CONFIG_DIR` for config file location"
 msgstr ""
 
 # 337b31b2027e41ee99263264a0e43464
 #: ../../source/projects/jupyter-directories.rst:137
-#: c5f3728b5b32481cb7dfafa7bfff4d45
+#: 977d1c3433b9455ea54efca52bb7cb8e
 msgid ":envvar:`JUPYTER_PATH` for datafile directory locations"
 msgstr ""
 
 # 68aa88fd12b5481391003547261aa646
 #: ../../source/projects/jupyter-directories.rst:139
-#: fba1bbe4c6594072871308200d9a660c
+#: 23053312a5cd4ce7a6cbd28d657da8c6
 msgid ":envvar:`JUPYTER_DATA_DIR` for data file location"
 msgstr ""
 
 # 5d107ae276ea4dc8bf1d85dbb80bc83d
 #: ../../source/projects/jupyter-directories.rst:141
-#: 5edf5e73fe174a25b12229a4e11820b3
+#: 6e5802a018ef4c67bd095daccf4fe15a
 msgid ":envvar:`JUPYTER_RUNTIME_DIR` for runtime file location"
 msgstr ""
 
 # e23bc6d9b72d47548301020f53a1ed24
 #: ../../source/projects/jupyter-directories.rst:147
-#: 7d2ef58d836c486c98ec07d9d3049a21
+#: addcc9ca0ebe447a9569ffc5e733d9f1
 msgid ":mod:`jupyter_core.paths`"
 msgstr ""
 
 # ca3b8f756259407baf25bf422b315237
 #: ../../source/projects/jupyter-directories.rst:147
-#: 88ddc4b2071c487a828cb1b30d8569cf
+#: 2c21f5640d26402b83f1016dd4dbd036
 msgid "The Python API to locate these directories."
 msgstr ""
 
 # 5ce8e7c0d39740a1bfcbf01c68fd1eaf
 #: ../../source/projects/jupyter-directories.rst:149
-#: e0ade5c1d4464958a2915f13a14afcec
+#: 50b7c9dbb4474de2ac4900bc396f576b
 msgid ":ref:`jupyter_command`"
 msgstr ""
 
 # 77254e7e6f644d49a9475e8bd2e47d8a
 #: ../../source/projects/jupyter-directories.rst:150
-#: 0fd4613dd43243cb92745e0876ba80c5
+#: 28e465becf4b445b9812dbec95db1af5
 msgid "Locate these directories from the command line."
 msgstr ""
 
 # 8ccbc30eb55f436d8af25b13a9cd5ef7
-#: ../../source/projects/kernels.rst:4 d6a22a8abb3248ee9d22ac35ec946185
+#: ../../source/projects/kernels.rst:4 a1984380f6da4e2699def76f490de21a
 msgid "Kernels (Programming Languages)"
 msgstr ""
 
 # badc42c2b34c4d11ae7aa2b2767f3728
-#: ../../source/projects/kernels.rst:6 3b7c5c66ec524ece945f52acddaf561e
+#: ../../source/projects/kernels.rst:6 4ce8ad2a28a24e45a1875edeeda5195e
 msgid ""
 "The Jupyter team maintains the `IPython kernel "
 "<https://github.com/ipython/ipython>`_ since the Jupyter notebook server "
@@ -1081,7 +1628,7 @@ msgid ""
 msgstr ""
 
 # 028a578af22144598ff940f737764962
-#: ../../source/projects/kernels.rst:11 f87563cd0a9240118c356fb81d50a538
+#: ../../source/projects/kernels.rst:11 4dbbc4db7909402aadcd8360e560fe9a
 msgid ""
 "The community maintains many other language kernels, and new kernels "
 "become available often. Please see the `list of available kernels`_ for "
@@ -1090,12 +1637,12 @@ msgid ""
 msgstr ""
 
 # 9910335ae4fe47adbef725bbdb9f7faa
-#: ../../source/projects/subprojects.rst:5 4c771c95f9894680a59d807df636438b
+#: ../../source/projects/subprojects.rst:5 88f59b30101b4b058d989433bdf4676f
 msgid "Jupyter Projects"
 msgstr ""
 
 # b8c9bc5ad06b47d1bf4eb72a5bb7778a
-#: ../../source/projects/subprojects.rst:10 5cda9e39b159412d80349dfe57e1cdfe
+#: ../../source/projects/subprojects.rst:10 2fc7ad3fe6224944908caef83575208b
 msgid ""
 "Project Jupyter is developed as a set of subprojects. This section "
 "describes the subprojects with links to their documentation or GitHub "
@@ -1103,7 +1650,7 @@ msgid ""
 msgstr ""
 
 # c84899e578ac4b95b3ddcb1e19ae40e4
-#: ../../source/projects/subprojects.rst:15 a0bb43abfe634a65a1cacbe614376c4f
+#: ../../source/projects/subprojects.rst:15 119f82781e944f4fbfb62229acb3bf16
 msgid ""
 "The Jupyter user interfaces offer a foundation of interactive computing "
 "environments where scientific computing, data science, and analytics can "
@@ -1111,12 +1658,12 @@ msgid ""
 msgstr ""
 
 # 3c3427b170f3480eacb5a12321c2763f
-#: ../../source/projects/subprojects.rst:20 b392378901e34dd5afdf7c0205188819
+#: ../../source/projects/subprojects.rst:20 61d0822a472e4ecb92ddc6580c7f4011
 msgid "`Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # 83a65fc880d64bcd9cbdc020b85c0c6c
-#: ../../source/projects/subprojects.rst:22 237a03aa50dd40b5a447d7d47c668f6d
+#: ../../source/projects/subprojects.rst:22 7f50815dcc6443c3aa594f87d9897a29
 msgid ""
 "Web-based application for authoring documents that combine live-code with"
 " narrative text, equations and visualizations. `Documentation <https"
@@ -1125,12 +1672,12 @@ msgid ""
 msgstr ""
 
 # aec9f2d0779b4c4c92d8cf427f0d8716
-#: ../../source/projects/subprojects.rst:26 0eb4953803074d65b9ffd4cc02c81499
+#: ../../source/projects/subprojects.rst:26 a6c325055cec4003b46cac3595d2d67a
 msgid "`Jupyter Console <https://jupyter-console.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # 1849d5bef10540caba484b7e713d550c
-#: ../../source/projects/subprojects.rst:28 e1580e865bff4fa2b659a2b64d5ffffe
+#: ../../source/projects/subprojects.rst:28 836997a61de44bf4bf39adf9e8cbc77f
 msgid ""
 "Terminal based console for interactive computing. `Documentation <https"
 "://jupyter-console.readthedocs.io/en/latest/>`__ | `Repo "
@@ -1138,12 +1685,12 @@ msgid ""
 msgstr ""
 
 # 6d562e69261247958e947bf1f99a1578
-#: ../../source/projects/subprojects.rst:31 b3c88fcf18864ea6ab712c489b376885
+#: ../../source/projects/subprojects.rst:31 b4a17e2cee4843488c5a2b265f6c48af
 msgid "`Jupyter QtConsole <https://jupyter.org/qtconsole/stable/>`__"
 msgstr ""
 
 # d11809f22b934f51994dbdd75402efe0
-#: ../../source/projects/subprojects.rst:33 97bf7a7d4f95462badb81178f256ca72
+#: ../../source/projects/subprojects.rst:33 b4b66c9310b14002a187df0c50984eaa
 msgid ""
 "Qt application for interactive computing with rich output. `Documentation"
 " <https://jupyter.org/qtconsole/stable/>`__ | `Repo "
@@ -1151,7 +1698,7 @@ msgid ""
 msgstr ""
 
 # c4527340da8c4cb89829a1a1b39ed1a5
-#: ../../source/projects/subprojects.rst:40 c326fe2514a04344bc881b59022db2b1
+#: ../../source/projects/subprojects.rst:40 e8664b744d224bb7ad8c189845747d01
 msgid ""
 "Kernels are `programming language specific` processes that run "
 "independently and interact with the Jupyter Applications and their user "
@@ -1161,12 +1708,12 @@ msgid ""
 msgstr ""
 
 # 6dd6dcd0bc1840da8916fc03f01788ef
-#: ../../source/projects/subprojects.rst:46 1d2c67dc1a2f4141a542b710f28110dc
+#: ../../source/projects/subprojects.rst:46 04c98284fa9f4b64a9e479c35632bd86
 msgid "`IPython <https://ipython.org>`__"
 msgstr ""
 
 # f2c9f65822ee444fbaa722750c715cce
-#: ../../source/projects/subprojects.rst:48 9722ce5da58d4cf6995b74a394bbd795
+#: ../../source/projects/subprojects.rst:48 bc19509089124e33ab6636ff5225b4e5
 msgid ""
 "interactive computing in Python. `Documentation "
 "<https://ipython.readthedocs.io/en/stable/>`__ | `Repo "
@@ -1174,12 +1721,12 @@ msgid ""
 msgstr ""
 
 # bb0dcd6ea74f438e8a548661894d6f19
-#: ../../source/projects/subprojects.rst:51 39048aa63e074aa7a0e51c72a65c97f3
+#: ../../source/projects/subprojects.rst:51 81e6935383f64f289e451f1f340decf0
 msgid "`ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # ca8e8d5e5b844a9ca0d94fbd32717a7a
-#: ../../source/projects/subprojects.rst:53 863e1d1cf1244283a971688f7085d3f3
+#: ../../source/projects/subprojects.rst:53 8f0b4ec7240b459e842e22b23596e633
 msgid ""
 "interactive widgets for Python in the Jupyter Notebook. `Documentation "
 "<https://ipywidgets.readthedocs.io/en/latest/>`__ | `Repo "
@@ -1187,12 +1734,12 @@ msgid ""
 msgstr ""
 
 # c377fd53c79042d6b56baae717d8c2a0
-#: ../../source/projects/subprojects.rst:56 e80b0dbba1a34b5eb251a1d6a49a7c6a
+#: ../../source/projects/subprojects.rst:56 25231f691daf4c6a92fff10c644bc645
 msgid "`ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # 6d54f08db9124d3ab5eb18ab39c88c6e
-#: ../../source/projects/subprojects.rst:58 125676ac8e814f31b123df111bd97071
+#: ../../source/projects/subprojects.rst:58 37703fa53e34449391317cf7952e07b3
 msgid ""
 "lightweight parallel computing in Python offering seamless notebook "
 "integration. `Documentation "
@@ -1201,26 +1748,26 @@ msgid ""
 msgstr ""
 
 # 5d320a536a8b490fa66f06971b80fcbf
-#: ../../source/projects/subprojects.rst:64 82fd2bfedd2a4319ad63759eda86c065
+#: ../../source/projects/subprojects.rst:64 a05adce22cbf4f4d9c1ad16153572d6b
 msgid ""
 "`Jupyter kernels <https://github.com/ipython/ipython/wiki/IPython-"
 "kernels-for-other-languages>`_"
 msgstr ""
 
 # 9474725a4e414c47a8a2c081deb7d361
-#: ../../source/projects/subprojects.rst:66 49292f2b96f2465a963809a0deaad272
+#: ../../source/projects/subprojects.rst:66 92019522a8c94564814779b25115c79c
 msgid ""
 "A full list of kernels available for other languages. Many of these "
 "kernels are developed by third parties and may or may not be stable."
 msgstr ""
 
 # bada42846faa4c76bcb0870aa7b4ff67
-#: ../../source/projects/subprojects.rst:70 50a18d6abeec40db86001124568ae036
+#: ../../source/projects/subprojects.rst:70 f97da076088b43ae8c0656849bde357b
 msgid "Formatting and Conversion"
 msgstr ""
 
 # 8a0210fab25448ce9a8ce955a5e98b81
-#: ../../source/projects/subprojects.rst:71 d7a589e238014770a3c383a79b821f12
+#: ../../source/projects/subprojects.rst:71 8991d74dc27f454e9f54d98402a2f8e0
 msgid ""
 "Notebooks are rich interactive documents that combine live code, "
 "narrative text (using markdown), visualizations, and other rich media. "
@@ -1229,12 +1776,12 @@ msgid ""
 msgstr ""
 
 # 63aa809df72b43d187a73bb2e4e6a583
-#: ../../source/projects/subprojects.rst:77 ac0ee785943548e58a62cb7dd173fd48
+#: ../../source/projects/subprojects.rst:77 60b58997ff1947ddbcc49710a96a0db6
 msgid "`nbconvert <https://nbconvert.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # 4c57295fbf23443daf9fdd2905ef7fcf
-#: ../../source/projects/subprojects.rst:79 92f2a7832b314d90b1b810262ac6ab74
+#: ../../source/projects/subprojects.rst:79 dd7e23b6749d47d1a05c4a991605fe43
 msgid ""
 "Convert dynamic notebooks to static formats such as HTML, Markdown, "
 "LaTeX/PDF, and reStrucuredText. `Documentation "
@@ -1243,12 +1790,12 @@ msgid ""
 msgstr ""
 
 # ce77e006f955438aa5a921968dc8b922
-#: ../../source/projects/subprojects.rst:83 2aa837ad98374d539e6894437bc3b239
+#: ../../source/projects/subprojects.rst:83 a6ffe4b8f3834a04a6fa19a37a409da1
 msgid "`nbformat <https://nbformat.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # 6dff295e412a47da84bb23b4786708b9
-#: ../../source/projects/subprojects.rst:85 0a809bc851de4d50971fd01ce9241fed
+#: ../../source/projects/subprojects.rst:85 05a7ea582eeb440aae603a0929687c5e
 msgid ""
 "Work with notebook documents programmatically. `Documentation "
 "<https://nbformat.readthedocs.io/en/latest/>`__ | `Repo "
@@ -1256,7 +1803,7 @@ msgid ""
 msgstr ""
 
 # de4778c3365b43a3b2f0eaf1202f009e
-#: ../../source/projects/subprojects.rst:92 d53553e7aec04600beeda137fc58be32
+#: ../../source/projects/subprojects.rst:92 255b2ffd24fb49e3a81a780401fc343e
 msgid ""
 "Jupyter Notebooks offer exciting and creative possibilities in education."
 " The following subprojects are focused on supporting the use of Jupyter "
@@ -1264,12 +1811,12 @@ msgid ""
 msgstr ""
 
 # 7c1bb06e24c34d31a3e5d647eb968ef4
-#: ../../source/projects/subprojects.rst:97 35d969b254814a4388dc34744d561d25
+#: ../../source/projects/subprojects.rst:97 289e2aca71fb4799a87dfe1b9f71be13
 msgid "`nbgrader <https://nbgrader.readthedocs.io/en/stable/>`__"
 msgstr ""
 
 # e871a361fed74d7984ccf6be1d16ae4f
-#: ../../source/projects/subprojects.rst:99 2137022771f5417692febb4b362647cf
+#: ../../source/projects/subprojects.rst:99 a83c28f83ef84eb68bf34932d0a8796e
 msgid ""
 "tools for managing, grading, and reporting of notebook based assignments."
 " `Documentation <https://nbgrader.readthedocs.io/en/stable/>`__ | `Repo "
@@ -1277,7 +1824,7 @@ msgid ""
 msgstr ""
 
 # 9bddab1e2cba4c829b435171cbe67474
-#: ../../source/projects/subprojects.rst:107 13e61c4add0847fb8a9563f612d69dbd
+#: ../../source/projects/subprojects.rst:107 899c787c5e6c4987903925f019f86d9c
 msgid ""
 "To serve a variety of users and use cases, these subprojects are being "
 "developed to support notebook deployment in various contexts, including "
@@ -1285,12 +1832,12 @@ msgid ""
 msgstr ""
 
 # eefb0ea614334021a3d54a1978ace7c4
-#: ../../source/projects/subprojects.rst:112 d383f8955438480eb21594cc9b0ad0f4
+#: ../../source/projects/subprojects.rst:112 2ca0fa4498a3469a9c8ee2e6b957b0e9
 msgid "`jupyterhub <https://github.com/jupyterhub/jupyterhub>`__"
 msgstr ""
 
 # 17d831ed81344a498d1e6449876780e6
-#: ../../source/projects/subprojects.rst:114 c4437676b182416e93ec1e9d0eda3d66
+#: ../../source/projects/subprojects.rst:114 464e0d735d5d4ac89e9c8fde13e7a2bd
 msgid ""
 "Multi-user notebook for organizations with pluggable authentication and "
 "scalability. `Documentation "
@@ -1299,12 +1846,12 @@ msgid ""
 msgstr ""
 
 # bf80256b0a2d49beb74926620c0e63d0
-#: ../../source/projects/subprojects.rst:118 bf4f5374ec2d4ae8a995dd9c10766348
+#: ../../source/projects/subprojects.rst:118 c069edbe1845429f8ef56be1934b120f
 msgid "`jupyter-drive <https://github.com/jupyter/jupyter-drive>`__"
 msgstr ""
 
 # d6e3c6aaebe44f4cb095e4097d8ffbfe
-#: ../../source/projects/subprojects.rst:120 be381c71089d44ef87b30669a9d73b1f
+#: ../../source/projects/subprojects.rst:120 567e2d91b08f423fb6c366eb4367db02
 msgid ""
 "Store notebooks on Google Drive. `Documentation "
 "<https://github.com/jupyter/jupyter-drive>`__ | `Repo "
@@ -1312,12 +1859,12 @@ msgid ""
 msgstr ""
 
 # 7abe71ed8d0c4b78abda9410c630fce5
-#: ../../source/projects/subprojects.rst:123 a854ed63591d4866a19e4eb21662c667
+#: ../../source/projects/subprojects.rst:123 0d8b4b7f0e9e41079912a2448379d362
 msgid "`nbviewer <https://nbviewer.jupyter.org/>`__"
 msgstr ""
 
 # 9f9dbdacd8284a36a9e4fabb09e6f75b
-#: ../../source/projects/subprojects.rst:125 f5700d2028c74609a5b85426760e3a95
+#: ../../source/projects/subprojects.rst:125 c2583501142f4c6e9dcb4f611d05596d
 msgid ""
 "Share notebooks as static HTML on the web. `Documentation "
 "<https://github.com/jupyter/nbviewer>`__ | `Repo "
@@ -1325,12 +1872,12 @@ msgid ""
 msgstr ""
 
 # 21c5717ce0bb494abeb4f7efe21689cf
-#: ../../source/projects/subprojects.rst:128 2c8c9d0a194444d0ae93d32d021411f1
+#: ../../source/projects/subprojects.rst:128 44fd8d89407e4c8e84acb93ac16e9a7b
 msgid "`tmpnb <https://github.com/jupyter/tmpnb>`__"
 msgstr ""
 
 # b33b868fce914e299fd08a5835536be1
-#: ../../source/projects/subprojects.rst:130 8c2ad96cbaf440df8265af16219f7e7a
+#: ../../source/projects/subprojects.rst:130 78b44cd3bd764d5988b338799945f594
 msgid ""
 "Create temporary, transient notebooks in the cloud. `Documentation "
 "<https://github.com/jupyter/tmpnb>`__ | `Repo "
@@ -1338,24 +1885,24 @@ msgid ""
 msgstr ""
 
 # 21a190811e944b0da16ade016dc3b614
-#: ../../source/projects/subprojects.rst:133 31c672ffac0c49e8b4ebe6e3856010ee
+#: ../../source/projects/subprojects.rst:133 4111e1a57a134180a823931b1a1bff95
 msgid "`tmpnb-deploy <https://github.com/jupyter/tmpnb-deploy>`__"
 msgstr ""
 
 # 5daf6e80c11b44c595c655040dc09d64
-#: ../../source/projects/subprojects.rst:135 32c7154ffd1442a5b95c41af76cddaeb
+#: ../../source/projects/subprojects.rst:135 1ce119745b8949c9a02290e79e0e86cb
 msgid ""
 "Deployment tools for tmpnb. `Documentation <https://github.com/jupyter"
 "/tmpnb-deploy>`__ | `Repo <https://github.com/jupyter/tmpnb-deploy>`__"
 msgstr ""
 
 # 1f8ac9a7b4db4bb3b330567ac288e212
-#: ../../source/projects/subprojects.rst:138 b5340446d2434f66bce97fbdd8373b00
+#: ../../source/projects/subprojects.rst:138 1dee0e4f5fa5448c9b7c337e6f0a9273
 msgid "`dockerspawner <https://github.com/jupyterhub/dockerspawner>`__"
 msgstr ""
 
 # 2b17819baf714cbea333e87b1007f41a
-#: ../../source/projects/subprojects.rst:140 e9f15ea2426b49649508cc9b65d826c3
+#: ../../source/projects/subprojects.rst:140 1bd2e0b1314c49c7af9d848b64809351
 msgid ""
 "Deploy notebooks for 'jupyterhub' inside Docker containers. "
 "`Documentation <https://github.com/jupyterhub/dockerspawner>`__ | `Repo "
@@ -1363,12 +1910,12 @@ msgid ""
 msgstr ""
 
 # 8ef739ace1cf4cc8bad61fb84a2d4c6d
-#: ../../source/projects/subprojects.rst:143 632643b60b014d20868c8cfb5e5e5e89
+#: ../../source/projects/subprojects.rst:143 83f98516d68c49e4adc163240399a0c7
 msgid "`docker-stacks <https://github.com/jupyter/docker-stacks>`__"
 msgstr ""
 
 # d77ec1880fb64bef854fafe43b182310
-#: ../../source/projects/subprojects.rst:145 c17c2e5d74c145388c060c4d34602003
+#: ../../source/projects/subprojects.rst:145 baa49134e98945fea4fc4124599c3856
 msgid ""
 "Stacks of Jupyter applications and kernels as Docker containers. "
 "`Documentation <https://github.com/jupyter/docker-stacks>`__ | `Repo "
@@ -1376,19 +1923,19 @@ msgid ""
 msgstr ""
 
 # 2c6f57f2e66247acbba9d318b5c2ce75
-#: ../../source/projects/subprojects.rst:152 63a1ee55dc7c4484968c3a59a6720294
+#: ../../source/projects/subprojects.rst:152 2736a658779942f8bef2ae00781f4245
 msgid ""
 "The Jupyter architecture relies on these projects' specifications and "
 "implementation."
 msgstr ""
 
 # 682935d71e0f4ab7be95b5b3aea567d5
-#: ../../source/projects/subprojects.rst:156 5aa793257a2249049ae0842a27d35697
+#: ../../source/projects/subprojects.rst:156 74242d87e52d4ab4aa7c3fc9f7f09c21
 msgid "`jupyter_client <https://jupyter-client.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # 0e90e5cc30614edab2b9cb1f02d94a33
-#: ../../source/projects/subprojects.rst:158 b5baa68b6c464918820d1719d61791eb
+#: ../../source/projects/subprojects.rst:158 6ac736d0d8044d2f89effc0658b0ceb1
 msgid ""
 "The specification of the Jupyter message protocol and a client library in"
 " Python. `Documentation <https://jupyter-"
@@ -1397,12 +1944,12 @@ msgid ""
 msgstr ""
 
 # ed800037c68c47df8948d52e1b135a2b
-#: ../../source/projects/subprojects.rst:162 70ac78417bf045abbda95bde2348670d
+#: ../../source/projects/subprojects.rst:162 6203ce8be1184c029301d045dc7f4ab5
 msgid "`jupyter_core <https://jupyter-core.readthedocs.io/en/latest/>`__"
 msgstr ""
 
 # d925cc4bc47747ea85133aad35a742dc
-#: ../../source/projects/subprojects.rst:164 12b0c1eb71fa43bea2e09356ce850b5d
+#: ../../source/projects/subprojects.rst:164 bb072ecc48ef4ec981d76d64c8faf20a
 msgid ""
 "Core functionality and miscellaneous utilities. `Documentation <https"
 "://jupyter-core.readthedocs.io/en/latest/>`__ | `Repo "
@@ -1411,13 +1958,13 @@ msgstr ""
 
 # 42f7355e70a2465091323cab4580f41c
 #: ../../source/projects/upgrade-notebook.rst:2
-#: 8440f769705e4d6ebeaa99562514ca50
+#: 64ffa7c7f7fc4391866e16d7c1bb010e
 msgid "Upgrading Jupyter Notebook"
 msgstr ""
 
 # 440ad06fd1184be59ef54118786fb0e4
 #: ../../source/projects/upgrade-notebook.rst:8
-#: b7537b738fff4da6a00d013e2b0d8e06
+#: bc8d5c545cb54672a4473acb832057c9
 msgid "Upgrading Jupyter Notebook using Anaconda"
 msgstr ""
 
@@ -1425,7 +1972,7 @@ msgstr ""
 # dd8463cadc3a4083a009cd56974e52d5
 #: ../../source/projects/upgrade-notebook.rst:9
 #: ../../source/projects/upgrade-notebook.rst:28
-#: 86716a16348146bdb0ef2b00c6d6d918 e00f933bbab9465a9320f89367a5c1e9
+#: 07269cbbde464637a888955940b69746 baf7b36491b9401c863ff96b56d9fd06
 msgid "If using **Anaconda**, update Jupyter using ``conda``:"
 msgstr ""
 
@@ -1433,19 +1980,19 @@ msgstr ""
 # 6fab146490114576a0eb827544c97bda
 #: ../../source/projects/upgrade-notebook.rst:15
 #: ../../source/projects/upgrade-notebook.rst:42
-#: aafd5aa68560467ca240174d639bd16a b3b5fd0c04a846fe8a47ab888b9fa8b7
+#: 2f5208f485564d06b60328a34ca81d77 911cc1229afd489ca6239d4aaf786a7d
 msgid "See :ref:`Run the Notebook <running>` for running the Jupyter Notebook."
 msgstr ""
 
 # f8b0d1051b0744969dc1f9f522461d3e
 #: ../../source/projects/upgrade-notebook.rst:21
-#: c5e8a43794224ababe36760dd23f16d7
+#: e7de295d305844b5a9be1cfcc9f6759a
 msgid "Upgrading IPython Notebook to Jupyter Notebook"
 msgstr ""
 
 # 1a22753f51114de08d7186b0712d06b8
 #: ../../source/projects/upgrade-notebook.rst:23
-#: 571d5a3c2ca94857982648d5fa76cf85
+#: 6304ba4241c74080b38646199c90f598
 msgid ""
 "The Jupyter Notebook used to be called the IPython Notebook. If you are "
 "running an older version of the IPython Notebook (version 3 or earlier) "
@@ -1455,22 +2002,342 @@ msgstr ""
 
 # d88146b35caa48739050570489690ea2
 #: ../../source/projects/upgrade-notebook.rst:34
-#: 575b416fdc0f4a02ae462b365a667496
+#: ad220f651cc84f34acc3fa2dcf7c93d3
 msgid "*or*"
 msgstr ""
 
 # e5a0f0b2480d4d288496520262d1b1f5
 #: ../../source/projects/upgrade-notebook.rst:36
-#: 015f1c19b5614cc6a1a282d8902ed2fd
+#: f2d95b8b5de04f4c91f3ccd8c160581a
 msgid "If using :term:`pip`:"
 msgstr ""
 
 # f3af7fac60674d649aee3681c819a3f8
 #: ../../source/projects/upgrade-notebook.rst:46
-#: f7bdb64b6d0d41879b78327134766bbe
+#: cf3b861b9ff549a3ba2bcdf682ffe661
 msgid ""
 "The :ref:`migrating <migrating>` document has additional information "
 "about migrating from IPython 3 to Jupyter."
+msgstr ""
+
+#: ../../source/projects/use-cases/content-user.rst:2
+#: 160d56a6c3304e70bf5ece80f92fc072
+msgid "Narratives and Use Cases"
+msgstr ""
+
+#: ../../source/projects/use-cases/content-user.rst:16
+#: 0b2154250c4e414c9ee88c0c7721c889
+msgid "What are Narratives?"
+msgstr ""
+
+#: ../../source/projects/use-cases/content-user.rst:17
+#: dbc6de4326be474a994c79498fb61b05
+msgid ""
+"Narratives are *collaborative*, *shareable*, *publishable*, and "
+"*reproducible*. We believe that Narratives help both yourself and other "
+"researchers by sharing your use of Jupyter projects, technical specifics "
+"of your deployment, and installation and configuration tips so that "
+"others can learn from your experiences."
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:5
+#: 614d18647e534538bdbd9bb9c8f6ad43
+msgid "Jupyter for Data Science"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:7
+#: 5e6addf3ef5d4d988da97f352e9eea5e
+msgid ""
+"The purpose of this page is to highlight kernels and other projects that "
+"are central to the usage of Jupyter in data science. This page is not "
+"meant to be comprehensive or unbiased, but rather to provide an "
+"opinionated view of the usage of Jupyter in data science based on our "
+"interactions with users."
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:12
+#: f00465c131794a9e9382ee4551046d11
+msgid "The following Jupyter kernels are widely used in data science:"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:14
+#: dd124514faf2485ca8e6370f590d3aa2
+msgid "python"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:15
+#: 44ec91e326c847649c0e08e4f50d0998
+msgid "IPython (`GitHub Repo <https://github.com/ipython/ipykernel>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:18
+#: b54495aae69a44569e397258befa7c3c
+msgid "R"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:17
+#: ff9cd6682ed642fd956ee44b1f33a928
+msgid ""
+"IRkernel (`Documentation <https://irkernel.github.io/>`__, `GitHub Repo "
+"<https://github.com/IRkernel/IRkernel>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:18
+#: 0cf20fb2fd1f4195a9942b85e94be869
+msgid "IRdisplay (`GitHub Repo <https://github.com/IRkernel/IRdisplay>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:19
+#: ebbc56827a0243beb87a2ec09a1415a6
+msgid "repr (`GitHub Repo <https://github.com/IRkernel/repr>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:21
+#: 2420e44e6af3446e8e128c6afe5c980f
+msgid "Julia"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:21
+#: 21b001631b0e4054bc5eeb61dbcb1080
+msgid "IJulia Kernel (`GitHub Repo <https://github.com/JuliaLang/IJulia.jl>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:22
+#: ae4e59c68a1640be9eccb73afecca5cf
+msgid ""
+"Interactive Widgets (`GitHub Repo "
+"<https://github.com/JuliaLang/Interact.jl>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/data_science.rst:23
+#: 1472de1a968143c5970b9554bc4ad3cf
+msgid "Bash (`GitHub Repo <https://github.com/takluyver/bash_kernel>`__)"
+msgstr ""
+
+#: ../../source/projects/use-cases/education.rst:2
+#: 6e2ebec5176145a79cbb086b0559b943
+msgid "Jupyter in Education"
+msgstr ""
+
+#: ../../source/projects/use-cases/education.rst:5
+#: ../../source/projects/use-cases/narrative-hub.rst:29
+#: ../../source/projects/use-cases/narrative-notebook.rst:24
+#: ../../source/projects/use-cases/narrative-other.rst:23
+#: ../../source/projects/use-cases/science.rst:5
+#: 215ca4357adb4b53bd423fd4164bd9e6 33bf4d858b2c4ab698ff6b17210bbb6b
+#: 34410da333d34608889bef677e4477b6 a364663302494eaa8ca3b1252ac21866
+#: acc4551195e14f308602148325f14cca
+msgid ""
+"We're actively working on this section of the documentation to improve it"
+" for you. Thanks for your patience."
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:5
+#: 653a8bda9b16484495a9803a7df19e14
+msgid "Jupyter in the Enterprise"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:13
+#: 07904cea848e4fd49cc3d335af150bdf
+msgid ""
+"Businesses, especially those that started their ‘digital transformation’ "
+"journey, are producing ever-increasing volumes of data. Enterprise data "
+"science aims to unearth the hidden value of those digital assets, which "
+"are typically siloed, uncategorized, and inaccessible to humans."
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:17
+#: fca23b8d68374d418210d0c4e59d2d74
+msgid ""
+"Jupyter and JupyterHub can play a major role in related initiatives, "
+"especially in companies with an established open-source culture. The "
+"intent of this page is to provide you with ideas how Jupyter technology "
+"can fit into *your* organization's processes and system landscapes, by "
+"providing real-world examples and showcases."
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:24
+#: 6d4f9b8d67664e7198d30f0deb0d3d6f
+msgid "Example Use-Cases"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:26
+#: 857ebff174d94a9aaac76238cfefc42f
+msgid ""
+"`Beyond Interactive: Notebook Innovation at Netflix <https://medium.com"
+"/netflix-techblog/notebook-innovation-591ee3221233>`_"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:28
+#: e99d0563d9214c52b21fb77d6373e106
+msgid ""
+"`Part 2: Scheduling Notebooks at Netflix <https://medium.com/netflix-"
+"techblog/scheduling-notebooks-348e6c14cfd6>`_"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:30
+#: d3da47f235ac4b33b24601c73c04935f
+msgid ""
+"`PayPal Notebooks: Data science and machine learning at scale, powered by"
+" Jupyter <https://conferences.oreilly.com/jupyter/jup-"
+"ny/public/schedule/detail/68405>`_ (JupyterCon 2018 · `video "
+"<https://youtu.be/KVGrACWVUgE>`_)"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:32
+#: 1243cc67d1394c2dab4f8768a26fca05
+msgid ""
+"`Bloomberg BQuant platform <https://mingze-gao.com/posts/bloomberg-"
+"bquant/>`_"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:34
+#: ee51b615ec7e4f1eaf9b7dce743c3890
+msgid ""
+"`Jupyter & Python in the corporate LAN "
+"<https://medium.com/@olivier.borderies/jupyter-python-in-the-corporate-"
+"lan-109e2ffde897>`_"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:36
+#: 69c65d3ab7b747f885b100fdf5de73b9
+msgid ""
+"`DevOps Intelligence with JupyterHub "
+"<https://nbviewer.jupyter.org/github/jhermann/jupyter-by-"
+"example/blob/master/complete-scenarios/devops-intelligence.ipynb>`_"
+msgstr ""
+
+#: ../../source/projects/use-cases/enterprise.rst:40
+#: af1a818adc6249ccb93bc1518334880c
+msgid ""
+"We're actively working on this section of the documentation to improve it"
+" for you. If you've got a suggestion for a resource that would be "
+"helpful, please create an issue or a pull request!"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:2
+#: f55fcbec947d4ecf981de1e99f31d0e3
+msgid "JupyterHub Narratives"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:10
+#: dd26da11212348b4af5ab664f67ce6b4
+msgid ""
+"JupyterHub Narratives explore deployment and scaling of the Jupyter "
+"Notebook for a group of users. JupyterHub allows flexibility in "
+"configuration and deployment which makes JupyterHub valuable to "
+"education, industry research teams, and service providers. In these "
+"Narratives, we will look at differences in deployment, deployment "
+"advantages, and best practices."
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:17
+#: ../../source/projects/use-cases/narrative-notebook.rst:14
+#: ../../source/projects/use-cases/narrative-other.rst:15
+#: 34677e189f374623aaa96eb0fdfc6691 b4ac64c2f51c49acaab1d0ded666402c
+#: edae8ebfd2914b01868a38e6f2d04378
+msgid "Narrative examples"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:19
+#: 8139baa948b94fa1b1deb6121745a4ca
+msgid "A basic JupyterHub deployment"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:20
+#: 068e852d308040a28b79b9859b94c640
+msgid ""
+"A `reference deployment of JupyterHub using Docker "
+"<https://github.com/jupyterhub/jupyterhub-deploy-docker>`_"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:21
+#: dbba723645294490872f48f95a50b98a
+msgid ""
+"Teaching a Course with JupyterHub and nbgrader using a `reference "
+"deployment on a single server and Ansible scripts "
+"<https://github.com/jupyterhub/jupyterhub-deploy-teaching>`_ to automate "
+"set up"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:24
+#: 35b0795b97ee42399cc70f1f117eea42
+msgid "Teaching a Course with JupyterHub, nbgrader, and containers"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-hub.rst:25
+#: 7d34e6b2239144d5852fbdd103800f4f
+msgid "JupyterHub deployments using Containers including Docker"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:2
+#: b564b9fa7587455daf54b6a0401e4ded
+msgid "Notebook Narratives"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:10
+#: 1488c1eab24c48b8b155abafe6238f65
+msgid ""
+"The Notebook Narratives explore uses of the Jupyter Notebook in a variety"
+" of applications."
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:16
+#: a3f853859c034090a763f8b677a13f79
+msgid "Using the Notebook for data exploration"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:17
+#: 3df85b7e286e49aaaa08ed98c9d48c06
+msgid "Using extensions and widgets"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:18
+#: 5d4ecd911291467d948462528977232e
+msgid "Using nbconvert for code execution and workflow simplification"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:19
+#: e4525abee003460eb3361bb4f8ab6f9c
+msgid "Using nbconvert for publishing"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-notebook.rst:20
+#: 8a5edbc1308242dfa413ba5e9d36b66e
+msgid "Using multiple language kernels"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-other.rst:2
+#: c148fe88f179424bb21812098f001824
+msgid "Narratives - Building blocks"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-other.rst:10
+#: dd3cde8683864712b4a0c1fd1a9fcbac
+msgid ""
+"This section presents some examples of integrating different projects "
+"together. These projects form the foundation of innovative services and "
+"provide building blocks for future applications."
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-other.rst:17
+#: a261117d98d3437a9364f5326ddcd239
+msgid "A Narrative about Creating Dashboards"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-other.rst:18
+#: bf46d7884052470f9e5d11cc0b9e53ca
+msgid "A Narrative about Thebe"
+msgstr ""
+
+#: ../../source/projects/use-cases/narrative-other.rst:19
+#: 9be85a089a1c4ca8aee1831dc8d6799f
+msgid "A Narrative about Hydrogen"
+msgstr ""
+
+#: ../../source/projects/use-cases/science.rst:2
+#: 13f039b1ea574d069bfe5b307bd9a9e3
+msgid "Jupyter and Scientific Computing"
 msgstr ""
 
 # ba1504c274984be89d08649e83e6a9a4

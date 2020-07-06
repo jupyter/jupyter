@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 03:44+0000\n"
+"POT-Creation-Date: 2020-07-06 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,37 +20,97 @@ msgstr ""
 
 # 4186a713d84a4c2b806a912fb2becfc9
 #: ../../source/reference/content-reference.rst:2
-#: 65057054ceb04176b4cefb3bca69f516
+#: c53414679c494679bb13cdc9d0fa5612
 msgid "Reference"
 msgstr ""
 
 # 47d932f599ef4dc1a3fce9d83d3e7bc4
-#: ../../source/reference/content-reference.rst:12
-#: 0fc3ca0897754aa7946f01c8005559dd
+#: ../../source/reference/content-reference.rst:13
+#: ../../source/reference/ipython.rst:32 6b3aa59f37934dc48857842da586fbae
+#: fc66c63b4721412286ccca684621d6cc
 msgid "Resources"
 msgstr ""
 
 # 23b33a4ebf624f9f8ac3989d8fb30bd8
-#: ../../source/reference/content-reference.rst:14
-#: 5e78932aa0f144c089835197a2d27488
+#: ../../source/reference/content-reference.rst:15
+#: cce62dd85eeb42ab9893bfab94d37aed
 msgid ":ref:`genindex`"
 msgstr ""
 
 # fdf2e34429ec43cfa4182e18d95e3546
-#: ../../source/reference/content-reference.rst:15
-#: ab4aef5a6a8d4cfcafec12ecfb4c1794
+#: ../../source/reference/content-reference.rst:16
+#: 3a01f560b1814edd82a95177c1fdb41b
 msgid ":ref:`search`"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:1 b31e318b4f044f89b3d479fac8ad4a45
+#: ../../source/reference/ipython.rst:34
+msgid "IPython website"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:34
+msgid "Gallery of interesting notebooks"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:34
+msgid "IPython documentation"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:2 774d6023e1ac46fa99e1231e85d87bc1
+msgid "IPython"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:10 bff663b6c5a747ec970d31a65c296b3c
+msgid "Description"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:12 d18f2de480414908b43b1017fe709011
+msgid "IPython provides a rich architecture for interactive computing with:"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:14 ae9336a2a8a34c6e9a7c993186b20b60
+msgid "A powerful interactive shell."
+msgstr ""
+
+#: ../../source/reference/ipython.rst:15 7fd3d8c99cce40c7b4d8aeb95a4bf53a
+msgid "A kernel for Jupyter."
+msgstr ""
+
+#: ../../source/reference/ipython.rst:16 5129e8af219c47a4b01ccc26f9be1dea
+msgid "Support for interactive data visualization and use of GUI toolkits."
+msgstr ""
+
+#: ../../source/reference/ipython.rst:17 0a974fa9aa7842238f4a295b933b00be
+msgid "Flexible, embeddable interpreters to load into your own projects."
+msgstr ""
+
+#: ../../source/reference/ipython.rst:18 30b8b0e080884c0c83ea9377249bce16
+msgid "Easy to use, high performance tools for parallel computing."
+msgstr ""
+
+#: ../../source/reference/ipython.rst:21 4fc87dffcd7f4ac8b27bded5bdf863ef
+msgid "Background"
+msgstr ""
+
+#: ../../source/reference/ipython.rst:23 4ee5e0464d834e24ba1dc5a15307d7c9
+msgid ""
+"IPython is a growing project, with increasingly language-agnostic "
+"components. IPython 3.x was the last monolithic release of IPython, "
+"containing the notebook server, qtconsole, etc. As of IPython 4.0, the "
+"language-agnostic parts of the project: the notebook format, message "
+"protocol, qtconsole, notebook web application, etc. have moved to new "
+"projects under the name Jupyter. IPython itself is focused on interactive"
+" Python, part of which is providing a Python kernel for Jupyter."
+msgstr ""
+
+#: ../../source/reference/mimetype.md:1 d1ff7f71551b4af2b4d9da686dfb7ca1
 msgid "Custom mimetypes (MIME types)"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:4 5ff43ddc96b34734b525ce7ff65a567f
+#: ../../source/reference/mimetype.md:4 cec5e070c9d14938bca1d978ddfae0d4
 msgid "What's a mimetype?"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:6 9d5d89663eb5429494782d972d067a0e
+#: ../../source/reference/mimetype.md:6 af9990e11f6b4fa788c0f651fc1f6836
 msgid ""
 "When an internet request and response occurs, a Content-Type header is "
 "passed. A mimetype, also referred to as MIME type, identifies how the "
@@ -60,65 +120,65 @@ msgid ""
 " MIME type is image/png where MIME group is image and subtype is png."
 msgstr ""
 
-#: ../../source/reference/mimetype.md:13 b271473942e74b86863a4ac10983fb18
+#: ../../source/reference/mimetype.md:13 d56835176cf549cc8ea36b28d759bc23
 msgid ""
 "As types may contain vendor specific items, a custom vendor specific MIME"
 " type, vnd, can be used. A vendor specific MIME type will contain vnd "
 "such as application/vnd.jupyter.cells."
 msgstr ""
 
-#: ../../source/reference/mimetype.md:19 38f1c5a4ea1b43f780c5e6480ef81a5e
+#: ../../source/reference/mimetype.md:19 1140337eb5ae4722b2e4faf8260afd0f
 msgid "Custom mimetypes used in Jupyter and IPython projects"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:21 bf70fc69c17d4360a8cf9663f379b57a
+#: ../../source/reference/mimetype.md:21 4908fd10db734d36b58ca37ef5858366
 msgid "application/vnd.jupyter"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:22 f2842f9047ce4bdca8fcaf0c7bc5cb70
+#: ../../source/reference/mimetype.md:22 f477e3933e22452c81af75897202de34
 msgid "application/vnd.jupyter.cells"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:23 23857b748e3a478ca9101757e250fafc
+#: ../../source/reference/mimetype.md:23 f19edf2de01b42eeb32b62719e86b374
 msgid "application/vnd.jupyter.dragindex used by nbdime"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:24 f2dc952c07084e05b79272ed061725aa
+#: ../../source/reference/mimetype.md:24 df8ddb95edd54027bbcc38db9f562d5b
 msgid "application/x-ipynb+json for notebooks"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:25 275e62420be849619f96544126ab699f
+#: ../../source/reference/mimetype.md:25 bb225e0b17454f00b69db17cb66f04ff
 msgid "text/html"
 msgstr ""
 
 # a04e3276582c4710b3b13a854e8aaa65
-#: ../../source/reference/mimetype.md:26 54b11a3bd4a4474694453c015253684e
+#: ../../source/reference/mimetype.md:26 518b539f5c7c470d82adf6570f853cae
 msgid "metadata:"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:27 c5400070f07b46ab9ff5e3e232955d9a
+#: ../../source/reference/mimetype.md:27 3e0cf857ec6541d084fabe9c9401f2d0
 msgid "isolated: boolean -- HTML should be rendered inside an <iframe>."
 msgstr ""
 
-#: ../../source/reference/mimetype.md:29 45a147db3876404884735638345252cb
+#: ../../source/reference/mimetype.md:29 7453c61ae98e425b90ea92a716479a64
 msgid "Listing of custom mimetypes used for display"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:31 3c4749a509714b348be4b0545c965ea1
+#: ../../source/reference/mimetype.md:31 225c24136b2044b5a2a2445a64777817
 msgid ""
 "application/vnd.geo+json - GeoJSON spec application/vnd.geo+json is now "
 "deprecated and replaced by application/geo+json"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:34 5c7ffccc27b74ed89f5b219cbc2c550a
+#: ../../source/reference/mimetype.md:34 adc520fd35304d2d9ac432c0e3c27a34
 msgid "application/geo+json - preferred GeoJSON spec"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:35 e83f4f02cd9b46d58105b52e42498c6e
+#: ../../source/reference/mimetype.md:35 1c78ce155ece44ffbdecfa85718f83f1
 msgid "application/vnd.plotly.v1+json - Plotly JSON Schema"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:36 3497c724ebdb49b29bd853b689ce563d
+#: ../../source/reference/mimetype.md:36 730663e40c3041ea95806df87ad38ba0
 msgid "application/vdom.v1+json - Virtual DOM spec"
 msgstr ""
 
