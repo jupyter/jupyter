@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-15 20:21+0000\n"
+"POT-Creation-Date: 2020-07-06 03:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,115 +20,106 @@ msgstr ""
 
 # 4186a713d84a4c2b806a912fb2becfc9
 #: ../../source/reference/content-reference.rst:2
-#: 3548dee3ac1446f08bf8a58acb70b0fc
+#: 65057054ceb04176b4cefb3bca69f516
 msgid "Reference"
 msgstr ""
 
 # 47d932f599ef4dc1a3fce9d83d3e7bc4
 #: ../../source/reference/content-reference.rst:12
-#: ed4db458f4a946c08e8be38aff79fdad
+#: 0fc3ca0897754aa7946f01c8005559dd
 msgid "Resources"
 msgstr ""
 
 # 23b33a4ebf624f9f8ac3989d8fb30bd8
 #: ../../source/reference/content-reference.rst:14
-#: 1c3f971b98f1438a8ca69b890fe42d1f
+#: 5e78932aa0f144c089835197a2d27488
 msgid ":ref:`genindex`"
 msgstr ""
 
 # fdf2e34429ec43cfa4182e18d95e3546
 #: ../../source/reference/content-reference.rst:15
-#: 66b3ec1223114338b479cf0667c4c1f6
+#: ab4aef5a6a8d4cfcafec12ecfb4c1794
 msgid ":ref:`search`"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:1 f4091816b676435c9a98a76e422ca047
-msgid "# Custom mimetypes (MIME types)"
+#: ../../source/reference/mimetype.md:1 b31e318b4f044f89b3d479fac8ad4a45
+msgid "Custom mimetypes (MIME types)"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:4 b5350463b5f141d0aac4b4931b98cfc4
-msgid "## What's a mimetype?"
+#: ../../source/reference/mimetype.md:4 5ff43ddc96b34734b525ce7ff65a567f
+msgid "What's a mimetype?"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:6 09c46d1917ae401898dd1271edfd995a
+#: ../../source/reference/mimetype.md:6 9d5d89663eb5429494782d972d067a0e
 msgid ""
-"When an internet request and response occurs, a `Content-Type` header is "
+"When an internet request and response occurs, a Content-Type header is "
 "passed. A mimetype, also referred to as MIME type, identifies how the "
 "content that is being returned should be handled or used, based on type, "
-"by the application and browser. A MIME type is made up of a MIME *group* "
-"(i.e. application, image, audio, etc.) and a MIME *subtype*. For example,"
-" a MIME type is `image/png` where MIME *group* is `image` and *subtype* "
-"is `png`."
+"by the application and browser. A MIME type is made up of a MIME group "
+"(i.e. application, image, audio, etc.) and a MIME subtype. For example, a"
+" MIME type is image/png where MIME group is image and subtype is png."
 msgstr ""
 
-#: ../../source/reference/mimetype.md:13 f84ecd3dc46a4cacb3950b84ecfbb758
+#: ../../source/reference/mimetype.md:13 b271473942e74b86863a4ac10983fb18
 msgid ""
-"As types may contain vendor specific items, a [custom vendor specific "
-"MIME type](https://en.wikipedia.org/wiki/Media_type#Vendor_tree), `vnd`, "
-"can be used. A vendor specific MIME type will contain `vnd` such as "
-"`application/vnd.jupyter.cells`."
+"As types may contain vendor specific items, a custom vendor specific MIME"
+" type, vnd, can be used. A vendor specific MIME type will contain vnd "
+"such as application/vnd.jupyter.cells."
 msgstr ""
 
-#: ../../source/reference/mimetype.md:19 d4797d2d49f44371be0366eb5a26a880
-msgid "## Custom mimetypes used in Jupyter and IPython projects"
+#: ../../source/reference/mimetype.md:19 38f1c5a4ea1b43f780c5e6480ef81a5e
+msgid "Custom mimetypes used in Jupyter and IPython projects"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:21 84368dd1e2af4c009505d708ddb7261d
-msgid "`application/vnd.jupyter`"
+#: ../../source/reference/mimetype.md:21 bf70fc69c17d4360a8cf9663f379b57a
+msgid "application/vnd.jupyter"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:22 3020b25ee9b146f0aed0a495ee028d5f
-msgid "`application/vnd.jupyter.cells`"
+#: ../../source/reference/mimetype.md:22 f2842f9047ce4bdca8fcaf0c7bc5cb70
+msgid "application/vnd.jupyter.cells"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:23 c7d37082dea74cda8e4e39ed0dc6c2d4
-msgid "`application/vnd.jupyter.dragindex` used by nbdime"
+#: ../../source/reference/mimetype.md:23 23857b748e3a478ca9101757e250fafc
+msgid "application/vnd.jupyter.dragindex used by nbdime"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:24 4f55ced602d64b96be9f6de9d2cfd5ef
-msgid "`application/x-ipynb+json` for notebooks"
+#: ../../source/reference/mimetype.md:24 f2dc952c07084e05b79272ed061725aa
+msgid "application/x-ipynb+json for notebooks"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:27 525e48ad5cfa449ea0604e85a5db9985
-msgid "`text/html`"
+#: ../../source/reference/mimetype.md:25 275e62420be849619f96544126ab699f
+msgid "text/html"
 msgstr ""
 
 # a04e3276582c4710b3b13a854e8aaa65
-#: ../../source/reference/mimetype.md:27 8df4ed12e0514f6589239d5462e54373
+#: ../../source/reference/mimetype.md:26 54b11a3bd4a4474694453c015253684e
 msgid "metadata:"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:27 d4544c9494404424b87e058a134604fe
-msgid "`isolated: boolean` -- HTML should be rendered inside an `<iframe>`."
+#: ../../source/reference/mimetype.md:27 c5400070f07b46ab9ff5e3e232955d9a
+msgid "isolated: boolean -- HTML should be rendered inside an <iframe>."
 msgstr ""
 
-#: ../../source/reference/mimetype.md:29 e7c6482aaba84c26afff19cb2778e8c4
-msgid "##  Listing of custom mimetypes used for display"
+#: ../../source/reference/mimetype.md:29 45a147db3876404884735638345252cb
+msgid "Listing of custom mimetypes used for display"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:31 55a675ad5eda4b7398f38fd56953f81c
+#: ../../source/reference/mimetype.md:31 3c4749a509714b348be4b0545c965ea1
 msgid ""
-"`application/vnd.geo+json` - [GeoJSON spec](http://geojson.org/geojson-"
-"spec.html) `application/vnd.geo+json` is now deprecated and replaced by "
-"`application/geo+json`"
+"application/vnd.geo+json - GeoJSON spec application/vnd.geo+json is now "
+"deprecated and replaced by application/geo+json"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:34 e4e8eaa171bd434296b5f010066dab63
-msgid ""
-"`application/geo+json` - preferred [GeoJSON spec](http://geojson.org"
-"/geojson-spec.html)"
+#: ../../source/reference/mimetype.md:34 5c7ffccc27b74ed89f5b219cbc2c550a
+msgid "application/geo+json - preferred GeoJSON spec"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:35 99b0a0ffea334b87a6c7e6515625e72c
-msgid ""
-"`application/vnd.plotly.v1+json` - [Plotly JSON "
-"Schema](http://help.plot.ly/json-chart-schema/)"
+#: ../../source/reference/mimetype.md:35 e83f4f02cd9b46d58105b52e42498c6e
+msgid "application/vnd.plotly.v1+json - Plotly JSON Schema"
 msgstr ""
 
-#: ../../source/reference/mimetype.md:36 d18f06d0ea154e87ae1ecf3abb6c1da9
-msgid ""
-"`application/vdom.v1+json` - [Virtual DOM "
-"spec](https://github.com/nteract/vdom/blob/master/docs/spec.md)"
+#: ../../source/reference/mimetype.md:36 3497c724ebdb49b29bd853b689ce563d
+msgid "application/vdom.v1+json - Virtual DOM spec"
 msgstr ""
 
 # 1af8e86e71ef4cdfa9a78a51877391cc
@@ -214,5 +205,82 @@ msgstr ""
 
 # 95fe379abab94fa18e2beadf866861fb
 #~ msgid "application/vdom.v1+json - Virtual DOM spec"
+#~ msgstr ""
+
+#~ msgid "# Custom mimetypes (MIME types)"
+#~ msgstr ""
+
+#~ msgid "## What's a mimetype?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When an internet request and response"
+#~ " occurs, a `Content-Type` header is"
+#~ " passed. A mimetype, also referred to"
+#~ " as MIME type, identifies how the "
+#~ "content that is being returned should"
+#~ " be handled or used, based on "
+#~ "type, by the application and browser."
+#~ " A MIME type is made up of "
+#~ "a MIME *group* (i.e. application, image,"
+#~ " audio, etc.) and a MIME *subtype*."
+#~ " For example, a MIME type is "
+#~ "`image/png` where MIME *group* is "
+#~ "`image` and *subtype* is `png`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As types may contain vendor specific "
+#~ "items, a [custom vendor specific MIME"
+#~ " type](https://en.wikipedia.org/wiki/Media_type#Vendor_tree), "
+#~ "`vnd`, can be used. A vendor "
+#~ "specific MIME type will contain `vnd`"
+#~ " such as `application/vnd.jupyter.cells`."
+#~ msgstr ""
+
+#~ msgid "## Custom mimetypes used in Jupyter and IPython projects"
+#~ msgstr ""
+
+#~ msgid "`application/vnd.jupyter`"
+#~ msgstr ""
+
+#~ msgid "`application/vnd.jupyter.cells`"
+#~ msgstr ""
+
+#~ msgid "`application/vnd.jupyter.dragindex` used by nbdime"
+#~ msgstr ""
+
+#~ msgid "`application/x-ipynb+json` for notebooks"
+#~ msgstr ""
+
+#~ msgid "`text/html`"
+#~ msgstr ""
+
+#~ msgid "`isolated: boolean` -- HTML should be rendered inside an `<iframe>`."
+#~ msgstr ""
+
+#~ msgid "##  Listing of custom mimetypes used for display"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`application/vnd.geo+json` - [GeoJSON "
+#~ "spec](http://geojson.org/geojson-spec.html) "
+#~ "`application/vnd.geo+json` is now deprecated "
+#~ "and replaced by `application/geo+json`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`application/geo+json` - preferred [GeoJSON "
+#~ "spec](http://geojson.org/geojson-spec.html)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`application/vnd.plotly.v1+json` - [Plotly JSON "
+#~ "Schema](http://help.plot.ly/json-chart-schema/)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`application/vdom.v1+json` - [Virtual DOM "
+#~ "spec](https://github.com/nteract/vdom/blob/master/docs/spec.md)"
 #~ msgstr ""
 

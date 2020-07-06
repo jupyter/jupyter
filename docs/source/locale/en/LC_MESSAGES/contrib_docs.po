@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-15 20:21+0000\n"
+"POT-Creation-Date: 2020-07-06 03:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,794 +18,866 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-# 8951f6f4ecb1413bbb04b398218015c5
-#: ../../source/contrib_docs/doc-future-index.rst:2
-#: 7171b8f4671d497eaae4f62307789d9b
-msgid "Setting up a project's documentation infrastructure"
+#: ../../source/contrib_docs/doc-new-translation.md:1
+#: 83dcb74dbf914bb88014266e318dec91
+msgid "Supporting translations of documentation"
 msgstr ""
 
-# 7cdfc8fab5b84b2a888d19fbfe55aa37
-#: ../../source/contrib_docs/doc-future-index.rst:4
-#: c5f0de8d74a2498c9255e7165dc58d3f
-msgid "Contents:"
-msgstr ""
-
-# 1bde3a53c29249958887df3f45554bdf
-#: ../../source/contrib_docs/doc-future-index.rst:13
-#: 659f97e683d74b83bfde4e09ec78fde3
+#: ../../source/contrib_docs/doc-new-translation.md:3
+#: ec12f9c3c03746ef8e73887823ed4aa9
 msgid ""
-"This section helps a contributor set up the documentation infrastructure "
-"for a new project or an existing project without Sphinx documentation."
+"We support and encourage the translation of Jupyter documentation to "
+"other languages as one way of making our community more inclusive and "
+"diverse. We are working toward having a consistent model for translation "
+"of Sphinx documentation across Jupyter projects based on prior work in "
+"the Python and Django communities. This project "
+"(https://jupyter.readthedocs.io) and the Jupyter Docker Stacks project "
+"are early adopters, meant to prove out the workflows described on this "
+"page."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:1
-#: 60be25e6f5ab4c4f8e52b600a5cdf7c8
-msgid "# Building automatically on ReadTheDocs"
+#: ../../source/contrib_docs/doc-new-translation.md:11
+#: 3aba6612a8bd4e728b1d47cb950fd7bb
+msgid "Overview"
 msgstr ""
 
-# fbc01acaa56d459985a5988de5128194
-#: ../../source/contrib_docs/doc-new-build.md:3
-#: 4983568c92bd40069e3c0b813f50dd36
+#: ../../source/contrib_docs/doc-new-translation.md:13
+#: 305f57701883465a813a288875500e48
 msgid ""
-"This explains how to automatically rebuild documentation on ReadtheDocs "
-"every time a pull request is merged into its corresponding GitHub repo."
+"After initial project setup, changes to Sphinx documentation and its "
+"translations follow a continuous integration (CI) and continuous "
+"deployment (CD), much like project source code."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:6
-#: 3c09d376a26d4c0f855f42167670a39d
-msgid "## Using the ReadTheDocs service"
+#: ../../source/contrib_docs/doc-new-translation.md:16
+#: 6f99c57e47bc4bc8a61c2d2005cc1add
+msgid "Who is involved in translating documentation"
 msgstr ""
 
-# 548f76347eeb494da8083cb3c13d39f2
-#: ../../source/contrib_docs/doc-new-build.md:8
-#: 388c94eb698642dc9840afeda447740f
+#: ../../source/contrib_docs/doc-new-translation.md:18
+#: 9e32aa58c86c4e1e87acce537b4e9141
 msgid ""
-"Webhooks and services can be enabled in GitHub repo settings to allow "
-"third party services such as ReadTheDocs. The ReadTheDocs service "
-"rebuilds the project documentation whenever a pull request is merged into"
-" the GitHub repo."
+"Anyone is welcome to participate in writing and translating Jupyter "
+"documentation by participating in the workflow described below. This "
+"workflow has a handful of actors and components:"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:12
-#: 9a263d94719d4e04b81c38e9f82debd9
-msgid "### Navigate to Settings"
+#: ../../source/contrib_docs/doc-new-translation.md:21
+#: c1fd70abb5db4978bb6f87a126c91ddd
+msgid "A person who makes changes to the English project documentation"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:14
-#: a3bb22853ec5438d8f8fb9d567864c05
+#: ../../source/contrib_docs/doc-new-translation.md:22
+#: 38ca9bdd22d04832bff8540641d259ce
 msgid ""
-"Each GitHub repo has a Settings tab at the far right of the repo menubar."
-" Navigate to Settings and then the **Webhooks & services** submenu tab."
+"A person who translates snippets of text in the English documentations "
+"into another language (locale)"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:16
-#: 51eae81cf7c7465e9cae27c5319a1bc5
+#: ../../source/contrib_docs/doc-new-translation.md:24
+#: 6a71e8cc8ee446938fdf5534737344d3
 msgid ""
-"![Settings and Webhooks & services submenu](static/gh-webhooks-"
-"services.png \"Screenshot of GitHub repo settings\")"
+"Portable object files (.po) for the source documentation language (e.g., "
+"U.S. English, en-US) and for other locales (e.g., Brazilian Portuguese, "
+"pt-BR; Moroccan Arabic, ar-MA)"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:18
-#: ca5453696dee485e84f619147c676c66
-msgid "### Add the ReadTheDocs service"
-msgstr ""
-
-#: ../../source/contrib_docs/doc-new-build.md:20
-#: 7975ebefd3194f8299e67c050d6510a9
+#: ../../source/contrib_docs/doc-new-translation.md:27
+#: 2bcde874b9da4373b0fa4a72506c968c
 msgid ""
-"Select **Add service** and enter *ReadTheDocs* in the **Available "
-"Services** input box."
+"A continuous integration system like TravisCI, CircleCI, or GitHub "
+"Actions, responsible for"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:22
-#: 4c48786acdf54e13b3b8bb86bb51a130
+#: ../../source/contrib_docs/doc-new-translation.md:28
+#: 4b8dd0d33a80444e814901c3fafbc240
+msgid "ReadTheDocs, our preferred service for building and hosting documentation"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:30
+#: 10e77befcaf04997a83dae6a6f050afc
 msgid ""
-"The Services/Add ReadTheDocs window will open. Press the green **Add "
-"service** button to activate the ReadTheDocs service."
+"Transifex, a localization platform with free plans for open source "
+"projects, a friendly web interface, and support for .po files"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:24
-#: 8992a6baed084959b3f00704d3450f4d
+#: ../../source/contrib_docs/doc-new-translation.md:33
+#: 4366c58cd7014526b2d76066f19a1ebb
+msgid "The translation process"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:35
+#: 49cbe43111f848cbab48e2f9d27f329d
+msgid "Translation CI/CD"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:38
+#: e40e38f4ac7b43329392f49004cdb30e
 msgid ""
-"![Add ReadTheDocs service](static/gh-add-rtd.png \"Screenshot of adding "
-"ReadTheDocs service\")"
+"A user creates or edits reStructuredText (.rst) or Markdown (.md) "
+"documents written in U.S. English."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:26
-#: f3cb6f676639422f8d3ad5690f4235a5
-msgid "### Success"
+#: ../../source/contrib_docs/doc-new-translation.md:40
+#: 55be5a89c5de454a9a54de363f58722a
+msgid "The user submits a pull request on GitHub."
 msgstr ""
 
-# f38a664a1d164422ae6a4aa7b3d5bb50
-#: ../../source/contrib_docs/doc-new-build.md:28
-#: c5370a86f772452e99a6cf1c2edd9a45
+#: ../../source/contrib_docs/doc-new-translation.md:41
+#: ../../source/contrib_docs/doc-new-translation.md:79
+#: 2ce7c28ffacc42379de0fd7d0c5ba28e 8e8d043b7e184b73ac1cd169f3320680
+msgid "A project maintainer reviews and merges the pull request."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:42
+#: 39c73568b6fc49ee941e900f0674668d
 msgid ""
-"The ReadTheDocs service is added successfully. The service will take "
-"effect on the next merged pull request to the project repo."
+"ReadTheDocs runs Sphinx to convert U.S. English source documents into "
+"HTML (e.g., "
+"https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:30
-#: 997f02a74a934ee7b4d70346a94d19e5
+#: ../../source/contrib_docs/doc-new-translation.md:44
+#: 5011f264e6d940eb806781d5e898c2b1
 msgid ""
-"![Service successfully added](static/gh-rtd-hook-success.png \"Screenshot"
-" of service successfully added\")"
+"Meanwhile, the CI service runs Sphinx commands to extract translatable "
+"messages from U.S. English documents into en-US portable object (.po) "
+"files. For example:"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-build.md:33
-#: e897d1db905b4bf68f2d19e8b61dc5be
-msgid "*Created: 01-07-2016*"
-msgstr ""
-
-#: ../../source/contrib_docs/doc-new-repos.md:1
-#: 502dab99e3d24998be66ee591a050a75
-msgid "# Setting up a README"
-msgstr ""
-
-# d22ac7f8b0574e0493a17b325c369177
-#: ../../source/contrib_docs/doc-new-repos.md:3
-#: d990ed82a9b2443b92c1d32771ec11e2
+#: ../../source/contrib_docs/doc-new-translation.md:57
+#: 5be878b27245469680bea51a3f531349
 msgid ""
-"Providing users and developers consistency across repos is a valuable "
-"time saver and improves user productivity."
+"The CI service commits the English .po files to the project on GitHub. "
+"(e.g., "
+"https://github.com/jupyter/jupyter/commit/1330bc409842d8b8a7bbb3a1c63259c34a543be0)"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:6
-#: 64c756c9699b4cff8bd4cfd2fde2990d
+#: ../../source/contrib_docs/doc-new-translation.md:59
+#: d9c670ae026f42b0ad2508f4d71c35a5
 msgid ""
-"On a larger scope, having the Jupyter name appear prominently in a repo's"
-" `README.md` file improves the project's name awareness."
+"Transifex makes the messages in the English .po files available for "
+"translation in all configured languages."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:9
-#: 8f292fba21614a3593fc6a96cc8bf218
-msgid "## Recommended elements in Jupyter project repos"
-msgstr ""
-
-#: ../../source/contrib_docs/doc-new-repos.md:11
-#: 1462ee7255174acaa9f81ae43deed6e9
+#: ../../source/contrib_docs/doc-new-translation.md:61
+#: e510379f66804ed1a0f2801711bb5bea
 msgid ""
-"### Link in repo description Please include a link to the documentation "
-"in the repo's description."
+"Over time, translation teams use the Transifex web application to create,"
+" review, and update translations for those languages (e.g., "
+"https://docs.transifex.com/translation/translating-with-the-web-editor)"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:14
-#: 061ef5dea41d4dcb9d84ddf2ce27752d
+#: ../../source/contrib_docs/doc-new-translation.md:64
+#: 6174abe41d5c4d7795242abef32239d3
 msgid ""
-"![Repo description and documentation link](static/repo-description.png "
-"\"Screenshot of documentation link in GitHub repo description\")"
+"Transifex submits a pull request to the GitHub project containing a "
+"localized .po file when all of the English messages have been translated,"
+" and optionally reviewed, for a given language (e.g., "
+"https://github.com/jupyter/jupyter/pull/485). For example:"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:16
-#: e7ad715e22a8453eb33285d4b7ceb591
+#: ../../source/contrib_docs/doc-new-translation.md:80
+#: 0a08b3347d144ed19c17335afd20115b
 msgid ""
-"### Badges in README One common way that individuals find documentation "
-"is to look for and click on the doc badge that commonly is found right "
-"after the title. Another benefit is an easy visual indication if the docs"
-" are not rendering properly."
+"ReadTheDocs once again runs Sphinx to convert U.S. English source "
+"documents into HTML."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:21
-#: a16cc11c24de4f968207d7bdae90efa9
+#: ../../source/contrib_docs/doc-new-translation.md:81
+#: 2e111e7e2b174acf862b2ffb12e45c22
 msgid ""
-"![Badges in README.md](static/repo-badges.png \"Screenshot of badges "
-"displayed under the repo title in the README file\")"
+"ReadTheDocs also runs Sphinx to load localized .po files, substitute "
+"translations into the original English text, and convert those translated"
+" documents into HTML (e.g., "
+"https://jupyter.readthedocs.io/pt_BR/latest/architecture/how_jupyter_ipython_work.html)"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:23
-#: 1e9789aeb52342f1962135c2a1a1cd2b
-msgid "### Resources section in README"
-msgstr ""
-
-#: ../../source/contrib_docs/doc-new-repos.md:25
-#: 1652207ab3fb46caaf9ca6c7b2ce4b90
+#: ../../source/contrib_docs/doc-new-translation.md:85
+#: bc585e732baa4b6992a25b6993e25dd8
 msgid ""
-"A *Resources* section at the end of the `README.md` gives useful links "
-"and information to users about the individual project and the larger "
-"Project Jupyter organization. Make sure to include any links to the "
-"individual project's demo notebooks, if available."
+"Note: We recognize this flow assumes documentation starts life written in"
+" U.S. English. We should look into removing this assumption in the future"
+" if it becomes a significant barrier to new contributions."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:30
-#: d75e99f7dbe84384860af3b3ff1be53b
-msgid "The *Resources* section includes:"
+#: ../../source/contrib_docs/doc-new-translation.md:89
+#: 3e9e370a7bdc4cabbf887ea69806aa86
+msgid "Community translator workflows"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:32
-#: 8b6871bb0ffd4933bf2ba3738f516f08
+#: ../../source/contrib_docs/doc-new-translation.md:91
+#: c12ef7e15a144dafb95e5914bcd646b9
 msgid ""
-"![Resources section in `README.md`](static/repo-resources.png "
-"\"Screenshot of resource list at end of README file\")"
+"We are delighted when members of the Jupyter community want to help "
+"translate documentation. We use Transifex to on-board translators in a "
+"friendly web interface without requiring knowledge of git, GitHub, "
+"Sphinx, or other software developer tools."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:35
-#: 4a12a14cbd2b41dcb3e587b8e6f57753
-msgid "## Checklist adding docs to a new or existing GitHub Repo"
+#: ../../source/contrib_docs/doc-new-translation.md:95
+#: 5dd0808463494a3eac7c14e73639e60e
+msgid "Creating translations"
 msgstr ""
 
-# 4843875169d544fca6173c7f5221420c
-#: ../../source/contrib_docs/doc-new-repos.md:37
-#: c0058398c2a14878b36241660d3ede5e
+#: ../../source/contrib_docs/doc-new-translation.md:97
+#: cb9b094433724fdbb065c7832594e4cc
 msgid ""
-"[ ] Add a link to documentation in repo description (requires GitHub repo"
-" privileges)"
+"Getting Started as a Translator is an excellent on-boarding guide for new"
+" Transifex users. Follow the instructions to create an account. When "
+"prompted to join a team, look for jupyter-meta-documentation to start "
+"contributing translations to this documentation site. Alternatively, "
+"visit https://www.transifex.com/project-jupyter/jupyter-meta-"
+"documentation/ after creating your account and request to join the "
+"project. A project maintainer or language team coordinator will review "
+"and approve your request."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:38
-#: 4f225aaa90ee4541bd824ecd4f3ad37d
-msgid "[ ] Add badges to README (Edit `README.md` and submit pull request)"
+#: ../../source/contrib_docs/doc-new-translation.md:105
+#: 4cf1828fcbb849189627604d1d6e34a7
+msgid "Reviewing translations"
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:39
-#: bcbd1cae75694aec9847557ddee74063
+#: ../../source/contrib_docs/doc-new-translation.md:107
+#: 76235156fd8141c2af5a461591b88dd1
 msgid ""
-"[ ] Add resources section to README (Edit `README.md` and submit pull "
-"request)"
+"Transifex supports Reviewing Translations, peer review by members of a "
+"language team, to ensure translation quality. Project maintainers can "
+"choose whether Transifex should immediately send a pull request when "
+"translations of all text in a document are available or delay submitting "
+"a pull request until after all of those translations are also reviewed "
+"(the current setting for this project)."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-new-repos.md:42
-#: 87e76053d9004671b2c2eee080a3d9f0
-msgid "*Dated: 1-4-2016* *Revised: 1-7-2016*"
+#: ../../source/contrib_docs/doc-new-translation.md:115
+#: 5d8c452c038f491289e674d65bb11fb9
+msgid "Coordinating translation teams"
 msgstr ""
 
-# 7f017745d5c34b3f91c54f653b2793d1
-#: ../../source/contrib_docs/doc-tools.rst:2 33882a2c9b3949aa9fab15f0629f2c0f
-msgid "Tools for documentation"
-msgstr ""
-
-# f82aa18212984518ac1371f956fc5f12
-# 0e6a4fd1bdd7427dbc0d45d78f5cd710
-#: ../../source/contrib_docs/doc-tools.rst:5
-#: ../../source/contrib_docs/getting-started.rst:5
-#: 0a5f9fca7e904230a8994ea6228d2bc3 49b713e0687246718a4404aedf7df161
-msgid "Contents"
-msgstr ""
-
-# 70ea135c1ab44fbba9a46a8f7992d014
-#: ../../source/contrib_docs/doc-tools.rst:8 821b4df756ad4584baa44e3d293095dc
-msgid "Packages"
-msgstr ""
-
-# 0cd99c51dc1344f2a28d229978446fdb
-#: ../../source/contrib_docs/doc-tools.rst:9 17deb584fd8e4d83aeceb10d66125851
+#: ../../source/contrib_docs/doc-new-translation.md:117
+#: 19a86f1b36114c36a37def6363bb6895
 msgid ""
-"For user documentation, contributor guides, and communications content, "
-"we use:"
+"Project maintainers can also grant Transfex team members the role of "
+"language coordinator. Language coordinators have permission to invite "
+"users to language teams, approve or deny join requests, assign language "
+"team roles, and perform other administrative actions for a particular "
+"project language. Empowering trusted members of the community as "
+"coordinators can help grow translation teams without software developer "
+"involvement."
 msgstr ""
 
-#: ../../source/contrib_docs/doc-tools.rst:12 a8d72d48c43c473fa6e77bbf4fc42450
-msgid "`Sphinx <https://www.sphinx-doc.org/en/master/contents.html>`_"
+#: ../../source/contrib_docs/doc-new-translation.md:124
+#: 8ca54a7752004aa0b4e1a42449d5b062
+msgid "Administrator workflows"
 msgstr ""
 
-# 89cb08a083b7405b899da55da2c386dc
-#: ../../source/contrib_docs/doc-tools.rst:14 fe957b7e38134c3fbf6ea0400e5a8349
+#: ../../source/contrib_docs/doc-new-translation.md:126
+#: 76e5a1008ba94b7d9701021e4f97711a
 msgid ""
-"For developer API documentation (especially for JupyterLab js repos), we "
-"use:"
+"The translation CI/CD workflow described above requires configuration in "
+"GitHub and in Transifex to function. Project maintainers can follow the "
+"instructions below to enable translations for their Sphinx documentation."
 msgstr ""
 
-# 66229f6c114e4652b13bd066643cae2a
-#: ../../source/contrib_docs/doc-tools.rst:16 b7e843b65da342d8a26ef59357042b58
-msgid "`swagger <http://swagger.io/>`_"
+#: ../../source/contrib_docs/doc-new-translation.md:130
+#: 8f45c7e651224412b4b24ff8388cb6b1
+msgid "Creating a Transifex organization"
 msgstr ""
 
-# 4241f08f75b745cc91401487dfb43473
-#: ../../source/contrib_docs/doc-tools.rst:19 1b17d571f7e34dc0aef107590dd0c7e7
-msgid "Source file formats"
-msgstr ""
-
-# 0e502ec731f24f729b096c7ef2aac637
-#: ../../source/contrib_docs/doc-tools.rst:20 d32243aec77541a78ae7dda463051f3a
+#: ../../source/contrib_docs/doc-new-translation.md:132
+#: beca542f8d1f471e9c6150d80076908a
 msgid ""
-"We use the following input source file formats when developing Sphinx "
-"documentation:"
+"Transifex organizes translation projects under organizations that mirror "
+"organizations and repositories on GitHub. At present, only the "
+"https://github.com/jupyter organization has a corresponding org on "
+"Transifex (https://www.transifex.com/project-jupyter/public/) with the "
+"following organization administrators:"
 msgstr ""
 
-# c35638daf71349ab94f174d9c40088fa
-#: ../../source/contrib_docs/doc-tools.rst:23 8ab5004ca4b34cd4a014a780ae474776
-msgid "reStructuredText (``.rst``)"
+#: ../../source/contrib_docs/doc-new-translation.md:138
+#: 6adb516ed8b8484e8070693e914befab
+msgid "@choldgraf"
 msgstr ""
 
-# 31a7dcfa85f545308ff3c24f7f5fa6da
-#: ../../source/contrib_docs/doc-tools.rst:24 ed08c04779bd43849c3b77adb6999df6
-msgid "Markdown (``.md``)"
+#: ../../source/contrib_docs/doc-new-translation.md:139
+#: 238b081612514e9db2e466ed22842164
+msgid "@parente"
 msgstr ""
 
-# 99f22d7ed28e4ec6b6739ab4d3b0fca1
-#: ../../source/contrib_docs/doc-tools.rst:25 44e029fc88004308a4bff1336ebb15c3
-msgid "Notebook (``.ipynb``)"
+#: ../../source/contrib_docs/doc-new-translation.md:140
+#: 0dcc769631b046e48fe4e1d69a2394b7
+msgid "@willingc"
 msgstr ""
 
-# 6bc8c61685c94741b9a52990ac840a31
-#: ../../source/contrib_docs/doc-tools.rst:27 7ce774674f3f46dc84bf6dac038e755b
+#: ../../source/contrib_docs/doc-new-translation.md:142
+#: d997583d0132479487e936dd79eac52f
 msgid ""
-"A modern code editor should be used. Many are available including Atom, "
-"SublimeText, gedit, vim, emacs. `Atom <https://atom.io/>`_ is a good "
-"choice for new contributors."
+"GitHub users with permissions to install applications in a GitHub org can"
+" follow these instructions to create a new Transifex-GitHub organization "
+"link (e.g., for https://github.com/jupyterhub, "
+"https://github.com/jupyterlab)."
 msgstr ""
 
-# 36d19549dd2e4365a6c5e8e035cd54c6
-#: ../../source/contrib_docs/doc-tools.rst:32 80801a0ce9b546c8846ef695c0f106a8
-msgid "Sphinx themes"
+#: ../../source/contrib_docs/doc-new-translation.md:146
+#: 61ea7ff28dc74699b18c9d3ee7587084
+msgid "Create a new user account at https://transifex.com."
 msgstr ""
 
-# 1eb43a99bb26411382f63038cc477cee
-#: ../../source/contrib_docs/doc-tools.rst:33 09ffe4ba5df1463a9599d9489c7b59a2
-msgid "Our projects use the following themes:"
+#: ../../source/contrib_docs/doc-new-translation.md:147
+#: a4adabca2ad04d90b55bfac74bb14049
+msgid "Complete the sign-up wizard."
 msgstr ""
 
-# 29670e07c5044935b15456980e34fae1
-#: ../../source/contrib_docs/doc-tools.rst:35 1a640a112e1d4feb994a33d9e603979a
-msgid "sphinx_rtd_theme (currently used by Jupyter projects)"
+#: ../../source/contrib_docs/doc-new-translation.md:148
+#: de414c90f8ff42b8a8c3974d7b81915b
+msgid "Create and name a new organization."
 msgstr ""
 
-# f9cd1912e9bc4bd79e22274b5ce9acdf
-#: ../../source/contrib_docs/doc-tools.rst:36 53ae8b88badf4b8ca432dc5d97979c47
-msgid "jupyter_sphinx_theme (used by ipywidgets)"
-msgstr ""
-
-# d987578c0b164c1ba1296f4b300cac54
-#: ../../source/contrib_docs/doc-tools.rst:39 618e4b1a1d5541068acd18e0143a5625
-msgid "Git and Github Resources"
-msgstr ""
-
-# 50b964b050404597b31edeb7431ffb85
-#: ../../source/contrib_docs/doc-tools.rst:40 28027dc7920f4dd3af5008f96a72a7f3
+#: ../../source/contrib_docs/doc-new-translation.md:149
+#: ../../source/contrib_docs/doc-new-translation.md:174
+#: 3bca157b324944429951c01d27d82c54 52d429f723524b13a5ac5f4f8075a5ed
 msgid ""
-"If this is your first time working with Github or git, you can leverage "
-"the following resources to learn about the tools."
+"Click the organization drop down in the top right of the Transifex "
+"dashboard page and select Organization Settings."
 msgstr ""
 
-# 0b58d8ea7318429ba17fb25d493dbe11
-#: ../../source/contrib_docs/doc-tools.rst:43 cde9c8c60b07432a9df9b8f244c469f6
-msgid "`Try Git  <https://try.github.io/levels/1/challenges/1>`_"
+#: ../../source/contrib_docs/doc-new-translation.md:151
+#: a759030fc91b4c70be4bc79d4a814270
+msgid "Click Details in the left sidebar."
 msgstr ""
 
-# 319d5b76f66a42d3894269987178b99c
-#: ../../source/contrib_docs/doc-tools.rst:44 12d76b24b1a541f8bd46e0b2f6c3a256
-msgid "`Github Guides  <https://guides.github.com>`_"
-msgstr ""
-
-# 3b0ab86be2604595be117b97ae517309
-#: ../../source/contrib_docs/doc-tools.rst:45 50e99b0a91e44fcb80c10c71839a19be
-msgid "`Git Real  <https://www.codeschool.com/courses/git-real>`_"
-msgstr ""
-
-# 9bf487d7abfc44c3ab65fc60610916db
-#: ../../source/contrib_docs/doc-tools.rst:46 04983d5c48a9476cbb0982cf6fb7d708
-msgid "`Git Documentation <https://git-scm.com/documentation>`_"
-msgstr ""
-
-# 6f130c2608c74cd481206a5302ce6ab4
-#: ../../source/contrib_docs/doc-tools.rst:47 a3f8aae7a336464b8bb6eaa1f318430e
+#: ../../source/contrib_docs/doc-new-translation.md:152
+#: b25a3567d6ed48d0b7c8f8127935aef4
 msgid ""
-"`Git Rebase <https://github.com/pydata/pandas/wiki/Git-Workflows#user-"
-"content-git-rebase>`_"
+"Click inviting administrators in the Management section to add additional"
+" admins to the Transifex org."
 msgstr ""
 
-# 73369309d0264c91801dadff4096eda3
-#: ../../source/contrib_docs/doc-workflow.rst:2
-#: 9d271516c6eb4f59a67a9bc9c7adec15
-msgid "Understanding our workflow"
+#: ../../source/contrib_docs/doc-new-translation.md:154
+#: 25cd4974116748799af4446ebf060fae
+msgid "Click Manage integrations in the left sidebar."
 msgstr ""
 
-# 3ad46563bdea4c718af906b06996645d
-#: ../../source/contrib_docs/doc-workflow.rst:4
-#: 5a9b4a8dd8aa4a448ae271b3c9f60b90
-msgid "**High level documentation workflow**"
+#: ../../source/contrib_docs/doc-new-translation.md:155
+#: d69b0e9e70e14592badc41a8710dbd88
+msgid "Click Install the Transifex app in the GitHub section."
 msgstr ""
 
-# bea011364bb5447f9a5ee2e0a1813bb7
-#: ../../source/contrib_docs/doc-workflow.rst:6
-#: 672cfd295bcb400f9e47cbead05f1137
-msgid "Identify a documentation change."
-msgstr ""
-
-# 0ecc5172dfa9449bb3fd7ddee5ab7a8f
-#: ../../source/contrib_docs/doc-workflow.rst:8
-#: 92c7b1bce38d44af93eeeec5b058b37d
-msgid "*Typos:* please go ahead and fix it (or report as a bug)."
-msgstr ""
-
-# d2eec42d01aa43c49c9f599c56cf67f7
-#: ../../source/contrib_docs/doc-workflow.rst:9
-#: 7528e52920d94051a7ce1fb485ac8c06
+#: ../../source/contrib_docs/doc-new-translation.md:156
+#: ed00798627a04a50adc5c39e6e4a3c2f
 msgid ""
-"*Open issues:* leave a note in the issue comments that you are working on"
-" the issue."
+"Select the GitHub organization to associate with the new Transifex "
+"organization."
 msgstr ""
 
-# 5594fd91be4844ba8361a65dfea30f57
-#: ../../source/contrib_docs/doc-workflow.rst:11
-#: 718804ebc8fa40fca018fa68b2697e21
+#: ../../source/contrib_docs/doc-new-translation.md:157
+#: 23425c03f37646fbbfd7c8bde594b235
+msgid "Select the repositories that Transifex will have permission to access."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:158
+#: 7c130a2f92794124bb02f1d2b2abd5a5
 msgid ""
-"*New documentation:* open an issue with your idea or suggestion. We'll "
-"review the issue and work with you to identify next steps."
+"Return to the tab where you clicked Install the Transifex app and click "
+"authorize Transifex in the GitHub section."
 msgstr ""
 
-# df7b4d15c41f4003b695a2e4ba5f9257
-#: ../../source/contrib_docs/doc-workflow.rst:14
-#: f482b01607f34187b65475dc845c1be2
-msgid "Update the source file."
+#: ../../source/contrib_docs/doc-new-translation.md:160
+#: 4181a124907147fe9b8577417ad483a2
+msgid "Choose the GitHub organization you just configured in the popup dialog."
 msgstr ""
 
-# 0a600b26d0214280b77a6ae44f71294f
-#: ../../source/contrib_docs/doc-workflow.rst:16
-#: 4ceab68004e6487b929133a4419756f9
-msgid "Commit the change."
-msgstr ""
-
-# 241782c238de4ebeb594ebe6cc2fe7a6
-#: ../../source/contrib_docs/doc-workflow.rst:18
-#: f3084ddf87a94c9696157b8b38b93032
-msgid "Test changes locally."
-msgstr ""
-
-# b8f4ff91d74f453e8e4c680f537967de
-#: ../../source/contrib_docs/doc-workflow.rst:20
-#: ffba023367ad4216bbb57acd84756bcc
-msgid "Open a pull request."
-msgstr ""
-
-# e943c50580c64ecaa32dd38a2ac2f8e2
-#: ../../source/contrib_docs/doc-workflow.rst:22
-#: 7092d69850ab48078e53e5d72139d3d7
-msgid "Check response of automated tests."
-msgstr ""
-
-# 47edb06fb3c0469f87b591aa0e30925c
-#: ../../source/contrib_docs/doc-workflow.rst:24
-#: 73538e2de23245d1a15acd4528c6cfa8
+#: ../../source/contrib_docs/doc-new-translation.md:162
+#: 4865e6e8dac348fd9c009ac4648499de
 msgid ""
-"If tests pass: Nice job. Wait for reviewer feedback and/ or your pull "
-"request to be merged."
+"Note that you can revise the GitHub-Transifex integration at any time by "
+"visiting https://github.com/settings/installations."
 msgstr ""
 
-# 6b9c7c1cbd7d4772a778cc9c2f33a0d4
-#: ../../source/contrib_docs/doc-workflow.rst:27
-#: c2ab9bf7811045d498ea20c19a005217
+#: ../../source/contrib_docs/doc-new-translation.md:165
+#: 31c1ec878e0d47c79603997458d46458
+msgid "Creating a Transifex project"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:167
+#: 31556ba4ae614e078768aedb1360a5ca
 msgid ""
-"If tests show an error: Revise and resubmit your pull request. You do not"
-" need to open a new pull request. If needed, please ask for assistance."
+"Transifex organization administrators can follow the instructions below "
+"to configure new translation projects for GitHub projects in the GitHub "
+"org corresponding to the one on Transifex."
 msgstr ""
 
-# 6c100a83bc8547909df09e2de4fa16f2
-#: ../../source/contrib_docs/doc-workflow.rst:31
-#: d0677fd21b2f4290b2933b7e8ec6417d
-msgid "Celebrate your documentation contribution."
+#: ../../source/contrib_docs/doc-new-translation.md:172
+#: ../../source/contrib_docs/doc-new-translation.md:196
+#: ../../source/contrib_docs/doc-new-translation.md:262
+#: 5a677a855a014c9d88299fb9cbfa7241 a16656f9277241fead989ebd90ee4732
+#: f8160c7c509541ef92a17f2e5089e9e9
+msgid "Visit https://www.transifex.com."
 msgstr ""
 
-# 7f491e4696da4e01af2e68b97352a3f4
-#: ../../source/contrib_docs/doc-workflow.rst:33
-#: c1621bc08f244e61884a0adb292ac27d
+#: ../../source/contrib_docs/doc-new-translation.md:173
+#: ../../source/contrib_docs/doc-new-translation.md:197
+#: 20840c94ad6b420c9d537b5c9b492c10 31c31a1bd2594ea48349318bd2625c13
+msgid "Sign in with the appropriate admin user account for the organization."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:176
+#: 03e618f033bd4e1dae7fead5edb48453
+msgid "Click Create new project in the lower left sidebar."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:177
+#: 83a95765de984a2388feef602f407167
+msgid "Name the translation project after the project on GitHub."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:178
+#: 21ca7a2a6c76459cbbd7a1cfac35f305
 msgid ""
-"Repeat. If you would like suggestions for a new documentation issue to "
-"work on, please ask."
+"Select Public as the privacy type, indicate that the project is open "
+"source, and provide the GitHub URL for the repository."
 msgstr ""
 
-# 4837ec4c20d84023875b77de40950374
-#: ../../source/contrib_docs/doc-workflow.rst:37
-#: 83f4be3d0b8d4293b6fbf7d883902467
-msgid "Thanks for contributing!"
+#: ../../source/contrib_docs/doc-new-translation.md:180
+#: c8f71fe953994940b044fbd19cbd5ca8
+msgid "Select a file-based project."
 msgstr ""
 
-# 96f8c8d5bd6b48b79a6fbfdadfe293b9
-#: ../../source/contrib_docs/getting-started.rst:2
-#: 1d14f00454314cd1b4477ac470138613
-msgid "Getting started"
+#: ../../source/contrib_docs/doc-new-translation.md:181
+#: 1e79fcfa639d439e89272a03bf30d4fe
+msgid "Create a new team for the project."
 msgstr ""
 
-# 41b8445aaef14b0f9277132ef8f7c64d
-#: ../../source/contrib_docs/getting-started.rst:8
-#: 385a1d8e15874f2ca5f1b850afd9db3a
-msgid "Preparing for your first contribution"
+#: ../../source/contrib_docs/doc-new-translation.md:182
+#: 4ae9b8ff68fa4744a8794f8327359dc9
+msgid "Select English (en) as the source language."
 msgstr ""
 
-# 5ff1615eb97f4322bc6b824fe2975e78
-#: ../../source/contrib_docs/getting-started.rst:9
-#: 3edadc2028a84a398109a8b6d2e0ed3c
-msgid "Our documentation uses reStructured Text as well as Jupyter notebooks."
+#: ../../source/contrib_docs/doc-new-translation.md:183
+#: 995ad94ef47447678a668b162f49a2c3
+msgid "Select known target languages. (You can add these later as well.)"
 msgstr ""
 
-# 4f862af8ce2648e6a6f36a65f166c17a
-#: ../../source/contrib_docs/getting-started.rst:10
-#: 29c06327a22846f482913eabd87e655b
-msgid "We use Sphinx extensively to build documentation."
+#: ../../source/contrib_docs/doc-new-translation.md:184
+#: b34de8d21d474ae4a5e7fd69de1112fa
+msgid "Click Create project."
 msgstr ""
 
-# 074f79e5aada4cf48e49e75da9a6f2e4
-#: ../../source/contrib_docs/getting-started.rst:11
-#: 1832c101a07d4d7dbcfed8593eef0f6e
-msgid "We host our documentation on Read the Docs."
+#: ../../source/contrib_docs/doc-new-translation.md:185
+#: ../../source/contrib_docs/doc-new-translation.md:263
+#: 19f8b437b1eb4235a262d27d4cab4266 1e5a091401a54bb0a8b3e5893be8c7ed
+msgid "Click Settings under the project name in the left sidebar."
 msgstr ""
 
-# 273c21f2f4c64cdc905c4b9c65df07e6
-#: ../../source/contrib_docs/getting-started.rst:14
-#: a024d39949124d4cabccfd9373c4fd54
-msgid "Developing your contribution"
+#: ../../source/contrib_docs/doc-new-translation.md:186
+#: b63c38ee6f8b46759fd4ebf731cf0b38
+msgid "Click the Maintainers tab."
 msgstr ""
 
-# d34708a450ae4c98b03feb4ff944a1cc
-#: ../../source/contrib_docs/getting-started.rst:16
-#: 5fd037b10fed4bd58bdf01bae06bc5ef
+#: ../../source/contrib_docs/doc-new-translation.md:187
+#: 939b7d24a8c6496a911bafddf6289fee
 msgid ""
-"Jupyter's documentation is split across several projects, listed on the "
-"`Jupyter documentation home page "
-"<https://jupyter.readthedocs.io/en/latest/>`_. These instructions apply "
-"to all Jupyter projects, though some projects have further contribution "
-"guidelines."
+"Invite additional project maintainers, typically software developers who "
+"will be responsible for maintaining the continuous integration and "
+"bootstrapping language teams."
 msgstr ""
 
-# 583255d870384645b0b076e657c2e763
-#: ../../source/contrib_docs/getting-started.rst:19
-#: 251a5aef0e3b4c479edaf064b2c5a319
-msgid "Clone the repository"
+#: ../../source/contrib_docs/doc-new-translation.md:192
+#: 7afc96952d334f3e90474afb33a92a20
+msgid "Configuring languages and teams"
 msgstr ""
 
-# 024a7bc45f3a45fab5500b2d1904d9bc
-#: ../../source/contrib_docs/getting-started.rst:20
-#: 017e5c63525749f5a6fe254c2a3ae05c
+#: ../../source/contrib_docs/doc-new-translation.md:194
+#: 80d5d1f0f4744e1c8858234bf07b19c2
 msgid ""
-"Fork the appropriate project repository on GitHub, depending on which "
-"project's documentation you want to contribute to."
+"Transifex organization admins and project managers can add translation "
+"languages to a project."
 msgstr ""
 
-# 7e9da73cdb4c469db3dce5d160b5208a
-#: ../../source/contrib_docs/getting-started.rst:21
-#: bb46e45486af466bb5ae22d7677cdaf6
-msgid "Clone the repository to your system."
+#: ../../source/contrib_docs/doc-new-translation.md:198
+#: 301ff7c37fcb4af39e99638df75a18b3
+msgid "Click Languages under the project name in the left sidebar."
 msgstr ""
 
-# 9e4c1b704e594ce19b00ef8075748237
-#: ../../source/contrib_docs/getting-started.rst:24
-#: 24e4c754ef324e1db1de615b35b34333
-msgid "Edit the documentation source file"
+#: ../../source/contrib_docs/doc-new-translation.md:199
+#: 1d666d9f354d4599a063555eb9fcf9bd
+msgid "Click Edit languages."
 msgstr ""
 
-# a6b8f285170c4f8eb6aecdd1cbfdb7b9
-#: ../../source/contrib_docs/getting-started.rst:26
-#: 73207910137c456cbbdfbb59209c5f66
+#: ../../source/contrib_docs/doc-new-translation.md:200
+#: eaa78ff1afcd485a86fe045b53a4ca6e
+msgid "Add or remove target translation languages."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:201
+#: 673f2d2771794285a9626e3443b56b71
+msgid "Click Apply."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:203
+#: be8d6973cc2746ee84f5ce296c029a19
 msgid ""
-"Source files for projects are typically found in the project's "
-"``docs/source`` directory. The reStructured text filenames end with "
-"``.rst``, and Jupyter notebook files end with ``.ipynb``."
+"Organization admins, project maintainers, and team managers can add users"
+" to translation teams with the roles of language coordinator, reviewer, "
+"or translator."
 msgstr ""
 
-# 8b7b25fa65204498b0a9266c8541311e
-#: ../../source/contrib_docs/getting-started.rst:30
-#: 1cab5d3f6a3949fe886a91bc3ba8a00e
+#: ../../source/contrib_docs/doc-new-translation.md:207
+#: ac29aaa93fe1479287f1e1139c20f014
+msgid "Click Teams in the top nav bar."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:208
+#: 00a036500f234510bbb7285d8633fc8a
+msgid "Click the Invite Collaborators button in the top right."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:209
+#: 15b7607b8be746148a267864b5fb9ffb
 msgid ""
-"In your favorite text editor, make desired changes to the ``.rst`` file "
-"when working with a reStructured text source file."
+"Enter the username, email address, or full name of a person to add to the"
+" project. Note that the autocomplete in this field does not always "
+"display a popup for the user you wish to invite. Confirm you've entered "
+"the correct value and move on."
 msgstr ""
 
-# 28f854c4861346b09d69499d50d03dd4
-#: ../../source/contrib_docs/getting-started.rst:32
-#: 7297e043f2354a3c941aee73e7d21ff6
+#: ../../source/contrib_docs/doc-new-translation.md:212
+#: 0e2bf3414b7f49b1ad29c42390473f17
+msgid "Select the role to assign to the user."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:214
+#: 0fa16edb8b914c00b07ba81c59f67d05
+msgid "If the role applies to a specific team, select the team."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:215
+#: 2efee3042ddb4a0c9c50f7eece38445f
+msgid "If the role applies to a specific language, select the language."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:216
+#: 7a3a615c268243b09e963becf0b4baca
+msgid "Click Invite more to enter additional users or Send invitation."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:218
+#: b0a32a910f9342e38e48dfaae31d5026
+msgid "Configuring Transifex-GitHub integration"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:220
+#: 73c4ccd5a3cf4ea1ac1b5ca575d91e9c
 msgid ""
-"If a notebook file requires editing, you will need to install Jupyter "
-"notebook according to the :ref:`Installation <install>` document. Then, "
-"run the Jupyter notebook and edit the desired file. Before saving the "
-"Jupyter ``.ipynb`` file, please clear the output cells. Save the file and"
-" test your change."
+"After configuring organization and project resources on Transifex, "
+"project developers can:"
 msgstr ""
 
-# 41995af34a5046bca276d62634ae3b10
-#: ../../source/contrib_docs/getting-started.rst:39
-#: f53a273cc748485ea8408ccdd4ce49ab
-msgid "Testing changes"
-msgstr ""
-
-# 65e377a9fbe04a0b8775881db9467ab8
-#: ../../source/contrib_docs/getting-started.rst:41
-#: fb6657cd518846ecba3249cabd33eac0
+#: ../../source/contrib_docs/doc-new-translation.md:222
+#: 5529961b4d414b89a6a83aea36c10d4d
 msgid ""
-"Sphinx should be installed to test your documentation changes. For best "
-"results, we recommend that you install the stable development version "
-"Sphinx (``pip install git+https://github.com/sphinx-doc/sphinx@stable``) "
-"or the current released version of Sphinx (``pip install sphinx``)."
+"configure Sphinx to produce .po files for the source language and read "
+".po files containing translations"
 msgstr ""
 
-# 5d5be81cd19e45f5acc196516a7aa1ec
-#: ../../source/contrib_docs/getting-started.rst:46
-#: ddfe82809d244d39a63e509ed803bc6b
+#: ../../source/contrib_docs/doc-new-translation.md:224
+#: 89811c7946a543a681aed4610cdb7880
+msgid "configure Transifex to watch for source language .po file changes"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:225
+#: c58981eba95a421b974cda787eb4efbe
 msgid ""
-"In addition, you may need the following packages: sphinxcontrib-spelling,"
-" sphinx_rtd_theme, nbsphinx, pyenchant, recommonmark 0.4.0 and "
-"jupyter_sphinx_theme, which can be installed via ``pip install "
-"sphinxcontrib-spelling sphinx_rtd_theme nbsphinx pyenchant "
-"recommonmark==0.4.0 jupyter_sphinx_theme``."
+"configure the project CI service to update source language .po files when"
+" contributors make changes to the source documentation"
 msgstr ""
 
-# 1140b74d6bd547d2923b29eb2c769293
-#: ../../source/contrib_docs/getting-started.rst:48
-#: 6c4be87ff03248b99f6aaae5ef0437b9
+#: ../../source/contrib_docs/doc-new-translation.md:228
+#: 565847ca29bd4c468484155eaab2d4d4
 msgid ""
-"If you are on Linux, you may also need to install the Enchant C library "
-"by running ``sudo apt-get install enchant``."
+"The instructions in this section assume a git repository already contains"
+" Sphinx documentation in the following directory structure:"
 msgstr ""
 
-# 710e465eeb7d49f8bcf3279361e211ea
-#: ../../source/contrib_docs/getting-started.rst:50
-#: d4749220da8041eda9a978f1f9947d57
+#: ../../source/contrib_docs/doc-new-translation.md:241
+#: 552f9a54e3d54abd94de3b756678fcbc
 msgid ""
-"Once everything is installed, the following commands should be executed "
-"using the Terminal/command line from the ``docs`` directory:"
+"Project developers can do the following to configure Sphinx to seed "
+"source .po files and recognization translation .po files."
 msgstr ""
 
-# 874edec47dfe41aab09ca2dc976ac9be
-#: ../../source/contrib_docs/getting-started.rst:53
-#: 9375dbe158da467da089960278fe4b8d
+#: ../../source/contrib_docs/doc-new-translation.md:244
+#: 4fae6dfcf11d41218e98788a56123e11
 msgid ""
-"``make html`` builds a local html version of the documentation. The "
-"output message will either display errors or provide the location of the "
-"html documents. For example, the location provided may be ``build/html`` "
-"and to view these documents in your browser enter ``open "
-"build/html/index.html``."
+"Add sphinx-intl to your Sphinx project requirements.txt or "
+"environment.yaml if it does not already exist."
 msgstr ""
 
-# 3c47075546064151940cfddaa6b97e97
-#: ../../source/contrib_docs/getting-started.rst:58
-#: c432db3d02634d5a92a899f8e05310cc
+#: ../../source/contrib_docs/doc-new-translation.md:246
+#: d0aa4e0a35df456c87efd7ba5ab19ca3
+msgid "Run sphinx-intl create-txconfig in the docs/ directory."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:247
+#: 377afdd91f6341fea53fa860f9c27b6c
+msgid "Add the following to the Sphinx source/conf.py file."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:256
+#: 44bef80bb89a4cbfb4f0a5735c2b9f31
 msgid ""
-"``make linkcheck`` will check whether the external links in the "
-"documentation are valid or if they are not longer current (i.e. cause a "
-"500 not found error)."
+"Run make gettext to extract all strings from the English source "
+"documentation."
 msgstr ""
 
-# 3b5e8519815b43ab82350bed26580555
-#: ../../source/contrib_docs/getting-started.rst:62
-#: f6184c98dcd643dd9b4bc6a09c3b112e
+#: ../../source/contrib_docs/doc-new-translation.md:257
+#: 6f79fd45baad4fb781b9deccb0555c7e
+msgid "Run sphinx-intl update -l en to generate the English source .po files."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:258
+#: 7c8ff647407a4b12bc3668565177bf18
 msgid ""
-"Note: We recommend using Python 3.4+ for building the documentation. If "
-"you are editing the documentation, you can use Python 2.7.9+ or the "
-"Github editor."
+"Submit, review, and merge a pull request with the changes and generated "
+".po files."
 msgstr ""
 
-# 3a598ce6355d49589108ebb8b3584478
-#: ../../source/contrib_docs/getting-started.rst:65
-#: 2b6a0374e2c84d84b3115b479d8bbfc5
-msgid "Creating a pull request"
-msgstr ""
-
-# c5b5c1b181a54762a10f3d97ce5d19e8
-#: ../../source/contrib_docs/getting-started.rst:66
-#: 127152aacd1e49e1bd2da9dcd189ba1e
+#: ../../source/contrib_docs/doc-new-translation.md:260
+#: 892960d17c6b48afbbec21bc9df3c62a
 msgid ""
-"Once you are satisfied with your changes, submit a GitHub pull request, "
-"per the instructions above. If the documentation change is related to an "
-"open GitHub issue, please mention the issue number in the pull request "
-"message."
+"After merging the pull request, link to the Transifex project to the "
+"GitHub repository."
 msgstr ""
 
-# 4ae44c0cf02a45b99d0c7f14640c4f6e
-#: ../../source/contrib_docs/getting-started.rst:70
-#: 3954c211ee3f4e4a8911491dc37afb69
+#: ../../source/contrib_docs/doc-new-translation.md:264
+#: c7aafffe93f1478a8923a367e1b7db72
+msgid "Click the Integrations tab."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:265
+#: 49a28f9db0574372923754362e2fb8df
+msgid "Click Link Repository in the GitHub section."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:266
+#: 55be52bb344a482895b1c74b98ba3ce9
 msgid ""
-"A project reviewer will look over your changes and provide feedback or "
-"merge your changes into the documentation."
+"Select the appropriate GitHub repository and integration branch. Then "
+"click Next."
 msgstr ""
 
-# baccae949fb54e6491856084b68e4827
-#: ../../source/contrib_docs/getting-started.rst:74
-#: 73de89b6369544baa8bd8766ee8c2d9c
-msgid "Asking questions"
-msgstr ""
-
-# 990c9e57e8fc4e9c9da2ea3980ddebac
-#: ../../source/contrib_docs/getting-started.rst:75
-#: 8aeb44ad8ebb4ff59ce1f7fd27055b30
+#: ../../source/contrib_docs/doc-new-translation.md:267
+#: 8eacf43753164453b87379ffc35e26e6
 msgid ""
-"Feel free to ask questions in the Google Group for Jupyter or on an open "
-"issue on GitHub."
+"Copy and paste the following configuration into the dialog, adjusting the"
+" commented values as appropriate, and then click Next."
 msgstr ""
 
-# 6ad43967c19843df85781d3ee0ba0658
-#: ../../source/contrib_docs/index.rst:5 9bf4893fd9c945cbb89c7f26c430b64b
-msgid "Documentation Guide"
-msgstr ""
-
-# e53cdb8f3ebb4f9d97c7824dfd462fef
-#: ../../source/contrib_docs/index.rst:7 864e62cf02534e56a1c875d16e5cbaa3
-msgid "**Contents**"
-msgstr ""
-
-# 8710f55c2e51435881a40b68457010b8
-#: ../../source/contrib_docs/index.rst:17 31ba54ccfe95478db67e6b427dfc848c
+#: ../../source/contrib_docs/doc-new-translation.md:283
+#: ab9e6aede0ab4fb28833c55ce8d09c96
 msgid ""
-"Documentation helps guide new users, fosters communication between "
-"developers, and shares tips and best practices with other community "
-"members. That's why the Jupyter project is focused on documenting new "
-"features and to keeping the documentation up-to-date."
+"Select when Transifex will submit translations a back to the repository. "
+"Then click Save & Sync."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:1
-#: 75cfa77b558f45f3acf13856aa3cd602
-msgid "# Structuring a repo for docs"
+#: ../../source/contrib_docs/doc-new-translation.md:285
+#: 19911c4504504d3fa9598845a2353de4
+msgid "Click Close."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:4
-#: 2323158e8c5f487880ec3910f6b405c5
-msgid "## Root level of the repo"
+#: ../../source/contrib_docs/doc-new-translation.md:286
+#: c9bb0d2367f04277b4b909166a238be0
+msgid "Watch the sync status progress."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:6
-#: b585f377f93041df83f49b3fb57e31db
-msgid "``docs`` directory : All source files for documentation go here."
+#: ../../source/contrib_docs/doc-new-translation.md:287
+#: fcfea529dc7b487093c3e60cfcbb680e
+msgid "Click Resources in the left sidebar."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:7
-#: 22506806f82144e4a784692f93d1b21d
+#: ../../source/contrib_docs/doc-new-translation.md:288
+#: 65067827bb064f0abac66349fdc50019
+msgid "Click one of the .po files to see translation progress by language."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:289
+#: 2853c5167189464484010da1a0f7b14f
 msgid ""
-"``readthedocs.yml`` : configuration file for readthedocs to build using "
-"conda"
+"Click one of the languages to see details about translation progress, "
+"translate text, and review translations. See the Translator workflows "
+"section above for details."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:10
-#: c5fe910ae8c9411cad5a3dc0f6e4537f
+#: ../../source/contrib_docs/doc-new-translation.md:292
+#: b2f4ece2cdfa4cf497923ec6d33dd2e2
 msgid ""
-"![Repo root directory](static/repo-root.png \"Screenshot of GitHub repo "
-"root\")"
+"After confirming the initial English .po files have reached Transifex, "
+"set up continuous integration to ensure source strings are kept up-to-"
+"date in Transifex whenever the English documentation changes. The steps "
+"to accomplish this end vary depending on the CI provider. The following "
+"describes how what to do when using GitHub Actions."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:12
-#: 7dee060663364029b1b1a1a8d45b496d
-msgid "## Inside the docs directory"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:14
-#: 8a200f98c6f349288337bed9a6e2a952
+#: ../../source/contrib_docs/doc-new-translation.md:297
+#: 401b9776c20947998bfcfab3d6a272c4
 msgid ""
-"``source`` directory : contains all content source files in ``.rst``, "
-"``.md``, or ``.ipynb``"
+"Create a new GitHub actions workflow file .github/workflows/gettext.yml "
+"in the project."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:16
-#: 97bdaa08ca3d4648a2e6a36829ba82f9
-msgid "``makefile`` : used by Sphinx to build the docs"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:17
-#: 3c176b4e0f634ad0b2921eeba76c402d
-msgid "``environment.yml`` : conda build instructions"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:19
-#: 090b75254af343fabbf149d23c0e6d16
+#: ../../source/contrib_docs/doc-new-translation.md:298
+#: 8db8ac76d1a34b58a5ea756f5f141ed2
 msgid ""
-"![``docs`` directory](static/docs-directory.png \"Screenshot of docs "
-"directory\")"
+"Add the following content to the file. Note that secrets.GITHUB_TOKEN is "
+"a built-in secret, not something you need to configure ahead of time."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:22
-#: 4f469d0665014248a0c5b29610a31973
-msgid "## Sphinx"
+#: ../../source/contrib_docs/doc-new-translation.md:338
+#: 095478744919497da6d4ed941dc10c61
+msgid "Submit, review, and merge a pull request containing the workflow YAML."
 msgstr ""
 
-#: ../../source/contrib_docs/repo-structure.md:24
-#: ab954a4f665c4fbfa78aac54a67aaf53
-msgid "``conf.py`` : Sphinx configuration file"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:25
-#: 51eb07482ed440689ee6caf559929819
-msgid "``index.rst`` of ``contents.rst`` : Sphinx master table of contents file"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:26
-#: 248acb6a5f2f468a86faab4565b11ec9
-msgid "``_static`` directory : contains images, drawings, icons"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:27
-#: 03e9644ebb42479dba6dc2b33ca9c922
-msgid "``_templates`` directory: overrides theme templates and layouts"
-msgstr ""
-
-#: ../../source/contrib_docs/repo-structure.md:28
-#: b493f5b162704199bb97456f79f22a44
+#: ../../source/contrib_docs/doc-new-translation.md:340
+#: 984be12bd3114c3c81742f35caf11ace
 msgid ""
-"``build`` directory : html files generated by Sphinx (do not check this "
-"directory into GitHub)"
+"Once you complete the steps in this section, any changes to the source "
+"English documentation on the master branch are pulled into Transifex for "
+"translation. Likewise, any translations completed on Transifex are "
+"submitted as pull requests back to the project on GitHub."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:344
+#: 5ddb754a6a0b4809abe7c332b1718139
+msgid "Hosting translations on ReadTheDocs"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:346
+#: bce275e70ba846509248816353c12b45
+msgid ""
+"ReadTheDocs supports building HTML documentation sites from a single "
+"GitHub project and its translations. Administrators of the source "
+"language documentation project on ReadTheDocs can following these "
+"instructions to enable builds for other languages."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:350
+#: 25f9e37d7ad84053a0a4f4ece04ac89f
+msgid "Visit https://readthedocs.org/dashboard/"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:351
+#: 0e525ae2a12b493aa1d1d609f6e8397d
+msgid ""
+"Note the name of existing ReadTheDocs project containing your source "
+"language (e.g., jupyter)."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:352
+#: 431f72d042b7413e8459835c8e5ed90f
+msgid "Click Import a Project."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:353
+#: d48db15517df4337a37602955290a5b1
+msgid "Click Import Manually."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:354
+#: de053c2c225545c0ad67b26c5411e8de
+msgid ""
+"Enter the project name you noted above suffixed with a target language "
+"locale (e.g., jupyter-es, jupyter-pt-br)."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:356
+#: 8637b0dc4674437bbaa633312a61ada7
+msgid "Enter the GitHub URL of the project."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:357
+#: 3ff7979a1b44499c83309d7b48f8ab4d
+msgid "Check Edit advanced project options."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:358
+#: d739deb9817c472f88e3514c8186bda2
+msgid "Click Next."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:359
+#: 7223bc91a6354627bad6750fdeabbbd4
+msgid ""
+"Select the name of the target language from the Language drop down (e.g. "
+"es -> Spanish, es-mx -> Mexican Spanish, pt-br -> Brazillian Portuguese)."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:361
+#: d49e063e1d214cf988c36b6073798936
+msgid "Click Finish."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:362
+#: 955e9b41433847098b2ac2189e503aa1
+msgid "Return to the list of projects at https://readthedocs.org/dashboard/"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:363
+#: 5174e3df0aad4ba1bb2d6d57557377ab
+msgid "Click the project containing the source language."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:364
+#: d51dcf3ce28746908625b6e5665bf9b5
+msgid "Click Admin."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:365
+#: 77f0f83ae0a84e328d938c6c7c166a94
+msgid "Click Translations."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:366
+#: cd38e98295e24b859977c3fb3214dbf1
+msgid ""
+"Choose the name of the translation project created in step 5 from the "
+"Project drop down."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:367
+#: 69bb2b1f0dc3485baae7b2ccead4a3a0
+msgid "Click Add."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:368
+#: f2f6ce82ac15414fab385f6f67a8d5af
+msgid "Repeat these steps for all other languages the project supports."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:370
+#: 394edf33bc20429bb9a6fcb8c054efa6
+msgid ""
+"Now, any time you merge a pull request from Transifex containing .po "
+"translation file updates, ReadTheDocs will build both the source "
+"documentation site as well as sites for all supported languages. "
+"ReadTheDocs will associate the sites with one another and make them "
+"accessible via language links in a popup."
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:375
+#: de9eedbb5db54965a6367e19dd1e4d97
+msgid "ReadTheDocs popup"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:378
+#: f41c253875ee480385e34553076c782d
+msgid "Reference"
+msgstr ""
+
+#: ../../source/contrib_docs/doc-new-translation.md:380
+#: 4ce4968e8b984d77b6754afc80ec43c9
+msgid ""
+"https://github.com/parente/helloworld-transifex-rtd is a mini-project "
+"configured to support the entire workflow described in this document."
 msgstr ""
 
 # bbd10f86669b4c6fb425b08981536b35
@@ -1050,5 +1122,671 @@ msgstr ""
 #~ "build directory : html files generated"
 #~ " by Sphinx (do not check this "
 #~ "directory into GitHub)"
+#~ msgstr ""
+
+# 8951f6f4ecb1413bbb04b398218015c5
+#~ msgid "Setting up a project's documentation infrastructure"
+#~ msgstr ""
+
+# 7cdfc8fab5b84b2a888d19fbfe55aa37
+#~ msgid "Contents:"
+#~ msgstr ""
+
+# 1bde3a53c29249958887df3f45554bdf
+#~ msgid ""
+#~ "This section helps a contributor set "
+#~ "up the documentation infrastructure for "
+#~ "a new project or an existing "
+#~ "project without Sphinx documentation."
+#~ msgstr ""
+
+#~ msgid "# Building automatically on ReadTheDocs"
+#~ msgstr ""
+
+# fbc01acaa56d459985a5988de5128194
+#~ msgid ""
+#~ "This explains how to automatically "
+#~ "rebuild documentation on ReadtheDocs every "
+#~ "time a pull request is merged into"
+#~ " its corresponding GitHub repo."
+#~ msgstr ""
+
+#~ msgid "## Using the ReadTheDocs service"
+#~ msgstr ""
+
+# 548f76347eeb494da8083cb3c13d39f2
+#~ msgid ""
+#~ "Webhooks and services can be enabled "
+#~ "in GitHub repo settings to allow "
+#~ "third party services such as "
+#~ "ReadTheDocs. The ReadTheDocs service rebuilds"
+#~ " the project documentation whenever a "
+#~ "pull request is merged into the "
+#~ "GitHub repo."
+#~ msgstr ""
+
+#~ msgid "### Navigate to Settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each GitHub repo has a Settings "
+#~ "tab at the far right of the "
+#~ "repo menubar. Navigate to Settings and"
+#~ " then the **Webhooks & services** "
+#~ "submenu tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Settings and Webhooks & services "
+#~ "submenu](static/gh-webhooks-services.png "
+#~ "\"Screenshot of GitHub repo settings\")"
+#~ msgstr ""
+
+#~ msgid "### Add the ReadTheDocs service"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select **Add service** and enter "
+#~ "*ReadTheDocs* in the **Available Services**"
+#~ " input box."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Services/Add ReadTheDocs window will "
+#~ "open. Press the green **Add service**"
+#~ " button to activate the ReadTheDocs "
+#~ "service."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Add ReadTheDocs service](static/gh-add-"
+#~ "rtd.png \"Screenshot of adding ReadTheDocs "
+#~ "service\")"
+#~ msgstr ""
+
+#~ msgid "### Success"
+#~ msgstr ""
+
+# f38a664a1d164422ae6a4aa7b3d5bb50
+#~ msgid ""
+#~ "The ReadTheDocs service is added "
+#~ "successfully. The service will take "
+#~ "effect on the next merged pull "
+#~ "request to the project repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Service successfully added](static/gh-rtd-"
+#~ "hook-success.png \"Screenshot of service "
+#~ "successfully added\")"
+#~ msgstr ""
+
+#~ msgid "*Created: 01-07-2016*"
+#~ msgstr ""
+
+#~ msgid "# Setting up a README"
+#~ msgstr ""
+
+# d22ac7f8b0574e0493a17b325c369177
+#~ msgid ""
+#~ "Providing users and developers consistency "
+#~ "across repos is a valuable time "
+#~ "saver and improves user productivity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On a larger scope, having the "
+#~ "Jupyter name appear prominently in a "
+#~ "repo's `README.md` file improves the "
+#~ "project's name awareness."
+#~ msgstr ""
+
+#~ msgid "## Recommended elements in Jupyter project repos"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "### Link in repo description Please "
+#~ "include a link to the documentation "
+#~ "in the repo's description."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Repo description and documentation "
+#~ "link](static/repo-description.png \"Screenshot of"
+#~ " documentation link in GitHub repo "
+#~ "description\")"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "### Badges in README One common "
+#~ "way that individuals find documentation "
+#~ "is to look for and click on "
+#~ "the doc badge that commonly is "
+#~ "found right after the title. Another "
+#~ "benefit is an easy visual indication "
+#~ "if the docs are not rendering "
+#~ "properly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Badges in README.md](static/repo-badges.png "
+#~ "\"Screenshot of badges displayed under "
+#~ "the repo title in the README "
+#~ "file\")"
+#~ msgstr ""
+
+#~ msgid "### Resources section in README"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *Resources* section at the end "
+#~ "of the `README.md` gives useful links"
+#~ " and information to users about the"
+#~ " individual project and the larger "
+#~ "Project Jupyter organization. Make sure "
+#~ "to include any links to the "
+#~ "individual project's demo notebooks, if "
+#~ "available."
+#~ msgstr ""
+
+#~ msgid "The *Resources* section includes:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Resources section in `README.md`](static/repo-"
+#~ "resources.png \"Screenshot of resource list"
+#~ " at end of README file\")"
+#~ msgstr ""
+
+#~ msgid "## Checklist adding docs to a new or existing GitHub Repo"
+#~ msgstr ""
+
+# 4843875169d544fca6173c7f5221420c
+#~ msgid ""
+#~ "[ ] Add a link to documentation"
+#~ " in repo description (requires GitHub "
+#~ "repo privileges)"
+#~ msgstr ""
+
+#~ msgid "[ ] Add badges to README (Edit `README.md` and submit pull request)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[ ] Add resources section to "
+#~ "README (Edit `README.md` and submit pull"
+#~ " request)"
+#~ msgstr ""
+
+#~ msgid "*Dated: 1-4-2016* *Revised: 1-7-2016*"
+#~ msgstr ""
+
+# 7f017745d5c34b3f91c54f653b2793d1
+#~ msgid "Tools for documentation"
+#~ msgstr ""
+
+# f82aa18212984518ac1371f956fc5f12
+# 0e6a4fd1bdd7427dbc0d45d78f5cd710
+#~ msgid "Contents"
+#~ msgstr ""
+
+# 70ea135c1ab44fbba9a46a8f7992d014
+#~ msgid "Packages"
+#~ msgstr ""
+
+# 0cd99c51dc1344f2a28d229978446fdb
+#~ msgid ""
+#~ "For user documentation, contributor guides,"
+#~ " and communications content, we use:"
+#~ msgstr ""
+
+#~ msgid "`Sphinx <https://www.sphinx-doc.org/en/master/contents.html>`_"
+#~ msgstr ""
+
+# 89cb08a083b7405b899da55da2c386dc
+#~ msgid ""
+#~ "For developer API documentation (especially"
+#~ " for JupyterLab js repos), we use:"
+#~ msgstr ""
+
+# 66229f6c114e4652b13bd066643cae2a
+#~ msgid "`swagger <http://swagger.io/>`_"
+#~ msgstr ""
+
+# 4241f08f75b745cc91401487dfb43473
+#~ msgid "Source file formats"
+#~ msgstr ""
+
+# 0e502ec731f24f729b096c7ef2aac637
+#~ msgid ""
+#~ "We use the following input source "
+#~ "file formats when developing Sphinx "
+#~ "documentation:"
+#~ msgstr ""
+
+# c35638daf71349ab94f174d9c40088fa
+#~ msgid "reStructuredText (``.rst``)"
+#~ msgstr ""
+
+# 31a7dcfa85f545308ff3c24f7f5fa6da
+#~ msgid "Markdown (``.md``)"
+#~ msgstr ""
+
+# 99f22d7ed28e4ec6b6739ab4d3b0fca1
+#~ msgid "Notebook (``.ipynb``)"
+#~ msgstr ""
+
+# 6bc8c61685c94741b9a52990ac840a31
+#~ msgid ""
+#~ "A modern code editor should be "
+#~ "used. Many are available including Atom,"
+#~ " SublimeText, gedit, vim, emacs. `Atom "
+#~ "<https://atom.io/>`_ is a good choice "
+#~ "for new contributors."
+#~ msgstr ""
+
+# 36d19549dd2e4365a6c5e8e035cd54c6
+#~ msgid "Sphinx themes"
+#~ msgstr ""
+
+# 1eb43a99bb26411382f63038cc477cee
+#~ msgid "Our projects use the following themes:"
+#~ msgstr ""
+
+# 29670e07c5044935b15456980e34fae1
+#~ msgid "sphinx_rtd_theme (currently used by Jupyter projects)"
+#~ msgstr ""
+
+# f9cd1912e9bc4bd79e22274b5ce9acdf
+#~ msgid "jupyter_sphinx_theme (used by ipywidgets)"
+#~ msgstr ""
+
+# d987578c0b164c1ba1296f4b300cac54
+#~ msgid "Git and Github Resources"
+#~ msgstr ""
+
+# 50b964b050404597b31edeb7431ffb85
+#~ msgid ""
+#~ "If this is your first time working"
+#~ " with Github or git, you can "
+#~ "leverage the following resources to "
+#~ "learn about the tools."
+#~ msgstr ""
+
+# 0b58d8ea7318429ba17fb25d493dbe11
+#~ msgid "`Try Git  <https://try.github.io/levels/1/challenges/1>`_"
+#~ msgstr ""
+
+# 319d5b76f66a42d3894269987178b99c
+#~ msgid "`Github Guides  <https://guides.github.com>`_"
+#~ msgstr ""
+
+# 3b0ab86be2604595be117b97ae517309
+#~ msgid "`Git Real  <https://www.codeschool.com/courses/git-real>`_"
+#~ msgstr ""
+
+# 9bf487d7abfc44c3ab65fc60610916db
+#~ msgid "`Git Documentation <https://git-scm.com/documentation>`_"
+#~ msgstr ""
+
+# 6f130c2608c74cd481206a5302ce6ab4
+#~ msgid ""
+#~ "`Git Rebase <https://github.com/pydata/pandas/wiki/Git-"
+#~ "Workflows#user-content-git-rebase>`_"
+#~ msgstr ""
+
+# 73369309d0264c91801dadff4096eda3
+#~ msgid "Understanding our workflow"
+#~ msgstr ""
+
+# 3ad46563bdea4c718af906b06996645d
+#~ msgid "**High level documentation workflow**"
+#~ msgstr ""
+
+# bea011364bb5447f9a5ee2e0a1813bb7
+#~ msgid "Identify a documentation change."
+#~ msgstr ""
+
+# 0ecc5172dfa9449bb3fd7ddee5ab7a8f
+#~ msgid "*Typos:* please go ahead and fix it (or report as a bug)."
+#~ msgstr ""
+
+# d2eec42d01aa43c49c9f599c56cf67f7
+#~ msgid ""
+#~ "*Open issues:* leave a note in the"
+#~ " issue comments that you are working"
+#~ " on the issue."
+#~ msgstr ""
+
+# 5594fd91be4844ba8361a65dfea30f57
+#~ msgid ""
+#~ "*New documentation:* open an issue with"
+#~ " your idea or suggestion. We'll "
+#~ "review the issue and work with you"
+#~ " to identify next steps."
+#~ msgstr ""
+
+# df7b4d15c41f4003b695a2e4ba5f9257
+#~ msgid "Update the source file."
+#~ msgstr ""
+
+# 0a600b26d0214280b77a6ae44f71294f
+#~ msgid "Commit the change."
+#~ msgstr ""
+
+# 241782c238de4ebeb594ebe6cc2fe7a6
+#~ msgid "Test changes locally."
+#~ msgstr ""
+
+# b8f4ff91d74f453e8e4c680f537967de
+#~ msgid "Open a pull request."
+#~ msgstr ""
+
+# e943c50580c64ecaa32dd38a2ac2f8e2
+#~ msgid "Check response of automated tests."
+#~ msgstr ""
+
+# 47edb06fb3c0469f87b591aa0e30925c
+#~ msgid ""
+#~ "If tests pass: Nice job. Wait for"
+#~ " reviewer feedback and/ or your pull"
+#~ " request to be merged."
+#~ msgstr ""
+
+# 6b9c7c1cbd7d4772a778cc9c2f33a0d4
+#~ msgid ""
+#~ "If tests show an error: Revise and"
+#~ " resubmit your pull request. You do"
+#~ " not need to open a new pull"
+#~ " request. If needed, please ask for"
+#~ " assistance."
+#~ msgstr ""
+
+# 6c100a83bc8547909df09e2de4fa16f2
+#~ msgid "Celebrate your documentation contribution."
+#~ msgstr ""
+
+# 7f491e4696da4e01af2e68b97352a3f4
+#~ msgid ""
+#~ "Repeat. If you would like suggestions"
+#~ " for a new documentation issue to "
+#~ "work on, please ask."
+#~ msgstr ""
+
+# 4837ec4c20d84023875b77de40950374
+#~ msgid "Thanks for contributing!"
+#~ msgstr ""
+
+# 96f8c8d5bd6b48b79a6fbfdadfe293b9
+#~ msgid "Getting started"
+#~ msgstr ""
+
+# 41b8445aaef14b0f9277132ef8f7c64d
+#~ msgid "Preparing for your first contribution"
+#~ msgstr ""
+
+# 5ff1615eb97f4322bc6b824fe2975e78
+#~ msgid "Our documentation uses reStructured Text as well as Jupyter notebooks."
+#~ msgstr ""
+
+# 4f862af8ce2648e6a6f36a65f166c17a
+#~ msgid "We use Sphinx extensively to build documentation."
+#~ msgstr ""
+
+# 074f79e5aada4cf48e49e75da9a6f2e4
+#~ msgid "We host our documentation on Read the Docs."
+#~ msgstr ""
+
+# 273c21f2f4c64cdc905c4b9c65df07e6
+#~ msgid "Developing your contribution"
+#~ msgstr ""
+
+# d34708a450ae4c98b03feb4ff944a1cc
+#~ msgid ""
+#~ "Jupyter's documentation is split across "
+#~ "several projects, listed on the `Jupyter"
+#~ " documentation home page "
+#~ "<https://jupyter.readthedocs.io/en/latest/>`_. These "
+#~ "instructions apply to all Jupyter "
+#~ "projects, though some projects have "
+#~ "further contribution guidelines."
+#~ msgstr ""
+
+# 583255d870384645b0b076e657c2e763
+#~ msgid "Clone the repository"
+#~ msgstr ""
+
+# 024a7bc45f3a45fab5500b2d1904d9bc
+#~ msgid ""
+#~ "Fork the appropriate project repository "
+#~ "on GitHub, depending on which project's"
+#~ " documentation you want to contribute "
+#~ "to."
+#~ msgstr ""
+
+# 7e9da73cdb4c469db3dce5d160b5208a
+#~ msgid "Clone the repository to your system."
+#~ msgstr ""
+
+# 9e4c1b704e594ce19b00ef8075748237
+#~ msgid "Edit the documentation source file"
+#~ msgstr ""
+
+# a6b8f285170c4f8eb6aecdd1cbfdb7b9
+#~ msgid ""
+#~ "Source files for projects are typically"
+#~ " found in the project's ``docs/source`` "
+#~ "directory. The reStructured text filenames "
+#~ "end with ``.rst``, and Jupyter notebook"
+#~ " files end with ``.ipynb``."
+#~ msgstr ""
+
+# 8b7b25fa65204498b0a9266c8541311e
+#~ msgid ""
+#~ "In your favorite text editor, make "
+#~ "desired changes to the ``.rst`` file "
+#~ "when working with a reStructured text"
+#~ " source file."
+#~ msgstr ""
+
+# 28f854c4861346b09d69499d50d03dd4
+#~ msgid ""
+#~ "If a notebook file requires editing, "
+#~ "you will need to install Jupyter "
+#~ "notebook according to the :ref:`Installation"
+#~ " <install>` document. Then, run the "
+#~ "Jupyter notebook and edit the desired"
+#~ " file. Before saving the Jupyter "
+#~ "``.ipynb`` file, please clear the output"
+#~ " cells. Save the file and test "
+#~ "your change."
+#~ msgstr ""
+
+# 41995af34a5046bca276d62634ae3b10
+#~ msgid "Testing changes"
+#~ msgstr ""
+
+# 65e377a9fbe04a0b8775881db9467ab8
+#~ msgid ""
+#~ "Sphinx should be installed to test "
+#~ "your documentation changes. For best "
+#~ "results, we recommend that you install"
+#~ " the stable development version Sphinx "
+#~ "(``pip install git+https://github.com/sphinx-"
+#~ "doc/sphinx@stable``) or the current released"
+#~ " version of Sphinx (``pip install "
+#~ "sphinx``)."
+#~ msgstr ""
+
+# 5d5be81cd19e45f5acc196516a7aa1ec
+#~ msgid ""
+#~ "In addition, you may need the "
+#~ "following packages: sphinxcontrib-spelling, "
+#~ "sphinx_rtd_theme, nbsphinx, pyenchant, recommonmark"
+#~ " 0.4.0 and jupyter_sphinx_theme, which can"
+#~ " be installed via ``pip install "
+#~ "sphinxcontrib-spelling sphinx_rtd_theme nbsphinx "
+#~ "pyenchant recommonmark==0.4.0 jupyter_sphinx_theme``."
+#~ msgstr ""
+
+# 1140b74d6bd547d2923b29eb2c769293
+#~ msgid ""
+#~ "If you are on Linux, you may "
+#~ "also need to install the Enchant C"
+#~ " library by running ``sudo apt-get"
+#~ " install enchant``."
+#~ msgstr ""
+
+# 710e465eeb7d49f8bcf3279361e211ea
+#~ msgid ""
+#~ "Once everything is installed, the "
+#~ "following commands should be executed "
+#~ "using the Terminal/command line from the"
+#~ " ``docs`` directory:"
+#~ msgstr ""
+
+# 874edec47dfe41aab09ca2dc976ac9be
+#~ msgid ""
+#~ "``make html`` builds a local html "
+#~ "version of the documentation. The output"
+#~ " message will either display errors "
+#~ "or provide the location of the "
+#~ "html documents. For example, the "
+#~ "location provided may be ``build/html`` "
+#~ "and to view these documents in "
+#~ "your browser enter ``open "
+#~ "build/html/index.html``."
+#~ msgstr ""
+
+# 3c47075546064151940cfddaa6b97e97
+#~ msgid ""
+#~ "``make linkcheck`` will check whether "
+#~ "the external links in the documentation"
+#~ " are valid or if they are not"
+#~ " longer current (i.e. cause a 500 "
+#~ "not found error)."
+#~ msgstr ""
+
+# 3b5e8519815b43ab82350bed26580555
+#~ msgid ""
+#~ "Note: We recommend using Python 3.4+ "
+#~ "for building the documentation. If you"
+#~ " are editing the documentation, you "
+#~ "can use Python 2.7.9+ or the "
+#~ "Github editor."
+#~ msgstr ""
+
+# 3a598ce6355d49589108ebb8b3584478
+#~ msgid "Creating a pull request"
+#~ msgstr ""
+
+# c5b5c1b181a54762a10f3d97ce5d19e8
+#~ msgid ""
+#~ "Once you are satisfied with your "
+#~ "changes, submit a GitHub pull request,"
+#~ " per the instructions above. If the"
+#~ " documentation change is related to "
+#~ "an open GitHub issue, please mention "
+#~ "the issue number in the pull "
+#~ "request message."
+#~ msgstr ""
+
+# 4ae44c0cf02a45b99d0c7f14640c4f6e
+#~ msgid ""
+#~ "A project reviewer will look over "
+#~ "your changes and provide feedback or "
+#~ "merge your changes into the "
+#~ "documentation."
+#~ msgstr ""
+
+# baccae949fb54e6491856084b68e4827
+#~ msgid "Asking questions"
+#~ msgstr ""
+
+# 990c9e57e8fc4e9c9da2ea3980ddebac
+#~ msgid ""
+#~ "Feel free to ask questions in the"
+#~ " Google Group for Jupyter or on "
+#~ "an open issue on GitHub."
+#~ msgstr ""
+
+# 6ad43967c19843df85781d3ee0ba0658
+#~ msgid "Documentation Guide"
+#~ msgstr ""
+
+# e53cdb8f3ebb4f9d97c7824dfd462fef
+#~ msgid "**Contents**"
+#~ msgstr ""
+
+# 8710f55c2e51435881a40b68457010b8
+#~ msgid ""
+#~ "Documentation helps guide new users, "
+#~ "fosters communication between developers, and"
+#~ " shares tips and best practices with"
+#~ " other community members. That's why "
+#~ "the Jupyter project is focused on "
+#~ "documenting new features and to keeping"
+#~ " the documentation up-to-date."
+#~ msgstr ""
+
+#~ msgid "# Structuring a repo for docs"
+#~ msgstr ""
+
+#~ msgid "## Root level of the repo"
+#~ msgstr ""
+
+#~ msgid "``docs`` directory : All source files for documentation go here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``readthedocs.yml`` : configuration file for"
+#~ " readthedocs to build using conda"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Repo root directory](static/repo-root.png "
+#~ "\"Screenshot of GitHub repo root\")"
+#~ msgstr ""
+
+#~ msgid "## Inside the docs directory"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``source`` directory : contains all "
+#~ "content source files in ``.rst``, "
+#~ "``.md``, or ``.ipynb``"
+#~ msgstr ""
+
+#~ msgid "``makefile`` : used by Sphinx to build the docs"
+#~ msgstr ""
+
+#~ msgid "``environment.yml`` : conda build instructions"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![``docs`` directory](static/docs-directory.png "
+#~ "\"Screenshot of docs directory\")"
+#~ msgstr ""
+
+#~ msgid "## Sphinx"
+#~ msgstr ""
+
+#~ msgid "``conf.py`` : Sphinx configuration file"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``index.rst`` of ``contents.rst`` : Sphinx "
+#~ "master table of contents file"
+#~ msgstr ""
+
+#~ msgid "``_static`` directory : contains images, drawings, icons"
+#~ msgstr ""
+
+#~ msgid "``_templates`` directory: overrides theme templates and layouts"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``build`` directory : html files "
+#~ "generated by Sphinx (do not check "
+#~ "this directory into GitHub)"
 #~ msgstr ""
 
