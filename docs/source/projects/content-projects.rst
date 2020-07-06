@@ -16,6 +16,8 @@ Using Jupyter
    incubator
    kernels
    doc-proj-categories
+   advanced/content-advanced
+   use-cases/content-user
 
 Installation
 ------------

@@ -120,7 +120,7 @@ including partial or in-progress work, is appreciated.
 
 Contribution Workflow
 ---------------------
-.. image:: ../_static/_images/contribution_workflow.png
+.. image:: ../../_static/_images/contribution_workflow.png
 
 
 

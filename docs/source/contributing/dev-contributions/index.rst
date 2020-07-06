@@ -9,7 +9,6 @@ Developer Guide
 .. toctree::
    :maxdepth: 1
 
-   contrib_first_time.rst
    contrib_guide.rst
    jupyter_enhancement_proposals.rst
    releasing.rst

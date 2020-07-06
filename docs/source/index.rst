@@ -29,7 +29,7 @@ Start Here
 
        How to contribute to the projects
 
-   * - :doc:`Narratives and Use Cases <use-cases/content-user>`
+   * - :doc:`Narratives and Use Cases <projects/use-cases/content-user>`
 
        Narratives of common deployment scenarios
 
@@ -37,7 +37,7 @@ Start Here
 
        New features, upgrades, deprecation notes, and bug fixes
 
-   * - :doc:`IPython <ipython/content-ipython>`
+   * - :doc:`IPython <reference/ipython>`
 
        An interactive Python kernel and REPL
 
@@ -49,7 +49,7 @@ Start Here
 
        Documentation for users
 
-     - :doc:`Advanced <migrating>`
+     - :doc:`Advanced <projects/advanced/content-advanced>`
 
        Documentation for advanced use-cases
 
@@ -139,20 +139,6 @@ Table of Contents
    :maxdepth: 1
 
    architecture/content-architecture.rst
-
-.. _about-docs:
-
-.. toctree::
-   :maxdepth: 2
-
-   use-cases/content-user.rst
-
-.. _about-ipython:
-
-.. toctree::
-   :maxdepth: 2
-
-   ipython/content-ipython.rst
 
 .. _jupyter-subprojects:
 
