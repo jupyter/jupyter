@@ -6,9 +6,10 @@ Getting started
 
 Preparing for your first contribution
 -------------------------------------
-1. Our documentation uses reStructured Text as well as Jupyter notebooks.
+1. Our documentation uses reStructured Text, Markdown, and Jupyter notebooks.
 2. We use Sphinx extensively to build documentation.
-3. We host our documentation on Read the Docs.
+3. We use Transifex to help translate documentation to multiple languages.
+4. We host our documentation on Read the Docs.
 
 Developing your contribution
 ----------------------------

@@ -9,6 +9,7 @@ Contents:
    repo-structure.md
    doc-new-repos.md
    doc-new-build.md
+   doc-new-translation.md
 
 This section helps a contributor set up the documentation infrastructure for
 a new project or an existing project without Sphinx documentation.
