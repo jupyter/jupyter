@@ -2,32 +2,21 @@
 Architecture
 ============
 
-**A high level visual overview of project relationships**
+This page has information about the different architectural designs of core
+pieces in the Jupyter ecosystem. Some of these are individual projects, and others
+show the relationships between projects.
 
 
-.. image:: ../_static/_images/repos_map.png
-   :width: 75%
-   :alt: Architecture diagram of project relationships
+IPython Kernel
+==============
 
-
-
-How IPython and Jupyter Notebook work
-=====================================
-
-.. contents:: Contents
-   :local:
-
-Abstract
---------
-This section focuses on IPython and Jupyter notebook and how they interact.
+This section focuses on IPython and kernels.
 When we discuss ``IPython``, we talk about two fundamental roles:
 
 - Terminal IPython as the familiar REPL
 - The IPython kernel that provides computation and communication with the
   frontend interfaces, like the notebook
 
-Jupyter Notebook and its flexible interface extends the notebook beyond code
-to visualization, multimedia, collaboration, and more.
 
 Terminal IPython
 ----------------
@@ -92,10 +81,21 @@ are likely to be better maintained by the community using them, like
 
    :ref:`Kernels <kernels-langs>`
 
-Notebooks
----------
 
-The Notebook frontend does something extra. In addition to running your code,
+The Jupyter Notebook format
+===========================
+
+Jupyter Notebooks are structured data that represent your code, metadata, content,
+and outputs. When saved to disk, the notebook uses the extension ``.ipynb``, and
+uses a JSON structure. For more information about the notebook format structure
+and specification, see `the nbformat documentation <https://nbformat.readthedocs.io/en/latest/format_description.html>`_.
+
+
+The Jupyter Notebook Interface
+==============================
+
+Jupyter Notebook and its flexible interface extends the notebook beyond code
+to visualization, multimedia, collaboration, and more. In addition to running your code,
 it stores code and output, together with markdown notes, in an editable
 document called a notebook. When you save it, this is sent from your browser
 to the notebook server, which saves it on disk as a JSON file with a
@@ -109,10 +109,11 @@ that language—you just won't be able to run code. The kernel doesn't know
 anything about the notebook document: it just gets sent cells of code to
 execute when the user runs them.
 
-Exporting notebooks to other formats
-------------------------------------
 
-The Nbconvert tool in Jupyter converts notebook files to other formats, such
+Exporting Jupyter Notebooks to other formats
+============================================
+
+The :doc:`Nbconvert tool <nbconvert:index>` in Jupyter converts notebook files to other formats, such
 as HTML, LaTeX, or reStructuredText. This conversion goes through a series of
 steps:
 
@@ -135,3 +136,41 @@ IPython also includes a parallel computing framework,
 `IPython.parallel <https://ipyparallel.readthedocs.io/en/latest/>`_. This
 allows you to control many individual engines, which are an extended version
 of the IPython kernel described above.
+
+
+JupyterHub and Binder
+=====================
+
+JupyterHub is a multi-user Hub that spawns, manages, and proxies multiple instances of the
+single-user Jupyter notebook server. This can be used to serve a variety of interfaces
+and environments, and can be run on many kinds of infrastructure. JupyterHub on Kubernetes
+is a Helm Chart for running JupyterHub on kubernetes infrastructure, and BinderHub is a
+customized JupyterHub deployment for sharable, reproducible interactive computing environments.
+
+The links below describe the architecture of JupyterHub and several distributions of
+JupyterHub.
+
+* :doc:`JupyterHub core architecture <hub:reference/technical-overview>`
+* :doc:`JupyterHub for Kubernetes architecture <z2jh:administrator/architecture>`
+* :ref:`BinderHub architecture <bhub:diagram>`
+
+
+JupyterLab
+==========
+
+JupyterLab is a flexible, extensible interface for interactive computing. Below
+are a few links that are useful for understanding the JupyterLab architecture.
+
+* :doc:`JupyterLab document model <lab:developer/documents>`
+* :doc:`JupyterLab notebook model <lab:developer/notebook>`
+* :doc:`Design patterns in JupyterLab <lab:developer/patterns>`
+
+Projects overview
+=================
+
+Below is a high level visual overview of project relationships. It is current as of
+2017.
+
+.. image:: /_static/_images/repos_map.png
+   :width: 75%
+   :alt: Architecture diagram of project relationships

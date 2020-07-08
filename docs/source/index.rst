@@ -21,15 +21,15 @@ Start Here
 
        Sustainability and growth
 
-   * - :doc:`Architecture <architecture/content-architecture>`
+   * - :doc:`Architecture <projects/architecture/content-architecture>`
 
        What is Jupyter?
 
-     - :doc:`Contributor Guides <contributor/content-contributor>`
+     - :doc:`Contributor Guides <contributing/content-contributor>`
 
        How to contribute to the projects
 
-   * - :doc:`Narratives and Use Cases <projects/use-cases/content-user>`
+   * - :doc:`Narratives and Use Cases <use/use-cases/content-user>`
 
        Narratives of common deployment scenarios
 
@@ -49,7 +49,7 @@ Start Here
 
        Documentation for users
 
-     - :doc:`Advanced <projects/advanced/content-advanced>`
+     - :doc:`Advanced <use/advanced/content-advanced>`
 
        Documentation for advanced use-cases
 
@@ -88,7 +88,7 @@ Sub-project documentation
    ---
    Kernels
    ^^^^^^
-   * `IPython <https://ipython.readthedocs.io/en/stable>`_
+   * `IPython <https://ipython.readthedocs.io/en/stable>`__
    * `IRkernel <https://irkernel.github.io>`_
    * `IJulia <https://github.com/JuliaLang/IJulia.jl>`_
    * `Community maintained kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
@@ -96,7 +96,7 @@ Sub-project documentation
    ---
    IPython
    ^^^^^^
-   * `IPython <http://ipython.readthedocs.io/en/stable>`_
+   * `IPython <http://ipython.readthedocs.io/en/stable>`__
    * `ipykernel <https://ipython.readthedocs.io/en/stable>`_
    * `ipyparallel <https://ipyparallel.readthedocs.io/en/latest>`_
 
@@ -133,12 +133,12 @@ Table of Contents
 
    content-quickstart
 
-.. _tech-overview:
+.. _jupyter-using:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   architecture/content-architecture.rst
+   use/using
 
 .. _jupyter-subprojects:
 

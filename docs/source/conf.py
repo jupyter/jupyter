@@ -20,6 +20,7 @@ import recommonmark.parser
 
 html_theme = 'pydata_sphinx_theme'
 html_logo = '_static/_images/jupyter.svg'
+html_favicon = '_static/_images/favicon.png'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -148,6 +149,11 @@ intersphinx_mapping = {
     'jupyterclient': ('https://jupyter-client.readthedocs.io/en/latest/', None),
     'qtconsole': ('https://jupyter.org/qtconsole/dev/', None),
     'jupytercore': ('https://jupyter-core.readthedocs.io/en/latest/', None),
+    'hub': ('https://jupyterhub.readthedocs.io/en/latest/', None),
+    'z2jh': ('https://zero-to-jupyterhub.readthedocs.io/en/latest/', None),
+    'tljh': ('https://tljh.jupyter.org/en/latest/', None),
+    'bhub': ('https://binderhub.readthedocs.io/en/latest/', None),
+    'lab': ('https://jupyterlab.readthedocs.io/en/latest/', None),
 }
 
 intersphinx_cache_limit = 5

@@ -11,8 +11,13 @@ and communication channels. As our community is highly dynamic, information
 may change, and we will do our best to keep it up to date.
 
 
-Monthly Meetings
-----------------
+Jupyter Community Meetings
+==========================
+
+The Jupyter community often meets (usually on-line) in order to discuss matters in
+the Jupyter community, share new ideas and discussions, and connect with one another.
+This often happens within specific sub-project (more information below), though
+there are also occasional community-wide meetings.
 
 This following calendar shows the various meetings and events from Jupyter sub-projects:
 
@@ -21,20 +26,31 @@ This following calendar shows the various meetings and events from Jupyter sub-p
     <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZGdwZDM2ZjQzZXQ5Z3JhYm42dGRpbjZwbWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=bTNoZWs2OWRhZzczODF1bXQ4a2NqZDc1dTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YXFwa3VpNXE3b2kzMnBrOXRjcDUzaG5zc2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZDE4NzR1cjZmZGh1ajBzbmpuaWxhYzJubGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cGlhaGluZWpqcjZzc3ZpOGlrbWpqb3A2cm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23AD1457&amp;color=%23EF6C00&amp;color=%23616161&amp;color=%23F6BF26&amp;color=%239E69AF" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
+Jupyter-wide meetings
+---------------------
+
+**All-Jupyter Community Calls** generally happen on the last Tuesday of the month,
+and are focused around demonstrations and sharing information across all of the Jupyter projects.
+
+- Find information on `this Discourse thread <https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_.
+- Watch previous calls on `our YouTube channel <https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_.
+- Read the `notes from previous calls <community-call-notes/index.html>`_.
+
+In addition, you can find the notes from previous community meetings below.
+
+.. toctree::
+
+   community-call-notes/index
+
+Jupyter Project meetings
+------------------------
+
 The core developers of various Jupyter sub-projects have regular meetings to
 discuss and demo what they have been working on, discuss future plans,
 and bootstrap conversation. These meetings are public and you are welcome to join remotely.
 
 Each team has their own processes around logistics and planning for the team meetings. The
 following pages should help you find the information for each.
-
-
-**All-Jupyter Community Calls** happen on the last Tuesday of every month, and are focused around demonstrations
-and sharing information across all of the Jupyter projects.
-
-- Find information on `this Discourse thread <https://discourse.jupyter.org/t/all-jupyter-community-calls/668>`_.
-- Watch previous calls on `our YouTube channel <https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_.
-- Read the `notes from previous calls <community-call-notes/index.html>`_.
 
 
 **JupyterHub meetings** happen monthly. For a calendar of future team meetings, see
@@ -52,7 +68,7 @@ We recommend checking it periodically for new information about when meetings ar
 
 
 Jupyter communications
-----------------------
+======================
 
 As a general rule, most project-wide conversation happens in the
 `Jupyter community forum <https://discourse.jupyter.org>`_. There are also many other
@@ -69,22 +85,25 @@ relevant information.
 
 
 Governance
-----------
+==========
 
 - Steering council: Information about the steering council and its members
-  can be found on the `Jupyter website <https://jupyter.org>`_.
+  can be found on the `Jupyter website <https://jupyter.org/about>`_.
+- Information about Jupyter's governance process can be found on
+  `the Jupyter governance website <https://jupyter.org/governance>`_.
 - Jupyter Enhancement Proposal (JEP) process: Details about the process can
-  be found in the `jupyter/enhancement-proposals GitHub repo <https://github.com/jupyter/enhancement-proposals>`_.
+  be found in the `enhancement proposals website <https://jupyter.org/enhancement-proposals>`_.
 
 
 Code of conduct
----------------
+===============
 
-Information can be found in the `Jupyter Governance repo on GitHub <https://github.com/jupyter/governance>`_.
+Information can be found in the
+`Jupyter Code of Conduct page <https://jupyter.org/governance/conduct/code_of_conduct.html>`_.
 
 
 Running Jupyter Events
-----------------------
+======================
 
 Members of the Jupyter community often get together to share what they're
 working on, to work together, and to teach and learn from one another.
@@ -124,7 +143,7 @@ is worth it!
 
 
 What is a Jovyan?
------------------
+=================
 
 You may see the word **Jovyan** used in Jupyter tools (such as the user ID in the
 `Jupyter Docker stacks <https://github.com/jupyter/docker-stacks?>`_ or referenced in

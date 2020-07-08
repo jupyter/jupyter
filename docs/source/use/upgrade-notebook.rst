@@ -43,5 +43,5 @@ See :ref:`Run the Notebook <running>` for running the Jupyter Notebook.
 
 .. seealso::
 
-    The :ref:`migrating <migrating>` document has additional
+    The :doc:`migrating document <advanced/migrating>` has additional
     information about migrating from IPython 3 to Jupyter.

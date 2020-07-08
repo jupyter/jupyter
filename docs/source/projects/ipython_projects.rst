@@ -1,5 +1,6 @@
-IPython Projects
-================
+=======
+IPython
+=======
 
 .. contents:: Contents
    :local:
