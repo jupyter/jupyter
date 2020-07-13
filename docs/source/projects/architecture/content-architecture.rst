@@ -171,6 +171,8 @@ Projects overview
 Below is a high level visual overview of project relationships. It is current as of
 2017.
 
+.. todo: This image is a bit out-of-date so we're keeping it at the bottom. We should update it and move it up.
+
 .. image:: /_static/_images/repos_map.png
    :width: 75%
    :alt: Architecture diagram of project relationships
