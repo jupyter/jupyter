@@ -1,0 +1,1279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-22 22:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/use/advanced/content-advanced.rst:2
+#: ab6c2ade2db14e25865c91ad8884e79c
+msgid "Advanced Use Cases"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:3 f2c5a829ea2542f1ae13396c15c740b3
+msgid "Migrating from IPython Notebook"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:6 ../../source/use/config.rst:7
+#: ../../source/use/jupyter-directories.rst:7
+#: ../../source/use/upgrade-notebook.rst:5
+#: ../../source/use/use-cases/enterprise.rst:8
+#: ../../source/use/use-cases/narrative-hub.rst:5
+#: ../../source/use/use-cases/narrative-notebook.rst:5
+#: ../../source/use/use-cases/narrative-other.rst:5
+#: 1b42ce0af6574ae29709399ef1ed5ebc 2f959957b6f2448383ff39fc8d8c6611
+#: 31987e0050c540ba937ebf542b284a53 7fcc80353afc4491b9475ce757185000
+#: 9d2afbedcf3f42db89799b4c08c42a20 a536cbdbd5484015bfdd1e738b5860d0
+#: e21300e74302420ba4662d93374f3ddb ee7a5f168c3e496bac5694f415ab83b5
+msgid "Contents"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:9 5c746ead972b4dada9789306ed2902d8
+msgid "Abstract"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:11 f23d4101e7734a7480c476ae8ea546a6
+msgid ""
+"`The Big Split <https://blog.jupyter.org/the-big-split-9d7b88a031a7>`__ "
+"moved IPython's various language-agnostic components under the Jupyter "
+"umbrella. Going forward, Jupyter will contain the language-agnostic "
+"projects that serve many languages. IPython will continue to focus on "
+"Python and its use with Jupyter."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:17 e2fcda78c74c4ab7b6efbd681807f185
+msgid ""
+"This document describes what has changed, and how you may need to modify "
+"your code or configuration when migrating from IPython version 3 to "
+"Jupyter."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:22 85f0a57a4a3f46c8804dcc8f58aa38d8
+msgid "Understanding the Migration Process"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:25 6f8244a9991b4ed38b85272a48bb9e5c
+msgid "Automatic migration of files"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:27 ebfa18cce64c4d86ba65186759fa0ad7
+msgid ""
+"The first time you run any ``jupyter`` command, it will perform an "
+"automatic migration of files. The automatic migration process **copies** "
+"files, instead of moving files, leaving the originals in place and the "
+"copies in the Jupyter file locations. You can re-run the migration, if "
+"needed, by calling ``jupyter migrate``. Your custom configuration will be"
+" migrated automatically and should work with Jupyter without further "
+"editing. When you update or modify your configuration in the future, "
+"please keep in mind that the file locations may have changed."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:37 c9caf984db564b9c93b8e21e00782037
+msgid "Where have my configuration files gone?"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:39 fb8eaa8645f948aaa09f669f885a6525
+msgid "Also known as: \"Why isn't my configuration having any effect anymore?\""
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:41 c6af525963ef4b42b70ff591501536aa
+msgid ""
+"Jupyter splitting out from IPython means that the locations of some files"
+" have moved, and Jupyter projects have not inherited everything from how "
+"IPython did it."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:45 d12896c915d246139227e90104e36aed
+msgid ""
+"When you start your first Jupyter application, the relevant configuration"
+" files are automatically copied to their new Jupyter locations. The "
+"original configuration files in the IPython locations have no effect on "
+"Jupyter's execution. If you accidentally edit your original IPython "
+"config file, you may not see the desired effect with Jupyter now. You "
+"should check that you are editing Jupyter's configuration file, and you "
+"should see the expected effect after restarting the Jupyter server."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:54 7a991a4d0b0749d3afde946ae422c7a0
+msgid "Finding the Location of Important Files"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:56 eb2562279c404997bf54c5c7f3759fb8
+msgid ""
+"This section provides quick reference for common locations of IPython 3 "
+"files and the migrated Jupyter files."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:60
+#: ../../source/use/jupyter-directories.rst:20 81bfd0750e3e45fea20a4594a7c0b4ff
+#: 8b9c1400f32d465cb97d898665da6f1e
+msgid "Configuration files"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:62 d8b4ad0875b548a3a57238b390914958
+msgid ""
+"Configuration files customize Jupyter to the user's preferences. The "
+"migrated files should all be **automatically copied** to their new "
+"Jupyter locations. Here are the location changes:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:67 6452aa56d962438f938f07279a7ece41
+msgid "IPython location"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:67 fce3279f8002402eaefe4be9a503b5cf
+msgid "Jupyter location"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:69 ab36967e0fa3426a96f173c2cb6d68a7
+msgid ":file:`~/.ipython/profile_default/static/custom`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:69
+#: ../../source/use/advanced/migrating.rst:70
+#: ../../source/use/advanced/migrating.rst:71
+#: ../../source/use/advanced/migrating.rst:72
+#: ../../source/use/advanced/migrating.rst:73
+#: ../../source/use/advanced/migrating.rst:239
+#: ../../source/use/advanced/migrating.rst:240
+#: ../../source/use/advanced/migrating.rst:241
+#: ../../source/use/advanced/migrating.rst:242
+#: ../../source/use/advanced/migrating.rst:243
+#: ../../source/use/advanced/migrating.rst:244
+#: ../../source/use/advanced/migrating.rst:245 0093844e7a5f4f83b4918a1c4706d9cb
+#: 31e07070f9f64737b46d2343626b3d03 3fbfefeca3b3437583d74837f1559283
+#: 49b37baea3e64137bdedb67fbd63d1a8 4e18ac72fb0349598369368dd8a5d005
+#: 5dd5a650c8d045f58a13eb234bdfad98 73e545ef1d7e4d288e8ad6e636dc9989
+#: 7414642d060940c08835cfb096b32816 9885b8dc68e244138d2247e615e3db51
+#: c0d160f7af7644aebe45b3027addc8b8 e1b3f57f19c2462fbcaf2cc0677613e8
+#: e4b43b1cc1d84d3d9c3379e364622733
+msgid "→"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:69 5a2ef87aba53467d9cc50718313ffaa2
+msgid ":file:`~/.jupyter/custom`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:70 2f30b033a3d84dbf858446b2ac827647
+msgid ":file:`~/.ipython/profile_default/ipython_notebook_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:70 5f6662b2b7c74ee0a9192649c813b211
+msgid ":file:`~/.jupyter/jupyter_notebook_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:71 6c7fa421e9994354b26a64e91d624c2a
+msgid ":file:`~/.ipython/profile_default/ipython_nbconvert_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:71 d8ef31d04ed243819b377d52674055ad
+msgid ":file:`~/.jupyter/jupyter_nbconvert_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:72 d50307c358eb47e984702c8f0cdcea6f
+msgid ":file:`~/.ipython/profile_default/ipython_qtconsole_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:72 1e8aa72c523f47f6a8a93d27007008a5
+msgid ":file:`~/.jupyter/jupyter_qtconsole_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:73 408aa87d90be485083a313eb98969bdb
+msgid ":file:`~/.ipython/profile_default/ipython_console_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:73 497b9d8cd7e047e6942dcb7ea107c3cd
+msgid ":file:`~/.jupyter/jupyter_console_config.py`"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:76 5b1f3442cfaf4c5088f120263817a6a2
+msgid ""
+"To choose a directory location other than the default :file:`~/.jupyter`,"
+" set the ``JUPYTER_CONFIG_DIR`` environment variable. You may need to run"
+" ``jupyter migrate`` after setting the environment variable for files to "
+"be copied to the desired directory."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:82 67c014206660471b96675d0ac7ab5308
+msgid "Data files: kernelspecs and notebook extensions"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:84 a01a0b6e04ae4c0ca9ba3f456492b0a2
+msgid ""
+"Data files include files, other than configuration files, which are user "
+"installed. Examples include kernelspecs and notebook extensions. Like the"
+" configuration files, data files are also **automatically migrated** to "
+"their new Jupyter locations."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:89 9f41ff24db69484d8b00446fe3e49396
+msgid "In **IPython 3**, data files lived in ``~/.ipython``."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:91 4c322524a4bb48d491830754533a79d5
+msgid "In **Jupyter**, data files use platform-appropriate locations:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:93 e8695447083c4d03b825b29cd5349012
+msgid "OS X: ``~/Library/Jupyter``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:94 c8acf3a2454141c7bfb4d9dceba0fcae
+msgid "Windows: the location specified in ``%APPDATA%`` environment variable"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:95 090c08b483684a9b8ce1817c95d4a220
+msgid ""
+"Elsewhere, ``$XDG_DATA_HOME`` is respected, with the default of "
+"``~/.local/share/jupyter``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:98 1fe2e7dd661047c9bd57fc0bfeb06976
+msgid ""
+"In all cases, the ``JUPYTER_DATA_DIR`` environment variable can be used "
+"to set a location explicitly."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:101 0f689bf3c3424f2f988dbf1056d364ef
+msgid ""
+"Data files installed system-wide (e.g. in ``/usr/local/share/jupyter``) "
+"have not changed. Per-user installation of data files has changed "
+"location from ``.ipython`` to the platform-appropriate Jupyter location."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:106 5cad52a7f4444b2594994f4212eb9960
+msgid "Since Jupyter does not have profiles, how do I customize it?"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:108 1d9cef92df23418aa5ccb3e90d5c903f
+msgid ""
+"While IPython has the concept of :term:`profiles`, **Jupyter does not "
+"have profiles**."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:111 639d859d5f574f1aa6b157e5f3f046f2
+msgid ""
+"In IPython, profiles are collections of configuration and runtime files. "
+"Inside the IPython directory (``~/.ipython``), there are directories with"
+" names like ``profile_default`` or ``profile_demo``. In each of these are"
+" configuration files (``ipython_config.py``, "
+"``ipython_notebook_config.py``) and runtime files (``history.sqlite``, "
+"``security/kernel-*.json``). Profiles could be used to switch between "
+"configurations of IPython."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:118 40bc792d53ae490bb8e585ab87e70fc0
+msgid ""
+"Previously, people could use commands like ``ipython notebook --profile "
+"demo`` to set the profile for *both* the notebook server and the IPython "
+"kernel. This is no longer possible in one go with Jupyter, just like it "
+"wasn't possible in IPython 3 for any other kernels."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:124 c2c987a18c2b4be18451d75fa195c5a0
+msgid "Changing the Jupyter notebook configuration directory"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:126 197934af9cac485f83b745054bee170f
+msgid ""
+"If you want to change the notebook configuration, you can set the "
+"``JUPYTER_CONFIG_DIR``:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:135 22d6673426bb49ff86a250b987bdbc0c
+msgid "Changing the Jupyter notebook configuration file"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:137 9a2c7b2249424248b08c6b796f20d688
+msgid "If you just want to change the config file, you can do:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:144 019be71e16844f8fa6f0c987a8761799
+msgid "Changing IPython's profile using custom kernelspecs"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:146 df34447d91de41e7a4f8bcd95741b794
+msgid ""
+"If you do want to change the IPython kernel's profile, you can't do this "
+"at the server command-line anymore. Kernel arguments must be changed by "
+"modifying the kernelspec. You can do this without relaunching the server."
+" Kernelspec changes take effect every time you start a new kernel. "
+"However, there isn't a great way to modify the kernelspecs. One approach "
+"uses ``jupyter kernelspec list`` to find the ``kernel.json`` file and "
+"then modifies it, e.g. ``kernels/python3/kernel.json``, by hand. "
+"Alternatively, `a2km <https://github.com/minrk/a2km>`__ is an "
+"experimental project that tries to make these things easier."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:156 50799df35d664bf59e3c1de202a3cb00
+msgid ""
+"For example, add the ``--profile`` option to a custom kernelspec under "
+"``kernels/mycustom/kernel.json`` (see the Jupyter kernelspec directions "
+"`here <https://jupyter-client.readthedocs.io/en/latest/kernels.html"
+"#kernel-specs>`__):"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:170 971ad469a4af48c88995be6044e45406
+msgid ""
+"You can then run Jupyter with the ``--kernel=mycustom`` command-line "
+"option and IPython will find the appropriate profile."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:174 d809e1866e5744efb74cc24d029b476a
+msgid "Understanding Installation Changes"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:176 db3ab6861cf247ebbbf13201af760063
+msgid ""
+"See the :ref:`install` page for more information about installing "
+"Jupyter. Jupyter automatically migrates some things, like Notebook "
+"extensions and kernels."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:181 3f3738507e39475c9736b8182fb3271b
+msgid "Notebook extensions"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:183 58cf377555854f799119fee7773e167a
+msgid ""
+"Any IPython notebook extensions should be **automatically migrated** as "
+"part of the data files migration."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:186 df127f67fc7c44719a86b47550444f46
+msgid "Notebook extensions were installed with:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:192 73878f1fef8242d99dbb472386e89cf0
+msgid "Now, extensions are installed with:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:198 8c36d48c3427485d90edf808044e9780
+msgid ""
+"The notebook extensions will be installed in a system-wide location (e.g."
+" ``/usr/local/share/jupyter/nbextensions``). If doing a ``--user`` "
+"install, the notebook extensions will go in the ``JUPYTER_DATA_DIR`` "
+"location. Installation **SHOULD NOT** be done manually by guessing where "
+"the files should go."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:205 07106f34fab64ef79e4ddd4f9a2bf8c8
+msgid "Kernels"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:207 28f5a7a2b6994807a0d2f2ca5cfd606b
+msgid ""
+"Kernels are installed in much the same way as notebook extensions. They "
+"will also be **automatically migrated**."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:210 9b6776a62c854e32aeb374ecc3fe56a8
+msgid "Kernel specs used to be installed with:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:216 82e39828d17747f79fb109bee486ddcc
+msgid "They are now installed with:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:222 dcf13e307ed64f1a9b8dd64fd4438316
+msgid ""
+"By default, kernel specs will go in a system-wide location (e.g. "
+"``/usr/local/share/jupyter/kernels``). If doing a ``--user`` install, the"
+" kernel specs will go in the ``JUPYTER_DATA_DIR`` location. Installation "
+"**SHOULD NOT** be done manually by guessing where the files should go."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:228 f3e98214fa2e4d10a4ef46d79136d171
+msgid "Understanding Changes in imports"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:230 fd85d1c3b0a24faba7c85a9b839b2a5e
+msgid ""
+"IPython 4.0 includes shims to manage dependencies; so, all imports that "
+"work on IPython 3 should continue to work on IPython 4. If you find any "
+"differences, please `let us know "
+"<https://github.com/ipython/ipython/issues>`__."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:234 33f3bafaa1c24e43b8c4274bf2190e7b
+msgid "Some changes include:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:237 26f91a0e2e9d467f994ebd5fe92a3371
+msgid "IPython 3"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:237 2be2445067d14939ad9a6264f94be36b
+msgid "Jupyter and IPython 4.0"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:239 4b2e857c450145589335bc3e969b0b31
+msgid "``IPython.html``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:239 714f16a061884e35a4ea853d0e2a2982
+msgid "``notebook``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:240 e79334418b84463db004249560bcc7d1
+msgid "``IPython.html.widgets``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:240 da6483cef4cb4411930366a80bb2ad87
+msgid "``ipywidgets``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:241 25f78236e0e943a791767918eb710782
+msgid "``IPython.kernel``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:241 35f7cf18ee36479fa972bc76ca00937b
+msgid "``jupyter_client``, ``ipykernel``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:242 6859806ad1704f90a31bca09c43158a0
+msgid "``IPython.parallel``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:242 e8e33247572b45cf8d858df5c5750190
+msgid "``ipyparallel``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:243 a5376131538c440598ec805fa1fae3d8
+msgid "``IPython.qt.console``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:243 610627d8bb7144f698fb2830a4dd2c79
+msgid "``qtconsole``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:244 e022c9c8b7454a0d97dd83ceede3f2fc
+msgid "``IPython.utils.traitlets``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:244 a78041a984dd4b0b9d16db292d3b1837
+msgid "``traitlets``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:245 cfd961edc4614dc1831db78c97811c8b
+msgid "``IPython.config``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:245 d99162ce544c488bb236fb399769a117
+msgid "``traitlets.config``"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:250 45fada5ec28a4ad3b9b0e2ce006e8b7e
+msgid "The ``IPython.kernel`` Split"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:252 3d7333fd28d742208b98b0f1cfdb3d08
+msgid "``IPython.kernel`` became two packages:"
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:254 89ae6786046347839856b64b588cb034
+msgid "``jupyter_client`` for the Jupyter client-side APIs."
+msgstr ""
+
+#: ../../source/use/advanced/migrating.rst:255 2003c6fe8e9b4f3384003abccc417073
+msgid "``ipykernel`` for Jupyter's IPython kernel"
+msgstr ""
+
+#: ../../source/use/config.rst:4 41bad69c7e154a72b702b249a191a051
+msgid "Jupyter's Common Configuration Approach"
+msgstr ""
+
+#: ../../source/use/config.rst:10 ../../source/use/jupyter-directories.rst:133
+#: b085bd28617a44eca60fb6c8cd39c96c e1f110a21bae426a877e4db8c610b0ef
+msgid "Summary"
+msgstr ""
+
+#: ../../source/use/config.rst:12 7e74510d26c14247ab941023162e451d
+msgid ""
+"**Common Jupyter configuration system** The Jupyter applications have a "
+"common config system, and a common :ref:`config directory <config_dir>`. "
+"By default, this directory is :file:`~/.jupyter`."
+msgstr ""
+
+#: ../../source/use/config.rst:17 8be8cef3b08840d6ab415e4fa6e9fd50
+msgid ""
+"**Kernel configuration directories** If kernels use config files, these "
+"will normally be organised in separate directories for each kernel. For "
+"instance, the IPython kernel looks for files in the :ref:`IPython "
+"directory <ipythondir>` instead of the default Jupyter directory "
+":file:`~/.jupyter`."
+msgstr ""
+
+#: ../../source/use/config.rst:24 7ae1464ee1e340b6aa1be23d630d7125
+msgid "The Python config file"
+msgstr ""
+
+#: ../../source/use/config.rst:26 ceebb12747554aeb9d266d8f81875555
+msgid "To create a default config file, run:"
+msgstr ""
+
+#: ../../source/use/config.rst:32 f7af152c95a34d4795888edfea3431f3
+msgid "The generated file will be named :file:`jupyter_{application}_config.py`."
+msgstr ""
+
+#: ../../source/use/config.rst:34 9dd0cb4a39e745c5bb107657a28164a7
+msgid ""
+"By editing the :file:`jupyter_{application}_config.py` file, you can "
+"configure class attributes like this::"
+msgstr ""
+
+#: ../../source/use/config.rst:39 76ce634bc63b4a6f8ae91dd337adf582
+msgid ""
+"Be careful with spelling. Incorrect names will simply be ignored, with no"
+" error message."
+msgstr ""
+
+#: ../../source/use/config.rst:42 7259d12490704614bcbfcd7b79cd94dc
+msgid ""
+"To add to a collection which may have already been defined elsewhere, you"
+" can use methods like those found on lists, dicts and sets: ``append``, "
+"``extend``, :meth:`~traitlets.config.LazyConfigValue.prepend` (like "
+"extend, but at the front), ``add``, and ``update`` (which works both for "
+"dicts and sets)::"
+msgstr ""
+
+#: ../../source/use/config.rst:52 79a9390f8738470bb4783e2b82f9f1a3
+msgid "Command line options for configuration"
+msgstr ""
+
+#: ../../source/use/config.rst:54 3e29637dc5e34b59b8676b6c530bfa64
+msgid ""
+"Every configurable value can also be set from the command line and passed"
+" as an argument, using this syntax:"
+msgstr ""
+
+#: ../../source/use/config.rst:61 0545fee87ab349beb0ff630f4dcff00d
+msgid ""
+"Frequently used options will also have short aliases and flags, such as "
+"``--port 8754`` or ``--no-browser``."
+msgstr ""
+
+#: ../../source/use/config.rst:64 b9485b4d9a074da6960e98b7adfea16d
+msgid ""
+"To see the abbreviated options, pass ``--help`` or ``--help-all`` as "
+"follows:"
+msgstr ""
+
+#: ../../source/use/config.rst:72 8898b0dbbd7040d483d590aa6aa50e79
+msgid ""
+"Command line options **will override** options set within a configuration"
+" file."
+msgstr ""
+
+#: ../../source/use/config.rst:77 c2e0cc3f07954acebe6c820f3b961423
+msgid ":mod:`traitlets:traitlets.config`"
+msgstr ""
+
+#: ../../source/use/config.rst:78 6216c14925a24cb5b5226120837ef080
+msgid "The low-level architecture of this config system."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:4 4ec78c909938419f9c1f7e7f02db245d
+msgid "The :command:`jupyter` Command"
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:9 afeb47ee972743808498e0bb4981e304
+msgid "Synopsis"
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:16
+#: ../../source/use/use-cases/enterprise.rst:11
+#: ../../source/use/use-cases/narrative-hub.rst:8
+#: ../../source/use/use-cases/narrative-notebook.rst:8
+#: ../../source/use/use-cases/narrative-other.rst:8
+#: 0fb13090be5e470b9b3c4abc61536c0e 2a08b9e43cc34efa803afddf5553c738
+#: 2ac26b35f9b34294a6e37ee414c056ce 4f1000c7a4df4d07a492b513ff9b4ade
+#: addd7f2627784ebd9017b9d4b476a4c7
+msgid "Description"
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:18 07ab5c48ce604b14aa936279e7057382
+msgid ""
+"Commands like ``jupyter notebook`` start Jupyter applications. The "
+"``jupyter`` command is primarily a namespace for subcommands. A command "
+"like ``jupyter-foo`` found on your :envvar:`PATH` will be available as a "
+"subcommand ``jupyter foo``."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:23 1f7d084f318d43aeb7b7ccf524432ab9
+msgid ""
+"The :command:`jupyter` command can also be used to do actions other than "
+"starting a Jupyter application."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:27 201ff18baa6c4773a33708ff88c6c509
+msgid "Command options"
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:31 73fea3ce0d40480c9ea54507e6a4a437
+msgid "Show help information, including available subcommands."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:35 262920a1a2904cada856d974bb81d2fe
+msgid "Show the location of the config directory."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:39 56fe11527bed4d319fbcf5b21b983a91
+msgid "Show the location of the data directory."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:43 b1ceb464668845ef9b668064de65138d
+msgid "Show the location of the runtime directory."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:47 ac63ca048b4541478385a3a11cdefa7f
+msgid "Show all Jupyter directories and search paths."
+msgstr ""
+
+#: ../../source/use/jupyter-command.rst:51 c7b405d1e096478181f3fd3dbbd93635
+msgid "Print directories and search paths in machine-readable JSON format."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:4 93df4178451f4224ba5cc441a98e442f
+msgid "Common Directories and File Locations"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:9 e157a4635877429da5c2cb848b7c5291
+msgid ""
+"Jupyter stores different files (i.e. configuration, data, runtime) in a "
+"number of different locations. Environment variables may be set to "
+"customize for the location of each file type."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:13 2ba8b284bcb94b45be877cebe8c85e89
+msgid ""
+"Jupyter separates **data files** (nbextensions, kernelspecs) from "
+"**runtime files** (logs, pid files, connection files) from "
+"**configuration** (config files, custom.js)."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:22 2581e518d62e49cdaf360ed3afc660f4
+msgid "Config files are stored by default in the :file:`~/.jupyter` directory."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:26 3da46ed48d3a4899a38b82ab0866a4b3
+msgid ""
+"Set this environment variable to use a particular directory, other than "
+"the default, for Jupyter config files."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:29 dc114fa302e24438ba3909b20231ba12
+msgid ""
+"Besides the user config directory mentioned above, Jupyter has a search "
+"path of additional locations from which a config file will be loaded. "
+"Here's a table of the locations to be searched, in order of preference:"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:34 28fd4e6b6aa14d65850305aebc5fa505
+msgid "Unix"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:34
+#: ../../source/use/jupyter-directories.rst:75 59440f70352a43f0b4f21bc6a7c8e29a
+#: 978fa02d5b604b9d986afe8766e1feb2
+msgid "Windows"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:36 63f87896762e428b93a86d1ccf0ba6e5
+msgid ":envvar:`JUPYTER_CONFIG_DIR`"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:38 1f9f51345ae544638672b76675a4006f
+msgid "``{sys.prefix}/etc/jupyter/``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:40 1b020d64d3654b179002a9dd0307a074
+msgid "``/usr/local/etc/jupyter/`` ``/etc/jupyter/``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:40 98856cf0ce1f4f71a3618f42a3df419a
+msgid "``%PROGRAMDATA%\\jupyter\\``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:44 be6626a10b1446e58af339b022f5f11e
+msgid ""
+"To list the config directories currrently being used you can run the "
+"below command from the :term:`command line`::"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:48 039f3d446db04d208c46f8320a4dec05
+msgid "The following command shows the config directory specifically:::"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:53 6760cf4ba64d4b7a8fa99dc36d247eeb
+msgid "Data files"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:58 379ba69dedd349bcb2b00dce431303b0
+msgid ""
+"Jupyter uses a search path to find installable data files, such as "
+":ref:`kernelspecs <kernelspecs>` and notebook extensions. When searching "
+"for a resource, the code will search the search path starting at the "
+"first directory until it finds where the resource is contained."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:63 9d6154469f6548ba84b8874b16d58e7d
+msgid ""
+"Each category of file is in a subdirectory of each directory of the "
+"search path. For example, kernel specs are in ``kernels`` subdirectories."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:68 c8e6f9ae55304d0cb7fea1dfbf5c0d0a
+msgid ""
+"Set this environment variable to provide extra directories for the data "
+"search path. :envvar:`JUPYTER_PATH` should contain a series of "
+"directories, separated by ``os.pathsep`` (``;`` on Windows, ``:`` on "
+"Unix). Directories given in :envvar:`JUPYTER_PATH` are searched before "
+"other locations. This is used in addition to other entries, rather than "
+"replacing any."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:75 51d9880f44c5473bb9289bc957aff2dc
+msgid "Linux (& other free desktops)"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:75 89b23fe03b604001a31901226440641a
+msgid "Mac"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:77 9f9d711fec5440be97459499cfa52701
+msgid ":envvar:`JUPYTER_PATH`"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:79 7b2c8afdab9f4dd3a51984e9b2ea0450
+msgid "``~/.local/share/jupyter/`` (respects ``$XDG_DATA_HOME``)"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:79 dbe6cd8c90814f86a59e16d331eb6a53
+msgid "``~/Library/Jupyter``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:79 3c0974712e4f46e698754999529247ca
+msgid "``%APPDATA%\\jupyter``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:82 c17b385dc6eb4a9fb1288a0db1d85c79
+msgid "``{sys.prefix}/share/jupyter/``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:84 22288ab4fe664938b955c7ba6747be84
+msgid "``/usr/local/share/jupyter`` ``/usr/share/jupyter``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:84 88ccd033ebd24e82b987b13883757643
+msgid "``%PROGRAMDATA\\jupyter``"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:90 9ad3408aecaf455fbd9fa260a9f26a3b
+msgid ""
+"The config directory for Jupyter data files, which contain non-transient,"
+" non-configuration files. Examples include kernelspecs, nbextensions, or "
+"voila templates."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:95 dc11b69284f949fcb0dbe55167c2dfec
+msgid ""
+"Set this environment variable to use a particular directory, other than "
+"the default, as the user data directory."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:97
+#: ../../source/use/jupyter-directories.rst:124
+#: 739294f8d17240b7ba10cda398360f24 d59f685278a94352a3e01ca8546bac08
+msgid ""
+"As mentioned above, to list the config directories currently being used "
+"you can run the below command from the :term:`command line`::"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:101
+#: 23b591c7746549229f5097ed1a454622
+msgid "The following command shows the data directory specificially:::"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:108
+#: cc9de159abd542f19ebba49ede526f1b
+msgid "Runtime files"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:110
+#: fc07afeece5c4dadba2b20cb4269f358
+msgid ""
+"Things like connection files, which are only useful for the lifetime of a"
+" particular process, have a runtime directory."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:113
+#: 95da3544e2a54c65838f4d22bd3fb1f4
+msgid ""
+"On Linux and other free desktop platforms, these runtime files are stored"
+" in ``$XDG_RUNTIME_DIR/jupyter`` by default. On other platforms, it's a "
+"``runtime/`` subdirectory of the user's data directory (second row of the"
+" table above)."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:118
+#: c4cc4fbb19114087a1fcd4fa8e07bf7a
+msgid "An environment variable may also be used to set the runtime directory."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:122
+#: 437213d775e74a179fb7bb853c7e9358
+msgid "Set this to override where Jupyter stores runtime files."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:128
+#: f58925d62855453291ef31c1e0ef5fcb
+msgid "The following command shows the runtime directory specifically:::"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:135
+#: 427ac7ee787348c9aea9696da14904b1
+msgid ":envvar:`JUPYTER_CONFIG_DIR` for config file location"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:137
+#: 8628fef9390348a999c1d6cf2ffa68ba
+msgid ":envvar:`JUPYTER_PATH` for datafile directory locations"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:139
+#: 312201ae4a4340458a486e58048f6a27
+msgid ":envvar:`JUPYTER_DATA_DIR` for data file location"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:141
+#: f16dbc59808b48c586eb708c1e6fc2c1
+msgid ":envvar:`JUPYTER_RUNTIME_DIR` for runtime file location"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:147
+#: cff5d07c48fe4e7199c75d36671a98d8
+msgid ":mod:`jupyter_core.paths`"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:147
+#: ce676f7d69344ac2aa1d64ec0593b18b
+msgid "The Python API to locate these directories."
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:149
+#: 76c9b9185c18498b8a6e901585987e6b
+msgid ":ref:`jupyter_command`"
+msgstr ""
+
+#: ../../source/use/jupyter-directories.rst:150
+#: aa968eba989641e9a81e64623439aa09
+msgid "Locate these directories from the command line."
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:2 5fa70b50eade406f9c435dfcacf15906
+msgid "Upgrading Jupyter Notebook"
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:8 ea22d180092344629c9967fb8753262b
+msgid "Upgrading Jupyter Notebook using Anaconda"
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:9
+#: ../../source/use/upgrade-notebook.rst:28 1411ae02a99146b1b2bbca8ebe34f70e
+#: 2b0441f8ef4a4ec4bc8b57c320069cd0
+msgid "If using **Anaconda**, update Jupyter using ``conda``:"
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:15
+#: ../../source/use/upgrade-notebook.rst:42 01f4bdfe2c3a4645bf9447faea5c91d4
+#: 238de4c91d864cbfb3095304bed74cfc
+msgid "See :ref:`Run the Notebook <running>` for running the Jupyter Notebook."
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:21 efbd5221f08640c8b5ef915b8526269f
+msgid "Upgrading IPython Notebook to Jupyter Notebook"
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:23 5929138f74754a16a90c2868082227bf
+msgid ""
+"The Jupyter Notebook used to be called the IPython Notebook. If you are "
+"running an older version of the IPython Notebook (version 3 or earlier) "
+"you can use the following to upgrade to the latest version of the Jupyter"
+" Notebook."
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:34 fbb5934357f9449bb50b30deec70639e
+msgid "*or*"
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:36 db399bbb55c043dda5667b115a8856b4
+msgid "If using :term:`pip`:"
+msgstr ""
+
+#: ../../source/use/upgrade-notebook.rst:46 25ed147150194069ae3f44b2251d2882
+msgid ""
+"The :doc:`migrating document <advanced/migrating>` has additional "
+"information about migrating from IPython 3 to Jupyter."
+msgstr ""
+
+#: ../../source/use/use-cases/content-user.rst:2
+#: c7236de0914f475594c9efbfd6bc4c79
+msgid "Narratives and Use Cases"
+msgstr ""
+
+#: ../../source/use/use-cases/content-user.rst:16
+#: f5bc09f9b13040169b5821fb96b71381
+msgid "What are Narratives?"
+msgstr ""
+
+#: ../../source/use/use-cases/content-user.rst:17
+#: f5b679ae2e5448e18a0ac50467b1c71c
+msgid ""
+"Narratives are *collaborative*, *shareable*, *publishable*, and "
+"*reproducible*. We believe that Narratives help both yourself and other "
+"researchers by sharing your use of Jupyter projects, technical specifics "
+"of your deployment, and installation and configuration tips so that "
+"others can learn from your experiences."
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:5
+#: a8531ebeaacb4f6fae6756e16a218d71
+msgid "Jupyter for Data Science"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:7
+#: ba4c7ed619ff4b15958c331e24dac735
+msgid ""
+"The purpose of this page is to highlight kernels and other projects that "
+"are central to the usage of Jupyter in data science. This page is not "
+"meant to be comprehensive or unbiased, but rather to provide an "
+"opinionated view of the usage of Jupyter in data science based on our "
+"interactions with users."
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:12
+#: 471bae9965604e6881282c3a3b1b8102
+msgid "The following Jupyter kernels are widely used in data science:"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:14
+#: 2c0220995087438daf8b925b7fcfc358
+msgid "python"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:15
+#: 9e14565f69094431bda6d465060f30b8
+msgid "IPython (`GitHub Repo <https://github.com/ipython/ipykernel>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:18
+#: ade1d1968774474082b96870579953ce
+msgid "R"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:17
+#: 8b436fbc705c477b9ec3733110e9ae08
+msgid ""
+"IRkernel (`Documentation <https://irkernel.github.io/>`__, `GitHub Repo "
+"<https://github.com/IRkernel/IRkernel>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:18
+#: 5b92ef59f0ee48f094fb9f64bd068129
+msgid "IRdisplay (`GitHub Repo <https://github.com/IRkernel/IRdisplay>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:19
+#: 0ec029489ce9451384a8a3977f4c4539
+msgid "repr (`GitHub Repo <https://github.com/IRkernel/repr>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:21
+#: 5e3ed991c1824e80be349187e7dde218
+msgid "Julia"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:21
+#: 5980aca3b2b94ecab4cbd6c6c2dcd0a3
+msgid "IJulia Kernel (`GitHub Repo <https://github.com/JuliaLang/IJulia.jl>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:22
+#: 7d5ead9b745b4ab8b49e8be172499530
+msgid ""
+"Interactive Widgets (`GitHub Repo "
+"<https://github.com/JuliaLang/Interact.jl>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/data_science.rst:23
+#: 8193052ad38a436aa1df5e57c5a82c75
+msgid "Bash (`GitHub Repo <https://github.com/takluyver/bash_kernel>`__)"
+msgstr ""
+
+#: ../../source/use/use-cases/education.rst:2 50ba6d5fea394b018b67b6519035f9f1
+msgid "Jupyter in Education"
+msgstr ""
+
+#: ../../source/use/use-cases/education.rst:5
+#: ../../source/use/use-cases/narrative-hub.rst:29
+#: ../../source/use/use-cases/narrative-notebook.rst:24
+#: ../../source/use/use-cases/narrative-other.rst:23
+#: ../../source/use/use-cases/science.rst:5 67f8aeaff8ec4a78a06da642b7893dda
+#: 865ec36b631d4eada51d41f22ab8b07f 983347d6992e43fc87e06821fa562867
+#: b08bc04428f84f73b4646772f991f774 d97216785fdd4308884500167bdaea9f
+msgid ""
+"We're actively working on this section of the documentation to improve it"
+" for you. Thanks for your patience."
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:5 ea2aa52e3a2c459c816e605bda8644f9
+msgid "Jupyter in the Enterprise"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:13
+#: cf7405f685d44826a4490c8fc0f94e41
+msgid ""
+"Businesses, especially those that started their ‘digital transformation’ "
+"journey, are producing ever-increasing volumes of data. Enterprise data "
+"science aims to unearth the hidden value of those digital assets, which "
+"are typically siloed, uncategorized, and inaccessible to humans."
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:17
+#: d68960b85faa42d1b773366b9c9927e3
+msgid ""
+"Jupyter and JupyterHub can play a major role in related initiatives, "
+"especially in companies with an established open-source culture. The "
+"intent of this page is to provide you with ideas how Jupyter technology "
+"can fit into *your* organization's processes and system landscapes, by "
+"providing real-world examples and showcases."
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:24
+#: b0baf92e35c440118843d7e93cca2779
+msgid "Example Use-Cases"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:26
+#: d5abed3262514f79a40bd44204eba221
+msgid ""
+"`Beyond Interactive: Notebook Innovation at Netflix <https://medium.com"
+"/netflix-techblog/notebook-innovation-591ee3221233>`_"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:28
+#: e6fd3e8c43b1469fa3b836cdf284078f
+msgid ""
+"`Part 2: Scheduling Notebooks at Netflix <https://medium.com/netflix-"
+"techblog/scheduling-notebooks-348e6c14cfd6>`_"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:30
+#: e4bce800e2b24d9ab142e0268b42f5e8
+msgid ""
+"`PayPal Notebooks: Data science and machine learning at scale, powered by"
+" Jupyter <https://conferences.oreilly.com/jupyter/jup-"
+"ny/public/schedule/detail/68405>`_ (JupyterCon 2018 · `video "
+"<https://youtu.be/KVGrACWVUgE>`_)"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:32
+#: 6b8a2e22293b4b1e967ab4751f2c013e
+msgid ""
+"`Bloomberg BQuant platform <https://mingze-gao.com/posts/bloomberg-"
+"bquant/>`_"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:34
+#: 5839524b49e048e8975529f6afe005ff
+msgid ""
+"`Jupyter & Python in the corporate LAN "
+"<https://medium.com/@olivier.borderies/jupyter-python-in-the-corporate-"
+"lan-109e2ffde897>`_"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:36
+#: 120eec2d9ca24694a4d7e5f9bf59af69
+msgid ""
+"`DevOps Intelligence with JupyterHub "
+"<https://nbviewer.jupyter.org/github/jhermann/jupyter-by-"
+"example/blob/master/complete-scenarios/devops-intelligence.ipynb>`_"
+msgstr ""
+
+#: ../../source/use/use-cases/enterprise.rst:40
+#: dc554795fe314ec1a432d9a367e9b16f
+msgid ""
+"We're actively working on this section of the documentation to improve it"
+" for you. If you've got a suggestion for a resource that would be "
+"helpful, please create an issue or a pull request!"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:2
+#: 33960c01f44949ffbc791e5173a36df9
+msgid "JupyterHub Narratives"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:10
+#: 9ce7ca68dad34135aa1c06d325e03574
+msgid ""
+"JupyterHub Narratives explore deployment and scaling of the Jupyter "
+"Notebook for a group of users. JupyterHub allows flexibility in "
+"configuration and deployment which makes JupyterHub valuable to "
+"education, industry research teams, and service providers. In these "
+"Narratives, we will look at differences in deployment, deployment "
+"advantages, and best practices."
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:17
+#: ../../source/use/use-cases/narrative-notebook.rst:14
+#: ../../source/use/use-cases/narrative-other.rst:15
+#: 79f9f4c298c5496bb5602e6bc302733f ab8e45f458154fe3b81e4c38e6feeb9f
+#: e8cfb89d31d24934878f25be86ad9137
+msgid "Narrative examples"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:19
+#: 13c978532a464f93adfda9d1ad3199a8
+msgid "A basic JupyterHub deployment"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:20
+#: f1552d3cb57c405bafe3e7d557e3e434
+msgid ""
+"A `reference deployment of JupyterHub using Docker "
+"<https://github.com/jupyterhub/jupyterhub-deploy-docker>`_"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:21
+#: 6edc03ffa5b843f18e83c2159ac10a4b
+msgid ""
+"Teaching a Course with JupyterHub and nbgrader using a `reference "
+"deployment on a single server and Ansible scripts "
+"<https://github.com/jupyterhub/jupyterhub-deploy-teaching>`_ to automate "
+"set up"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:24
+#: eccf41473fa640868879105f8e8b1e9e
+msgid "Teaching a Course with JupyterHub, nbgrader, and containers"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-hub.rst:25
+#: 0c37d9be00f94fa0b48e81bb124fa454
+msgid "JupyterHub deployments using Containers including Docker"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:2
+#: da624eda92df44558f8632ddc09aaee3
+msgid "Notebook Narratives"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:10
+#: 7092a13392344ce3af35d18b9dbf872a
+msgid ""
+"The Notebook Narratives explore uses of the Jupyter Notebook in a variety"
+" of applications."
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:16
+#: fa1425663ffb408d8c6a52883872d97a
+msgid "Using the Notebook for data exploration"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:17
+#: 0e9beafe1da1441b86842d0f6225b61f
+msgid "Using extensions and widgets"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:18
+#: 403d213e99244ac0b9d68c62147c1300
+msgid "Using nbconvert for code execution and workflow simplification"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:19
+#: 7f0e140221f440f7bfe8c6364962cf15
+msgid "Using nbconvert for publishing"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-notebook.rst:20
+#: 4fcc476e392741108419d5f0e92511b7
+msgid "Using multiple language kernels"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-other.rst:2
+#: c154a51d00c44e74bcf4ca61547260ca
+msgid "Narratives - Building blocks"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-other.rst:10
+#: 60d3408ab11c4a61afce5d4bf200bc1b
+msgid ""
+"This section presents some examples of integrating different projects "
+"together. These projects form the foundation of innovative services and "
+"provide building blocks for future applications."
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-other.rst:17
+#: 9ffa3c522a2b4bd4bc84d0982e2348fc
+msgid "A Narrative about Creating Dashboards"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-other.rst:18
+#: 30ba78634e5a496e821c6721f8c6e2ed
+msgid "A Narrative about Thebe"
+msgstr ""
+
+#: ../../source/use/use-cases/narrative-other.rst:19
+#: 8c0e696a4b2248c4bc4d96d3db5fd030
+msgid "A Narrative about Hydrogen"
+msgstr ""
+
+#: ../../source/use/use-cases/science.rst:2 e412a4daa0504faa91e73611de343315
+msgid "Jupyter and Scientific Computing"
+msgstr ""
+
+#: ../../source/use/using.rst:3 711ea19a78284aab9e28e1d592e788e2
+msgid "Using Jupyter Tools"
+msgstr ""
+
+#: ../../source/use/using.rst:5 aba473d0b9db457783d2df2de64013c2
+msgid "Information relevant to using the various tools in the Jupyter ecosystem."
+msgstr ""
+
+#: ../../source/use/using.rst:22 1474359d16594df794bd6ddadaa3e166
+msgid "Installation"
+msgstr ""
+
+#: ../../source/use/using.rst:31 bf8081d429e245538138f4eb4f1bc4ff
+msgid "Use and Configure"
+msgstr ""
+
+#: ../../source/use/using.rst:42 33a1457508a349daa23ca11b4071de76
+msgid "How do I decide which packages I need?"
+msgstr ""
+
+#: ../../source/use/using.rst:44 ee61423097374b298eb23f95878e3382
+msgid ""
+"Jupyter can be used for many different use-cases. Below are a few user "
+"stories for when and how you might use tools in the Jupyter ecosystem, as"
+" well as a diagram that helps lay out some of your options."
+msgstr ""
+
+#: ../../source/use/using.rst:168 79c4f997be1e428398b6eec107f1c389
+msgid "Advanced topics"
+msgstr ""
+
