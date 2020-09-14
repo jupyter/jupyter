@@ -9,7 +9,6 @@
 import sys
 import os
 import shlex
-import recommonmark.parser
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -30,7 +29,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz', # Add the graphviz extension
-    'recommonmark',
+    'myst_parser',
     'sphinx_panels'
 ]
 

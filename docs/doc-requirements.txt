@@ -1,6 +1,6 @@
 sphinx>=3.1
 sphinx-intl
-recommonmark
+myst_parser
 nbsphinx
 pydata-sphinx-theme
 sphinx-panels
