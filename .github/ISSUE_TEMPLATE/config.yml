@@ -1,7 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: "\U0001F914 If you have a question or an issue about one of the tools in Jupyter,
-    we recommend asking in the Jupyter community Discourse forum. Thanks! :heart:"
+  - name: "\U0001FA90 Questions or issues about one of the tools in Jupyter"
     url: https://discourse.jupyter.org
-    about: Welcome to the jupyter meta repository! This repository is the home of the Jupyter-wide documentation. However,
-    it **not** the best place to ask questions about Jupyter.
+    about: Welcome to the Jupyter meta repository! This repository is the home of the Jupyter-wide documentation. However, it is not the best place to ask questions about Jupyter. We recommend asking in the Jupyter community Discourse forum. Thanks!
