@@ -1,0 +1,6 @@
+contact_links:
+  - name: "\U0001F914 If you have a question or an issue about one of the tools in Jupyter,
+    we recommend asking in the Jupyter community Discourse forum. Thanks! :heart:"
+    url: https://discourse.jupyter.org
+    about: Welcome to the jupyter meta repository! This repository is the home of the Jupyter-wide documentation. However,
+    it **not** the best place to ask questions about Jupyter.
