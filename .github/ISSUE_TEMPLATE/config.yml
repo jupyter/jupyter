@@ -1,3 +1,4 @@
+blank_issues_enabled: false
 contact_links:
   - name: "\U0001F914 If you have a question or an issue about one of the tools in Jupyter,
     we recommend asking in the Jupyter community Discourse forum. Thanks! :heart:"
