@@ -156,7 +156,7 @@ You may see the word **Jovyan** used in Jupyter tools (such as the user ID in th
 conversations. But what is a Jovyan?
 
 In astronomical terms, the word "Jovian" means "like Jupiter". It describes
-`several planets that share Jupyter-like properties <https://www.universetoday.com/33061/what-are-the-jovian-planets/>`_.
+`several planets that share Jupiter-like properties <https://www.universetoday.com/33061/what-are-the-jovian-planets/>`_.
 
 Much like the planet Jupiter and our solar system, the Jupyter community
 is large, distributed, and nebulous. We like to use the word **Jovyan** to
