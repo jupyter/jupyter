@@ -1,11 +1,11 @@
 # Jupyter Community Call
-## November 18th, 2020
+## November 17th, 2020
 
 **Date:** November 17th, 2020, at 9am Pacific (your [timezone](https://arewemeetingyet.com/Los%20Angeles/2020-11-17/09:00/Jupyter%20Community%20Call))
 
 **Discourse:** https://discourse.jupyter.org/t/jupyter-community-calls/668
 
-**[Youtube Link]()**
+**[Youtube Link](https://youtu.be/bko-v1ZZoig)**
 
 **Please Note:**
 - Community calls are recorded and posted to this [playlist](https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP)
