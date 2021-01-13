@@ -26,6 +26,18 @@ Config files are stored by default in the :file:`~/.jupyter` directory.
    Set this environment variable to use a particular directory, other than the
    default, for Jupyter config files.
 
+Besides the :envvar:`JUPYTER_CONFIG_DIR`, additional directories to search can be 
+specified through :envvar:`JUPYTER_CONFIG_PATH`.
+
+.. envvar:: JUPYTER_CONFIG_PATH
+   Set this environment variable to provide extra directories for the config search path.
+   :envvar:`JUPYTER_CONFIG_PATH` should contain a series of directories, seperated by
+   `` os.pathsep`` (``;`` on Windows, ``:`` on Unix).
+
+An example of where the :envvar:`JUPYTER_CONFIG_PATH` can be set is if notebook or server extensions are 
+installed in a custom prefix. Since notebook and server extensions are automatically enabled through configuration files, 
+automatic enabling will only work if the custom prefix's ``etc/jupyter`` directory is added to the Jupyter config search path.
+
 Besides the user config directory mentioned above, Jupyter has a search
 path of additional locations from which a config file will be loaded. Here's a
 table of the locations to be searched, in order of preference:
@@ -35,6 +47,8 @@ table of the locations to be searched, in order of preference:
 +==============================+============================+
 |                 :envvar:`JUPYTER_CONFIG_DIR`              |
 +------------------------------+----------------------------+
+|                 :envvar:`JUPYTER_CONFIG_PATH`             |
++-----------------------------------------------------------+
 |                ``{sys.prefix}/etc/jupyter/``              |
 +------------------------------+----------------------------+
 | ``/usr/local/etc/jupyter/``  | ``%PROGRAMDATA%\jupyter\`` |
@@ -76,6 +90,8 @@ search path. For example, kernel specs are in ``kernels`` subdirectories.
 +===============================+============================+============================+
 | :envvar:`JUPYTER_PATH`                                                                  |
 +-------------------------------+----------------------------+----------------------------+
+| :envvar:`JUPYTER_DATA_DIR`    | :envvar:`JUPYTER_DATA_DIR` | :envvar:`JUPYTER_DATA_DIR` |
+| or (if not set)               | or (if not set)            | or (if not set)            |
 | ``~/.local/share/jupyter/``   | ``~/Library/Jupyter``      | ``%APPDATA%\jupyter``      |
 | (respects ``$XDG_DATA_HOME``) |                            |                            |
 +-------------------------------+----------------------------+----------------------------+
@@ -133,6 +149,8 @@ Summary
 -------
 
 :envvar:`JUPYTER_CONFIG_DIR` for config file location
+
+:envvar:`JUPYTER_CONFIG_PATH` for config file locations
 
 :envvar:`JUPYTER_PATH` for datafile directory locations
 
