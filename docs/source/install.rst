@@ -30,7 +30,7 @@ live-code with narrative text, equations and visualizations.
 Jupyter Lab
 ===========
 
-**JupyterLab** is A next-generation web-based user interface for Project Jupyter.
+**JupyterLab** is a next-generation web-based user interface for Project Jupyter.
 
 * `GitHub Repo <https://github.com/jupyterlab/jupyterlab>`__
 * `Docs <https://jupyterlab.readthedocs.io/en/stable/>`__
@@ -70,7 +70,7 @@ The **Jupyter QtConsole** is a Qt application for interactive computing with ric
 Jupyter Kernels
 ===============
 
-You can install **Jupyer Kernels** to add support for new languages and code behavior.
+You can install **Jupyter Kernels** to add support for new languages and code behavior.
 
 .. toctree::
 
