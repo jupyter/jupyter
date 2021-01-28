@@ -10,13 +10,13 @@ Read The Docs or in the GitHub project repo.
 
 Jupyter User Interfaces
 -----------------------
-* `Jupyter Notebook <http://jupyter-notebook.readthedocs.io/en/latest/>`_
-* `jupyter_console <http://jupyter-console.readthedocs.io/en/latest/>`_
+* `Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`_
+* `jupyter_console <https://jupyter-console.readthedocs.io/en/latest/>`_
 * `qtconsole <https://qtconsole.readthedocs.io/en/stable/>`_
 
 JupyterHub
 ----------
-* `JupyterHub <http://jupyterhub.readthedocs.io/en/latest/>`_
+* `JupyterHub <https://jupyterhub.readthedocs.io/en/latest/>`_
 * `configurable-http-proxy <https://github.com/jupyterhub/configurable-http-proxy>`_
 * `dockerspawner <https://github.com/jupyterhub/dockerspawner>`_
 * `ldapauthenticator <https://github.com/jupyterhub/ldapauthenticator>`_
@@ -25,12 +25,12 @@ JupyterHub
 
 Education
 ---------
-* `nbgrader <http://nbgrader.readthedocs.io/en/latest/>`_
+* `nbgrader <https://nbgrader.readthedocs.io/en/latest/>`_
 
 Notebook Conversion and Formatting
 ----------------------------------
-* `nbconvert <http://nbconvert.readthedocs.io/en/latest/>`_
-* `nbformat <http://nbformat.readthedocs.io/en/latest/>`_
+* `nbconvert <https://nbconvert.readthedocs.io/en/latest/>`_
+* `nbformat <https://nbformat.readthedocs.io/en/latest/>`_
 
 Kernels
 -------
@@ -51,10 +51,10 @@ Deployment
 * `ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`_
 * `jupyter-drive <https://github.com/jupyter/jupyter-drive>`_
 * `jupyter-sphinx-theme <https://github.com/jupyter/jupyter-sphinx-theme>`_
-* `kernel_gateway <http://jupyter-kernel-gateway.readthedocs.io/en/latest/>`_
+* `kernel_gateway <https://jupyter-kernel-gateway.readthedocs.io/en/latest/>`_
 * `nbviewer <https://github.com/jupyter/nbviewer>`_
 * `tmpnb <https://github.com/jupyter/tmpnb>`_
-* `traitlets <http://traitlets.readthedocs.io/en/stable/>`_
+* `traitlets <https://traitlets.readthedocs.io/en/stable/>`_
 
 JupyterLab
 ----------
@@ -67,5 +67,5 @@ JupyterLab
 
 Architecture
 ------------
-* `jupyter_client <http://jupyter-client.readthedocs.io/en/latest/>`_
-* `jupyter_core <http://jupyter-core.readthedocs.io/en/latest/>`_
+* `jupyter_client <https://jupyter-client.readthedocs.io/en/latest/>`_
+* `jupyter_core <https://jupyter-core.readthedocs.io/en/latest/>`_

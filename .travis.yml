@@ -8,7 +8,7 @@ jobs:
     - stage: test-docs
       install:
       - pip install --upgrade pip sphinx
-      - pip install jupyter_sphinx_theme recommonmark sphinx-intl
+      - pip install -r docs/doc-requirements.txt
       script:
       # Test build of HTML docs and English translation templates
       - make -C docs html
@@ -17,7 +17,7 @@ jobs:
     - stage: push-tx
       install:
       - pip install --upgrade pip sphinx
-      - pip install jupyter_sphinx_theme recommonmark sphinx-intl
+      - pip install -r docs/doc-requirements.txt
       script:
       - cd docs
       # Rebuild HTML again to test for merge problems

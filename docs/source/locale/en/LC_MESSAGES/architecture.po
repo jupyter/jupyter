@@ -9,37 +9,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jupyter Documentation 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"POT-Creation-Date: 2020-07-06 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-# 0bc823304e0d4ab39f2774b29044df9b
-#: ../../source/architecture/content-architecture.rst:2
-msgid "Architecture Guides"
+#: ../../source/architecture/content-architecture.rst:3
+#: ec6ef6528d7a4d5a9e8afbb96f7e0ff2
+msgid "Architecture"
+msgstr ""
+
+# cc1b649f66b949ebb3984ea361c9ee45
+#: ../../source/architecture/content-architecture.rst:5
+#: 5dff249b734d4781bd740d49e81f989d
+msgid "**A high level visual overview of project relationships**"
 msgstr ""
 
 # 8ce5c1bb3b244604b361cd2384066f68
-#: ../../source/architecture/how_jupyter_ipython_work.rst:2
+#: ../../source/architecture/content-architecture.rst:15
+#: c6ca719d9a27496ea866661e20f36ca2
 msgid "How IPython and Jupyter Notebook work"
 msgstr ""
 
 # 242c15d658d64a13a2b8b13502845298
-#: ../../source/architecture/how_jupyter_ipython_work.rst:5
+#: ../../source/architecture/content-architecture.rst:18
+#: 7994f223f78e4a908cda70a3084be5eb
 msgid "Contents"
 msgstr ""
 
 # a7b9fc6771f845528e8f7135c51754fa
-#: ../../source/architecture/how_jupyter_ipython_work.rst:8
+#: ../../source/architecture/content-architecture.rst:21
+#: 5c2a67c9df3841df8cbadacaf8eea24b
 msgid "Abstract"
 msgstr ""
 
 # 3b9b38491da4493b95225b77bcd32438
-#: ../../source/architecture/how_jupyter_ipython_work.rst:9
+#: ../../source/architecture/content-architecture.rst:22
+#: b982fc7cf3ca4774afad6cbb3194f0df
 msgid ""
 "This section focuses on IPython and Jupyter notebook and how they "
 "interact. When we discuss ``IPython``, we talk about two fundamental "
@@ -47,38 +57,44 @@ msgid ""
 msgstr ""
 
 # 676993980a9e4a9082f9f313e09af108
-#: ../../source/architecture/how_jupyter_ipython_work.rst:12
+#: ../../source/architecture/content-architecture.rst:25
+#: 07c6da067ceb4475b93c18fe91352903
 msgid "Terminal IPython as the familiar REPL"
 msgstr ""
 
 # 5164fcd91a8a4700ac734562245773ad
-#: ../../source/architecture/how_jupyter_ipython_work.rst:13
+#: ../../source/architecture/content-architecture.rst:26
+#: 00e503be44f941ef906f17278580f866
 msgid ""
 "The IPython kernel that provides computation and communication with the "
 "frontend interfaces, like the notebook"
 msgstr ""
 
 # e79b4b9cf0d4461e8c91e35c54941346
-#: ../../source/architecture/how_jupyter_ipython_work.rst:16
+#: ../../source/architecture/content-architecture.rst:29
+#: 8186366605cb484a999a75c3cc8a868d
 msgid ""
 "Jupyter Notebook and its flexible interface extends the notebook beyond "
 "code to visualization, multimedia, collaboration, and more."
 msgstr ""
 
 # f0e8484a13374e5ba11bc5673feecc30
-#: ../../source/architecture/how_jupyter_ipython_work.rst:20
+#: ../../source/architecture/content-architecture.rst:33
+#: b00f6803e5ab45138afd47655a1d14cd
 msgid "Terminal IPython"
 msgstr ""
 
 # d52946417b8a4a04a551622ce78e0c78
-#: ../../source/architecture/how_jupyter_ipython_work.rst:22
+#: ../../source/architecture/content-architecture.rst:35
+#: 4c678061b44a46f1a9a5103cb5983bf0
 msgid ""
 "When you type ``ipython``, you get the original IPython interface, "
 "running in the terminal. It does something like this::"
 msgstr ""
 
 # 9c51878d67554820815080da49295cb3
-#: ../../source/architecture/how_jupyter_ipython_work.rst:29
+#: ../../source/architecture/content-architecture.rst:42
+#: f8c7332f2e27480c9a30db59fe5f35e7
 msgid ""
 "Of course, it's much more complex, because it has to deal with multi-line"
 " code, tab completion using :mod:`readline`, magic commands, and so on. "
@@ -88,12 +104,14 @@ msgid ""
 msgstr ""
 
 # 6948d86fd4fd47a1a4ca54d29e72d46e
-#: ../../source/architecture/how_jupyter_ipython_work.rst:36
+#: ../../source/architecture/content-architecture.rst:49
+#: b762294ac7bd43c28c3a5db8b92dceae
 msgid "The IPython Kernel"
 msgstr ""
 
 # 61f9b43b0f3148a1b6c8c770dbe95970
-#: ../../source/architecture/how_jupyter_ipython_work.rst:38
+#: ../../source/architecture/content-architecture.rst:51
+#: 863961ccd061429e8f19a6e5074808ad
 msgid ""
 "All the other interfaces —- the Notebook, the Qt console, ``ipython "
 "console`` in the terminal, and third party interfaces —- use the IPython "
@@ -106,14 +124,16 @@ msgid ""
 msgstr ""
 
 # 6560f963da914c78b12c61e8795a9852
-#: ../../source/architecture/how_jupyter_ipython_work.rst:47
+#: ../../source/architecture/content-architecture.rst:60
+#: 1c4f192d64474b68ab0dd36ba1808af5
 msgid ""
 "The core execution machinery for the kernel is shared with terminal "
 "IPython:"
 msgstr ""
 
 # b5bd0a2f608542fe92f8b57ddcb9ea7b
-#: ../../source/architecture/how_jupyter_ipython_work.rst:51
+#: ../../source/architecture/content-architecture.rst:64
+#: 738c770480274d05931c2739c47a1161
 msgid ""
 "A kernel process can be connected to more than one frontend "
 "simultaneously. In this case, the different frontends will have access to"
@@ -121,7 +141,8 @@ msgid ""
 msgstr ""
 
 # 59dd6f3fbb4a46008c898b307aec5a25
-#: ../../source/architecture/how_jupyter_ipython_work.rst:56
+#: ../../source/architecture/content-architecture.rst:69
+#: b955aaa8d0c84f6196f56b6ca5cd91ab
 msgid ""
 "This design was intended to allow easy development of different frontends"
 " based on the same kernel, but it also made it possible to support new "
@@ -130,7 +151,8 @@ msgid ""
 msgstr ""
 
 # e35918a2fb124784a83c135812faf800
-#: ../../source/architecture/how_jupyter_ipython_work.rst:61
+#: ../../source/architecture/content-architecture.rst:74
+#: fea7ae3d8abe4570bfe8b08851c97a46
 msgid ""
 "Today, there are two ways to develop a kernel for another language. "
 "Wrapper kernels reuse the communications machinery from IPython, and "
@@ -139,7 +161,8 @@ msgid ""
 msgstr ""
 
 # 3395f44193b54f5cb9b9d380fa4a16bd
-#: ../../source/architecture/how_jupyter_ipython_work.rst:68
+#: ../../source/architecture/content-architecture.rst:81
+#: 8bc10d77503c4406a2c52559db662207
 msgid ""
 "Wrapper kernels are easier to write quickly for languages that have good "
 "Python wrappers, like `octave_kernel "
@@ -152,22 +175,26 @@ msgid ""
 msgstr ""
 
 # 59d8323c382a4adeb3d622424943b708
-#: ../../source/architecture/how_jupyter_ipython_work.rst:78
+#: ../../source/architecture/content-architecture.rst:91
+#: bafbf88b8f384a6da2f55bad481691bb
 msgid ":ref:`jupyterclient:kernels`"
 msgstr ""
 
 # 3418914ee39240879155089a0b29a69e
-#: ../../source/architecture/how_jupyter_ipython_work.rst:80
+#: ../../source/architecture/content-architecture.rst:93
+#: b37db92f50fd411facaa691f43e2b01a
 msgid ":ref:`Kernels <kernels-langs>`"
 msgstr ""
 
 # 4866548d799b4cfc95159d7494d66afb
-#: ../../source/architecture/how_jupyter_ipython_work.rst:83
+#: ../../source/architecture/content-architecture.rst:96
+#: 0a31ea6c9fa04484a22762a82f7ee84b
 msgid "Notebooks"
 msgstr ""
 
 # f414110d9cde4b048d6d4d0c65f274dd
-#: ../../source/architecture/how_jupyter_ipython_work.rst:85
+#: ../../source/architecture/content-architecture.rst:98
+#: 039af9e76a8f4426bb7e86c0dd4c6b0a
 msgid ""
 "The Notebook frontend does something extra. In addition to running your "
 "code, it stores code and output, together with markdown notes, in an "
@@ -177,7 +204,8 @@ msgid ""
 msgstr ""
 
 # ce4a6fb377344df295e9512b1d36743c
-#: ../../source/architecture/how_jupyter_ipython_work.rst:93
+#: ../../source/architecture/content-architecture.rst:106
+#: b45edaf8b20f4e3b985b0cfbffbd3842
 msgid ""
 "The notebook server, not the kernel, is responsible for saving and "
 "loading notebooks, so you can edit notebooks even if you don't have the "
@@ -187,12 +215,14 @@ msgid ""
 msgstr ""
 
 # 9041dc2c7e0b46e19e1694f6bb081592
-#: ../../source/architecture/how_jupyter_ipython_work.rst:100
+#: ../../source/architecture/content-architecture.rst:113
+#: 3ad3abba24b34dd786857f47b2260e67
 msgid "Exporting notebooks to other formats"
 msgstr ""
 
 # dedd7458edfc44a99f423e2a9b8e1d93
-#: ../../source/architecture/how_jupyter_ipython_work.rst:102
+#: ../../source/architecture/content-architecture.rst:115
+#: 183a5c0a19b24ab381bb94185982dbca
 msgid ""
 "The Nbconvert tool in Jupyter converts notebook files to other formats, "
 "such as HTML, LaTeX, or reStructuredText. This conversion goes through a "
@@ -200,26 +230,30 @@ msgid ""
 msgstr ""
 
 # 082ebb9d5777479da8f71672f538c484
-#: ../../source/architecture/how_jupyter_ipython_work.rst:108
+#: ../../source/architecture/content-architecture.rst:121
+#: 736107be7a364e268222ade192c0330e
 msgid ""
 "Preprocessors modify the notebook in memory. E.g. ExecutePreprocessor "
 "runs the code in the notebook and updates the output."
 msgstr ""
 
 # c6be8db7ca164f379d97800723004956
-#: ../../source/architecture/how_jupyter_ipython_work.rst:110
+#: ../../source/architecture/content-architecture.rst:123
+#: 40fda823ef8242f298c4477e5b46689b
 msgid ""
 "An exporter converts the notebook to another file format. Most of the "
 "exporters use templates for this."
 msgstr ""
 
 # 9de2fa198489488fa316b950d1228fa3
-#: ../../source/architecture/how_jupyter_ipython_work.rst:112
+#: ../../source/architecture/content-architecture.rst:125
+#: d3a245f8328e42698ed632da34773808
 msgid "Postprocessors work on the file produced by exporting."
 msgstr ""
 
 # e00d7f3b870a40879882ee53ed417463
-#: ../../source/architecture/how_jupyter_ipython_work.rst:114
+#: ../../source/architecture/content-architecture.rst:127
+#: 5d8438de7e8c4df9b2f180886a010a7a
 msgid ""
 "The `nbviewer <http://nbviewer.jupyter.org/>`_ website uses nbconvert "
 "with the HTML exporter. When you give it a URL, it fetches the notebook "
@@ -227,12 +261,14 @@ msgid ""
 msgstr ""
 
 # e30efeea3614465f95ff49220796d182
-#: ../../source/architecture/how_jupyter_ipython_work.rst:119
+#: ../../source/architecture/content-architecture.rst:132
+#: c20c615c0a8048d9b784e60545a2d163
 msgid "IPython.parallel"
 msgstr ""
 
 # 074d0dac254c44b58ea96c7b4a451d27
-#: ../../source/architecture/how_jupyter_ipython_work.rst:121
+#: ../../source/architecture/content-architecture.rst:134
+#: 8a275f1d59d742449a681c8dfed6ebca
 msgid ""
 "IPython also includes a parallel computing framework, `IPython.parallel "
 "<https://ipyparallel.readthedocs.io/en/latest/>`_. This allows you to "
@@ -240,13 +276,11 @@ msgid ""
 "IPython kernel described above."
 msgstr ""
 
-# 0118a72a2b1e4c14800c1c3dd77b6c4e
-#: ../../source/architecture/visual_overview.rst:2
-msgid "A Visual Overview of Projects"
-msgstr ""
+# 0bc823304e0d4ab39f2774b29044df9b
+#~ msgid "Architecture Guides"
+#~ msgstr ""
 
-# cc1b649f66b949ebb3984ea361c9ee45
-#: ../../source/architecture/visual_overview.rst:4
-msgid "**A high level visual overview of project relationships**"
-msgstr ""
+# 0118a72a2b1e4c14800c1c3dd77b6c4e
+#~ msgid "A Visual Overview of Projects"
+#~ msgstr ""
 

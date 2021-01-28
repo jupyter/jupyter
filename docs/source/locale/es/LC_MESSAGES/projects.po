@@ -193,12 +193,12 @@ msgstr ""
 
 # 67a117c7d3874a8b9183c9c321d6a4a0
 #: ../../source/projects/doc-proj-categories.rst:13
-msgid "`Jupyter Notebook <http://jupyter-notebook.readthedocs.io/en/latest/>`_"
+msgid "`Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # f0f7ba9f5be24319a67f3822fdca4e63
 #: ../../source/projects/doc-proj-categories.rst:14
-msgid "`jupyter_console <http://jupyter-console.readthedocs.io/en/latest/>`_"
+msgid "`jupyter_console <https://jupyter-console.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # d11bac142e77476e8ed00dbc47d8cca4
@@ -213,7 +213,7 @@ msgstr ""
 
 # fed298a75504421993d6e9e5bc630551
 #: ../../source/projects/doc-proj-categories.rst:19
-msgid "`JupyterHub <http://jupyterhub.readthedocs.io/en/latest/>`_"
+msgid "`JupyterHub <https://jupyterhub.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 7572a9cc7da44692b9f3bc4386564364
@@ -252,7 +252,7 @@ msgstr ""
 
 # e8ecf2b2e0e240438b897616cb0d1cec
 #: ../../source/projects/doc-proj-categories.rst:28
-msgid "`nbgrader <http://nbgrader.readthedocs.io/en/latest/>`_"
+msgid "`nbgrader <https://nbgrader.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # bcf3e08d367944c39c38201049663273
@@ -262,12 +262,12 @@ msgstr ""
 
 # 6f5a84f0d0b64958a31aeb68b9bd9d43
 #: ../../source/projects/doc-proj-categories.rst:32
-msgid "`nbconvert <http://nbconvert.readthedocs.io/en/latest/>`_"
+msgid "`nbconvert <https://nbconvert.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 87e7cf3391ae49e2b5719e4f2843a9bc
 #: ../../source/projects/doc-proj-categories.rst:33
-msgid "`nbformat <http://nbformat.readthedocs.io/en/latest/>`_"
+msgid "`nbformat <https://nbformat.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # 1642454b670a4f23b884da1cf8b42095
@@ -366,7 +366,7 @@ msgstr ""
 
 # 0a3317a3f98a4a428c7af8adb2d282be
 #: ../../source/projects/doc-proj-categories.rst:57
-msgid "`traitlets <http://traitlets.readthedocs.io/en/stable/>`_"
+msgid "`traitlets <https://traitlets.readthedocs.io/en/stable/>`_"
 msgstr ""
 
 # 469c33adacf44e77be8479c50a3afde7
@@ -413,12 +413,12 @@ msgstr ""
 
 # 94f4104fc2a346e9b752026e94ccb9b8
 #: ../../source/projects/doc-proj-categories.rst:70
-msgid "`jupyter_client <http://jupyter-client.readthedocs.io/en/latest/>`_"
+msgid "`jupyter_client <https://jupyter-client.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # a7c0c77907204a10aa56b382435e60e7
 #: ../../source/projects/doc-proj-categories.rst:71
-msgid "`jupyter_core <http://jupyter-core.readthedocs.io/en/latest/>`_"
+msgid "`jupyter_core <https://jupyter-core.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 # cba6565dfef44292847ee4619fb67cdd
@@ -988,7 +988,7 @@ msgstr ""
 #: ../../source/projects/subprojects.rst:48
 msgid ""
 "interactive computing in Python. `Documentation "
-"<http://ipython.readthedocs.io/en/stable/>`__ | `Repo "
+"<https://ipython.readthedocs.io/en/stable/>`__ | `Repo "
 "<https://github.com/ipython/ipython>`__"
 msgstr ""
 

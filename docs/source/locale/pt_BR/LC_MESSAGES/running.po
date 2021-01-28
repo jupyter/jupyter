@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Cezar Peixeiro <czr-pxr@protonmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: 2019-07-27 11:59+0000\n"
+"Last-Translator: Cezar Peixeiro <czr-pxr@protonmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/project-jupyter/teams/100899/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# 034fbf47daca43d69d2f69db956f0925
+#: ../../source/running.rst:5
+msgid "Running the Notebook"
+msgstr "Executando o Notebook"
+
+# 0f84d33b57f44a6c866def4270ab75d4
+#: ../../source/running.rst:9
+msgid "Contents"
+msgstr "Conteúdo"
+
+# de423761fe414a8bb5c042ffafd69e67
+#: ../../source/running.rst:12
+msgid "Basic Steps"
+msgstr "Primeiros passos"
+
+# 772caec806c34073bc157412767069c3
+#: ../../source/running.rst:14
+msgid "Start the notebook server from the :term:`command line`::"
+msgstr "Inicie o servidor do notebook a partir da :term:`linha de comando`::"
+
+# 381fc8c07c8d4b12907dece1a9391603
+#: ../../source/running.rst:18
+msgid "You should see the notebook open in your browser."
+msgstr "Você verá o notebook sendo aberto em uma aba do seu navegador padrão."
+
+# 5b2da16c94e74d859ce8055fdce8aeb6
+#: ../../source/running.rst:21
+msgid "Starting the Notebook Server"
+msgstr "Iniciando o Servidor do Notebook"
+
+# 81d1855aa3064e38a5145051195be5ce
+#: ../../source/running.rst:23
+msgid ""
+"After you have installed the Jupyter Notebook on your computer, you are "
+"ready to run the notebook server. You can start the notebook server from the"
+" :term:`command line` (using :term:`Terminal` on Mac/Linux, :term:`Command "
+"Prompt` on Windows) by running::"
+msgstr ""
+"Após a instalação do Jupyter Notebook no seu computador, você está pronto "
+"para executar o servidor do notebook. Você pode iniciar o servidor através "
+"da :term:`linha de comando`:: (utilizando o :term:`Terminal`:: no Mac/Linux,"
+" :term:`Prompt de Comando`:: no Windows) executando:"
+
+# 178e1601d2154fc198cd68d6167cb4ee
+#: ../../source/running.rst:30
+msgid ""
+"This will print some information about the notebook server in your terminal,"
+" including the URL of the web application (by default, "
+"``http://localhost:8888``):"
+msgstr ""
+"Isso irá exibir algumas informações sobre o servidor do notebook no seu "
+"terminal, incluindo a URL da aplicação web (por padrão, "
+"``http://localhost:8888``):"
+
+# 2499df7720c9421eaf3671e9c9a7e4b7
+#: ../../source/running.rst:42
+msgid "It will then open your default web browser to this URL."
+msgstr "Ele irá então abrir no seu navegador padrão nesta URL."
+
+# f9ca618037bf469490a7fc5a2e793ebf
+#: ../../source/running.rst:44
+msgid ""
+"When the notebook opens in your browser, you will see the :term:`Notebook "
+"Dashboard`, which will show a list of the notebooks, files, and "
+"subdirectories in the directory where the notebook server was started. Most "
+"of the time, you will wish to start a notebook server in the highest level "
+"directory containing notebooks. Often this will be your home directory."
+msgstr ""
+"Quando o notebook abrir no seu navegador, você verá o :term:`Dashboard do "
+"Notebook`, o qual irá exibir uma lista dos notebooks, arquivos e "
+"subdiretórios no diretório onde o servidor do notebook foi inicializado. Na "
+"maioria das vezes, você irá querer que o servidor do notebook inicie no "
+"diretório de nível mais alto que contenha os notebooks. Geralmente este será"
+" seu diretório home."
+
+# dc50f37acb364b30924ee135608f01e4
+#: ../../source/running.rst:50
+msgid "**Notebook Dashboard**"
+msgstr "**Dashboard do Notebook**"
+
+# 1cd18ab0da2945bbaefbe684313b04a0
+#: ../../source/running.rst:55
+msgid "Introducing the Notebook Server's Command Line Options"
+msgstr "Introduzindo as Opções de Linha de Comando do Servidor do Notebook"
+
+# 6e674cad5104461aa03097ede9bb7b7f
+#: ../../source/running.rst:58
+msgid "How do I open a specific Notebook?"
+msgstr "Como eu inicio um Notebook específico?"
+
+# dfbad8a998c7422ca95f3c2a41fb3964
+#: ../../source/running.rst:60
+msgid ""
+"The following code should open the given notebook in the currently running "
+"notebook server, starting one if necessary."
+msgstr ""
+"O código seguinte deverá abrir o respectivo notebook no servidor que estiver"
+" sendo executado ou iniciando um, se necessário."
+
+# 57ba78a74c634ad5a2709e1cc3bbe370
+#: ../../source/running.rst:67
+msgid "How do I start the Notebook using a custom IP or port?"
+msgstr "Como eu inicio o notebook utilizando um IP padrão ou porta?"
+
+# 425d27eeb2084312960454783a563cdd
+#: ../../source/running.rst:69
+msgid ""
+"By default, the notebook server starts on port 8888. If port 8888 is "
+"unavailable or in use, the notebook server searches the next available port."
+" You may also specify a port manually. In this example, we set the server's "
+"port to 9999:"
+msgstr ""
+"Por padrão, o servidor do notebook inicializa na porta 8888. Se a porta 8888"
+" está indisponível ou em uso, o servidor do notebook busca a próxima porta "
+"disponível. Você pode também especificar uma porta manualmente. Neste "
+"exemplo, nós configuramos a porta do servidor para 9999:"
+
+# e4bf6e61b19a4c33b6aff46cf9e29eaf
+#: ../../source/running.rst:79
+msgid "How do I start the Notebook server without opening a browser?"
+msgstr "Como eu inicio o servidor do Notebook sem abrir o navegador?"
+
+# 56643f36db0446c38012f871fbabf0d7
+#: ../../source/running.rst:81
+msgid "Start notebook server without opening a web browser:"
+msgstr "Inicializando o servidor do notebook sem abrir o navegador:"
+
+# 265b6dcd97d4439eaa5fb4436fcf1189
+#: ../../source/running.rst:88
+msgid "How do I get help about Notebook server options?"
+msgstr "Como consigo ajuda sobre as opções do servidor do Notebook?"
+
+# ec00daf0abd7419d8fae626b3ea49805
+#: ../../source/running.rst:90
+msgid ""
+"The notebook server provides help messages for other command line arguments "
+"using the ``--help`` flag:"
+msgstr ""
+"O servidor do notebook disponibiliza mensagens de ajuda para outros "
+"argumentos de linha de comando utilizando a flag ``--help``:"
+
+# b21136ba910742b9b9ecaccaa257051b
+#: ../../source/running.rst:99
+msgid ""
+":ref:`Jupyter Installation, Configuration, and Usage <content-projects>`"
+msgstr ":ref:`Instalação, Configuração e Uso do Jupyter <content-projects>`"
+
+# aece793a237545f9817252206a46e633
+#: ../../source/running.rst:100
+msgid ""
+"Detailed information about command line arguments, configuration, and usage."
+msgstr ""
+"Informações detalhadas sobre linhas de comando, argumentos, configuração e "
+"uso."
