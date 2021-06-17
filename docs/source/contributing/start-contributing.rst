@@ -70,7 +70,7 @@ Jupyter Notebook, JupyterLab, and IPyWidgets use JavaScript and TypeScript.
     * `Gitter Channel <https://gitter.im/jupyterlab/jupyterlab>`__
 * `IPyWidgets <https://github.com/jupyter-widgets/ipywidgets>`__
     * `Notable Issues <https://github.com/jupyter-widgets/ipywidgets/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
-    * `Development Instalation <https://ipywidgets.readthedocs.io/en/latest/dev_install.html>`__
+    * `Development Installation <https://ipywidgets.readthedocs.io/en/latest/dev_install.html>`__
     * `Gitter Channel <https://gitter.im/jupyter-widgets/Lobby>`__
 
 DevOps

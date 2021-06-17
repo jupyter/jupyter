@@ -150,7 +150,7 @@ Sessions API
 | ``POST``   | /api/sessions   | If session does not already exist,     |
 |            |                 | create a new session with given        |
 |            |                 | notebook name and path and given       |
-|            |                 | kernel name. Return active sesssion.   |
+|            |                 | kernel name. Return active session.    |
 +------------+-----------------+----------------------------------------+
 | ``GET``    | /api/sessions   | Return model of active session with    |
 |            | /<session\_id>  | given session id.                      |
@@ -219,7 +219,7 @@ This chart shows the architecture for the IPython notebook website.
 +------------+-----------------+----------------------------------------+
 | ``GET``    | /new            | creates a new notebook with profile    |
 |            |                 | (or default, if no profile exists)     |
-|            |                 | setings                                |
+|            |                 | settings                               |
 +------------+-----------------+----------------------------------------+
 | ``GET``    | /<notebook\_id> | opens a duplicate copy or the notebook |
 |            | /copy           | with the given ID in a new tab         |

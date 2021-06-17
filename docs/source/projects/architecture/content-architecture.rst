@@ -145,7 +145,7 @@ JupyterHub is a multi-user Hub that spawns, manages, and proxies multiple instan
 single-user Jupyter notebook server. This can be used to serve a variety of interfaces
 and environments, and can be run on many kinds of infrastructure. JupyterHub on Kubernetes
 is a Helm Chart for running JupyterHub on kubernetes infrastructure, and BinderHub is a
-customized JupyterHub deployment for sharable, reproducible interactive computing environments.
+customized JupyterHub deployment for shareable, reproducible interactive computing environments.
 
 The links below describe the architecture of JupyterHub and several distributions of
 JupyterHub.

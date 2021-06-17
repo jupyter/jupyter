@@ -22,7 +22,7 @@ from __future__ import print_function
 #
 # If a file is large and has many sections, you may want to use broad section
 # headers like this one that make it easier to navigate the file,
-# with descriptive titles.  For complex classes, simliar (but indented)
+# with descriptive titles.  For complex classes, similar (but indented)
 # headers are useful to organize the internal class structure.
 
 #-----------------------------------------------------------------------------
@@ -32,4 +32,3 @@ from __future__ import print_function
 #-----------------------------------------------------------------------------
 # Local utilities
 #-----------------------------------------------------------------------------
-
