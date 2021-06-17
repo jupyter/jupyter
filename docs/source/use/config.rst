@@ -15,7 +15,7 @@ The Jupyter applications have a common config system, and a common
 :file:`~/.jupyter`.
 
 **Kernel configuration directories**
-If kernels use config files, these will normally be organised in separate
+If kernels use config files, these will normally be organized in separate
 directories for each kernel. For instance, the IPython kernel looks for files
 in the :ref:`IPython directory <ipythondir>` instead of the default Jupyter
 directory :file:`~/.jupyter`.

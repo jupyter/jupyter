@@ -48,7 +48,7 @@ terminal:
 
        python2 -c "import IPython; IPython.start_ipython();"
 
-To start the webbased notebook you can use:
+To start the web-based notebook you can use:
 
 .. code:: bash
 
@@ -425,7 +425,7 @@ Testing system design notes
 
 This section is a set of notes on the key points of the IPython testing
 needs, that were used when writing the system and should be kept for
-reference as it eveolves.
+reference as it evolves.
 
 Testing IPython in full requires modifications to the default behavior
 of nose and doctest, because the IPython prompt is not recognized to
