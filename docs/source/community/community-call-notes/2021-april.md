@@ -37,7 +37,7 @@ For more discussion on the format of these calls, see the thread [here](https://
 
     - Releasing language packages :world_map::card_file_box: 
         - [Current packages and state](https://crowdin.com/project/jupyterlab)  (showing first 10)
-          ![The top 10 translations by percent completed are Spanish at 100%, Chinese Simplified at 100%, Hebrew at 88%, Turkish at 86%, Brazilian Portuguese at 83%, Ukranian at 83%, Japanese at 83% French at 83%, Russian at 74%, and Polish at 60%](https://i.imgur.com/vNeRe8s.png)
+          ![The top 10 translations by percent completed are Spanish at 100%, Chinese Simplified at 100%, Hebrew at 88%, Turkish at 86%, Brazilian Portuguese at 83%, Ukrainian at 83%, Japanese at 83% French at 83%, Russian at 74%, and Polish at 60%](https://i.imgur.com/vNeRe8s.png)
         - Releasing Spanish and Chinese simplified today evening. :eyes:
         - Please attend the JLab dev meeting for more information on the internal process for managing the translations and language packs.
 
