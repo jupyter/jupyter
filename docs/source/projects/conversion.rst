@@ -11,7 +11,7 @@ documents.
 
     `nbconvert <https://nbconvert.readthedocs.io/en/latest/>`__
         Convert dynamic notebooks to static formats such as HTML, Markdown,
-        LaTeX/PDF, and reStrucuredText.
+        LaTeX/PDF, and reStructuredText.
         `Documentation <https://nbconvert.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/nbconvert>`__
 

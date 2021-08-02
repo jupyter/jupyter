@@ -50,7 +50,7 @@ Add your potential agenda item here **24 hours before** the meeting at the lates
     * 6 courses with 6 different schools (~600 students).
         * Political science, art, computer science...
     * Integrated with nbgrader.
-    * [Jupyter Commnity Hackathon on NBGrader in Edinburgh](https://thinking.is.ed.ac.uk/noteable/2018/12/07/jupyter-community-workshop-proposal-nbgrader-and-jupyter-in-teaching/).
+    * [Jupyter Community Hackathon on NBGrader in Edinburgh](https://thinking.is.ed.ac.uk/noteable/2018/12/07/jupyter-community-workshop-proposal-nbgrader-and-jupyter-in-teaching/).
     * Questions and comments:
         * Connections or interactions with Canadian group? https://syzygy.ca [name=Lindsey Heagy]
         * Is this running in the cloud or university server? [name=Anton Akhmerov]

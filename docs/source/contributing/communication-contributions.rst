@@ -44,7 +44,7 @@ Creating a draft
 Title and metadata
 ~~~~~~~~~~~~~~~~~~
 
-Alway check in the metadata fields that a blog post has a title and a canonical
+Always check in the metadata fields that a blog post has a title and a canonical
 URL. It is possible to put the date in the canonical URL, in particular for events
 like jupyter-day, that can occur several times. The date of the event can differ
 from the date of the blog post.
@@ -122,7 +122,7 @@ depending on importance) with the Date/Time of the update. If the information
 in the body of the blog is wrong, try not to replace it, and just use
 strike-through to mark it as obsolete. This would help reader determine which
 information is correct when dealing with multiple source giving different
-informations.
+information.
 
 Newsletter
 ==========
@@ -134,4 +134,3 @@ Website
 =======
 
 Documentation in progress.
-

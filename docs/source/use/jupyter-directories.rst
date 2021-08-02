@@ -32,7 +32,7 @@ specified through :envvar:`JUPYTER_CONFIG_PATH`.
 .. envvar:: JUPYTER_CONFIG_PATH
 
    Set this environment variable to provide extra directories for the config search path.
-   :envvar:`JUPYTER_CONFIG_PATH` should contain a series of directories, seperated by
+   :envvar:`JUPYTER_CONFIG_PATH` should contain a series of directories, separated by
    `` os.pathsep`` (``;`` on Windows, ``:`` on Unix).
 
 An example of where the :envvar:`JUPYTER_CONFIG_PATH` can be set is if notebook or server extensions are 
@@ -56,7 +56,7 @@ table of the locations to be searched, in order of preference:
 | ``/etc/jupyter/``            |                            |
 +------------------------------+----------------------------+
 
-To list the config directories currrently being used you can run the below command from the :term:`command line`::
+To list the config directories currently being used you can run the below command from the :term:`command line`::
 
     jupyter --paths
 

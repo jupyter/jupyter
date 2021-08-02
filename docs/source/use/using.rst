@@ -157,7 +157,7 @@ that helps lay out some of your options.
 		convert -> nbconvert
 		lang -> kernel
 		custom -> {widgets extend dash help}
-		// Arangement
+		// Arrangement
 		{rank=same; what}
 		{rank=same; try; install; team; convert; lang; custom;}
 		{rank=same; widgets; extend;}

@@ -43,7 +43,7 @@ This is a place to make *short* announcements (without a need for discussion). T
         * ...
         * Is it true that you personally are the only user of https://github.com/Carreau/open-with-binder ?
         * If running an event/tutorial type thing with Binder, how many users should we feel comfortable sending to MyBinder vs setting up our own Z2JH infrastructure?
-            * By default it prevents more than 100 concurent launches of the same repo. You can ask for more if you are nice. 
+            * By default it prevents more than 100 concurrent launches of the same repo. You can ask for more if you are nice. 
             * fun fact: apparently the reason this launch was slow is because somebody is teaching a "learn java" course on Binder just now and a bunch of people connected all at once https://github.com/santanche/java2learn
         * Show the log dashboard :P
             * sure thing: https://grafana.mybinder.org/d/fZWsQmnmz/pod-activity?refresh=1m&panelId=1&fullscreen&orgId=1
@@ -69,7 +69,7 @@ This is a place to make *short* announcements (without a need for discussion). T
         * Can you expand upon the "cell-id" things?
             * [cell id in lintotype](https://github.com/deathbeds/lintotype/blob/4b83f784b56ef12a245c0ca92d48eb95a9b0f7da/packages/ipylintotype/src/ipylintotype/formatter.py#L116)
             * [cell id in irobotframework](https://github.com/gtri/irobotframework/blob/865311e0f89e2418e253f60cd7ae50990d4d6e6a/src/irobotframework/kernel.py#L90)
-        * Are those suposed to be extension ? Built-in ?...?
+        * Are those supposed to be extension ? Built-in ?...?
             * ready to be packaged (not yet). Some of the stuff could go into ipywidgets
 * [x] IPython releases [Matthias, IPython, https://github.com/ipython/ipython, 2min.]
     * Trying to do monthly release close to End Of Month. 
@@ -80,7 +80,7 @@ This is a place to make *short* announcements (without a need for discussion). T
     * https://github.com/jupyter/jupyter_client/pull/428 
 * add item here [name, project name/url, estimated time for discussion].
 
-Don't get limitted to technical discusions !
+Don't get limited to technical discussions !
 
 ## In Attendance
 
