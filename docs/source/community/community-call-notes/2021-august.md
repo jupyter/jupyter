@@ -5,7 +5,7 @@
 
 **[Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668)**
 
-**[YouTube link](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09)** 
+**[YouTube link](https://youtu.be/WQ43ywKDfg8)** 
 
 **Please note:**
 - Community calls are recorded and posted to this [playlist](https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP)
