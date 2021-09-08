@@ -1,4 +1,3 @@
-# Jupyter Community Call 
 ## August 31, 2021
 
 **Date:** August 31, 2021, at 8am Pacific (your [timezone](https://arewemeetingyet.com/Los%20Angeles/2021-08-31/8:00/Jupyter%20Community%20Call))
