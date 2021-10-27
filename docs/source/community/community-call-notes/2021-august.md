@@ -42,8 +42,6 @@ This is a space to store links shared during community call discussions related 
 
 ## Attendees
 
-If you are joining the Jupyter Community Call, sign in below so we know who was here.
-
 |   Name   |           Institution     | GitHub Handle                     |
 |----------|---------------------------|-----------------------------------| 
 | Frederic Collonval | QuantStack | @fcollonval |
