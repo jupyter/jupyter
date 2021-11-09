@@ -76,6 +76,11 @@ Education
 * [nbgrader](http://nbgrader.readthedocs.io/en/latest)
 
 ---
+Execution
+^^^^^^
+* [nbclient](http://nbclient.readthedocs.io/en/latest)
+
+---
 Conversion and Formatting
 ^^^^^^
 * [nbconvert](http://nbconvert.readthedocs.io/en/latest)
