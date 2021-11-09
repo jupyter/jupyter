@@ -27,6 +27,7 @@ setup_args = dict(
         'notebook',
         'qtconsole',
         'jupyter-console',
+        'nbclient',
         'nbconvert',
         'ipykernel',
         'ipywidgets',
