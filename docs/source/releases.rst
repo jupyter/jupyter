@@ -15,11 +15,11 @@ Jupyter Notebook
 You can find a changelog at
 `the Jupyter Notebook documentation <https://jupyter-notebook.readthedocs.io/en/stable/changelog.html>`_.
 
-Jupyter Lab
-===========
+JupyterLab
+==========
 
 You can find a changelog at
-`the Jupyter Lab documentation <https://jupyterlab.readthedocs.io/en/stable/getting_started/changelog.html>`_.
+`the JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/getting_started/changelog.html>`_.
 
 JupyterHub
 ==========
