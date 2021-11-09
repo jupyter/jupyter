@@ -18,6 +18,7 @@ both from the perspective of a user and a community member.
    user-interfaces
    kernels
    education
+   execution
    deployment
    conversion
    ipython_projects
@@ -41,6 +42,7 @@ including their technical components and how they work and relate to one another
    user-interfaces
    kernels
    education
+   execution
    deployment
    conversion
    ipython_projects
