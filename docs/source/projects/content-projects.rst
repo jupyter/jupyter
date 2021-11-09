@@ -36,7 +36,7 @@ including their technical components and how they work and relate to one another
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    user-interfaces
    kernels
