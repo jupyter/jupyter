@@ -27,8 +27,8 @@ live-code with narrative text, equations and visualizations.
    /use/upgrade-notebook
 
 
-Jupyter Lab
-===========
+JupyterLab
+==========
 
 **JupyterLab** is a next-generation web-based user interface for Project Jupyter.
 
@@ -37,8 +37,8 @@ Jupyter Lab
 * `Install instructions <https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>`__
 
 
-Jupyter Hub
-===========
+JupyterHub
+==========
 
 **JupyterHub** is a multi-user hub for interactive computing sessions, made for teams and
 organizations, and with pluggable authentication and scalability.
