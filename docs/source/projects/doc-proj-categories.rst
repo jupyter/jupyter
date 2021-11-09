@@ -27,6 +27,10 @@ Education
 ---------
 * `nbgrader <https://nbgrader.readthedocs.io/en/latest/>`_
 
+Execution
+---------
+* `nbclient <https://nbclient.readthedocs.io/en/latest/>`_
+
 Notebook Conversion and Formatting
 ----------------------------------
 * `nbconvert <https://nbconvert.readthedocs.io/en/latest/>`_
