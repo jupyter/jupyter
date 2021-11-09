@@ -2,21 +2,7 @@
 Using Jupyter Tools
 ===================
 
-Information relevant to using the various tools in the Jupyter
-ecosystem.
-
-.. TODO: this is hidden because there's a bug in the pydata theme that won't render TOC items under headers
-
-.. toctree::
-   :hidden:
-
-   use-cases/content-user
-   ../install
-   jupyter-command
-   jupyter-directories
-   config
-   advanced/content-advanced
-
+Information relevant to using the various tools in the Jupyter ecosystem.
 
 Installation
 ============
