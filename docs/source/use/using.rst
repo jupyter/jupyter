@@ -1,6 +1,6 @@
-===================
-Using Jupyter Tools
-===================
+=====
+Usage
+=====
 
 Information relevant to using the various tools in the Jupyter
 ecosystem.

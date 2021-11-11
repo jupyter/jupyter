@@ -1,8 +1,8 @@
 .. _content-projects:
 
-================
-Jupyter Projects
-================
+========
+Projects
+========
 
 The Jupyter community is composed of several sub-communities and projects. These
 are organized around particular use-cases, users, or other aspects of the Jupyter
