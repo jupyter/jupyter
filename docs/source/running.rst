@@ -102,24 +102,24 @@ using the ``--help`` flag:
 Using a command-line interface
 ------------------------------
 
-Notebooks can be run from your terminal using the ``execute`` subcommand. It expects notebook paths as input arguments and accepts optional flags to modify the default behavior.
+Notebooks can be executed from your terminal using the ``run`` subcommand. It expects notebook paths as input arguments and accepts optional flags to modify the default behavior.
 
 Running a notebook is this easy.
 
 .. code:: bash
 
-    jupyter execute notebook.ipynb
+    jupyter run notebook.ipynb
 
 You can pass more than one notebook as well.
 
 .. code:: bash
 
-    jupyter execute notebook.ipynb notebook2.ipynb
+    jupyter run notebook.ipynb notebook2.ipynb
 
 By default, notebook errors will be raised and printed into the terminal. You can suppress them by passing the ``--allow-errors`` flag.
 
 .. code:: bash
 
-    jupyter execute notebook.ipynb --allow-errors
+    jupyter run notebook.ipynb --allow-errors
 
 For more sophisticated execution options, consider the `papermill <https://pypi.org/project/papermill/>`_ library.
