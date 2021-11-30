@@ -4,7 +4,7 @@
 
 **[Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668)**
 
-**[YouTube link]()** 
+**[YouTube link](https://youtu.be/_YdiFgWUHNI)** 
 
 **Please note:**
 - Community calls are recorded and posted to this [playlist](https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP)
