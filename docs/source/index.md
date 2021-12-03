@@ -89,7 +89,7 @@ Conversion and Formatting
 ---
 Kernels
 ^^^^^^
-* [IPython](https://ipython.readthedocs.io/en/stable>)
+* [IPython](https://ipython.readthedocs.io/en/stable)
 * [IRkernel](https://irkernel.github.io)
 * [IJulia](https://github.com/JuliaLang/IJulia.jl)
 * [Community maintained kernels](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
@@ -97,7 +97,7 @@ Kernels
 ---
 IPython
 ^^^^^^
-* [IPython](http://ipython.readthedocs.io/en/stable>)
+* [IPython](http://ipython.readthedocs.io/en/stable)
 * [ipykernel](https://ipython.readthedocs.io/en/stable)
 * [ipyparallel](https://ipyparallel.readthedocs.io/en/latest)
 
