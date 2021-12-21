@@ -54,11 +54,13 @@ and communities in this ecosystem, and to help you get started.
 ## Sub-project documentation
 
 ```{panels}
-Jupyter User Interfaces
+User Interfaces
 ^^^^^^
+* [JupyterLab](https://github.com/jupyterlab/jupyterlab)
 * [Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/)
 * [Jupyter console](http://jupyter_console.readthedocs.io/en/latest)
 * [Qt console](https://qtconsole.readthedocs.io/en/stable)
+* [Voilà](https://voila.readthedocs.io/)
 
 ---
 JupyterHub
@@ -106,6 +108,7 @@ Architecture
 ^^^^^^
 * [jupyter_client](http://jupyter-client.readthedocs.io/en/latest)
 * [jupyter_core](http://jupyter-core.readthedocs.io/en/latest)
+* [jupyter_server](https://jupyter-server.readthedocs.io/)
 
 ---
 Deployment
@@ -118,10 +121,10 @@ Deployment
 * [traitlets](http://traitlets.readthedocs.io/en/stable)
 
 ---
-JupyterLab
+Widgets
 ^^^^^^
-* [JupyterLab](https://github.com/jupyterlab/jupyterlab)
-* [ipywidgets](https://ipywidgets.readthedocs.io/en/latest)
+* [ipywidgets](https://ipywidgets.readthedocs.io/)
+* [widget-cookiecutter](https://github.com/jupyter-widgets/widget-cookiecutter/)
 
 ```
 
