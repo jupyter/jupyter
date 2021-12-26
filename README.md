@@ -4,7 +4,7 @@
 
 Jupyter metapackage for installation and docs.
 
-## Documentation setup
+## Documentation structure
 
 This documentation uses the [Sphinx](https://sphinx-doc.org) documentation engine.
 
