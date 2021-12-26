@@ -29,6 +29,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz', # Add the graphviz extension
+    'sphinxext.rediraffe',
     'myst_parser',
     'sphinx_panels'
 ]
@@ -85,6 +86,44 @@ todo_include_todos = False
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_context = {
+    # "github_url": "https://github.com", # or your GitHub Enterprise interprise
+    "github_user": "jupyter",
+    "github_repo": "jupyter",
+    "github_version": "master",
+    "doc_path": "docs/source",
+}
+
+html_theme_options = {
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/jupyter/jupyter",
+            "icon": "fab fa-github-square",
+        },
+        {
+            "name": "GitLab",
+            "url": "https://discourse.jupyter.org",
+            "icon": "fab fa-discourse",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/projectjupyter",
+            "icon": "fab fa-twitter-square",
+        },
+    ],
+  "external_links": [
+      {"name": "jupyter.org", "url": "https://jupyter.org"},
+  ],
+  "use_edit_page_button": True,
+}
+
+# Re-directs for pages that were moved
+rediraffe_redirects = {
+    "content-quickstart.rst": "start/index.md",
+    "tryjupyter.rst": "start/index.md",
+}
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.

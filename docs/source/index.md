@@ -180,11 +180,6 @@ contributing/content-contributor
 reference/content-reference
 ```
 
-```{toctree}
-:hidden:
-jupyter.org <https://jupyter.org>
-```
-
 ## Resources
 
 ```{csv-table}

@@ -3,4 +3,5 @@ sphinx-intl
 myst_parser
 nbsphinx
 pydata-sphinx-theme
+sphinxext-rediraffe
 sphinx-panels

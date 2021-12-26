@@ -161,8 +161,8 @@ JupyterLab
 JupyterLab is a flexible, extensible interface for interactive computing. Below
 are a few links that are useful for understanding the JupyterLab architecture.
 
-* :doc:`JupyterLab document model <lab:developer/documents>`
-* :doc:`JupyterLab notebook model <lab:developer/notebook>`
+* :ref:`JupyterLab document model <lab:kernel-backed-documents>`
+* :ref:`JupyterLab notebook model <lab:notebook>`
 * :doc:`Design patterns in JupyterLab <lab:developer/patterns>`
 
 Projects overview
