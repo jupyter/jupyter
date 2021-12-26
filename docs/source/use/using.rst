@@ -18,15 +18,6 @@ ecosystem.
    advanced/content-advanced
 
 
-Installation
-============
-
-.. toctree::
-   :maxdepth: 2
-
-   /install
-
-
 Use and Configure
 =================
 
