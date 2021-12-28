@@ -4,7 +4,6 @@
 for the Jupyter ecosystem. It has a collection of resources to navigate the tools
 and communities in this ecosystem, and to help you get started.
 
-
 ## Start Here
 
 ```{list-table}
