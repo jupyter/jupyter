@@ -1,15 +1,16 @@
 # Jupyter Project Documentation
 
-**Welcome to the Jupyter Project documentation**. This website acts as "meta" documentation
-for the Jupyter ecosystem. It has a collection of resources to navigate the tools
-and communities in this ecosystem, and to help you get started.
+**Welcome to the Jupyter Project documentation**. This website acts as "meta" documentation for the Jupyter ecosystem.
+It has a collection of resources to navigate the tools and communities in this ecosystem, and to help you get started.
 
 ## Start Here
+
+These are a few high-level topics to help you learn more about the Jupyter community and ecosystem.
 
 ```{list-table}
 :class: front_page_table
 
-* - {doc}`Get started with Jupyter Notebook <content-quickstart>`
+* - {doc}`Get started with Jupyter Notebook <start/index>`
 
       Try the notebook
 
@@ -51,6 +52,9 @@ and communities in this ecosystem, and to help you get started.
 ```
 
 ## Sub-project documentation
+
+Sub-projects are major technical and community efforts, and generally have their own documentation for their communities.
+Below is a list of documentation for major parts of the Jupyter ecosystem.
 
 ```{panels}
 User Interfaces
@@ -129,12 +133,15 @@ Widgets
 
 ## Table of Contents
 
+The rest of the documentation in this site covers major use-cases of the Jupyter ecosystem, as well as topics that will help you navigate the various parts of the Jupyter community.
+For more in-depth documentation about a specific tool, we recommend checking out that tool's documentation (see the list above).
+
 (user-docs)=
 
 ```{toctree}
 :maxdepth: 2
 
-content-quickstart
+start/index
 ```
 
 (jupyter-using)=
@@ -172,7 +179,6 @@ contributing/content-contributor
 
 reference/content-reference
 ```
-
 
 ## Resources
 
