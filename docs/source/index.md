@@ -60,16 +60,16 @@ Below is a list of documentation for major parts of the Jupyter ecosystem.
 User Interfaces
 ^^^^^^
 * [JupyterLab](https://github.com/jupyterlab/jupyterlab)
-* [Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/)
+* [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
 * [nbclassic](https://github.com/jupyterlab/nbclassic)
-* [Jupyter Console](http://jupyter_console.readthedocs.io/en/latest)
+* [Jupyter Console](https://jupyter_console.readthedocs.io/en/latest)
 * [Qt console](https://qtconsole.readthedocs.io/en/stable)
 * [Voilà](https://voila.readthedocs.io/)
 
 ---
 JupyterHub
 ^^^^^^
-* [JupyterHub](http://jupyterhub.readthedocs.io/en/latest)
+* [JupyterHub](https://jupyterhub.readthedocs.io/en/latest)
 * [Configurable HTTP proxy](https://github.com/jupyterhub/configurable-http-proxy)
 * Authenticators: [LDAP](https://github.com/jupyterhub/ldapauthenticator), [OAuth](https://oauthenticator.readthedocs.io/en/latest/), [Native](https://native-authenticator.readthedocs.io/en/latest/), [LTI](https://ltiauthenticator.readthedocs.io/en/latest/)
 * Spawners: [sudo](https://github.com/jupyterhub/sudospawner), [Docker](https://jupyterhub-dockerspawner.readthedocs.io/en/latest/), [Kubernetes](https://jupyterhub-kubespawner.readthedocs.io/en/latest/)
@@ -79,17 +79,17 @@ JupyterHub
 ---
 Working with Notebooks
 ^^^^^^
-* [nbclient](http://nbclient.readthedocs.io/en/latest) - execution
-* [nbconvert](http://nbconvert.readthedocs.io/en/latest) - conversion
-* [nbformat](http://nbformat.readthedocs.io/en/latest) - formatting
-* [nbviewer](https://github.com/jupyter/nbviewer) - viewing
+* [nbclient](https://nbclient.readthedocs.io/en/latest/) - execution
+* [nbconvert](https://nbconvert.readthedocs.io/en/latest/) - conversion
+* [nbviewer](https://github.com/jupyter/nbviewer/) - viewing
 * [nbdime](https://nbdime.readthedocs.io/) - comparing and merging
-* [nbgrader](http://nbgrader.readthedocs.io/en/latest) - grading
+* [nbgrader](https://nbgrader.readthedocs.io/en/latest/) - grading
+* [nbformat](https://nbformat.readthedocs.io/en/latest/) - programmatic modification, format validation
 
 ---
 Kernels
 ^^^^^^
-* [IPython](https://ipython.readthedocs.io/en/stable)
+* [IPython](https://ipython.readthedocs.io/en/stable/)
 * [IRkernel](https://irkernel.github.io)
 * [IJulia](https://github.com/JuliaLang/IJulia.jl)
 * [Xeus kernels](https://xeus.readthedocs.io/en/latest/)
@@ -98,16 +98,17 @@ Kernels
 ---
 IPython
 ^^^^^^
-* [IPython](http://ipython.readthedocs.io/en/stable)
-* [ipykernel](https://ipython.readthedocs.io/en/stable)
-* [ipyparallel](https://ipyparallel.readthedocs.io/en/latest)
-* [traitlets](http://traitlets.readthedocs.io/en/stable)
+* [IPython](https://ipython.readthedocs.io/en/stable/)
+* [ipykernel](https://ipython.readthedocs.io/en/stable/)
+* [ipyparallel](https://ipyparallel.readthedocs.io/en/latest/)
+* [traitlets](https://traitlets.readthedocs.io/en/stable/)
 
 ---
-Architecture
+Architecture and Specification
 ^^^^^^
-* [jupyter-client](http://jupyter-client.readthedocs.io/en/latest)
-* [jupyter-core](http://jupyter-core.readthedocs.io/en/latest)
+* [nbformat](https://nbformat.readthedocs.io/en/latest/api.html) - Jupyter Notebook Format specification
+* [jupyter-client](https://jupyter-client.readthedocs.io/en/latest/) - Jupyter Messaging Protocol specification
+* [jupyter-core](https://jupyter-core.readthedocs.io/en/latest/)
 * [jupyter-server](https://jupyter-server.readthedocs.io/)
 * [jupyterlab-server](https://jupyterlab-server.readthedocs.io/en/stable/)
 
@@ -187,7 +188,7 @@ reference/content-reference
 [jupyter/help repo](https://github.com/jupyter/help), Start here for help and support questions
 [Jupyter mailing list](https://groups.google.com/forum/#!forum/jupyter), General discussion of Jupyter's use
 [Jupyter in Education group](https://groups.google.com/forum/#!forum/jupyter-education), Discussion of Jupyter's use in education
-[NumFocus](http://www.numfocus.org), "Promotes world-class, innovative, open source scientific software"
+[NumFocus](https://www.numfocus.org), "Promotes world-class, innovative, open source scientific software"
 [Donate to Project Jupyter](https://numfocus.salsalabs.org/donate-to-jupyter/index.html), Please contribute to open science collaboration and sustainability
 ```
 
