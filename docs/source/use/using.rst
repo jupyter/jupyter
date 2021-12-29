@@ -90,7 +90,7 @@ that helps lay out some of your options.
 			label="Install a\nlanguage\nkernel",
 			tooltip="How to install kernels",
 			target="_top", color=green, // Local Link
-			href="../projects/subprojects.html?highlight=jupyterhub#kernels"]
+			href="../projects/kernels.html]
 		// Path labels
 		noinst [
 			shape=plaintext,
@@ -114,12 +114,12 @@ that helps lay out some of your options.
 			label="Extensions",
 			tooltip="Install & use extensions",
 			target="_blank", color=blue, // External Link
-			href="https://github.com/ipython-contrib/IPython-notebook-extensions"]
+			href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions"]
 		dash [
 			label="Dashboards",
 			tooltip="Install & use dashboards",
 			target="_blank", color=blue, // External Link
-			href="https://github.com/jupyter/dashboards"]
+			href="https://github.com/voila-dashboards/voila"]
 		help [
 			label="Help",
 			tooltip="Ask on jupyter help",
