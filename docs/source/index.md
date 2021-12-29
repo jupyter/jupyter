@@ -185,7 +185,7 @@ reference/content-reference
 
 [Jupyter website](https://jupyter.org), Keep up to date on Jupyter
 [IPython website](https://ipython.org), Learn more about IPython
-[jupyter/help repo](https://github.com/jupyter/help), Start here for help and support questions
+[Jupyter Discourse forum](https://discourse.jupyter.org/), Start here for help and support questions
 [Jupyter mailing list](https://groups.google.com/forum/#!forum/jupyter), General discussion of Jupyter's use
 [Jupyter in Education group](https://groups.google.com/forum/#!forum/jupyter-education), Discussion of Jupyter's use in education
 [NumFocus](https://www.numfocus.org), "Promotes world-class, innovative, open source scientific software"
