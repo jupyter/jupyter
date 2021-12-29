@@ -84,7 +84,7 @@ Working with Notebooks
 * [nbviewer](https://github.com/jupyter/nbviewer/) - viewing
 * [nbdime](https://nbdime.readthedocs.io/) - comparing and merging
 * [nbgrader](https://nbgrader.readthedocs.io/en/latest/) - grading
-* [nbformat](https://nbformat.readthedocs.io/en/latest/) - programmatic modification, format validation
+* [nbformat](https://nbformat.readthedocs.io/en/latest/) - modification and validation
 
 ---
 Kernels
