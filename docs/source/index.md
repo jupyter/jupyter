@@ -61,7 +61,8 @@ User Interfaces
 ^^^^^^
 * [JupyterLab](https://github.com/jupyterlab/jupyterlab)
 * [Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/)
-* [Jupyter console](http://jupyter_console.readthedocs.io/en/latest)
+* [nbclassic](https://github.com/jupyterlab/nbclassic)
+* [Jupyter Console](http://jupyter_console.readthedocs.io/en/latest)
 * [Qt console](https://qtconsole.readthedocs.io/en/stable)
 * [Voilà](https://voila.readthedocs.io/)
 
@@ -69,27 +70,23 @@ User Interfaces
 JupyterHub
 ^^^^^^
 * [JupyterHub](http://jupyterhub.readthedocs.io/en/latest)
-* [configurable HTTP proxy](https://github.com/jupyter/configurable-http-proxy)
-* [dockerspawner](https://github.com/jupyter/dockerspawner)
-* [ldapauthenticator](https://github.com/jupyter/ldapauthenticator)
-* [oauthenticator](https://github.com/jupyter/oauthenticator)
-* [sudospawner](https://github.com/jupyter/sudospawner)
+* [configurable HTTP proxy](https://github.com/jupyterhub/configurable-http-proxy)
+* [dockerspawner](https://jupyterhub-dockerspawner.readthedocs.io/en/latest/)
+* [ldapauthenticator](https://github.com/jupyterhub/ldapauthenticator)
+* [oauthenticator](https://oauthenticator.readthedocs.io/en/latest/)
+* [sudospawner](https://github.com/jupyterhub/sudospawner)
+* [Zero to JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
+* [All JupyterHub Projects...](https://github.com/jupyterhub)
 
 ---
-Education
+Working with Notebooks
 ^^^^^^
-* [nbgrader](http://nbgrader.readthedocs.io/en/latest)
-
----
-Execution
-^^^^^^
-* [nbclient](http://nbclient.readthedocs.io/en/latest)
-
----
-Conversion and Formatting
-^^^^^^
-* [nbconvert](http://nbconvert.readthedocs.io/en/latest)
-* [nbformat](http://nbformat.readthedocs.io/en/latest)
+* [nbclient](http://nbclient.readthedocs.io/en/latest) - execution
+* [nbconvert](http://nbconvert.readthedocs.io/en/latest) - conversion
+* [nbformat](http://nbformat.readthedocs.io/en/latest) - formatting
+* [nbviewer](https://github.com/jupyter/nbviewer) - viewing
+* [nbdime](https://nbdime.readthedocs.io/) - comparing and merging
+* [nbgrader](http://nbgrader.readthedocs.io/en/latest) - grading
 
 ---
 Kernels
@@ -97,7 +94,8 @@ Kernels
 * [IPython](https://ipython.readthedocs.io/en/stable)
 * [IRkernel](https://irkernel.github.io)
 * [IJulia](https://github.com/JuliaLang/IJulia.jl)
-* [Community maintained kernels](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
+* [Xeus kernels](https://xeus.readthedocs.io/en/latest/)
+* [Community maintained kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
 ---
 IPython
@@ -105,29 +103,29 @@ IPython
 * [IPython](http://ipython.readthedocs.io/en/stable)
 * [ipykernel](https://ipython.readthedocs.io/en/stable)
 * [ipyparallel](https://ipyparallel.readthedocs.io/en/latest)
+* [traitlets](http://traitlets.readthedocs.io/en/stable)
 
 ---
 Architecture
 ^^^^^^
-* [jupyter_client](http://jupyter-client.readthedocs.io/en/latest)
-* [jupyter_core](http://jupyter-core.readthedocs.io/en/latest)
-* [jupyter_server](https://jupyter-server.readthedocs.io/)
+* [jupyter-client](http://jupyter-client.readthedocs.io/en/latest)
+* [jupyter-core](http://jupyter-core.readthedocs.io/en/latest)
+* [jupyter-server](https://jupyter-server.readthedocs.io/)
+* [jupyterlab-server](https://jupyterlab-server.readthedocs.io/en/stable/)
 
 ---
 Deployment
 ^^^^^^
-* [docker-stacks](https://github.com/jupyter/docker-stacks)
-* [jupyter-sphinx-theme](https://github.com/jupyter/jupyter-sphinx-theme)
-* [kernel_gateway](http://jupyter-kernel-gateway.readthedocs.io/en/latest)
-* [nbviewer](https://github.com/jupyter/nbviewer)
-* [tmpnb](https://github.com/jupyter/tmpnb)
-* [traitlets](http://traitlets.readthedocs.io/en/stable)
+* [Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
+* [Kernel Gateway](https://jupyter-kernel-gateway.readthedocs.io/en/latest/)
+* [Enterprise Gateway](https://jupyter-enterprise-gateway.readthedocs.io/en/latest/)
 
 ---
 Widgets
 ^^^^^^
 * [ipywidgets](https://ipywidgets.readthedocs.io/)
 * [widget-cookiecutter](https://github.com/jupyter-widgets/widget-cookiecutter/)
+* [All Widget Projects...](https://github.com/jupyter-widgets)
 
 ```
 
