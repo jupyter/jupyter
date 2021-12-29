@@ -106,8 +106,8 @@ IPython
 ---
 Architecture and Specification
 ^^^^^^
-* [nbformat](https://nbformat.readthedocs.io/en/latest/api.html) - Jupyter Notebook Format specification
-* [jupyter-client](https://jupyter-client.readthedocs.io/en/latest/) - Jupyter Messaging Protocol specification
+* [nbformat](https://nbformat.readthedocs.io/en/latest/api.html) - Jupyter Notebook Format
+* [jupyter-client](https://jupyter-client.readthedocs.io/en/latest/) - Jupyter Messaging Protocol
 * [jupyter-core](https://jupyter-core.readthedocs.io/en/latest/)
 * [jupyter-server](https://jupyter-server.readthedocs.io/)
 * [jupyterlab-server](https://jupyterlab-server.readthedocs.io/en/stable/)
