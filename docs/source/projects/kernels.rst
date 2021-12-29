@@ -36,11 +36,11 @@ implementation of kernels for Jupyter and provides a number of kernels such as
     `IPython <https://ipython.org>`__
         interactive computing in Python.
         `Documentation <https://ipython.readthedocs.io/en/stable/>`__ |
-        `Repo <https://github.com/ipython/ipykernel>`__
+        `Repo <https://github.com/ipython/ipython>`__
 
     `ipykernel <ipykernel>`__
         the wrapper around IPython which enables using IPython as a kernel
-        `Repo <https://github.com/ipython/ipython>`__
+        `Repo <https://github.com/ipython/ipykernel>`__
 
     `Xeus <https://ipyparallel.readthedocs.io/en/latest/>`__
         library facilitating the implementation of kernels for Jupyter.
