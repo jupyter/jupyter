@@ -14,25 +14,15 @@ multiuser capabilities and secure, scalable cloud deployments.
         `Documentation <https://jupyterhub.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyterhub/jupyterhub>`__
 
-    `jupyter-drive <https://github.com/jupyter/jupyter-drive>`__
-        Store notebooks on Google Drive.
-        `Documentation <https://github.com/jupyter/jupyter-drive>`__ |
-        `Repo <https://github.com/jupyter/jupyter-drive>`__
-
     `nbviewer <https://nbviewer.jupyter.org/>`__
         Share notebooks as static HTML on the web.
         `Documentation <https://github.com/jupyter/nbviewer>`__ |
         `Repo <https://github.com/jupyter/nbviewer>`__
 
-    `tmpnb <https://github.com/jupyter/tmpnb>`__
-        Create temporary, transient notebooks in the cloud.
-        `Documentation <https://github.com/jupyter/tmpnb>`__ |
-        `Repo <https://github.com/jupyter/tmpnb>`__
-
-    `tmpnb-deploy <https://github.com/jupyter/tmpnb-deploy>`__
-        Deployment tools for tmpnb.
-        `Documentation <https://github.com/jupyter/tmpnb-deploy>`__ |
-        `Repo <https://github.com/jupyter/tmpnb-deploy>`__
+    `Binder <https://mybinder.org/>`__
+        Turn a Git repo into a collection of interactive notebooks
+        `Documentation <https://mybinder.readthedocs.io/en/latest/index.html>`__ |
+        `Repo <https://github.com/jupyterhub/binder>`__
 
     `dockerspawner <https://github.com/jupyterhub/dockerspawner>`__
         Deploy notebooks for 'jupyterhub' inside Docker containers.
