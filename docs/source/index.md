@@ -71,7 +71,7 @@ JupyterHub
 ^^^^^^
 * [JupyterHub](http://jupyterhub.readthedocs.io/en/latest)
 * [Configurable HTTP proxy](https://github.com/jupyterhub/configurable-http-proxy)
-* Authenticators: [LDAP](https://github.com/jupyterhub/ldapauthenticator), [OAuth](https://oauthenticator.readthedocs.io/en/latest/), [Native](https://github.com/jupyterhub/nativeauthenticator)
+* Authenticators: [LDAP](https://github.com/jupyterhub/ldapauthenticator), [OAuth](https://oauthenticator.readthedocs.io/en/latest/), [Native](https://native-authenticator.readthedocs.io/en/latest/), [LTI](https://ltiauthenticator.readthedocs.io/en/latest/)
 * Spawners: [sudo](https://github.com/jupyterhub/sudospawner), [Docker](https://jupyterhub-dockerspawner.readthedocs.io/en/latest/), [Kubernetes](https://jupyterhub-kubespawner.readthedocs.io/en/latest/)
 * [Zero to JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
 * [All JupyterHub Projects...](https://github.com/jupyterhub)
