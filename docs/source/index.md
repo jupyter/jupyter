@@ -70,11 +70,9 @@ User Interfaces
 JupyterHub
 ^^^^^^
 * [JupyterHub](http://jupyterhub.readthedocs.io/en/latest)
-* [configurable HTTP proxy](https://github.com/jupyterhub/configurable-http-proxy)
-* [dockerspawner](https://jupyterhub-dockerspawner.readthedocs.io/en/latest/)
-* [ldapauthenticator](https://github.com/jupyterhub/ldapauthenticator)
-* [oauthenticator](https://oauthenticator.readthedocs.io/en/latest/)
-* [sudospawner](https://github.com/jupyterhub/sudospawner)
+* [Configurable HTTP proxy](https://github.com/jupyterhub/configurable-http-proxy)
+* Authenticators: [LDAP](https://github.com/jupyterhub/ldapauthenticator), [OAuth](https://oauthenticator.readthedocs.io/en/latest/), [Native](https://github.com/jupyterhub/nativeauthenticator)
+* Spawners: [sudo](https://github.com/jupyterhub/sudospawner), [Docker](https://jupyterhub-dockerspawner.readthedocs.io/en/latest/), [Kubernetes](https://jupyterhub-kubespawner.readthedocs.io/en/latest/)
 * [Zero to JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
 * [All JupyterHub Projects...](https://github.com/jupyterhub)
 
