@@ -49,16 +49,6 @@ implementation of kernels for Jupyter and provides a number of kernels such as
         `Documentation <https://xeus.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter-xeus/xeus>`__
 
-    `ipywidgets <https://ipywidgets.readthedocs.io/en/latest/>`__
-        interactive widgets for Python in the Jupyter Notebook.
-        `Documentation <https://ipywidgets.readthedocs.io/en/latest/>`__ |
-        `Repo <https://github.com/ipython/ipywidgets>`__
-
-    `ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`__
-        lightweight parallel computing in Python offering seamless notebook integration.
-        `Documentation <https://ipyparallel.readthedocs.io/en/latest/>`__ |
-        `Repo <https://github.com/ipython/ipyparallel>`__
-
 .. seealso::
 
       `Jupyter kernels <list of available kernels_>`_
