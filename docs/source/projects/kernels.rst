@@ -19,14 +19,14 @@ Kernels
 Kernels are `programming language specific` processes that run independently
 and interact with the Jupyter Applications and their user interfaces.
 `ipykernel <https://github.com/ipython/ipykernel>`__ is the reference Jupyter kernel
-is the reference Jupyter kernel built on top of `IPython <https://ipython.org>`__,
+built on top of `IPython <https://ipython.org>`__,
 providing a powerful environment for interactive computing in Python.
 
 `jupyter-client <https://jupyter-client.readthedocs.io/en/stable/>`__ contains
 the authoritative description of the Jupyter messaging protocol which is used
 by clients to communicate with the kernels.
 
-`Xeus <https://ipyparallel.readthedocs.io/en/latest/>`__ subproject facilitates
+`Xeus <https://xeus.readthedocs.io/en/latest/>`__ facilitates the
 implementation of kernels for Jupyter and provides a number of kernels such as
 `xeus-cling <https://github.com/jupyter-xeus/xeus-cling>`__ (C++),
 `xeus-sql <https://github.com/jupyter-xeus/xeus-sql>`__ (SQL) and many more.
@@ -43,7 +43,7 @@ implementation of kernels for Jupyter and provides a number of kernels such as
         `Repo <https://github.com/ipython/ipython>`__
 
     `Xeus <https://ipyparallel.readthedocs.io/en/latest/>`__
-        library facilitating the implementation of kernels for Jupyter
+        library facilitating the implementation of kernels for Jupyter.
         It implements the Jupyter Kernel protocol so developers
         can focus on implementing the interpreter part of the kernel.
         `Documentation <https://xeus.readthedocs.io/en/latest/>`__ |
