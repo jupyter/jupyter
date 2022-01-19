@@ -4,6 +4,7 @@ IPython
 .. image:: ../_static/_images/ipy_logo.png
       :width: 50%
       :target: https://ipython.org
+      :alt: 
 
 
 Description

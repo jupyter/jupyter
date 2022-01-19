@@ -49,6 +49,7 @@ between the frontends and the IPython Kernel is described in
 The core execution machinery for the kernel is shared with terminal IPython:
 
 .. image:: figs/ipy_kernel_and_terminal.png
+   :alt: 
 
 A kernel process can be connected to more than one frontend simultaneously. In
 this case, the different frontends will have access to the same variables.
@@ -66,6 +67,7 @@ the core execution part. Native kernels implement execution and communications
 in the target language:
 
 .. image:: figs/other_kernels.png
+   :alt: 
 
 Wrapper kernels are easier to write quickly for languages that have good
 Python wrappers, like `octave_kernel <https://pypi.python.org/pypi/octave_kernel>`_,
@@ -102,6 +104,7 @@ to the notebook server, which saves it on disk as a JSON file with a
 ``.ipynb`` extension.
 
 .. image:: figs/notebook_components.png
+   :alt: 
 
 The notebook server, not the kernel, is responsible for saving and loading
 notebooks, so you can edit notebooks even if you don't have the kernel for
@@ -118,6 +121,7 @@ as HTML, LaTeX, or reStructuredText. This conversion goes through a series of
 steps:
 
 .. image:: figs/nbconvert.png
+   :alt: 
 
 1. Preprocessors modify the notebook in memory. E.g. ExecutePreprocessor runs
    the code in the notebook and updates the output.
@@ -175,4 +179,4 @@ Below is a high level visual overview of project relationships. It is current as
 
 .. image:: /_static/_images/repos_map.png
    :width: 75%
-   :alt: Architecture diagram of project relationships
+   :alt: Architecture diagram of project relationships 

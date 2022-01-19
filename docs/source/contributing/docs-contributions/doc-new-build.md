@@ -13,7 +13,7 @@ project documentation whenever a pull request is merged into the GitHub repo.
 
 Each GitHub repo has a Settings tab at the far right of the repo menubar. Navigate to Settings and then the **Webhooks & services** submenu tab.
 
-![Settings and Webhooks & services submenu](static/gh-webhooks-services.png "Screenshot of GitHub repo settings")
+![Settings and Webhooks & services submenu ](static/gh-webhooks-services.png "Screenshot of GitHub repo settings")
 
 ### Add the ReadTheDocs service
 
@@ -21,13 +21,13 @@ Select **Add service** and enter *ReadTheDocs* in the **Available Services** inp
 
 The Services/Add ReadTheDocs window will open. Press the green **Add service** button to activate the ReadTheDocs service.
 
-![Add ReadTheDocs service](static/gh-add-rtd.png "Screenshot of adding ReadTheDocs service")
+![Add ReadTheDocs service ](static/gh-add-rtd.png "Screenshot of adding ReadTheDocs service")
 
 ### Success
 
 The ReadTheDocs service is added successfully. The service will take effect on the next merged pull request to the project repo.
 
-![Service successfully added](static/gh-rtd-hook-success.png "Screenshot of service successfully added")
+![Service successfully added ](static/gh-rtd-hook-success.png "Screenshot of service successfully added")
 
 
 *Created: 01-07-2016*

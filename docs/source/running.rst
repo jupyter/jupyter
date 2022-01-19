@@ -50,6 +50,7 @@ notebooks. Often this will be your home directory.
 **Notebook Dashboard**
 
 .. image:: _static/_images/tryjupyter_file.png
+    :alt: 
 
 Introducing the Notebook Server's Command Line Options
 ------------------------------------------------------

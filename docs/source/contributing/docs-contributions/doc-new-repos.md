@@ -11,14 +11,14 @@ On a larger scope, having the Jupyter name appear prominently in a repo's
 ### Link in repo description
 Please include a link to the documentation in the repo's description.
 
-![Repo description and documentation link](static/repo-description.png "Screenshot of documentation link in GitHub repo description")
+![Repo description and documentation link ](static/repo-description.png "Screenshot of documentation link in GitHub repo description")
 
 ### Badges in README
 One common way that individuals find documentation is to look for and click
 on the doc badge that commonly is found right after the title. Another
 benefit is an easy visual indication if the docs are not rendering properly.
 
-![Badges in README.md](static/repo-badges.png "Screenshot of badges displayed under the repo title in the README file")
+![Badges in README.md ](static/repo-badges.png "Screenshot of badges displayed under the repo title in the README file")
 
 ### Resources section in README
 
@@ -29,7 +29,7 @@ demo notebooks, if available.
 
 The *Resources* section includes:
 
-![Resources section in `README.md`](static/repo-resources.png "Screenshot of resource list at end of README file")
+![Resources section in `README.md` ](static/repo-resources.png "Screenshot of resource list at end of README file")
 
 
 ## Checklist adding docs to a new or existing GitHub Repo

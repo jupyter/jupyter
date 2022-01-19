@@ -28,7 +28,7 @@ This is a place to make short announcements (without a need for discussion).
 
 Add agenda items here **before** the meeting. We will reorganize the agenda so that it fits in the 60m meeting slot.
 
-* 🦌 [IPyElk 0.2.0](https://github.com/jupyrdf/ipyelk) [![binder-badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyrdf/ipyelk/42db3e3?urlpath=lab%2Ftree%2Fexamples%2F_index.ipynb)
+* 🦌 [IPyElk 0.2.0](https://github.com/jupyrdf/ipyelk) [![binder-badge ](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyrdf/ipyelk/42db3e3?urlpath=lab%2Ftree%2Fexamples%2F_index.ipynb)
   * > Jupyter Widgets for interactive graphs _at scale_ powered by the [Eclipse Layout Kernel (ELK)](https://github.com/kieler/elkjs), [sprotty](https://github.com/eclipse/sprotty), [networkx](https://networkx.github.io).
 
 * [dgaf](https://github.com/deathbeds/dgaf) (deathbeds generalized automation framework)

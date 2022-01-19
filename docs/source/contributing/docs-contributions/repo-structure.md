@@ -7,7 +7,7 @@
 - ``readthedocs.yml`` : configuration file for readthedocs to build using
   conda
 
-![Repo root directory](static/repo-root.png "Screenshot of GitHub repo root")
+![Repo root directory ](static/repo-root.png "Screenshot of GitHub repo root")
 
 ## Inside the docs directory
 
@@ -16,7 +16,7 @@
 - ``makefile`` : used by Sphinx to build the docs
 - ``environment.yml`` : conda build instructions
 
-![``docs`` directory](static/docs-directory.png "Screenshot of docs directory")
+![``docs`` directory ](static/docs-directory.png "Screenshot of docs directory")
 
 
 ## Sphinx
