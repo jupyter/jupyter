@@ -33,7 +33,7 @@ For more discussion on the format of these calls, see the thread [here](https://
 - **Gonzalo** Internationalization workflow for extension developers
 
     - Some feedback... :man-facepalming: 
-        - ![Text asking why there is a delay for publishing the language packs needed for internationalization ](https://i.imgur.com/mho6Ka9.png)
+        - ![A comment from a community members on internationalization: As I see, there is a delay with the creation and publishing of language packs. We use Jupyter Lab as a base for one of our products and we are interested in using language lacks in it (especially Chinese and Japanese. What is the reason for the delay and is it possible to help the project somehow? We are interested in contributing to the Jupyter Lab project in many domains, for example, sofrware development, testing and translation.](https://i.imgur.com/mho6Ka9.png)
 
     - Releasing language packages :world_map::card_file_box: 
         - [Current packages and state](https://crowdin.com/project/jupyterlab)  (showing first 10)
@@ -52,7 +52,7 @@ For more discussion on the format of these calls, see the thread [here](https://
     - **Nbterm**
         - [Blog: Jupyter Notebooks in the terminal](https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70)
         - [Github Repository](https://github.com/davidbrochart/nbterm)
-          ![Notebook cell input and outputs represented in the terminal ](https://i.imgur.com/kzNyCno.png)
+          ![Notebook cell input and outputs represented in the terminal. The terminal has a black background and syntax coloring. Line numbers appear to the left of each line as "In 1", "In 2" etc. Inputs appear as text within a grey bounding box. Each input line's output appears as grey text below the box. ](https://i.imgur.com/kzNyCno.png)
 
 ## Other Links Shared
 

@@ -49,7 +49,7 @@ between the frontends and the IPython Kernel is described in
 The core execution machinery for the kernel is shared with terminal IPython:
 
 .. image:: figs/ipy_kernel_and_terminal.png
-   :alt: 
+   :alt: Venn diagram showing that Terminal IPython and the IPython Kernel both share the same Python executable. Terminal IPython communicates with the Python executable using stdin and stdout, whereas the Python Kernel uses JSON messages sent over ZeroMQ. 
 
 A kernel process can be connected to more than one frontend simultaneously. In
 this case, the different frontends will have access to the same variables.
@@ -67,7 +67,7 @@ the core execution part. Native kernels implement execution and communications
 in the target language:
 
 .. image:: figs/other_kernels.png
-   :alt: 
+   :alt: Diagram showing how a wrapper kernel differs from a native kernel. Wrapper reuses IPython's message-passing code; native does not.
 
 Wrapper kernels are easier to write quickly for languages that have good
 Python wrappers, like `octave_kernel <https://pypi.python.org/pypi/octave_kernel>`_,
@@ -104,7 +104,7 @@ to the notebook server, which saves it on disk as a JSON file with a
 ``.ipynb`` extension.
 
 .. image:: figs/notebook_components.png
-   :alt: 
+   :alt: Communication diagram showing five nodes labeled user, browser, notebook server, notebook file, and kernel. The notebook server is a communication hub. The browser, notebook file and kernel cannot talk to each other directly. They communicate indirectly through the notebook server. The user can only talk to the browser. The notebook server and kernel are colored green whereas the browser is colored purple to draw a distinction between the Jupyter front end versus back end.
 
 The notebook server, not the kernel, is responsible for saving and loading
 notebooks, so you can edit notebooks even if you don't have the kernel for
@@ -121,7 +121,7 @@ as HTML, LaTeX, or reStructuredText. This conversion goes through a series of
 steps:
 
 .. image:: figs/nbconvert.png
-   :alt: 
+   :alt: Flowchart demonstrating the steps in the conversion process of the Nbconvert tool. The notebook is passed to preprocessors, which then go to the exporter. The exporter creates the exported file, which is then passed to postprocessors in the final step. 
 
 1. Preprocessors modify the notebook in memory. E.g. ExecutePreprocessor runs
    the code in the notebook and updates the output.

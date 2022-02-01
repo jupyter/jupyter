@@ -50,7 +50,7 @@ notebooks. Often this will be your home directory.
 **Notebook Dashboard**
 
 .. image:: _static/_images/tryjupyter_file.png
-    :alt: 
+    :alt: Screenshot of try.jupyter.org with the "Files" tab of the Jupyter dashboard open. There is a list of files, Jupyter notebooks, and subdirectories relative to the root directory where the server was started and a text reading "Select items to perform actions on them".
 
 Introducing the Notebook Server's Command Line Options
 ------------------------------------------------------
