@@ -11,7 +11,7 @@ On a larger scope, having the Jupyter name appear prominently in a repo's
 ### Link in repo description
 Please include a link to the documentation in the repo's description.
 
-![Screenshot of documentation link in GitHub repo description](static/repo-description.png "Screenshot of documentation link in GitHub repo description")
+![Documentation link in GitHub jupyter/notebook repo description annotated with a red speech bubble reading "Add link to documentation (usually a link to Read the Docs.)")](static/repo-description.png)
 
 ### Badges in README
 One common way that individuals find documentation is to look for and click

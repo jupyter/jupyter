@@ -7,7 +7,7 @@
 - ``readthedocs.yml`` : configuration file for readthedocs to build using
   conda
 
-![The root level of the jupyter kernel_gateway repo. There are orange boxes surrounding two elements in the directory structure: the docs folder and the readthedocs.yml file. The docs folder is the first element in the directory. The readthedocs.yml file is the 12th item in the directory.](static/repo-root.png "Screenshot of GitHub repo root")
+![The root level of the jupyter kernel_gateway repo. There are orange boxes surrounding two elements in the directory structure: the docs folder and the readthedocs.yml file. The docs folder is the first element in the directory. The readthedocs.yml file is the 12th item in the directory.](static/repo-root.png)
 
 ## Inside the docs directory
 
@@ -16,7 +16,7 @@
 - ``makefile`` : used by Sphinx to build the docs
 - ``environment.yml`` : conda build instructions
 
-![the docs directory in the jupyter kernel_gateway repo ( path: jupyter/kernel_gateway/docs). The first two elements in the directory are folders that have blue boxes surrounding them: `_static` and `source`.  The third and forth elements in the directory are files with orange boxes surrounding them: `Makefile` and `environment.yml`. There are two more files in the directory, which have no visual emphasis.](static/docs-directory.png "Screenshot of docs directory")
+![the docs directory in the jupyter kernel_gateway repo ( path: jupyter/kernel_gateway/docs). The first two elements in the directory are folders that have blue boxes surrounding them: `_static` and `source`.  The third and forth elements in the directory are files with orange boxes surrounding them: `Makefile` and `environment.yml`. There are two more files in the directory, which have no visual emphasis.](static/docs-directory.png)
 
 
 ## Sphinx

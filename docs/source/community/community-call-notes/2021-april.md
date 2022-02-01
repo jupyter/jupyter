@@ -33,11 +33,11 @@ For more discussion on the format of these calls, see the thread [here](https://
 - **Gonzalo** Internationalization workflow for extension developers
 
     - Some feedback... :man-facepalming: 
-        - ![A comment from a community members on internationalization: As I see, there is a delay with the creation and publishing of language packs. We use Jupyter Lab as a base for one of our products and we are interested in using language lacks in it (especially Chinese and Japanese. What is the reason for the delay and is it possible to help the project somehow? We are interested in contributing to the Jupyter Lab project in many domains, for example, sofrware development, testing and translation.](https://i.imgur.com/mho6Ka9.png)
+        - "As I see, there is a delay with the creation and publishing of language packs. We use Jupyter Lab as a base for one of our products and we are interested in using language lacks in it (especially Chinese and Japanese. What is the reason for the delay and is it possible to help the project somehow? We are interested in contributing to the Jupyter Lab project in many domains, for example, sofrware development, testing and translation."
 
     - Releasing language packages :world_map::card_file_box: 
         - [Current packages and state](https://crowdin.com/project/jupyterlab)  (showing first 10)
-          ![The top 10 translations by percent completed are Spanish at 100%, Chinese Simplified at 100%, Hebrew at 88%, Turkish at 86%, Brazilian Portuguese at 83%, Ukrainian at 83%, Japanese at 83% French at 83%, Russian at 74%, and Polish at 60% ](https://i.imgur.com/vNeRe8s.png)
+          ![The top 10 translations by percent completed are Spanish at 100%, Chinese Simplified at 100%, Hebrew at 88%, Turkish at 86%, Brazilian Portuguese at 83%, Ukrainian at 83%, Japanese at 83% French at 83%, Russian at 74%, and Polish at 60%](https://i.imgur.com/vNeRe8s.png)
         - Releasing Spanish and Chinese simplified today evening. :eyes:
         - Please attend the JLab dev meeting for more information on the internal process for managing the translations and language packs.
 
@@ -52,7 +52,7 @@ For more discussion on the format of these calls, see the thread [here](https://
     - **Nbterm**
         - [Blog: Jupyter Notebooks in the terminal](https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70)
         - [Github Repository](https://github.com/davidbrochart/nbterm)
-          ![Notebook cell input and outputs represented in the terminal. The terminal has a black background and syntax coloring. Line numbers appear to the left of each line as "In 1", "In 2" etc. Inputs appear as text within a grey bounding box. Each input line's output appears as grey text below the box. ](https://i.imgur.com/kzNyCno.png)
+          ![Notebook cell input and outputs represented in the terminal. The terminal has a black background and syntax coloring. Line numbers appear to the left of each line as "In 1", "In 2" etc. Inputs appear as text within a grey bounding box. Each input line's output appears as grey text below the box.](https://i.imgur.com/kzNyCno.png)
 
 ## Other Links Shared
 

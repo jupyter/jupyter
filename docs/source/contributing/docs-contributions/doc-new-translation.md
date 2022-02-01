@@ -32,8 +32,7 @@ in the workflow described below. This workflow has a handful of actors and compo
 
 ### The translation process
 
-![Diagram of Translation CI and CD. Different steps are represented by humans, files and websites icons connected by arrows](static/translation-ci-cd.png "Diagram of the translation continuous integration 
-and deployment flow")
+![Diagram of translation CI and CD. Different steps are represented by humans, files and websites icons connected by arrows.](static/translation-ci-cd.png )
 
 1. A user creates or edits reStructuredText (`.rst`) or Markdown (`.md`) documents written in U.S.
    English.
@@ -372,7 +371,7 @@ ReadTheDocs will build both the source documentation site as well as sites for a
 languages. ReadTheDocs will associate the sites with one another and make them accessible via
 language links in a popup.
 
-![Screenshot of the Jupyter Project Documenation site with the ReadTheDocs popup open, showing links to the documentation in other languages.](static/translation-rtd-popup.png)
+![Project Jupyter documenation site with the ReadTheDocs popup open, showing links to the documentation in other languages.](static/translation-rtd-popup.png)
 
 ## Reference
 

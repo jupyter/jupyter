@@ -121,7 +121,7 @@ as HTML, LaTeX, or reStructuredText. This conversion goes through a series of
 steps:
 
 .. image:: figs/nbconvert.png
-   :alt: Flowchart demonstrating the steps in the conversion process of the Nbconvert tool. The notebook is passed to preprocessors, which then go to the exporter. The exporter creates the exported file, which is then passed to postprocessors in the final step. 
+   :alt: Flow chart demonstrating the steps in the conversion process of the nbconvert tool. The notebook is passed to preprocessors, which then go to the exporter. The exporter creates the exported file, which is then passed to postprocessors in the final step. 
 
 1. Preprocessors modify the notebook in memory. E.g. ExecutePreprocessor runs
    the code in the notebook and updates the output.
@@ -179,4 +179,4 @@ Below is a high level visual overview of project relationships. It is current as
 
 .. image:: /_static/_images/repos_map.png
    :width: 75%
-   :alt: Architecture diagram of project relationships 
+   :alt: Architecture diagram of Jupyter project relationships from servers, applications, API, and kernels.

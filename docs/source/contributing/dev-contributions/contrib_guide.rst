@@ -120,9 +120,9 @@ including partial or in-progress work, is appreciated.
 
 Contribution Workflow
 ---------------------
-[Link to full alt-text of Contribution Workflow flowchart.](https://gist.githubusercontent.com/MarsBarLee/2dc5e9c83adf0555d08277b2262302e5/raw/be6a0c46f58d7135a75df7747698cef676b9cdc0/Jupyter%2520Documentation:%2520Contribution%2520Workflow%2520Alt-Text)
+[Link to full alt-text of Contribution Workflow flow chart.](https://gist.githubusercontent.com/MarsBarLee/2dc5e9c83adf0555d08277b2262302e5/raw/be6a0c46f58d7135a75df7747698cef676b9cdc0/Jupyter%2520Documentation:%2520Contribution%2520Workflow%2520Alt-Text)
 .. image:: ../../_static/_images/contribution_workflow.png
-   :alt: A flow chart with 14 labeled boxes linked by arrows. The chart is uni-directional.  At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Refer to the link above the image for full, long alt-text.
+   :alt: A flow chart listing the steps of contributing code to Jupyter with 14 labeled boxes linked by arrows. The chart is uni-directional. At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Refer to the link above the image for full text.
 
 
 

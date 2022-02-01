@@ -27,7 +27,7 @@ The Services/Add ReadTheDocs window will open. Press the green **Add service** b
 
 The ReadTheDocs service is added successfully. The service will take effect on the next merged pull request to the project repo.
 
-![In GitHub, the ipywidgets repository page is open. A banner notification at the top of the page is displayed, reading "Okay, that hook was successfully created."](static/gh-rtd-hook-success.png "Screenshot of service successfully added")
+![In GitHub, the ipywidgets repository page is open. A banner notification at the top of the page is displayed, reading "Okay, that hook was successfully created."](static/gh-rtd-hook-success.png)
 
 
 *Created: 01-07-2016*
