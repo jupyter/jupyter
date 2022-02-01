@@ -32,7 +32,7 @@ in the workflow described below. This workflow has a handful of actors and compo
 
 ### The translation process
 
-![Diagram of translation CI and CD. Different steps are represented by humans, files and websites icons connected by arrows.](static/translation-ci-cd.png )
+![Diagram of translation CI and CD. Different steps are represented by humans, files and websites icons connected by arrows.](static/translation-ci-cd.png)
 
 1. A user creates or edits reStructuredText (`.rst`) or Markdown (`.md`) documents written in U.S.
    English.
