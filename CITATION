@@ -1,0 +1,22 @@
+Kluyver, Thomas, Benjamin Ragan-Kelley, Fernando Pérez, Brian E. Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley et al.
+"Jupyter Notebooks-a publishing format for reproducible computational workflows." In ELPUB, pp. 87-90. 2016.
+
+
+Kluyver, Thomas, Ragan-Kelley, Benjamin, Pérez, Fernando, Granger, Brian, Bussonnier, Matthias, Frederic, Jonathan, Kelley, Kyle, Hamrick, Jessica, Grout, Jason, Corlay, Sylvain, Ivanov, Paul, Avila, Damián, Abdalla, Safia, Willing, Carol and Jupyter development team, (2016)
+Jupyter Notebooks – a publishing format for reproducible computational workflows.  Loizides, Fernando and Scmidt, Birgit (eds.).
+In Positioning and Power in Academic Publishing: Players, Agents and Agendas.  Netherlands: IOS Press. pp. 87-90.
+http://dx.doi.org/10.3233/978-1-61499-649-1-87
+
+
+@inproceedings{jupyter,
+       booktitle = {Positioning and Power in Academic Publishing: Players, Agents and Agendas},
+          editor = {Fernando Loizides and Birgit Scmidt},
+           title = {Jupyter Notebooks - a publishing format for reproducible computational workflows},
+          author = {Thomas Kluyver and Benjamin Ragan-Kelley and Fernando P{\'e}rez and Brian Granger and Matthias Bussonnier and Jonathan Frederic and Kyle Kelley and Jessica Hamrick and Jason Grout and Sylvain Corlay and Paul Ivanov and Dami{\'a}n Avila and Safia Abdalla and Carol Willing and  Jupyter development team},
+       publisher = {IOS Press},
+         address = {Netherlands},
+            year = {2016},
+           pages = {87--90},
+             url = {https://eprints.soton.ac.uk/403913/},
+        abstract = {It is increasingly necessary for researchers in all fields to write computer code, and in order to reproduce research results, it is important that this code is published. We present Jupyter notebooks, a document format for publishing code, results and explanations in a form that is both readable and executable. We discuss various tools and use cases for notebook documents.}
+}
