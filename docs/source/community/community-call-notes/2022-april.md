@@ -2,7 +2,9 @@
 
 **Date:** April 26, 2022, at 7am Pacific (in your [timezone](https://arewemeetingyet.com/Los%20Angeles/2022-04-26/7:00/Jupyter%20Community%20Call))
 
-**Discourse:** https://discourse.jupyter.org/t/jupyter-community-calls/668
+[**Discourse**](https://discourse.jupyter.org/t/jupyter-community-calls/668)
+
+[**YouTube recording**](https://youtu.be/WDkudE2RvRk)
 
 **Please note:**
 - Community calls are recorded and posted to this [playlist](https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP)
