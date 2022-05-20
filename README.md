@@ -15,7 +15,7 @@ It is written in a combination of [reStructuredText](https://docutils.sourceforg
 
 There are a few ways to build the documentation, see below for instructions:
 
-### Build the documentation automaticlaly with `nox`
+### Build the documentation automatically with `nox`
 
 The easiest way to build the documentation locally is by using the [`nox` command line tool](https://nox.thea.codes/). This tool makes it easy to automate commands in a repository, and we have included a `docs` command to quickly install the dependencies and build the the documentation.
 
