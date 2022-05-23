@@ -120,10 +120,11 @@ including partial or in-progress work, is appreciated.
 
 Contribution Workflow
 ---------------------
-[Link to full alt-text of Contribution Workflow flow chart.](https://gist.githubusercontent.com/MarsBarLee/2dc5e9c83adf0555d08277b2262302e5/raw/be6a0c46f58d7135a75df7747698cef676b9cdc0/Jupyter%2520Documentation:%2520Contribution%2520Workflow%2520Alt-Text)
-.. image:: ../../_static/_images/contribution_workflow.png
-   :alt: A flow chart listing the steps of contributing code to Jupyter with 14 labeled boxes linked by arrows. The chart is uni-directional. At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Refer to the link above the image for full text.
 
+.. image:: ../../_static/_images/contribution_workflow.png
+   :alt: A flow chart listing the steps of contributing code to Jupyter with 14 labeled boxes linked by arrows. The chart is uni-directional. At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Refer to the link below the image for full text.
+
+Full Contribution Workflow description.[#f1]_
 
 
 Core Developer Workflow
@@ -197,3 +198,36 @@ If you believe you've found a security vulnerability in a Jupyter project,
 please report it to `security@ipython.org <mailto:security@ipython.org>`_. If you
 prefer to encrypt your security reports, you can use `this PGP public
 key <https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc>`_.
+
+.. rubric:: Footnotes
+
+.. [#f1] A flow chart with 14 labeled boxes linked by arrows. The chart is uni-directional.  At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Here the flow chart is described as lists in which the possible next steps are listed beneath each box label.
+   1. Start
+      1a. forward to 'Find an issue to address'
+   2. Find an issue to address
+      2a. forward to 'Identify the relevant section of the codebase'
+   3. Identify the relevant section of the codebase
+      3a. forward to 'Write simple test cases to verify that your fix or enhancement works.'
+   4. Write simple test cases to verify that your fix or enhancement works.
+      4a. forward to 'Implement the bug fix or enhancement in the appropriate location'
+   5. Implement the bug fix or enhancement in the appropriate location.
+       5a. Forward to 'Run the test suite and verify that the updated code works appropriately.'
+   6. Run the test suite and verify that the updated code works appropriately.
+      6a. forward to 'Test suit passes!'
+      6b. forward to 'Test suit fails!'
+   7. Test suit fails
+      7a. forward to 'Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.'
+   8. Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.
+      8a. back to 'Run the test suite and verify that the updated code works appropriately'
+   9. Test suit passes!
+      9a. forward to 'Submit a pull request to the appropriate repository with your awesome code!'
+   10. Submit a pull request to the appropriate repository with your awesome code!
+      10a. forward to 'Reviewer approves and merges the PR'
+      10b. forward to 'Reviewer responds with changes you should make to the PR'
+   11. Reviewer responds with changes you should make to the PR
+      11a. forward to 'Apply the necessary fixes or updates to the pull request'
+   12. Apply the necessary fixes or updates to the pull request'
+      12a. back to 'Submit a pull request to the appropriate repository with your awesome code!'
+   13. Reviewer approves and merges the PR'
+      13a. forward to 'Rejoice and repeat!'
+   14. 'Rejoice and repeat!'

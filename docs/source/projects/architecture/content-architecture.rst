@@ -49,7 +49,7 @@ between the frontends and the IPython Kernel is described in
 The core execution machinery for the kernel is shared with terminal IPython:
 
 .. image:: figs/ipy_kernel_and_terminal.png
-   :alt: Venn diagram showing that Terminal IPython and the IPython Kernel both share the same Python executable. Terminal IPython communicates with the Python executable using stdin and stdout, whereas the Python Kernel uses JSON messages sent over ZeroMQ. 
+   :alt: 
 
 A kernel process can be connected to more than one frontend simultaneously. In
 this case, the different frontends will have access to the same variables.
@@ -67,7 +67,7 @@ the core execution part. Native kernels implement execution and communications
 in the target language:
 
 .. image:: figs/other_kernels.png
-   :alt: Diagram showing how a wrapper kernel differs from a native kernel. Wrapper reuses IPython's message-passing code; native does not.
+   :alt: 
 
 Wrapper kernels are easier to write quickly for languages that have good
 Python wrappers, like `octave_kernel <https://pypi.python.org/pypi/octave_kernel>`_,
@@ -121,7 +121,7 @@ as HTML, LaTeX, or reStructuredText. This conversion goes through a series of
 steps:
 
 .. image:: figs/nbconvert.png
-   :alt: Flow chart demonstrating the steps in the conversion process of the nbconvert tool. The notebook is passed to preprocessors, which then go to the exporter. The exporter creates the exported file, which is then passed to postprocessors in the final step. 
+   :alt: 
 
 1. Preprocessors modify the notebook in memory. E.g. ExecutePreprocessor runs
    the code in the notebook and updates the output.

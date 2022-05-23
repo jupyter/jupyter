@@ -18,7 +18,7 @@ One common way that individuals find documentation is to look for and click
 on the doc badge that commonly is found right after the title. Another
 benefit is an easy visual indication if the docs are not rendering properly.
 
-![The GitHub-rendered view of the README.md file for the Jupyter Notebook project is annotated with a red speech bubble reading "Add badge for Docs" to indicate the location of the documentation badge on the page.](static/repo-badges.png)
+![The GitHub-rendered view of the README.md file for the Jupyter Notebook project is annotated with a red speech bubble reading "Add badge for Docs."](static/repo-badges.png)
 
 ### Resources section in README
 
