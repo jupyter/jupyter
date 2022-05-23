@@ -34,6 +34,8 @@ in the workflow described below. This workflow has a handful of actors and compo
 
 ![](static/translation-ci-cd.png)
 
+<!---Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.--->
+
 1. A user creates or edits reStructuredText (`.rst`) or Markdown (`.md`) documents written in U.S.
    English.
 2. The user submits a pull request on GitHub.
