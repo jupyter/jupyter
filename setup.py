@@ -30,6 +30,7 @@ setup_args = dict(
         'nbconvert',
         'ipykernel',
         'ipywidgets',
+        'jupyterlab',
     ],
     url                 = "http://jupyter.org",
     license             = "BSD",
