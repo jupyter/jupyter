@@ -373,7 +373,7 @@ ReadTheDocs will build both the source documentation site as well as sites for a
 languages. ReadTheDocs will associate the sites with one another and make them accessible via
 language links in a popup.
 
-![Project Jupyter documenation site with the ReadTheDocs popup open on the right, showing links to the documentation in other languages.](static/translation-rtd-popup.png)
+![Project Jupyter documentation site with the ReadTheDocs popup open on the right, showing links to the documentation in other languages.](static/translation-rtd-popup.png)
 
 ## Reference
 

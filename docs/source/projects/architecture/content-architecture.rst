@@ -46,7 +46,7 @@ messages sent over `ZeroMQ <http://zeromq.org/>`_ sockets; the protocol used
 between the frontends and the IPython Kernel is described in
 :ref:`jupyterclient:messaging`.
 
-The core execution machinery for the kernel is shared with terminal IPython:
+The core execution machinery for the kernel is shared with terminal IPython.
 
 .. image:: figs/ipy_kernel_and_terminal.png
    :alt: 
@@ -67,7 +67,7 @@ we are refining IPython to make that more practical.
 Today, there are two ways to develop a kernel for another language. Wrapper
 kernels reuse the communications machinery from IPython, and implement only
 the core execution part. Native kernels implement execution and communications
-in the target language:
+in the target language.
 
 .. image:: figs/other_kernels.png
    :alt: 
@@ -110,8 +110,13 @@ to the notebook server, which saves it on disk as a JSON file with a
 ``.ipynb`` extension.
 
 .. image:: figs/notebook_components.png
-   :alt: Communication diagram showing five nodes labeled user, browser, notebook server, notebook file, and kernel. The notebook server is a communication hub. The browser, notebook file and kernel cannot talk to each other directly. They communicate indirectly through the notebook server. The user can only talk to the browser. The notebook server and kernel are colored green whereas the browser is colored purple to draw a distinction between the Jupyter front end versus back end.
+   :alt:
+   
+.. 
+   Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.
 
+The notebook server is a communication hub. The browser, notebook file on disk, and
+kernel cannot talk to each other directly. They communicate through the notebook server. 
 The notebook server, not the kernel, is responsible for saving and loading
 notebooks, so you can edit notebooks even if you don't have the kernel for
 that language—you just won't be able to run code. The kernel doesn't know

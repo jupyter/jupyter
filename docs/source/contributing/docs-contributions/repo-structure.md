@@ -16,7 +16,7 @@
 - ``makefile`` : used by Sphinx to build the docs
 - ``environment.yml`` : conda build instructions
 
-![The docs directory in the jupyter kernel_gateway repo ( path: jupyter/kernel_gateway/docs). The first two elements in the directory are folders that have blue boxes surrounding them: `_static` and `source`.  The third and forth elements in the directory are files with orange boxes surrounding them: `Makefile` and `environment.yml`. There are two more files in the directory, which have no visual emphasis.](static/docs-directory.png)
+![The docs directory in the jupyter kernel_gateway repo (path: jupyter/kernel_gateway/docs). The first two elements in the directory are folders that have blue boxes surrounding them: `_static` and `source`.  The third and forth elements in the directory are files with orange boxes surrounding them: `Makefile` and `environment.yml`. There are two more files in the directory, which have no visual emphasis.](static/docs-directory.png)
 
 
 ## Sphinx
