@@ -16,5 +16,6 @@ is a book about using Jupyter in teaching and learning.
         assignments.
         `Documentation <https://nbgrader.readthedocs.io/en/stable/>`__ |
         `Repo <https://github.com/jupyter/nbgrader>`__
+
     `jupyter4edu <https://github.com/orgs/jupyter4edu/>`__
         GitHub organization hosting community resources for Jupyter in education

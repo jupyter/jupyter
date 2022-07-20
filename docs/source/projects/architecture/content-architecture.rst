@@ -48,11 +48,11 @@ between the frontends and the IPython Kernel is described in
 
 The core execution machinery for the kernel is shared with terminal IPython.
 
+.. Alt text here and below is intentionally blank
+.. this is because the image content is described thoroughly in the surrounding text.
+
 .. image:: figs/ipy_kernel_and_terminal.png
    :alt: 
-
-.. 
-   Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.
 
 A kernel process can be connected to more than one frontend simultaneously. In
 this case, the different frontends will have access to the same variables.
@@ -71,9 +71,6 @@ in the target language.
 
 .. image:: figs/other_kernels.png
    :alt: 
-
-.. 
-   Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.
 
 Wrapper kernels are easier to write quickly for languages that have good
 Python wrappers, like `octave_kernel <https://pypi.python.org/pypi/octave_kernel>`_,
@@ -111,9 +108,6 @@ to the notebook server, which saves it on disk as a JSON file with a
 
 .. image:: figs/notebook_components.png
    :alt:
-   
-.. 
-   Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.
 
 The notebook server is a communication hub. The browser, notebook file on disk, and
 kernel cannot talk to each other directly. They communicate through the notebook server. 
@@ -133,9 +127,6 @@ steps:
 
 .. image:: figs/nbconvert.png
    :alt: 
-
-.. 
-   Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.
 
 1. Preprocessors modify the notebook in memory. E.g. ExecutePreprocessor runs
    the code in the notebook and updates the output.

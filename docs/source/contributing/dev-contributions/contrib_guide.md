@@ -1,9 +1,8 @@
-===============
-How can I help?
-===============
+# How can I help?
 
-.. contents:: Contents
-   :local:
+```{contents} Contents
+:local:
+```
 
 Contributing to open source can be a nerve-wrecking process, but don't worry
 everyone on the Jupyter team is dedicated to making sure that your open source
@@ -20,8 +19,7 @@ a small amount of the code necessary to fix the issue you are tackling. Any and
 all help is welcome and any and all people are encouraged to contribute.
 
 
-Submitting Pull Requests
-========================
+## Submitting Pull Requests
 
 Individuals are welcome, and encouraged, to submit pull requests and contribute
 to the Jupyter source. If you are a first-time contributor looking to get
@@ -31,8 +29,9 @@ is particularly useful because the Jupyter codebase is scattered across several
 repositories within the jupyter organization, as opposed to a single
 repository. You can click the link below to find sprint-friendly issues.
 
-`is:issue is:open is:sprint-friendly user:jupyter
-<https://github.com/search?q=is%3Aissue+is%3Aopen+is%3Asprint-friendly+user%3Ajupyter&type=Issues&ref=searchresults>`_
+```{link-button} https://github.com/search?q=is%3Aissue+is%3Aopen+is%3Asprint-friendly+user%3Ajupyter&type=Issues&ref=searchresults
+:text: is:issue is:open is:sprint-friendly user:jupyter
+```
 
 Once you've found an issue that you are eager to solve, you can use the guide
 below to get started. If you experience any problems while working on the
@@ -46,9 +45,9 @@ including partial or in-progress work, is appreciated.
 
 1. Fork the repository associated with the issue you are addressing and clone
    it to a local directory on your machine.
+2. `cd` into the directory and create a new branch using `git checkout -b insert-branch-name-here`.
 
-2. ``cd`` into the directory and create a new branch using ``git checkout -b
-   insert-branch-name-here``. Pick a branch name that gives some insight into
+   Pick a branch name that gives some insight into
    what the issue you are fixing is. For example, if you are updating the text
    that is logged out by the program when a certain error happens you might
    name your branch `update-error-text`.
@@ -60,7 +59,7 @@ including partial or in-progress work, is appreciated.
    reside and leave a comment in the file describing what issue you are trying
    to address.
 
-5. Open a pull request to the repository with ``[WIP]`` appended to the front
+5. Open a pull request to the repository with `[WIP]` appended to the front
    so that the core team is aware that you are actively pursuing the issue.
    When creating a pull request, make sure that the title clearly and concisely
    described what your code does. For example, we might use the title "Updated
@@ -76,7 +75,7 @@ including partial or in-progress work, is appreciated.
 6. Run the test suite locally in order to ensure that everything is properly
    configured on your system. Refer to the repository's README for information
    on how to run the test suite. This will typically require that you run the
-   ``nosetests`` command on the commandline. Alternatively, you may submit a
+   `nosetests` command on the commandline. Alternatively, you may submit a
    pull request. Our Continuous Integration system will test your code and
    report test results.
 
@@ -101,7 +100,7 @@ including partial or in-progress work, is appreciated.
 8. Go back to the file that you are updating and begin adding the code for your
    pull request.
 
-9. Run the test suite again to see if your changes have caused any of the test
+9.  Run the test suite again to see if your changes have caused any of the test
    cases to pass. If any of the test cases have failed, go back to your code
    and make the updates necessary to have them pass.
 
@@ -118,52 +117,47 @@ including partial or in-progress work, is appreciated.
 12. Once your PR is ready to become a part of the code base, it will be merged
     by a member of the core team.
 
-Contribution Workflow
----------------------
+## Contribution Workflow
 
-.. image:: ../../_static/_images/contribution_workflow.png
-   :alt: A flow chart listing the steps of contributing code to Jupyter with 14 labeled boxes linked by arrows. The chart is uni-directional. At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Refer to the link below the image for full text.
+```{image} ../../_static/_images/contribution_workflow.png
+:alt: A flow chart listing the steps of contributing code to Jupyter with 14 labeled boxes linked by arrows. The chart is uni-directional. At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Refer to the link below the image for full text.
+```
 
-Full Contribution Workflow description.[#f1]_
+Full Contribution Workflow description.[^f1]
 
-
-Core Developer Workflow
------------------------
+## Core Developer Workflow
 
 To help you understand our review process by core developers after you submit a
 pull request, here's a guide that outlines the general process (specifics may
 vary a bit across our repositories). Here is an example for Jupyter notebook
-4.x:
+`4.x`:
 
-
-
-In general, Pull Requests are against ``master`` unless they only affect a
+In general, Pull Requests are against `master` unless they only affect a
 backport branch. If a PR affects master and should be backported, the general
 flow is:
 
-  0. mark the PR with milestone for the next backport release (4.3)
-  1. merge into master
-  2. backport to 4.x
-  3. push updated 4.x branch
+1. mark the PR with milestone for the next backport release (4.3)
+2. merge into master
+3. backport to 4.x
+4. push updated 4.x branch
 
-Backports can be done in a variety of ways, but we have `a script
-<https://github.com/ipython/ipython/blob/master/tools/backport_pr.py>`_ for
+Backports can be done in a variety of ways, but we have [a script](https://github.com/ipython/ipython/blob/master/tools/backport_pr.py) for
 automating the common process to:
 
-  1. download the patch ` e.g. <https://patch-diff.githubusercontent.com/raw/jupyter/notebook/pull/1645.patch>`
-  2. checkout the 4.x branch
-  3. apply the patch
-  4. make a commit
+1. download the patch ` e.g. <https://patch-diff.githubusercontent.com/raw/jupyter/notebook/pull/1645.patch>`
+2. checkout the 4.x branch
+3. apply the patch
+4. make a commit
 
 which works for simple cases, at least.
 
 In this case, it would be:
 
-    python /path/to/ipython-repo/tools/backport_pr.py jupyter/notebook 4.x 1645
+```
+python /path/to/ipython-repo/tools/backport_pr.py jupyter/notebook 4.x 1645
+```
 
-
-Submitting a Bug
-=================
+## Submitting a Bug
 
 While using the Notebook, you might experience a bug that manifests itself in 
 unexpected behavior.  If so, we encourage you  to open issues on GitHub. To 
@@ -181,7 +175,7 @@ you take the following steps before submitting an issue.
    in, in order to aid in the debugging of the issue. You will need to provide
    information about the Python version, Jupyter version, operating system,
    and browser that you are using when submitting bugs. You can also use
-   ``pip list`` or  ``conda list`` and ``grep`` in order to identify the
+   `pip list` or  `conda list` and `grep` in order to identify the
    versions of the libraries that are relevant to the issue that you are
    submitting.
 
@@ -191,43 +185,42 @@ you take the following steps before submitting an issue.
 5. Prepare an explanation of why the current behavior is not desired and 
    what it should be.
 
-Reporting a Vulnerability
-=========================
+## Reporting a Vulnerability
 
 If you believe you've found a security vulnerability in a Jupyter project,
-please report it to `security@ipython.org <mailto:security@ipython.org>`_. If you
-prefer to encrypt your security reports, you can use `this PGP public
-key <https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc>`_.
+please report it to [`security@ipython.org`](mailto:security@ipython.org).
+If you prefer to encrypt your security reports, you can use [this PGP public  key](https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc).
 
-.. rubric:: Footnotes
+[^f1]:  A flow chart with 14 labeled boxes linked by arrows.
 
-.. [#f1] A flow chart with 14 labeled boxes linked by arrows. The chart is uni-directional.  At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Here the flow chart is described as lists in which the possible next steps are listed beneath each box label.
-   1. Start
-      1a. forward to 'Find an issue to address'
-   2. Find an issue to address
-      2a. forward to 'Identify the relevant section of the codebase'
-   3. Identify the relevant section of the codebase
-      3a. forward to 'Write simple test cases to verify that your fix or enhancement works.'
-   4. Write simple test cases to verify that your fix or enhancement works.
-      4a. forward to 'Implement the bug fix or enhancement in the appropriate location'
-   5. Implement the bug fix or enhancement in the appropriate location.
-       5a. Forward to 'Run the test suite and verify that the updated code works appropriately.'
-   6. Run the test suite and verify that the updated code works appropriately.
-      6a. forward to 'Test suit passes!'
-      6b. forward to 'Test suit fails!'
-   7. Test suit fails
-      7a. forward to 'Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.'
-   8. Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.
-      8a. back to 'Run the test suite and verify that the updated code works appropriately'
-   9. Test suit passes!
-      9a. forward to 'Submit a pull request to the appropriate repository with your awesome code!'
-   10. Submit a pull request to the appropriate repository with your awesome code!
-      10a. forward to 'Reviewer approves and merges the PR'
-      10b. forward to 'Reviewer responds with changes you should make to the PR'
-   11. Reviewer responds with changes you should make to the PR
-      11a. forward to 'Apply the necessary fixes or updates to the pull request'
-   12. Apply the necessary fixes or updates to the pull request'
-      12a. back to 'Submit a pull request to the appropriate repository with your awesome code!'
-   13. Reviewer approves and merges the PR'
-      13a. forward to 'Rejoice and repeat!'
-   14. 'Rejoice and repeat!'
+    The chart is uni-directional. At each step, arrows point forward to one or more boxes and back to the previous box or boxes. Here the flow chart is described as lists in which the possible next steps are listed beneath each box label.
+
+    1. Start
+       1a. forward to 'Find an issue to address'
+    2. Find an issue to address
+       2a. forward to 'Identify the relevant section of the codebase'
+    3. Identify the relevant section of the codebase
+       3a. forward to 'Write simple test cases to verify that your fix or enhancement works.'
+    4. Write simple test cases to verify that your fix or enhancement works.
+       4a. forward to 'Implement the bug fix or enhancement in the appropriate location'
+    5. Implement the bug fix or enhancement in the appropriate location.
+        5a. Forward to 'Run the test suite and verify that the updated code works appropriately.'
+    6. Run the test suite and verify that the updated code works appropriately.
+       6a. forward to 'Test suit passes!'
+       6b. forward to 'Test suit fails!'
+    7. Test suit fails
+       7a. forward to 'Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.'
+    8. Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.
+       8a. back to 'Run the test suite and verify that the updated code works appropriately'
+    9. Test suit passes!
+       9a. forward to 'Submit a pull request to the appropriate repository with your awesome code!'
+    10. Submit a pull request to the appropriate repository with your awesome code!
+       10a. forward to 'Reviewer approves and merges the PR'
+       10b. forward to 'Reviewer responds with changes you should make to the PR'
+    11. Reviewer responds with changes you should make to the PR
+       11a. forward to 'Apply the necessary fixes or updates to the pull request'
+    12. Apply the necessary fixes or updates to the pull request'
+       12a. back to 'Submit a pull request to the appropriate repository with your awesome code!'
+    13. Reviewer approves and merges the PR'
+       13a. forward to 'Rejoice and repeat!'
+    14. 'Rejoice and repeat!'
