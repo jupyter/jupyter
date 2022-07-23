@@ -34,7 +34,7 @@ This is a place to make short announcements (without a need for discussion).
 > Add agenda items here **before** the meeting. We will reorganize the agenda so that it fits in the 60m meeting slot.
 
 * **WXYZDVCS** Work-in-progress report on [`wxyz.dvcs`](https://github.com/deathbeds/wxyz), a bridge from Jupyter Widgets to distributed version control - _Nick_
-  * _Hopefully_ released this week 🤞, [![][binder]](https://mybinder.org/v2/gh/deathbeds/wxyz/master?urlpath=lab/tree/src/py/wxyz_notebooks/src/wxyz/notebooks/index.ipynb) works though!
+  * _Hopefully_ released this week 🤞, [![Launch Binder]](https://mybinder.org/v2/gh/deathbeds/wxyz/master?urlpath=lab/tree/src/py/wxyz_notebooks/src/wxyz/notebooks/index.ipynb) works though!
 * Pierre's notebooks for teaching Python and data science
 * [JupyterLab Classic](https://github.com/jtpio/jupyterlab-classic) - *Jeremy*
 

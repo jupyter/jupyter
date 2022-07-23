@@ -49,7 +49,10 @@ notebooks. Often this will be your home directory.
 
 **Notebook Dashboard**
 
+ .. Alt text is intentionally left blank because the image content is described thoroughly in the surrounding text.
+
 .. image:: _static/_images/tryjupyter_file.png
+    :alt: 
 
 Introducing the Notebook Server's Command Line Options
 ------------------------------------------------------
