@@ -126,3 +126,17 @@ By default, notebook errors will be raised and printed into the terminal. You ca
     jupyter run notebook.ipynb --allow-errors
 
 For more sophisticated execution options, consider the `papermill <https://pypi.org/project/papermill/>`_ library.
+
+Autocomplete
+------------
+
+|fig| `Fig <https://fig.io/>`_ provides IDE-style autocompletions for Jupyter. It works in bash, zsh, and fish.
+
+.. |fig| image:: https://fig.io/badges/Logo.svg
+  :width: 15
+
+To install, run:
+
+.. code:: bash
+
+   brew install fig
