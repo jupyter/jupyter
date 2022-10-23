@@ -130,7 +130,7 @@ Widgets
 
 ## Table of Contents
 
-The rest of the documentation in this site covers major use-cases of the Jupyter ecosystem, as well as topics that will help you navigate the various parts of the Jupyter community.
+The rest of the documentation on this site covers major use-cases of the Jupyter ecosystem, as well as topics that will help you navigate the various parts of the Jupyter community.
 For more in-depth documentation about a specific tool, we recommend checking out that tool's documentation (see the list above).
 
 (user-docs)=
