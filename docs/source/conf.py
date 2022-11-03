@@ -103,7 +103,7 @@ html_theme_options = {
             "icon": "fab fa-github-square",
         },
         {
-            "name": "GitLab",
+            "name": "Discourse",
             "url": "https://discourse.jupyter.org",
             "icon": "fab fa-discourse",
         },
