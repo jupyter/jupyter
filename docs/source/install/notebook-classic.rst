@@ -13,9 +13,10 @@ kernel.
 Prerequisite: Python
 --------------------
 
-While Jupyter runs code in many programming languages, **Python** is
-a requirement (Python 3.3 or greater, or Python 2.7) for installing
-the Jupyter Notebook.
+While Jupyter runs code in many programming languages, **Python** 
+is a requirement for installing the Jupyter Notebook. The Python version required
+differs between Jupyter Notebook releases (e.g. Python 3.6+ for Notebook v6.3,
+and Python 3.7+ for Notebook v7) .
 
 We recommend using the `Anaconda <https://www.anaconda.com/download>`_
 distribution to install Python and Jupyter. We'll go through its installation
