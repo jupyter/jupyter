@@ -17,7 +17,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 setup_args = dict(
     name                = 'jupyter',
-    version             = '1.1.0',
+    version             = '2.0.0.dev',
     description         = "Jupyter metapackage. Install all the Jupyter components in one go.",
     long_description    = """Install the Jupyter system, including the notebook, qtconsole, and the IPython kernel.""",
     author              = "Jupyter Development Team",
