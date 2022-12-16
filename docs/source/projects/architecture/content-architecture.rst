@@ -6,6 +6,15 @@ This page has information about the different architectural designs of core
 pieces in the Jupyter ecosystem. Some of these are individual projects, and others
 show the relationships between projects.
 
+Projects overview
+=================
+
+Below is a high level visual overview of project relationships. It is current as of
+2022.
+
+.. image:: /_static/_images/repos_map.png
+   :width: 100%
+   :alt: Architecture diagram of Jupyter project relationships from servers, applications, API, and kernels.
 
 IPython Kernel
 ==============
@@ -14,8 +23,8 @@ This section focuses on IPython and kernels.
 When we discuss ``IPython``, we talk about two fundamental roles:
 
 - Terminal IPython as the familiar REPL
-- The IPython kernel that provides computation and communication with the
-  frontend interfaces, like the notebook
+- The IPython kernel, ``IPykernel`` that provides computation and communication with
+  the frontend interfaces, like the notebook
 
 
 Terminal IPython
@@ -38,13 +47,12 @@ The IPython Kernel
 ------------------
 
 All the other interfaces —- the Notebook, the Qt console, ``ipython console``
-in the terminal, and third party interfaces —- use the IPython Kernel. The
-IPython Kernel is a separate process which is responsible for running user
-code, and things like computing possible completions. Frontends, like the
-notebook or the Qt console, communicate with the IPython Kernel using JSON
-messages sent over `ZeroMQ <http://zeromq.org/>`_ sockets; the protocol used
-between the frontends and the IPython Kernel is described in
-:ref:`jupyterclient:messaging`.
+in the terminal, and third party interfaces —- use the IPython Kernel. IPykernel
+is a separate process which is responsible for running user code, and things
+like computing possible completions. Frontends, like the notebook or the Qt
+console, communicate with the IPython Kernel using JSON messages sent over
+`ZeroMQ <http://zeromq.org/>`_ sockets; the protocol used between the frontends
+and the IPython Kernel is described in :ref:`jupyterclient:messaging`.
 
 The core execution machinery for the kernel is shared with terminal IPython.
 
@@ -64,10 +72,12 @@ based on the same kernel, but it also made it possible to support new
 languages in the same frontends, by developing kernels in those languages, and
 we are refining IPython to make that more practical.
 
-Today, there are two ways to develop a kernel for another language. Wrapper
-kernels reuse the communications machinery from IPython, and implement only
+Today, there are three ways to develop a kernel for another language. Wrapper
+kernels reuse the communications machinery from IPykernel, and implement only
 the core execution part. Native kernels implement execution and communications
-in the target language.
+in the target language. Kernels based on `xeus <https://github.com/jupyter-xeus/xeus>`_,
+a native implementation of the protocol, implement the language-specific part of the
+kernels. Contrary to the wrapper approach, `xeus` does not depend on a python runtime.
 
 .. image:: figs/other_kernels.png
    :alt: 
@@ -78,7 +88,8 @@ or languages where it's impractical to implement the communications machinery,
 like `bash_kernel <https://pypi.python.org/pypi/bash_kernel>`_. Native kernels
 are likely to be better maintained by the community using them, like
 `IJulia <https://github.com/JuliaLang/IJulia.jl>`_ or
-`IHaskell <https://github.com/gibiansky/IHaskell>`_.
+`IHaskell <https://github.com/gibiansky/IHaskell>`_. Xeus kernels are easy
+to write when the language interpreter provide a C++ or a C API.
 
 .. seealso::
 
@@ -103,15 +114,15 @@ Jupyter Notebook and its flexible interface extends the notebook beyond code
 to visualization, multimedia, collaboration, and more. In addition to running your code,
 it stores code and output, together with markdown notes, in an editable
 document called a notebook. When you save it, this is sent from your browser
-to the notebook server, which saves it on disk as a JSON file with a
+to the Jupyter server, which saves it on disk as a JSON file with a
 ``.ipynb`` extension.
 
 .. image:: figs/notebook_components.png
    :alt:
 
-The notebook server is a communication hub. The browser, notebook file on disk, and
-kernel cannot talk to each other directly. They communicate through the notebook server. 
-The notebook server, not the kernel, is responsible for saving and loading
+The Jupyter server is a communication hub. The browser, notebook file on disk, and
+kernel cannot talk to each other directly. They communicate through the Jupyter server. 
+The Jupyter server, not the kernel, is responsible for saving and loading
 notebooks, so you can edit notebooks even if you don't have the kernel for
 that language—you just won't be able to run code. The kernel doesn't know
 anything about the notebook document: it just gets sent cells of code to
@@ -174,14 +185,3 @@ are a few links that are useful for understanding the JupyterLab architecture.
 * :ref:`JupyterLab notebook model <lab:notebook>`
 * :doc:`Design patterns in JupyterLab <lab:developer/patterns>`
 
-Projects overview
-=================
-
-Below is a high level visual overview of project relationships. It is current as of
-2017.
-
-.. todo: This image is a bit out-of-date so we're keeping it at the bottom. We should update it and move it up.
-
-.. image:: /_static/_images/repos_map.png
-   :width: 75%
-   :alt: Architecture diagram of Jupyter project relationships from servers, applications, API, and kernels.
