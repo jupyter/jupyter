@@ -12,6 +12,7 @@ Projects overview
 Below is a high level visual overview of project relationships. It is current as of
 2022.
 
+.. To edit this file, import it into diagrams.net:  https://app.diagrams.net/
 .. image:: /_static/_images/repos_map.png
    :width: 100%
    :alt: Architecture diagram of Jupyter project relationships from servers, applications, API, and kernels.
@@ -76,6 +77,7 @@ Today, there are three ways to develop a kernel for another language:
 - Native kernels implement execution and communications in the target language.
 - Kernels based on `xeus <https://github.com/jupyter-xeus/xeus>`_, a native implementation of the protocol, implement the language-specific part of the kernels. Contrary to the wrapper approach, `xeus` does not depend on a python runtime.
 
+.. To edit this file, import it into diagrams.net:  https://app.diagrams.net/
 .. image:: figs/other_kernels.png
    :alt: 
 
@@ -114,6 +116,7 @@ document called a notebook. When you save it, this is sent from your browser
 to the Jupyter server, which saves it on disk as a JSON file with a
 ``.ipynb`` extension.
 
+.. To edit this file, import it into diagrams.net:  https://app.diagrams.net/
 .. image:: figs/notebook_components.png
    :alt:
 
