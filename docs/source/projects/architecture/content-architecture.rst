@@ -23,8 +23,7 @@ This section focuses on IPython and kernels.
 When we discuss ``IPython``, we talk about two fundamental roles:
 
 - Terminal IPython as the familiar REPL
-- The IPython kernel, ``IPykernel`` that provides computation and communication with
-  the frontend interfaces, like the notebook
+- The IPython kernel, ``IPykernel`` that provides computation and communication with the frontend interfaces, like the notebook
 
 
 Terminal IPython
@@ -72,12 +71,10 @@ based on the same kernel, but it also made it possible to support new
 languages in the same frontends, by developing kernels in those languages, and
 we are refining IPython to make that more practical.
 
-Today, there are three ways to develop a kernel for another language. Wrapper
-kernels reuse the communications machinery from IPykernel, and implement only
-the core execution part. Native kernels implement execution and communications
-in the target language. Kernels based on `xeus <https://github.com/jupyter-xeus/xeus>`_,
-a native implementation of the protocol, implement the language-specific part of the
-kernels. Contrary to the wrapper approach, `xeus` does not depend on a python runtime.
+Today, there are three ways to develop a kernel for another language:
+- Wrapper kernels reuse the communications machinery from IPykernel, and implement only the core execution part.
+- Native kernels implement execution and communications in the target language.
+- Kernels based on `xeus <https://github.com/jupyter-xeus/xeus>`_, a native implementation of the protocol, implement the language-specific part of the kernels. Contrary to the wrapper approach, `xeus` does not depend on a python runtime.
 
 .. image:: figs/other_kernels.png
    :alt: 
@@ -89,7 +86,7 @@ like `bash_kernel <https://pypi.python.org/pypi/bash_kernel>`_. Native kernels
 are likely to be better maintained by the community using them, like
 `IJulia <https://github.com/JuliaLang/IJulia.jl>`_ or
 `IHaskell <https://github.com/gibiansky/IHaskell>`_. Xeus kernels are easy
-to write when the language interpreter provide a C++ or a C API.
+to write when the language interpreter provides a C++ or a C API.
 
 .. seealso::
 
