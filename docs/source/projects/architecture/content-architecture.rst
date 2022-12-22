@@ -73,6 +73,7 @@ languages in the same frontends, by developing kernels in those languages, and
 we are refining IPython to make that more practical.
 
 Today, there are three ways to develop a kernel for another language:
+
 - Wrapper kernels reuse the communications machinery from IPykernel, and implement only the core execution part.
 - Native kernels implement execution and communications in the target language.
 - Kernels based on `xeus <https://github.com/jupyter-xeus/xeus>`_, a native implementation of the protocol, implement the language-specific part of the kernels. Contrary to the wrapper approach, `xeus` does not depend on a python runtime.
