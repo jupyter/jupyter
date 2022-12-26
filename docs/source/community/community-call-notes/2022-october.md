@@ -18,7 +18,6 @@ For more discussion on the format of these calls, see the thread [here](https://
 
 ## Short reports, celebrations, shout-outs
 
-
 * Shout out to all the cats and kittens on the call!
 * **Sarah** JupyterHub is participating in Outreachy and has lots of applicants!
 * **Isabela** Earlier this month, a group of people met to do [keyboard navigation manual tests on the Jupyter Notebook 7 prerelease](https://github.com/jupyter/notebook/issues/6595). It was great to have people meeting to work on accessibility.
