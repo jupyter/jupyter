@@ -1,6 +1,6 @@
-# Jupyter Project Documentation
+# Project Jupyter Documentation
 
-**Welcome to the Jupyter Project documentation**. This website acts as "meta" documentation for the Jupyter ecosystem.
+**Welcome to the Project Jupyter documentation**. This website acts as "meta" documentation for the Jupyter ecosystem.
 It has a collection of resources to navigate the tools and communities in this ecosystem, and to help you get started.
 
 ## Start Here
