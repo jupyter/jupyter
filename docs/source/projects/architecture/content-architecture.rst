@@ -13,7 +13,7 @@ Below is a high level visual overview of project relationships. It is current as
 2022.
 
 .. To edit this file, import it into diagrams.net:  https://app.diagrams.net/
-.. image:: /_static/_images/repos_map.png
+.. image:: figs/repos_map.png
    :width: 100%
    :alt: Architecture diagram of Jupyter project relationships from servers, applications, API, and kernels.
 
