@@ -37,9 +37,9 @@ Glossary
        to malfunction, or software development processes to fail.
 
    ipynb
-       The file extensions (.ipynb) for saved notebook files, commonly
+       The file extension (.ipynb) for saved notebook files, commonly
        authored and edited with Jupyter web applications such as
-       JupyterLab or Jupyter Notebok. It stands for "iPython Notebook".
+       JupyterLab or Jupyter Notebook. It stands for "iPython Notebook".
 
    iPython
        The earliest ancestor of Project Jupyter. It began as an improved
@@ -47,7 +47,8 @@ Glossary
        notebook document format (.ipynb) and related tools, a web based
        document authoring and editing tool (iPython Notebook), and more.
        After the project became large enough, iPython was split into many
-       separate projects under the Project Jupyter umbrella.
+       separate projects under the Project Jupyter umbrella through
+       The Big Split.
 
    iPython Notebook
        An early ancestor of the Jupyter Notebook application, this was one of
@@ -115,4 +116,5 @@ Glossary
        input, such as a slider.
 
 
+TODO: Add links
 `Link text <link URL>`_
