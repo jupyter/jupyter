@@ -50,7 +50,7 @@ These are a few high-level topics to help you learn more about the Jupyter commu
 
       Documentation for advanced use-cases
 
-* - {doc}`Glossary>`
+* - {doc}`Glossary<glossary>`
 
       A glossary of Jupyter-related terms, concepts and products
 ```
