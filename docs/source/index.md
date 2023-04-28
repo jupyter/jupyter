@@ -49,6 +49,10 @@ These are a few high-level topics to help you learn more about the Jupyter commu
    - {doc}`Advanced <use/advanced/content-advanced>`
 
       Documentation for advanced use-cases
+
+* - {doc}`Glossary>`
+
+      A glossary of Jupyter-related terms, concepts and products
 ```
 
 ## Sub-project documentation
