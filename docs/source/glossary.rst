@@ -39,18 +39,18 @@ Glossary
    ipynb
        The file extension (.ipynb) for saved notebook files, commonly
        authored and edited with Jupyter web applications such as
-       JupyterLab or Jupyter Notebook. It stands for "iPython Notebook".
+       JupyterLab or Jupyter Notebook. It stands for "IPython Notebook".
 
-   iPython
+   IPython
        The earliest ancestor of Project Jupyter. It began as an improved
        interactive Python REPL, then expanded to also contain a stored
        notebook document format (.ipynb) and related tools, a web based
-       document authoring and editing tool (iPython Notebook), and more.
-       After the project became large enough, iPython was split into many
+       document authoring and editing tool (IPython Notebook), and more.
+       After the project became large enough, IPython was split into many
        separate projects under the Project Jupyter umbrella through
        The Big Split.
 
-   iPython Notebook
+   IPython Notebook
        An early ancestor of the Jupyter Notebook application, this was one of
        the first web-based applications for authoring and editing computational
        notebook documents.
@@ -107,8 +107,8 @@ Glossary
        A window used to type in commands to be executed (Linux and OS X).
 
    The Big Split
-       An event and effort undertaken around 2015 by iPython developers to split up
-       the then-massive iPython project into a series of smaller, more focused
+       An event and effort undertaken around 2015 by IPython developers to split up
+       the then-massive IPython project into a series of smaller, more focused
        sub-projects under the Project Jupyter umbrella.
 
    widget
