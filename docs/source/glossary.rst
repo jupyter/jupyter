@@ -25,7 +25,8 @@ Glossary
 
    Command Prompt
        On Windows, this is the application where commands are typed into
-       a window for execution. Also see **console**, **command line**, or **terminal**.
+       a window for execution. Also see `console <https://en.wikipedia.org/wiki/System_console>`_,
+       **command line**, or `terminal <https://en.wikipedia.org/wiki/Computer_terminal>`_.
 
    conda
        The package management tool for Anaconda, which allows for easy
@@ -41,7 +42,7 @@ Glossary
        a computer system has and how it behaves. Missing or incorrect
        software, configurations or environment variables can cause software
        to malfunction, or software development processes to fail. See
-       `this link <https://en.wikipedia.org/wiki/Runtime_system#Relation_to_runtime_environments>`
+       `this link <https://en.wikipedia.org/wiki/Runtime_system#Relation_to_runtime_environments>`_
        for more information.
 
    ipynb
@@ -64,7 +65,7 @@ Glossary
        notebook documents.
 
    IPyWidgets
-       A `python package for Jupyter <https://github.com/jupyter-widgets/ipywidgets>`
+       A `python package for Jupyter <https://github.com/jupyter-widgets/ipywidgets>`_
        that allows Notebook applications to create and embed interface components
        like sliders or buttons in their notebooks.
 
@@ -133,11 +134,5 @@ Glossary
        sub-projects under the Project Jupyter umbrella.
 
    widget
-       A user interface component from IPyWidgets, similar to a plugin, that allows customized
-       input, such as a slider.
-
-..
-  # Comments
-  TODO: Add links
-  `Link text <link URL>`_
-  `software design pattern <https://en.wikipedia.org/wiki/Design_pattern>`_
+       A user interface component from `IPywidgets <https://github.com/jupyter-widgets/ipywidgets>`_,
+       similar to a plugin, that allows customized input, such as a slider.
