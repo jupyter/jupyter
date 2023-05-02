@@ -15,26 +15,34 @@ Glossary
        application and editing interface for JupyterLab in this case) connects to the
        server program to view and interact with that data.
 
+   console
+       In modern times, a `console <https://en.wikipedia.org/wiki/System_console>`_ refers to a simple text-based program where you type commands for your
+       computer to run, also commonly called a `terminal <https://en.wikipedia.org/wiki/Computer_terminal>`_.
+
    command line
-       The terminal or console window where you type commands.
+       A simple text-based program where you type commands for your computer to run, also
+       called a `terminal <https://en.wikipedia.org/wiki/Computer_terminal>`_ or `console <https://en.wikipedia.org/wiki/System_console>`_.
 
    Command Prompt
        On Windows, this is the application where commands are typed into
-       a window for execution.
+       a window for execution. Also see **console**, **command line**, or **terminal**.
 
    conda
        The package management tool for Anaconda, which allows for easy
        installation of Python libraries and other tools into an environment.
 
    config
-       Refers to the configuration files and process.
+       Refers to the configuration files, and related processes that affect how
+       Jupyter behaves.
 
    environment
        The name for the installed software, configurations, tools, and
        environment variables that collectively define what capabilities
        a computer system has and how it behaves. Missing or incorrect
        software, configurations or environment variables can cause software
-       to malfunction, or software development processes to fail.
+       to malfunction, or software development processes to fail. See
+       `this link <https://en.wikipedia.org/wiki/Runtime_system#Relation_to_runtime_environments>`
+       for more information.
 
    ipynb
        The file extension (.ipynb) for saved notebook files, commonly
@@ -55,10 +63,15 @@ Glossary
        the first web-based applications for authoring and editing computational
        notebook documents.
 
+   IPyWidgets
+       A `python package for Jupyter <https://github.com/jupyter-widgets/ipywidgets>`
+       that allows Notebook applications to create and embed interface components
+       like sliders or buttons in their notebooks.
+
    Jovyan
        A term for fans of Jupyter and members of the Jupyter community.
 
-  Jupyter
+   Jupyter
        See Project Jupyter. Also occasionally used to refer to one of the Jupyter
        frontend notebook editing applications (Jupyter Notebook or JupyterLab)
        based on the context it's used in (this ambiguous usage can lead to
@@ -88,9 +101,9 @@ Glossary
        to refer to Jupyter Notebook, the notebook editing application.
 
    Notebook Dashboard
-       The notebook user interface which shows a list of the notebooks, files,
-       and subdirectories in the directory where the notebook server is
-       started.
+       The notebook user interface in the **Jupyter Notebook Application** (see above)
+       which shows a list of the notebooks, files, and subdirectories in the directory
+       where the notebook server is started.
 
    pip
        Python package manager.
@@ -111,7 +124,8 @@ Glossary
       stay open in memory after evaluation while the REPL is running.
 
    terminal
-       A window used to type in commands to be executed (Linux and OS X).
+       In modern times, a `terminal <https://en.wikipedia.org/wiki/Computer_terminal>`_ refers to a simple text-based program where you type commands for your
+       computer to run, also commonly called a `console <https://en.wikipedia.org/wiki/System_console>`_.
 
    The Big Split
        An event and effort undertaken around 2015 by IPython developers to split up
@@ -119,13 +133,8 @@ Glossary
        sub-projects under the Project Jupyter umbrella.
 
    widget
-       A user interface component, similar to a plugin, that allows customized
+       A user interface component from IPyWidgets, similar to a plugin, that allows customized
        input, such as a slider.
-
-
-.. _software design pattern: https://en.wikipedia.org/wiki/Design_pattern
-
-..  _client-server-architecture: https://en.wikipedia.org/wiki/Client%E2%80%93server_model
 
 ..
   # Comments
