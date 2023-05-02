@@ -45,6 +45,9 @@ Glossary
        `this link <https://en.wikipedia.org/wiki/Runtime_system#Relation_to_runtime_environments>`_
        for more information.
 
+   environment veriable
+       See `this wiki link <https://en.wikipedia.org/wiki/Environment_variable>`_ for for information.
+
    ipynb
        The file extension (.ipynb) for saved notebook files, commonly
        authored and edited with Jupyter web applications such as
