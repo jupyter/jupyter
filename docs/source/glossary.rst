@@ -85,11 +85,11 @@ Glossary
 
    Jupyter Notebook (Application)
        A simplified web application for authoring and editing computational
-       notebooks in the .ipynb format (a notebook file is also commonly referred
+       notebooks in the **.ipynb** format (a notebook file is also commonly referred
        to as a Jupyter Notebook).
 
    Jupyter Notebook (File Format)
-       A common name for a saved .ipynb Notebook file. For instance,
+       A common name for a saved **.ipynb** Notebook file. For instance,
        "I just made a Jupyter Notebook summarizing our lab results, I can
        send it to you later today."
 
@@ -98,7 +98,7 @@ Glossary
        computational notebooks.
 
    kernel
-       A kernel provides programming language support in Jupyter. IPython is
+       A kernel provides programming language support in Jupyter. **IPython** is
        the default kernel. Additional kernels include R, Julia, and many more.
 
    Notebook
@@ -134,7 +134,7 @@ Glossary
        computer to run, also commonly called a `console <https://en.wikipedia.org/wiki/System_console>`_.
 
    The Big Split
-       An event and effort undertaken around 2015 by IPython developers to split up
+       An event and effort undertaken around 2015 by **IPython** developers to split up
        the then-massive IPython project into a series of smaller, more focused
        sub-projects under the Project Jupyter umbrella.
 
