@@ -7,7 +7,7 @@ Glossary
 .. glossary::
 
    client-server-architecture
-       A software design pattern used by Jupyter applications like JupyterLab.
+       A `software design`_ pattern used by Jupyter applications like JupyterLab.
        With this pattern, a server program (running on a user's computer or
        on a server that can be accessed over a business or public network) provides
        access to stored information (in JupyterLab's case, documents in a folder
@@ -116,5 +116,9 @@ Glossary
        input, such as a slider.
 
 
-TODO: Add links
-`Link text <link URL>`_
+.. _software design pattern: https://en.wikipedia.org/wiki/Design_pattern
+
+
+..
+  TODO: Add links
+  `Link text <link URL>`_
