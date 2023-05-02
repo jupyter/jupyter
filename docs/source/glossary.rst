@@ -7,7 +7,7 @@ Glossary
 .. glossary::
 
    `client-server-architecture`_
-       A `software design pattern`_ used by Jupyter applications like JupyterLab.
+       A `software design pattern`_ used by Jupyter applications like :ref:`JupyterLab <_glossary_section_jupyterlab>`.
        With this pattern, a server program (running on a user's computer or
        on a server that can be accessed over a business or public network) provides
        access to stored information (in JupyterLab's case, documents in a folder
@@ -73,6 +73,8 @@ Glossary
        A common name for a saved .ipynb Notebook file. For instance,
        "I just made a Jupyter Notebook summarizing our lab results, I can
        send it to you later today."
+
+.. _glossary_section_jupyterlab:
 
    JupyterLab
        A modern web application for authoring and editing interactive
