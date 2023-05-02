@@ -6,8 +6,8 @@ Glossary
 
 .. glossary::
 
-   client-server-architecture
-       A `software design`_ pattern used by Jupyter applications like JupyterLab.
+   `client-server-architecture`_
+       A `software design pattern`_ used by Jupyter applications like JupyterLab.
        With this pattern, a server program (running on a user's computer or
        on a server that can be accessed over a business or public network) provides
        access to stored information (in JupyterLab's case, documents in a folder
@@ -58,6 +58,12 @@ Glossary
    Jovyan
        A term for fans of Jupyter and members of the Jupyter community.
 
+  Jupyter
+       See Project Jupyter. Also occasionally used to refer to one of the Jupyter
+       frontend notebook editing applications (Jupyter Notebook or JupyterLab)
+       based on the context it's used in (this ambiguous usage can lead to
+       confusion, it's better to use the actual name of the application).
+
    Jupyter Notebook (Application)
        A simplified web application for authoring and editing computational
        notebooks in the .ipynb format (a notebook file is also commonly referred
@@ -78,7 +84,8 @@ Glossary
 
    Notebook
        The generic name for a computational notebook document, such as a saved
-       .ipynb file format created by JupyterLab
+       .ipynb file format created by JupyterLab. Also sometimes used as a shorthand
+       to refer to Jupyter Notebook, the notebook editing application.
 
    Notebook Dashboard
        The notebook user interface which shows a list of the notebooks, files,
@@ -118,7 +125,10 @@ Glossary
 
 .. _software design pattern: https://en.wikipedia.org/wiki/Design_pattern
 
+..  _client-server-architecture: https://en.wikipedia.org/wiki/Client%E2%80%93server_model
 
 ..
+  # Comments
   TODO: Add links
   `Link text <link URL>`_
+  `software design pattern <https://en.wikipedia.org/wiki/Design_pattern>`_
