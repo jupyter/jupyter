@@ -8,7 +8,7 @@ Glossary
 
    `client-server-architecture <https://en.wikipedia.org/wiki/Client%E2%80%93server_model>`_
        A `software design pattern <https://en.wikipedia.org/wiki/Design_pattern>`_ used by
-       Jupyter applications like JupyterLab. With this pattern, a server program (running
+       Jupyter applications like **JupyterLab**. With this pattern, a server program (running
        on a user's computer or on a server that can be accessed over a business or public
        network) provides access to stored information (in JupyterLab's case, documents in
        a folder such as notebooks and other data files), and a client program (the web
@@ -30,7 +30,7 @@ Glossary
 
    conda
        The package management tool for Anaconda, which allows for easy
-       installation of Python libraries and other tools into an environment.
+       installation of Python libraries and other tools into an **environment**.
 
    config
        Refers to the configuration files, and related processes that affect how
@@ -38,10 +38,10 @@ Glossary
 
    environment
        The name for the installed software, configurations, tools, and
-       environment variables that collectively define what capabilities
-       a computer system has and how it behaves. Missing or incorrect
-       software, configurations or environment variables can cause software
-       to malfunction, or software development processes to fail. See
+       `environment variables <https://en.wikipedia.org/wiki/Environment_variable>`_
+       that collectively define what capabilities a computer system has and how
+       it behaves. Missing or incorrect software, configurations or environment variables
+       can cause software to malfunction, or software development processes to fail. See
        `this link <https://en.wikipedia.org/wiki/Runtime_system#Relation_to_runtime_environments>`_
        for more information.
 
@@ -54,13 +54,13 @@ Glossary
        JupyterLab or Jupyter Notebook. It stands for "IPython Notebook".
 
    IPython
-       The earliest ancestor of Project Jupyter. It began as an improved
-       interactive Python REPL, then expanded to also contain a stored
+       The earliest ancestor of **Project Jupyter**. It began as an improved
+       interactive Python **REPL**, then expanded to also contain a stored
        notebook document format (.ipynb) and related tools, a web based
        document authoring and editing tool (IPython Notebook), and more.
        After the project became large enough, IPython was split into many
-       separate projects under the Project Jupyter umbrella through
-       The Big Split.
+       separate projects under the **Project Jupyter** umbrella through
+       **The Big Split.**
 
    IPython Notebook
        An early ancestor of the Jupyter Notebook application, this was one of
@@ -73,11 +73,13 @@ Glossary
        like sliders or buttons in their notebooks.
 
    Jovyan
-       A term for fans of Jupyter and members of the Jupyter community.
+       A term for fans of Jupyter and members of the Jupyter community. This term
+       is `derived from <https://jupyter--681.org.readthedocs.build/en/681/community/content-community.html#what-is-a-jovyan>`_
+       the astronomical term "Jovian", meaning "Like Jupiter".
 
    Jupyter
-       See Project Jupyter. Also occasionally used to refer to one of the Jupyter
-       frontend notebook editing applications (Jupyter Notebook or JupyterLab)
+       See **Project Jupyter**. Also occasionally used to refer to one of the Jupyter
+       frontend notebook editing applications (**Jupyter Notebook** or **JupyterLab**)
        based on the context it's used in (this ambiguous usage can lead to
        confusion, it's better to use the actual name of the application).
 
