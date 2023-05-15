@@ -1,9 +1,45 @@
-# Jupyter Project Documentation
+# Project Jupyter Documentation
 
-**Welcome to the Jupyter Project documentation**. This website acts as "meta" documentation for the Jupyter ecosystem.
-It has a collection of resources to navigate the tools and communities in this ecosystem, and to help you get started.
+Welcome to the Project Jupyter documentation site. As you'll read below,
+Jupyter is a large umbrella project that covers many different software
+offerings and tools, including the popular **JuyterLab** and **Jupyter**
+**Notebook** web-based notebook authoring and editing applications. This
+site acts as (meta) documentation for the entire Jupyter project.
 
-## Start Here
+## What is Jupyter?
+
+The name "Jupyter" is an ambiguous, overloaded term that can mean several
+different things in different contexts, so let's start by clarifying a few
+common, important pieces of the Jupyter ecosystem:
+
+- Project Jupyter: The umbrella project for interactive computational notebooks
+  and related interactive computing tools.
+- Jupyter Notebook: This is the name of the popular, lightweight web-based
+  notebook authoring application. It is also commonly used to refer to a saved
+  notebook document (.ipynb) file (for example "I made a Jupyter notebook with
+  my analysis of the data we captured in the lab").
+- JupyterLab: A modern, feature-rich web-based notebook editing application and
+  computational environment. Offers more features and functionality than
+  the light-weight experience provided by the Jupyter Notebook application.
+
+You can read more about other tools and products in the Jupyter ecosystem
+in the glossary, or further down on this page (Like JupyterLite, Jupyter
+Desktop and Jupyter Server). They all center around the goal of providing
+tools for computational notebooks and interactive computing.
+
+## Where do I start?
+
+Most people begin with Jupyter by installing an editing application like
+JupyterLab or Jupyter Notebook, and making their first notebook document:
+
+- Jupyter Notebook offers a simplified, lightweight notebook authoring experience
+- JupyterLab offers a feature-rich, tabbed multi-notebook editing environment
+  with additional tools like a customizable interface layout and system console
+
+If you want to develop your own extensions or applications on top of existing
+Jupyter software, check out the sub-projects below.
+
+## More information
 
 These are a few high-level topics to help you learn more about the Jupyter community and ecosystem.
 
@@ -53,7 +89,9 @@ These are a few high-level topics to help you learn more about the Jupyter commu
 
 ## Sub-project documentation
 
-Sub-projects are major technical and community efforts, and generally have their own documentation for their communities.
+Jupyter is a large umbrella project, underneath which many sub-projects exist.
+Individual sub-projects are typically organized around a key feature of the
+Jupyter ecosystem, and have their own community, documentation and governance.
 Below is a list of documentation for major parts of the Jupyter ecosystem.
 
 ```{panels}
