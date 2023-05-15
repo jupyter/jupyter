@@ -1,10 +1,11 @@
 # Project Jupyter Documentation
 
-Welcome to the Project Jupyter documentation site. As you'll read below,
-Jupyter is a large umbrella project that covers many different software
-offerings and tools, including the popular **JuyterLab** and **Jupyter**
-**Notebook** web-based notebook authoring and editing applications. This
-site acts as (meta) documentation for the entire Jupyter project.
+Welcome to the Project Jupyter documentation site. Jupyter is a large umbrella
+project that covers many different software offerings and tools, including
+the popular "Jupyter Notebook" and "JuyterLab" web-based notebook authoring
+and editing applications.
+
+This site acts as (meta) documentation for the entire Jupyter project.
 
 ## What is Jupyter?
 
