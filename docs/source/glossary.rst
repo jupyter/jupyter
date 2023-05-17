@@ -67,7 +67,7 @@ Glossary
        the first web-based applications for authoring and editing computational
        notebook documents.
 
-   ipwidgets
+   ipywidgets
        A `python package for Jupyter <https://github.com/jupyter-widgets/ipywidgets>`_
        that allows Notebook applications to create and embed interface components
        like sliders or buttons in their notebooks.
@@ -139,5 +139,5 @@ Glossary
        sub-projects under the Project Jupyter umbrella.
 
    widget
-       A user interface component from `ipwidgets <https://github.com/jupyter-widgets/ipywidgets>`_,
+       A user interface component from `ipywidgets <https://github.com/jupyter-widgets/ipywidgets>`_,
        similar to a plugin, that allows customized input, such as a slider.
