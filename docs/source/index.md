@@ -2,15 +2,17 @@
 
 Welcome to the Project Jupyter documentation site. Jupyter is a large umbrella
 project that covers many different software offerings and tools, including the
-popular "Jupyter Notebook" and "JuyterLab" web-based notebook authoring and
-editing applications. The Jupyter project and its subprojects all center around
-providing tools for interactive computing with computational notebooks.
+popular [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+and [JuyterLab](https://jupyterlab.readthedocs.io/en/stable/) web-based
+notebook authoring and editing applications. The Jupyter project and its
+subprojects all center around providing tools for interactive computing with
+computational notebooks.
 
 ## What is a Notebook?
 
 ![jupyterlab.png](_static/_images/jupyterlab.png)
 
-**Pictured:** *A notebook, shown inside JupyterLab*
+**Pictured:** *A computational notebook document, shown inside JupyterLab*
 
 A notebook is a shareable document that combines computer code, plain language
 descriptions, data, rich visualizations like 3D models, charts, graphs and
