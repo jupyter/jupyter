@@ -81,7 +81,6 @@ These are a few high-level topics to help you learn more about the Jupyter commu
 
 ## Sub-project documentation
 
-Jupyter is a large umbrella project, underneath which many sub-projects exist.
 Individual sub-projects are typically organized around a key feature of the
 Jupyter ecosystem, and have their own community, documentation and governance.
 Below is a list of documentation for major parts of the Jupyter ecosystem.
