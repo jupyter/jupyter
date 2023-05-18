@@ -1,32 +1,23 @@
 # Project Jupyter Documentation
 
 Welcome to the Project Jupyter documentation site. Jupyter is a large umbrella
-project that covers many different software offerings and tools, including
-the popular "Jupyter Notebook" and "JuyterLab" web-based notebook authoring
-and editing applications.
+project that covers many different software offerings and tools, including the
+popular "Jupyter Notebook" and "JuyterLab" web-based notebook authoring and
+editing applications. The Jupyter project and its subprojects all center around
+providing tools for interactive computing with computational notebooks.
 
-This site acts as (meta) documentation for the entire Jupyter project.
+## What is a Notebook?
 
-## What is Jupyter?
+![jupyterlab.png](_static/_images/jupyterlab.png)
 
-The name "Jupyter" is an ambiguous, overloaded term that can mean several
-different things in different contexts, so let's start by clarifying a few
-common, important pieces of the Jupyter ecosystem:
+**Pictured:** *A notebook, shown inside JupyterLab*
 
-- Project Jupyter: The umbrella project for interactive computational notebooks
-  and related interactive computing tools.
-- Jupyter Notebook: This is the name of the popular, lightweight web-based
-  notebook authoring application. It is also commonly used to refer to a saved
-  notebook document (.ipynb) file (for example "I made a Jupyter notebook with
-  my analysis of the data we captured in the lab").
-- JupyterLab: A modern, feature-rich web-based notebook editing application and
-  computational environment. Offers more features and functionality than
-  the light-weight experience provided by the Jupyter Notebook application.
-
-You can read more about other tools and products in the Jupyter ecosystem
-in the glossary, or further down on this page (Like JupyterLite, Jupyter
-Desktop and Jupyter Server). They all center around the goal of providing
-tools for computational notebooks and interactive computing.
+A notebook is a shareable document that combines computer code, plain language
+descriptions, data, rich visualizations like 3D models, charts, graphs and
+figures, and interactive controls. A notebook, along with an editor (like
+JupyterLab), provides a fast interactive environment for prototyping and
+explaining code, exploring and visualizing data, and sharing ideas with
+others.
 
 ## Where do I start?
 
