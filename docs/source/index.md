@@ -23,9 +23,9 @@ others.
 
 ## Where do I start?
 
-Most people begin with Jupyter by installing an editing application
-like [JuyterLab](https://jupyterlab.readthedocs.io/en/stable/) or
-[Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/),
+Most people begin with Jupyter by installing an editing application that fits
+their preferences, like [JuyterLab](https://jupyterlab.readthedocs.io/en/stable/)
+or [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/),
 and making their first notebook document:
 
 - Jupyter Notebook offers a simplified, lightweight notebook authoring experience
@@ -33,7 +33,7 @@ and making their first notebook document:
   with additional tools like a customizable interface layout and system console
 
 You can also develop your own extensions or applications on top of existing Jupyter
-software. Check out the sub-project sites below for more information.
+software. Check out the subproject sites below for more information.
 
 ## More information
 
