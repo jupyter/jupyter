@@ -8,11 +8,28 @@ performed using a wide range of programming languages.
 
 .. glossary::
 
+    `JupyterLab <https://jupyterlab.readthedocs.io/en/latest/>`__
+        Advanced Web-based application for authoring documents that combine live-code
+        with narrative text, equations and visualizations.
+        `Documentation <https://jupyterlab.readthedocs.io/en/latest/>`__ |
+        `Repo <https://github.com/jupyterlab/jupyterlab>`__
+
     `Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`__
-        Web-based application for authoring documents that combine live-code
+        Simplified web-based application for authoring documents that combine live-code
         with narrative text, equations and visualizations.
         `Documentation <https://jupyter-notebook.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/notebook>`__
+
+    `Jupyter Desktop <https://github.com/jupyterlab/jupyterlab-desktop>`__
+        Desktop application based on JupyterLab for authoring documents that combine live-code
+        with narrative text, equations and visualizations.
+        `Repo <https://github.com/jupyterlab/jupyterlab-desktop>`__
+
+    `JupyterLite <https://jupyterlite.readthedocs.io/en/latest/>`__
+        Desktop application based on JupyterLab for authoring documents that combine live-code
+        with narrative text, equations and visualizations.
+        `Documentation <https://jupyterlite.readthedocs.io/en/latest/>`__
+        `Repo <https://github.com/jupyterlite/jupyterlite>`__
 
     `Jupyter Console <https://jupyter-console.readthedocs.io/en/latest/>`__
         Terminal based console for interactive computing.
