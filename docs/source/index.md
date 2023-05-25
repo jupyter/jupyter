@@ -5,7 +5,7 @@ project that covers many different software offerings and tools, including the
 popular [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
 and [JuyterLab](https://jupyterlab.readthedocs.io/en/stable/) web-based
 notebook authoring and editing applications. The Jupyter project and its
-subprojects all center around providing tools (and [standards](https://jupyter-client.readthedocs.io/en/stable/messaging.html))
+subprojects all center around providing tools (and [standards](https://docs.jupyter.org/en/stable/#sub-project-documentation))
 for interactive computing with [computational notebooks](#what-is-a-notebook).
 
 ## What is a Notebook?
