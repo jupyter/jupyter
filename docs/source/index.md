@@ -31,7 +31,7 @@ and making their first notebook document:
 - Jupyter Notebook offers a simplified, lightweight notebook authoring experience
 - JupyterLab offers a feature-rich, tabbed multi-notebook editing environment
   with additional tools like a customizable interface layout and system console
-- And more...read about additional notebook interfaces [here](projects/user-interfaces)!
+- And more... read about additional notebook interfaces [here](projects/user-interfaces)!
 
 You can also develop your own extensions or applications on top of existing Jupyter
 software. Check out the subproject sites below for more information.
