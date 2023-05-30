@@ -15,7 +15,7 @@ performed using a wide range of programming languages.
         `Repo <https://github.com/jupyterlab/jupyterlab>`__
 
     `Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/latest/>`__
-        Simplified web-based application for authoring documents that combine live-code
+        A web-based application for authoring documents that combine live-code
         with narrative text, equations and visualizations.
         `Documentation <https://jupyter-notebook.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter/notebook>`__
