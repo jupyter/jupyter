@@ -26,7 +26,7 @@ performed using a wide range of programming languages.
         `Repo <https://github.com/jupyterlab/jupyterlab-desktop>`__
 
     `JupyterLite <https://jupyterlite.readthedocs.io/en/latest/>`__
-        Desktop application based on JupyterLab for authoring documents that combine live-code
+        Installation-free application based on JupyterLab for authoring documents that combine live-code
         with narrative text, equations and visualizations.
         `Documentation <https://jupyterlite.readthedocs.io/en/latest/>`__
         `Repo <https://github.com/jupyterlite/jupyterlite>`__
