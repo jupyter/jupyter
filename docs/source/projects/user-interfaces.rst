@@ -9,7 +9,7 @@ performed using a wide range of programming languages.
 .. glossary::
 
     `JupyterLab <https://jupyterlab.readthedocs.io/en/latest/>`__
-        Advanced Web-based application for authoring documents that combine live-code
+        Advanced web-based application for authoring documents that combine live-code
         with narrative text, equations and visualizations.
         `Documentation <https://jupyterlab.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyterlab/jupyterlab>`__
