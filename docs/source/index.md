@@ -2,8 +2,8 @@
 
 Welcome to the Project Jupyter documentation site. Jupyter is a large umbrella
 project that covers many different software offerings and tools, including the
-popular [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
-and [JuyterLab](https://jupyterlab.readthedocs.io/en/stable/) web-based
+popular [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
+and [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) web-based
 notebook authoring and editing applications. The Jupyter project and its
 subprojects all center around providing tools (and [standards](https://docs.jupyter.org/en/latest/#sub-project-documentation))
 for interactive computing with [computational notebooks](#what-is-a-notebook).
@@ -24,8 +24,8 @@ others.
 ## Where do I start?
 
 Most people begin with Jupyter by installing an editing application that fits
-their preferences, like [JuyterLab](https://jupyterlab.readthedocs.io/en/stable/)
-or [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/),
+their preferences, like [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
+or [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/),
 and making their first notebook document:
 
 - Jupyter Notebook offers a simplified, lightweight notebook authoring experience
