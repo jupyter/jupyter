@@ -14,8 +14,8 @@ Developer Guide
    releasing.rst
 
 Whether you are a new contributor or a seasoned developer, we're pleased that
-you are working on Jupyter. We hope you find the Developer Guide is useful.
-Please suggest changes or ask questions about the contents. Thanks!
+you are working on Jupyter. We hope you find the Developer Guide useful.
+Please feel free to suggest changes or ask questions about the content. Thanks for your contribution!
 
 If you are interested in installing a specific project from source, each
 project has documentation on ReadTheDocs. For example, IPython documentation

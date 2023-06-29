@@ -62,7 +62,7 @@ including partial or in-progress work, is appreciated.
 5. Open a pull request to the repository with `[WIP]` appended to the front
    so that the core team is aware that you are actively pursuing the issue.
    When creating a pull request, make sure that the title clearly and concisely
-   described what your code does. For example, we might use the title "Updated
+   describes what your code does. For example, we might use the title "Updated
    error message on ExampleException". In the body of the pull request, make
    sure that you include the phrase "Closes #issue-number-here", where the
    issue number is the issue number of the issue that you are addressing in
