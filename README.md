@@ -103,6 +103,8 @@ The steps involved:
 2. tag and publish the release `tbump $NEW_VERSION`.
 
 That's it!
+[tbump]: https://github.com/your-tools/tbump
+
 Thanks & Regards
 Jupyter Team
-[tbump]: https://github.com/your-tools/tbump
+
