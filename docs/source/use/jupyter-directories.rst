@@ -127,10 +127,8 @@ Runtime files
 Things like connection files, which are only useful for the lifetime of a
 particular process, have a runtime directory.
 
-On Linux and other free desktop platforms, these runtime files are stored in
-``$XDG_RUNTIME_DIR/jupyter`` by default. On other platforms, it's a
-``runtime/`` subdirectory of the user's data directory (second row of the
-table above).
+These runtime files are stored in a ``runtime/`` subdirectory of the user's
+data directory (second row of the table above).
 
 An environment variable may also be used to set the runtime directory.
 
