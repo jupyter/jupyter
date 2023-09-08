@@ -119,10 +119,4 @@ You can pass more than one notebook as well.
 
     jupyter run notebook.ipynb notebook2.ipynb
 
-By default, notebook errors will be raised and printed into the terminal. You can suppress them by passing the ``--allow-errors`` flag.
-
-.. code:: bash
-
-    jupyter run notebook.ipynb --allow-errors
-
 For more sophisticated execution options, consider the `papermill <https://pypi.org/project/papermill/>`_ library.
