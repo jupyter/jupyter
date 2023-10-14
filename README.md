@@ -17,7 +17,7 @@ There are a few ways to build the documentation, see below for instructions:
 
 ### Build the documentation automatically with `nox`
 
-The easiest way to build the documentation locally is by using the [`nox` command line tool](https://nox.thea.codes/). This tool makes it easy to automate commands in a repository, and we have included a `docs` command to quickly install the dependencies and build the the documentation.
+The easiest way to build the documentation locally is by using the [`nox` command line tool](https://nox.thea.codes/). This tool makes it easy to automate commands in a repository, and we have included a `docs` command to quickly install the dependencies and build the documentation.
 
 To build and preview the site locally, follow these steps:
 
@@ -52,7 +52,7 @@ To start this live server, use the following `nox` command:
 $ nox -s docs-live
 ```
 
-When the build is finished, go to the URL that is displayed. It should show a live preview of your doucmentation.
+When the build is finished, go to the URL that is displayed. It should show a live preview of your documentation.
 
 To stop serving the website, press **`Ctrl`**-`C` in your terminal
 
