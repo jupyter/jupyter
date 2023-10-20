@@ -52,7 +52,7 @@ To start this live server, use the following `nox` command:
 $ nox -s docs-live
 ```
 
-When the build is finished, go to the URL that is displayed. It should show a live preview of your doucmentation.
+When the build is finished, go to the URL that is displayed. It should show a live preview of your documentation.
 
 To stop serving the website, press **`Ctrl`**-`C` in your terminal
 

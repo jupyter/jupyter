@@ -25,7 +25,7 @@ This is a place to make short announcements (without a need for discussion).
 
 ## Agenda Items
 
-* **[JupyterLab-LaTeX UX improvements PR](https://github.com/jupyterlab/jupyterlab-latex/pull/192)** Result of 2 semesters of work by [Junior Design Capstone class](https://techstyle.lmc.gatech.edu/cs-tech-comm-junior-design-sequence/) team from Georgia Tech done for client (Axle Informatics/NIH). Project included a user reasearch section which is summarized in PR. New features highlights:
+* **[JupyterLab-LaTeX UX improvements PR](https://github.com/jupyterlab/jupyterlab-latex/pull/192)** Result of 2 semesters of work by [Junior Design Capstone class](https://techstyle.lmc.gatech.edu/cs-tech-comm-junior-design-sequence/) team from Georgia Tech done for client (Axle Informatics/NIH). Project included a user research section which is summarized in PR. New features highlights:
     * Preview button
     * Formatting buttons (bold, italic, underlined, subscript, superscript)
     * Autocomplete for common LaTeX tags (i.e. `\subsection`)

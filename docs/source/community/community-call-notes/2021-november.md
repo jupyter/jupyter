@@ -1,6 +1,6 @@
 # November 30, 2021
 
-**Date:** Novermber 30, 2021, at 8am Pacific (your [timezone](https://arewemeetingyet.com/Los%20Angeles/2021-11-30/8:00/Jupyter%20Community%20Call))
+**Date:** November 30, 2021, at 8am Pacific (your [timezone](https://arewemeetingyet.com/Los%20Angeles/2021-11-30/8:00/Jupyter%20Community%20Call))
 
 **[Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668)**
 

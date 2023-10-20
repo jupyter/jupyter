@@ -2718,7 +2718,7 @@ msgstr ""
 #: ../../source/development_guide/rest_api.rst:150
 msgid ""
 "If session does not already exist, create a new session with given "
-"notebook name and path and given kernel name. Return active sesssion."
+"notebook name and path and given kernel name. Return active session."
 msgstr ""
 
 # 5a4883c124374c5badd2612c1995b17e
