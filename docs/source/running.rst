@@ -111,18 +111,18 @@ Running a notebook is this easy.
 
 .. code:: bash
 
-    jupyter run notebook.ipynb
+    jupyter execute notebook.ipynb
 
 You can pass more than one notebook as well.
 
 .. code:: bash
 
-    jupyter run notebook.ipynb notebook2.ipynb
+    jupyter execute notebook.ipynb notebook2.ipynb
 
 By default, notebook errors will be raised and printed into the terminal. You can suppress them by passing the ``--allow-errors`` flag.
 
 .. code:: bash
 
-    jupyter run notebook.ipynb --allow-errors
+    jupyter execute notebook.ipynb --allow-errors
 
 For more sophisticated execution options, consider the `papermill <https://pypi.org/project/papermill/>`_ library.
