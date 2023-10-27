@@ -45,7 +45,7 @@ organizations, and with pluggable authentication and scalability.
 
 * `GitHub Repo <https://github.com/jupyterhub/jupyterhub>`__
 * `Docs <https://jupyterhub.readthedocs.io/en/stable/>`__
-* `Install instructions <https://jupyterhub.readthedocs.io/en/stable/installation-guide.html>`__
+* `Install instructions <https://jupyterhub.readthedocs.io/en/stable/tutorial/quickstart.html>`__
 
 
 Jupyter Console
