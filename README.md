@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.md), [Español](README.es-ES.md), [Português](README.pt-BR.md)*
 
-Jupyter metapackage for installation and docs.
+Jupyter metapackage for installation and documents
 
 ## Documentation structure
 
@@ -13,11 +13,11 @@ It is written in a combination of [reStructuredText](https://docutils.sourceforg
 
 ## Build the documentation locally
 
-There are a few ways to build the documentation, see below for instructions:
+There are a few ways to build the documentation; see below for instructions:
 
 ### Build the documentation automatically with `nox`
 
-The easiest way to build the documentation locally is by using the [`nox` command line tool](https://nox.thea.codes/). This tool makes it easy to automate commands in a repository, and we have included a `docs` command to quickly install the dependencies and build the the documentation.
+The easiest way to build the documentation locally is by using the [`nox` command line tool](https://nox.thea.codes/). This tool makes it easy to automate commands in a repository, and we have included a `docs` command to quickly install the dependencies and build the documentation.
 
 To build and preview the site locally, follow these steps:
 
@@ -52,7 +52,7 @@ To start this live server, use the following `nox` command:
 $ nox -s docs-live
 ```
 
-When the build is finished, go to the URL that is displayed. It should show a live preview of your doucmentation.
+When the build is finished, go to the URL that is displayed. It should show a live preview of your documentation.
 
 To stop serving the website, press **`Ctrl`**-`C` in your terminal
 
@@ -99,8 +99,8 @@ then build the releases and publish them to PyPI.
 
 The steps involved:
 
-1. install tbump: `pip install tbump`
-2. tag and publish the release `tbump $NEW_VERSION`.
+1. Install tbump: `pip install tbump`
+2. Tag and publish the release `tbump $NEW_VERSION`.
 
 That's it!
 
