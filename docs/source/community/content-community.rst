@@ -65,7 +65,7 @@ following pages should help you find the information for each.
 
 
 **JupyterHub meetings** happen monthly. For a calendar of future team meetings, see
-`the JupyterHub team compass repository <https://jupyterhub-team-compass.readthedocs.io/en/latest/meetings.html>`_.
+`the JupyterHub team compass repository <https://jupyterhub-team-compass.readthedocs.io/en/latest/meetings/index.html>`_.
 
 **JupyterLab meetings** happen weekly. For more information about when these meetings happen,
 as well as notes from each meeting, see `the JupyterLab README <https://github.com/jupyterlab/jupyterlab#weekly-dev-meeting>`_.
