@@ -77,3 +77,12 @@ be a positive and helpful member of this community. Whether it **participating i
 **offering to help others**, **coming to community meetings**, or **teaching others about Jupyter**,
 there are many ways to improve the Jupyter community. For more information about this, we
 recommend starting with the :ref:`community-guide`.
+
+Getting Access to Jupyter Managed Accounts
+------------------------------------------
+
+As a contributor, you may need to access accounts managed by Jupyter, for instance,
+to write a blog post or update information posted to a Jupyter site.
+
+To request access, email the security group at `security@ipython.org`, or make
+an issue on the `Jupyter Security subproject repo <https://github.com/jupyter/security/issues/new>`_.
