@@ -326,7 +326,7 @@ msgstr ""
 #: ../../source/developer-docs/contrib_first_time.rst:73
 #: 335df1b56add43bc87dc22523aa11774
 msgid ""
-"`Development Instalation "
+"`Development Installation "
 "<https://ipywidgets.readthedocs.io/en/latest/dev_install.html>`__"
 msgstr ""
 

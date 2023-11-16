@@ -1711,7 +1711,7 @@ msgstr ""
 # 9a919edea46042fda80ad5719ba42c25
 #: ../../source/community/community-call-notes/2019-march.md:83
 #: feb3053e773948d688e91464db171806
-msgid "Don't get limitted to technical discusions !"
+msgid "Don't get limited to technical discusions !"
 msgstr ""
 
 # 6a1d536f3f6c46b2b79fcdecd6491c4c

@@ -739,7 +739,7 @@ msgstr ""
 # 712a90ba320f4bda9acb4e6df9b85bc2
 #: ../../source/projects/jupyter-directories.rst:40
 msgid ""
-"To list the config directories currrently being used you can run the "
+"To list the config directories currently being used you can run the "
 "below command from the :term:`command line`::"
 msgstr ""
 

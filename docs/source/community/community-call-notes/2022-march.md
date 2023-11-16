@@ -26,6 +26,6 @@ This is a place to make short announcements (without a need for discussion).
 
 ## Agenda Items
 
-With time changes, this meeting was accidentally double-booked with the Jupyter Secuirty meeting! Since we had an open agenda before the community call, our notes overlap with theirs.
+With time changes, this meeting was accidentally double-booked with the Jupyter Security meeting! Since we had an open agenda before the community call, our notes overlap with theirs.
 
 For notes from this call, please refer to the [March 29, 2022 jupyter/security meeting notes!](https://github.com/jupyter/security/tree/main/meetings/2022-03-29.md)

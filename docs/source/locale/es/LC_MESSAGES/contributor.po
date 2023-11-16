@@ -260,7 +260,7 @@ msgstr ""
 # cb2170d8f32f40ab8ddb9dfe33eb88ec
 #: ../../source/contributor/contrib_guide_blog.rst:47
 msgid ""
-"Alway check in the metadata fields that a blog post has a title and a "
+"Always check in the metadata fields that a blog post has a title and a "
 "canonical URL. It is possible to put the date in the canonical URL, in "
 "particular for events like jupyter-day, that can occur several times. The"
 " date of the event can differ from the date of the blog post."

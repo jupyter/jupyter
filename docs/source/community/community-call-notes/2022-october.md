@@ -35,7 +35,7 @@ For more discussion on the format of these calls, see the thread [here](https://
         * https://github.com/deathbeds/importnb
         * https://github.com/tonyfast/tonyfast
     * "Spooky-ber Note-boo-ks" with [jupyterlab-deck](https://github.com/deathbeds/jupyterlab-deck) and a history of presenting in notebooks and a reporting deck (with Robot Framework).
-* **Debra Chen, Niko Zeng**: Invitation for joint-holding comminity meetup
+* **Debra Chen, Niko Zeng**: Invitation for joint-holding community meetup
 
 ## Other Links Shared
 

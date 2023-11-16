@@ -284,7 +284,7 @@ msgstr ""
 # b2ed815f0f484e68a121c164065199df
 #: ../../source/developer-docs/contrib_first_time.rst:73
 msgid ""
-"`Development Instalation "
+"`Development Installation "
 "<https://ipywidgets.readthedocs.io/en/latest/dev_install.html>`__"
 msgstr ""
 
