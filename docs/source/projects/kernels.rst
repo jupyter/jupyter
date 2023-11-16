@@ -42,11 +42,10 @@ implementation of kernels for Jupyter and provides a number of kernels such as
         the wrapper around IPython which enables using IPython as a kernel
         `Repo <https://github.com/ipython/ipykernel>`__
 
-    `Xeus <https://ipyparallel.readthedocs.io/en/latest/>`__
+    `Xeus <https://xeus.readthedocs.io/en/latest/>`__
         library facilitating the implementation of kernels for Jupyter.
         It implements the Jupyter Kernel protocol so developers
         can focus on implementing the interpreter part of the kernel.
-        `Documentation <https://xeus.readthedocs.io/en/latest/>`__ |
         `Repo <https://github.com/jupyter-xeus/xeus>`__
 
 .. seealso::
