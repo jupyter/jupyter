@@ -105,7 +105,7 @@ using the ``--help`` flag:
 Using a command-line interface
 ------------------------------
 
-Notebooks can be executed from your terminal using the ``run`` subcommand. It expects notebook paths as input arguments and accepts optional flags to modify the default behavior.
+Notebooks can be executed from your terminal using the ``execute`` subcommand. It expects notebook paths as input arguments and accepts optional flags to modify the default behavior.
 
 Running a notebook is this easy.
 
