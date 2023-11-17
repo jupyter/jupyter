@@ -49,7 +49,7 @@ The Jupyter Lab interface is a more extensible and composable interactive comput
 
 Here's an example of what the JupyterLab interface looks like:
 
-```{image} https://jupyter.org/assets/labpreview.webp
+```{image} ../_static/_images/jupyterlab.png
 ```
 
 ## Next step: install Jupyter locally
