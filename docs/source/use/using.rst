@@ -90,7 +90,7 @@ that helps lay out some of your options.
 			label="Install a\nlanguage\nkernel",
 			tooltip="How to install kernels",
 			target="_top", color=green, // Local Link
-			href="../projects/kernels.html]
+			href="../projects/kernels.html"]
 		// Path labels
 		noinst [
 			shape=plaintext,
