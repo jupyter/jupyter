@@ -29,7 +29,6 @@ that helps lay out some of your options.
 .. graphviz::
 
 	digraph decide_project {
-		size="10,4";
 		graph [fontname = "helvetica", fontsize="18"];
 		node [fontname = "helvetica", fontsize="18"];
 		edge [fontname = "helvetica", fontsize="18"];
