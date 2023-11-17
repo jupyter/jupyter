@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 034fbf47daca43d69d2f69db956f0925
+#: ../../source/running.rst:5
+msgid "Running the Notebook"
+msgstr ""
+
+# 0f84d33b57f44a6c866def4270ab75d4
+#: ../../source/running.rst:9
+msgid "Contents"
+msgstr ""
+
+# de423761fe414a8bb5c042ffafd69e67
+#: ../../source/running.rst:12
+msgid "Basic Steps"
+msgstr ""
+
+# 772caec806c34073bc157412767069c3
+#: ../../source/running.rst:14
+msgid "Start the notebook server from the :term:`command line`::"
+msgstr ""
+
+# 381fc8c07c8d4b12907dece1a9391603
+#: ../../source/running.rst:18
+msgid "You should see the notebook open in your browser."
+msgstr ""
+
+# 5b2da16c94e74d859ce8055fdce8aeb6
+#: ../../source/running.rst:21
+msgid "Starting the Notebook Server"
+msgstr ""
+
+# 81d1855aa3064e38a5145051195be5ce
+#: ../../source/running.rst:23
+msgid ""
+"After you have installed the Jupyter Notebook on your computer, you are "
+"ready to run the notebook server. You can start the notebook server from "
+"the :term:`command line` (using :term:`Terminal` on Mac/Linux, "
+":term:`Command Prompt` on Windows) by running::"
+msgstr ""
+
+# 178e1601d2154fc198cd68d6167cb4ee
+#: ../../source/running.rst:30
+msgid ""
+"This will print some information about the notebook server in your "
+"terminal, including the URL of the web application (by default, "
+"``http://localhost:8888``):"
+msgstr ""
+
+# 2499df7720c9421eaf3671e9c9a7e4b7
+#: ../../source/running.rst:42
+msgid "It will then open your default web browser to this URL."
+msgstr ""
+
+# f9ca618037bf469490a7fc5a2e793ebf
+#: ../../source/running.rst:44
+msgid ""
+"When the notebook opens in your browser, you will see the :term:`Notebook"
+" Dashboard`, which will show a list of the notebooks, files, and "
+"subdirectories in the directory where the notebook server was started. "
+"Most of the time, you will wish to start a notebook server in the highest"
+" level directory containing notebooks. Often this will be your home "
+"directory."
+msgstr ""
+
+# dc50f37acb364b30924ee135608f01e4
+#: ../../source/running.rst:50
+msgid "**Notebook Dashboard**"
+msgstr ""
+
+# 1cd18ab0da2945bbaefbe684313b04a0
+#: ../../source/running.rst:55
+msgid "Introducing the Notebook Server's Command Line Options"
+msgstr ""
+
+# 6e674cad5104461aa03097ede9bb7b7f
+#: ../../source/running.rst:58
+msgid "How do I open a specific Notebook?"
+msgstr ""
+
+# dfbad8a998c7422ca95f3c2a41fb3964
+#: ../../source/running.rst:60
+msgid ""
+"The following code should open the given notebook in the currently "
+"running notebook server, starting one if necessary."
+msgstr ""
+
+# 57ba78a74c634ad5a2709e1cc3bbe370
+#: ../../source/running.rst:67
+msgid "How do I start the Notebook using a custom IP or port?"
+msgstr ""
+
+# 425d27eeb2084312960454783a563cdd
+#: ../../source/running.rst:69
+msgid ""
+"By default, the notebook server starts on port 8888. If port 8888 is "
+"unavailable or in use, the notebook server searches the next available "
+"port. You may also specify a port manually. In this example, we set the "
+"server's port to 9999:"
+msgstr ""
+
+# e4bf6e61b19a4c33b6aff46cf9e29eaf
+#: ../../source/running.rst:79
+msgid "How do I start the Notebook server without opening a browser?"
+msgstr ""
+
+# 56643f36db0446c38012f871fbabf0d7
+#: ../../source/running.rst:81
+msgid "Start notebook server without opening a web browser:"
+msgstr ""
+
+# 265b6dcd97d4439eaa5fb4436fcf1189
+#: ../../source/running.rst:88
+msgid "How do I get help about Notebook server options?"
+msgstr ""
+
+# ec00daf0abd7419d8fae626b3ea49805
+#: ../../source/running.rst:90
+msgid ""
+"The notebook server provides help messages for other command line "
+"arguments using the ``--help`` flag:"
+msgstr ""
+
+# b21136ba910742b9b9ecaccaa257051b
+#: ../../source/running.rst:99
+msgid ":ref:`Jupyter Installation, Configuration, and Usage <content-projects>`"
+msgstr ""
+
+# aece793a237545f9817252206a46e633
+#: ../../source/running.rst:100
+msgid ""
+"Detailed information about command line arguments, configuration, and "
+"usage."
+msgstr ""
+

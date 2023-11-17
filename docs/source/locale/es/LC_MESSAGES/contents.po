@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Valery Briz <valerybriz@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: 2019-07-27 11:58+0000\n"
+"Last-Translator: Valery Briz <valerybriz@gmail.com>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/project-jupyter/teams/100899/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# 33435e4f8e8e4d108f3ee03172fbca55
+#: ../../source/contents.rst:3
+msgid "Project Jupyter and IPython"
+msgstr "Proyecto Jupyter y IPython"
+
+# a8847d2993b84d8a80a23f7807c1aff3
+#: ../../source/contents.rst:5
+msgid "**Table of Contents**"
+msgstr "**Tabla de Contenidos**"
+
+# 7d38cf5fdf954c39a2fe68592724bc41
+#: ../../source/contents.rst:67
+msgid "Indices and tables"
+msgstr "Indices y tablas"
+
+# 289ae6113b3f4c9eb1d29b8e2c8fb24d
+#: ../../source/contents.rst:69
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+# 6421140cb92e40758c79f76b99f3e96f
+#: ../../source/contents.rst:70
+msgid ":ref:`glossary`"
+msgstr ":ref:`glossario`"
+
+# a18e0af2c678400f9984da4463c144d0
+#: ../../source/contents.rst:71
+msgid ":ref:`search`"
+msgstr ":ref:`busqueda`"
+
+# 03b4d1007ed14d4d910b6c03fd6fd9f2
+#: ../../source/contents.rst:74
+msgid "**Resources:**"
+msgstr "**Recursos:**"
+
+# 548ecdd6f5484efa80f8a2b05e4ef451
+#: ../../source/contents.rst:1
+msgid "Site"
+msgstr "Sitio"
+
+# 0ff92b1d24764e81957e7d1fc8ff8d9f
+#: ../../source/contents.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+# 83e11f238d834561af6f97697b27f6fb
+#: ../../source/contents.rst:1
+msgid "`Jupyter website <https://jupyter.org>`_"
+msgstr "`Sitio web de Jupyter <https://jupyter.org>`_"
+
+# 920fa49c6db7411983595935f7e92f3e
+#: ../../source/contents.rst:1
+msgid "Keep up to date on Jupyter"
+msgstr "Mantente al día con Jupyter"
+
+# 30a274f35cf2474797945a935da85cb4
+#: ../../source/contents.rst:1
+msgid "`IPython website <https://ipython.org>`_"
+msgstr "`Sitio web de IPython <https://ipython.org>`_"
+
+# 88231b674ec542179be7c7445ec8583b
+#: ../../source/contents.rst:1
+msgid "Learn more about IPython"
+msgstr "Aprende más acerca de IPython"
+
+# b8c70c9438f644118a68109f5eba874e
+#: ../../source/contents.rst:1
+msgid "`jupyter/help repo <https://github.com/jupyter/help>`_"
+msgstr "`jupyter/ayuda repo <https://github.com/jupyter/help>`_"
+
+# 72da60819619401b9a96f5504ba59c97
+#: ../../source/contents.rst:1
+msgid "Start here for help and support questions"
+msgstr "Empieza aquí para ayuda y preguntas de soporte"
+
+# 0dc8121fb6244c189d0104edd3a0ad5d
+#: ../../source/contents.rst:1
+msgid ""
+"`Jupyter mailing list <https://groups.google.com/forum/#!forum/jupyter>`_"
+msgstr ""
+"`Lista de correos de Jupyter "
+"<https://groups.google.com/forum/#!forum/jupyter>`_"
+
+# cbdb33adaed94934807dd96aad51d04c
+#: ../../source/contents.rst:1
+msgid "General discussion of Jupyter's use"
+msgstr "Discusión general de Jupyter's usa"
+
+# 90cd4bd7587a41baaa4fe9b254e06b73
+#: ../../source/contents.rst:1
+msgid ""
+"`Jupyter in Education group <https://groups.google.com/forum/#!forum"
+"/jupyter-education>`_"
+msgstr ""
+"`Grupo de Jupyter en la Educación <https://groups.google.com/forum/#!forum"
+"/jupyter-education>`_"
+
+# a53a7f1c3e0542529b17ea18db13af07
+#: ../../source/contents.rst:1
+msgid "Discussion of Jupyter's use in education"
+msgstr "Discusión de los usos de Jupyter en educación"
+
+# be4502efd1b8405f9006fcc3b8d830f7
+#: ../../source/contents.rst:1
+msgid "`NumFocus <http://www.numfocus.org>`_"
+msgstr "`NumFocus <http://www.numfocus.org>`_"
+
+# aad8855017f4495b9d094b28d9a17a7c
+#: ../../source/contents.rst:1
+msgid "Promotes world-class, innovative, open source scientific software"
+msgstr ""
+"Promueve software científico de clase mundial, innovativo y de código "
+"abierto"
+
+# af4b1ede6ede498c982e94e44261c974
+#: ../../source/contents.rst:1
+msgid "`Donate to Project Jupyter <https://jupyter.org/donate.html>`_"
+msgstr "`Dona al Proyecto Jupyter <https://jupyter.org/donate.html>`_"
+
+# 46564fbd685543a9a25fb09fe204970a
+#: ../../source/contents.rst:1
+msgid "Please contribute to open science collaboration and sustainability"
+msgstr ""
+"Por favor contribuye a la colaboración y sustentabilidad de la ciencia "
+"abierta"

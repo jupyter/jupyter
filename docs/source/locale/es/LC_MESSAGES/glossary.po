@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Valery Briz <valerybriz@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: 2019-07-27 11:59+0000\n"
+"Last-Translator: Valery Briz <valerybriz@gmail.com>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/project-jupyter/teams/100899/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# 938cb2236c5e4a24a0d1cd9f80149b27
+#: ../../source/glossary.rst:5
+msgid "Glossary"
+msgstr "Glosario"
+
+# 9d41e58ffa16468b8e023a9712b29b3b
+#: ../../source/glossary.rst:8
+msgid "command line"
+msgstr "linea de comandos"
+
+# 5f6a8ec0ea1d4dad93821e3a29a9e5a5
+#: ../../source/glossary.rst:10
+msgid "The terminal or console window where you type commands."
+msgstr "La terminal o ventana de la consola donde escribes comandos"
+
+# a9505efde187467c88289d5b5c57bc92
+#: ../../source/glossary.rst:11
+msgid "Command Prompt"
+msgstr "Símbolo del sistema"
+
+# fb1bf6539f8d4152a96bbfff01ede6bb
+#: ../../source/glossary.rst:13
+msgid ""
+"On Windows, this is the application where commands are typed into a window "
+"for execution."
+msgstr ""
+"En Windows, esta es la aplicación donde los comandos se escriben en una "
+"ventana de ejecución"
+
+# a53402578c0c4ec4aef323352f576b9c
+#: ../../source/glossary.rst:15
+msgid "conda"
+msgstr "conda"
+
+# 48aea7fb60ea46b48b9d5cecc6b7c9f6
+#: ../../source/glossary.rst:17
+msgid "The package manager for Anaconda."
+msgstr "El manejador de paquetes para Anaconda"
+
+# 9144299b6c03438697d2df100f252f0c
+#: ../../source/glossary.rst:18
+msgid "config"
+msgstr "config"
+
+# af39f4ba81f8473f919ef55fefc8023c
+#: ../../source/glossary.rst:20
+msgid "Refers to the configuration files and process."
+msgstr "Se refiere a los archivos de configuración y proceso."
+
+# 7621f3badf974780adee77534f946e48
+#: ../../source/glossary.rst:21
+msgid "kernel"
+msgstr "kernel"
+
+# ac15ce043620490d8fc7a9d46fc5d4ae
+#: ../../source/glossary.rst:23
+msgid ""
+"A kernel provides programming language support in Jupyter. IPython is the "
+"default kernel. Additional kernels include R, Julia, and many more."
+msgstr ""
+"Un kernel provee el soporte a lenguajes de programación en Jupyter. IPython "
+"es el kernel por defecto. Los kernels adicionales incluyen R, Julia y muchos"
+" más."
+
+# 6c87a739094e41f5b1ab517a786e0376
+#: ../../source/glossary.rst:25
+msgid "Notebook Dashboard"
+msgstr "Panel de control del Notebook"
+
+# f5dc136dc22c4ea5bf8f382048d69acd
+#: ../../source/glossary.rst:27
+msgid ""
+"The notebook user interface which shows a list of the notebooks, files, and "
+"subdirectories in the directory where the notebook server is started."
+msgstr ""
+"La interfaz de usuario del notebook que muestra un listado de los notebooks,"
+" archivos y subdirectorios en el directorio que el notebook fue ejecutado."
+
+# 9d4b3fafd38844b3913fef20c976aea2
+#: ../../source/glossary.rst:30
+msgid "pip"
+msgstr "pip"
+
+# dde7ae79c1cd4295989a3d816c0d9106
+#: ../../source/glossary.rst:32
+msgid "Python package manager."
+msgstr "Manejador de paquetes de Python."
+
+# 025167dfb0b849158f1433aafcc4b7c3
+#: ../../source/glossary.rst:33
+msgid "profiles"
+msgstr "perfiles"
+
+# 4f1bce8c1652475c9e8c7313bdcc0155
+#: ../../source/glossary.rst:35
+msgid ""
+"Not available in Jupyter. In IPython 3, profiles are collections of "
+"configuration and runtime files."
+msgstr ""
+"No disponible en Jupyter. En IPython 3, los perfiles son colecciones de "
+"archivos de configuración y tiempo de ejecución."
+
+# 98ba4c37a4704f0a84921a8a7f14b8cb
+#: ../../source/glossary.rst:37
+msgid "REPL"
+msgstr "REPL"
+
+# 1127a9c1dee04fc18f0af7e6d4087e5b
+#: ../../source/glossary.rst:39
+msgid "read-eval-print-loop."
+msgstr "Bucle de Lectura-Evaluación-Impresión."
+
+# dbf08896a556455faf46a74c9049cdc4
+#: ../../source/glossary.rst:40
+msgid "terminal"
+msgstr "terminal"
+
+# fb3383cb17244feba592bcdc60f6bdeb
+#: ../../source/glossary.rst:42
+msgid "A window used to type in commands to be executed (Linux and OS X)."
+msgstr ""
+"Una ventana para escribir comandos que serán ejecutados (Linux y OS X)."
+
+# ec11c3cf781043bcb094685869a6fd12
+#: ../../source/glossary.rst:43
+msgid "widget"
+msgstr "complemento"
+
+# 204b394a671c4318ad854b78304049d8
+#: ../../source/glossary.rst:45
+msgid ""
+"A user interface component, similar to a plugin, that allows customized "
+"input, such as a slider."
+msgstr ""
+"Un complemento de la interfaz de usuario, similar a un plugin, que permite "
+"customizar las entradas, por ejemplo; un slider."

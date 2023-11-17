@@ -1,3 +1,4 @@
+==================
 Incubator Projects
 ==================
 
@@ -32,5 +33,6 @@ Jupyter projects in `Binder <http://mybinder.org/>`_. Just head over to the
 the online trial. You should see an interactive notebook similar to this one:
 
 .. image:: ../_static/_images/showcase.png
+   :alt: The online trial Jupyter notebook. It begins with a text cell stating that this is a temporary notebook server. It then lists the different incubator projects that are available on the server, with links to demos, documentation and GitHub repo for each.
 
 .. _showcase: https://github.com/jupyter-incubator/showcase

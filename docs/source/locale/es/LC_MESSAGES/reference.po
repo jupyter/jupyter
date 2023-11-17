@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 4186a713d84a4c2b806a912fb2becfc9
+#: ../../source/reference/content-reference.rst:2
+msgid "Reference"
+msgstr ""
+
+# 47d932f599ef4dc1a3fce9d83d3e7bc4
+#: ../../source/reference/content-reference.rst:12
+msgid "Resources"
+msgstr ""
+
+# 23b33a4ebf624f9f8ac3989d8fb30bd8
+#: ../../source/reference/content-reference.rst:14
+msgid ":ref:`genindex`"
+msgstr ""
+
+# fdf2e34429ec43cfa4182e18d95e3546
+#: ../../source/reference/content-reference.rst:15
+msgid ":ref:`search`"
+msgstr ""
+
+# 1af8e86e71ef4cdfa9a78a51877391cc
+#: ../../source/reference/mimetype.md:1
+msgid "Custom mimetypes (MIME types)"
+msgstr ""
+
+# 42772fdb996b48deb68314fc87c61069
+#: ../../source/reference/mimetype.md:4
+msgid "What's a mimetype?"
+msgstr ""
+
+# b4587f2848af4bb6bedc27fc5478e0e1
+#: ../../source/reference/mimetype.md:6
+msgid ""
+"When an internet request and response occurs, a Content-Type header is "
+"passed. A mimetype, also referred to as MIME type, identifies how the "
+"content that is being returned should be handled or used, based on type, "
+"by the application and browser. A MIME type is made up of a MIME group "
+"(i.e. application, image, audio, etc.) and a MIME subtype. For example, a"
+" MIME type is image/png where MIME group is image and subtype is png."
+msgstr ""
+
+# 45992d4e958c48eeade184b7bf32f2a1
+#: ../../source/reference/mimetype.md:13
+msgid ""
+"As types may contain vendor specific items, a custom vendor specific MIME"
+" type, vnd, can be used. A vendor specific MIME type will contain vnd "
+"such as application/vnd.jupyter.cells."
+msgstr ""
+
+# 197f07f4e1a64a4abeaae091b0bc2bcd
+#: ../../source/reference/mimetype.md:19
+msgid "Custom mimetypes used in Jupyter and IPython projects"
+msgstr ""
+
+# e9b912b57b8149408f2ac38653e37ccf
+#: ../../source/reference/mimetype.md:29
+msgid "Listing of custom mimetypes used for display"
+msgstr ""
+

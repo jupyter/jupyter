@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# utzig <fabio.utzig@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: 2019-07-27 11:59+0000\n"
+"Last-Translator: utzig <fabio.utzig@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/project-jupyter/teams/100899/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# aac44b6e1fec4f468a8d726af2e658a1
+#: ../../source/tryjupyter.rst:5
+msgid "Try Jupyter"
+msgstr "Testar o Jupyter"
+
+# 3a668d6e2d0c48e1a9edb05dccda1893
+#: ../../source/tryjupyter.rst:8
+msgid "Contents"
+msgstr "Conteúdo"
+
+# 69cbf5beb07e43cbb0ca9eb9fa01a78e
+#: ../../source/tryjupyter.rst:11
+msgid "Try in Your Browser. No Installation Needed."
+msgstr "Testar no navegador. Não é necessário instalação."
+
+# 4a876c620c274d63abade59bdfd082a3
+#: ../../source/tryjupyter.rst:13
+msgid "Go to https://try.jupyter.org. No installation is needed."
+msgstr "Ir para https://try.jupyter.org. Não é necessário instalação."
+
+# 3dfbe1fd06a44fc8be1b057fa7a62b43
+#: ../../source/tryjupyter.rst:15
+msgid "**Notebook Dashboard**"
+msgstr "**Painel de controle do Notebook**"
+
+# 6b4e878bb42947ef8919b89bc6217086
+#: ../../source/tryjupyter.rst:19
+msgid "**Notebook Editor**"
+msgstr "**Editor do Notebook**"
+
+# 8c70aa16e8b54e769815667cf4b4b4da
+#: ../../source/tryjupyter.rst:25
+msgid "Are You Ready to Install Jupyter?"
+msgstr "Você está pronto para instalar o Jupyter?"
+
+# 11a41db69b334abfb7687cfe4721da14
+#: ../../source/tryjupyter.rst:27
+msgid ""
+"If you have tried Jupyter and like it, please use our detailed "
+":ref:`Installation Guide <install>` to install Jupyter on your computer."
+msgstr ""
+"Se você testou e gostou do Jupyter, por favor use nossa :ref:`Installation "
+"Guide ` para instalar no seu computador<install>. "

@@ -1,0 +1,993 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 4af9f71750c8467e8467b4e5c923c079
+#: ../../source/developer-docs/contrib_first_time.rst:3
+msgid "Contributing for the First Time"
+msgstr ""
+
+# 856e1ce30fea448ebafd494bce7435e0
+# a1a8768c3922479fa3bb8f7c8ec19d78
+#: ../../source/developer-docs/contrib_first_time.rst:6
+#: ../../source/developer-docs/contrib_guide_code.rst:6
+msgid "Contents"
+msgstr ""
+
+# b75b7e5e93d443999da00800903a098c
+#: ../../source/developer-docs/contrib_first_time.rst:8
+msgid "Welcome fellow contributor! We appreciate your help."
+msgstr ""
+
+# feac7eb012a841038cfec4c31f26db07
+#: ../../source/developer-docs/contrib_first_time.rst:10
+msgid ""
+"We typically label issues appropriate for new contributors as ``good "
+"first issue`` or ``help wanted``.  To start an issue, you may comment to "
+"let everyone know that you'll be working on it.  Our repos typically "
+"provide development installation instructions in each repo's "
+"``CONTRIBUTING.md`` or ``README.md``. **Should you find an issue with our"
+" development installation instructions please let us know in our "
+"issues.**  We want to ensure that our documentation for development "
+"installation is accurate.  Additionally, other contributors are often "
+"available to answer questions about fixing the issue on the issue number "
+"or on the repo's gitter channel."
+msgstr ""
+
+# ee56c9c218734eb89634ced64adc7089
+#: ../../source/developer-docs/contrib_first_time.rst:20
+msgid ""
+"We strive to have a inclusive, welcoming community.  Please read our "
+"`code of conduct "
+"<https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md>`__"
+" to learn more."
+msgstr ""
+
+# fd7a319af3e449b6861b2d74e4e1c8cb
+#: ../../source/developer-docs/contrib_first_time.rst:25
+msgid "Major Repos and Issue Types"
+msgstr ""
+
+# fa17d1bbc25c469c8aa8e05eeeef1cca
+#: ../../source/developer-docs/contrib_first_time.rst:28
+msgid "Python"
+msgstr ""
+
+# cd8ab1883a03446b91db2f5d1f7c13db
+#: ../../source/developer-docs/contrib_first_time.rst:30
+msgid ""
+"IPython, nbgrader, JupyterHub, repo2docker, and Binder are major repos "
+"written primarily in Python."
+msgstr ""
+
+# 13e25fb7dc4c4715abc0394881b6e0f7
+#: ../../source/developer-docs/contrib_first_time.rst:34
+msgid "`IPython <https://github.com/ipython/ipython>`__"
+msgstr ""
+
+# c2da4aae25e4412a911d495ddecf8495
+#: ../../source/developer-docs/contrib_first_time.rst:33
+#, python-format
+msgid ""
+"`Notable Issues "
+"<https://github.com/ipython/ipython/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__"
+msgstr ""
+
+# c5ee2f00454c418ab40ddb37f145b04f
+#: ../../source/developer-docs/contrib_first_time.rst:34
+msgid ""
+"`Development Installation <https://github.com/ipython/ipython"
+"#development-and-instant-running>`__"
+msgstr ""
+
+# d4df3d9d6a3a4a69b57ea417354f7e43
+#: ../../source/developer-docs/contrib_first_time.rst:35
+msgid "`Gitter Channel <https://gitter.im/ipython/ipython>`__"
+msgstr ""
+
+# eb0579bf78894f9dbf75c8786657adb2
+#: ../../source/developer-docs/contrib_first_time.rst:37
+msgid "`nbgrader <https://github.com/jupyter/nbgrader>`__"
+msgstr ""
+
+# 4dbe9d98a5b04f3c97d6e3fcb5ac9c95
+#: ../../source/developer-docs/contrib_first_time.rst:37
+#, python-format
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyter/nbgrader/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__"
+msgstr ""
+
+# 831273b724474075be7ed229e8f7f7e0
+#: ../../source/developer-docs/contrib_first_time.rst:38
+msgid ""
+"`Development Installation "
+"<https://nbgrader.readthedocs.io/en/latest/contributor_guide/installation_developer.html>`__"
+msgstr ""
+
+# d97b92c244d243088ab12928e87d6df7
+#: ../../source/developer-docs/contrib_first_time.rst:41
+msgid "`JupyterHub <https://github.com/jupyterhub/jupyterhub>`__"
+msgstr ""
+
+# 387d54bdacca494fbb48fe045047ad3b
+#: ../../source/developer-docs/contrib_first_time.rst:40
+#, python-format
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyterhub/jupyterhub/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22>`__"
+msgstr ""
+
+# 103323470924458c96863a2956b18934
+#: ../../source/developer-docs/contrib_first_time.rst:41
+msgid ""
+"`Development Installation "
+"<https://github.com/jupyterhub/jupyterhub#contributing>`__"
+msgstr ""
+
+# b060a9da9d1341a4b1bb023eb4a2a514
+# 971d63207aa04f5a8f60aefcf4af75fa
+#: ../../source/developer-docs/contrib_first_time.rst:42
+#: ../../source/developer-docs/contrib_first_time.rst:46
+msgid "`Gitter Channel <https://gitter.im/jupyterhub/jupyterhub>`__"
+msgstr ""
+
+# c587dbe34ebf447e8ff83ec285a05cc4
+#: ../../source/developer-docs/contrib_first_time.rst:45
+msgid "`repo2docker <https://github.com/jupyter/repo2docker>`__"
+msgstr ""
+
+# 52bedabdb3b040e895cb1ca8f80d6041
+#: ../../source/developer-docs/contrib_first_time.rst:44
+#, python-format
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyter/repo2docker/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22>`__"
+msgstr ""
+
+# 2f57686e120c44d695178d92b790da17
+#: ../../source/developer-docs/contrib_first_time.rst:45
+msgid ""
+"`Development Installation "
+"<https://github.com/jupyter/repo2docker#installation>`__"
+msgstr ""
+
+# 8d289dfea18048199cea959342abb58c
+#: ../../source/developer-docs/contrib_first_time.rst:50
+msgid "`Binder <https://github.com/jupyterhub/binderhub>`__"
+msgstr ""
+
+# 5857637ca0fd49e9808958dd94156769
+#: ../../source/developer-docs/contrib_first_time.rst:48
+#, python-format
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyterhub/binderhub/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22>`__"
+msgstr ""
+
+# 782632da47684ce8a213946114dc86ed
+#: ../../source/developer-docs/contrib_first_time.rst:49
+msgid ""
+"`Development Installation "
+"<https://github.com/jupyterhub/binderhub/blob/master/CONTRIBUTING.md>`__"
+msgstr ""
+
+# 92bddf6026f94077b2f368e02315c5f9
+#: ../../source/developer-docs/contrib_first_time.rst:50
+msgid "`Gitter Channel <https://gitter.im/jupyterhub/binder>`__"
+msgstr ""
+
+# 9b380cabc14b47179027d99a76fb7b8b
+#: ../../source/developer-docs/contrib_first_time.rst:53
+msgid "Documentation"
+msgstr ""
+
+# ad4855a98345426b8ff5b1012d31ccfe
+#: ../../source/developer-docs/contrib_first_time.rst:55
+msgid ""
+"All our repos have documentation issues that are relevant for new "
+"contributors. For example, the source for the documentation you are "
+"reading right now can be found in the `jupyter/jupyter repository on "
+"GitHub <https://github.com/jupyter/jupyter>`__."
+msgstr ""
+
+# fb1acce4f0464fb583a61010ade7e13f
+#: ../../source/developer-docs/contrib_first_time.rst:59
+msgid "JavaScript/TypeScript"
+msgstr ""
+
+# d17b947479924673b44d5e34dba895af
+#: ../../source/developer-docs/contrib_first_time.rst:61
+msgid ""
+"Jupyter Notebook, JupyterLab, and IPyWidgets use JavaScript and "
+"TypeScript."
+msgstr ""
+
+# e73febabcbe341d4ab5cd9062fe95128
+#: ../../source/developer-docs/contrib_first_time.rst:65
+msgid "`Jupyter Notebook <https://github.com/jupyter/notebook>`__"
+msgstr ""
+
+# f1a0b2f2975f459e8c85be7dfe502070
+#: ../../source/developer-docs/contrib_first_time.rst:64
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22tag%3ANew+Contributor%22>`__"
+msgstr ""
+
+# 67ec729c38dd4eb4afc774c99aad3512
+#: ../../source/developer-docs/contrib_first_time.rst:65
+msgid ""
+"`Development Installation "
+"<https://github.com/jupyter/notebook/blob/master/CONTRIBUTING.rst>`__"
+msgstr ""
+
+# eacc49d0d4e046309c208bceab13b8cc
+#: ../../source/developer-docs/contrib_first_time.rst:66
+msgid "`Gitter Channel <https://gitter.im/jupyter/notebook>`__"
+msgstr ""
+
+# 15087cd5dd224b8a882fad3d6db3085b
+#: ../../source/developer-docs/contrib_first_time.rst:69
+msgid "`JupyterLab <https://github.com/jupyterlab/jupyterlab>`__"
+msgstr ""
+
+# f7a939c12a42438796221b1b3216b85c
+#: ../../source/developer-docs/contrib_first_time.rst:68
+#, python-format
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3AHelp+Wanted%22>`__"
+msgstr ""
+
+# 60727430accc47a59bdb9fd7c0dc9d10
+#: ../../source/developer-docs/contrib_first_time.rst:69
+msgid ""
+"`Development Installation "
+"<https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md>`__"
+msgstr ""
+
+# 889f6bb437974cbf98d5bc40c912e0b4
+#: ../../source/developer-docs/contrib_first_time.rst:70
+msgid "`Gitter Channel <https://gitter.im/jupyterlab/jupyterlab>`__"
+msgstr ""
+
+# e810bd44e3374585a51bf791e155e821
+#: ../../source/developer-docs/contrib_first_time.rst:74
+msgid "`IPyWidgets <https://github.com/jupyter-widgets/ipywidgets>`__"
+msgstr ""
+
+# 27cd0846c54e44769e1ca07e09612753
+#: ../../source/developer-docs/contrib_first_time.rst:72
+#, python-format
+msgid ""
+"`Notable Issues <https://github.com/jupyter-"
+"widgets/ipywidgets/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__"
+msgstr ""
+
+# b2ed815f0f484e68a121c164065199df
+#: ../../source/developer-docs/contrib_first_time.rst:73
+msgid ""
+"`Development Installation "
+"<https://ipywidgets.readthedocs.io/en/latest/dev_install.html>`__"
+msgstr ""
+
+# 72cbadaa4c3941bdb2196021192afe8c
+#: ../../source/developer-docs/contrib_first_time.rst:74
+msgid "`Gitter Channel <https://gitter.im/jupyter-widgets/Lobby>`__"
+msgstr ""
+
+# 540681780cc14e65925a8c0e9aad0405
+#: ../../source/developer-docs/contrib_first_time.rst:77
+msgid "DevOps"
+msgstr ""
+
+# 4b08f960f4e941e2b3aa717d7edca63b
+#: ../../source/developer-docs/contrib_first_time.rst:79
+msgid ""
+"JupyterHub, repo2docker, and Binder have many issues related to devops.  "
+"See the links above."
+msgstr ""
+
+# c0634775654042c2ad49c3d398f14230
+#: ../../source/developer-docs/contrib_first_time.rst:82
+msgid "Web Development"
+msgstr ""
+
+# 2920f2549f3c4ca5a27867664fd04def
+#: ../../source/developer-docs/contrib_first_time.rst:84
+msgid "We have issues related to the website."
+msgstr ""
+
+# 34830e753b7042d59da52a4bb2415161
+#: ../../source/developer-docs/contrib_first_time.rst:87
+msgid ""
+"`Project Jupyter's Website "
+"<https://github.com/jupyter/jupyter.github.io/>`__"
+msgstr ""
+
+# 2d035ecd6e9e40dfa1aa14533fd7e41c
+#: ../../source/developer-docs/contrib_first_time.rst:87
+msgid ""
+"`Notable Issues "
+"<https://github.com/jupyter/jupyter.github.io/issues?q=is%3Aissue+is%3Aopen+label"
+"%3Asprint-friendly>`__"
+msgstr ""
+
+# 2192a69a3d2f42008d5632996da49b7f
+#: ../../source/developer-docs/contrib_first_time.rst:88
+msgid ""
+"`Developer Installation <https://github.com/jupyter/jupyter.github.io"
+"#quick-local-testing>`__"
+msgstr ""
+
+# 0485183fb72344cf959bce1ba5420bd6
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:3
+msgid "Submitting a Bug"
+msgstr ""
+
+# af25f25c2cec41d8831b2e67c2a3e69c
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:4
+msgid ""
+"While using the Notebook, you might experience a bug that manifests "
+"itself in unexpected behavior.  If so, we encourage you  to open issues "
+"on GitHub. To make the navigating issues easier for both developers and "
+"users, we ask that you take the following steps before submitting an "
+"issue."
+msgstr ""
+
+# 139a72d8dfdb45cf90edf3e35aec0059
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:9
+msgid ""
+"Search through StackOverflow and existing GitHub issues to ensure that "
+"the issue has not already been reported by another user. If so, provide "
+"your input on the existing issue if you think it would be valuable."
+msgstr ""
+
+# cccad08769f44e52a04a90cbe76e2223
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:13
+msgid ""
+"Prepare a small, self-contained snippet of code that will allow others to"
+" reproduce the issue that you are experiencing."
+msgstr ""
+
+# c3a86b1233534248bb19fa1c1b09bd9d
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:16
+msgid ""
+"Prepare information about the environment that you are executing the code"
+" in, in order to aid in the debugging of the issue. You will need to "
+"provide information about the Python version, Jupyter version, operating "
+"system, and browser that you are using when submitting bugs. You can also"
+" use ``pip list`` or  ``conda list`` and ``grep`` in order to identify "
+"the versions of the libraries that are relevant to the issue that you are"
+" submitting."
+msgstr ""
+
+# b4302021c41448839eae6dca5b34a39e
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:24
+msgid ""
+"Prepare a simple test that outlines the expected behavior of the code or "
+"a description of the what the expected behavior should be."
+msgstr ""
+
+# 47c214b9890f43c599c9bf0b8c6e0582
+#: ../../source/developer-docs/contrib_guide_bugs_enh.rst:27
+msgid ""
+"Prepare an explanation of why the current behavior is not desired and "
+"what it should be."
+msgstr ""
+
+# 971e73dd85a54bf9b588dad72b000207
+# fcc463f334c9426abb8e84b007b2f6cd
+#: ../../source/developer-docs/contrib_guide_code.rst:3
+#: ../../source/developer-docs/index.rst:5
+msgid "Developer Guide"
+msgstr ""
+
+# 7c5e21c9bdad4985aeab19c9c6a7af56
+#: ../../source/developer-docs/contrib_guide_code.rst:9
+msgid "A Note on Contributing to Open Source"
+msgstr ""
+
+# b4b9389d3154437ba7df6c08d95bffb4
+#: ../../source/developer-docs/contrib_guide_code.rst:11
+msgid ""
+"Contributing to open source can be a nerve-wrecking process, but don't "
+"worry everyone on the Jupyter team is dedicated to making sure that your "
+"open source experience is as fun as possible. At any time during the "
+"process described below, you can reach out to the Jupyter team on Gitter "
+"or the mailing list for assistance. If you are nervous about asking "
+"questions in public, you can also reach out to one of the Jupyter "
+"developers in private. You can use the public Gitter to find someone who "
+"has the best knowledge about the code you are working with and interact "
+"with the in a personal chat."
+msgstr ""
+
+# cc89b39165a446e5b87c4f9266495c26
+#: ../../source/developer-docs/contrib_guide_code.rst:20
+msgid ""
+"As you begin your open source journey, remember that it's OK if you don't"
+" understand something, it's OK to make mistakes, and it's OK to only "
+"contribute a small amount of the code necessary to fix the issue you are "
+"tackling. Any and all help is welcome and any and all people are "
+"encouraged to contribute."
+msgstr ""
+
+# 641608cfd0864941a223bf39b6a0b4ce
+#: ../../source/developer-docs/contrib_guide_code.rst:26
+msgid "How can I help?"
+msgstr ""
+
+# a37196b3fb6a4df1870786ea3235406a
+#: ../../source/developer-docs/contrib_guide_code.rst:28
+msgid ""
+"Individuals are welcome, and encouraged, to submit pull requests and "
+"contribute to the Jupyter source. If you are a first-time contributor "
+"looking to get involved with Jupyter, you can use the following query in "
+"a GitHub search to find beginner-friendly issues to tackle across the "
+"Jupyter codebase. This query is particularly useful because the Jupyter "
+"codebase is scattered across several repositories within the jupyter "
+"organization, as opposed to a single repository. You can click the link "
+"below to find sprint-friendly issues."
+msgstr ""
+
+# 1eee498a843146fab2ef3b1e9317a7b3
+#: ../../source/developer-docs/contrib_guide_code.rst:36
+msgid ""
+"`is:issue is:open is:sprint-friendly user:jupyter "
+"<https://github.com/search?q=is%3Aissue+is%3Aopen+is%3Asprint-"
+"friendly+user%3Ajupyter&type=Issues&ref=searchresults>`_"
+msgstr ""
+
+# e2e8942ce25f4d44a4dc7cc2e67730b5
+#: ../../source/developer-docs/contrib_guide_code.rst:39
+msgid ""
+"Once you've found an issue that you are eager to solve, you can use the "
+"guide below to get started. If you experience any problems while working "
+"on the issue, leave a comment on the issue page in GitHub and someone on "
+"the core team will be able to lend you assistance."
+msgstr ""
+
+# df6093a6a72247089f0024bcb798dcbc
+#: ../../source/developer-docs/contrib_guide_code.rst:44
+msgid ""
+"Please keep in mind that what follows are guidelines. If you work through"
+" the steps and have questions or run into time constraints, please submit"
+" what you already have worked on as a pull request and ask questions on "
+"it. Your effort, including partial or in-progress work, is appreciated."
+msgstr ""
+
+# b3e3eb75571744d1b15d0d7f1bec2c13
+#: ../../source/developer-docs/contrib_guide_code.rst:49
+msgid ""
+"Fork the repository associated with the issue you are addressing and "
+"clone it to a local directory on your machine."
+msgstr ""
+
+# d4a40f6de2d243dc8f4c188d4bccb987
+#: ../../source/developer-docs/contrib_guide_code.rst:52
+msgid ""
+"``cd`` into the directory and create a new branch using ``git checkout -b"
+" insert-branch-name-here``. Pick a branch name that gives some insight "
+"into what the issue you are fixing is. For example, if you are updating "
+"the text that is logged out by the program when a certain error happens "
+"you might name your branch `update-error-text`."
+msgstr ""
+
+# 022300380d634dca91632205f9c0c3b8
+#: ../../source/developer-docs/contrib_guide_code.rst:58
+msgid ""
+"Refer to the repository's README and documentation for details on "
+"configuring your system for development."
+msgstr ""
+
+# b294af0b7be547ae948f435194728ad6
+#: ../../source/developer-docs/contrib_guide_code.rst:61
+msgid ""
+"Identify the module or class where the code change you will make will "
+"reside and leave a comment in the file describing what issue you are "
+"trying to address."
+msgstr ""
+
+# 3da7f1d0ab7249f893554f57520c67e6
+#: ../../source/developer-docs/contrib_guide_code.rst:65
+msgid ""
+"Open a pull request to the repository with ``[WIP]`` appended to the "
+"front so that the core team is aware that you are actively pursuing the "
+"issue. When creating a pull request, make sure that the title clearly and"
+" concisely described what your code does. For example, we might use the "
+"title \"Updated error message on ExampleException\". In the body of the "
+"pull request, make sure that you include the phrase \"Closes #issue-"
+"number-here\", where the issue number is the issue number of the issue "
+"that you are addressing in this PR."
+msgstr ""
+
+# 8a1d4bda15d54f63b755268e0ee3f928
+#: ../../source/developer-docs/contrib_guide_code.rst:74
+msgid ""
+"Feel free to open a PR as early as possible. Getting early feedback on "
+"your approach will save you time and prevent the need for an extensive "
+"refactor later."
+msgstr ""
+
+# 933a91389b064d329ba443dc8b4aac48
+#: ../../source/developer-docs/contrib_guide_code.rst:78
+msgid ""
+"Run the test suite locally in order to ensure that everything is properly"
+" configured on your system. Refer to the repository's README for "
+"information on how to run the test suite. This will typically require "
+"that you run the ``nosetests`` command on the commandline. Alternatively,"
+" you may submit a pull request. Our Continuous Integration system will "
+"test your code and report test results."
+msgstr ""
+
+# 4940b5b766d34b728500b8ee01b00a2e
+#: ../../source/developer-docs/contrib_guide_code.rst:85
+msgid ""
+"Find the test file associated with the module that you will be changing. "
+"In the test file, add some tests that outline what you expect the "
+"behavior of the change should be. If we continue with our example of "
+"updating the text that is logged on error, we might write test cases that"
+" check to see if the exception raised when you induce the error contains "
+"the appropriate string. When writing test cases, make sure that you test "
+"for the following things."
+msgstr ""
+
+# 190f4f31714c4eebbb80f054ed3b9ede
+#: ../../source/developer-docs/contrib_guide_code.rst:93
+msgid "What is the simplest test case I can write for this issue?"
+msgstr ""
+
+# bf18ca96f21e40d0a07cfa24d3f83ebb
+#: ../../source/developer-docs/contrib_guide_code.rst:94
+msgid "What will happen if your code is given messy inputs?"
+msgstr ""
+
+# 5e238f0155c44fc198bbe03b5eb52072
+#: ../../source/developer-docs/contrib_guide_code.rst:95
+msgid "What will happen if your code is given no inputs?"
+msgstr ""
+
+# f642285810ad4b74996365fabf4a36bc
+#: ../../source/developer-docs/contrib_guide_code.rst:96
+msgid "What will happen if your code is given too few inputs?"
+msgstr ""
+
+# fc7c95470d5c47d1a1c642101f0f128a
+#: ../../source/developer-docs/contrib_guide_code.rst:97
+msgid "What will happen if your code is given too many inputs?"
+msgstr ""
+
+# 1512fa1ef2674eb7b4fd8e0cffb9ea34
+#: ../../source/developer-docs/contrib_guide_code.rst:99
+msgid ""
+"If you need assistance writing test cases, you can place a comment on the"
+" pull request that was opened earlier and one of the core team members "
+"will be able to help you."
+msgstr ""
+
+# 8ef9e5734a364dc2988978fbf5c1f717
+#: ../../source/developer-docs/contrib_guide_code.rst:103
+msgid ""
+"Go back to the file that you are updating and begin adding the code for "
+"your pull request."
+msgstr ""
+
+# 10fd03dbbce04657995fe36c868333db
+#: ../../source/developer-docs/contrib_guide_code.rst:106
+msgid ""
+"Run the test suite again to see if your changes have caused any of the "
+"test cases to pass. If any of the test cases have failed, go back to your"
+" code and make the updates necessary to have them pass."
+msgstr ""
+
+# c8d1e89343e246daa2cdc22cdeb2611d
+#: ../../source/developer-docs/contrib_guide_code.rst:110
+msgid ""
+"Once all of your test cases have passed, commit both the test cases and "
+"the updated module and push the updates to the branch on your forked "
+"repository."
+msgstr ""
+
+# 87111861fffe4a49a87827323e112ce7
+#: ../../source/developer-docs/contrib_guide_code.rst:113
+msgid ""
+"Once you are ready for your pull request to be reviewed, remove the [WIP]"
+" tag from the front of issue, a project reviewer will review your code "
+"for quality. You can expect the reviewer to check for the documentation "
+"provided in the changes you made, how thorough the test cases you "
+"provided are, and how efficient your code is. Your reviewer will provide "
+"feedback on your code and you will have the chance to edit your code and "
+"apply fixes."
+msgstr ""
+
+# 5f6e2c2d4cc74b1686fec2915006f366
+#: ../../source/developer-docs/contrib_guide_code.rst:120
+msgid ""
+"Once your PR is ready to become a part of the code base, it will be "
+"merged by a member of the core team."
+msgstr ""
+
+# 0b6fc432cbc7440aa4365d35fe0e7533
+#: ../../source/developer-docs/contrib_guide_code.rst:124
+msgid "Contribution Workflow"
+msgstr ""
+
+# 9869fb16c17e4a2dbe7e220f2099e7a4
+#: ../../source/developer-docs/contrib_guide_code.rst:130
+msgid "Core Developer Workflow"
+msgstr ""
+
+# d88b2538fa7c4b65a87600628a3190fa
+#: ../../source/developer-docs/contrib_guide_code.rst:132
+msgid ""
+"To help you understand our review process by core developers after you "
+"submit a pull request, here's a guide that outlines the general process "
+"(specifics may vary a bit across our repositories). Here is an example "
+"for Jupyter notebook 4.x:"
+msgstr ""
+
+# 6afb4060cab3492f8185187faada55b2
+#: ../../source/developer-docs/contrib_guide_code.rst:139
+msgid ""
+"In general, Pull Requests are against ``master`` unless they only affect "
+"a backport branch. If a PR affects master and should be backported, the "
+"general flow is:"
+msgstr ""
+
+# 3b5bfc37063a4062a301ee23411528c0
+#: ../../source/developer-docs/contrib_guide_code.rst:143
+msgid "mark the PR with milestone for the next backport release (4.3)"
+msgstr ""
+
+# c42e3f791f6d4cc38b4fb9ac0eec129a
+#: ../../source/developer-docs/contrib_guide_code.rst:144
+msgid "merge into master"
+msgstr ""
+
+# 018cd8318aef471484dc9184b43973c3
+#: ../../source/developer-docs/contrib_guide_code.rst:145
+msgid "backport to 4.x"
+msgstr ""
+
+# 7b28314df8154e5b8606b722f4d73856
+#: ../../source/developer-docs/contrib_guide_code.rst:146
+msgid "push updated 4.x branch"
+msgstr ""
+
+# 10d9ca0afcf8439aac13eba4c1f428db
+#: ../../source/developer-docs/contrib_guide_code.rst:148
+msgid ""
+"Backports can be done in a variety of ways, but we have `a script "
+"<https://github.com/ipython/ipython/blob/master/tools/backport_pr.py>`_ "
+"for automating the common process to:"
+msgstr ""
+
+# 370a6eafee694f6ca5d7753ca3ef1962
+#: ../../source/developer-docs/contrib_guide_code.rst:152
+msgid ""
+"download the patch ` e.g. <https://patch-"
+"diff.githubusercontent.com/raw/jupyter/notebook/pull/1645.patch>`"
+msgstr ""
+
+# 1964c880516c43f99cbf34dadca2bdf1
+#: ../../source/developer-docs/contrib_guide_code.rst:153
+msgid "checkout the 4.x branch"
+msgstr ""
+
+# 70cb7a619981417393a3e1be5e661492
+#: ../../source/developer-docs/contrib_guide_code.rst:154
+msgid "apply the patch"
+msgstr ""
+
+# 1d6c472ef4e34a87ba54dd61299b1607
+#: ../../source/developer-docs/contrib_guide_code.rst:155
+msgid "make a commit"
+msgstr ""
+
+# bcc8acbb2663447fb1abece94d18a145
+#: ../../source/developer-docs/contrib_guide_code.rst:157
+msgid "which works for simple cases, at least."
+msgstr ""
+
+# 481646fca06049c39c7ccc2c7dfb000d
+#: ../../source/developer-docs/contrib_guide_code.rst:159
+msgid "In this case, it would be:"
+msgstr ""
+
+# 871218e69ea840f6a710fffda0f59255
+#: ../../source/developer-docs/contrib_guide_code.rst:161
+msgid ""
+"python /path/to/ipython-repo/tools/backport_pr.py jupyter/notebook 4.x "
+"1645"
+msgstr ""
+
+# 59008b88919d4084b6e7278a762249be
+#: ../../source/developer-docs/contrib_guide_vuln.rst:3
+msgid "Reporting a Vulnerability"
+msgstr ""
+
+# a848ceabd5bb48f9ba9cd7741ffe2733
+#: ../../source/developer-docs/contrib_guide_vuln.rst:5
+msgid ""
+"If you believe you've found a security vulnerability in a Jupyter "
+"project, please report it to "
+"[security@ipython.org](mailto:security@ipython.org). If you prefer to "
+"encrypt your security reports, you can use [this PGP public key](https"
+"://jupyter-"
+"notebook.readthedocs.io/en/stable/_downloads/ipython_security.asc)."
+msgstr ""
+
+# c52d228e243243108261b278ecd95e9b
+#: ../../source/developer-docs/index.rst:7
+msgid "**Contents**"
+msgstr ""
+
+# 1dc0b8ea396a43d29a89a7917b0c918c
+#: ../../source/developer-docs/index.rst:20
+msgid ""
+"Whether you are a new contributor or a seasoned developer, we're pleased "
+"that you are working on Jupyter. We hope you find the Developer Guide is "
+"useful. Please suggest changes or ask questions about the contents. "
+"Thanks!"
+msgstr ""
+
+# ab19140a7ecf4481a9c8de4115df0760
+#: ../../source/developer-docs/index.rst:24
+msgid ""
+"If you are interested in installing a specific project from source, each "
+"project has documentation on ReadTheDocs. For example, IPython "
+"documentation can be found on `ReadTheDocs "
+"<https://ipython.readthedocs.io/en/latest/install/install.html"
+"#installation-from-source>`_. Most of our packages can be installed from "
+"the source directory like any other Python package, by running:"
+msgstr ""
+
+# 9219dc1779c14cdc86b8897e89749812
+#: ../../source/developer-docs/index.rst:34
+msgid ""
+"The Jupyter notebook needs some extra pieces to build Javascript "
+"components; the information about that is in the `notebook contributor "
+"documentation <http://jupyter-"
+"notebook.readthedocs.io/en/latest/contributing.html#setting-up-a"
+"-development-environment>`_."
+msgstr ""
+
+# ba9cdf4e3c534e8aaf851f3dda9197fa
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:2
+msgid "Jupyter Enhancement Proposals"
+msgstr ""
+
+# ca6fb9c7ab5a4fa886eeafec23b5e9d7
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:5
+msgid "Submitting an Enhancement Proposal"
+msgstr ""
+
+# 7b963188c0664d0eb0db00c494527254
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:6
+msgid ""
+"While using the Notebook, you might discover opportunities for growth and"
+" ideas for useful new features. If so, feel free to submit an enhancement"
+" proposal. The process for submitting enhancements is as follows:"
+msgstr ""
+
+# 00dbb9daf8e847ae9582179a7c574667
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:10
+msgid ""
+"Identify the scope of the enhancement. Is it a change that affects only "
+"on part of the codebase? Is the enhancement, to the best of your "
+"knowledge, fairly trivial to implement? If the scope of the enhancement "
+"is small, it should be be submitted as an issue in the project's "
+"repository. If the scope of your enhancement is large, it should be "
+"submitted to the official `Jupyter Enhancement Proposals repository "
+"<https://GitHub.com/jupyter/enhancement-proposals>`_."
+msgstr ""
+
+# ce6afac33e824a67b47c41ac989e42fe
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:17
+msgid ""
+"Prepare a brief write-up of the problem that your enhancement will "
+"address."
+msgstr ""
+
+# b3c8157c7deb456cbfc628b50b9cb3e5
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:19
+msgid "Prepare a brief write-up of the proposed enhancement itself."
+msgstr ""
+
+# a3742f392e7d48269a6eb5ad6b3b29db
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:21
+msgid ""
+"If the scope of your enhancement (as defined in step 1) is large, then "
+"prepare a detailed write-up of how your enhancement can be potentially "
+"implemented."
+msgstr ""
+
+# 8b68a4fe91c741fa8ca70adea65993b3
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:24
+msgid ""
+"Identify a brief list of the pros and cons associated with implementing "
+"the enhancement that you propose."
+msgstr ""
+
+# 05d6c080c5694b76b055702502bba802
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:27
+msgid ""
+"Identify the individuals who might be interested in implementing the "
+"enhancement."
+msgstr ""
+
+# c2300fb3ceac4a66a45558b7967a8b69
+#: ../../source/developer-docs/jupyter_enhancement_proposals.rst:29
+msgid ""
+"Depending on the scope of your enhancement, submit it either as an issue "
+"to the appropriate repository or as a Jupyter Enhancement Proposal."
+msgstr ""
+
+# 5229bf41eae2469e935b184e97efb92f
+#: ../../source/developer-docs/releasing.rst:5
+msgid "Basic template for releasing a Jupyter project"
+msgstr ""
+
+# cd861154d1f84d8ea5d16b605e863348
+#: ../../source/developer-docs/releasing.rst:7
+msgid ""
+"Jupyter consists of a bunch of small projects, and a few larger ones. "
+"This lays out the basic process of releasing a smaller project, which "
+"should also apply to larger projects, though they may have some added "
+"steps."
+msgstr ""
+
+# ee207b96ee4e491eb606356ff7070dfa
+#: ../../source/developer-docs/releasing.rst:14
+msgid "Milestones"
+msgstr ""
+
+# 2a00176ea8fb4fe794664c05e57dd8b5
+#: ../../source/developer-docs/releasing.rst:16
+msgid ""
+"Most Jupyter projects use a GitHub milestone system for marking issues "
+"and pull requests in releases. Each release should have a milestone "
+"associated with it. The first step in preparing for a release is to make "
+"sure that every issue and pull request has the right milestone."
+msgstr ""
+
+# 0c7eec680ceb4af9a72f8dab62c26656
+#: ../../source/developer-docs/releasing.rst:20
+msgid ""
+"Go through any **open** Issues and Pull Requests marked with the current "
+"milestone. If there are any, they need to be resolved or bumped to the "
+"next milestone. It's fine to bump issues - they are typically marked with"
+" the earliest feasible milestone, but many such optimistically marked "
+"tasks aren't complete when it's time to release. There's always next "
+"time!"
+msgstr ""
+
+# bb130aa7931f4847b76a34059a9c9d35
+#: ../../source/developer-docs/releasing.rst:25
+msgid ""
+"Check **closed** Issues and Pull Requests, using the milestone filter "
+"\"Issues with no milestone\". There should never be any closed issues or "
+"pull requests without a milestone. If you find any, go through and mark "
+"them with the current milestone or \"no action\" as appropriate."
+msgstr ""
+
+# 405918c188824db7a4ae6128c0016fb5
+#: ../../source/developer-docs/releasing.rst:31
+msgid ""
+"A release may be ready to go when it has zero open issues or pull "
+"requests."
+msgstr ""
+
+# 1e581bc70c1245fa87d458bb6cf9da6f
+#: ../../source/developer-docs/releasing.rst:35
+msgid "Release notes"
+msgstr ""
+
+# cee9ab2013764c5384b4744a1b53fc93
+#: ../../source/developer-docs/releasing.rst:37
+msgid ""
+"Once all of the issues and pull requests are dealt with, it's time to "
+"make release notes. The smaller projects generally have a "
+":file:`changelog.rst` in the docs directory, where you can add a section "
+"for the new release. Look through the pull requests merged for the "
+"current milestone (this is why we use milestones), and write a short "
+"summary of the highlights of the changes in this release. There should "
+"generally be a link to the milestone itself for more details."
+msgstr ""
+
+# 089a6812113341949f101391390ff914
+#: ../../source/developer-docs/releasing.rst:45
+msgid ""
+"Make a pull requests with these notes. It's a good idea to cc @willingc "
+"for review of this PR. Make sure to mark this PR with your release's "
+"milestone!"
+msgstr ""
+
+# cc10475d5ef64e6ba38860fd5de6746d
+#: ../../source/developer-docs/releasing.rst:51
+msgid "Making the release"
+msgstr ""
+
+# df383c7a5c5945838338679952e39cb2
+#: ../../source/developer-docs/releasing.rst:53
+msgid ""
+"Now that your changelog is merged, we can actually build and publish the "
+"release. We'll assume that ``V`` has been declared as a shell variable "
+"containing the release version::"
+msgstr ""
+
+# c3f810a58bec4ab593bd3cb5780a7800
+#: ../../source/developer-docs/releasing.rst:58
+msgid ""
+"Start by making sure you have a clean checkout of master, with no extra "
+"files::"
+msgstr ""
+
+# dfa0fb808869495cb344491a84a9bb95
+#: ../../source/developer-docs/releasing.rst:63
+msgid ""
+"First, update the version of the package, often in the file "
+":file:`<pkg>/_version.py` or similar."
+msgstr ""
+
+# 4bcd13891eac4bb0ba91bbebcf098767
+#: ../../source/developer-docs/releasing.rst:65
+msgid "Commit that change::"
+msgstr ""
+
+# 34263cae40c2473d9fba3a813758b95f
+#: ../../source/developer-docs/releasing.rst:71
+msgid ""
+"At this point, I like to run the tests just to be sure that setting the "
+"version didn't confuse anything."
+msgstr ""
+
+# 5a5e318fddd94e67a6ff324546cf6ea8
+#: ../../source/developer-docs/releasing.rst:74
+msgid "Build the distributions::"
+msgstr ""
+
+# f6f03aad7bdd4be79c7cb7d1d4fd0898
+#: ../../source/developer-docs/releasing.rst:79
+msgid "Tag the commit::"
+msgstr ""
+
+# 83952c3b04f449d8a88e05fdb304dd29
+#: ../../source/developer-docs/releasing.rst:83
+msgid ""
+"And finally, publish everything, to github and PyPI using `twine "
+"<https://github.com/pypa/twine>`_::"
+msgstr ""
+
+# 6aae441e50b747efa6796a94f1d11211
+#: ../../source/developer-docs/releasing.rst:89
+msgid ""
+"We have a release! You can now bump the version to the next '.dev' "
+"version, by editing :file:`<pkg>/_version.py` (or similar) again, and "
+"commit::"
+msgstr ""
+
+# c3cde896bc9041b49e4f3305ec5d2128
+#: ../../source/developer-docs/releasing.rst:97
+msgid ""
+"The pushes assume that `origin` points to the main jupyter/ipython repo. "
+"Depending how you use git, this could be `upstream` or something else."
+msgstr ""
+

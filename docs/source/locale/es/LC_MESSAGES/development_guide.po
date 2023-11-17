@@ -1,0 +1,3932 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 20:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 68594f7b5d5243178cc934fef0ff52ac
+#: ../../source/development_guide/boot2docker.rst:4
+msgid "Setup IPython development environment using boot2docker"
+msgstr ""
+
+# c58a4d9ce362416aa2daee3df0414ffb
+# e672e2de6d6449a29cc141b4ade2eeda
+# da64540a97524eae993335e681c87efe
+# df673bb406394df09796f62b181bc76c
+# c6ccec59d6b24b65b672d2b16e0cfbf3
+# a3791289050546b592649661277f5df9
+# c7c0ad0e79bb413b8d7956188294533b
+# 98a81ea5075b4ea7b5565d6bc0b86a03
+# 8443422c6ee045edbcd483ce2c654348
+# 0a17cb2a8248427c9980b12767b26bf5
+# 53507b55bf0d4779879707534702049f
+# e7da595236724a8c9c3f228d663e0a98
+# fcc87c9518d44372986a025fb70993b6
+# 914169504e1f479db9966697a9c327b4
+# abe35ed53e9544aaba2a10892e50c995
+# 75aa173cd6e349c38f5c305f6c1e8cf6
+#: ../../source/development_guide/boot2docker.rst:7
+#: ../../source/development_guide/closing_prs.rst:7
+#: ../../source/development_guide/coding_style.rst:7
+#: ../../source/development_guide/documenting_ipython.rst:7
+#: ../../source/development_guide/github_workflow.rst:7
+#: ../../source/development_guide/index.rst:7
+#: ../../source/development_guide/js_events.rst:7
+#: ../../source/development_guide/lab_meetings.rst:7
+#: ../../source/development_guide/less.rst:7
+#: ../../source/development_guide/pull_request.rst:7
+#: ../../source/development_guide/py3compat.rst:7
+#: ../../source/development_guide/releasing.rst:7
+#: ../../source/development_guide/rest_api.rst:7
+#: ../../source/development_guide/sphinx_directive.rst:7
+#: ../../source/development_guide/testing.rst:7
+#: ../../source/development_guide/testing_kernels.rst:7
+msgid ""
+"This is copied verbatim from the old IPython wiki and is currently under "
+"development. Much of the information in this part of the development "
+"guide is out of date."
+msgstr ""
+
+# 838ebaf9ef564b538433da5fc636f7f1
+#: ../../source/development_guide/boot2docker.rst:9
+msgid ""
+"The following are instructions on how to get an IPython development "
+"environment up and running without having to install anything on your "
+"host machine, other than ```boot2docker`` "
+"<https://github.com/boot2docker/boot2docker>`__ and ```docker`` "
+"<https://www.docker.com/>`__."
+msgstr ""
+
+# b68287e01b4e44feaa6874beb4f48e33
+#: ../../source/development_guide/boot2docker.rst:16
+msgid "Install ``boot2docker``"
+msgstr ""
+
+# 87465fdbf40840caa1d714143f237347
+#: ../../source/development_guide/boot2docker.rst:18
+msgid ""
+"Install `boot2docker <https://github.com/boot2docker/boot2docker>`__. "
+"There are multiple ways to install, depending on your environment. See "
+"the `boot2docker docs <https://github.com/boot2docker/boot2docker>`__."
+msgstr ""
+
+# 4b5576467cd04ab4addfaf7f2dbc9c8c
+#: ../../source/development_guide/boot2docker.rst:24
+msgid "Mac OS X"
+msgstr ""
+
+# c22634b884c6483ebe67c40611bc9805
+#: ../../source/development_guide/boot2docker.rst:26
+msgid "On a Mac OS X host with `Homebrew <http://brew.sh>`__ installed:"
+msgstr ""
+
+# db5a7fb63dbe455083f8e8e2caed7435
+#: ../../source/development_guide/boot2docker.rst:33
+msgid "Initialize ``boot2docker`` VM"
+msgstr ""
+
+# 54c6a6b598ac43b6aee4cd42e11a47b6
+#: ../../source/development_guide/boot2docker.rst:40
+msgid "Start VM"
+msgstr ""
+
+# 0f0d8f53a4ef40b590afdf1f1dcd8902
+#: ../../source/development_guide/boot2docker.rst:46
+msgid ""
+"The ``boot2docker`` CLI communicates with the docker daemon on the "
+"``boot2docker`` VM. To do this, we must set some environment variables, "
+"e.g. ``DOCKER_HOST``,"
+msgstr ""
+
+# cc1d31d1c4a247378bfcaaad4453050f
+#: ../../source/development_guide/boot2docker.rst:54
+msgid "To view the IP address of the VM:"
+msgstr ""
+
+# 3644c712c8d042deb536906e299d7302
+#: ../../source/development_guide/boot2docker.rst:62
+msgid "Install ``ipython`` from Development Branch"
+msgstr ""
+
+# fb26c1a1c9e64219a9569a2f09491a7c
+#: ../../source/development_guide/boot2docker.rst:69
+msgid "Build Docker Image"
+msgstr ""
+
+# 3186d34726d84139b077dd88cfcfb94a
+#: ../../source/development_guide/boot2docker.rst:71
+msgid ""
+"Use the Dockerfile in the cloned ``ipython`` directory to build a Docker "
+"image."
+msgstr ""
+
+# 07c715242d6d4a7fbf8b07eb27d00c5d
+#: ../../source/development_guide/boot2docker.rst:80
+msgid "Run Docker Container"
+msgstr ""
+
+# 1e5ff76a0da84a9d94587ef29a5ff8d4
+#: ../../source/development_guide/boot2docker.rst:82
+msgid ""
+"Run a container using the new image. We mount the entire ``ipython`` "
+"source tree on the host into the container at ``/srv/ipython`` to enable "
+"changes we make to the source on the host immediately reflected in the "
+"container."
+msgstr ""
+
+# 7169e25c6baf40b8889c6a22f710203e
+#: ../../source/development_guide/boot2docker.rst:93
+msgid "To list the running container from another shell on the host:"
+msgstr ""
+
+# 03945f9ceca44f629ddca27e5a97b97e
+#: ../../source/development_guide/boot2docker.rst:103
+msgid "Install IPython in Editable Mode"
+msgstr ""
+
+# 5a1104a612284812a3ae1bbe1c90fea6
+#: ../../source/development_guide/boot2docker.rst:105
+msgid ""
+"Once in the container, you'll need to uninstall the ``ipython`` package "
+"and re-install in editable mode to enable your dev changes to be "
+"reflected in your environment."
+msgstr ""
+
+# 5ff35ef88252440b9f9b3eb342580672
+#: ../../source/development_guide/boot2docker.rst:120
+msgid "Run Notebook Server"
+msgstr ""
+
+# 4e74c9cf2d184935a6c3a2b096d959b5
+#: ../../source/development_guide/boot2docker.rst:127
+msgid "Visit Notebook Server"
+msgstr ""
+
+# 1c7053580c414a5288a396b9ed7805f8
+#: ../../source/development_guide/boot2docker.rst:129
+msgid ""
+"On your host, run the following command to get the IP of the boot2docker "
+"VM if you forgot:"
+msgstr ""
+
+# 23da7928850040239ef807b7959c0cd9
+#: ../../source/development_guide/boot2docker.rst:138
+msgid "Then visit it in your browser:"
+msgstr ""
+
+# cef8292d861940009dfe37218ea8e00b
+#: ../../source/development_guide/boot2docker.rst:145
+msgid ""
+"As a shortcut on a Mac, you can run the following in a terminal window "
+"(or make it a bash alias):"
+msgstr ""
+
+# dbb1b7b037264b6aa1392abd9a3cc4e8
+#: ../../source/development_guide/closing_prs.rst:4
+msgid "Policy on Closing Pull Requests"
+msgstr ""
+
+# 4457e1e8c0744af2998ef6c8fda5393a
+#: ../../source/development_guide/closing_prs.rst:9
+msgid ""
+"IPython has the following policy on closing pull requests. The goal of "
+"this policy is to keep our pull request queue small and allow us to focus"
+" on code that is being actively developed and has a strong chance of "
+"being merged in master soon."
+msgstr ""
+
+# 6d8ef2f40c884f8485f2555032c90e65
+#: ../../source/development_guide/closing_prs.rst:14
+msgid "A pull request will be closed when:"
+msgstr ""
+
+# 5296d8b1e26d4920b014f007532f13c1
+#: ../../source/development_guide/closing_prs.rst:16
+msgid ""
+"It has been reviewed, but has sat for a month or more waiting for the "
+"submitter to commit more code to address the comments."
+msgstr ""
+
+# 1b189f41fadd4727b9518d4a36cea12e
+#: ../../source/development_guide/closing_prs.rst:18
+msgid ""
+"The review process has uncovered larger design or technical issues that "
+"extend beyond the details of the specific pull request."
+msgstr ""
+
+# 33f62e8f6d374379becff41a3411cfc3
+#: ../../source/development_guide/closing_prs.rst:21
+msgid ""
+"In particular, we do not accept whole large \"cleanup\" changes which do "
+"not address any specific bug. This includes trailing whitespace, PEP8, "
+"etc. One of the reasons is that such massive cleanup provide plenty of "
+"opportunities to introduce new and subtle bugs."
+msgstr ""
+
+# ff27543439ef4ff797a196a8a4e5aed6
+#: ../../source/development_guide/closing_prs.rst:27
+msgid ""
+"In general we will not close pull requests because of a lack of review. "
+"If a pull request has sat for a month or more without review, we need to "
+"kick ourselves and get to reviewing it."
+msgstr ""
+
+# 836a8c8dc6d44c04a337d673fb6fbff0
+#: ../../source/development_guide/closing_prs.rst:31
+msgid "When a pull request is closed we will do the following:"
+msgstr ""
+
+# 266b795ae71e43cc87cddb8286e40a03
+#: ../../source/development_guide/closing_prs.rst:33
+msgid ""
+"Post a github message to the pull request to confirm that everyone is "
+"fine with closing the pull request. This message should cite this policy."
+msgstr ""
+
+# 16ba3fb52f27430f90d7f61930398bb1
+#: ../../source/development_guide/closing_prs.rst:36
+msgid ""
+"Open an issue to track the pull request. This issue should describe what "
+"would be needed in order to reopen the pull request."
+msgstr ""
+
+# 0f58a1256caa4b7192796a5736a382fa
+#: ../../source/development_guide/closing_prs.rst:38
+msgid ""
+"Post a github message to the pull request encouraging the submitter to "
+"continue with the work and detail what issues need to be addressed in "
+"order for the pull request to be reopened."
+msgstr ""
+
+# e69ccb3b0acf4fd084506753d3c24d19
+#: ../../source/development_guide/closing_prs.rst:42
+msgid "This policy was discussed in the following thread:"
+msgstr ""
+
+# 1f3432526f934316b5cc8c24c79373d0
+#: ../../source/development_guide/closing_prs.rst:44
+msgid "https://mail.scipy.org/pipermail/ipython-dev/2012-August/010025.html"
+msgstr ""
+
+# ed7cad128706471b952c27bef1853163
+#: ../../source/development_guide/closing_prs.rst:47
+msgid "Example Message:"
+msgstr ""
+
+# 2ed6aa93ae254842abf6ac9840dcad6b
+#: ../../source/development_guide/coding_style.rst:4
+msgid "Coding Style"
+msgstr ""
+
+# 9dc8aa2c74864d179a5660cf9b835565
+#: ../../source/development_guide/coding_style.rst:9
+msgid ""
+"This document describes our coding style. Coding style refers to the "
+"following:"
+msgstr ""
+
+# 3b823c54355c4add8d1a262896faff88
+#: ../../source/development_guide/coding_style.rst:12
+msgid "How source code is formatted (indentation, spacing, etc.)"
+msgstr ""
+
+# 57c4f53e269a4abc99fb2f32b3c45fbe
+#: ../../source/development_guide/coding_style.rst:13
+msgid "How things are named (variables, functions, classes, modules, etc.)"
+msgstr ""
+
+# c110cd13183f48c3ba04055dc0fe3cd1
+#: ../../source/development_guide/coding_style.rst:16
+msgid "General coding conventions"
+msgstr ""
+
+# 919ed475296f42af850c26db1f5cf22d
+#: ../../source/development_guide/coding_style.rst:18
+msgid ""
+"In general, we follow the standard Python style conventions as described "
+"in Python's `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`__, the "
+"official Python Style Guide."
+msgstr ""
+
+# af906044ad2e45d59473fa93957caf11
+#: ../../source/development_guide/coding_style.rst:22
+msgid "Other general comments:"
+msgstr ""
+
+# a67babfcd44d4b78b92ae38338f1ae72
+#: ../../source/development_guide/coding_style.rst:24
+msgid ""
+"In a large file, top level classes and functions should be separated by 2"
+" lines to make it easier to separate them visually."
+msgstr ""
+
+# 93eb729f53834df789c27c571a413cf3
+#: ../../source/development_guide/coding_style.rst:27
+msgid "Use 4 spaces for indentation, **never** use hard tabs."
+msgstr ""
+
+# 7f266e5248eb4e03b2e6172a78a8192f
+#: ../../source/development_guide/coding_style.rst:29
+msgid ""
+"Keep the ordering of methods the same in classes that have the same "
+"methods. This is particularly true for classes that implement similar "
+"interfaces and for interfaces that are similar."
+msgstr ""
+
+# f0f19b61545e4b3494e24b82a6428eb8
+#: ../../source/development_guide/coding_style.rst:34
+msgid "Naming conventions"
+msgstr ""
+
+# 627a72694cf142f29149585571fe0f00
+#: ../../source/development_guide/coding_style.rst:36
+msgid ""
+"For naming conventions, we also follow the guidelines of `PEP 8 "
+"<https://www.python.org/dev/peps/pep-0008/>`__. Some of the existing code"
+" doesn't honor this perfectly, but for all new and refactored IPython "
+"code, we'll use:"
+msgstr ""
+
+# 01c1d05be01b4ebaa2925993cda05b5e
+#: ../../source/development_guide/coding_style.rst:41
+msgid ""
+"All ``lowercase`` module names. Long module names can have words "
+"separated by underscores (``really_long_module_name.py``), but this is "
+"not required. Try to use the convention of nearby files."
+msgstr ""
+
+# 735af590e2894b84a25c4e014f5668ac
+#: ../../source/development_guide/coding_style.rst:45
+msgid "``CamelCase`` for class names."
+msgstr ""
+
+# 79ba0d92752b4a81a3edd927e5bb04bb
+#: ../../source/development_guide/coding_style.rst:47
+msgid ""
+"``lowercase_with_underscores`` for methods, functions, variables and "
+"attributes."
+msgstr ""
+
+# 8bef511e37924748b1d2e276dbe87e14
+#: ../../source/development_guide/coding_style.rst:50
+msgid ""
+"Implementation-specific *private* methods will use "
+"``_single_underscore_prefix``. Names with a leading double underscore "
+"will *only* be used in special cases, as they makes subclassing difficult"
+" (such names are not easily seen by child classes)."
+msgstr ""
+
+# 91bbe7cbf0a94cfbbbd298eaa6a826eb
+#: ../../source/development_guide/coding_style.rst:55
+msgid ""
+"Occasionally some run-in lowercase names are used, but mostly for very "
+"short names or where we are implementing methods very similar to existing"
+" ones in a base class (like ``runlines()`` where ``runsource()`` and "
+"``runcode()`` had established precedent)."
+msgstr ""
+
+# 7c362e1e2fa444b49046b01386e4deb0
+#: ../../source/development_guide/coding_style.rst:60
+msgid ""
+"The old IPython codebase has a big mix of classes and modules prefixed "
+"with an explicit ``IP`` of ``ip``. This is not necessary and all new code"
+" should not use this prefix. The only case where this approach is "
+"justified is for classes or functions which are expected to be imported "
+"into external namespaces and a very generic name (like Shell) that is "
+"likely to clash with something else. However, if a prefix seems "
+"absolutely necessary the more specific ``IPY`` or ``ipy`` are preferred."
+msgstr ""
+
+# 726f417c6f4f4bd7848b5a4fb6335b48
+#: ../../source/development_guide/coding_style.rst:69
+msgid "All JavaScript code should follow these naming conventions as well."
+msgstr ""
+
+# 45e0d17e22f64edf9c68181820b2598c
+#: ../../source/development_guide/coding_style.rst:72
+msgid "Attribute declarations for objects"
+msgstr ""
+
+# beddc03b335a4e8fb4cd44d441db527b
+#: ../../source/development_guide/coding_style.rst:74
+msgid ""
+"In general, objects should declare, in their *class*, all attributes the "
+"object is meant to hold throughout its life. While Python allows you to "
+"add an attribute to an instance at any point in time, this makes the code"
+" harder to read and requires methods to constantly use checks with "
+"hasattr() or try/except calls. By declaring all attributes of the object "
+"in the class header, there is a single place one can refer to for "
+"understanding the object's data interface, where comments can explain the"
+" role of each variable and when possible, sensible deafaults can be "
+"assigned."
+msgstr ""
+
+# 37f87ca28453415582149435e73f1912
+#: ../../source/development_guide/coding_style.rst:84
+msgid ""
+"If an attribute is meant to contain a mutable object, it should be set to"
+" ``None`` in the class and its mutable value should be set in the "
+"object's constructor. Since class attributes are shared by all instances,"
+" failure to do this can lead to difficult to track bugs. But you should "
+"still set it in the class declaration so the interface specification is "
+"complete and documented in one place."
+msgstr ""
+
+# 608ec84f1ee642bb993c493b2b6c2e9e
+#: ../../source/development_guide/coding_style.rst:91
+msgid "A simple example:"
+msgstr ""
+
+# 5c20ddda84a14bce9bf606623cc93d5c
+#: ../../source/development_guide/coding_style.rst:108
+msgid "New files"
+msgstr ""
+
+# 1cb302a31307483e8d7cbbf0b518efef
+#: ../../source/development_guide/coding_style.rst:110
+msgid ""
+"When starting a new Python file for IPython, you can use the `following "
+"template <./template.py>`__ as a starting point that has a few common "
+"things pre-written for you."
+msgstr ""
+
+# 8dca628763ce406499eb008ec3428735
+#: ../../source/development_guide/documenting_ipython.rst:4
+msgid "Documenting IPython"
+msgstr ""
+
+# 84d33dde8447417eb9e358383a11690f
+#: ../../source/development_guide/documenting_ipython.rst:9
+msgid ""
+"When contributing code to IPython, you should strive for clarity and "
+"consistency, without falling prey to a style straitjacket. Basically, "
+"'document everything, try to be consistent, do what makes sense.'"
+msgstr ""
+
+# 7196603c3de542cea955a86758144197
+#: ../../source/development_guide/documenting_ipython.rst:13
+msgid ""
+"By and large we follow existing Python practices in major projects like "
+"Python itself or NumPy, this document provides some additional detail for"
+" IPython."
+msgstr ""
+
+# 219d53313b744213b12d81b83e8df5e1
+#: ../../source/development_guide/documenting_ipython.rst:18
+msgid "Standalone documentation"
+msgstr ""
+
+# 18573d3352f3414eac2f83f8e1e871b7
+#: ../../source/development_guide/documenting_ipython.rst:20
+msgid ""
+"All standalone documentation should be written in plain text (``.txt``) "
+"files using reStructuredText [reStructuredText]\\_ for markup and "
+"formatting. All such documentation should be placed in the directory "
+"docs/source of the IPython source tree. Or, when appropriate, a suitably "
+"named subdirectory should be used. The documentation in this location "
+"will serve as the main source for IPython documentation."
+msgstr ""
+
+# 5cd39db2efda4df4b349d060d6aa6fed
+#: ../../source/development_guide/documenting_ipython.rst:27
+msgid ""
+"The actual HTML and PDF docs are built using the Sphinx [Sphinx]\\_ "
+"documentation generation tool. Once you have Sphinx installed, you can "
+"build the html docs yourself by doing:"
+msgstr ""
+
+# e998f0d0a6c04b7b8c56c83b9a9f331d
+#: ../../source/development_guide/documenting_ipython.rst:36
+msgid ""
+"Our usage of Sphinx follows that of matplotlib [Matplotlib]\\_ closely. "
+"We are using a number of Sphinx tools and extensions written by the "
+"matplotlib team and will mostly follow their conventions, which are "
+"nicely spelled out in their documentation guide [MatplotlibDocGuide]\\_. "
+"What follows is thus a abridged version of the matplotlib documentation "
+"guide, taken with permission from the matplotlib team."
+msgstr ""
+
+# 8e666fd21967441ea266b6c67f7d3525
+#: ../../source/development_guide/documenting_ipython.rst:43
+msgid ""
+"If you are reading this in a web browser, you can click on the \"Show "
+"Source\" link to see the original reStricturedText for the following "
+"examples."
+msgstr ""
+
+# cc20bf2f388f4367b6ba15ad83d829a0
+#: ../../source/development_guide/documenting_ipython.rst:47
+msgid "A bit of Python code:"
+msgstr ""
+
+# 264cf7c13ba249b89ef7c49f385d7e84
+#: ../../source/development_guide/documenting_ipython.rst:55
+msgid "An interactive Python session:"
+msgstr ""
+
+# 786a003a590a47deb799b41de76c206d
+#: ../../source/development_guide/documenting_ipython.rst:63
+msgid "An IPython session:"
+msgstr ""
+
+# 6b24f490d8474cb2b37153c2af7ce628
+#: ../../source/development_guide/documenting_ipython.rst:75
+msgid "A bit of shell code:"
+msgstr ""
+
+# db00e5ea736140fb9f337702c96a4a8b
+#: ../../source/development_guide/documenting_ipython.rst:84
+msgid "Docstring format"
+msgstr ""
+
+# 4c0a416dddfd49c3a4dd057290418e1a
+#: ../../source/development_guide/documenting_ipython.rst:86
+msgid ""
+"Good docstrings are very important. Unfortunately, Python itself only "
+"provides a rather loose standard for docstrings [PEP257]\\_, and there is"
+" no universally accepted convention for all the different parts of a "
+"complete docstring. However, the NumPy project has established a very "
+"reasonable standard, and has developed some tools to support the smooth "
+"inclusion of such docstrings in Sphinx-generated manuals. Rather than "
+"inventing yet another pseudo-standard, IPython will be henceforth "
+"documented using the NumPy conventions; we carry copies of some of the "
+"NumPy support tools to remain self-contained, but share back upstream "
+"with NumPy any improvements or fixes we may make to the tools."
+msgstr ""
+
+# 55afdecbcdcf4655a4a1524d6a7dd4e8
+#: ../../source/development_guide/documenting_ipython.rst:97
+msgid ""
+"The NumPy documentation guidelines [NumPyDocGuide]\\_ contain detailed "
+"information on this standard, and for a quick overview, the NumPy example"
+" docstring [NumPyExampleDocstring]\\_ is a useful read."
+msgstr ""
+
+# 8b42aebb3a444d4d9b728e9ad4ddd161
+#: ../../source/development_guide/documenting_ipython.rst:101
+msgid ""
+"For user-facing APIs, we try to be fairly strict about following the "
+"above standards (even though they mean more verbose and detailed "
+"docstrings). Wherever you can reasonably expect people to do "
+"introspection with:"
+msgstr ""
+
+# eeec98ec0a6b460f840a0694f95d90ab
+#: ../../source/development_guide/documenting_ipython.rst:110
+msgid "the docstring should follow the NumPy style and be fairly detailed."
+msgstr ""
+
+# ff6b3e20f5bf45a791cbe212c899964c
+#: ../../source/development_guide/documenting_ipython.rst:112
+msgid ""
+"For purely internal methods that are only likely to be read by others "
+"extending IPython itself we are a bit more relaxed, especially for "
+"small/short methods and functions whose intent is reasonably obvious. We "
+"still expect docstrings to be written, but they can be simpler. For very "
+"short functions with a single-line docstring you can use something like:"
+msgstr ""
+
+# 356a512b00f64482a03af0ccb7086cf0
+#: ../../source/development_guide/documenting_ipython.rst:125
+msgid "and for longer multiline strings:"
+msgstr ""
+
+# 317dcb97e87a48df8a65ea5a29ce8171
+#: ../../source/development_guide/documenting_ipython.rst:136
+msgid ""
+"Here are two additional PEPs of interest regarding documentation of code."
+" While both of these were rejected, the ideas therein form much of the "
+"basis of docutils (the machinery to process reStructuredText):"
+msgstr ""
+
+# 3c9e0437ad854754bfefb01141704884
+#: ../../source/development_guide/documenting_ipython.rst:140
+msgid ""
+"`Docstring Processing System Framework "
+"<https://www.python.org/dev/peps/pep-0256/>`__"
+msgstr ""
+
+# 5693f929f2b34d5a8f7e870041bd26e3
+#: ../../source/development_guide/documenting_ipython.rst:142
+msgid ""
+"`Docutils Design Specification "
+"<https://www.python.org/dev/peps/pep-0258/>`__"
+msgstr ""
+
+# a429c37f728d49268eb32174328bbecc
+#: ../../source/development_guide/documenting_ipython.rst:145
+msgid "**note**"
+msgstr ""
+
+# 0115bc4e0feb41acb766d6359b30a749
+#: ../../source/development_guide/documenting_ipython.rst:147
+msgid ""
+"In the past IPython used epydoc so currently many docstrings still use "
+"epydoc conventions. We will update them as we go, but all new code should"
+" be documented using the NumPy standard."
+msgstr ""
+
+# 0a62190ea5ec408199bc8c8de14bb3d5
+#: ../../source/development_guide/documenting_ipython.rst:152
+msgid "Building and uploading"
+msgstr ""
+
+# e6d62b507602420ba1108675bd354123
+#: ../../source/development_guide/documenting_ipython.rst:154
+msgid ""
+"The built docs are stored in a separate repository. Through some github "
+"magic, they're automatically exposed as a website. It works like this:"
+msgstr ""
+
+# 033f18c19fd14b2d850eebfe9c5bff9c
+#: ../../source/development_guide/documenting_ipython.rst:157
+msgid ""
+"You will need to have sphinx and latex installed. In Ubuntu, install "
+"``texlive-latex-recommended texlive-latex-extra texlive-fonts-"
+"recommended``. Install the latest version of sphinx from PyPI (``pip "
+"install sphinx``)."
+msgstr ""
+
+# 76ad90067595421eb7515641ec908c1e
+#: ../../source/development_guide/documenting_ipython.rst:161
+msgid ""
+"Ensure that the development version of IPython is the first in your "
+"system path. You can either use a virtualenv, or modify your PYTHONPATH."
+msgstr ""
+
+# 9a38ef6f51434d2a89b0910cf9abab96
+#: ../../source/development_guide/documenting_ipython.rst:164
+msgid ""
+"Switch into the docs directory, and run ``make gh-pages``. This will "
+"build your updated docs as html and pdf, then automatically check out the"
+" latest version of the docs repository, copy the built docs into it, and "
+"commit your changes."
+msgstr ""
+
+# df5ab19592a5476285b9e7d8eb2afd48
+#: ../../source/development_guide/documenting_ipython.rst:168
+msgid "Open the built docs in a web browser, and check that they're as expected."
+msgstr ""
+
+# 18be1af497b341e2a51dc82023fc53be
+#: ../../source/development_guide/documenting_ipython.rst:170
+msgid ""
+"(When building the docs for a new tagged release, you will have to add "
+"its link to index.rst, then run ``python build_index.py`` to update "
+"index.html. Commit the change.)"
+msgstr ""
+
+# 8e1611ea31854e92a53e904775463bee
+#: ../../source/development_guide/documenting_ipython.rst:173
+msgid ""
+"Upload the docs with ``git push``. This only works if you have write "
+"access to the docs repository."
+msgstr ""
+
+# ec61477d7da4430a9b32d253523f183f
+#: ../../source/development_guide/documenting_ipython.rst:175
+msgid ""
+"If you are building a version that is not the current dev branch, nor a "
+"tagged release, then you must run gh-pages.py directly with ``python gh-"
+"pages.py <version>``, and *not* with ``make gh-pages``."
+msgstr ""
+
+# 1649b48861b04f75bf0ebb94efa60170
+#: ../../source/development_guide/github_workflow.rst:4
+msgid "IPython on GitHub"
+msgstr ""
+
+# 3585ed0c8e314d96a6bb14e72277340e
+#: ../../source/development_guide/github_workflow.rst:9
+msgid "Notes on working with GitHub"
+msgstr ""
+
+# 25cdba5ee7d847f0ac00fc8b042838d5
+#: ../../source/development_guide/github_workflow.rst:14
+msgid "Milestones"
+msgstr ""
+
+# 0f8c5c03390e4297aa264a525fa88975
+#: ../../source/development_guide/github_workflow.rst:16
+#, python-format
+msgid "100% of confirmed issues should have a milestone."
+msgstr ""
+
+# 962e8c858379422dbd3521984486885f
+#: ../../source/development_guide/github_workflow.rst:17
+msgid "An issue should never be closed without a milestone."
+msgstr ""
+
+# 083f524c4a424ba0872df779d2fdd5ac
+#: ../../source/development_guide/github_workflow.rst:18
+msgid "All pull requests should have a milestone."
+msgstr ""
+
+# bbfa916999bf40bf86ac1e57bf98442d
+#: ../../source/development_guide/github_workflow.rst:19
+msgid ""
+"All issues closed should be marked with the next release milestone, next "
+"backport milestone, or **no action**."
+msgstr ""
+
+# a47267eb8fa34a3c95b8d48c20f67475
+#: ../../source/development_guide/github_workflow.rst:21
+msgid "Open issues should only lack a milestone if:"
+msgstr ""
+
+# 2ade481e7b04485bbb5fa1e2edbcff5d
+#: ../../source/development_guide/github_workflow.rst:23
+msgid "more clarification is required (label: ``needs-info``)"
+msgstr ""
+
+# 25a12565438b42c4ade49360ba8d7f5c
+#: ../../source/development_guide/github_workflow.rst:25
+msgid "In general, there will be four milestones with open issues:"
+msgstr ""
+
+# 16bfe5662f274d3580492d27cc15f88c
+#: ../../source/development_guide/github_workflow.rst:27
+msgid ""
+"**next minor release**. This milestone contains issues that should be "
+"backported for the next minor release. See `below <#backporting>`__ for "
+"information on backporting."
+msgstr ""
+
+# 75539ed429124cefbb1a4ca005b58e98
+#: ../../source/development_guide/github_workflow.rst:30
+msgid ""
+"**next major release**. This should be the default milestone of all "
+"issues. As the release approaches, issues can be explicitly bumped to "
+"next release + 1."
+msgstr ""
+
+# e0269932529847bf80bbfb32ef1eb875
+#: ../../source/development_guide/github_workflow.rst:33
+msgid ""
+"**next major release + 1**. Only issues that we are confident will *not* "
+"be included in the next release go here. This milestone should be mostly "
+"empty until relatively close to release."
+msgstr ""
+
+# 03b9b3e660694f1c975ef87b6237cb54
+#: ../../source/development_guide/github_workflow.rst:36
+msgid ""
+"**wishlist**. This is the milestone for issues that we have no immediate "
+"plans to address."
+msgstr ""
+
+# 2d20a33c88384cbd9ac6d2b2853778fb
+#: ../../source/development_guide/github_workflow.rst:39
+msgid ""
+"The remaining milestone is **no action** for open or closed issues that "
+"require no action:"
+msgstr ""
+
+# ac39ba3996a54cdb84c3aabf70f2f42b
+#: ../../source/development_guide/github_workflow.rst:42
+msgid "Not actually an issue (e.g. questions, discussion, etc.)"
+msgstr ""
+
+# 4eb11b0ab81c4186af066494cbf6f880
+#: ../../source/development_guide/github_workflow.rst:43
+msgid "Duplicate of an existing Issue"
+msgstr ""
+
+# e910e40d62ae40ba92ebf2aad4f571f7
+#: ../../source/development_guide/github_workflow.rst:44
+msgid "Closed because we won't fix it"
+msgstr ""
+
+# f7fd1309dbb94e44816ac5f6d3412aae
+#: ../../source/development_guide/github_workflow.rst:45
+msgid ""
+"When an issue is closed with **no action**, it means that the issue will "
+"not be fixed, or it was not an issue at all."
+msgstr ""
+
+# 226b21806c0340128426c701cad68736
+#: ../../source/development_guide/github_workflow.rst:48
+msgid "When closing an issue, it should always have one of these milestones:"
+msgstr ""
+
+# 0b2befff4807419fbd6f84974b7f8c46
+#: ../../source/development_guide/github_workflow.rst:50
+msgid "**next minor release** because the issue has been addressed"
+msgstr ""
+
+# 146a5f43c2c440328ef41b0494c607b1
+#: ../../source/development_guide/github_workflow.rst:51
+msgid "**next major release** because the issue has been addressed"
+msgstr ""
+
+# 8043711c7ac7473390f1aef4d28b1d95
+#: ../../source/development_guide/github_workflow.rst:52
+msgid ""
+"**no action** because the issue *will not* be addressed, or it is a "
+"duplicate/non-issue."
+msgstr ""
+
+# 048050b4c6254852adc7aa6ba6bb05f6
+#: ../../source/development_guide/github_workflow.rst:55
+msgid ""
+"In general: When in doubt, mark with **next release**. We can always push"
+" back when we get closer to a given release."
+msgstr ""
+
+# fd9848b03ee84d5a9624e3483c251a69
+#: ../../source/development_guide/github_workflow.rst:59
+msgid "Labels and issues"
+msgstr ""
+
+# 9b8cd118660a40218ef73c550077249a
+#: ../../source/development_guide/github_workflow.rst:61
+msgid ""
+"Issues should always be labeled once they are confirmed (not necessary "
+"for issues that are still being clarified, or may be duplicates or not "
+"issues at all)."
+msgstr ""
+
+# dcacfa148b804c6db2f154268d88c844
+#: ../../source/development_guide/github_workflow.rst:65
+msgid "Some significant labels:"
+msgstr ""
+
+# 26d8c609c57b43c39115722f0ab20355
+#: ../../source/development_guide/github_workflow.rst:67
+msgid ""
+"``needs-info``: issue needs more information from submitter before "
+"progress can be made"
+msgstr ""
+
+# 6b80d1ff88f84142a5403d8b16fa0239
+#: ../../source/development_guide/github_workflow.rst:69
+msgid "``bug``: errors are raised, or unintended behavior occurs"
+msgstr ""
+
+# fb4b2da07e144e4e9a2a89ed6e2a8309
+#: ../../source/development_guide/github_workflow.rst:70
+msgid "``enhancement``: improvements that are not bugs"
+msgstr ""
+
+# 89c22fbe066c4b50bc24db7569adf9ad
+#: ../../source/development_guide/github_workflow.rst:77
+msgid ""
+"backport-X.Y.Z: Any fix for this issue should be backported to the "
+"maintenance branch. backports are expressed with milestones, starting "
+"with 2.1."
+msgstr ""
+
+# bea030babcf847d59f598000b057b061
+#: ../../source/development_guide/github_workflow.rst:80
+msgid ""
+"``prio-foo``: a priority level for ranking issues - nonessential, but "
+"prio-high/low are useful for explicitly promoting/demoting issues, "
+"particularly when nearing release."
+msgstr ""
+
+# 79d34ec383e549e9ad82a26201e9a3fe
+#: ../../source/development_guide/github_workflow.rst:83
+msgid ""
+"``ClosedPR``: This issue is a reminder for a PR that was closed for going"
+" stale."
+msgstr ""
+
+# ded670b7781b4ff38727ca5925f8fb91
+#: ../../source/development_guide/github_workflow.rst:85
+msgid "``sprint-friendly``: Obvious or easy fixes, where"
+msgstr ""
+
+# f44525ee35164c348398f65d3d5fef6e
+#: ../../source/development_guide/github_workflow.rst:87
+msgid ""
+"All confirmed issues should at least have a ``bug`` or ``enhancement`` "
+"label, and be marked with any affected components (e.g ``parallel``, "
+"``qtconsole``, ``htmlnotebook``), or particular sources of error (e.g. "
+"``py3k`` or ``unicode``) if we have appropriate labels."
+msgstr ""
+
+# 2ecbbea9359e4cffa85607c65b703502
+#: ../../source/development_guide/github_workflow.rst:92
+msgid ""
+"The ``sprint-friendly`` label is probably the best place for new "
+"contributors to start."
+msgstr ""
+
+# f3c4914e879d4e238f14c29a45205179
+#: ../../source/development_guide/github_workflow.rst:96
+msgid "Pull Requests"
+msgstr ""
+
+# 22e663debf3c4bfeacb413987ead6d04
+#: ../../source/development_guide/github_workflow.rst:98
+msgid "All work is submitted via Pull Requests."
+msgstr ""
+
+# 491be18ba00546098911880801ade3fa
+#: ../../source/development_guide/github_workflow.rst:99
+msgid ""
+"Pull Requests can be submitted as soon as there is code worth discussing."
+" Pull Requests track the branch, so you can continue to work after the PR"
+" is submitted. Review and discussion can begin well before the work is "
+"complete, and the more discussion the better. The worst case is that the "
+"PR is closed."
+msgstr ""
+
+# c83bf74d841c41ba803f8f931d0be52d
+#: ../../source/development_guide/github_workflow.rst:104
+msgid ""
+"Pull Requests that have stalled should be closed (see [[our policy on "
+"closing PRs\\|Dev: Closing Pull Requests]])"
+msgstr ""
+
+# 8c5762198389470d8bf22c565df0f764
+#: ../../source/development_guide/github_workflow.rst:106
+msgid ""
+"Pull Requests should always be made against master (backporting PRs is "
+"described below)."
+msgstr ""
+
+# 8ed220b836404a5ba572cd7705267e19
+#: ../../source/development_guide/github_workflow.rst:108
+msgid "Pull Requests should be tested, if feasible:"
+msgstr ""
+
+# c5c2a705421a41f1886242b0d6eefa96
+#: ../../source/development_guide/github_workflow.rst:110
+msgid "bugfixes should include regression tests"
+msgstr ""
+
+# 6cf267c40a434aafb57b42b651fafca1
+#: ../../source/development_guide/github_workflow.rst:111
+msgid "new behavior should at least get minimal exercise"
+msgstr ""
+
+# aefe7e6aeddf40a8a222bde3337d4026
+#: ../../source/development_guide/github_workflow.rst:113
+msgid ""
+"`Travis <https://travis-ci.org/ipython/ipython>`__ does a pretty good job"
+" testing IPython and Pull Requests, but it may make sense to manually "
+"perform tests (possibly with our ``test_pr`` script), particularly for "
+"PRs that affect ``IPython.parallel`` or Windows."
+msgstr ""
+
+# d75b67a07bec499e8881441fa03ce53e
+#: ../../source/development_guide/github_workflow.rst:119
+msgid "Opening an Issue"
+msgstr ""
+
+# 44bde95ec4a44a86a2238a3e3f7c8c2d
+#: ../../source/development_guide/github_workflow.rst:121
+msgid "When opening a new issue, please take the following steps:"
+msgstr ""
+
+# eadd0bf02cea48c49c11fdb30a92cc85
+#: ../../source/development_guide/github_workflow.rst:123
+msgid ""
+"Search GitHub and/or Google for your issue to avoid duplicate reports. "
+"Keyword searches for your error messages are most helpful."
+msgstr ""
+
+# 752323e4c9604015aaff8b37063830c2
+#: ../../source/development_guide/github_workflow.rst:125
+msgid ""
+"If possible, try updating to master and reproducing your issue, because "
+"we may have already fixed it."
+msgstr ""
+
+# b570bdae9b6b4579ac1941165f1f801a
+#: ../../source/development_guide/github_workflow.rst:127
+msgid "Try to include a minimal reproducible test case"
+msgstr ""
+
+# ed1554fe87da45d2a5c64dc0579d52b0
+#: ../../source/development_guide/github_workflow.rst:128
+msgid "Include relevant system information. Start with the output of:"
+msgstr ""
+
+# de41727a9280424c9fcd2c77ca6d7d3c
+#: ../../source/development_guide/github_workflow.rst:134
+msgid ""
+"And include any relevant package versions, depending on the issue, such "
+"as matplotlib, numpy, Qt, Qt bindings (PyQt/PySide), tornado, web "
+"browser, etc."
+msgstr ""
+
+# b69dac6d20d84f4da9aa176b1dca247d
+#: ../../source/development_guide/github_workflow.rst:139
+msgid "Backporting"
+msgstr ""
+
+# 6201a6ddc0724acc9f0aa6e2395950b0
+#: ../../source/development_guide/github_workflow.rst:141
+msgid ""
+"We should keep an ``A.x`` maintenance branch for backporting fixes from "
+"master."
+msgstr ""
+
+# bad96dd4bf104af59b483097f351f7cd
+#: ../../source/development_guide/github_workflow.rst:143
+msgid ""
+"That branch shall be called ``A.x``, e.g. ``2.x``, not ``2.1``. This way,"
+" there is only one maintenance branch per release series."
+msgstr ""
+
+# c8f4a678969e4923818596582284101b
+#: ../../source/development_guide/github_workflow.rst:145
+msgid ""
+"When an Issue is determined to be appropriate for backporting, it should "
+"be marked with the ``A.B`` milestone."
+msgstr ""
+
+# 7b66404e9301456dba12b13f438d61a3
+#: ../../source/development_guide/github_workflow.rst:147
+msgid ""
+"Any Pull Request which addresses a backport issue should also receive the"
+" same milestone."
+msgstr ""
+
+# 9c79bfa009914fafa0019f6e67f48dbf
+#: ../../source/development_guide/github_workflow.rst:149
+msgid ""
+"Patches are backported to the maintenance branch by applying the pull "
+"request patch to the maintenance branch (currently with the "
+"`backport\\_pr "
+"<https://github.com/ipython/ipython/blob/master/tools/backport_pr.py>`__ "
+"script)."
+msgstr ""
+
+# 2a7eba1900684fab9689312035a9dbdc
+#: ../../source/development_guide/index.rst:14
+msgid "Core Documents"
+msgstr ""
+
+# e80a134fe74c41b79acb0093738690ee
+#: ../../source/development_guide/index.rst:23
+msgid "Lab Meetings"
+msgstr ""
+
+# 5d68328888874591905ffd0a0dc08e60
+#: ../../source/development_guide/index.rst:29
+msgid "Development Policies"
+msgstr ""
+
+# 4b19b84c247c45fca67f4925c727048b
+#: ../../source/development_guide/index.rst:35
+msgid "Other Information"
+msgstr ""
+
+# 591c48743b9042228f7607d064abfbb1
+#: ../../source/development_guide/index.rst:4
+msgid "IPython Development Guide (source: old IPython wiki)"
+msgstr ""
+
+# 6289363304d44f5496a77e25f2bf8c1d
+#: ../../source/development_guide/index.rst:9
+msgid ""
+"IPython does all of its development using GitHub. All of our development "
+"information is hosted on this GitHub wiki. This page indexes all of that "
+"information. Developers interested in getting involved with IPython "
+"development should start here."
+msgstr ""
+
+# 12e4517c27a449f48e194515bcda319e
+#: ../../source/development_guide/index.rst:49
+msgid ""
+"A template for new Python files in IPython: `template.py "
+"<./template.py>`__"
+msgstr ""
+
+# 4081c049edfb42229114ea36feec288e
+#: ../../source/development_guide/js_events.rst:4
+msgid "JavaScript Events"
+msgstr ""
+
+# c61b275655c7434c93b6bb942d2ed50e
+#: ../../source/development_guide/js_events.rst:9
+msgid "(Note: this page is not currently consistent with IPython/Jupyter master)"
+msgstr ""
+
+# 47edbb5e6fb747099a83a04e95f7f67e
+#: ../../source/development_guide/js_events.rst:11
+msgid ""
+"Javascript events are used to notify unrelated parts of the notebook "
+"interface when something happens. For example, if the kernel is busy "
+"executing code, it may send an event announcing as such, which can then "
+"be picked up by other services, like the notification area. For details "
+"on how the events themselves work, see the `JQuery documentation "
+"<http://api.jquery.com/on/>`__."
+msgstr ""
+
+# 98fae31d7b944a1da58cc96e0d1a220b
+#: ../../source/development_guide/js_events.rst:18
+msgid ""
+"This page documents the core set of events, and explains when and why "
+"they are triggered."
+msgstr ""
+
+# e86a5f198ce441e9937343199282991b
+#: ../../source/development_guide/js_events.rst:22
+msgid "Cell-related events"
+msgstr ""
+
+# def2f5fa02a743ff9d48c421f82994b3
+#: ../../source/development_guide/js_events.rst:24
+msgid "`command\\_mode.Cell <#command_modecell>`__"
+msgstr ""
+
+# 3a4fd40f4b784920befbe4e8934de8b6
+#: ../../source/development_guide/js_events.rst:25
+msgid "`create.Cell <#createcell>`__"
+msgstr ""
+
+# a53e4f646d3a4c559b61693d04bdddb1
+#: ../../source/development_guide/js_events.rst:26
+msgid "`delete.Cell <#deletecell>`__"
+msgstr ""
+
+# 3d75746bb0c04b4e955c7e1d4dbbcf20
+#: ../../source/development_guide/js_events.rst:27
+msgid "`edit\\_mode.Cell <#edit_modecell>`__"
+msgstr ""
+
+# 0145fa086f07433695ab1dfece970b60
+#: ../../source/development_guide/js_events.rst:28
+msgid "`select.Cell <#selectcell>`__"
+msgstr ""
+
+# 24648c742e394165a105e4acba22fea8
+#: ../../source/development_guide/js_events.rst:29
+msgid "`output\\_appended.OutputArea <#output_appendedoutputarea>`__"
+msgstr ""
+
+# 40072d87d4004a328417903975367ee6
+#: ../../source/development_guide/js_events.rst:32
+msgid "CellToolbar-related events"
+msgstr ""
+
+# 366a5bb76dfb438db5d7533545658e2a
+#: ../../source/development_guide/js_events.rst:34
+msgid "`preset\\_activated.CellToolbar <#preset_activatedcelltoolbar>`__"
+msgstr ""
+
+# 0ad06e30020348f8a58b2db214d1f8b0
+#: ../../source/development_guide/js_events.rst:35
+msgid "`preset\\_added.CellToolbar <#preset_addedcelltoolbar>`__"
+msgstr ""
+
+# baf353e6b30e48d3bc81d5d881a9324a
+#: ../../source/development_guide/js_events.rst:38
+msgid "Dashboard-related events"
+msgstr ""
+
+# a436b7cbd47040b0bc344ad7412951bd
+#: ../../source/development_guide/js_events.rst:40
+msgid "`app\\_initialized.DashboardApp <#app_initializeddashboardapp>`__"
+msgstr ""
+
+# 94c8cba81b564a65b7050479ce437c58
+#: ../../source/development_guide/js_events.rst:41
+msgid "`sessions\\_loaded.Dashboard <#sessions_loadeddashboard>`__"
+msgstr ""
+
+# 7181c050bc5a411a92fb218852db8fe7
+#: ../../source/development_guide/js_events.rst:44
+msgid "app\\_initialized.DashboardApp"
+msgstr ""
+
+# 68fe58e26be54560a352829efd8b9dc8
+#: ../../source/development_guide/js_events.rst:46
+msgid ""
+"When the Jupyter Notebook browser window opens for the first time and "
+"initializes the Dashboard App. The Dashboard App lists the files and "
+"notebooks in the current directory. Additionally, it lets you create and "
+"open new Jupyter Notebooks."
+msgstr ""
+
+# b81706f287f048049876387fb9273ce3
+#: ../../source/development_guide/js_events.rst:52
+msgid "Kernel-related events"
+msgstr ""
+
+# b4874043cb84481095a16e4ccb23b3ed
+#: ../../source/development_guide/js_events.rst:54
+msgid "`execution\\_request.Kernel <#execution_requestkernel>`__"
+msgstr ""
+
+# 3ac81f6c2d4b40aabda9ee264ca363e2
+#: ../../source/development_guide/js_events.rst:55
+msgid "`input\\_reply.Kernel <#input_replykernel>`__"
+msgstr ""
+
+# 6f8eced167314851835ce91f934c2d11
+#: ../../source/development_guide/js_events.rst:56
+msgid "`kernel\\_autorestarting.Kernel <#kernel_autorestartingkernel>`__"
+msgstr ""
+
+# 47a691a1f6bd4f3baa34f121bec16585
+#: ../../source/development_guide/js_events.rst:57
+msgid "`kernel\\_busy.Kernel <#kernel_busykernel>`__"
+msgstr ""
+
+# 80c97c23fa2c40f09bfddee1110217b7
+#: ../../source/development_guide/js_events.rst:58
+msgid "`kernel\\_connected.Kernel <#kernel_connectedkernel>`__"
+msgstr ""
+
+# 70785bb0e881407e9b26806267abb5ee
+#: ../../source/development_guide/js_events.rst:59
+msgid "`kernel\\_connection\\_failed.Kernel <#kernel_connection_failedkernel>`__"
+msgstr ""
+
+# dae8b17088d34805ae776a6c9bc17640
+#: ../../source/development_guide/js_events.rst:60
+msgid "`kernel\\_created.Kernel <#kernel_createdkernel>`__"
+msgstr ""
+
+# 95e5ad5a50454661ac3c028a5896c504
+#: ../../source/development_guide/js_events.rst:61
+msgid "`kernel\\_created.Session <#kernel_createdsession>`__"
+msgstr ""
+
+# 321a1e2d289644f59c756f5095dc7e86
+#: ../../source/development_guide/js_events.rst:62
+msgid "`kernel\\_dead.Kernel <#kernel_deadkernel>`__"
+msgstr ""
+
+# 48e693465ecf4609b40ff7ec7b4c421b
+#: ../../source/development_guide/js_events.rst:63
+msgid "`kernel\\_dead.Session <#kernel_deadsession>`__"
+msgstr ""
+
+# e24e76bda50c4198a90a6b4cc9c7f41c
+#: ../../source/development_guide/js_events.rst:64
+msgid "`kernel\\_disconnected.Kernel <#kernel_disconnectedkernel>`__"
+msgstr ""
+
+# 791e73bc75a14f1d8efeb196576bdcca
+#: ../../source/development_guide/js_events.rst:65
+msgid "`kernel\\_idle.Kernel <#kernel_idlekernel>`__"
+msgstr ""
+
+# 870b93e3cf294b75b3788188a886f91b
+#: ../../source/development_guide/js_events.rst:66
+msgid "`kernel\\_interrupting.Kernel <#kernel_interruptingkernel>`__"
+msgstr ""
+
+# f026b24ce61844a0998a46cc46f712dd
+#: ../../source/development_guide/js_events.rst:67
+msgid "`kernel\\_killed.Kernel <#kernel_killedkernel>`__"
+msgstr ""
+
+# 8c243948993b422e9ce7979e67bf8806
+#: ../../source/development_guide/js_events.rst:68
+msgid "`kernel\\_killed.Session <#kernel_killedsession>`__"
+msgstr ""
+
+# 50229b3359a24ecdaca9c2121b0f7e8e
+#: ../../source/development_guide/js_events.rst:69
+msgid "`kernel\\_ready.Kernel <#kernel_readykernel>`__"
+msgstr ""
+
+# ab8223c68bbe48ee8271e0d69fe60c56
+#: ../../source/development_guide/js_events.rst:70
+msgid "`kernel\\_reconnecting.Kernel <#kernel_reconnectingkernel>`__"
+msgstr ""
+
+# fac3dd7af8514c258e0bf48ff3fea8c3
+#: ../../source/development_guide/js_events.rst:71
+msgid "`kernel\\_restarting.Kernel <#kernel_restartingkernel>`__"
+msgstr ""
+
+# 2a0189d15f2f4cb587ce28f32c98e471
+#: ../../source/development_guide/js_events.rst:72
+msgid "`kernel\\_starting.Kernel <#kernel_startingkernel>`__"
+msgstr ""
+
+# 790b63aed1b04fb0b44083b1531a8a10
+#: ../../source/development_guide/js_events.rst:73
+msgid "`send\\_input\\_reply.Kernel <#send_input_replykernel>`__"
+msgstr ""
+
+# bf0734bc1ee045d7beac313b9b15b5b7
+#: ../../source/development_guide/js_events.rst:74
+msgid "`shell\\_reply.Kernel <#shell_replykernel>`__"
+msgstr ""
+
+# 54b1c3618ccb47aa8e5439b65a594ffe
+#: ../../source/development_guide/js_events.rst:75
+msgid "`spec\\_changed.Kernel <#spec_changedkernel>`__"
+msgstr ""
+
+# a2877fd8d7ad42b28685938bc5f7c1be
+#: ../../source/development_guide/js_events.rst:78
+msgid "kernel\\_created.Kernel"
+msgstr ""
+
+# 3040632873c245529628ae604083e2e8
+#: ../../source/development_guide/js_events.rst:80
+msgid ""
+"The kernel has been successfully created or re-created through "
+"``/api/kernels``, but a connection to it has not necessarily been "
+"established yet."
+msgstr ""
+
+# 7816516d914c4c1eb141b2becc6478b5
+#: ../../source/development_guide/js_events.rst:85
+msgid "kernel\\_created.Session"
+msgstr ""
+
+# 0367845004434dbab781a2552639d4f4
+#: ../../source/development_guide/js_events.rst:87
+msgid ""
+"The kernel has been successfully created or re-created through "
+"``/api/sessions``, but a connection to it has not necessarily been "
+"established yet."
+msgstr ""
+
+# 72a7c504f85e448ca8fe72c0a32b2c4a
+#: ../../source/development_guide/js_events.rst:92
+msgid "kernel\\_reconnecting.Kernel"
+msgstr ""
+
+# 87126ef97bd34214865023e905e33d95
+#: ../../source/development_guide/js_events.rst:94
+msgid ""
+"An attempt is being made to reconnect (via websockets) to the kernel "
+"after having been disconnected."
+msgstr ""
+
+# 1ec32fcfb4ed408bac1e566e8b97aec0
+#: ../../source/development_guide/js_events.rst:98
+msgid "kernel\\_connected.Kernel"
+msgstr ""
+
+# 5acfc372f6f64cdc87c084c55679f892
+#: ../../source/development_guide/js_events.rst:100
+msgid ""
+"A connection has been established to the kernel. This is triggered as "
+"soon as all websockets (e.g. to the shell, iopub, and stdin channels) "
+"have been opened. This does not necessarily mean that the kernel is ready"
+" to do anything yet, though."
+msgstr ""
+
+# 29b6688f9bce412ebbb884ff886068f6
+#: ../../source/development_guide/js_events.rst:106
+msgid "kernel\\_starting.Kernel"
+msgstr ""
+
+# b70c01a2eefc4af2a57708d038debff0
+#: ../../source/development_guide/js_events.rst:108
+msgid ""
+"The kernel is starting. This is triggered once when the kernel process is"
+" starting up, and can be sent as a message by the kernel, or may be "
+"triggered by the frontend if it knows the kernel is starting (e.g., it "
+"created the kernel and is connected to it, but hasn't been able to "
+"communicate with it yet)."
+msgstr ""
+
+# ec64854942e54e16a0fc04bda832f976
+#: ../../source/development_guide/js_events.rst:115
+msgid "kernel\\_ready.Kernel"
+msgstr ""
+
+# b138893ce9964ff6b4347388855c5ade
+#: ../../source/development_guide/js_events.rst:117
+msgid ""
+"Like kernel\\_idle.Kernel, but triggered after the kernel has fully "
+"started up."
+msgstr ""
+
+# 3ad6f65bcbbb4e1ebd1bbd29c253aa85
+#: ../../source/development_guide/js_events.rst:121
+msgid "kernel\\_restarting.Kernel"
+msgstr ""
+
+# 5b6939501d04409d8860c0faf100b222
+#: ../../source/development_guide/js_events.rst:123
+msgid ""
+"The kernel is restarting. This is triggered at the beginning of an "
+"restart call to ``/api/kernels``."
+msgstr ""
+
+# 3bdabb293a8a4cdcb236b8349e518532
+#: ../../source/development_guide/js_events.rst:127
+msgid "kernel\\_autorestarting.Kernel"
+msgstr ""
+
+# a41bf1e6a4284693ba02b1d148163713
+#: ../../source/development_guide/js_events.rst:129
+msgid ""
+"The kernel is restarting on its own, which probably also means that "
+"something happened to cause the kernel to die. For example, running the "
+"following code in the notebook would cause the kernel to autorestart:"
+msgstr ""
+
+# fc34e9d75f1941b3ad2ed2530d2a04e7
+#: ../../source/development_guide/js_events.rst:139
+msgid "kernel\\_interrupting.Kernel"
+msgstr ""
+
+# ffc813b955594063b70bb592d70b548f
+#: ../../source/development_guide/js_events.rst:141
+msgid ""
+"The kernel is being interrupted. This is triggered at the beginning of a "
+"interrupt call to ``/api/kernels``."
+msgstr ""
+
+# ccf8af5eed16478796b627d55f104864
+#: ../../source/development_guide/js_events.rst:145
+msgid "kernel\\_disconnected.Kernel"
+msgstr ""
+
+# 3ab698370f4b46968370a25c425567e8
+#: ../../source/development_guide/js_events.rst:147
+msgid "The connection to the kernel has been lost."
+msgstr ""
+
+# 2802009fc67b490584fbd85d24b2882a
+#: ../../source/development_guide/js_events.rst:150
+msgid "kernel\\_connection\\_failed.Kernel"
+msgstr ""
+
+# 13c1dbef4b9349b0b838a4256d07143b
+#: ../../source/development_guide/js_events.rst:152
+msgid ""
+"Not only was the connection lost, but it was lost due to an error (i.e., "
+"we did not tell the websockets to close)."
+msgstr ""
+
+# ba8926d5bf55416e8aa6ab5ee053e637
+#: ../../source/development_guide/js_events.rst:156
+msgid "kernel\\_idle.Kernel"
+msgstr ""
+
+# d1f3c042055548dab598e2a4b494c115
+#: ../../source/development_guide/js_events.rst:158
+msgid "The kernel's execution state is 'idle'."
+msgstr ""
+
+# 12539ba4f1724ab5bef3dc6922eba206
+#: ../../source/development_guide/js_events.rst:161
+msgid "kernel\\_busy.Kernel"
+msgstr ""
+
+# 88b1443b9d7d4d9a9102d7014d36313a
+#: ../../source/development_guide/js_events.rst:163
+msgid "The kernel's execution state is 'busy'."
+msgstr ""
+
+# 9136374f3b774c08a9acfc0c33fd311a
+#: ../../source/development_guide/js_events.rst:166
+msgid "kernel\\_killed.Kernel"
+msgstr ""
+
+# 67232b97369b4224baec2481ad5f4dd0
+#: ../../source/development_guide/js_events.rst:168
+msgid "The kernel has been manually killed through ``/api/kernels``."
+msgstr ""
+
+# f79f7754a4a94c9ca64eaa9152f7b873
+#: ../../source/development_guide/js_events.rst:171
+msgid "kernel\\_killed.Session"
+msgstr ""
+
+# 2da99d85b9ad4167af4cbf22803c0d84
+#: ../../source/development_guide/js_events.rst:173
+msgid "The kernel has been manually killed through ``/api/sessions``."
+msgstr ""
+
+# b011fd6bcdef4824ac275758512959d7
+#: ../../source/development_guide/js_events.rst:176
+msgid "kernel\\_dead.Kernel"
+msgstr ""
+
+# 58190fd19f3843e7b01f0adedbc72a49
+#: ../../source/development_guide/js_events.rst:178
+msgid ""
+"This is triggered if the kernel dies, and the kernel manager attempts to "
+"restart it, but is unable to. For example, the following code run in the "
+"notebook will cause the kernel to die and for the kernel manager to be "
+"unable to restart it:"
+msgstr ""
+
+# a07a9dcaa9fa414a87e8bb387d584657
+#: ../../source/development_guide/js_events.rst:192
+msgid "kernel\\_dead.Session"
+msgstr ""
+
+# e50094f75e0e4779bdd5bd9cc231672b
+#: ../../source/development_guide/js_events.rst:194
+msgid ""
+"The kernel could not be started through ``/api/sessions``. This might be "
+"because the requested kernel type isn't installed. Another reason for "
+"this message is that the kernel died or was killed, but the session "
+"wasn't."
+msgstr ""
+
+# cdb10a3240634a88bcb5ab603db13223
+#: ../../source/development_guide/js_events.rst:200
+msgid "Notebook-related events"
+msgstr ""
+
+# ff5d6d331e274e01bf17ba723380972d
+#: ../../source/development_guide/js_events.rst:202
+msgid "`app\\_initialized.NotebookApp <#app_initializednotebookapp>`__"
+msgstr ""
+
+# c890a4f26e0743d28633290be51d4ccc
+#: ../../source/development_guide/js_events.rst:203
+msgid "`autosave\\_disabled.Notebook <#autosave_disablednotebook>`__"
+msgstr ""
+
+# 45c56970e40d4a27b4bd50085f013c61
+#: ../../source/development_guide/js_events.rst:204
+msgid "`autosave\\_enabled.Notebook <#autosave_enablednotebook>`__"
+msgstr ""
+
+# 787d5edb4c4e4666b0c1d0b5f194e13a
+#: ../../source/development_guide/js_events.rst:205
+msgid "`checkpoint\\_created.Notebook <#checkpoint_creatednotebook>`__"
+msgstr ""
+
+# 0f4a0e636e6e4b5fb64dc4c2cb14a538
+#: ../../source/development_guide/js_events.rst:206
+msgid ""
+"`checkpoint\\_delete\\_failed.Notebook "
+"<#checkpoint_delete_failednotebook>`__"
+msgstr ""
+
+# 15725ecac791496abcf4ac17f3d8a964
+#: ../../source/development_guide/js_events.rst:207
+msgid "`checkpoint\\_deleted.Notebook <#checkpoint_deletednotebook>`__"
+msgstr ""
+
+# 89e00e136b2f43b6ba5d6ded5606b27b
+#: ../../source/development_guide/js_events.rst:208
+msgid "`checkpoint\\_failed.Notebook <#checkpoint_failednotebook>`__"
+msgstr ""
+
+# 458ba96596ea4f3c8e8760f3ff1bff75
+#: ../../source/development_guide/js_events.rst:209
+msgid ""
+"`checkpoint\\_restore\\_failed.Notebook "
+"<#checkpoint_restore_failednotebook>`__"
+msgstr ""
+
+# 891d9244f3424af0bb816f2d35e8d3a3
+#: ../../source/development_guide/js_events.rst:210
+msgid "`checkpoint\\_restored.Notebook <#checkpoint_restorednotebook>`__"
+msgstr ""
+
+# a087cd1aa32546cdab0c1832cbb53ac2
+#: ../../source/development_guide/js_events.rst:211
+msgid "`checkpoints\\_listed.Notebook <#checkpoints_listednotebook>`__"
+msgstr ""
+
+# afc574cc44784feeba00a72f727b8cce
+#: ../../source/development_guide/js_events.rst:212
+msgid "`command\\_mode.Notebook <#command_modenotebook>`__"
+msgstr ""
+
+# 35231218e930429b84217ae364e1a881
+#: ../../source/development_guide/js_events.rst:213
+msgid "`edit\\_mode.Notebook <#edit_modenotebook>`__"
+msgstr ""
+
+# a4e3da5247db4bd9ac0ff46302355b8e
+#: ../../source/development_guide/js_events.rst:214
+msgid ""
+"`list\\_checkpoints\\_failed.Notebook "
+"<#list_checkpoints_failednotebook>`__"
+msgstr ""
+
+# d54d2621b1d848448d7f51b2c0c4abf9
+#: ../../source/development_guide/js_events.rst:215
+msgid "`notebook\\_load\\_failed.Notebook <#notebook_load_failednotebook>`__"
+msgstr ""
+
+# 297dd5a18c3e491abfbf2fc1d198a746
+#: ../../source/development_guide/js_events.rst:216
+msgid "`notebook\\_loaded.Notebook <#notebook_loadednotebook>`__"
+msgstr ""
+
+# abc6ecf1fc8b499fb2b212b8ec45139a
+#: ../../source/development_guide/js_events.rst:217
+msgid "`notebook\\_loading.Notebook <#notebook_loadingnotebook>`__"
+msgstr ""
+
+# 1ab9c46f713b4011ae03db3d1565aa99
+#: ../../source/development_guide/js_events.rst:218
+msgid "`notebook\\_rename\\_failed.Notebook <#notebook_rename_failednotebook>`__"
+msgstr ""
+
+# 705d0d6e532a47c8acf6a47bb07b3430
+#: ../../source/development_guide/js_events.rst:219
+msgid "`notebook\\_renamed.Notebook <#notebook_renamednotebook>`__"
+msgstr ""
+
+# 9630174248894aa0bb6b67091c37352a
+#: ../../source/development_guide/js_events.rst:220
+msgid "`notebook\\_restoring.Notebook <#notebook_restoringnotebook>`__"
+msgstr ""
+
+# 19d828a32334434482f103cea343d015
+#: ../../source/development_guide/js_events.rst:221
+msgid "`notebook\\_save\\_failed.Notebook <#notebook_save_failednotebook>`__"
+msgstr ""
+
+# d3fcdab1a0ae4813a968084486583389
+#: ../../source/development_guide/js_events.rst:222
+msgid "`notebook\\_saved.Notebook <#notebook_savednotebook>`__"
+msgstr ""
+
+# 1826b5fd328441cd9b281e97e21b8bfc
+#: ../../source/development_guide/js_events.rst:223
+msgid "`notebook\\_saving.Notebook <#notebook_savingnotebook>`__"
+msgstr ""
+
+# 14dc21e830634ecbb3120013d479d6a1
+#: ../../source/development_guide/js_events.rst:224
+msgid "`rename\\_notebook.Notebook <#rename_notebooknotebook>`__"
+msgstr ""
+
+# 545d212ebca44e1898c3d4906ae53fb9
+#: ../../source/development_guide/js_events.rst:225
+msgid ""
+"`selected\\_cell\\_type\\_changed.Notebook "
+"<#selected_cell_type_changednotebook>`__"
+msgstr ""
+
+# bd96bdc9213240ca9c347317afc1bb83
+#: ../../source/development_guide/js_events.rst:226
+msgid "`set\\_dirty.Notebook <#set_dirtynotebook>`__"
+msgstr ""
+
+# 8c289d8ea7d74ff5bd87d081e3c143b3
+#: ../../source/development_guide/js_events.rst:227
+msgid "`set\\_next\\_input.Notebook <#set_next_inputnotebook>`__"
+msgstr ""
+
+# d7f8269d162c425dbce0001d2a0bdffe
+#: ../../source/development_guide/js_events.rst:228
+msgid "`trust\\_changed.Notebook <#trust_changednotebook>`__"
+msgstr ""
+
+# 3be14fb7ddaa44f9898f33c9984781a6
+#: ../../source/development_guide/js_events.rst:231
+msgid "Other"
+msgstr ""
+
+# 28cfc866239f4bb0be2907f27c335b2c
+#: ../../source/development_guide/js_events.rst:233
+msgid "`open\\_with\\_text.Pager <#open_with_textpager>`__"
+msgstr ""
+
+# 9d0f63ac175a4e06b6060c1b5c0589b9
+#: ../../source/development_guide/js_events.rst:234
+msgid "`rebuild.QuickHelp <#rebuildquickhelp>`__"
+msgstr ""
+
+# 052142391c524dbd9cd3b11b73fbdcf4
+#: ../../source/development_guide/lab_meetings.rst:4
+msgid "Lab Meetings on Air"
+msgstr ""
+
+# 655db7d08bf94cb7b434583f46de9302
+#: ../../source/development_guide/lab_meetings.rst:9
+msgid ""
+"Academic labs have long had the tradition of the weekly lab meeting, "
+"where all topics of interest to the lab are discussed. IPython has strong"
+" roots in academia, but it is also an open source project that needs to "
+"engage an active international community. So while our goal with IPython "
+"is not to publish the next paper, we've been thinking about the value "
+"these regular discussions bring to how teams work on sustained efforts "
+"involving difficult problems, and wanted to bring that bit of academic "
+"practice into the open source workflow. So we have decided to conduct "
+"weekly \"lab meetings\" for IPython, that will be held publicly using a "
+"Google Hangout on Air."
+msgstr ""
+
+# b7e924ebaa1442abb4ce8579e7dfb513
+#: ../../source/development_guide/lab_meetings.rst:21
+msgid "Logistics"
+msgstr ""
+
+# 07e6cc2da96b4754b66212a9314e3eb2
+#: ../../source/development_guide/lab_meetings.rst:23
+msgid ""
+"We are trying to keep things simple and with a minimum of new moving "
+"parts:"
+msgstr ""
+
+# a6bfaf8f74724ff792320a67ceb36788
+#: ../../source/development_guide/lab_meetings.rst:26
+msgid ""
+"Meetings happen on Tuesdays at 10am California time (i.e. UTC-8 or -7 "
+"depending on the time of year)."
+msgstr ""
+
+# 2872a2e95c9c4eca8e795423ba1dbc40
+#: ../../source/development_guide/lab_meetings.rst:28
+msgid ""
+"We broadcast the meeting as it happens via G+ and leave the public "
+"YouTube link afterwards."
+msgstr ""
+
+# cb7960e779de46a393549f9b14437b25
+#: ../../source/development_guide/lab_meetings.rst:30
+msgid ""
+"During the meeting, all chat that needs to happen by typing can be done "
+"on our `Gitter chat room <https://gitter.im/ipython/ipython>`__."
+msgstr ""
+
+# 75e889a166a94bb3a0358a1465121a4b
+#: ../../source/development_guide/lab_meetings.rst:33
+msgid ""
+"We keep a running document with `minutes of the meeting on HackPad "
+"<https://ipython.hackpad.com/>`__ where we summarize main points. (`2015 "
+"part 1 <https://ipython.hackpad.com/3YJG5lv2Hws>`__)"
+msgstr ""
+
+# 7ee9bd48be064c18b6f1c952e070a66d
+#: ../../source/development_guide/lab_meetings.rst:37
+msgid ""
+"We welcome and encourage help from others in updating these minutes "
+"during the meeting, but we'll make no major effort in ensuring that they "
+"are a detailed and accurate record of the whole discussion. We simply "
+"don't have the time for that."
+msgstr ""
+
+# 425913e731c54469be844019d93a0581
+#: ../../source/development_guide/lab_meetings.rst:43
+msgid "Prior meetings"
+msgstr ""
+
+# 05fd7d7f121346c290fd8ce8550118bf
+#: ../../source/development_guide/lab_meetings.rst:45
+msgid ""
+"You can find a list of the videos on the `ipythondev YouTube user page "
+"<https://www.youtube.com/user/ipythondev>`__."
+msgstr ""
+
+# d512e27aff344444aae5dfaf62a1a9c2
+#: ../../source/development_guide/less.rst:4
+msgid "How to Compile .less Files"
+msgstr ""
+
+# ad2b306908b048c6bdec64929c3d6c15
+#: ../../source/development_guide/less.rst:9
+msgid ""
+"For testing your development work in CSS, you'll need to compile the "
+".less files to CSS. Make sure you have dependencies that LESS requires, "
+"including fabric, node, and lessc. Follow the below steps to compile the "
+".less files:"
+msgstr ""
+
+# 515ed293377b44b88d86fd11e6cb76f8
+#: ../../source/development_guide/less.rst:18
+msgid "Alternatively, you can:"
+msgstr ""
+
+# f66d911ce52644939f54e1c4cfa7cdd0
+#: ../../source/development_guide/pull_request.rst:4
+msgid "The Perfect Pull Request"
+msgstr ""
+
+# 89a81be294c9411c8f07631085687f58
+#: ../../source/development_guide/pull_request.rst:9
+msgid "A brief guide to making and reviewing pull requests."
+msgstr ""
+
+# 223a61361a9d42d19e8f544bbed9ede8
+#: ../../source/development_guide/pull_request.rst:12
+msgid "1. It works"
+msgstr ""
+
+# ee97d94a227d426a91e8cf8eb7fac5fd
+#: ../../source/development_guide/pull_request.rst:14
+msgid "The code does what it's supposed to!"
+msgstr ""
+
+# 7191fb41b3f446c2b047ca063a5e4356
+#: ../../source/development_guide/pull_request.rst:17
+msgid "2. It works on all of the platforms that IPython officially supports"
+msgstr ""
+
+# 88d94c97480c46a98e8ee9c20f7d521c
+#: ../../source/development_guide/pull_request.rst:19
+msgid "IPython has to work on:"
+msgstr ""
+
+# a330b995df754c6db1c6d675a7f71ec2
+#: ../../source/development_guide/pull_request.rst:21
+msgid "Linux of various kinds, Windows & Mac"
+msgstr ""
+
+# 0982b10a11ac4969ad699d4c552c26a2
+#: ../../source/development_guide/pull_request.rst:22
+msgid "Python 2 & 3"
+msgstr ""
+
+# dae2ad7446ea4d9daade79e4c60bc60a
+#: ../../source/development_guide/pull_request.rst:25
+msgid "3. Handles unicode issues properly"
+msgstr ""
+
+# fd066b3664f148a6b16e1cec798ad3ca
+#: ../../source/development_guide/pull_request.rst:27
+msgid ""
+"Much of our code base deals with strings and unicode. This needs to be "
+"done in a manner that is unicode aware and works on Python 2 and 3. [This"
+" article] (http://www.joelonsoftware.com/articles/Unicode.html) is a good"
+" intro to unicode."
+msgstr ""
+
+# 2e6a238797d34b35a2e3ccd7363775d8
+#: ../../source/development_guide/pull_request.rst:33
+msgid "4. Adheres to our coding style"
+msgstr ""
+
+# 6cf5f6068ddc420d91eef5c6aac49a51
+#: ../../source/development_guide/pull_request.rst:35
+msgid ""
+"Coding style refers to how source code is formatted and how variables, "
+"functions, methods and classes are named. Your code should follow our "
+"coding style, which is described [[here\\|Dev: Coding style]]."
+msgstr ""
+
+# 414e07fca966418d833f8e539fa75dd5
+#: ../../source/development_guide/pull_request.rst:40
+msgid "5. Clean & commented"
+msgstr ""
+
+# 3fd8703e90d14aff80b997e371af9e5b
+#: ../../source/development_guide/pull_request.rst:42
+msgid ""
+"The code should be well organized, and have inline comments where "
+"appropriate. When we look at the code, it should be clear what it's doing"
+" and why. It should not break abstractions that we have established in "
+"the project."
+msgstr ""
+
+# 755c8ba81fe34db1a85d015bb87412f2
+#: ../../source/development_guide/pull_request.rst:48
+msgid "6. Tested"
+msgstr ""
+
+# b74b1c16fc754989b663b171b313d43d
+#: ../../source/development_guide/pull_request.rst:50
+msgid ""
+"If it fixes a bug, the pull request should ideally add an automated test "
+"that fails without the fix, and passes with it. Normally it should be "
+"sufficient to copy an existing test and tweak it. New functionality "
+"should come with its own tests as well. Details about testing IPython can"
+" be found [[here\\|Dev: Testing]]."
+msgstr ""
+
+# 16f7363d77e5489f9ce488ca4a26f71d
+#: ../../source/development_guide/pull_request.rst:57
+msgid "7. Well documented"
+msgstr ""
+
+# ba75b92346094faa90b2e78c95c69a98
+#: ../../source/development_guide/pull_request.rst:59
+msgid ""
+"Don't forget to update docstrings, and any relevant parts of `the "
+"official documentation <https://ipython.readthedocs.io/en/stable/>`__. "
+"New features or significant changes warrant an entry in the *What's New* "
+"section too. Details about documenting IPython can be found [[here\\|Dev:"
+" Documenting IPython]]."
+msgstr ""
+
+# d854f6fc89a64ddcb42f0a9a55973b77
+#: ../../source/development_guide/py3compat.rst:4
+msgid "Python 3 Compatibility Module"
+msgstr ""
+
+# c004d43c8f534c84a82ec4fef2b5b1df
+#: ../../source/development_guide/py3compat.rst:9
+msgid ""
+"The ``IPython.utils.py3compat`` module provides a number of functions to "
+"make it easier to write code for Python 2 and 3. We also use 2to3 in the "
+"setup process to change syntax, and the ``io.open()`` function, which is "
+"essentially the built in open function from Python 3."
+msgstr ""
+
+# b192dadb5475442db1b2a0490e225483
+#: ../../source/development_guide/py3compat.rst:11
+msgid "The names provided are:"
+msgstr ""
+
+# 30de9621716043538db5664d131cb897
+#: ../../source/development_guide/py3compat.rst:13
+msgid "**PY3**: True in Python 3, False in Python 2."
+msgstr ""
+
+# 8f5c3e60ac0747f2b79902da7a2bdae3
+#: ../../source/development_guide/py3compat.rst:16
+msgid "Unicode related"
+msgstr ""
+
+# b6a2d35346a64709aa527b4abda7d7ee
+#: ../../source/development_guide/py3compat.rst:17
+msgid ""
+"**decode**, **encode**: Shortcuts to decode or encode strings, using "
+"``sys.stdin.encoding`` by default, and using replacement characters on "
+"errors."
+msgstr ""
+
+# 73ee89f9102a4788baa41e5b229a9562
+#: ../../source/development_guide/py3compat.rst:18
+msgid ""
+"**str_to_unicode**, **unicode_to_str**, **str_to_bytes**, "
+"**bytes_to_str**: Convert to/from the platform's standard ``str`` type "
+"(bytes in Python 2, unicode in Python 3). Each function is a no-op on one"
+" of the two platforms."
+msgstr ""
+
+# a1dee6dc1a2c46c8a5ec2956070e3a10
+#: ../../source/development_guide/py3compat.rst:19
+msgid ""
+"**cast_unicode**, **cast_bytes**: Accept unknown unicode or byte strings,"
+" and convert them accordingly."
+msgstr ""
+
+# 47bc77989e70427ba4a7cc1cafd7915b
+#: ../../source/development_guide/py3compat.rst:20
+msgid ""
+"**cast_bytes_py2**: Casts unicode to byte strings on Python 2, but "
+"doesn't do anything on Python 3."
+msgstr ""
+
+# 4e8dd403d59b46b9bdb3d5a502311b1b
+# 80822ca0571045df983fab67282f3c6d
+#: ../../source/development_guide/py3compat.rst:23
+#: ../../source/development_guide/rest_api.rst:20
+msgid "Miscellaneous"
+msgstr ""
+
+# cb19d92f73c243b89006254015d4035b
+#: ../../source/development_guide/py3compat.rst:24
+msgid ""
+"**input**: Refers to ``raw_input`` on Python 2, ``input`` on Python 3 "
+"(needed because 2to3 only converts calls to raw_input, not assignments to"
+" other names)."
+msgstr ""
+
+# f998ff129b49488897a174f56cf0a528
+#: ../../source/development_guide/py3compat.rst:25
+msgid ""
+"**builtin_mod_name**: The string name you import to get the builtins "
+"(``__builtin__`` --> ``builtins``)."
+msgstr ""
+
+# 59da6755c02d48118c18d89fce1aa672
+#: ../../source/development_guide/py3compat.rst:26
+msgid "**isidentifier**: Checks if a string is a valid Python identifier."
+msgstr ""
+
+# 871668c2bc504ea298b8e5b945f27fad
+#: ../../source/development_guide/py3compat.rst:27
+msgid ""
+"**open**: Simple wrapper for Python 3 unicode-enabled open. Similar to "
+"``codecs.open``, but allows universal newlines. The current "
+"implementation only supports the very simplest use."
+msgstr ""
+
+# 43c6fddb42a946f0b38d44892e529478
+#: ../../source/development_guide/py3compat.rst:28
+msgid ""
+"**MethodType**: ``types.MethodType`` from Python 3. Takes only two "
+"arguments: function, instance. The class argument for Python 2 is filled "
+"automatically."
+msgstr ""
+
+# d94ea732977d42438b860b989f2a313c
+#: ../../source/development_guide/py3compat.rst:29
+msgid ""
+"**doctest_refactor_print**: Can be called on a string or a function (or "
+"used as a decorator). In Python 3, it converts print statements in "
+"doctests to print() calls. 2to3 does this for real doctests, but we need "
+"it in several other places. It simply uses a regex, which is good enough "
+"for the current cases."
+msgstr ""
+
+# e25ce2b110e44536a7af4a448c4eaa6f
+#: ../../source/development_guide/py3compat.rst:30
+msgid ""
+"**u_format**: Where tests use the repr() of a unicode string, it should "
+"be written ``'{u}\"thestring\"'``, and fed to this function, which will "
+"produce ``'u\"thestring\"'`` for Python 2, and ``'\"thestring\"'`` for "
+"Python 3. Can also be used as a decorator, to work on a docstring."
+msgstr ""
+
+# 679faf609998417083db36b8e8a04382
+#: ../../source/development_guide/py3compat.rst:31
+msgid ""
+"**execfile**: Makes a return on Python 3 (where it's no longer a "
+"builtin), and upgraded to handle Unicode filenames on Python 2."
+msgstr ""
+
+# 6070e9e6628b4aa09ed6655604054931
+#: ../../source/development_guide/releasing.rst:4
+msgid "Steps for Releasing IPython"
+msgstr ""
+
+# 474fc1460c5b4777abee30aa86907ed6
+#: ../../source/development_guide/releasing.rst:9
+msgid ""
+"This document contains notes about the process that is used to release "
+"IPython. Our release process is currently not very formal and could be "
+"improved."
+msgstr ""
+
+# c1f41e0fa6da4994b9b19379eb2bc23f
+#: ../../source/development_guide/releasing.rst:13
+msgid ""
+"Most of the release process is automated by the ``release`` script in the"
+" ``tools`` directory of our main repository. This document is just a "
+"handy reminder for the release manager."
+msgstr ""
+
+# a9b95a6e657e46b28c6e52dbcc201a18
+#: ../../source/development_guide/releasing.rst:18
+msgid "0. Environment variables"
+msgstr ""
+
+# 8d5be193613e4256b862d9f8e07041fa
+#: ../../source/development_guide/releasing.rst:20
+msgid ""
+"You can set some env variables to note previous release tag and current "
+"release milestone, version, and git tag:"
+msgstr ""
+
+# de9c9247cc124e2893d9ec0f227a643d
+#: ../../source/development_guide/releasing.rst:31
+msgid ""
+"These will be used later if you want to copy/paste, or you can just type "
+"the appropriate command when the time comes. These variables are not used"
+" by scripts (hence no ``export``)."
+msgstr ""
+
+# 6c0a769309184688b2fb014ff2f8c796
+#: ../../source/development_guide/releasing.rst:36
+msgid "1. Finish release notes"
+msgstr ""
+
+# e869e1ec6f9742c8bf23bacb602a60b9
+#: ../../source/development_guide/releasing.rst:38
+msgid "If a major release:"
+msgstr ""
+
+# 666b2be953434d93bb878827050ab63d
+#: ../../source/development_guide/releasing.rst:40
+msgid "merge any pull request notes into what's new:"
+msgstr ""
+
+# 3724968cf84e4e99b20121379514a4e0
+#: ../../source/development_guide/releasing.rst:46
+msgid ""
+"update ``docs/source/whatsnew/development.rst``, to ensure it covers the "
+"major points."
+msgstr ""
+
+# 75183279a5dc4eba93af2a9c26039722
+#: ../../source/development_guide/releasing.rst:48
+msgid "move the contents of ``development.rst`` to ``versionX.rst``"
+msgstr ""
+
+# c24f0f091e7949f3bf48de122e6334af
+#: ../../source/development_guide/releasing.rst:49
+msgid "generate summary of GitHub contributions, which can be done with:"
+msgstr ""
+
+# 4b8b45a7487a4bd4b31ae0b9d16bd8d0
+#: ../../source/development_guide/releasing.rst:55
+msgid ""
+"which may need some manual cleanup. Add the cleaned up result and add it "
+"to ``docs/source/whatsnew/github-stats-X.rst`` (make a new file, or add "
+"it to the top, depending on whether it is a major release). You can use:"
+msgstr ""
+
+# 843c53e7f17142a09ae961e46c0cfa4d
+#: ../../source/development_guide/releasing.rst:63
+msgid ""
+"to find duplicates and update ``.mailmap``. Before generating the GitHub "
+"stats, verify that all closed issues and pull requests :ref:`have "
+"appropriate milestones <github_workflow_milestones>`. `This search "
+"<https://github.com/ipython/ipython/issues?q=is%3Aclosed+no%3Amilestone+is%3Aissue>`__"
+" should return no results."
+msgstr ""
+
+# 73753e8a58e34787817ed3238ed82716
+#: ../../source/development_guide/releasing.rst:71
+msgid "2. Run the ``tools/build_release`` script"
+msgstr ""
+
+# 16ac313a93e049638a7f863d317ce63f
+#: ../../source/development_guide/releasing.rst:73
+msgid ""
+"This does all the file checking and building that the real release script"
+" will do. This will let you do test installations, check that the build "
+"procedure runs OK, etc. You may want to also do a test build of the docs."
+msgstr ""
+
+# e7ffacc8c81a4834a14d0b314e17690b
+#: ../../source/development_guide/releasing.rst:79
+msgid "3. Create and push the new tag"
+msgstr ""
+
+# b8b0871867cd4fcc80b3e368e4d95844
+#: ../../source/development_guide/releasing.rst:81
+msgid "Edit ``IPython/core/release.py`` to have the current version."
+msgstr ""
+
+# 3c370bad39e746c39111430ccc936310
+#: ../../source/development_guide/releasing.rst:83
+msgid "Commit the changes to release.py and jsversion:"
+msgstr ""
+
+# 76be04383e184e9da329e3aa0d098a3c
+#: ../../source/development_guide/releasing.rst:90
+msgid "Create and push the tag:"
+msgstr ""
+
+# 507ccfbc828145e9b0d1d4dfee83d563
+#: ../../source/development_guide/releasing.rst:97
+msgid "Update release.py back to ``x.y-dev`` or ``x.y-maint``, and push:"
+msgstr ""
+
+# 4877cb8b2c564ce5bd36962492de8d10
+#: ../../source/development_guide/releasing.rst:105
+msgid "4. Get a fresh clone of the tag for building the release:"
+msgstr ""
+
+# f52cc49dec9346f1b0c98b00a01785d9
+#: ../../source/development_guide/releasing.rst:113
+msgid "5. Run the ``release`` script"
+msgstr ""
+
+# cec8d17770c84efca03630775ab98d9d
+#: ../../source/development_guide/releasing.rst:119
+msgid ""
+"This makes the tarballs, zipfiles, and wheels. It posts them to "
+"archive.ipython.org and registers the release with PyPI."
+msgstr ""
+
+# f1685ede7c474aac941535883e418b17
+#: ../../source/development_guide/releasing.rst:122
+msgid "This will require that you have current wheel, Python 3.4 and Python 2.7."
+msgstr ""
+
+# 9a7908665a6b48459d926aaf5bde37ef
+#: ../../source/development_guide/releasing.rst:126
+msgid "7. Update the IPython website"
+msgstr ""
+
+# 84184061981f4f93a42f63d827dc1374
+#: ../../source/development_guide/releasing.rst:128
+msgid "release announcement (news, announcements)"
+msgstr ""
+
+# 107c03099a624fa686299b8bd37f9f80
+#: ../../source/development_guide/releasing.rst:129
+msgid "update current version and download links"
+msgstr ""
+
+# ee281737c90c44458452d4dceae0f9ad
+#: ../../source/development_guide/releasing.rst:130
+msgid "(If major release) update links on the documentation page"
+msgstr ""
+
+# 7e0ab94df3f949269ccc4e70aa69f593
+#: ../../source/development_guide/releasing.rst:133
+msgid "8. Drafting a short release announcement"
+msgstr ""
+
+# 36d7bb70789c43c8b561212dfb878412
+#: ../../source/development_guide/releasing.rst:135
+msgid ""
+"This should include i) highlights and ii) a link to the html version of "
+"the *What's new* section of the documentation."
+msgstr ""
+
+# 8182a6c415a44cedb150dcf452395ea9
+#: ../../source/development_guide/releasing.rst:138
+msgid "Post to mailing list, and link from Twitter."
+msgstr ""
+
+# 5b55b0e918cc4d15a5f839aea3cb8a98
+#: ../../source/development_guide/releasing.rst:141
+msgid "9. Update milestones on GitHub"
+msgstr ""
+
+# 816cc83ee1b345a78effb459097dc99e
+#: ../../source/development_guide/releasing.rst:143
+msgid "close the milestone you just released"
+msgstr ""
+
+# 5f3da01008e84e7aaf469cda8e6b8899
+#: ../../source/development_guide/releasing.rst:144
+msgid "open new milestone for (x, y+1), if it doesn't exist already"
+msgstr ""
+
+# 00455207637744b5a45442f59ea981a9
+#: ../../source/development_guide/releasing.rst:147
+msgid "10. Celebrate!"
+msgstr ""
+
+# 8cfab3dcdbf94612acc47b332d1b3feb
+#: ../../source/development_guide/rest_api.rst:4
+msgid "Architecture of IPython notebook's Dashboard"
+msgstr ""
+
+# e1e8a4f3cb2e41ac8593e4fc18d62d01
+#: ../../source/development_guide/rest_api.rst:9
+msgid ""
+"The tables below show the current RESTful web service architecture "
+"implemented in IPython notebook. The listed URL's use the HTTP verbs to "
+"return representations of the desired resource."
+msgstr ""
+
+# 2bc47a02cbd945568fb33dc9224b0f07
+#: ../../source/development_guide/rest_api.rst:13
+msgid ""
+"We are in the process of creating a new dashboard architecture for the "
+"IPython notebook, which will allow the user to navigate through multiple "
+"directory files to find desired notebooks."
+msgstr ""
+
+# 4fdebc16479d422b8922fb8f9fce7cc5
+#: ../../source/development_guide/rest_api.rst:18
+msgid "Current Architecture"
+msgstr ""
+
+# fe498a404e0a4c30ae3e620b1d10cc34
+# 9ec2dc9f4138483bb35b689d665d6639
+# b3c5e3a8af40456783a930038b3c4809
+# 98e0a158be994fd88c0bedf17a6b36ae
+# 6e16b609a4ed40f7a2290b0eb520d729
+# fb83ef26d0b44c429af002716f4abdc7
+# 9b2ccd8da72441869fea8111af33760c
+# 96da17585dfd4826bffb704c0793263d
+#: ../../source/development_guide/rest_api.rst:23
+#: ../../source/development_guide/rest_api.rst:38
+#: ../../source/development_guide/rest_api.rst:112
+#: ../../source/development_guide/rest_api.rst:145
+#: ../../source/development_guide/rest_api.rst:169
+#: ../../source/development_guide/rest_api.rst:189
+#: ../../source/development_guide/rest_api.rst:212
+#: ../../source/development_guide/rest_api.rst:242
+msgid "HTTP verb"
+msgstr ""
+
+# e82c6c0b009d44669ddc88b336f64581
+# 7bd84f2c31bb407293fcfa5046887b9d
+# 96d32c89f5ca4ab8a563425ba6b8065e
+# 1fbabf44108c41ddb9ed1872f64855c7
+# 229067f6b1ff4d939c63260bd2e3fe20
+# 7ddac55fc7ea4abda4866b2bf48d8019
+# 74921be61dbf48f8a7c10d2ea8bfcdea
+#: ../../source/development_guide/rest_api.rst:23
+#: ../../source/development_guide/rest_api.rst:38
+#: ../../source/development_guide/rest_api.rst:145
+#: ../../source/development_guide/rest_api.rst:169
+#: ../../source/development_guide/rest_api.rst:189
+#: ../../source/development_guide/rest_api.rst:212
+#: ../../source/development_guide/rest_api.rst:242
+msgid "URL"
+msgstr ""
+
+# de2ab75d45694fb984403d78fddeaca2
+# deb3e95c78574322a84329ee678366dd
+# 9361819f0837429babf92f04c4595287
+# 7a06c5af6c6f4f8cb20893c23c5936f3
+# 32c8b21b1d474f68acf0742198d18634
+# f0d3556b5b834db28df348b1f153db64
+# b9924939f4d34b9eab2effd17d29121b
+# 2eb6a4f4943d48fea7dab628f14d222e
+#: ../../source/development_guide/rest_api.rst:23
+#: ../../source/development_guide/rest_api.rst:38
+#: ../../source/development_guide/rest_api.rst:112
+#: ../../source/development_guide/rest_api.rst:145
+#: ../../source/development_guide/rest_api.rst:169
+#: ../../source/development_guide/rest_api.rst:189
+#: ../../source/development_guide/rest_api.rst:212
+#: ../../source/development_guide/rest_api.rst:242
+msgid "Action"
+msgstr ""
+
+# 763401d3039247d79e58ce1ec12fd518
+# 5afcd411ddb747738c3352f5189e036e
+# 78df1bb43b284a90a495991bf9d3e890
+# ab0547f84b784914bedd133e870b0057
+# 6cecf55719c145c9ae0796cbb378ac92
+# 4c4b2d742a8e4ea19985b66a37bb67a7
+# d27bb38bd52b4a6593a520840121b7ac
+# 5d1afd0c0a934b6bbd21eb57e7e7cbc7
+# fe6be4c15d914e3bbbf61432eee841ad
+# c487a63b691042b59b1f83490001ce47
+# 14c8617aa9b3490ab38b80f37f3fcf4c
+# 08f7c8eb565445b180c2fd363fa0f054
+# 50663441342e4b959bceae65ee26c8f6
+# 741a15dfa12a4f38b3f93bfb536647fb
+# f1181df2b3154c76bc292c53aa05391e
+# 91931ae80d9f490c850685d2db412081
+# 6037f22576504cb3a6fc7c3010dc2192
+# bd10507b0d50427782417823e54cd3be
+# cb2f272b24ce45bc894c2946f1267dcc
+# 480cf3b73cc148d7ad7bf74c6c263c55
+# 23b5ee04c60745ddbdcdf2cfd2219e93
+# 73c5e9f321b34b6abd5421f2b40285a1
+# 51cbcb5b73ea4c19ab76aef565c16595
+# b488e84daab844beb51647a2057fc030
+# bf3bc78ec5ab439d9c8d693b0f0491f5
+# de5dc5031a1e4aa4be45a7414af059b0
+# be05eeb20901486d80386c7ee69aa827
+# 5e2686db0ed743cdba7ef66620ee9939
+# 657ece27d618456b8c1d6c33ddf1f800
+# 3428328645e242ea89296246917f99f4
+# b72e3436c8de4d38ae7000fabba5d221
+# 33784dfc6de24eea92bd419c1a486195
+# 5386f0dbdf2c4ec99c19ff3369bd4a78
+#: ../../source/development_guide/rest_api.rst:26
+#: ../../source/development_guide/rest_api.rst:28
+#: ../../source/development_guide/rest_api.rst:32
+#: ../../source/development_guide/rest_api.rst:41
+#: ../../source/development_guide/rest_api.rst:44
+#: ../../source/development_guide/rest_api.rst:48
+#: ../../source/development_guide/rest_api.rst:88
+#: ../../source/development_guide/rest_api.rst:115
+#: ../../source/development_guide/rest_api.rst:117
+#: ../../source/development_guide/rest_api.rst:134
+#: ../../source/development_guide/rest_api.rst:137
+#: ../../source/development_guide/rest_api.rst:148
+#: ../../source/development_guide/rest_api.rst:155
+#: ../../source/development_guide/rest_api.rst:172
+#: ../../source/development_guide/rest_api.rst:174
+#: ../../source/development_guide/rest_api.rst:192
+#: ../../source/development_guide/rest_api.rst:199
+#: ../../source/development_guide/rest_api.rst:215
+#: ../../source/development_guide/rest_api.rst:218
+#: ../../source/development_guide/rest_api.rst:220
+#: ../../source/development_guide/rest_api.rst:224
+#: ../../source/development_guide/rest_api.rst:227
+#: ../../source/development_guide/rest_api.rst:231
+#: ../../source/development_guide/rest_api.rst:235
+#: ../../source/development_guide/rest_api.rst:245
+#: ../../source/development_guide/rest_api.rst:248
+#: ../../source/development_guide/rest_api.rst:251
+#: ../../source/development_guide/rest_api.rst:255
+#: ../../source/development_guide/rest_api.rst:259
+#: ../../source/development_guide/rest_api.rst:263
+#: ../../source/development_guide/rest_api.rst:266
+#: ../../source/development_guide/rest_api.rst:268
+#: ../../source/development_guide/rest_api.rst:276
+msgid "``GET``"
+msgstr ""
+
+# dffd12ae712b43ce8d6cf80d826c8017
+#: ../../source/development_guide/rest_api.rst:26
+msgid "/.\\*/\\"
+msgstr ""
+
+# 5ce071fb24d14854b986d15e69e2114e
+#: ../../source/development_guide/rest_api.rst:26
+msgid "Strips trailing slashes."
+msgstr ""
+
+# 1a776f1e82e44612aa2fdec9644afe9e
+#: ../../source/development_guide/rest_api.rst:28
+msgid "\\/api\\"
+msgstr ""
+
+# cbed5e8bbde04a74aa860b0dbf7e4880
+#: ../../source/development_guide/rest_api.rst:28
+msgid "Returns api version information."
+msgstr ""
+
+# 486f00bc379041ddb7f6fcdbd9e95e7d
+#: ../../source/development_guide/rest_api.rst:30
+msgid "``*``"
+msgstr ""
+
+# feff0224746046688e5c25ff5c3c6171
+#: ../../source/development_guide/rest_api.rst:30
+msgid "\\/api/notebooks"
+msgstr ""
+
+# 01a8e34b3a694b098bb91525785b7e36
+#: ../../source/development_guide/rest_api.rst:30
+msgid "Deprecated: redirect to /api/contents"
+msgstr ""
+
+# d8dabd59231844c6ad324fc4d271e6af
+#: ../../source/development_guide/rest_api.rst:32
+msgid "\\/api/nbconvert"
+msgstr ""
+
+# dacbd2c6987f42409c2feb109d0dde44
+#: ../../source/development_guide/rest_api.rst:35
+msgid "Notebook contents API."
+msgstr ""
+
+# aef631b0aed447688207bd806340cd63
+#: ../../source/development_guide/rest_api.rst:41
+msgid "/api/contents"
+msgstr ""
+
+# f5cde97e47e548379614ab3affbdddf0
+#: ../../source/development_guide/rest_api.rst:41
+msgid "Return a model for the base directory. See /api/contents/<path>/<file>."
+msgstr ""
+
+# 1448b28828454b7d9d1ed2853bcaf819
+#: ../../source/development_guide/rest_api.rst:44
+msgid "/api/contents/ <file>"
+msgstr ""
+
+# 3c765646a94f4d75a4d7c5ad89e8fe42
+#: ../../source/development_guide/rest_api.rst:44
+msgid ""
+"Return a model for the given file in the base directory. See "
+"/api/contents/<path>/<file>."
+msgstr ""
+
+# a4605641dd4f4cfebfe87b0155e422b2
+# 1e7d59f407dd49099f7351c0553beac9
+# 712b8ef05e294ee0b1b61e14ac733a19
+# 13225189dbd94717a156bab23927b5a1
+# 1d9baa4d593b4548af6606a84a2d2731
+#: ../../source/development_guide/rest_api.rst:48
+#: ../../source/development_guide/rest_api.rst:53
+#: ../../source/development_guide/rest_api.rst:70
+#: ../../source/development_guide/rest_api.rst:73
+#: ../../source/development_guide/rest_api.rst:85
+msgid "/api/contents/ <path>/<file>"
+msgstr ""
+
+# ed7bc4dabc754ad697cb7d97b98947f9
+#: ../../source/development_guide/rest_api.rst:48
+msgid ""
+"Return a model for a file or directory. A directory model contains a list"
+" of models (without content) of the files and directories it contains."
+msgstr ""
+
+# dfd73d904a7d4864aacd914ec6e2d4a3
+# 6eed25236c154ee7af6ba6c83fb8edaf
+#: ../../source/development_guide/rest_api.rst:53
+#: ../../source/development_guide/rest_api.rst:202
+msgid "``PUT``"
+msgstr ""
+
+# eb1c17f460184abe9577e7513ecd048e
+#: ../../source/development_guide/rest_api.rst:53
+msgid ""
+"Saves the file in the location specified by name and path. PUT is very "
+"similar to POST, but the requester specifies the name, where as with "
+"POST, the server picks the name. PUT /api/contents/path/Name.ipynb Save "
+"notebook at ``path/Name.ipynb``. Notebook structure is specified in "
+"``content`` key of JSON request body. If content is not specified, create"
+" a new empty notebook. PUT /api/contents/path/Name.ipynb with JSON body "
+"{\"copy\\_from\" : \"[path/to/] OtherNotebook.ipynb\"} Copy OtherNotebook"
+" to Name"
+msgstr ""
+
+# ceb6808281824129852733d7c9e4eeb5
+# 5625ae0380c34bc090c776621551f97e
+#: ../../source/development_guide/rest_api.rst:70
+#: ../../source/development_guide/rest_api.rst:158
+msgid "``PATCH``"
+msgstr ""
+
+# 75933adea4084527b478230d805980a3
+#: ../../source/development_guide/rest_api.rst:70
+msgid "Renames a notebook without re-uploading content."
+msgstr ""
+
+# 17c634548eb74c01a0dc92e4f58f49b4
+# caf03f3932b148388a33c42c74810505
+# fa50085f68ac4687be99cc75d2422897
+# 9d82e240de48406fa0d56bf23cc5c36c
+# d10b01d8ba9242d28457c629dba7ab6a
+# aaced630d1a043d7aed4dcba55b355e1
+# db725a152cba4888803919aec39c9ec6
+# 1fae8fe1e28345118a5d9c21b4b17854
+# 9961f9c83d9d4eceb9c2d7c49f3dfe62
+#: ../../source/development_guide/rest_api.rst:73
+#: ../../source/development_guide/rest_api.rst:92
+#: ../../source/development_guide/rest_api.rst:96
+#: ../../source/development_guide/rest_api.rst:120
+#: ../../source/development_guide/rest_api.rst:126
+#: ../../source/development_guide/rest_api.rst:150
+#: ../../source/development_guide/rest_api.rst:177
+#: ../../source/development_guide/rest_api.rst:195
+#: ../../source/development_guide/rest_api.rst:271
+msgid "``POST``"
+msgstr ""
+
+# 0536f641b6934319af698bda9cedf4e7
+#: ../../source/development_guide/rest_api.rst:73
+msgid ""
+"Creates a new file or directory in the specified path. POST creates new "
+"files or directories. The server always decides on the name. POST "
+"/api/contents/path New untitled notebook in path. If content specified, "
+"upload a notebook, otherwise start empty. POST /api/contents/path with "
+"body {\"copy\\_from\":\"OtherNotebook.ipynb\"} New copy of OtherNotebook "
+"in path"
+msgstr ""
+
+# d44cc798e58e4cad9b54269ba21156ad
+# ef7cfa1704f143d092483ccd5da72212
+# 30b3b06e66a24d61a5b24a611ccc0230
+# 9e98d4862452477c8ce4249aac75162e
+# 6c47ab0a66b644d28ac57748a4937e45
+#: ../../source/development_guide/rest_api.rst:85
+#: ../../source/development_guide/rest_api.rst:102
+#: ../../source/development_guide/rest_api.rst:123
+#: ../../source/development_guide/rest_api.rst:162
+#: ../../source/development_guide/rest_api.rst:205
+msgid "``DELETE``"
+msgstr ""
+
+# 9ceef3bacd5340ad8d5aeec1466a076b
+#: ../../source/development_guide/rest_api.rst:85
+msgid "delete a file in the given path."
+msgstr ""
+
+# 202361a1c09e47c2ad83579b433f5f4f
+# 15dde1b4832b42e7ad20afa5bee4e930
+#: ../../source/development_guide/rest_api.rst:88
+#: ../../source/development_guide/rest_api.rst:92
+msgid "/api/contents/ <path>/<file> /checkpoints"
+msgstr ""
+
+# 05ec1d01737d4688a6567dbaa710c7c3
+#: ../../source/development_guide/rest_api.rst:88
+msgid "get lists checkpoint for a file."
+msgstr ""
+
+# ca6e8400ef244624b6839870077fd6e3
+#: ../../source/development_guide/rest_api.rst:92
+msgid "post creates a new checkpoint."
+msgstr ""
+
+# 992ccde95573448aa6f41302d413bb40
+# a8be10f1246244ed965f085222bf11ff
+#: ../../source/development_guide/rest_api.rst:96
+#: ../../source/development_guide/rest_api.rst:102
+msgid "/api/contents/ <path>/<file> /checkpoints/ <checkpoint\\_ id>"
+msgstr ""
+
+# 2cd3d316ad3441c7b0d552eb718b6d28
+#: ../../source/development_guide/rest_api.rst:96
+msgid "post restores a file from a checkpoint."
+msgstr ""
+
+# 5bfe5a66d89d446fb55eb87325c487f3
+#: ../../source/development_guide/rest_api.rst:102
+msgid "delete clears a checkpoint for a given file."
+msgstr ""
+
+# a15416a2e61a4aaab583905d4af0963f
+#: ../../source/development_guide/rest_api.rst:109
+msgid "Kernel API"
+msgstr ""
+
+# c83393dead364609ba046887ad58eda4
+#: ../../source/development_guide/rest_api.rst:112
+msgid "URI"
+msgstr ""
+
+# a22a8dde569a49fdaabee69c4c8a4922
+# 9ce37afd4749427b86a9bdb405154753
+#: ../../source/development_guide/rest_api.rst:115
+#: ../../source/development_guide/rest_api.rst:120
+msgid "/api/kernels"
+msgstr ""
+
+# 61ec1cbf32c64bbfb1ea3eaa0d19192c
+#: ../../source/development_guide/rest_api.rst:115
+msgid "Return a model of all kernels."
+msgstr ""
+
+# ef7ea762242943969ec5c1e7cea1eada
+# 31cfc33080984d38b979a875687f4a62
+#: ../../source/development_guide/rest_api.rst:117
+#: ../../source/development_guide/rest_api.rst:123
+msgid "/api/kernels /<kernel\\_id>"
+msgstr ""
+
+# 3547722485614d43b0f8342ef19860bd
+#: ../../source/development_guide/rest_api.rst:117
+msgid "Return a model of kernel with given kernel id."
+msgstr ""
+
+# 50a8cf2db9a44b2d8bd1229939621a61
+#: ../../source/development_guide/rest_api.rst:120
+msgid "Start a new kernel with default or given name."
+msgstr ""
+
+# 5e1f9fc90a784841ac614c10dc3516db
+#: ../../source/development_guide/rest_api.rst:123
+msgid "Shutdown the given kernel."
+msgstr ""
+
+# aba500823d0a4193996e93e699a48012
+#: ../../source/development_guide/rest_api.rst:126
+msgid "/api/kernels /<kernel\\_id> /<action>"
+msgstr ""
+
+# f15d513346c34e96b482db11c73ebe2f
+#: ../../source/development_guide/rest_api.rst:126
+msgid ""
+"Perform action on kernel with given kernel id. Actions can be "
+"\"interrupt\" or \"restart\"."
+msgstr ""
+
+# 60b68955ab9746548149c88070e09d1b
+#: ../../source/development_guide/rest_api.rst:130
+msgid "``WS``"
+msgstr ""
+
+# e8e11e0467134d0c9c7792aa498d65dd
+#: ../../source/development_guide/rest_api.rst:130
+msgid "/api/kernels /<kernel\\_id> /channels"
+msgstr ""
+
+# de4521b7a70a4a78987145e026a49607
+#: ../../source/development_guide/rest_api.rst:130
+msgid "Websocket stream"
+msgstr ""
+
+# 70afdc93b80448788de5ee906115a591
+#: ../../source/development_guide/rest_api.rst:134
+msgid "/api/kernel specs"
+msgstr ""
+
+# e18bed8d78d245a4a5c2973178a7528e
+#: ../../source/development_guide/rest_api.rst:134
+msgid "Return a spec model of all available kernels."
+msgstr ""
+
+# a611384ba3e146aab1d36ad045577752
+#: ../../source/development_guide/rest_api.rst:137
+msgid "/api/kernel specs/ <kernel\\_name>"
+msgstr ""
+
+# 7505bc902e344212856aab8a1be8f17a
+#: ../../source/development_guide/rest_api.rst:137
+msgid "Return a spec model of all available kernels with a given kernel name."
+msgstr ""
+
+# 81461b43739140fc8fc0ad640eb498d5
+#: ../../source/development_guide/rest_api.rst:142
+msgid "Sessions API"
+msgstr ""
+
+# 08e4e18abc2244ceb8abf296ca974619
+#: ../../source/development_guide/rest_api.rst:148
+msgid "/api/sesions"
+msgstr ""
+
+# 6a2b019dacde41fba26edae7451aa2e5
+#: ../../source/development_guide/rest_api.rst:148
+msgid "Return model of active sessions."
+msgstr ""
+
+# e56fef54527d48dc8ba3b121cd264e40
+#: ../../source/development_guide/rest_api.rst:150
+msgid "/api/sessions"
+msgstr ""
+
+# f76c7178430e4df4884d2e39182e9c8b
+#: ../../source/development_guide/rest_api.rst:150
+msgid ""
+"If session does not already exist, create a new session with given "
+"notebook name and path and given kernel name. Return active session."
+msgstr ""
+
+# 5a4883c124374c5badd2612c1995b17e
+# 62a139f0726b4521b1217f734f0a7a3c
+# 58e922b4809b4ef6a9c622a81b6e8037
+#: ../../source/development_guide/rest_api.rst:155
+#: ../../source/development_guide/rest_api.rst:158
+#: ../../source/development_guide/rest_api.rst:162
+msgid "/api/sessions /<session\\_id>"
+msgstr ""
+
+# 1a7b5abb09a84f49a0fe343a7f667a61
+#: ../../source/development_guide/rest_api.rst:155
+msgid "Return model of active session with given session id."
+msgstr ""
+
+# b5c11a8bffec49dca8bfc9c581d9bf4f
+#: ../../source/development_guide/rest_api.rst:158
+msgid ""
+"Return model of active session with notebook name or path of session with"
+" given session id."
+msgstr ""
+
+# 83e67dff5c6c4c4282abc35a809886d6
+#: ../../source/development_guide/rest_api.rst:162
+msgid "Delete model of active session with given session id."
+msgstr ""
+
+# ce880e4d63aa4f60b1cde75c9f07ec78
+#: ../../source/development_guide/rest_api.rst:166
+msgid "Clusters API"
+msgstr ""
+
+# 57b49bd43c8946b885d05a550d10998b
+#: ../../source/development_guide/rest_api.rst:172
+msgid "/api/clusters"
+msgstr ""
+
+# d597dde5def54af390dfb8c068248ad8
+#: ../../source/development_guide/rest_api.rst:172
+msgid "Return model of clusters."
+msgstr ""
+
+# 8dcc8aa616184ff39f7509a2821ba18c
+#: ../../source/development_guide/rest_api.rst:174
+msgid "/api/clusters <cluster\\_id>"
+msgstr ""
+
+# b7c8e1591a6d4ffe8c6fccfd070ec56f
+#: ../../source/development_guide/rest_api.rst:174
+msgid "Return model of given cluster."
+msgstr ""
+
+# 67a870b779114a1e8b55bc3682417ea9
+#: ../../source/development_guide/rest_api.rst:177
+msgid "/api/clusters <cluster\\_id> <action>"
+msgstr ""
+
+# 985c28ae15c543afb7ad154db3b46f50
+#: ../../source/development_guide/rest_api.rst:177
+msgid ""
+"Perform action with given clusters. Valid actions are \"start\" and "
+"\"stop\""
+msgstr ""
+
+# 819cb4187e2d4cc6a0e7107dc259977b
+#: ../../source/development_guide/rest_api.rst:183
+msgid "Old Architecture"
+msgstr ""
+
+# b0cef61ad6954909ac7f0e849285224f
+#: ../../source/development_guide/rest_api.rst:185
+msgid ""
+"This chart shows the web-services in the single directory IPython "
+"notebook."
+msgstr ""
+
+# fdeb7827a6d343a9a6066a8165be18d4
+# c2ec6a32978841179b74bed14bbd3ea1
+#: ../../source/development_guide/rest_api.rst:192
+#: ../../source/development_guide/rest_api.rst:195
+msgid "/notebooks"
+msgstr ""
+
+# af756cf6dda9437e9945475459ef4e5f
+#: ../../source/development_guide/rest_api.rst:192
+msgid "return list of dicts with each notebook's info"
+msgstr ""
+
+# 944132b8c9934cab857e811235689f40
+#: ../../source/development_guide/rest_api.rst:195
+msgid ""
+"if sending a body, saving that body as a new notebook; if no body, create"
+" a a new notebook."
+msgstr ""
+
+# 903e8f3495274ef5bd24dafa8c5004dd
+# c6e1a714498f409eabce7a39a40568aa
+# e4621bb9f8c34d9ab8d60469bac19bd2
+#: ../../source/development_guide/rest_api.rst:199
+#: ../../source/development_guide/rest_api.rst:202
+#: ../../source/development_guide/rest_api.rst:205
+msgid "/notebooks /<notebook\\_id>"
+msgstr ""
+
+# fa3253b06f424c3fa9827596beeb038e
+#: ../../source/development_guide/rest_api.rst:199
+msgid "get JSON data for notebook"
+msgstr ""
+
+# 3ac66b01afa544639b6e56e520fcf336
+#: ../../source/development_guide/rest_api.rst:202
+msgid "saves an existing notebook with body data"
+msgstr ""
+
+# f2d62f8edd154a1694c266cb01d161da
+#: ../../source/development_guide/rest_api.rst:205
+msgid "deletes the notebook with the given ID"
+msgstr ""
+
+# 76792199079742d7ba728bfd36c6e12b
+#: ../../source/development_guide/rest_api.rst:209
+msgid "This chart shows the architecture for the IPython notebook website."
+msgstr ""
+
+# 4b327f0782284c11bffe95726ba3d093
+#: ../../source/development_guide/rest_api.rst:215
+msgid "/"
+msgstr ""
+
+# 8f2f602d40da4dc693e34cfbfdf8f3b7
+#: ../../source/development_guide/rest_api.rst:215
+msgid "navigates user to dashboard of notebooks and clusters."
+msgstr ""
+
+# 29f4821c5000491d8ff30a06d4a649b5
+#: ../../source/development_guide/rest_api.rst:218
+msgid "/<notebook\\_id>"
+msgstr ""
+
+# 6d09e8fe05b141529561184b06fe4678
+#: ../../source/development_guide/rest_api.rst:218
+msgid "go to wepage for that notebook"
+msgstr ""
+
+# 24836333d48d47d3986688ce667283a7
+#: ../../source/development_guide/rest_api.rst:220
+msgid "/new"
+msgstr ""
+
+# 4a85061aeca048fd9010b52afc06f83b
+#: ../../source/development_guide/rest_api.rst:220
+msgid ""
+"creates a new notebook with profile (or default, if no profile exists) "
+"setings"
+msgstr ""
+
+# ff97d5e191354ac49a2e70163427c4c2
+#: ../../source/development_guide/rest_api.rst:224
+msgid "/<notebook\\_id> /copy"
+msgstr ""
+
+# 0589cdc545964cf0926fa8eb459123b5
+#: ../../source/development_guide/rest_api.rst:224
+msgid "opens a duplicate copy or the notebook with the given ID in a new tab"
+msgstr ""
+
+# ff517ea185b049dfa1f37f0135487226
+#: ../../source/development_guide/rest_api.rst:227
+msgid "/<notebook\\_id> /print"
+msgstr ""
+
+# 70ade4f0505d436c949d0a14cea03ce6
+#: ../../source/development_guide/rest_api.rst:227
+msgid ""
+"prints the notebook with the given ID; if notebook doesn't exist, "
+"displays error message"
+msgstr ""
+
+# ef1e03a67e434bcebb694721b956c0a4
+#: ../../source/development_guide/rest_api.rst:231
+msgid "/login"
+msgstr ""
+
+# 54945e6f06af47a3948156bb62efe0f2
+#: ../../source/development_guide/rest_api.rst:231
+msgid ""
+"navigates to login page; if no user profile is defined, it navigates user"
+" to dashboard"
+msgstr ""
+
+# 7b8ee796640a4c1a86cd204b274f42d6
+#: ../../source/development_guide/rest_api.rst:235
+msgid "/logout"
+msgstr ""
+
+# 2f224f13e6a5446bb8683b23cf41436a
+#: ../../source/development_guide/rest_api.rst:235
+msgid "logs out of current profile, and navigates user to login page"
+msgstr ""
+
+# 461cac9f248140918942166ba0e0b01d
+#: ../../source/development_guide/rest_api.rst:239
+msgid "This chart shows the Web services that act on the kernels and clusters."
+msgstr ""
+
+# de02268e21c94de3a4759a55773c3ea2
+#: ../../source/development_guide/rest_api.rst:245
+msgid "/kernels"
+msgstr ""
+
+# d5845cac753b4c1abdc62104632c17c5
+#: ../../source/development_guide/rest_api.rst:245
+msgid "return the list of kernel IDs currently running"
+msgstr ""
+
+# 2bb5311d7d954a3f9c8f4ca85472bf76
+#: ../../source/development_guide/rest_api.rst:248
+msgid "/kernels /<kernel\\_id>"
+msgstr ""
+
+# 77fd3900942741b09303446a7004120a
+# c7c4420e0aa341a2af83c24a2d1767fe
+# 13d18f18fab7449d9f5a9ebbb3bd0724
+# f9521b40d2cc4a8caf50dc7788d4d135
+# 2a226c3f624349ae9a76a4adef40b2a8
+#: ../../source/development_guide/rest_api.rst:248
+#: ../../source/development_guide/rest_api.rst:255
+#: ../../source/development_guide/rest_api.rst:259
+#: ../../source/development_guide/rest_api.rst:263
+#: ../../source/development_guide/rest_api.rst:266
+msgid "---"
+msgstr ""
+
+# e136d989d52e439e8e6d924f02a1268b
+#: ../../source/development_guide/rest_api.rst:251
+msgid "/kernels /<kernel\\_id> <action>"
+msgstr ""
+
+# 59d771a7602d4cf0aba2314257cb6ac8
+#: ../../source/development_guide/rest_api.rst:251
+msgid "performs action (restart/kill) kernel with given ID"
+msgstr ""
+
+# e70044bc6b954eb5982a61f2d9f35fc4
+#: ../../source/development_guide/rest_api.rst:255
+msgid "/kernels /<kernel\\_id> /iopub"
+msgstr ""
+
+# 368154e364f94b5b9f449a21c01529e5
+#: ../../source/development_guide/rest_api.rst:259
+msgid "/kernels /<kernel\\_id> /shell"
+msgstr ""
+
+# 562e776b3fbb4f7e91b6208e783b6a15
+#: ../../source/development_guide/rest_api.rst:263
+msgid "/rstservice/ render"
+msgstr ""
+
+# 05a3c48c4b62422eb4d4079b522f3f99
+#: ../../source/development_guide/rest_api.rst:266
+msgid "/files/(.\\*)"
+msgstr ""
+
+# 569ac69c0a2c4b75b0e0de52468cbc7e
+#: ../../source/development_guide/rest_api.rst:268
+msgid "/clusters"
+msgstr ""
+
+# 84144edf06b64ad8bd71aa7cf35943f3
+#: ../../source/development_guide/rest_api.rst:268
+msgid "returns a list of dicts with each cluster's information"
+msgstr ""
+
+# 081da73e88514f32b9fbd6e610569422
+#: ../../source/development_guide/rest_api.rst:271
+msgid "/clusters /<profile\\_id> /<cluster\\_ action>"
+msgstr ""
+
+# ed0932c1d56548e598921efeeb5cc74b
+#: ../../source/development_guide/rest_api.rst:271
+msgid "performs action (start/stop) on cluster with given profile ID"
+msgstr ""
+
+# 4499cb69e075466ca0738fe9600eac8f
+#: ../../source/development_guide/rest_api.rst:276
+msgid "/clusters /<profile\\_id>"
+msgstr ""
+
+# 5144fcfdab6143b1975f8e8837e184db
+#: ../../source/development_guide/rest_api.rst:276
+msgid "returns the JSON data for cluster with given profile ID"
+msgstr ""
+
+# ecaf0b8eb09146c1990b346ac4c12ea8
+#: ../../source/development_guide/sphinx_directive.rst:4
+msgid "IPython Sphinx Directive"
+msgstr ""
+
+# 1a6af3d02129462689efcf761c98db39
+#: ../../source/development_guide/sphinx_directive.rst:9
+msgid ""
+"The ipython directive is a stateful ipython shell for embedding in sphinx"
+" documents.  It knows about standard ipython prompts, and extracts the "
+"input and output lines.  These prompts will be renumbered starting at "
+"``1``.  The inputs will be fed to an embedded ipython interpreter and the"
+" outputs from that interpreter will be inserted as well.  For example, "
+"code blocks like the following::"
+msgstr ""
+
+# be1f1c5ba2854ae9abcec8403c98b857
+#: ../../source/development_guide/sphinx_directive.rst:23
+msgid "will be rendered as"
+msgstr ""
+
+# 95d3f01bb5da46e7b1fc259b1f68fd9b
+#: ../../source/development_guide/sphinx_directive.rst:34
+msgid ""
+"This tutorial should be read side-by-side with the Sphinx source for this"
+" document because otherwise you will see only the rendered output and not"
+" the code that generated it.  Excepting the example above, we will not in"
+" general be showing the literal ReST in this document that generates the "
+"rendered output."
+msgstr ""
+
+# 7a9bcf56e253423cbc1c6256b5c4501e
+#: ../../source/development_guide/sphinx_directive.rst:41
+msgid ""
+"The state from previous sessions is stored, and standard error is "
+"trapped. At doc build time, ipython's output and std err will be "
+"inserted, and prompts will be renumbered. So the prompt below should be "
+"renumbered in the rendered docs, and pick up where the block above left "
+"off."
+msgstr ""
+
+# 8661fbdc92ab401b81044a193e9cdead
+#: ../../source/development_guide/sphinx_directive.rst:66
+msgid ""
+"The embedded interpreter supports some limited markup.  For example, you "
+"can put comments in your ipython sessions, which are reported verbatim.  "
+"There are some handy \"pseudo-decorators\" that let you doctest the "
+"output.  The inputs are fed to an embedded ipython session and the "
+"outputs from the ipython session are inserted into your doc.  If the "
+"output in your doc and in the ipython session don't match on a doctest "
+"assertion, an error will be"
+msgstr ""
+
+# 3f187933d2ca4ee8a3754fca19ba9c27
+#: ../../source/development_guide/sphinx_directive.rst:92
+msgid "Multi-line input is supported."
+msgstr ""
+
+# 2f404b366a7c4e33a08ad3536a33b782
+#: ../../source/development_guide/sphinx_directive.rst:103
+msgid ""
+"You can do doctesting on multi-line output as well.  Just be careful when"
+" using non-deterministic inputs like random numbers in the ipython "
+"directive, because your inputs are ruin through a live interpreter, so if"
+" you are doctesting random output you will get an error.  Here we "
+"\"seed\" the random number generator for deterministic output, and we "
+"suppress the seed line so it doesn't show up in the rendered output"
+msgstr ""
+
+# cd769347eca441e6ae41012cbd6c3368
+#: ../../source/development_guide/sphinx_directive.rst:132
+msgid "Another demonstration of multi-line input and output"
+msgstr ""
+
+# e25d68950302401aab1b4a8efbca2b28
+#: ../../source/development_guide/sphinx_directive.rst:156
+msgid ""
+"Most of the \"pseudo-decorators\" can be used an options to ipython mode."
+"  For example, to setup matplotlib pylab but suppress the output, you can"
+" do.  When using the matplotlib ``use`` directive, it should occur before"
+" any import of pylab.  This will not show up in the rendered docs, but "
+"the commands will be executed in the embedded interpreter and subsequent "
+"line numbers will be incremented to reflect the inputs::"
+msgstr ""
+
+# d512e1317bf34899ba98769e96504ffc
+#: ../../source/development_guide/sphinx_directive.rst:177
+msgid ""
+"Likewise, you can set ``:doctest:`` or ``:verbatim:`` to apply these "
+"settings to the entire block.  For example,"
+msgstr ""
+
+# 750e9c6085cb47f494525d6d700016eb
+#: ../../source/development_guide/sphinx_directive.rst:211
+msgid ""
+"You can create one or more pyplot plots and insert them with the "
+"``@savefig`` decorator."
+msgstr ""
+
+# 7e0cba55af2c4726b80908fc11bd87d4
+#: ../../source/development_guide/sphinx_directive.rst:223
+msgid ""
+"In a subsequent session, we can update the current figure with some text,"
+" and then resave"
+msgstr ""
+
+# 26224a89dd6b4104993adddc105e30d2
+#: ../../source/development_guide/sphinx_directive.rst:236
+msgid "You can also have function definitions included in the source."
+msgstr ""
+
+# 4fee5a90c5924503a796fe31c61836cd
+#: ../../source/development_guide/sphinx_directive.rst:250
+msgid "Then call it from a subsequent section."
+msgstr ""
+
+# 40f4c170c68d465ebd0facc61091d74c
+#: ../../source/development_guide/sphinx_directive.rst:262
+msgid "Writing Pure Python Code"
+msgstr ""
+
+# 27b06e32117148dd9ac27196ea17cff7
+#: ../../source/development_guide/sphinx_directive.rst:264
+msgid ""
+"Pure python code is supported by the optional argument `python`. In this "
+"pure python syntax you do not include the output from the python "
+"interpreter. The following markup::"
+msgstr ""
+
+# 9bfc9399e7344f47aeee6b108d4c80c8
+#: ../../source/development_guide/sphinx_directive.rst:275
+msgid "Renders as"
+msgstr ""
+
+# 143dfd8c90d640d1ae379cff861c53fc
+#: ../../source/development_guide/sphinx_directive.rst:284
+msgid ""
+"We can even plot from python, using the savefig decorator, as well as, "
+"suppress output with a semicolon"
+msgstr ""
+
+# 4e5f8f65f700433da3aa7c77aff0b8e8
+#: ../../source/development_guide/sphinx_directive.rst:292
+msgid "Similarly, std err is inserted"
+msgstr ""
+
+# be359198a34747a2a02d4ec1202f60f7
+#: ../../source/development_guide/sphinx_directive.rst:299
+msgid "Comments are handled and state is preserved"
+msgstr ""
+
+# 26da84518202409ebcf6b00f0d273bb8
+#: ../../source/development_guide/sphinx_directive.rst:306
+msgid "If you don't see the next code block then the options work."
+msgstr ""
+
+# 9e1cb6242761493abd5e4b9f305f73c6
+#: ../../source/development_guide/sphinx_directive.rst:313
+msgid "Multi-line input is handled."
+msgstr ""
+
+# 91f37105015c41d79b3605f85c3c69f5
+#: ../../source/development_guide/sphinx_directive.rst:323
+msgid "Functions definitions are correctly parsed"
+msgstr ""
+
+# 09192d72a72842c1af4869ff794d0c94
+#: ../../source/development_guide/sphinx_directive.rst:336
+msgid "And persist across sessions"
+msgstr ""
+
+# 8df88447cc244a0e98ada814e7bb2c75
+#: ../../source/development_guide/sphinx_directive.rst:343
+msgid ""
+"Pretty much anything you can do with the ipython code, you can do with a "
+"simple python script. Obviously, though it doesn't make sense to use the "
+"doctest option."
+msgstr ""
+
+# 078e5ad91f7e496e8f8551f9d8447521
+#: ../../source/development_guide/sphinx_directive.rst:348
+msgid "Pseudo-Decorators"
+msgstr ""
+
+# 8496e2e10f8249f8a0889c63bc0bdc01
+#: ../../source/development_guide/sphinx_directive.rst:350
+msgid ""
+"Here are the supported decorators, and any optional arguments they take."
+"  Some of the decorators can be used as options to the entire block (eg "
+"``verbatim`` and ``suppress``), and some only apply to the line just "
+"below them (eg ``savefig``)."
+msgstr ""
+
+# 46581c1b4489455a9401ef030eb19f7e
+#: ../../source/development_guide/sphinx_directive.rst:355
+msgid "@suppress"
+msgstr ""
+
+# 78c15d5d9d2148f1b24d668c8bbf3a12
+#: ../../source/development_guide/sphinx_directive.rst:357
+msgid ""
+"execute the ipython input block, but suppress the input and output block "
+"from the rendered output.  Also, can be applied to the entire "
+"``..ipython`` block as a directive option with ``:suppress:``."
+msgstr ""
+
+# f80914b7f9d84a0cb2269c32131f57c5
+#: ../../source/development_guide/sphinx_directive.rst:361
+msgid "@verbatim"
+msgstr ""
+
+# 7581a6ec4f3340009ea650860d1a4e87
+#: ../../source/development_guide/sphinx_directive.rst:363
+msgid ""
+"insert the input and output block in verbatim, but auto-increment the "
+"line numbers. Internally, the interpreter will be fed an empty string, so"
+" it is a no-op that keeps line numbering consistent. Also, can be applied"
+" to the entire ``..ipython`` block as a directive option with "
+"``:verbatim:``."
+msgstr ""
+
+# 5c4589b166cc4f8bbfc0ac493852cbba
+#: ../../source/development_guide/sphinx_directive.rst:369
+msgid "@savefig OUTFILE [IMAGE_OPTIONS]"
+msgstr ""
+
+# 3527e86c071e4a66b28c3634d27c12f7
+#: ../../source/development_guide/sphinx_directive.rst:371
+msgid ""
+"save the figure to the static directory and insert it into the document, "
+"possibly binding it into a minipage and/or putting code/figure "
+"label/references to associate the code and the figure. Takes args to pass"
+" to the image directive (*scale*, *width*, etc can be kwargs); see `image"
+" options "
+"<http://docutils.sourceforge.net/docs/ref/rst/directives.html#image>`_ "
+"for details."
+msgstr ""
+
+# 9bb837c64a9f47b09c9e6cdd748149cc
+#: ../../source/development_guide/sphinx_directive.rst:379
+msgid "@doctest"
+msgstr ""
+
+# a7c37652b27f49259655b5e77a94f2f1
+#: ../../source/development_guide/sphinx_directive.rst:381
+msgid ""
+"Compare the pasted in output in the ipython block with the output "
+"generated at doc build time, and raise errors if they donâ€™t match. "
+"Also, can be applied to the entire ``..ipython`` block as a directive "
+"option with ``:doctest:``."
+msgstr ""
+
+# 981a1d3bd1774d75893718ec6fc08f09
+#: ../../source/development_guide/sphinx_directive.rst:387
+msgid "Configuration Options"
+msgstr ""
+
+# 3df1f28cd6bf45acade20f5d1517e6f6
+#: ../../source/development_guide/sphinx_directive.rst:389
+msgid "ipython_savefig_dir"
+msgstr ""
+
+# 792602678601404a8d3ac21aa40be6b1
+#: ../../source/development_guide/sphinx_directive.rst:391
+msgid ""
+"The directory in which to save the figures. This is relative to the "
+"Sphinx source directory. The default is `html_static_path`."
+msgstr ""
+
+# 140a2c7a2b9d402cad12d5a024cb3e60
+#: ../../source/development_guide/sphinx_directive.rst:394
+msgid "ipython_rgxin"
+msgstr ""
+
+# bd034db7665a47e8b4d9368ff619aafa
+#: ../../source/development_guide/sphinx_directive.rst:396
+msgid ""
+"The compiled regular expression to denote the start of IPython input "
+"lines. The default is re.compile('In \\[(\\d+)\\]:\\s?(.*)\\s*'). You "
+"shouldn't need to change this."
+msgstr ""
+
+# f7c5465041ba48c2850106f6e9e94697
+#: ../../source/development_guide/sphinx_directive.rst:400
+msgid "ipython_rgxout"
+msgstr ""
+
+# 77908add9c29480690fd25915d879634
+#: ../../source/development_guide/sphinx_directive.rst:402
+msgid ""
+"The compiled regular expression to denote the start of IPython output "
+"lines. The default is re.compile('Out\\[(\\d+)\\]:\\s?(.*)\\s*'). You "
+"shouldn't need to change this."
+msgstr ""
+
+# 3201a8e59323478684c80a3454c2f8df
+#: ../../source/development_guide/sphinx_directive.rst:407
+msgid "ipython_promptin"
+msgstr ""
+
+# d057091b1f274838b754082ae5624619
+#: ../../source/development_guide/sphinx_directive.rst:409
+#, python-format
+msgid ""
+"The string to represent the IPython input prompt in the generated ReST. "
+"The default is 'In [%d]:'. This expects that the line numbers are used in"
+" the prompt."
+msgstr ""
+
+# 7b8b46b701f441eabf3e9e4bd61d6ff1
+#: ../../source/development_guide/sphinx_directive.rst:413
+msgid "ipython_promptout"
+msgstr ""
+
+# 890612f5be0b41c4aa95fbf2df2106b7
+#: ../../source/development_guide/sphinx_directive.rst:415
+#, python-format
+msgid ""
+"The string to represent the IPython prompt in the generated ReST. The "
+"default is 'Out [%d]:'. This expects that the line numbers are used in "
+"the prompt."
+msgstr ""
+
+# 27a6f000767e4d5ca50192bbba9a45cb
+#: ../../source/development_guide/testing.rst:4
+msgid "Testing IPython for users and developers"
+msgstr ""
+
+# e1c007bdd68b49d897c585eb20430783
+#: ../../source/development_guide/testing.rst:10
+msgid "Overview"
+msgstr ""
+
+# 844d10e3be9a4277aa773c204884291a
+#: ../../source/development_guide/testing.rst:12
+msgid ""
+"It is extremely important that all code contributed to IPython has tests."
+" Tests should be written as unittests, doctests or other entities that "
+"the IPython test system can detect. See below for more details on this."
+msgstr ""
+
+# 821bcb831c114683b15276dc6ec5899f
+#: ../../source/development_guide/testing.rst:17
+msgid ""
+"Each subpackage in IPython should have its own ``tests`` directory that "
+"contains all of the tests for that subpackage. All of the files in the "
+"``tests`` directory should have the word \"tests\" in them to enable the "
+"testing framework to find them."
+msgstr ""
+
+# 570ccbdb6bbf4d93bca65ee6004cbf20
+#: ../../source/development_guide/testing.rst:22
+msgid ""
+"In docstrings, examples (either using IPython prompts like ``In [1]:`` or"
+" 'classic' python ``>>>`` ones) can and should be included. The testing "
+"system will detect them as doctests and will run them; it offers control "
+"to skip parts or all of a specific doctest if the example is meant to be "
+"informative but shows non-reproducible information (like filesystem "
+"data)."
+msgstr ""
+
+# eb5ea7f7c4bd4149b910b6e7fdc90548
+#: ../../source/development_guide/testing.rst:29
+msgid ""
+"If a subpackage has any dependencies beyond the Python standard library, "
+"the tests for that subpackage should be skipped if the dependencies are "
+"not found. This is very important so users don't get tests failing simply"
+" because they don't have dependencies."
+msgstr ""
+
+# 1bae5608051d4014aaf1bdd3fea06df1
+#: ../../source/development_guide/testing.rst:34
+msgid ""
+"The testing system we use is an extension of the `nose "
+"<https://code.google.com/archive/p/python-nose>`__ test runner. In "
+"particular we've developed a nose plugin that allows us to paste verbatim"
+" IPython sessions and test them as doctests, which is extremely important"
+" for us."
+msgstr ""
+
+# f197bc1384eb4e908a7315e7a18894cd
+#: ../../source/development_guide/testing.rst:41
+msgid "Running the test suite"
+msgstr ""
+
+# d4eb05e8dab545a8bc155c101920e037
+#: ../../source/development_guide/testing.rst:43
+msgid ""
+"You can run IPython from the source download directory without even "
+"installing it system-wide or having configure anything, by typing at the "
+"terminal:"
+msgstr ""
+
+# 8aff3ac30add49aa91a752e8b3ae02b8
+#: ../../source/development_guide/testing.rst:51
+msgid "To start the webbased notebook you can use:"
+msgstr ""
+
+# 5786563b0bdd48439fa3dc0295306ac5
+#: ../../source/development_guide/testing.rst:57
+msgid ""
+"In order to run the test suite, you must at least be able to import "
+"IPython, even if you haven't fully installed the user-facing scripts yet "
+"(common in a development environment). You can then run the tests with:"
+msgstr ""
+
+# 14fb987065c2432dba155af720fe2bb1
+#: ../../source/development_guide/testing.rst:65
+msgid "Once you have installed IPython either via a full install or using:"
+msgstr ""
+
+# 71ac67c588434e1590c51a6eb7173c8a
+#: ../../source/development_guide/testing.rst:71
+msgid ""
+"you will have available a system-wide script called ``iptest`` that runs "
+"the full test suite. You can then run the suite with:"
+msgstr ""
+
+# 4f379e62ed0a48ebb0b34290233f8743
+#: ../../source/development_guide/testing.rst:78
+msgid ""
+"By default, this excludes the relatively slow tests for "
+"``IPython.parallel``. To run these, use ``iptest --all``."
+msgstr ""
+
+# b953130e61dd46fea865b2f3db368b9e
+#: ../../source/development_guide/testing.rst:81
+msgid ""
+"Please note that the iptest tool will run tests against the code imported"
+" by the Python interpreter. If the command ``python setup.py symlink`` "
+"has been previously run then this will always be the test code in the "
+"local directory via a symlink. However, if this command has not been run "
+"for the version of Python being tested, there is the possibility that "
+"iptest will run the tests against an installed version of IPython."
+msgstr ""
+
+# 9710816ba7b2484ea640d3a6b1b99c31
+#: ../../source/development_guide/testing.rst:89
+msgid ""
+"Regardless of how you run things, you should eventually see something "
+"like:"
+msgstr ""
+
+# 614b34f2ec5b4490a5e840f9d501ba70
+#: ../../source/development_guide/testing.rst:114
+msgid ""
+"If not, there will be a message indicating which test group failed and "
+"how to rerun that group individually. For example, this tests the "
+"``IPython.utils`` subpackage, the ``-v`` option shows progress "
+"indicators:"
+msgstr ""
+
+# 472241ea528a4474bf852a4a2b3192bf
+#: ../../source/development_guide/testing.rst:129
+msgid ""
+"Because the IPython test machinery is based on nose, you can use all nose"
+" syntax. Options after ``--`` are passed to nose. For example, this lets "
+"you run the specific test ``test_rehashx`` inside the ``test_magic`` "
+"module:"
+msgstr ""
+
+# a8b75c70816c4171995e1b3d69bc62af
+#: ../../source/development_guide/testing.rst:145
+msgid ""
+"When developing, the ``--pdb`` and ``--pdb-failures`` of nose are "
+"particularly useful, these drop you into an interactive pdb session at "
+"the point of the error or failure respectively: ``iptest mymodule -- "
+"--pdb``."
+msgstr ""
+
+# cc865cad5eff4c63bde73d0e5ed83c27
+#: ../../source/development_guide/testing.rst:150
+msgid ""
+"The system information summary printed above is accessible from the top "
+"level package. If you encounter a problem with IPython, it's useful to "
+"include this information when reporting on the mailing list; use::"
+msgstr ""
+
+# 89f6b6f7135644de883cfe881958da37
+#: ../../source/development_guide/testing.rst:156
+msgid "from IPython import sys_info print sys_info()"
+msgstr ""
+
+# 1ad64a55fae24664865a1daa9546bc92
+#: ../../source/development_guide/testing.rst:159
+msgid "and include the resulting information in your query."
+msgstr ""
+
+# 5c0493f32ba34c32a7f7a26b75a45b3c
+#: ../../source/development_guide/testing.rst:162
+msgid "Testing pull requests"
+msgstr ""
+
+# 56dccf1edc7d42ba97235fc0909a286b
+#: ../../source/development_guide/testing.rst:164
+msgid ""
+"We have a script that fetches a pull request from Github, merges it with "
+"master, and runs the test suite on different versions of Python. This "
+"uses a separate copy of the repository, so you can keep working on the "
+"code while it runs. To run it:"
+msgstr ""
+
+# 5f6f81a06a5548aa92e363c518a23423
+#: ../../source/development_guide/testing.rst:173
+msgid ""
+"The number is the pull request number from Github; the ``-p`` flag makes "
+"it post the results to a comment on the pull request. Any further "
+"arguments are passed to ``iptest``."
+msgstr ""
+
+# e9bf9d2d0d9e464d8c84e83b6ecea186
+#: ../../source/development_guide/testing.rst:177
+msgid ""
+"This requires the `requests <https://pypi.python.org/pypi/requests>`__ "
+"and `keyring <https://pypi.python.org/pypi/keyring>`__ packages."
+msgstr ""
+
+# cb70af2a41f444c19d09ba4052f15034
+#: ../../source/development_guide/testing.rst:181
+msgid "For developers: writing tests"
+msgstr ""
+
+# 94aeb6cea2674d37b05d9ec68916a4c7
+#: ../../source/development_guide/testing.rst:183
+msgid ""
+"By now IPython has a reasonable test suite, so the best way to see what's"
+" available is to look at the ``tests`` directory in most subpackages. But"
+" here are a few pointers to make the process easier."
+msgstr ""
+
+# d5cf58b941044fde967b425c2e2952a2
+#: ../../source/development_guide/testing.rst:188
+msgid "Main tools: ``IPython.testing``"
+msgstr ""
+
+# 473653eaf4104a50a6472b679f60cc7a
+#: ../../source/development_guide/testing.rst:190
+msgid ""
+"The ``IPython.testing`` package is where all of the machinery to test "
+"IPython (rather than the tests for its various parts) lives. In "
+"particular, the ``iptest`` module in there has all the smarts to control "
+"the test process. In there, the ``make_exclude`` function is used to "
+"build a blacklist of exclusions, these are modules that do not get even "
+"imported for tests. This is important so that things that would fail to "
+"even import because of missing dependencies don't give errors to end "
+"users, as we stated above."
+msgstr ""
+
+# 40dbcdef36d64128ad582781f05c660b
+#: ../../source/development_guide/testing.rst:199
+msgid ""
+"The ``decorators`` module contains a lot of useful decorators, especially"
+" useful to mark individual tests that should be skipped under certain "
+"conditions (rather than blacklisting the package altogether because of a "
+"missing major dependency)."
+msgstr ""
+
+# 8c1c005edf93476a8ae62b269d4404a6
+#: ../../source/development_guide/testing.rst:205
+msgid "Our nose plugin for doctests"
+msgstr ""
+
+# bfb15655ad094c51b4473555ba6ceb28
+#: ../../source/development_guide/testing.rst:207
+msgid ""
+"The ``plugin`` subpackage in testing contains a nose plugin called "
+"``ipdoctest`` that teaches nose about IPython syntax, so you can write "
+"doctests with IPython prompts. You can also mark doctest output with ``# "
+"random`` for the output corresponding to a single input to be ignored "
+"(stronger than using ellipsis and useful to keep it as an example). If "
+"you want the entire docstring to be executed but none of the output from "
+"any input to be checked, you can use the ``# all-random`` marker. The "
+"``IPython.testing.plugin.dtexample`` module contains examples of how to "
+"use these; for reference here is how to use ``# random``:"
+msgstr ""
+
+# 1292a78c838b4a9caeca2665510d1b04
+#: ../../source/development_guide/testing.rst:249
+msgid "and an example of ``# all-random``:"
+msgstr ""
+
+# 2d557c51b55e49a693c25acd171eb9bc
+#: ../../source/development_guide/testing.rst:279
+msgid ""
+"When writing docstrings, you can use the ``@skip_doctest`` decorator to "
+"indicate that a docstring should *not* be treated as a doctest at all. "
+"The difference between ``# all-random`` and ``@skip_doctest`` is that the"
+" former executes the example but ignores output, while the latter doesn't"
+" execute any code. ``@skip_doctest`` should be used for docstrings whose "
+"examples are purely informational."
+msgstr ""
+
+# 70efd2988ecf430f99d724409ed8cec0
+#: ../../source/development_guide/testing.rst:286
+msgid ""
+"If a given docstring fails under certain conditions but otherwise is a "
+"good doctest, you can use code like the following, that relies on the "
+"'null' decorator to leave the docstring intact where it works as a test:"
+msgstr ""
+
+# 3878be7f250c4ca5ba17f9028f5309a5
+#: ../../source/development_guide/testing.rst:304
+msgid ""
+"With our nose plugin that understands IPython syntax, an extremely "
+"effective way to write tests is to simply copy and paste an interactive "
+"session into a docstring. You can writing this type of test, where your "
+"docstring is meant *only* as a test, by prefixing the function name with "
+"``doctest_`` and leaving its body *absolutely empty* other than the "
+"docstring. In ``IPython.core.tests.test_magic`` you can find several "
+"examples of this, but for completeness sake, your code should look like "
+"this (a simple case):"
+msgstr ""
+
+# f2323f599c37435999518cd691eb254f
+#: ../../source/development_guide/testing.rst:322
+msgid ""
+"This function is only analyzed for its docstring but it is not considered"
+" a separate test, which is why its body should be empty."
+msgstr ""
+
+# a1a31cd900144f6498b312df387bf326
+#: ../../source/development_guide/testing.rst:326
+msgid "JavaScript Tests"
+msgstr ""
+
+# 55e925644bbf42f18fea76e793e5f7ea
+#: ../../source/development_guide/testing.rst:328
+msgid ""
+"We currently use `casperjs <http://casperjs.org/>`__ for testing the "
+"notebook javascript user interface."
+msgstr ""
+
+# 86ed51fe4d284284812995f9c2aa800d
+#: ../../source/development_guide/testing.rst:331
+msgid ""
+"To run the JS test suite by itself, you can either use ``iptest js``, "
+"which will start up a new notebook server and test against it, or you can"
+" open up a notebook server yourself, and then:"
+msgstr ""
+
+# 10ef19ece8954410aa7023ae524cfe0e
+#: ../../source/development_guide/testing.rst:340
+msgid ""
+"If your testing notebook server uses something other than the default "
+"port (8888), you will have to pass that as a parameter to the test suite "
+"as well."
+msgstr ""
+
+# d4dd9155cfc741168d07245a00e7449e
+#: ../../source/development_guide/testing.rst:349
+msgid "Running individual tests"
+msgstr ""
+
+# 27e768bba3f64ba7b12e8e7225779467
+#: ../../source/development_guide/testing.rst:351
+msgid ""
+"To speed up development, you usually are working on getting one test "
+"passing at a time. To do this, just pass the filename directly to the "
+"``casperjs test`` command like so:"
+msgstr ""
+
+# 11f7653601b84925a2ec145e210d7da0
+#: ../../source/development_guide/testing.rst:360
+msgid "Wrapping your head around the javascript within javascript:"
+msgstr ""
+
+# ed4f3f26b8dc4b3eaba4975661c195c3
+#: ../../source/development_guide/testing.rst:362
+msgid ""
+"CasperJS is a browser that's written in javascript, so we write "
+"javascript code to drive it. The Casper browser itself also has a "
+"javascript implementation (like the ones that come with Firefox and "
+"Chrome), and in the test suite we get access to those using "
+"``this.evaluate``, and it's cousins (``this.theEvaluate``, etc). "
+"Additionally, because of the asynchronous / callback nature of "
+"everything, there are plenty of ``this.then`` calls which define steps in"
+" test suite. Part of the reason for this is that each step has a timeout "
+"(default of 5 or 10 seconds). Additionally, there are already convenience"
+" functions in ``util.js`` to help you wait for output in a given cell, "
+"etc. In our javascript tests, if you see functions which "
+"``look_like_pep8_naming_convention``, those are probably coming from "
+"``util.js``, whereas functions that come with casper "
+"``haveCamelCaseNamingConvention``"
+msgstr ""
+
+# b834615955564a74a7c34b4071190cdc
+#: ../../source/development_guide/testing.rst:377
+msgid ""
+"Each file in ``test_cases`` looks something like this (this is "
+"``test_cases/check_interrupt.js``):"
+msgstr ""
+
+# 52615ee776ef4a71bf05c26f46670d28
+#: ../../source/development_guide/testing.rst:419
+msgid ""
+"For an example of how to pass parameters to the client-side javascript "
+"from casper test suite, see the ``casper.wait_for_output`` implementation"
+" in ``IPython/html/tests/casperjs/util.js``"
+msgstr ""
+
+# fae96465d4094630ac562426a0003dbc
+#: ../../source/development_guide/testing.rst:424
+msgid "Testing system design notes"
+msgstr ""
+
+# 58335def9eaa4f669f9521490ecbaa26
+#: ../../source/development_guide/testing.rst:426
+msgid ""
+"This section is a set of notes on the key points of the IPython testing "
+"needs, that were used when writing the system and should be kept for "
+"reference as it eveolves."
+msgstr ""
+
+# 4b0a9eccc5924a96aae6703bb568a450
+#: ../../source/development_guide/testing.rst:430
+msgid ""
+"Testing IPython in full requires modifications to the default behavior of"
+" nose and doctest, because the IPython prompt is not recognized to "
+"determine Python input, and because IPython admits user input that is not"
+" valid Python (things like ``%magics`` and ``!system commands``."
+msgstr ""
+
+# 800dc52e25ed4b7c91a299d5226f21ef
+#: ../../source/development_guide/testing.rst:435
+msgid "We basically need to be able to test the following types of code:"
+msgstr ""
+
+# b91ada24535c4452b163e02c66844461
+#: ../../source/development_guide/testing.rst:439
+msgid ""
+"Pure Python files containing normal tests. These are not a problem, since"
+" Nose will pick them up as long as they conform to the (flexible) "
+"conventions used by nose to recognize tests."
+msgstr ""
+
+# 62b8a60a8b14443ebfc3ca1dba0de170
+#: ../../source/development_guide/testing.rst:445
+msgid "Python files containing doctests. Here, we have two possibilities:"
+msgstr ""
+
+# 6324a400853c4860abf99f4cbd08a59c
+#: ../../source/development_guide/testing.rst:448
+msgid "The prompts are the usual ``>>>`` and the input is pure Python."
+msgstr ""
+
+# 65fa6dd816c24f4e9b84f6d0920c5756
+#: ../../source/development_guide/testing.rst:449
+msgid ""
+"The prompts are of the form ``In [1]:`` and the input can contain "
+"extended IPython expressions."
+msgstr ""
+
+# 9ad1cecfc10347bfac60314688c8dba6
+#: ../../source/development_guide/testing.rst:452
+msgid ""
+"In the first case, Nose will recognize the doctests as long as it is "
+"called with the ``--with-doctest`` flag. But the second case will likely "
+"require modifications or the writing of a new doctest plugin for Nose "
+"that is IPython-aware."
+msgstr ""
+
+# 200c3b0361b1483fabdf8735413bdd04
+#: ../../source/development_guide/testing.rst:459
+msgid ""
+"ReStructuredText files that contain code blocks. For this type of file, "
+"we have three distinct possibilities for the code blocks:"
+msgstr ""
+
+# 1886e7b95147471b9c70104d4bb51db6
+#: ../../source/development_guide/testing.rst:462
+msgid "They use ``>>>`` prompts."
+msgstr ""
+
+# 09bac740954c4fdca7173fafa7ff0716
+#: ../../source/development_guide/testing.rst:463
+msgid "They use ``In [1]:`` prompts."
+msgstr ""
+
+# 4b346c61197a47b2b1be0d95b8afa113
+#: ../../source/development_guide/testing.rst:464
+msgid "They are standalone blocks of pure Python code without any prompts."
+msgstr ""
+
+# 15b043cc6fa14b5687221a1c8176794e
+#: ../../source/development_guide/testing.rst:466
+msgid ""
+"The first two cases are similar to the situation #2 above, except that in"
+" this case the doctests must be extracted from input code blocks using "
+"docutils instead of from the Python docstrings."
+msgstr ""
+
+# 66f66893cec8416fbf35c58a4d7a6a28
+#: ../../source/development_guide/testing.rst:470
+msgid ""
+"In the third case, we must have a convention for distinguishing code "
+"blocks that are meant for execution from others that may be snippets of "
+"shell code or other examples not meant to be run. One possibility is to "
+"assume that all indented code blocks are meant for execution, but to have"
+" a special docutils directive for input that should not be executed."
+msgstr ""
+
+# 31b72bf0802e45aabd969ed1ee4de26f
+#: ../../source/development_guide/testing.rst:476
+msgid ""
+"For those code blocks that we will execute, the convention used will "
+"simply be that they get called and are considered successful if they run "
+"to completion without raising errors. This is similar to what Nose does "
+"for standalone test functions, and by putting asserts or other forms of "
+"exception-raising statements it becomes possible to have literate "
+"examples that double as lightweight tests."
+msgstr ""
+
+# 4656af2388f0464ba9945c046148ce4c
+#: ../../source/development_guide/testing.rst:485
+msgid ""
+"Extension modules with doctests in function and method docstrings. "
+"Currently Nose simply can't find these docstrings correctly, because the "
+"underlying doctest DocTestFinder object fails there. Similarly to #2 "
+"above, the docstrings could have either pure python or IPython prompts."
+msgstr ""
+
+# b81efc4dc4b94b3bbb7f5d2ec96ce033
+#: ../../source/development_guide/testing.rst:491
+msgid ""
+"Of these, only 3-c (reST with standalone code blocks) is not implemented "
+"at this point."
+msgstr ""
+
+# f838da91fa8045d89293ced7d8692fc2
+#: ../../source/development_guide/testing_kernels.rst:4
+msgid "Testing Kernels"
+msgstr ""
+
+# ac92e155007c43bc80418b77b9a0cf88
+#: ../../source/development_guide/testing_kernels.rst:9
+msgid ""
+"IPython makes it very easy to create wrapper kernels using its kernel "
+"framework. It requires extending the Kernel class and implementing a set "
+"of methods for the core functions like execute, history etc. Its also "
+"possible to write a full blown kernel in a language of your choice "
+"implementing listeners for all the zmq ports."
+msgstr ""
+
+# f736b303e5ac4f49bbc8a3f25e509692
+#: ../../source/development_guide/testing_kernels.rst:15
+msgid ""
+"The key problem for any kernel implemented by these methods is to ensure "
+"that it meets the message specification. The kerneltest command is a "
+"means to test the installed kernel against the message spec and validate "
+"the results."
+msgstr ""
+
+# 91370782e52f4012abf6b8acf0a5bc16
+#: ../../source/development_guide/testing_kernels.rst:21
+msgid "The kerneltest tool"
+msgstr ""
+
+# 0e98a93a5d064fdabde647dc8406ff87
+#: ../../source/development_guide/testing_kernels.rst:23
+msgid ""
+"The kerneltest tool is part of IPython.testing and is also included in "
+"the scripts similar to iptest. This takes 2 parameters - the name of the "
+"kernel to test and the test script file. The test script file should be "
+"in json format as described in the next section."
+msgstr ""
+
+# 3ce7cd1696494c4eae12a69ea3b741ee
+#: ../../source/development_guide/testing_kernels.rst:32
+msgid ""
+"You can also pass in an optional message spec version to the command. At "
+"the moment only the version 5 is supported, but as newer versions are "
+"released this can be used to test the kernel against a specific version "
+"of the kernel."
+msgstr ""
+
+# d2b4dcfce0e84905b4c9bfc15f589e93
+#: ../../source/development_guide/testing_kernels.rst:41
+msgid ""
+"The kernel to be tested needs to be installed and the kernelspec "
+"available in the user IPython directory. The tool will instantiate the "
+"kernel and send the commands over ZMQ. For each command executed on the "
+"kernel, the tool will validate the reply to ensure that it matches the "
+"message specification. In some cases the output is also checked, but the "
+"reply is always returned and printed out on the console. This can be used"
+" to validate that apart from meeting the message spec the kernel also "
+"produced the correct output."
+msgstr ""
+
+# 810f483237f74986bf01858b41067f9a
+#: ../../source/development_guide/testing_kernels.rst:51
+msgid "The test script file"
+msgstr ""
+
+# a645935aa17a44a3924eac56c4b49160
+#: ../../source/development_guide/testing_kernels.rst:53
+msgid ""
+"The test script file is a simple json file that specifies the command to "
+"execute and the test code to execute for the command."
+msgstr ""
+
+# 1d1a27261190419b852cc9ddc37c4615
+#: ../../source/development_guide/testing_kernels.rst:64
+msgid ""
+"For some commands in the message specification like kernel\\_info there "
+"is no need to specify the test\\_code parameter. The tool validates if it"
+" has all the inputs needed to execute the command and will print out an "
+"error to the console if it finds a missing parameter. Since the "
+"validation is built in, and only required parameters are passed, it is "
+"possible to add additional fields in the json file for test "
+"documentation."
+msgstr ""
+
+# ecab2837ce3b434db96892386181204c
+#: ../../source/development_guide/testing_kernels.rst:82
+msgid "A sample test script for the redis kernel will look like this"
+msgstr ""
+

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Copyright (c) Juptyer Development Team.
+# Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 
 from __future__ import print_function
@@ -17,7 +17,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 setup_args = dict(
     name                = 'jupyter',
-    version             = '1.1.0',
+    version             = '2.0.0.dev',
     description         = "Jupyter metapackage. Install all the Jupyter components in one go.",
     long_description    = """Install the Jupyter system, including the notebook, qtconsole, and the IPython kernel.""",
     author              = "Jupyter Development Team",
@@ -30,6 +30,7 @@ setup_args = dict(
         'nbconvert',
         'ipykernel',
         'ipywidgets',
+        'jupyterlab',
     ],
     url                 = "http://jupyter.org",
     license             = "BSD",
@@ -39,13 +40,11 @@ setup_args = dict(
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6'
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
 )
 

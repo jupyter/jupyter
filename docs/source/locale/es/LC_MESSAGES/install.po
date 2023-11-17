@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 19:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# ffbb37b4a6064c4293bd70b5fddb96e4
+#: ../../source/install.rst:5
+msgid "Installing Jupyter Notebook"
+msgstr ""
+
+# 7ab1cb39403041899fd89e70ec072c36
+#: ../../source/install.rst:9
+msgid "Contents"
+msgstr ""
+
+# 24944b561f924ddd911096f48f136f64
+#: ../../source/install.rst:11
+msgid ""
+"This information explains how to install the Jupyter Notebook and the "
+"IPython kernel."
+msgstr ""
+
+# 9adca524080f4c91b4eb73369181cac7
+#: ../../source/install.rst:15
+msgid "Prerequisite: Python"
+msgstr ""
+
+# d169910c38f948b7ac2952e799e585d5
+#: ../../source/install.rst:17
+msgid ""
+"While Jupyter runs code in many programming languages, **Python** is a "
+"requirement (Python 3.3 or greater, or Python 2.7) for installing the "
+"Jupyter Notebook."
+msgstr ""
+
+# 085979bf68e84b0e9b15d137d1234a8b
+#: ../../source/install.rst:21
+msgid ""
+"We recommend using the `Anaconda <https://www.anaconda.com/download>`_ "
+"distribution to install Python and Jupyter. We'll go through its "
+"installation in the next section."
+msgstr ""
+
+# 16c5366b626b4d39b19b501cccb27142
+#: ../../source/install.rst:28
+msgid "Installing Jupyter using Anaconda and conda"
+msgstr ""
+
+# 767eb05028794e92bc704d599083862d
+#: ../../source/install.rst:30
+msgid ""
+"For new users, we **highly recommend** `installing Anaconda "
+"<https://www.anaconda.com/download>`_. Anaconda conveniently installs "
+"Python, the Jupyter Notebook, and other commonly used packages for "
+"scientific computing and data science."
+msgstr ""
+
+# 05c5808a5e0148158765958378b90b6f
+#: ../../source/install.rst:35
+msgid "Use the following installation steps:"
+msgstr ""
+
+# 54686805017a467b9a216e0a7704ce74
+#: ../../source/install.rst:37
+msgid ""
+"Download `Anaconda <https://www.anaconda.com/download>`_. We recommend "
+"downloading Anaconda's latest Python 3 version (currently Python 3.5)."
+msgstr ""
+
+# 4a21fbaf720541fda995cb60551befb4
+#: ../../source/install.rst:40
+msgid ""
+"Install the version of Anaconda which you downloaded, following the "
+"instructions on the download page."
+msgstr ""
+
+# d5a47880420642eaba90590b54097b26
+#: ../../source/install.rst:43
+msgid "Congratulations, you have installed Jupyter Notebook. To run the notebook:"
+msgstr ""
+
+# 6227c09c5e6b4a59be669bfb1c4c2fdc
+#: ../../source/install.rst:49
+msgid "See :ref:`Running the Notebook <running>` for more details."
+msgstr ""
+
+# a57622d290e3435084627a34b100ce79
+#: ../../source/install.rst:54
+msgid "*Alternative for experienced Python users:* Installing Jupyter with pip"
+msgstr ""
+
+# 4ff159ed555344a5b35b67086a401fda
+#: ../../source/install.rst:58
+msgid ""
+"Jupyter installation requires Python 3.3 or greater, or Python 2.7. "
+"IPython 1.x, which included the parts that later became Jupyter, was the "
+"last version to support Python 3.2 and 2.6."
+msgstr ""
+
+# dbff8577777040db8c06790617420c29
+#: ../../source/install.rst:62
+msgid ""
+"As an existing Python user, you may wish to install Jupyter using "
+"Python's package manager, :term:`pip`, instead of Anaconda."
+msgstr ""
+
+# ef9257faebfd4ba4bbf41fda5f195413
+#: ../../source/install.rst:67
+msgid ""
+"First, ensure that you have the latest pip; older versions may have "
+"trouble with some dependencies:"
+msgstr ""
+
+# bc2ec7faaa854a36bd339cbebc78741c
+#: ../../source/install.rst:74
+msgid "Then install the Jupyter Notebook using:"
+msgstr ""
+
+# cc79a3bf6e1a46b4bb1ab37da05e643d
+#: ../../source/install.rst:80
+msgid "(Use ``pip`` if using legacy Python 2.)"
+msgstr ""
+
+# bedb9ecab9554259ae2a7d28ea48e972
+#: ../../source/install.rst:82
+msgid ""
+"Congratulations. You have installed Jupyter Notebook. See :ref:`Running "
+"the Notebook <running>` for more details."
+msgstr ""
+

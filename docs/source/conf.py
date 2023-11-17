@@ -9,10 +9,6 @@
 import sys
 import os
 import shlex
-import recommonmark.parser
-
-from jupyter_sphinx_theme import *
-init_theme()
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -21,8 +17,9 @@ init_theme()
 
 # -- General configuration ------------------------------------------------
 
-# If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+html_theme = 'pydata_sphinx_theme'
+html_logo = '_static/_images/jupyter.svg'
+html_favicon = '_static/_images/favicon.png'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -32,14 +29,15 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz', # Add the graphviz extension
+    'sphinxext.rediraffe',
+    'myst_parser',
+    'sphinx_panels'
 ]
+
+panels_add_bootstrap_css = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
-}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -49,7 +47,7 @@ source_suffix = ['.rst', '.md']
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'contents'
+master_doc = 'index'
 
 # General information about the project.
 project = 'Jupyter Documentation'
@@ -89,6 +87,44 @@ todo_include_todos = False
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_context = {
+    # "github_url": "https://github.com", # or your GitHub Enterprise interprise
+    "github_user": "jupyter",
+    "github_repo": "jupyter",
+    "github_version": "master",
+    "doc_path": "docs/source",
+}
+
+html_theme_options = {
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/jupyter/jupyter",
+            "icon": "fab fa-github-square",
+        },
+        {
+            "name": "Discourse",
+            "url": "https://discourse.jupyter.org",
+            "icon": "fab fa-discourse",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/projectjupyter",
+            "icon": "fab fa-twitter-square",
+        },
+    ],
+  "external_links": [
+      {"name": "jupyter.org", "url": "https://jupyter.org"},
+  ],
+  "use_edit_page_button": True,
+}
+
+# Re-directs for pages that were moved
+rediraffe_redirects = {
+    "content-quickstart.rst": "start/index.md",
+    "tryjupyter.rst": "start/index.md",
+}
+
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%Y-%m-%d'
@@ -98,7 +134,7 @@ html_last_updated_fmt = '%Y-%m-%d'
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-html_additional_pages = {'index': 'index.html'}
+html_additional_pages = {}
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Jupyter'
@@ -151,6 +187,11 @@ intersphinx_mapping = {
     'jupyterclient': ('https://jupyter-client.readthedocs.io/en/latest/', None),
     'qtconsole': ('https://jupyter.org/qtconsole/dev/', None),
     'jupytercore': ('https://jupyter-core.readthedocs.io/en/latest/', None),
+    'hub': ('https://jupyterhub.readthedocs.io/en/latest/', None),
+    'z2jh': ('https://zero-to-jupyterhub.readthedocs.io/en/latest/', None),
+    'tljh': ('https://tljh.jupyter.org/en/latest/', None),
+    'bhub': ('https://binderhub.readthedocs.io/en/latest/', None),
+    'lab': ('https://jupyterlab.readthedocs.io/en/latest/', None),
 }
 
 intersphinx_cache_limit = 5
@@ -170,3 +211,12 @@ graphviz_output_format = 'svg'
 # graphviz_dot=r'c:\Program Files (x86)\Graphviz2.38\bin\dot.exe'
 # with your path to graphviz in should work if added to this file.
 # BUT Please do not commit with the path on your computer in place.
+
+# -- Translation ----------------------------------------------------------
+
+gettext_uuid = True
+locale_dirs = ['locale/']
+
+
+def setup(app):
+    app.add_css_file("custom.css")

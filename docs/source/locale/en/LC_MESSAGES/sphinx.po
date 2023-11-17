@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-04 20:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 7c11dbc4811f481794057766800832ee
+#: ../../source/_templates/index.html:2
+msgid "Overview"
+msgstr ""
+
+# 87674d21ac2842d9b2ca32525a06983c
+#: ../../source/_templates/index.html:4
+msgid "Welcome"
+msgstr ""
+
+# fbe326ee1913477fbbef9e36280cb3d5
+#: ../../source/_templates/index.html:7
+msgid "Start Here"
+msgstr ""
+
+# dd871a3570ef4360993c9f5f9a6e9a6f
+#: ../../source/_templates/index.html:13
+msgid "Jupyter Notebook Quickstart"
+msgstr ""
+
+# 5b38b22813c440bda17aa0cb1015468a
+#: ../../source/_templates/index.html:14
+msgid "Try the notebook"
+msgstr ""
+
+# e24d669c50e84c10a9b7d2db8e2a206b
+#: ../../source/_templates/index.html:15
+msgid "Architecture"
+msgstr ""
+
+# 666d449fc8564f81951df06fb28f857b
+#: ../../source/_templates/index.html:16
+msgid "What is Jupyter?"
+msgstr ""
+
+# b73a8286763d448c8e471e7c19863f07
+#: ../../source/_templates/index.html:17
+msgid "Narratives and Use Cases"
+msgstr ""
+
+# 27c32a3a5ae34fba8a569bee972dc21a
+#: ../../source/_templates/index.html:18
+msgid "Narratives of common deployment scenarios"
+msgstr ""
+
+# 073c45ea86594cad8be3d011b9b3b5ed
+# 209be84e7b1c48b59ed8ad4f4ba9bd9e
+# e68ee3bc1d344ea892e96b9a0c557ec4
+#: ../../source/_templates/index.html:19 ../../source/_templates/index.html:61
+#: ../../source/_templates/index.html:67
+msgid "IPython"
+msgstr ""
+
+# fa896a9ecf334ec59243584de08ebc4c
+#: ../../source/_templates/index.html:20
+msgid "An interactive Python kernel and REPL"
+msgstr ""
+
+# d8bfcdc723ba4ff9be620bc7a48c9bbb
+#: ../../source/_templates/index.html:21
+msgid "Installation, Configuration, and Usage"
+msgstr ""
+
+# b85884536fe94bbbb0bc361199515e97
+#: ../../source/_templates/index.html:22
+msgid "Documentation for users"
+msgstr ""
+
+# 187c62af4f4946368cc1912dc4ed72bd
+#: ../../source/_templates/index.html:25
+msgid "Community"
+msgstr ""
+
+# 01be44444a6944f8b66f5d33ecada473
+#: ../../source/_templates/index.html:26
+msgid "Sustainability and growth"
+msgstr ""
+
+# 1c7430b771f34dea888a279f5159cfd1
+#: ../../source/_templates/index.html:27
+msgid "Contributor Guides"
+msgstr ""
+
+# 060fa8d986484cc5920822becdc72633
+#: ../../source/_templates/index.html:28
+msgid "How to contribute to the projects"
+msgstr ""
+
+# 4a62e635396944ce8ac3b0a846bee09c
+#: ../../source/_templates/index.html:29
+msgid "Release Notes"
+msgstr ""
+
+# e008293ddb6c4b84ba2ae3c01af0ddd8
+#: ../../source/_templates/index.html:30
+msgid "New features, upgrades, deprecation notes, and bug fixes"
+msgstr ""
+
+# 632f425094284248a3904601833d3282
+#: ../../source/_templates/index.html:31
+msgid "Reference"
+msgstr ""
+
+# 60a7fa2b852447948397bee452574352
+#: ../../source/_templates/index.html:32
+msgid "APIs"
+msgstr ""
+
+# 078a4e5b447d464f980c754d79bd0d8f
+#: ../../source/_templates/index.html:33
+msgid "Contents"
+msgstr ""
+
+# fe624220d72f4eb68b635b704ce7857d
+#: ../../source/_templates/index.html:34
+msgid "Full table of contents"
+msgstr ""
+
+# fd469284c910443c9a94f1e5c2890809
+#: ../../source/_templates/index.html:40
+msgid "Project Documentation"
+msgstr ""
+
+# 82990c9abe5a481b8e029e99d56eda97
+#: ../../source/_templates/index.html:45
+msgid "Jupyter Notebook"
+msgstr ""
+
+# 0fa103f6933a4fae8e861337f0dc4dfe
+#: ../../source/_templates/index.html:46
+msgid "Jupyter console"
+msgstr ""
+
+# aeecc22f41504fa78c3e6bc2a5918062
+#: ../../source/_templates/index.html:47
+msgid "Qt console"
+msgstr ""
+
+# e58d1a93d24a4dffb852da36feb32d2d
+#: ../../source/_templates/index.html:49
+msgid "JupyterHub"
+msgstr ""
+
+# b8c2f78b5e064757a6f7fd58b7a47d83
+#: ../../source/_templates/index.html:50
+msgid "configurable HTTP proxy"
+msgstr ""
+
+# 4b0500d653a140c6ae920817c825165f
+#: ../../source/_templates/index.html:51
+msgid "dockerspawner"
+msgstr ""
+
+# d6bed661873740d9b060211a971ab15e
+#: ../../source/_templates/index.html:52
+msgid "ldapauthenticator"
+msgstr ""
+
+# b00d98858cd348dc9c8aa5777c19b125
+#: ../../source/_templates/index.html:53
+msgid "oauthenticator"
+msgstr ""
+
+# a7ee2953ae3149bdbb7c6dedd24d39b4
+#: ../../source/_templates/index.html:54
+msgid "sudospawner"
+msgstr ""
+
+# 75f1af39b9134416a9c076a314298dbe
+#: ../../source/_templates/index.html:56
+msgid "nbgrader"
+msgstr ""
+
+# fc5ad0b0e7ed441ca42f9046d3d418bf
+#: ../../source/_templates/index.html:58
+msgid "nbconvert"
+msgstr ""
+
+# d2e632b13f7a4336814338eed74f44fb
+#: ../../source/_templates/index.html:59
+msgid "nbformat"
+msgstr ""
+
+# 5e25a71dee6f4ba6a9798efa502a8636
+#: ../../source/_templates/index.html:62
+msgid "IRkernel"
+msgstr ""
+
+# 9cf27e2f496f472d8b31c31a8d50f93f
+#: ../../source/_templates/index.html:63
+msgid "IJulia"
+msgstr ""
+
+# a4408d07c95b4196ad698778f8f67033
+#: ../../source/_templates/index.html:64
+msgid "Community maintained kernels"
+msgstr ""
+
+# 2904cce51a98448491bb284edb4307fa
+#: ../../source/_templates/index.html:68
+msgid "ipykernel"
+msgstr ""
+
+# 6568de0311404a3a8e217053421abd97
+#: ../../source/_templates/index.html:69
+msgid "ipyparallel"
+msgstr ""
+
+# 41e36095f7f742798a17eb53fbd9e115
+#: ../../source/_templates/index.html:71
+msgid "jupyter_client"
+msgstr ""
+
+# 0829b56cf4c64e43ad26445146b01b00
+#: ../../source/_templates/index.html:72
+msgid "jupyter_core"
+msgstr ""
+
+# 443f2d6d97e94855a386370356e7d859
+#: ../../source/_templates/index.html:74
+msgid "docker-stacks"
+msgstr ""
+
+# 1ce3fe422ec24231abd162189e6a1b84
+#: ../../source/_templates/index.html:75
+msgid "ipywidgets"
+msgstr ""
+
+# 6523ea7d2bfd43b99a6f08b105fb0e50
+#: ../../source/_templates/index.html:76
+msgid "jupyter-drive"
+msgstr ""
+
+# f01bf4a28b1c4ac8bdf4d8a13cfdae5e
+#: ../../source/_templates/index.html:77
+msgid "jupyter-sphinx-theme"
+msgstr ""
+
+# 744f8e6f66474cf4bee3f3bed2f28750
+#: ../../source/_templates/index.html:78
+msgid "kernel_gateway"
+msgstr ""
+
+# e74b30a13ebd473c89b8678769cc6e14
+#: ../../source/_templates/index.html:79
+msgid "nbviewer"
+msgstr ""
+
+# 3465cff3b57a4f3d87d71548f0b523b8
+#: ../../source/_templates/index.html:80
+msgid "tmpnb"
+msgstr ""
+
+# a89a262455e04f8881482759567c34f5
+#: ../../source/_templates/index.html:81
+msgid "traitlets"
+msgstr ""
+
+# c319a5d418a24253ba83ff826d666716
+#: ../../source/_templates/index.html:83
+msgid "jupyter-js-services"
+msgstr ""
+

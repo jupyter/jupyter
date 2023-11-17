@@ -5,6 +5,7 @@ Reference
    :maxdepth: 1
 
    mimetype.md
+   ./ipython
    ../glossary
 
 

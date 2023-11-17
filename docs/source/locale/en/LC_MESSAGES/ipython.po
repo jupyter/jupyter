@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-09 11:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/ipython/content-ipython.rst:37
+msgid "IPython website"
+msgstr ""
+
+#: ../../source/ipython/content-ipython.rst:37
+msgid "Gallery of interesting notebooks"
+msgstr ""
+
+#: ../../source/ipython/content-ipython.rst:37
+msgid "IPython documentation"
+msgstr ""
+
+# e06aa197a71b41eeaf94dfe9f0caaca2
+#: ../../source/ipython/content-ipython.rst:2 1ac84e9d4c454baf88efce4f414f7e96
+msgid "IPython"
+msgstr ""
+
+# 93415afba3654a1c904000d9a30c7b04
+#: ../../source/ipython/content-ipython.rst:5 2041c667be5e4894935642cc1f6b81fe
+msgid "Contents"
+msgstr ""
+
+# 0fb8abaae6d6439eb2d541d1cc83182b
+#: ../../source/ipython/content-ipython.rst:13 94a4e85e5c6d4f6f8bb62d8a676100ac
+msgid "Description"
+msgstr ""
+
+# 0ffa752b43e04a8f84cf0772fdeeda3b
+#: ../../source/ipython/content-ipython.rst:15 be02e0142e8246a0a96f406772a2fa2a
+msgid "IPython provides a rich architecture for interactive computing with:"
+msgstr ""
+
+# c81ecc03613b4623a05ae0b069bfc6a8
+#: ../../source/ipython/content-ipython.rst:17 3be2435c5ba14af0b7b0162e1e48d6d2
+msgid "A powerful interactive shell."
+msgstr ""
+
+# cfe69331de214e0f9492f7cdde2deeff
+#: ../../source/ipython/content-ipython.rst:18 b01d35444c45459297ddc3984863c103
+msgid "A kernel for Jupyter."
+msgstr ""
+
+# 405d110fdb06459f97fd470b08f9b45a
+#: ../../source/ipython/content-ipython.rst:19 7c02acfdf9fe4cac8935e7d5688bde7e
+msgid "Support for interactive data visualization and use of GUI toolkits."
+msgstr ""
+
+# 198111746308470bb460f4eff0187c9c
+#: ../../source/ipython/content-ipython.rst:20 5798cfd5681e468088ff5dd5437a9f02
+msgid "Flexible, embeddable interpreters to load into your own projects."
+msgstr ""
+
+# cc784dedd7924d66b116dc0cee97b0ca
+#: ../../source/ipython/content-ipython.rst:21 15bc23286e874bacb57ac82553d8cd69
+msgid "Easy to use, high performance tools for parallel computing."
+msgstr ""
+
+# 2807f7be8ea5430caabaadf467ac3d28
+#: ../../source/ipython/content-ipython.rst:24 decb7d66ae4840299e866264b835b96d
+msgid "Background"
+msgstr ""
+
+# 3735a8ce15d6486f90b2e6150041cf39
+#: ../../source/ipython/content-ipython.rst:26 e7df2ca9c7c146209554cd594629c336
+msgid ""
+"IPython is a growing project, with increasingly language-agnostic "
+"components. IPython 3.x was the last monolithic release of IPython, "
+"containing the notebook server, qtconsole, etc. As of IPython 4.0, the "
+"language-agnostic parts of the project: the notebook format, message "
+"protocol, qtconsole, notebook web application, etc. have moved to new "
+"projects under the name Jupyter. IPython itself is focused on interactive"
+" Python, part of which is providing a Python kernel for Jupyter."
+msgstr ""
+
+# a902c3e9aab34a9bb26248bf4ebffc1b
+#: ../../source/ipython/content-ipython.rst:35 2d33e690bbef42bb8b33ef00551546a4
+msgid "Resources"
+msgstr ""
+

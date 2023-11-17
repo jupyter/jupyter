@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Jupyter Team, https://jupyter.org
+# This file is distributed under the same license as the Jupyter
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jupyter Documentation 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-22 16:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 999687e2672c4830be8be849ba17fdd8
+#: ../../source/releases.rst:3 1023869c4e63496fb8fd6a5ce5f7c88a
+msgid "Release Notes"
+msgstr ""
+
+#: ../../source/releases.rst:5 7a1642eff4bd47bba2bca21f10b83c13
+msgid ""
+"When projects release a new version, they often include \"release notes\""
+" with information about improvements, bug-fixes, and other changes. These"
+" projects are the best source of information about what has recently "
+"changed."
+msgstr ""
+
+#: ../../source/releases.rst:9 2366ec332bf74f70b4e63f114d078e0e
+msgid ""
+"Below you'll find links to the release notes for several major projects "
+"in the Jupyter ecosystem."
+msgstr ""
+
+#: ../../source/releases.rst:13 82a6a7b1b9fb4f46996ef0d1ba323955
+msgid "Jupyter Notebook"
+msgstr ""
+
+#: ../../source/releases.rst:15 ce0d27800c7349b883fed8fdfddda6a5
+msgid ""
+"You can find a changelog at `the Jupyter Notebook documentation <https"
+"://jupyter-notebook.readthedocs.io/en/stable/changelog.html>`_."
+msgstr ""
+
+#: ../../source/releases.rst:19 8be06149630c4299af1d6608a2234396
+msgid "Jupyter Lab"
+msgstr ""
+
+#: ../../source/releases.rst:21 bda784a9e63e4fa287ad12120879905b
+msgid ""
+"You can find a changelog at `the Jupyter Lab documentation "
+"<https://jupyterlab.readthedocs.io/en/stable/getting_started/changelog.html>`_."
+msgstr ""
+
+#: ../../source/releases.rst:25 feb2ac71c7de472db2a7ff938a53379b
+msgid "JupyterHub"
+msgstr ""
+
+#: ../../source/releases.rst:27 fd82315c5c224570897a8eca4364a006
+msgid ""
+"You can find a list of changelogs in the JupyterHub community within the "
+"`JupyterHub team compass documentation <https://github.com/jupyterhub"
+"/team-compass#team-information>`_."
+msgstr ""
+
+# f2e5171237034eeeafdd4917d74a1fdb
+#~ msgid ""
+#~ "Each project's documentation and GitHub "
+#~ "repository has information about releases "
+#~ "and changes from the prior release."
+#~ msgstr ""
+
+# b6a439cd2ee94119bbd0f928c111ccda
+#~ msgid "Coming Soon"
+#~ msgstr ""
+
+# eb314f1a6b1c47b8b4aaf0281c3f1c94
+#~ msgid ""
+#~ "We're actively working on a graphic "
+#~ "that displays each project, their "
+#~ "current release, and a link to the"
+#~ " changelog. Thanks for your patience."
+#~ msgstr ""
+

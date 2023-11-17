@@ -1,83 +1,77 @@
 .. _install:
 
-===========================
-Installing Jupyter Notebook
-===========================
+===============
+Install and Use
+===============
 
-.. contents:: Contents
-   :local:
-   :depth: 2
+.. NOTE: some links below must have double-underscores to be anonymous if they have the same text
 
-This information explains how to install the Jupyter Notebook and the IPython
-kernel.
+This page contains information and links about installing and using tools across
+the Jupyter ecosystem. Generally speaking, the documentation of each tool is the
+place to learn about the best-practices for how to install and use the tool.
 
-Prerequisite: Python
---------------------
+Jupyter Notebook Interface
+==========================
 
-While Jupyter runs code in many programming languages, **Python** is
-a requirement (Python 3.3 or greater, or Python 2.7) for installing
-the Jupyter Notebook.
+The **Jupyter Notebook interface** is a Web-based application for authoring documents that combine
+live-code with narrative text, equations and visualizations.
 
-We recommend using the `Anaconda <https://www.continuum.io/downloads>`_
-distribution to install Python and Jupyter. We'll go through its installation
-in the next section.
 
-.. _new-to-python-and-jupyter:
+* `GitHub Repo <https://github.com/jupyter/notebook>`__
+* `Docs <https://jupyter-notebook.readthedocs.io/en/latest/?badge=latest>`_
 
-Installing Jupyter using Anaconda and conda
--------------------------------------------
+.. toctree::
+   :maxdepth: 1
 
-For new users, we **highly recommend** `installing Anaconda
-<https://www.continuum.io/downloads>`_. Anaconda conveniently
-installs Python, the Jupyter Notebook, and other commonly used packages for
-scientific computing and data science.
+   /install/notebook-classic
+   /use/upgrade-notebook
 
-Use the following installation steps:
 
-1. Download `Anaconda <https://www.continuum.io/downloads>`_. We recommend
-   downloading Anaconda's latest Python 3 version (currently Python 3.5).
+JupyterLab
+==========
 
-2. Install the version of Anaconda which you downloaded, following the
-   instructions on the download page.
+**JupyterLab** is a next-generation web-based user interface for Project Jupyter.
 
-3. Congratulations, you have installed Jupyter Notebook. To run the notebook:
+* `GitHub Repo <https://github.com/jupyterlab/jupyterlab>`__
+* `Docs <https://jupyterlab.readthedocs.io/en/stable/>`__
+* `Install instructions <https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>`__
 
-   .. code-block:: bash
 
-       jupyter notebook
+JupyterHub
+==========
 
-   See :ref:`Running the Notebook <running>` for more details.
+**JupyterHub** is a multi-user hub for interactive computing sessions, made for teams and
+organizations, and with pluggable authentication and scalability.
 
-.. _existing-python-new-jupyter:
+* `GitHub Repo <https://github.com/jupyterhub/jupyterhub>`__
+* `Docs <https://jupyterhub.readthedocs.io/en/stable/>`__
+* `Install instructions <https://jupyterhub.readthedocs.io/en/stable/tutorial/quickstart.html>`__
 
-*Alternative for experienced Python users:* Installing Jupyter with pip
------------------------------------------------------------------------
 
-.. important::
+Jupyter Console
+===============
 
-    Jupyter installation requires Python 3.3 or greater, or
-    Python 2.7. IPython 1.x, which included the parts that later became Jupyter,
-    was the last version to support Python 3.2 and 2.6.
+The **Jupyter Console** is a terminal-based console for interactive computing.
 
-As an existing Python user, you may wish to install Jupyter using Python's
-package manager, :term:`pip`, instead of Anaconda.
+* `GitHub Repo <https://github.com/jupyter/jupyter_console>`__
+* `Docs and Install instructions <https://jupyter-console.readthedocs.io/en/latest/>`_
 
-.. _python-using-pip:
 
-First, ensure that you have the latest pip;
-older versions may have trouble with some dependencies:
+Jupyter QtConsole
+=================
 
-.. code-block:: bash
+The **Jupyter QtConsole** is a Qt application for interactive computing with rich output.
 
-    pip3 install --upgrade pip
+* `GitHub Repo <https://github.com/jupyter/qtconsole>`__
+* `Docs <https://qtconsole.readthedocs.io/en/stable/index.html>`__
+* `Install instructions <https://qtconsole.readthedocs.io/en/stable/installation.html>`__
 
-Then install the Jupyter Notebook using:
 
-.. code-block:: bash
+Jupyter Kernels
+===============
 
-    pip3 install jupyter
+You can install **Jupyter Kernels** to add support for new languages and code behavior.
 
-(Use ``pip`` if using legacy Python 2.)
+.. toctree::
 
-Congratulations. You have installed Jupyter Notebook. See
-:ref:`Running the Notebook <running>` for more details.
+   /install/kernels
