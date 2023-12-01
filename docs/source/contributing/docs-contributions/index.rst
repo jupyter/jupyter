@@ -13,6 +13,7 @@ Documentation Guide
    doc-workflow.rst
    doc-tools.rst
    doc-future-index.rst
+   doc-issues-hub.md
 
 Documentation helps guide new users, fosters communication between developers,
 and shares tips and best practices with other community members. That's why
