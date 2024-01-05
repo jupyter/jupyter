@@ -1,3 +1,5 @@
+# Jupyter Community Call 2/28
+
 **Date:** February 28, 2023, at 8am Pacific ([your timezone](https://arewemeetingyet.com/Los%20Angeles/2023-02-28/08:00/Jupyter%20Community%20Call))
 
 [**Discourse:**](https://discourse.jupyter.org/t/jupyter-community-calls/668)
