@@ -24,5 +24,5 @@ You can find a changelog at
 JupyterHub
 ==========
 
-You can find a list of changelogs in the JupyterHub community within the
-`JupyterHub team compass documentation <https://github.com/jupyterhub/team-compass#team-information>`_.
+You can find a changelog at
+`the JupyterHub documentation <https://jupyterhub.readthedocs.io/en/stable/reference/changelog.html>`_.
