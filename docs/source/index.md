@@ -96,7 +96,7 @@ User Interfaces
 * [JupyterLab](https://github.com/jupyterlab/jupyterlab)
 * [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
 * [nbclassic](https://github.com/jupyterlab/nbclassic)
-* [Jupyter Console](https://jupyter_console.readthedocs.io/en/latest)
+* [Jupyter Console](https://jupyter-console.readthedocs.io/en/latest)
 * [Qt console](https://qtconsole.readthedocs.io/en/stable)
 * [Voilà](https://voila.readthedocs.io/)
 
