@@ -206,3 +206,18 @@ For the readers of this document, I want to highlight IPython's:
 - magic commands: [ipython.readthedocs.io/interactive/magics][]
 
 For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
+
+
+<!-- 
+    References 
+-->
+
+[Accessibility]: https://github.com/jupyter/accessibility
+[About]: https://jupyter.org/about
+[Get Involved]: https://jupyter.org/community
+[History of Jupyter]: ./history_of_jupyter.md
+[Jupyter-Lab]: https://jupyterlab.readthedocs.io
+[Governance]: https://jupyter.org/governance/intro.html
+[Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
+[Security]: https://github.com/jupyter/security
+[subprojects]: https://jupyter.org/governance/list_of_subprojects.html
