@@ -98,7 +98,40 @@ The kernels that run in the background for each of your notebooks are what
 power the fast, exploratory programming workflows that Jupyter notebook
 editor programs excel at.
 
+## Multiple programs, one experience (client-server architecture)
 
+Notebook editor programs in Project Jupyter, like JupyterLab, may seem like
+a single experience, but when you run JupyterLab on your laptop, there are
+actually several programs running independently that all coordinate with
+each other to offer you the notebook editing experience you may already be
+familiar with.
+
+This may be a background detail for some people, but it's helpful for
+understanding what's going on when you are working with notebooks in the
+editor. There are advantages to people using Jupyter software, and to the
+people who write it, by using this approach.
+
+JupyterLab's interface is a web app that you open in a browser program
+like FireFox or Google Chrome (websites themselves commonly have code
+that defines their behavior, and JupyterLab's is no exception).
+
+Jupyter Server runs in the background, and it orchestrates the creation,
+management of, and communication with, your notebook kernels while you're
+running your notebooks.
+
+Jupyter kernels themselves are independent programs (operating system
+processes), and each one is its own REPL in whatever language you
+requested (commonly Python, though hundreds of other languages and
+kernels are available also LINK_HERE).
+
+
+
+
+KERNEL PROTOCOL ETC, KENREL TALKS TO SERVER ALSO TALKS TO WEB APP,
+AND BTW YOU CAN HOOK MULTIPLE THINGS UP TO ONE KERNEL ETC BLAH BLAH
+
+
+TODO TODO TODO
 
 
 
