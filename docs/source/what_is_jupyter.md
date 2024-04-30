@@ -156,52 +156,18 @@ programs can focus solely on adding new interface and editing experiences,
 leaving the task of creating and managing new kernels completely up to the
 Jupyter Server.
 
- 
+SHOW EXAMPLE HERE WITH A LINK, DISCUSS A BIT
 
 
 
 
-
-To understand some of those advantages, and to get a better picture of
-what's actually going on when you run JupyterLab, let's break down some of
-those pieces that work together inside JupyterLab.
-
-To better understand what's actually going on when you run JupyterLab, and
-to understand some of those advantages, let's break down some of the pieces
-that work together inside JupyterLab.
 
 KERNEL PROTOCOL ETC, KENREL TALKS TO SERVER ALSO TALKS TO WEB APP,
 AND BTW YOU CAN HOOK MULTIPLE THINGS UP TO ONE KERNEL ETC BLAH BLAH
 
-
-TODO TODO TODO
-
-
 ITS AN ADVANBTYAGE BC YOU CAN SWAP PIECES OUT AND ADD NEW BITS ON EASIER ETC
 
 NOTR ALL JUP PROGRAMS ARE LIKE THIS BTW
-
-
-
-
-The features and overall design of notebook editor programs like JupyterLab,
-or Jupyter Notebook, are often influenced by common ideas about how to work with
-and use notebooks.
-
-It is common for notebook editor programs like JupyterLab, or Jupyter
-Notebook, to share some features and workflows, because they are influenced
-by a common set of ideas about computational notebooks, and how to work with
-them effectively.
-
-that influence how 
-
-shared ideas common concepts
-
-Notebook editing programs like JupyterLab (or Jupyter Notebook) often share
-common ideas and functionality.
-
-
-
 
 COVER
 -the idea of kernels
@@ -221,56 +187,6 @@ to help you write
 
 
 
-both share
-many common ideas 
-both follow/share some common ideas
-
-
-
-
-are designed around some common ideas that make
-common innovations
-
-are designed with many
-
-are both designed
-
-
-
-
-
-
-
-
-
-provide tools centered
-
-both offer many similar tools and workflows
-
-that share many common
-
-share a lot of common ideas
-
-both follow
-some common ideas
-common design patterns, workflows, concepts
-share many common tools and experiences that 
-
-
-Notebook editing programs like JupyterLab (or Jupyter Notebook) strive to
-
-Project Jupyter offers a 
-
-Software like JupyterLab or Jupyter Notebook give you the power to build
-
-are organized around many shared ideas about
-
-
-
-+Jupyter IDEAS
-
-- Multiple notebooks, idea of kernels, client-server architecture etc.
-
 
 
 # What else should I know about Project Jupyter?
@@ -278,71 +194,46 @@ are organized around many shared ideas about
 Jupyter software is free and open-source, developed by a global community
 of volunteers and contributors, available for the benefit of all.
 
-Project Jupyter welcomes people from all backgrounds, so please feel 
+Project Jupyter welcomes people from all backgrounds and with many types
+of skills (not just software!) so we encourage you to join us!
 
+You can share feedback about your experiences directly with the people who
+make Jupyter software, or volunteer and contribute to help Jupyter in many
+different ways, like:
 
+- Writing tutorials
+- Testing newly released versions
+- Adding software features
+- Hosting the weekly video meetings (LINK)
+- Helping others in the community
+- ...and more!
 
+The project is split into largely independent subprojects which handle
+different aspects of Jupyter software and the community. A central council,
+the Jupyter Executive Council (LINK), makes decisions about project-wide
+goals and policies, while different subprojects handle the actual development
+of the various software components.
 
-The project is split into largely independent
-subprojects which handle different aspects of Jupyter software and the community.
+Some subprojects take care of broader topics, such as the [Accessibility][],
+[Security][], and documentation (LINK) projects.
 
-Project Jupyter welcomes people from all backgrounds
+# A (Partial) Tour of Project Jupyter
 
+In the following sections, we are going to look at some popular components of
+the Jupyter ecosystem. This is *not* a comprehensive reference of every aspect
+of Jupyter, but rather a big-picture summary that should help illustrate some
+important parts that were discussed earlier.
 
+If you are completely new to *Jupyter*, the project's [About][] page is good
+reading that will introduce you to many of the different subprojects.
 
+If you want to know more about the organizational structure, check out the
+[Governance][] pages.
 
+And if you would like to contribute to the project, have a look at the
+[Get Involved][] page.
 
-
-
-A central council, the Jupyter Executive Council, makes decisions about
-project-wide goals and policies
-
-
-
-
-
-
-# How does "Project Jupyter" operate?
-
-
-
-
-Jupyter software is free and open-source, developed by a global community
-of volunteers and contributors.
-
-
-
-
-
-# How does Project Jupyter work?
-
-Jupyter is developed completely in the open, by the community, but there is a
-personnel structure guiding the developments and taking care of the resources.
-The actual development of the software components are done in the scope of
-[Jupyter (sub)projects][subprojects].
-
-While some subprojects take care of the development of a specific software
-component, other projects will take care of broader discussions, such as the
-[Accessibility][] and [Security][] projects.
-
-> - If you are completely new to *Jupyter*, the project's [About][]
-> page is a good reading.
->
-> - If you want to know more about the organizational structure: 
-> [Governance][] pages.
-> 
-> - And if you would like to contribute to the project, have a look at 
-> the [Get Involved][] page.
-
-In the following sections we are going to define the major components of the
-Jupyter ecosystem. This is *not* a complete reference of every aspect of Jupyter,
-but rather a clarification document of the complexity of Jupyter content.
-
-## Jupyter software
- 
 The graph below presents the best known software components of the Project.
-There are many other components -- like Jupyter-Server, Jupyter-Kernels --
-that we will talk about later, but for starter we go with the most common ones.
 
 Connections and groups in this diagram are not formal relationships but
 simple indicators to help us draw the big picture in the next sections.
@@ -396,6 +287,7 @@ graph TD
 ```
 
 ### *Notebook* vs *notebook*
+
 [nbformat.readthedocs.io]: https://nbformat.readthedocs.io
 [jupyter-notebook.readthedocs.io]: https://jupyter-notebook.readthedocs.io
 
@@ -420,6 +312,7 @@ the frontend application in their respective official documentation:
 - Jupyter-Notebook: [jupyter-notebook.readthedocs.io][]
 
 ### *Notebook* and *Lab*
+
 [jupyterlab.readthedocs.io]: https://jupyterlab.readthedocs.io
 
 There are two applications (aka, frontends) to edit and run notebooks:
@@ -442,6 +335,7 @@ the Notebook application extensively in a time prior to Jupyter-Lab.
 - Jupyter-Lab: [jupyterlab.readthedocs.io][]
 
 ### What about *Hub*?
+
 [jupyterhub.readthedocs.io]: https://jupyterhub.readthedocs.io
 
 Jupyter-Hub is a manager of Jupyter-Lab and Jupyter-Notebook instances in
@@ -460,6 +354,7 @@ For details:
 - Jupyter-Hub: [jupyterhub.readthedocs.io][]
 
 ### IPython, Jupyter-Widgets and IPyWidgets
+
 [ipywidgets.readthedocs.io]: https://ipywidgets.readthedocs.io
 [ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html
 [ipython.readthedocs.io/interactive/magics]: https://ipython.readthedocs.io/en/stable/interactive/magics.html
@@ -510,6 +405,34 @@ For more details on IPython features check [`docs.jupyter.org > Projects > IPyth
 
 
 ______
+
+
+
+
+
+
+Jupyter is developed completely in the open, by the community, but there is a
+personnel structure guiding the developments and taking care of the resources.
+The actual development of the software components are done in the scope of
+[Jupyter (sub)projects][subprojects].
+
+While some subprojects take care of the development of a specific software
+component, other projects will take care of broader discussions, such as the
+[Accessibility][] and [Security][] projects.
+
+> - If you are completely new to *Jupyter*, the project's [About][]
+> page is a good reading.
+>
+> - If you want to know more about the organizational structure: 
+> [Governance][] pages.
+> 
+> - And if you would like to contribute to the project, have a look at 
+> the [Get Involved][] page.
+
+
+
+
+
 
 
 This may be a background detail for some people, but it's helpful for
