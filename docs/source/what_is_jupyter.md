@@ -100,32 +100,75 @@ editor programs excel at.
 
 ## Multiple programs, one experience (client-server architecture)
 
-Notebook editor programs in Project Jupyter, like JupyterLab, may seem like
+Most Notebook editor programs in Project Jupyter, like JupyterLab, may seem like
 a single experience, but when you run JupyterLab on your laptop, there are
 actually several programs running independently that all coordinate with
 each other to offer you the notebook editing experience you may already be
 familiar with.
 
-This may be a background detail for some people, but it's helpful for
-understanding what's going on when you are working with notebooks in the
-editor. There are advantages to people using Jupyter software, and to the
-people who write it, by using this approach.
+This might seem like an unnecessary background detail, but some clarity on
+the inner workings can help demystify your notebook authoring experience, and
+open up new features, ideas and workflows that you can take advantage of.
+
+A many-pieces (modular) approach also has advantages for people using Jupyter
+software, and to the people who write it.
+
+Let's break down some of the pieces.
 
 JupyterLab's interface is a web app that you open in a browser program
 like FireFox or Google Chrome (websites themselves commonly have code
-that defines their behavior, and JupyterLab's is no exception).
+that defines their behavior, and JupyterLab's interface is no exception).
 
-Jupyter Server runs in the background, and it orchestrates the creation,
+Jupyter Server (LINK) runs in the background, and it orchestrates the creation,
 management of, and communication with, your notebook kernels while you're
 running your notebooks.
 
 Jupyter kernels themselves are independent programs (operating system
 processes), and each one is its own REPL in whatever language you
 requested (commonly Python, though hundreds of other languages and
-kernels are available also LINK_HERE).
+kernels are also available LINK_HERE).
+
+With this design, any program (that you enable) can talk to your kernels
+using common internet communication technologies like HTTP. This gives you
+the power to edit, view, share, and manipulate your data across many
+different programs.
+
+Project Jupyter actually defines a standard (LINK) that other programs can
+follow that will allow them to hook into your kernels in virtually any way
+you can imagine. You can invent new editing and viewing experiences for your
+data this way, using the interactive computing capabilities provided by
+the kernels.
+
+## Benefits of a many-piece design
+
+By breaking up a program like JupyterLab into multiple component pieces, you
+can customize the software to meet your needs. If one piece is missing something,
+you can replace it with a custom version made by yourself or another person to
+add whatever features you would like to see.
+
+You can also invent completely new experiences using those pieces that the
+designers may not have imagined when they started, and they can often inter-
+operate seamlessly with existing Jupyter software.
+
+Because Jupyter Server provides kernel communication and management features
+in a cohesive, self-contained package, for instance, new notebook editor
+programs can focus solely on adding new interface and editing experiences,
+leaving the task of creating and managing new kernels completely up to the
+Jupyter Server.
+
+ 
 
 
 
+
+
+To understand some of those advantages, and to get a better picture of
+what's actually going on when you run JupyterLab, let's break down some of
+those pieces that work together inside JupyterLab.
+
+To better understand what's actually going on when you run JupyterLab, and
+to understand some of those advantages, let's break down some of the pieces
+that work together inside JupyterLab.
 
 KERNEL PROTOCOL ETC, KENREL TALKS TO SERVER ALSO TALKS TO WEB APP,
 AND BTW YOU CAN HOOK MULTIPLE THINGS UP TO ONE KERNEL ETC BLAH BLAH
@@ -133,6 +176,10 @@ AND BTW YOU CAN HOOK MULTIPLE THINGS UP TO ONE KERNEL ETC BLAH BLAH
 
 TODO TODO TODO
 
+
+ITS AN ADVANBTYAGE BC YOU CAN SWAP PIECES OUT AND ADD NEW BITS ON EASIER ETC
+
+NOTR ALL JUP PROGRAMS ARE LIKE THIS BTW
 
 
 
@@ -456,3 +503,56 @@ For more details on IPython features check [`docs.jupyter.org > Projects > IPyth
 [Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [Security]: https://github.com/jupyter/security
 [subprojects]: https://jupyter.org/governance/list_of_subprojects.html
+
+
+
+
+
+
+______
+
+
+This may be a background detail for some people, but it's helpful for
+understanding what's going on when you are working with notebooks in the
+editor. There are advantages to people using Jupyter software, and to the
+people who write it, by using this approach.
+
+This might seem like an unnecessary background detail, but it can make you a
+faster and more effective notebook author by opening up new features, ideas
+and workflows to you that may have previously been a mystery.
+
+but it can help demystify your notebook authoring experiences, and open up new
+new features, ideas and workflows that may have previously been a mystery.
+
+that you can take advantage of.
+This might seem like an unnecessary background detail, but some clarity on
+the inner workings can help demystify your notebook authoring experience,
+and open up new features, ideas and workflows that you can take advantage of.
+
+This many-pieces approach also has advantages for people using Jupyter
+software, and to the people who write it.
+
+but some clarity on the inner workings can help demystify your notebook
+authoring experience, and open up new features, ideas and workflows
+that you can take advantage of.
+
+demystify parts of the program that
+demystify features that may not make sense,
+
+easier faster new
+but it can help demystify parts of the program and make your editing 
+
+but it can help demystify the experience of authoring your notebooks, and open
+up new features, ideas and workflows that may have previousliy been a mystery.
+
+This might seem like an unnecessary background detail, but it can make you a
+faster and more effective notebook author by opening up new features, ideas
+and workflows to you that may have previously been a mystery.
+
+but knowing how the program works can open up new ideas, workflows and features to you, when you're authoring notebooks,
+
+but more clarity about how the program works can open up new
+
+but more clarity can open up new ideas, workflows and features to you, when you're authoring notebooks,
+
+
