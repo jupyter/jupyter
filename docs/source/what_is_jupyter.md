@@ -16,13 +16,13 @@ By opening a notebook with an editor program like JupyterLab, you can also run t
 
 - Read spreadsheets (or create them) to build reports about your household spending
 - Show proof of a graduate student's thesis with interactive graphs and source data
-- CHECK_AND_LINK: Generate an image of a black hole by processing telescope data
-- CHECK_AND_LINK: Calculate the presence of gravitational waves from observatory data
-- CHECK_AND_LINK: Process astronomical data from the James Webb Space Telescope (JWST)
+- Generate an image of a black hole by processing telescope data (CHECK/LINK)
+- Calculate the presence of gravitational waves from observatory data (CHECK/LINK)
+- Process astronomical data from the James Webb Space Telescope (JWST) (CHECK/LINK)
 
 Those last three are real world examples that demonstrate the scientific community's usage of computational notebooks (CHECK). Because scientists, engineers, and other technical people so often need to perform and communicate sophisticated calculations to describe their work, these "computational notebooks" became a very popular way to share their work and ideas.
 
-[LAB does much more than just run the code, its a whole interactive workflow blah BLAH BLAH]
+Notebooks are not just for Nasa scientists either: Students, hobbyists, and business people commonly use the fast, interactive workflows in JupyterLab to make notebooks that help solve everyday problems. You can use them to explain your own ideas to others, to learn, to automate tasks at home or work, visualize complex information, and more.
 
 When someone uses the term "notebook", they might be referring to:
 
@@ -34,7 +34,7 @@ When someone uses the term "notebook", they might be referring to:
 And the term "Jupyter" might refer to:
 
 - "Project Jupyter", the overarching umbrella project
-- The "Jupyter Notebook" or "JupyterLab" editing programs
+- The "Jupyter Notebook" or "JupyterLab" editing programs (or other Jupyter products)
 
 The name Jupyter comes from the three programming languages the project originally supported: Julia (ju), Python (pyt) and R (r).
 
@@ -52,9 +52,9 @@ Let's break down some of those ideas.
 In the past, writing programs, running them, and seeing results was commonly
 a slower and more deliberative process than it is today.
 
-Languages like Python were later introduced that offered some unique advantages
-over older languages, and new techniques were discovered that sped up the
-process between writing code, running it, and seeing results.
+As time passed, new techniques were discovered that sped up the process between
+writing code, running it, and seeing results. Languages like Python were also
+later introduced that offered some unique advantages over older languages.
 
 For instance, Python is an interpreted language, so it does not need to be
 compiled (LINK) before it can be run (saving programmers steps and time).
@@ -129,9 +129,11 @@ requested (commonly Python, though hundreds of other languages and
 kernels are also available LINK_HERE).
 
 With this design, any program (that you enable) can talk to your kernels
-using common internet communication technologies like HTTP. This gives you
-the power to edit, view, share, and manipulate your data across many
-different programs.
+using common internet communication technologies like HTTP. This gives
+you the power to edit, view, share, and manipulate your data across many
+different programs. One kernel can even connect to multiple editing programs
+simultaneously! (Similarly, in JupyterLab, you can connect a notebook and a
+console to the same kernel!)
 
 Project Jupyter actually defines a standard (LINK) that other programs can
 follow that will allow them to hook into your kernels in virtually any way
@@ -156,38 +158,25 @@ programs can focus solely on adding new interface and editing experiences,
 leaving the task of creating and managing new kernels completely up to the
 Jupyter Server.
 
-SHOW EXAMPLE HERE WITH A LINK, DISCUSS A BIT
+JupyterCAD is a 3D modeling tool built on top of Jupyter software, for
+instance, and there are other examples too (LINK HERE).
 
+## Talking to Kernels (The Jupyter Protocol)
 
+Anyone can make new software that talks to Jupyter's kernels (read more
+about those above), by using the Jupyter Protocol. The protocol provides
+a standardized blueprint for passing information back and forth between
+the kernels and other software.
 
+By implementing the designs described in the Jupyter Protocol, you could
+invent a completely new interactive programming experience, or add support
+for a new programming language to Jupyter.
 
+Because Project Jupyter is free and open, it encourages anyone to explore
+new ways of working with their notebooks and kernels, and likes to offer
+compatibility and interoperation with other software.
 
-KERNEL PROTOCOL ETC, KENREL TALKS TO SERVER ALSO TALKS TO WEB APP,
-AND BTW YOU CAN HOOK MULTIPLE THINGS UP TO ONE KERNEL ETC BLAH BLAH
-
-ITS AN ADVANBTYAGE BC YOU CAN SWAP PIECES OUT AND ADD NEW BITS ON EASIER ETC
-
-NOTR ALL JUP PROGRAMS ARE LIKE THIS BTW
-
-COVER
--the idea of kernels
--REPL
--client server arch, why does it run in a browser etc
--multiple python processes, multiple programs
--each notebook has N processes/kernels
--anything remotely confusing or ambiguous to newcomers
-
-
-tools
-to help you write 
-
-
-
-
-
-
-
-
+TODO add more here? examples? etc.
 
 # What else should I know about Project Jupyter?
 
@@ -215,9 +204,9 @@ goals and policies, while different subprojects handle the actual development
 of the various software components.
 
 Some subprojects take care of broader topics, such as the [Accessibility][],
-[Security][], and documentation (LINK) projects.
+[Security][], [Community][], and [Documentation][] projects.
 
-# A (Partial) Tour of Project Jupyter
+# A (Partial) Tour of the Jupyter Universe
 
 In the following sections, we are going to look at some popular components of
 the Jupyter ecosystem. This is *not* a comprehensive reference of every aspect
@@ -305,55 +294,57 @@ In Jupyter official documentation we refer to the application as Jupyter-Noteboo
 or simply Notebook with capital "N". 
 The digital file/document is written as a common name (ie, lower-case) notebook.
 
-You can find detailed information about notebook file format, `nbformat`, and
+You can find detailed information about the notebook file format, `nbformat`, and
 the frontend application in their respective official documentation:
 
 - Notebook file format: [nbformat.readthedocs.io][]
 - Jupyter-Notebook: [jupyter-notebook.readthedocs.io][]
 
-### *Notebook* and *Lab*
+### Notebook Editor Programs
 
 [jupyterlab.readthedocs.io]: https://jupyterlab.readthedocs.io
+TODO Notebook link
 
-There are two applications (aka, frontends) to edit and run notebooks:
-Jupyter-Notebook and Jupyter-Lab. Jupyter-Lab is an evolution of Jupyter-Notebook, 
-it provides a more concise and customizable user interface.
+The two most popular notebook editor programs are Jupyter-Notebook and
+JupyterLab, though there are others. Which one you choose to use is
+mostly a matter of preference (both Notebook and Lab provide many of the
+same capabilities for editing and running notebooks):
 
-It is mostly a matter of preference which application/interface to use, 
-they both provide pretty much the same functionalities on what regards editing 
-and running notebook documents.
-The *Lab* provides a richer graphical user interface (GUI), whereas *Notebook*
-provides a simpler GUI.
+- Jupyter Notebook offers a simplified, lightweight notebook authoring
+  experience
 
-Personally, I like to use Jupyter-Lab on my daily work as a data analyst, and 
-Jupyter-Notebook while teaching so we can all focus on the notebook's content.
+- JupyterLab offers a more customizable, feature-rich, tabbed multi-notebook
+  editing environment, and has additional tools like a customizable layout
+  and system console (a common tool used by programmers)
 
-Regarding ambiguous use of terms, sometimes people will refer to Jupyter-Lab 
-as "Notebook"; This is certainly the case among old practitioners, that used
-the Notebook application extensively in a time prior to Jupyter-Lab.
+- And more...read about additional notebook interfaces here (LINK)!
 
-- Jupyter-Lab: [jupyterlab.readthedocs.io][]
+A professor, for instance, might use JupyterLab for their daily work as a data
+analyst, and Jupyter Notebook while teaching to provide a cleaner, more focused
+view of the notebook's content.
 
-### What about *Hub*?
+### JupyterHub
 
 [jupyterhub.readthedocs.io]: https://jupyterhub.readthedocs.io
 
-Jupyter-Hub is a manager of Jupyter-Lab and Jupyter-Notebook instances in
-multi-user settings. 
+JupyterHub provides a multi-user management system where many different people
+can log in and use their own isolated notebook editor program and environment.
 
-In a Jupyter-Hub setup editing and running notebook files is
-still performed by Lab and Notebook, the Hub is responsible for authenticating
-users and handling them their corresponding Lab/Notebook instance connection.
+With JupyterHub, editing and running notebook files is still performed by an
+editor program like Lab or Notebook. The Hub is responsible for authenticating
+users and providing them their corresponding Lab/Notebook instance connection.
 
-Jupyter-Hub can be set up in different system configurations: in a single computer,
-in a cluster of computers, in containers in the cloud.
-The Hub is quite flexible and easy to extend for specific multi-user scenarios.
+Jupyter-Hub can be set up in different system configurations:
 
-For details:
+- In a single computer
+- In a cluster of computers
+- In containers in the cloud
 
-- Jupyter-Hub: [jupyterhub.readthedocs.io][]
+JupyterHub is quite flexible for many different multi-user scenarios.
 
-### IPython, Jupyter-Widgets and IPyWidgets
+### IPython
+
+- XXXXX Jupyter-Widgets and IPyWidgets
 
 [ipywidgets.readthedocs.io]: https://ipywidgets.readthedocs.io
 [ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html
@@ -361,29 +352,31 @@ For details:
 [ipykernel.readthedocs.io]: https://ipykernel.readthedocs.io
 [ipython.org]: https://ipython.org
 
-Once upon a time, there was only IPython, and among many other things
-(see the [History of Jupyter][]) `ipywidgets` as the library providing 
-interactive widgets (buttons, sliders, etc) to be used in Jupyter notebooks.
+A long time ago, a precursor to Jupyter was created, called ipython (see
+the [History of Jupyter][] to learn more about that). It provided some of
+the same fast, advanced REPL features that Jupyter still has today, and it
+is the default Python kernel bundled with JupyterLab and Notebook. Some of
+the features ipython provides:
 
-It took some time for IPyWidgets to be renamed after "Jupyter", but it eventually
-happened (or *is happening*).
-To not break compatibility with older code-bases, the  software library is
-still called `ipywidgets`.
-The subproject and high-level references to the widgets were renamed to
-Jupyter-Widgets.
-By all means, **Jupyter-Widgets** and IPyWidgets are the very same thing.
-
-- Jupyter-Widgets: [ipywidgets.readthedocs.io][]
-
-Going back to IPython... The **IPython** project is responsible for many
-important packages, some are fundamental and some are *just* very helpful.
-For the readers of this document, I want to highlight IPython's:
-
+- Foobar
+- Bizbaz
+- WikRakRum
 - interactive shell: [ipython.readthedocs.io/interactive/tutorial][]
 - magic commands: [ipython.readthedocs.io/interactive/magics][]
 
 For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
 
+### Interactive Buttons, Sliders and more with ipywidgets
+
+ipywidgets provides interactive interface elements that you can add directly
+into your notebooks.
+
+- Note: The subproject and high-level references to the widgets were renamed to
+Jupyter-Widgets, but Jupyter-Widgets and IPyWidgets are the very same thing. To
+not break compatibility with older code-bases, the software library is
+still called `ipywidgets`.
+
+- Jupyter-Widgets: [ipywidgets.readthedocs.io][]
 
 <!-- 
     References 
@@ -398,84 +391,3 @@ For more details on IPython features check [`docs.jupyter.org > Projects > IPyth
 [Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [Security]: https://github.com/jupyter/security
 [subprojects]: https://jupyter.org/governance/list_of_subprojects.html
-
-
-
-
-
-
-______
-
-
-
-
-
-
-Jupyter is developed completely in the open, by the community, but there is a
-personnel structure guiding the developments and taking care of the resources.
-The actual development of the software components are done in the scope of
-[Jupyter (sub)projects][subprojects].
-
-While some subprojects take care of the development of a specific software
-component, other projects will take care of broader discussions, such as the
-[Accessibility][] and [Security][] projects.
-
-> - If you are completely new to *Jupyter*, the project's [About][]
-> page is a good reading.
->
-> - If you want to know more about the organizational structure: 
-> [Governance][] pages.
-> 
-> - And if you would like to contribute to the project, have a look at 
-> the [Get Involved][] page.
-
-
-
-
-
-
-
-This may be a background detail for some people, but it's helpful for
-understanding what's going on when you are working with notebooks in the
-editor. There are advantages to people using Jupyter software, and to the
-people who write it, by using this approach.
-
-This might seem like an unnecessary background detail, but it can make you a
-faster and more effective notebook author by opening up new features, ideas
-and workflows to you that may have previously been a mystery.
-
-but it can help demystify your notebook authoring experiences, and open up new
-new features, ideas and workflows that may have previously been a mystery.
-
-that you can take advantage of.
-This might seem like an unnecessary background detail, but some clarity on
-the inner workings can help demystify your notebook authoring experience,
-and open up new features, ideas and workflows that you can take advantage of.
-
-This many-pieces approach also has advantages for people using Jupyter
-software, and to the people who write it.
-
-but some clarity on the inner workings can help demystify your notebook
-authoring experience, and open up new features, ideas and workflows
-that you can take advantage of.
-
-demystify parts of the program that
-demystify features that may not make sense,
-
-easier faster new
-but it can help demystify parts of the program and make your editing 
-
-but it can help demystify the experience of authoring your notebooks, and open
-up new features, ideas and workflows that may have previousliy been a mystery.
-
-This might seem like an unnecessary background detail, but it can make you a
-faster and more effective notebook author by opening up new features, ideas
-and workflows to you that may have previously been a mystery.
-
-but knowing how the program works can open up new ideas, workflows and features to you, when you're authoring notebooks,
-
-but more clarity about how the program works can open up new
-
-but more clarity can open up new ideas, workflows and features to you, when you're authoring notebooks,
-
-
