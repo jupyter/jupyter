@@ -1,18 +1,36 @@
 # What is Jupyter?
 
-"Jupyter" can mean a lot of things, so let's start from the beginning, and break it down:
+"Jupyter" can mean a lot of things, so let's start from the beginning, and
+break it down:
 
-First and foremost, "Project Jupyter" is a large umbrella project that covers many different software offerings and tools. That includes "Jupyter Notebook" and "JupyterLab", which are both popular web-based notebook editor programs. The Jupyter project, and its subprojects, all center around providing tools (and standards) for interactive computing with computational notebooks. Each of these will be explored further below.
+First and foremost, "Project Jupyter" is a large umbrella project that covers
+many different software offerings and tools. That includes "Jupyter Notebook"
+and "JupyterLab", which are both popular web-based notebook editor programs.
+The Jupyter project, and its subprojects, all center around providing tools
+(and standards) for interactive computing with computational notebooks. Each
+of these will be explored further below.
 
-The term "Jupyter" is often used as a shorthand to refer to one of those products or ideas, which sometimes leads to confusion. Let's take a look at each of those, one-by-one.
+The term "Jupyter" is often used as a shorthand to refer to one of those
+products or ideas, which sometimes leads to confusion. Let's take a look at
+each of those, one-by-one.
 
 # What is a "Computational Notebook" anyway?
 
-A famous computer programmer (Donald Knuth) popularized the idea to combine explanatory plain english text with computer code, which is commonly called "literate programming". By adopting this practice, computer programs, as well as other complex information and ideas, could be better explained to a wide range of people.
+A famous computer programmer (Donald Knuth) popularized the idea to combine
+explanatory plain english text with computer code, which is commonly called
+"literate programming". By adopting this practice, computer programs, as well
+as other complex information and ideas, could be better explained to a wide
+range of people.
 
-A program written in this way could be printed on paper and shared by hand as an actual "notebook", but in modern times, they are shared digitally as "notebook files", and can contain additional rich media like images, 3D models and interactive figures, along with data and other program outputs.
+A program written in this way could be printed on paper and shared by hand
+as an actual "notebook", but in modern times, they are shared digitally as
+"notebook files", and can contain additional rich media like images, 3D models
+and interactive figures, along with data and other program outputs.
 
-By opening a notebook with an editor program like JupyterLab, you can also run the code inside the notebook. Since a notebook can contain code that does virtually anything, you can do nearly anything regular software can do inside a notebook. For example, a notebook file might be used to:
+By opening a notebook with an editor program like JupyterLab, you can also
+run the code inside the notebook. Since a notebook can contain code that does
+virtually anything, you can do nearly anything regular software can do inside
+a notebook. For example, a notebook file might be used to:
 
 - Read spreadsheets (or create them) to build reports about your household spending
 - Show proof of a graduate student's thesis with interactive graphs and source data
@@ -20,23 +38,36 @@ By opening a notebook with an editor program like JupyterLab, you can also run t
 - Calculate the presence of gravitational waves from observatory data (CHECK/LINK)
 - Process astronomical data from the James Webb Space Telescope (JWST) (CHECK/LINK)
 
-Those last three are real world examples that demonstrate the scientific community's usage of computational notebooks (CHECK). Because scientists, engineers, and other technical people so often need to perform and communicate sophisticated calculations to describe their work, these "computational notebooks" became a very popular way to share their work and ideas.
+Those last three are real world examples that demonstrate the scientific
+community's usage of computational notebooks (CHECK). Because scientists,
+engineers, and other technical people so often need to perform and communicate
+sophisticated calculations to describe their work, these "computational
+notebooks" became a very popular way to share their work and ideas.
 
-Notebooks are not just for Nasa scientists either: Students, hobbyists, and business people commonly use the fast, interactive workflows in JupyterLab to make notebooks that help solve everyday problems. You can use them to explain your own ideas to others, to learn, to automate tasks at home or work, visualize complex information, and more.
+Notebooks are not just for Nasa scientists either: Students, hobbyists, and
+business people commonly use the fast, interactive workflows in JupyterLab to
+make notebooks that help solve everyday problems. You can use them to explain
+your own ideas to others, to learn, to automate tasks at home or work,
+visualize complex information, and more.
 
 When someone uses the term "notebook", they might be referring to:
 
 - A notebook file on their computer
-- The idea of combining computer code, explanatory text, images and more into the "notebook format"
-- The "Jupyter Notebook" application, used to author and edit digital notebook files
-- Jupyter's ``.ipynb`` notebook file format, interpreted by the ``nbformat`` software library
+- The idea of combining computer code, explanatory text, images and more into
+  the "notebook format"
+- The "Jupyter Notebook" application, used to author and edit digital notebook
+  files
+- Jupyter's ``.ipynb`` notebook file format, interpreted by the ``nbformat``
+  software library
 
 And the term "Jupyter" might refer to:
 
 - "Project Jupyter", the overarching umbrella project
-- The "Jupyter Notebook" or "JupyterLab" editing programs (or other Jupyter products)
+- The "Jupyter Notebook" or "JupyterLab" editing programs (or other Jupyter
+  products)
 
-The name Jupyter comes from the three programming languages the project originally supported: Julia (ju), Python (pyt) and R (r).
+The name Jupyter comes from the three programming languages the project
+originally supported: Julia (ju), Python (pyt) and R (r).
 
 # How do the Jupyter notebook-editor programs work?
 
