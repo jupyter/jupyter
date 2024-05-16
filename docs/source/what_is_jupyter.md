@@ -306,31 +306,6 @@ graph TD
     viewers --> source/code
 ```
 
-### *Notebook* vs *notebook*
-
-[nbformat.readthedocs.io]: https://nbformat.readthedocs.io
-[jupyter-notebook.readthedocs.io]: https://jupyter-notebook.readthedocs.io
-
-Probably the most overloaded term within the community is "notebook".
-
-Formally, "notebook" has two meanings: the **notebook file format** -- the `.ipynb` 
-files -- where data/content are stored (ie, the digital document); 
-And the **Jupyter-Notebook** application for editing and running notebook files.
-
-Jupyter-Notebook -- the application -- may be referred simply as "Notebook".
-As in many situations in life, discerning between the (notebook) file/document
-and the (Notebook) application should be clear from the context.
-
-In Jupyter official documentation we refer to the application as Jupyter-Notebook 
-or simply Notebook with capital "N". 
-The digital file/document is written as a common name (ie, lower-case) notebook.
-
-You can find detailed information about the notebook file format, `nbformat`, and
-the frontend application in their respective official documentation:
-
-- Notebook file format: [nbformat.readthedocs.io][]
-- Jupyter-Notebook: [jupyter-notebook.readthedocs.io][]
-
 ### Notebook Editor Programs
 
 [jupyterlab.readthedocs.io]: https://jupyterlab.readthedocs.io
@@ -353,6 +328,16 @@ same capabilities for editing and running notebooks):
 A professor, for instance, might use JupyterLab for their daily work as a data
 analyst, and Jupyter Notebook while teaching to provide a cleaner, more focused
 view of the notebook's content.
+
+### The notebook format
+
+Jupyter uses the .ipynb format to store your notebook files (where the data
+and outputs of your notebook reside for long term storage). The .ipynb format
+is interpreted and modified by the nbformat software library.
+
+TODO: features, more info, basic exmaplanation of how it works/structure
+
+[nbformat.readthedocs.io]: https://nbformat.readthedocs.io
 
 ### JupyterHub
 
