@@ -5,22 +5,23 @@ break it down:
 
 First and foremost, "Project Jupyter" is a large umbrella project that covers
 many different software offerings and tools. That includes "Jupyter Notebook"
-and "JupyterLab", which are both popular web-based notebook editor programs.
-The Jupyter project, and its subprojects, all center around providing tools
-(and standards) for interactive computing with computational notebooks. Each
-of these will be explored further below.
+and "JupyterLab", which are both popular notebook-editor programs. **The**
+**Jupyter project, and its subprojects, all center around providing tools**
+**(and standards) for interactive computing with computational notebooks.**
+If you're not familiar with some of those things, you can take a guided tour
+below that explains each one from the start.
 
 The term "Jupyter" is often used as a shorthand to refer to one of those
-products or ideas, which sometimes leads to confusion. Let's take a look at
-each of those, one-by-one.
+products or ideas, which can cause confusion. Let's take a look at each piece,
+and provide some clarity, below.
 
 # What is a "Computational Notebook" anyway?
 
 A famous computer programmer (Donald Knuth) popularized the idea to combine
 explanatory plain english text with computer code, which is commonly called
-"literate programming". By adopting this practice, computer programs, as well
-as other complex information and ideas, could be better explained to a wide
-range of people.
+"literate programming". **By adopting this practice, computer programs, as**
+**well as other complex information and ideas, could be better explained to**
+**a wide range of people.**
 
 A program written in this way could be printed on paper and shared by hand
 as an actual "notebook", but in modern times, they are shared digitally as
@@ -30,10 +31,10 @@ and interactive figures, along with data and other program outputs.
 By opening a notebook with an editor program like JupyterLab, you can also
 run the code inside the notebook. Since a notebook can contain code that does
 virtually anything, you can do nearly anything regular software can do inside
-a notebook. For example, a notebook file might be used to:
+of a notebook. For example, a notebook file might be used to:
 
 - Read spreadsheets (or create them) to build reports about your household spending
-- Show proof of a graduate student's thesis with interactive graphs and source data
+- Show proof of your college thesis with interactive graphs and source data
 - Generate an image of a black hole by processing telescope data (CHECK/LINK)
 - Calculate the presence of gravitational waves from observatory data (CHECK/LINK)
 - Process astronomical data from the James Webb Space Telescope (JWST) (CHECK/LINK)
@@ -57,8 +58,8 @@ When someone uses the term "notebook", they might be referring to:
   the "notebook format"
 - The "Jupyter Notebook" application, used to author and edit digital notebook
   files
-- Jupyter's ``.ipynb`` notebook file format, interpreted by the ``nbformat``
-  software library
+- Jupyter's ``.ipynb`` notebook file format (used to save your notebook files
+  on your computer), which is interpreted by the ``nbformat`` software library
 
 And the term "Jupyter" might refer to:
 
@@ -234,8 +235,8 @@ the Jupyter Executive Council (LINK), makes decisions about project-wide
 goals and policies, while different subprojects handle the actual development
 of the various software components.
 
-Some subprojects take care of broader topics, such as the [Accessibility][],
-[Security][], [Community][], and [Documentation][] projects.
+Some subprojects take care of broader topics, such as the [Accessibility](),
+[Security](), [Community](), and [Documentation]() projects.
 
 # A (Partial) Tour of the Jupyter Universe
 
@@ -248,14 +249,14 @@ If you are completely new to *Jupyter*, the project's [About][] page is good
 reading that will introduce you to many of the different subprojects.
 
 If you want to know more about the organizational structure, check out the
-[Governance][] pages.
+[Governance]() pages.
 
 And if you would like to contribute to the project, have a look at the
-[Get Involved][] page.
+[Get Involved]() page.
 
 The graph below presents the best known software components of the Project.
 
-Connections and groups in this diagram are not formal relationships but
+Connections and groups in this diagram are not formal relationships, but
 simple indicators to help us draw the big picture in the next sections.
 
 ```mermaid
@@ -308,8 +309,8 @@ graph TD
 
 ### Notebook Editor Programs
 
-[jupyterlab.readthedocs.io]: https://jupyterlab.readthedocs.io
-TODO Notebook link
+- [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
+- [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
 
 The two most popular notebook editor programs are Jupyter-Notebook and
 JupyterLab, though there are others. Which one you choose to use is
@@ -326,10 +327,12 @@ same capabilities for editing and running notebooks):
 - And more...read about additional notebook interfaces here (LINK)!
 
 A professor, for instance, might use JupyterLab for their daily work as a data
-analyst, and Jupyter Notebook while teaching to provide a cleaner, more focused
-view of the notebook's content.
+analyst, and Jupyter Notebook while teaching to provide a simpler, more focused
+view of the notebook's content to their students.
 
 ### The notebook format
+
+- [nbformat.readthedocs.io](https://nbformat.readthedocs.io)
 
 Jupyter uses the .ipynb format to store your notebook files (where the data
 and outputs of your notebook reside for long term storage). The .ipynb format
@@ -337,11 +340,9 @@ is interpreted and modified by the nbformat software library.
 
 TODO: features, more info, basic exmaplanation of how it works/structure
 
-[nbformat.readthedocs.io]: https://nbformat.readthedocs.io
-
 ### JupyterHub
 
-[jupyterhub.readthedocs.io]: https://jupyterhub.readthedocs.io
+- [jupyterhub.readthedocs.io](https://jupyterhub.readthedocs.io)
 
 JupyterHub provides a multi-user management system where many different people
 can log in and use their own isolated notebook editor program and environment.
@@ -360,13 +361,7 @@ JupyterHub is quite flexible for many different multi-user scenarios.
 
 ### IPython
 
-- XXXXX Jupyter-Widgets and IPyWidgets
-
-[ipywidgets.readthedocs.io]: https://ipywidgets.readthedocs.io
-[ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html
-[ipython.readthedocs.io/interactive/magics]: https://ipython.readthedocs.io/en/stable/interactive/magics.html
-[ipykernel.readthedocs.io]: https://ipykernel.readthedocs.io
-[ipython.org]: https://ipython.org
+- [IPython]([ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
 
 A long time ago, a precursor to Jupyter was created, called ipython (see
 the [History of Jupyter][] to learn more about that). It provided some of
@@ -382,17 +377,19 @@ the features ipython provides:
 
 For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
 
+
+
 ### Interactive Buttons, Sliders and more with ipywidgets
 
-ipywidgets provides interactive interface elements that you can add directly
-into your notebooks.
+- [Jupyter Widgets (AKA ipywidgets)](https://ipywidgets.readthedocs.io/en/latest/)
+
+Jupyter Widgets (also called ipywidgets) provides interactive interface
+elements that you can add directly into your notebooks.
 
 - Note: The subproject and high-level references to the widgets were renamed to
 Jupyter-Widgets, but Jupyter-Widgets and IPyWidgets are the very same thing. To
-not break compatibility with older code-bases, the software library is
-still called `ipywidgets`.
-
-- Jupyter-Widgets: [ipywidgets.readthedocs.io][]
+not break compatibility with older code, the software library is still called
+`ipywidgets`.
 
 <!-- 
     References 
@@ -407,3 +404,9 @@ still called `ipywidgets`.
 [Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [Security]: https://github.com/jupyter/security
 [subprojects]: https://jupyter.org/governance/list_of_subprojects.html
+
+[ipywidgets.readthedocs.io]: https://ipywidgets.readthedocs.io
+[ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html
+[ipython.readthedocs.io/interactive/magics]: https://ipython.readthedocs.io/en/stable/interactive/magics.html
+[ipykernel.readthedocs.io]: https://ipykernel.readthedocs.io
+[ipython.org]: https://ipython.org
