@@ -145,20 +145,20 @@ open up new features, ideas and workflows that you can take advantage of.
 A many-pieces (modular) approach also has advantages for people using Jupyter
 software, and to the people who write it.
 
-Let's break down some of the pieces.
+Let's break down some of the pieces:
 
-JupyterLab's interface is a web app that you open in a browser program
-like FireFox or Google Chrome (websites themselves commonly have code
-that defines their behavior, and JupyterLab's interface is no exception).
+- JupyterLab's interface is a web app that you open in a browser program
+  like FireFox or Google Chrome (websites themselves commonly have code
+  that defines their behavior, and JupyterLab's interface is no exception).
 
-Jupyter Server (LINK) runs in the background, and it orchestrates the creation,
-management of, and communication with, your notebook kernels while you're
-running your notebooks.
+- Jupyter Server (LINK) runs in the background, and it orchestrates the creation,
+  management of, and communication with, your notebook kernels while you're
+  running your notebooks.
 
-Jupyter kernels themselves are independent programs (operating system
-processes), and each one is its own REPL in whatever language you
-requested (commonly Python, though hundreds of other languages and
-kernels are also available LINK_HERE).
+- Jupyter kernels themselves are independent programs (operating system
+  processes), and each one is its own REPL in whatever language you
+  requested (commonly Python, though hundreds of other languages and
+  kernels are also available LINK_HERE).
 
 With this design, any program (that you enable) can talk to your kernels
 using common internet communication technologies like HTTP. This gives
