@@ -35,9 +35,9 @@ of a notebook. For example, a notebook file might be used to:
 
 - Read spreadsheets (or create them) to build reports about your household spending
 - Show proof of your college thesis with interactive graphs and source data
+- Process astronomical data from the James Webb Space Telescope (JWST) (CHECK/LINK)
 - Generate an image of a black hole by processing telescope data (CHECK/LINK)
 - Calculate the presence of gravitational waves from observatory data (CHECK/LINK)
-- Process astronomical data from the James Webb Space Telescope (JWST) (CHECK/LINK)
 
 Those last three are real world examples that demonstrate the scientific
 community's usage of computational notebooks (CHECK). Because scientists,
@@ -48,7 +48,7 @@ notebooks" became a very popular way to share their work and ideas.
 Notebooks are not just for Nasa scientists either: Students, hobbyists, and
 business people commonly use the fast, interactive workflows in JupyterLab to
 make notebooks that help solve everyday problems. You can use them to explain
-your own ideas to others, to learn, to automate tasks at home or work,
+your own ideas to others, to learn, to automate tasks at home or at work,
 visualize complex information, and more.
 
 When someone uses the term "notebook", they might be referring to:
@@ -72,7 +72,7 @@ originally supported: Julia (ju), Python (pyt) and R (r).
 
 # How do the Jupyter notebook-editor programs work?
 
-It is common for notebook editor programs like JupyterLab, or Jupyter
+It is common for notebook-editor programs like JupyterLab, or Jupyter
 Notebook, to share some features and workflows, because they are influenced
 by a common set of ideas about computational notebooks, their advantages,
 and how best to work with them effectively.
