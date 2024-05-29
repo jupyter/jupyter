@@ -25,7 +25,7 @@ the Jupyter community, share new ideas and discussions, and connect with one ano
 This often happens within specific sub-project (more information below), though
 there are also occasional community-wide meetings.
 
-Some of these meetings are recorded and uploaded to our `YouTube channel <https://www.youtube.com/ipython>`_.
+Some of these meetings are recorded and uploaded to our `YouTube channel <https://www.youtube.com/@projectjupyter>`_.
 **Please do not record meetings on your own.** Some of our meetings include both
 on-the-record and off-the-record segments; off-record segments are not recorded or
 published.
