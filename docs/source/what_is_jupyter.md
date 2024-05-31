@@ -1,9 +1,9 @@
 # What is Jupyter?
 
 "Jupyter" can mean a lot of things, so let's start from the beginning, and
-break it down:
+go step-by-step:
 
-First and foremost, "Project Jupyter" is a large umbrella project that covers
+Above all, "Project Jupyter" is a large umbrella project that covers
 many different software offerings and tools. That includes "Jupyter Notebook"
 and "JupyterLab", which are both popular notebook-editor programs. **The**
 **Jupyter project, and its subprojects, all center around providing tools**
