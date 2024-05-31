@@ -312,7 +312,7 @@ graph TD
 - [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
 - [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
 
-The two most popular notebook editor programs are Jupyter-Notebook and
+Two popular notebook-editor programs made by Project Jupyter are Jupyter-Notebook and
 JupyterLab, though there are others. Which one you choose to use is
 mostly a matter of preference (both Notebook and Lab provide many of the
 same capabilities for editing and running notebooks):
