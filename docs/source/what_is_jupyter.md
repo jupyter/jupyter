@@ -35,9 +35,12 @@ of a notebook. For example, a notebook file might be used to:
 
 - Read spreadsheets (or create them) to build reports about your household spending
 - Show proof of your college thesis with interactive graphs and source data
-- Process astronomical data from the James Webb Space Telescope (JWST) (CHECK/LINK)
-- Generate an image of a black hole by processing telescope data (CHECK/LINK)
-- Calculate the presence of gravitational waves from observatory data (CHECK/LINK)
+- [Process astronomical data](https://jwst-docs.stsci.edu/jwst-science-calibration-pipeline/jwst-pipeline-notebooks#gsc.tab=0)
+  from the James Webb Space Telescope (JWST)
+- Generate an [image of a black hole](https://numfocus.org/case-studies/first-photograph-black-hole)
+  by processing telescope data
+- Calculate the presence of [gravitational waves]((https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborations-from-project-jupyter-5923247be019))
+  from observatory data
 
 Those last three are real world examples that demonstrate the scientific
 community's usage of computational notebooks (CHECK). Because scientists,
@@ -88,12 +91,12 @@ As time passed, new techniques were discovered that sped up the process between
 writing code, running it, and seeing results. Languages like Python were also
 later introduced that offered some unique advantages over older languages.
 
-For instance, Python is an interpreted language, so it does not need to be
-compiled (LINK) before it can be run (saving programmers steps and time).
-It is also a dynamically-typed language that does not require the programmer
-to specify the type of their data ahead of time before using it, which can
-sometimes save time and reduce the complexity of code (particularly for
-smaller, simpler programs).
+For instance, Python is an interpreted language, so it does not need to be [compiled](https://en.wikipedia.org/wiki/Compiler)
+before it can be run (saving programmers steps and time). It is also a
+dynamically-typed language that does not require the programmer to specify
+the type of their data ahead of time before using it, which can sometimes
+save time and reduce the complexity of code (particularly for smaller,
+simpler programs).
 
 Another programming technique (which is key to the Jupyter notebook-editing
 programs) is the Read-Eval-Print-Loop (REPL), which allows a programmer to
@@ -118,7 +121,8 @@ above) for each of your open notebook files, in a language of your choice. In
 the Jupyter ecosystem, each of these REPL's is called a kernel, and it holds
 the data and objects you create with your notebook code in a long-running
 program on your computer (the management and creation of these kernels
-is orchestrated by the Jupyter Server (LINK), more on that later).
+is orchestrated by the [Jupyter Server](https://jupyter-server.readthedocs.io/en/latest/#who-s-this-for),
+more on that later).
 
 This is why you don't lose your data and variables when you execute multiple
 notebook cells in a row, they stay alive inside the REPL so that you can
@@ -151,14 +155,14 @@ Let's break down some of the pieces:
   like FireFox or Google Chrome (websites themselves commonly have code
   that defines their behavior, and JupyterLab's interface is no exception).
 
-- Jupyter Server (LINK) runs in the background, and it orchestrates the creation,
-  management of, and communication with, your notebook kernels while you're
-  running your notebooks.
+- [Jupyter Server](https://jupyter-server.readthedocs.io/en/latest/#who-s-this-for)
+  runs in the background, and it orchestrates the creation, management of, and
+  communication with, your notebook kernels while you're running your notebooks.
 
 - Jupyter kernels themselves are independent programs (operating system
   processes), and each one is its own REPL in whatever language you
   requested (commonly Python, though hundreds of other languages and
-  kernels are also available LINK_HERE).
+  kernels are [also available](https://docs.jupyter.org/en/latest/projects/kernels.html)).
 
 With this design, any program (that you enable) can talk to your kernels
 using common internet communication technologies like HTTP. This gives
@@ -167,11 +171,11 @@ different programs. One kernel can even connect to multiple editing programs
 simultaneously! (Similarly, in JupyterLab, you can connect a notebook and a
 console to the same kernel!)
 
-Project Jupyter actually defines a standard (LINK) that other programs can
-follow that will allow them to hook into your kernels in virtually any way
-you can imagine. You can invent new editing and viewing experiences for your
-data this way, using the interactive computing capabilities provided by
-the kernels.
+Project Jupyter actually defines a [standard](https://jupyter-protocol.readthedocs.io/en/latest/messaging.html)
+that other programs can follow that will allow them to hook into your
+kernels in virtually any way you can imagine. You can invent new editing
+and viewing experiences for your data this way, using the interactive
+computing capabilities provided by the kernels.
 
 ## Benefits of a many-piece design
 
@@ -190,8 +194,9 @@ programs can focus solely on adding new interface and editing experiences,
 leaving the task of creating and managing new kernels completely up to the
 Jupyter Server.
 
-JupyterCAD is a 3D modeling tool built on top of Jupyter software, for
-instance, and there are other examples too (LINK HERE).
+[JupyterCAD](https://jupytercad.readthedocs.io/en/latest/) is a 3D modeling
+tool built on top of Jupyter software, for instance, and there are
+[other examples too](https://github.com/glue-viz/glue-jupyter).
 
 ## Talking to Kernels (The Jupyter Protocol)
 
@@ -225,18 +230,18 @@ different ways, like:
 - Writing tutorials
 - Testing newly released versions
 - Adding software features
-- Hosting the weekly video meetings (LINK)
+- Hosting the [weekly video meetings](https://jupyter.org/community#live-events)
 - Helping others in the community
 - ...and more!
 
 The project is split into largely independent subprojects which handle
 different aspects of Jupyter software and the community. A central council,
-the Jupyter Executive Council (LINK), makes decisions about project-wide
-goals and policies, while different subprojects handle the actual development
-of the various software components.
+the [Jupyter Executive Council](https://jupyter.org/governance/executive_council.html),
+makes decisions about project-wide goals and policies, while different
+subprojects handle the actual development of the various software components.
 
-Some subprojects take care of broader topics, such as the [Accessibility](),
-[Security](), [Community](), and [Documentation]() projects.
+Some subprojects take care of broader topics, such as the [Accessibility](https://jupyter-accessibility.readthedocs.io/en/latest/),
+[Security](https://jupyter.org/security), [Community](https://docs.jupyter.org/en/latest/community/content-community.html), and [Documentation](https://github.com/jupyter/docs-team-compass) projects.
 
 # A (Partial) Tour of the Jupyter Universe
 
@@ -245,14 +250,14 @@ the Jupyter ecosystem. This is *not* a comprehensive reference of every aspect
 of Jupyter, but rather a big-picture summary that should help illustrate some
 important parts that were discussed earlier.
 
-If you are completely new to *Jupyter*, the project's [About][] page is good
-reading that will introduce you to many of the different subprojects.
+If you are completely new to *Jupyter*, the project's [About](https://docs.jupyter.org/en/latest/#sub-project-documentation)
+page is good reading that will introduce you to many of the different subprojects.
 
 If you want to know more about the organizational structure, check out the
-[Governance]() pages.
+[Governance](https://jupyter.org/governance/overview.html) pages.
 
 And if you would like to contribute to the project, have a look at the
-[Get Involved]() page.
+[Get Involved](https://jupyter.org/community#join-the-jupyter-community) page.
 
 The graph below presents the best known software components of the Project.
 
@@ -324,7 +329,7 @@ same capabilities for editing and running notebooks):
   editing environment, and has additional tools like a customizable layout
   and system console (a common tool used by programmers)
 
-- And more...read about additional notebook interfaces here (LINK)!
+- And more!
 
 A professor, for instance, might use JupyterLab for their daily work as a data
 analyst, and Jupyter Notebook while teaching to provide a simpler, more focused
