@@ -4,6 +4,8 @@
 **Pictured above:** *A notebook inside JupyterLab, showing an interactive*
 *view of the insulin receptor.*
 
+> 📘 **Note:** This document explains fundamental ideas and software inside Project Jupyter.
+
 "Jupyter" can mean a lot of things, so let's start from the beginning, and
 go step-by-step:
 
@@ -204,7 +206,7 @@ Jupyter Server.
 tool built on top of Jupyter software, for instance, and there are
 [other examples too](https://github.com/glue-viz/glue-jupyter).
 
-![The JupyterCAD program](_static/_images/jupytercad_extension.webp)
+![The JupyterCAD program](_static/_images/jupytercad-screenshot.webp)
 **Pictured above:** *The JupyterCAD program.*
 
 ## Talking to Kernels (The Jupyter Protocol)
