@@ -10,7 +10,7 @@ for interactive computing with [computational notebooks](#what-is-a-notebook).
 
 ## What is a Notebook?
 
-> 📘 **Note:** Read more at *[What is Jupyter?](what_is_jupyter)*
+> 📘 **Note:** Read [What is Jupyter?](what_is_jupyter) for more details about Jupyter and notebooks
 
 ![jupyterlab.png](_static/_images/jupyterlab.png)
 
