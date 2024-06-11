@@ -1,6 +1,7 @@
 # What is Jupyter?
 
-.. image:: _static/_images/notebook_insulin_small.png
+.. image:: notebook_insulin_small.png
+    :alt: Image
 
 **Pictured above:** The JupyterLab notebook editor, with an open notebook
 showing an interactive view of the insulin receptor
