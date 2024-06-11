@@ -8,12 +8,13 @@ showing an interactive view of the insulin receptor
 go step-by-step:
 
 Above all, "Project Jupyter" is a large umbrella project that covers
-many different software offerings and tools. That includes "Jupyter Notebook"
-and "JupyterLab", which are both popular notebook-editor programs. **The**
-**Jupyter project, and its subprojects, all center around providing tools**
-**(and standards) for interactive computing with computational notebooks.**
-If you're not familiar with some of those things, you can take a guided tour
-below that explains each one from the start.
+many different software offerings and tools. That includes [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
+and [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/),
+which are both popular notebook-editor programs. **The Jupyter project, and**
+**its subprojects, all center around providing tools (and standards) for**
+**interactive computing with computational notebooks.** If you're not familiar
+with some of those things, you can take a guided tour below that explains each
+one from the start.
 
 The term "Jupyter" is often used as a shorthand to refer to one of those
 products or ideas, which can cause confusion. Let's take a look at each piece,
