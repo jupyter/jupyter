@@ -10,11 +10,11 @@ for interactive computing with [computational notebooks](#what-is-a-notebook).
 
 ## What is a Notebook?
 
-> 📘 **Note:** Read [What is Jupyter?](what_is_jupyter) for more details about Jupyter and notebooks
-
 ![jupyterlab.png](_static/_images/jupyterlab.png)
 
 **Pictured:** *A computational notebook document, shown inside JupyterLab*
+
+> 📘 **Note:** Read [What is Jupyter?](what_is_jupyter) for more details about Jupyter and notebooks
 
 A notebook is a shareable document that combines computer code, plain language
 descriptions, data, rich visualizations like 3D models, charts, graphs and
