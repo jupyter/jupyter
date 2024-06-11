@@ -4,7 +4,7 @@
 **Pictured above:** *A notebook inside JupyterLab, showing an interactive*
 *view of the insulin receptor.*
 
-> 📘 **Note:** This document explains fundamental ideas and software inside Project Jupyter.
+> 📘 **About:** This document explains fundamental ideas and software inside Project Jupyter.
 
 "Jupyter" can mean a lot of things, so let's start from the beginning, and
 go step-by-step:
