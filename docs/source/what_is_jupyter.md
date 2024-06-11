@@ -17,7 +17,7 @@ with some of those things, you can take a guided tour below that explains each
 one from the start.
 
 The term "Jupyter" is often used as a shorthand to refer to one of those
-products or ideas, which can cause confusion. Let's take a look at each piece,
+products or ideas (which might cause confusion). Let's take a look at each piece,
 and provide some clarity, below.
 
 # What is a "Computational Notebook" anyway?
