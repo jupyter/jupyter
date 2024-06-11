@@ -338,6 +338,21 @@ A professor, for instance, might use JupyterLab for their daily work as a data
 analyst, and Jupyter Notebook while teaching to provide a simpler, more focused
 view of the notebook's content to their students.
 
+### IPython
+
+- [The IPython REPL](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
+
+A long time ago, a precursor to Jupyter was created, called ipython (see
+the [History of Jupyter](LINK) to learn more about that). It provided some of
+the same fast, advanced REPL features that Jupyter still has today, and it
+is the default Python kernel bundled with JupyterLab and Notebook. Some of
+the features ipython provides:
+
+- interactive shell: [ipython.readthedocs.io/interactive/tutorial][]
+- magic commands: [ipython.readthedocs.io/interactive/magics][]
+
+For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
+
 ### The notebook format
 
 - [The nbformat software library](https://nbformat.readthedocs.io)
@@ -351,7 +366,7 @@ program outputs, and metadata inside a structured text file.
 
 ### JupyterHub
 
-- [JupyterHub](https://jupyterhub.readthedocs.io)
+- [JupyterHub for multi-user setups](https://jupyterhub.readthedocs.io)
 
 JupyterHub provides a multi-user management system where many different people
 can log in and use their own isolated notebook editor program and environment.
@@ -368,20 +383,6 @@ JupyterHub can be set up in different system configurations:
 
 JupyterHub is quite flexible for many different multi-user scenarios.
 
-### IPython
-
-- [The IPython REPL](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
-
-A long time ago, a precursor to Jupyter was created, called ipython (see
-the [History of Jupyter](LINK) to learn more about that). It provided some of
-the same fast, advanced REPL features that Jupyter still has today, and it
-is the default Python kernel bundled with JupyterLab and Notebook. Some of
-the features ipython provides:
-
-- interactive shell: [ipython.readthedocs.io/interactive/tutorial][]
-- magic commands: [ipython.readthedocs.io/interactive/magics][]
-
-For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
 
 ### Interactive Buttons, Sliders and more with ipywidgets
 
