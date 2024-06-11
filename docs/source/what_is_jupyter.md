@@ -225,14 +225,13 @@ Jupyter software is free and open-source, developed by a global community
 of volunteers and contributors, available for the benefit of all.
 
 Project Jupyter welcomes people from all backgrounds and with many types
-of skills (not just software!) so we encourage you to join us!
-
-You can share feedback about your experiences directly with the people who
-make Jupyter software, or volunteer and contribute to help Jupyter in many
+of skills (not just software!) so we encourage you to join us! You can
+share feedback about your experiences directly with the people who make
+Jupyter software, or volunteer and contribute to help Jupyter in many
 different ways, like:
 
-- Writing tutorials
 - Testing newly released versions
+- Writing tutorials
 - Adding software features
 - Hosting the [weekly video meetings](https://jupyter.org/community#live-events)
 - Helping others in the community
