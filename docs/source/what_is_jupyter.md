@@ -155,7 +155,7 @@ open up new features, ideas and workflows that you can take advantage of.
 A many-pieces (modular) approach also has advantages for people using Jupyter
 software, and to the people who write it.
 
-Let's break down some of the pieces:
+Let's look at some of the pieces:
 
 - JupyterLab's interface is a web app that you open in a browser program
   like FireFox or Google Chrome (websites themselves commonly have code
@@ -318,8 +318,8 @@ graph TD
 
 ### Notebook Editor Programs
 
-- [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
-- [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+- The [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) notebook editor
+- [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) notebook editor
 
 Two popular notebook-editor programs made by Project Jupyter are Jupyter-Notebook and
 JupyterLab, though there are others. Which one you choose to use is
@@ -371,7 +371,7 @@ JupyterHub is quite flexible for many different multi-user scenarios.
 
 ### IPython
 
-- [IPython]([ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
+- [The IPython REPL](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
 
 A long time ago, a precursor to Jupyter was created, called ipython (see
 the [History of Jupyter](LINK) to learn more about that). It provided some of
