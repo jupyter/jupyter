@@ -1,6 +1,6 @@
 # What is Jupyter?
 
-![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_small.png)
+![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_lab_small.png)
 **Pictured above:** *A notebook inside JupyterLab, showing an interactive*
 *view of the insulin receptor.*
 
@@ -48,7 +48,7 @@ of a notebook. For example, a notebook file might be used to:
   from observatory data
 
 Those last three are real world examples that demonstrate the scientific
-community's usage of computational notebooks (CHECK). Because scientists,
+community's usage of computational notebooks. Because scientists,
 engineers, and other technical people so often need to perform and communicate
 sophisticated calculations to describe their work, these "computational
 notebooks" became a very popular way to share their work and ideas.
