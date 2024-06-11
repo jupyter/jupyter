@@ -204,6 +204,9 @@ Jupyter Server.
 tool built on top of Jupyter software, for instance, and there are
 [other examples too](https://github.com/glue-viz/glue-jupyter).
 
+![The JupyterCAD program](_static/_images/jupytercad_extension.webp)
+**Pictured above:** *The JupyterCAD program.*
+
 ## Talking to Kernels (The Jupyter Protocol)
 
 Anyone can make new software that talks to Jupyter's kernels (read more
