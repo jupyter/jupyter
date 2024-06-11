@@ -1,5 +1,9 @@
 # What is Jupyter?
 
+![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_small.png)
+**Pictured above:** The JupyterLab notebook editor, with an open notebook
+showing an interactive view of the insulin receptor
+
 "Jupyter" can mean a lot of things, so let's start from the beginning, and
 go step-by-step:
 
@@ -14,10 +18,6 @@ below that explains each one from the start.
 The term "Jupyter" is often used as a shorthand to refer to one of those
 products or ideas, which can cause confusion. Let's take a look at each piece,
 and provide some clarity, below.
-
-![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_small.png)
-**Pictured above:** The JupyterLab notebook editor, with an open notebook
-showing an interactive view of the insulin receptor
 
 # What is a "Computational Notebook" anyway?
 
