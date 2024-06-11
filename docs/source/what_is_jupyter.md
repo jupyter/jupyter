@@ -22,21 +22,21 @@ and provide some clarity, below.
 
 # What is a "Computational Notebook" anyway?
 
-A famous computer programmer (Donald Knuth) popularized the idea to combine
-explanatory plain english text with computer code, which is commonly called
-"literate programming". **By adopting this practice, computer programs, as**
-**well as other complex information and ideas, could be better explained to**
-**a wide range of people.**
+A famous computer programmer ([Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth))
+popularized the idea to combine explanatory plain english text with computer
+code, which is commonly called [literate programming](https://en.wikipedia.org/wiki/Literate_programming).
+**By adopting this practice, computer programs, as well as other complex**
+**information and ideas, could be better explained to a wide range of people.**
 
 A program written in this way could be printed on paper and shared by hand
 as an actual "notebook", but in modern times, they are shared digitally as
 "notebook files", and can contain additional rich media like images, 3D models
 and interactive figures, along with data and other program outputs.
 
-By opening a notebook with an editor program like JupyterLab, you can also
-run the code inside the notebook. Since a notebook can contain code that does
-virtually anything, you can do nearly anything regular software can do inside
-of a notebook. For example, a notebook file might be used to:
+By opening a notebook with an editor program like [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/),
+you can also run the code inside the notebook. Since a notebook can contain
+code that does virtually anything, you can do nearly anything regular software
+can do inside of a notebook. For example, a notebook file might be used to:
 
 - Read spreadsheets (or create them) to build reports about your household spending
 - Show proof of your college thesis with interactive graphs and source data
@@ -85,16 +85,17 @@ Notebook, to share some features and workflows, because they are influenced
 by a common set of ideas about computational notebooks, their advantages,
 and how best to work with them effectively.
 
-Let's break down some of those ideas.
+Let's take a look at some of those ideas.
 
 ## Interactive programming (the REPL)
 
 In the past, writing programs, running them, and seeing results was commonly
 a slower and more deliberative process than it is today.
 
-As time passed, new techniques were discovered that sped up the process between
-writing code, running it, and seeing results. Languages like Python were also
-later introduced that offered some unique advantages over older languages.
+As time passed, new techniques were discovered that sped up the process
+between writing code, running it, and seeing results. Languages like [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+were also later introduced that offered some unique advantages over
+older languages.
 
 For instance, Python is an interpreted language, so it does not need to be [compiled](https://en.wikipedia.org/wiki/Compiler)
 before it can be run (saving programmers steps and time). It is also a
@@ -104,10 +105,10 @@ save time and reduce the complexity of code (particularly for smaller,
 simpler programs).
 
 Another programming technique (which is key to the Jupyter notebook-editing
-programs) is the Read-Eval-Print-Loop (REPL), which allows a programmer to
-interactively write code, run it, keep their data and variables intact, then
-rewrite, re-run, and refine their code on-the-fly (without losing data
-after the program finishes running).
+programs) is the Read-Eval-Print-Loop ([REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)),
+which allows a programmer to interactively write code, run it, keep their
+data and variables intact, then rewrite, re-run, and refine their code
+on-the-fly (without losing data after the program finishes running).
 
 A REPL is so named because the programmer writes snippets of code that are
 first read (R), then Evaluated (E) or in other words executed, the results
@@ -206,9 +207,9 @@ tool built on top of Jupyter software, for instance, and there are
 ## Talking to Kernels (The Jupyter Protocol)
 
 Anyone can make new software that talks to Jupyter's kernels (read more
-about those above), by using the Jupyter Protocol. The protocol provides
-a standardized blueprint for passing information back and forth between
-the kernels and other software.
+about those above), by using the [Jupyter Protocol](https://jupyter-client.readthedocs.io/en/latest/messaging.html).
+The protocol provides a standardized blueprint for passing information
+back and forth between the kernels and other software.
 
 By implementing the designs described in the Jupyter Protocol, you could
 invent a completely new interactive programming experience, or add support
@@ -217,8 +218,6 @@ for a new programming language to Jupyter.
 Because Project Jupyter is free and open, it encourages anyone to explore
 new ways of working with their notebooks and kernels, and likes to offer
 compatibility and interoperation with other software.
-
-TODO add more here? examples? etc.
 
 # What else should I know about Project Jupyter?
 
@@ -342,17 +341,18 @@ view of the notebook's content to their students.
 
 ### The notebook format
 
-- [nbformat.readthedocs.io](https://nbformat.readthedocs.io)
+- [The nbformat software library](https://nbformat.readthedocs.io)
 
-Jupyter uses the .ipynb format to store your notebook files (where the data
-and outputs of your notebook reside for long term storage). The .ipynb format
-is interpreted and modified by the nbformat software library.
+Jupyter uses the `.ipynb` file format to store notebook files on your computer
+(where the data and outputs of your notebook reside for long term storage).
+The .ipynb format is interpreted and modified by the nbformat software library.
 
-TODO: features, more info, basic exmaplanation of how it works/structure
+The `.ipynb` format is a type of json document, which holds your notebook cells,
+program outputs, and metadata inside a structured text file.
 
 ### JupyterHub
 
-- [jupyterhub.readthedocs.io](https://jupyterhub.readthedocs.io)
+- [JupyterHub](https://jupyterhub.readthedocs.io)
 
 JupyterHub provides a multi-user management system where many different people
 can log in and use their own isolated notebook editor program and environment.
@@ -361,7 +361,7 @@ With JupyterHub, editing and running notebook files is still performed by an
 editor program like Lab or Notebook. The Hub is responsible for authenticating
 users and providing them their corresponding Lab/Notebook instance connection.
 
-Jupyter-Hub can be set up in different system configurations:
+JupyterHub can be set up in different system configurations:
 
 - In a single computer
 - In a cluster of computers
@@ -374,20 +374,15 @@ JupyterHub is quite flexible for many different multi-user scenarios.
 - [IPython]([ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
 
 A long time ago, a precursor to Jupyter was created, called ipython (see
-the [History of Jupyter][] to learn more about that). It provided some of
+the [History of Jupyter](LINK) to learn more about that). It provided some of
 the same fast, advanced REPL features that Jupyter still has today, and it
 is the default Python kernel bundled with JupyterLab and Notebook. Some of
 the features ipython provides:
 
-- Foobar
-- Bizbaz
-- WikRakRum
 - interactive shell: [ipython.readthedocs.io/interactive/tutorial][]
 - magic commands: [ipython.readthedocs.io/interactive/magics][]
 
 For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
-
-
 
 ### Interactive Buttons, Sliders and more with ipywidgets
 
