@@ -1,10 +1,6 @@
 # What is Jupyter?
 
-.. image:: notebook_insulin_small.png
-    :alt: Image
-
-**Pictured above:** The JupyterLab notebook editor, with an open notebook
-showing an interactive view of the insulin receptor
+![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_small.png)
 
 "Jupyter" can mean a lot of things, so let's start from the beginning, and
 go step-by-step:
