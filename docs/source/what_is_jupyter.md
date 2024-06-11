@@ -383,7 +383,6 @@ JupyterHub can be set up in different system configurations:
 
 JupyterHub is quite flexible for many different multi-user scenarios.
 
-
 ### Interactive Buttons, Sliders and more with ipywidgets
 
 - [Jupyter Widgets (AKA ipywidgets)](https://ipywidgets.readthedocs.io/en/latest/)
@@ -395,23 +394,3 @@ elements that you can add directly into your notebooks.
 Jupyter-Widgets, but Jupyter-Widgets and IPyWidgets are the very same thing. To
 not break compatibility with older code, the software library is still called
 `ipywidgets`.
-
-<!-- 
-    References 
--->
-
-[Accessibility]: https://github.com/jupyter/accessibility
-[About]: https://jupyter.org/about
-[Get Involved]: https://jupyter.org/community
-[History of Jupyter]: ./history_of_jupyter.md
-[Jupyter-Lab]: https://jupyterlab.readthedocs.io
-[Governance]: https://jupyter.org/governance/intro.html
-[Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
-[Security]: https://github.com/jupyter/security
-[subprojects]: https://jupyter.org/governance/list_of_subprojects.html
-
-[ipywidgets.readthedocs.io]: https://ipywidgets.readthedocs.io
-[ipython.readthedocs.io/interactive/tutorial]: https://ipython.readthedocs.io/en/stable/interactive/tutorial.html
-[ipython.readthedocs.io/interactive/magics]: https://ipython.readthedocs.io/en/stable/interactive/magics.html
-[ipykernel.readthedocs.io]: https://ipykernel.readthedocs.io
-[ipython.org]: https://ipython.org
