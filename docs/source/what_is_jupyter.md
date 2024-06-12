@@ -352,7 +352,7 @@ the [History of Jupyter](LINK) to learn more about that). It provides advanced
 REPL features that are still used today in Jupyter software, as it is the default
 Python kernel bundled with JupyterLab and Jupyter Notebook.
 
-ipython makes some additional commands available that you can type directly
+`ipython` makes some additional commands available that you can type directly
 alongside your Python code in your notebook cells. Read more about some of
 these features below:
 
