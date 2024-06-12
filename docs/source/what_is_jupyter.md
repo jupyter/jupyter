@@ -4,7 +4,7 @@
 **Pictured above:** *A notebook inside JupyterLab, showing an interactive*
 *view of the insulin receptor.*
 
-> 📘 **About:** This document explains fundamental ideas and software inside Project Jupyter.
+> 📘 **About:** This document explains fundamental ideas and software inside the Jupyter ecosystem.
 
 "Jupyter" can mean a lot of things, so let's start from the beginning, and
 go step-by-step:
@@ -343,18 +343,21 @@ A professor, for instance, might use JupyterLab for their daily work as a data
 analyst, and Jupyter Notebook while teaching to provide a simpler, more focused
 view of the notebook's content to their students.
 
-### IPython
+### ipython
 
 - [The IPython REPL](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
 
-A long time ago, a precursor to Jupyter was created, called ipython (see
-the [History of Jupyter](LINK) to learn more about that). It provided some of
-the same fast, advanced REPL features that Jupyter still has today, and it
-is the default Python kernel bundled with JupyterLab and Notebook. Some of
-the features ipython provides:
+A long time ago, a precursor to Jupyter was created, called `ipython` (see
+the [History of Jupyter](LINK) to learn more about that). It provides advanced
+REPL features that are still used today in Jupyter software, as it is the default
+Python kernel bundled with JupyterLab and Jupyter Notebook.
 
-- interactive shell: [ipython.readthedocs.io/interactive/tutorial][]
-- magic commands: [ipython.readthedocs.io/interactive/magics][]
+ipython makes some additional commands available that you can type directly
+alongside your Python code in your notebook cells. Read more about some of
+these features below:
+
+- [Interactive shell](ipython.readthedocs.io/interactive/tutorial)
+- [Magic commands](ipython.readthedocs.io/interactive/magics)
 
 For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
 
