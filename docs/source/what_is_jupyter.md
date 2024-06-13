@@ -55,7 +55,7 @@ engineers, and other technical people so often need to perform and communicate
 sophisticated calculations to describe their work, these "computational
 notebooks" became a very popular way to share their work and ideas.
 
-Notebooks are not just for Nasa scientists either: Students, hobbyists, and
+Notebooks are not just for NASA scientists either: Students, hobbyists, and
 business people commonly use the fast, interactive workflows in JupyterLab to
 make notebooks that help solve everyday problems. You can use them to explain
 your own ideas to others, to learn, to automate tasks at home or at work,
