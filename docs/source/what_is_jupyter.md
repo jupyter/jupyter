@@ -345,7 +345,7 @@ view of the notebook's content to their students.
 
 ### ipython
 
-- [The IPython REPL](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
+- [The IPython REPL](https://ipython.readthedocs.io/en/stable/index.html)
 
 A long time ago, a precursor to Jupyter was created, called `ipython` (see
 the [History of Jupyter](LINK) to learn more about that). It provides advanced
@@ -356,8 +356,8 @@ Python kernel bundled with JupyterLab and Jupyter Notebook.
 alongside your Python code in your notebook cells. Read more about some of
 these features below:
 
-- [Interactive shell](ipython.readthedocs.io/interactive/tutorial)
-- [Magic commands](ipython.readthedocs.io/interactive/magics)
+- [Interactive shell](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html)
+- [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 
 For more details on IPython features check [`docs.jupyter.org > Projects > IPython`](https://docs.jupyter.org/en/latest/projects/ipython_projects.html).
 
