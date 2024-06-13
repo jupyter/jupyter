@@ -6,7 +6,7 @@
 
 > 📘 **About:** This document explains fundamental ideas and software inside the Jupyter ecosystem.
 
-"Jupyter" can mean a lot of things, so let's start from the beginning, and
+"Jupyter" can mean a lot of things, so let's start from the beginning and
 go step-by-step:
 
 Above all, "Project Jupyter" is a large umbrella project that covers
