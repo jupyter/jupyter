@@ -398,7 +398,6 @@ JupyterHub is quite flexible for many different multi-user scenarios.
 Jupyter Widgets (also called ipywidgets) provides interactive interface
 elements that you can add directly into your notebooks.
 
-- Note: The subproject and high-level references to the widgets were renamed to
-Jupyter-Widgets, but Jupyter-Widgets and IPyWidgets are the very same thing. To
-not break compatibility with older code, the software library is still called
-`ipywidgets`.
+> 📘 **Note:** The subproject was renamed to Jupyter-Widgets, but Jupyter-Widgets
+> and IPyWidgets are actually the same thing. To avoid breaking compatibility with
+> older code, the software library is still called `ipywidgets`.
