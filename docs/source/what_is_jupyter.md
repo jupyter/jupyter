@@ -240,6 +240,7 @@ different ways, like:
 - Adding software features
 - Hosting the [weekly video meetings](https://jupyter.org/community#live-events)
 - Helping others in the community
+  - Ask for help or give help at the [Jupyter Discourse Forums](https://discourse.jupyter.org/)
 - ...and more!
 
 The project is split into largely independent subprojects which handle
