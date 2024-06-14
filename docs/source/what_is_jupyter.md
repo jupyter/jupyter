@@ -206,7 +206,7 @@ Jupyter Server.
 tool built on top of Jupyter software, for instance, and there are
 [other examples too](https://github.com/glue-viz/glue-jupyter).
 
-![The JupyterCAD program](_static/_images/jupytercad-screenshot.webp)
+![The JupyterCAD program](_static/_images/jupytercad-screenshot.jpg)
 **Pictured above:** *The JupyterCAD program.*
 
 ## Talking to Kernels (The Jupyter Protocol)
@@ -272,53 +272,7 @@ The graph below presents the best known software components of the Project.
 Connections and groups in this diagram are not formal relationships, but
 simple indicators to help us draw the big picture in the next sections.
 
-```mermaid
-graph TD
-    IPython
-        click IPython href "https://ipython.org" _blank
-
-    subgraph source/code
-        Nbformat[["Notebook file format (.ipynb)"]]
-            click Nbformat href "https://nbformat.readthedocs.io" _blank
-
-        JupyterWidgets>Jupyter-Widgets]
-            click JupyterWidgets href "http://ipywidgets.readthedocs.io" _blank
-    end
-
-    subgraph frontends
-        direction LR
-
-        JupyterLab(Jupyter-Lab)
-            click JupyterLab href "https://jupyterlab.readthedocs.io" _blank
-
-        JupyterNotebook(Jupyter-Notebook)
-            click JupyterNotebook href "https://jupyter-notebook.readthedocs.io" _blank
-    end
-
-    subgraph viewers
-        direction LR
-
-        Binder(Binder)
-            click Binder href "https://mybinder.org" _blank
-
-        Voila(Voilà)
-            click Voila href "https://voila.readthedocs.io" _blank
-
-        Nbviewer[nbviewer]
-            click Nbviewer href "https://nbviewer.org" _blank
-
-        Nbconvert[nbconvert]
-            click Nbconvert href "https://nbconvert.readthedocs.io" _blank
-    end
-
-    JupyterHub(Jupyter-Hub)
-        click JupyterHub href "https://jupyterhub.readthedocs.io" _blank
-
-    JupyterHub --> frontends
-    IPython ~~~ source/code
-    frontends --> source/code
-    viewers --> source/code
-```
+![Diagram of well known Jupyter software](_static/_images/jupyter_software_diagram_alpha.png)
 
 ### Notebook Editor Programs
 
@@ -347,10 +301,11 @@ view of the notebook's content to their students.
 
 - [The IPython REPL](https://ipython.readthedocs.io/en/stable/index.html)
 
-A long time ago, a precursor to Jupyter was created, called `ipython` (see
-the [History of Jupyter](LINK) to learn more about that). It provides advanced
-REPL features that are still used today in Jupyter software, as it is the default
-Python kernel bundled with JupyterLab and Jupyter Notebook.
+A long time ago, a precursor to Jupyter was created, called `ipython` (A
+soon to be released document "The History of Jupyter" will cover this in
+more detail). It provides advanced REPL features that are still used today
+in Jupyter software, as it is the default Python kernel bundled with
+JupyterLab and Jupyter Notebook.
 
 `ipython` makes some additional commands available that you can type directly
 alongside your Python code in your notebook cells. Read more about some of
