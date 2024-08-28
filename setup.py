@@ -25,7 +25,6 @@ setup_args = dict(
     py_modules          = [],
     install_requires    = [
         'notebook',
-        'qtconsole',
         'jupyter-console',
         'nbconvert',
         'ipykernel',
