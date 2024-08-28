@@ -1,39 +1,36 @@
-# Host Guide (for Weekly Meetings)
+# Host Guide 
 
-Welcome to the Host Guide, a place for weekly call hosts to get help,
-info, advice and best practices for conducting great, fun, effective
-weekly meetings.
+Welcome to the Host Guide, a place for call hosts to get help,
+info, advice and best practices for conducting engaging and effective
+meetings.
 
-Check the [Suggested Meeting Script section](#meeting-script-and-checklist)
+Check the [Suggested Meeting Script section](#-suggested-meeting-script-and-checklist)
 if you want a TL;DR for quick tips to follow for running a great meeting, and
 peruse the other sections for basic info and additional context.
 
-## &#x23F0; Basic Meeting Event Info
+## &#x23F0; Basic Meeting Event Info 
 
-Jupyter Frontends team meetings are held every Wednesday. You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
+You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time of each meeting in your time zone.
 
-Read the [weekly meeting notes/agenda here](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg).
+Each meeting should have a collaborative public agenda document (for example on HackMD). The agenda link should be included in the event’s description in the shared Google Calendar.
 
 ## &#x1F3AF; Meeting Purpose/Goals
 
-The weekly meetings are a way to connect JupyterLab contributors and the
-community, so (ideally) all participants should have a good time, feel welcome,
-and be heard. In line with that:
+Meetings are a way to connect members of our 
+community. All participants should feel welcome and be heard. In line with that:
 
 Meetings should be...
 
-- Positive, friendly, exciting
-- Welcoming and open to JupyterLab users from diverse backgrounds
+- Positive and friendly
+- Welcoming and open to people from diverse backgrounds
 - Newcomers in particular should be welcomed and encouraged to
-  chime in and discuss, or participate in whatever way they would like
+  chime in, discuss, participate, or to simply observe if that is their preference.
 
 ## &#x1F4AC; Topics
+Each meeting should have a list of topics that are generally discussed. Contributors can propose topics before or during the meeting.
 
-Weekly meetings are for contributors to discuss features, demos, ideas, PRs and
-any other work on JupyterLab, and for the community to discuss their work, connect
-with JupyterLab contributors, seek help, and more.
-
-## &#x1F4AA; Host Responsibilities
+(If using this document as a template, replace this section with a list of topics that are discussed at your meeting.)
+&#x1F4AA; Host Responsibilities - Martha
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
@@ -43,35 +40,27 @@ First and foremost, the host should facilitate the flow of a meeting. That means
   - *Read chats aloud for participants + the recording*
 - [ ] Maintaining order / Making sure everyone has a chance to speak:
   - *Interject when someone has their hand raised*
-- [ ] Mention/link to the Jupyter Code of Conduct and how everyone is bound to it
+- [ ] Mention/link to the Jupyter Code of Conduct and how everyone is bound to it (including the host)
 
-The host should also:
+Partner with another contributor (a meeting facilitator) to do the following:
 
-- [ ] Try to log in as the “Project Jupyter” host account for meeting management perks (kicking spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
-- [ ] Record the meeting: The host starts and stops the recording. These are
-  posted to YouTube for the community to view.
-- [ ] Try to keep meeting minutes on [the collaborative HackMD document](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
-- [ ] Provide a signal ("Brace yourselves") when starting/stopping recording
-- [ ] Kick unwelcome recording bots:
+- [ ] Log in as the “Project Jupyter” host account for meeting management perks (removing spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
+- [ ] Record the meeting, if that is intended. The host starts and stops the recording. These are posted to YouTube.
+- [ ] Remove unwelcome recording bots:
   - Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
   - To identify themselves and state whether they're recording
   - If they get no response from the account, the host should assume
     it's recording, and remove it from the meeting.
+## &#x270f; Suggested Meeting Script and Checklist 
+### &#x23F3; Prior to meeting start
 
-Last, keep in mind that the code of conduct applies to hosts too! Hosts should
-peruse and follow the Jupyter Code of conduct.
-
-## &#x270f; Meeting Script and Checklist
-
-### &#x23F3; Pre-Meeting Prep
-
-- [ ] Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org)
+- [ ] Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org). Note this is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
 *from the Jupyter Security group if needed*)
 - [ ] Make sure you have a stable internet
 connection, a good quality microphone, and a quiet environment.
-- [ ] Check the [meeting agenda on HackMD](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
+- [ ] Check the [meeting agenda](insert agenda)
   - *The agenda is a collaboratively created document made by the participants.*
     *Ensure a section for today's meeting is created, with today's date and a table*
     *for participants to record their names (which can be copied/pasted from lower*
@@ -79,85 +68,63 @@ connection, a good quality microphone, and a quiet environment.
 
 &#x1F517; *Links to copy/paste into the meeting chat:*
 
-- Weekly Meeting Notes: https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
+- Weekly Meeting Notes: [Insert your team’s notes here]
 - Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
-- Jupyter Frontends Team Compass: https://github.com/jupyterlab/frontends-team-compass
+- [Subproject Name]Team Compass: 
 
-### &#x1F399; At the start of the meeting
+### &#x1F399; Start the meeting! 
 
 ```
-Hello and welcome to our [day, month, year] Jupyter community call. I’m
+Hello and welcome to our [day, month, year] Jupyter [TOPIC_HERE] call. I’m
 [host name] and I’ll be your host today.
+This is a place to for contributors to connect with each other
+and the community about [TOPIC_HERE] topics. A special highlight and welcome to all first time participants! We want all newcomers to feel
+welcome, we invite you to join in on discussions, introduce yourself,
+or add items to the agenda.
 
-This is a place to for JupyterLab contributors to connect with each other
-and the community about JupyterLab topics. We want all newcomers to feel
-welcome, so please feel free to jump in on discussions, introduce yourself,
-or add your own items to the agenda.
+Please keep in mind that this call will be recorded and posted to YouTube for the community to view. This call is a part of the Jupyter community, therefore we follow Jupyter Code of Conduct, which you can read about at jupyter.org/conduct[Meeting host insert link in the meeting minutes template]
 
-There’s a couple things to know while you are here.
-
-First, I want to remind everyone that community calls will be recorded and
-posted to YouTube for the community to view. Please keep that in mind while
-you’re here.
-
-Second, I’d like to remind people that as this is a part of the Jupyter
-community we are all held to the Jupyter Code of Conduct. You can read about
-the code of conduct at jupyter.org/conduct.
-
-If you haven’t been here before, here’s how this works. Presenters have
-submitted what they want to share ahead of time and can be found on the
-agenda. We’ll have a little time for discussion with each one.
+Before we begin, I want to share how topics make it on to the agenda. Presenters have submitted what they want to discuss or share ahead of time. We’ll have a little time for discussion with each one.
 ```
 
-### &#x1F4DA; Starting the agenda
-
-```
 [Prepare to start the recording]
-
-Okay, before we start the recording, does anyone have anything they'd like
-to say off the record? (Say "Brace Yourselves!" before starting/stopping
+```
+Before we start the recording, does anyone have anything they'd like
+to say off the record? (Say "We will now begin record/The recording has ended" before starting/stopping
 recording :)
+```
+
+### &#x1F3BA; Closing message 
+
+```
+Thank you to everyone for joining! I’m happy to have you all as a part
+of the Jupyter community.
+If you have any feedback, please direct it at [platform/link - could be Discourse, SSC rep email, Subproject email, Team Compass]. We’d love to hear what
+you think about the call or how to improve future meetings.
+Our next call will be [day, month]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar)to see what other types of meetings are happening in between.
+```
+
+For Community Call, delete if not: 
+```
+If you have any interest in sharing in future TOPIC_HERE  calls, please do! It doesn’t have to be a big share, a polished share, or a technical share, just show off what you do with Jupyter that excites you. Submit topics here [platform/link].
+If you’re interested in hosting a TOPIC_HERE  call, feel free to reach out. It would be great to get different people interacting with the community.
+```
 
 [After the recording ends]
-
-If you have anything to say off the record, please feel free to discuss
-that now.
 ```
-
-### &#x1F3BA; Near the end of the call
-
-```
-Thank you to everyone presenting and attending! I’m happy to have you all as a part
-of the Jupyter community.
-
-If you have any feedback, please direct it at [platform/link]. I’d love to hear what
-you think about the call.
-
-Our next community call will be [day, month]. Check out the Jupyter community calendar
-to see what other types of meetings
-are happening in between.
-
-If you have any interest in sharing in future community calls, please do! It doesn’t
-have to be a big share, a polished share, or a technical share, just show off what
-you do with Jupyter that excites you. Submit topics here [platform/link].
-
-If you’re interested in hosting a community call, feel free to reach out. It would be
-great to get different people interacting with the community.
+If you have anything you would like to add off the record, please feel free to discuss that now.
 ```
 
 ### &#x1F389; After the Meeting
 
-*Congratulations &#x1F680; on a finished meeting! Pat yourself on the back. We want to thank you SO MUCH for volunteering to make the Jupyter community better!*
+*Congratulations &#x1F680; on a finished meeting. Pat yourself on the back. Contributions like yours help to make the Jupyter community better!*
 
-There are just a few post-meeting TODO items:
+A few post-meeting items to complete:
 
-- [ ] Finalize meeting minutes: Go back to HackMD and make any needed additions,
-corrections and formatting you can.
-- [ ] Publish the minutes: Convert the HackMD document to markdown and publish
-it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/frontends-team-compass/issues/205)
-in the Jupyter Frontends team-compass repository for the corresponding time period
-(search issues, and look for the 6 month period the meeting belongs to).
+- [ ] Finalize meeting minutes: Go back to the notes and make any needed additions, corrections and formatting needed in order to make the notes easy to understand by someone who did not participate in the meeting.
+- [ ] Publish the minutes: Convert document to markdown and publish
+it to the relevant location [insert name] [(link to minutes location)].
 
 &#x1F305; The Jupyter community depends on volunteers like you, so again we
-would like to thank you for helping the Jupyter project bring free and open
+would like to thank you for helping Jupyter bring open source
 tools for interactive computing to the world.
