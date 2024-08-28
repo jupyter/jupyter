@@ -4,10 +4,6 @@ Welcome to the Host Guide, a place for call hosts to get help,
 info, advice and best practices for conducting engaging and effective
 meetings.
 
-Check the [Suggested Meeting Script section](#-suggested-meeting-script-and-checklist)
-if you want a TL;DR for quick tips to follow for running a great meeting, and
-peruse the other sections for basic info and additional context.
-
 ## &#x23F0; Basic Meeting Event Info 
 
 You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time of each meeting in your time zone.
