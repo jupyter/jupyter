@@ -7,19 +7,20 @@
 from __future__ import print_function
 
 import os
-import sys
-
-from distutils.core import setup
+from setuptools import setup
 
 pjoin = os.path.join
 here = os.path.abspath(os.path.dirname(__file__))
 
+with open(pjoin(here, "long_description.md")) as f:
+    long_description = f.read()
 
 setup_args = dict(
     name                = 'jupyter',
     version             = '1.1.0',
     description         = "Jupyter metapackage. Install all the Jupyter components in one go.",
-    long_description    = """Install the Jupyter system, including the notebook, qtconsole, and the IPython kernel.""",
+    long_description    = long_description,
+    long_description_content_type = "text/markdown",
     author              = "Jupyter Development Team",
     author_email        = "jupyter@googlegroups.org",
     py_modules          = [],
@@ -31,7 +32,7 @@ setup_args = dict(
         'ipywidgets',
         'jupyterlab',
     ],
-    url                 = "http://jupyter.org",
+    url                 = "https://jupyter.org",
     license             = "BSD",
     classifiers         = [
         'Intended Audience :: Developers',
@@ -47,9 +48,4 @@ setup_args = dict(
     ],
 )
 
-if any(bdist in sys.argv for bdist in ['bdist_wheel', 'bdist_egg']):
-    import setuptools
-
-
-if __name__ == '__main__':
-    setup(**setup_args)
+setup(**setup_args)
