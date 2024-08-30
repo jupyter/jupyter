@@ -17,7 +17,7 @@ with open(pjoin(here, "long_description.md")) as f:
 
 setup_args = dict(
     name                = 'jupyter',
-    version             = '1.1.0',
+    version             = '1.1.1',
     description         = "Jupyter metapackage. Install all the Jupyter components in one go.",
     long_description    = long_description,
     long_description_content_type = "text/markdown",
