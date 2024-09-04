@@ -86,11 +86,8 @@ connection, a good quality microphone, and a quiet environment.
 
 Prepare to start the recording:
 
-```
-Before we start the recording, does anyone have anything they'd like
-to say off the record? (Say "We will now begin record/The recording has ended" before starting/stopping
-recording :)
-```
+> Before we start the recording, does anyone have anything they'd like
+> to say off the record? (Make an announcement immediately before starting and after ending the recording.)
 
 ### &#x1F3BA; Closing message 
 
