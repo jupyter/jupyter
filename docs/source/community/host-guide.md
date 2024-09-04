@@ -100,11 +100,10 @@ recording :)
 > you think about the call or how to improve future meetings.
 > Our next call will be [day, month]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar)to see what other types of meetings are happening.
 
-For Community Call, delete if not: 
-```
-If you have any interest in sharing in future TOPIC_HERE  calls, please do! It doesn’t have to be a big share, a polished share, or a technical share, just show off what you do with Jupyter that excites you. Submit topics here [platform/link].
-If you’re interested in hosting a TOPIC_HERE  call, feel free to reach out. It would be great to get different people interacting with the community.
-```
+The following message is recommended for Community Calls or similar events that engage with the broader contributor community:
+
+> If you have any interest in sharing in future [title] calls, please do! It doesn’t have to be a big share, a polished share, or a technical share, just show off what you do with Jupyter that excites you. Submit topics here [platform/link].
+> If you’re interested in hosting a [title] call, feel free to reach out. It would be great to get different people interacting with the community.
 
 After the recording ends:
 
