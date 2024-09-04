@@ -50,8 +50,10 @@ Partner with another contributor (a meeting facilitator) to do the following:
   - To identify themselves and state whether they're recording
   - If they get no response from the account, the host should assume
     it's recording, and remove it from the meeting.
+
 ## &#x270f; Suggested Meeting Script and Checklist 
-### &#x23F3; Prior to meeting start
+
+### &#x23F3; Before the Meeting Starts
 
 - [ ] Log in to Zoom from the Project Jupyter account (request access by emailing [security@ipython.org](mailto:security@ipython.org)). This is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
 *from the Jupyter Security group if needed*)
