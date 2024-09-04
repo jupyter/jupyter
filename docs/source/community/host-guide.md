@@ -110,10 +110,9 @@ If you have any interest in sharing in future TOPIC_HERE  calls, please do! It d
 If you’re interested in hosting a TOPIC_HERE  call, feel free to reach out. It would be great to get different people interacting with the community.
 ```
 
-[After the recording ends]
-```
-If you have anything you would like to add off the record, please feel free to discuss that now.
-```
+After the recording ends:
+
+> If you have anything you would like to add off the record, please feel free to discuss that now.
 
 ### &#x1F389; After the Meeting
 
