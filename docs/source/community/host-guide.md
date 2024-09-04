@@ -69,7 +69,7 @@ connection, a good quality microphone, and a quiet environment.
 - Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
 - [Subproject Name]Team Compass: 
 
-### &#x1F399; Start the meeting! 
+### &#x1F399; Start the Meeting! 
 
 ```
 Hello and welcome to our [day, month, year] Jupyter [TOPIC_HERE] call. I’m
