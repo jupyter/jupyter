@@ -84,7 +84,8 @@ Please keep in mind that this call will be recorded and posted to YouTube for th
 Before we begin, I want to share how topics make it on to the agenda. Presenters have submitted what they want to discuss or share ahead of time. We’ll have a little time for discussion with each one.
 ```
 
-[Prepare to start the recording]
+Prepare to start the recording:
+
 ```
 Before we start the recording, does anyone have anything they'd like
 to say off the record? (Say "We will now begin record/The recording has ended" before starting/stopping
