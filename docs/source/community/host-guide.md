@@ -53,7 +53,7 @@ Partner with another contributor (a meeting facilitator) to do the following:
 ## &#x270f; Suggested Meeting Script and Checklist 
 ### &#x23F3; Prior to meeting start
 
-- [ ] Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org). Note this is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
+- [ ] Log in to Zoom from the Project Jupyter account (request access by emailing [security@ipython.org](mailto:security@ipython.org)). This is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
 *from the Jupyter Security group if needed*)
 - [ ] Make sure you have a stable internet
 connection, a good quality microphone, and a quiet environment.
