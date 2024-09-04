@@ -73,18 +73,16 @@ connection, a good quality microphone, and a quiet environment.
 
 ### &#x1F399; Start the Meeting! 
 
-```
-Hello and welcome to our [day, month, year] Jupyter [TOPIC_HERE] call. I’m
-[host name] and I’ll be your host today.
-This is a place to for contributors to connect with each other
-and the community about [TOPIC_HERE] topics. A special highlight and welcome to all first time participants! We want all newcomers to feel
-welcome, we invite you to join in on discussions, introduce yourself,
-or add items to the agenda.
-
-Please keep in mind that this call will be recorded and posted to YouTube for the community to view. This call is a part of the Jupyter community, therefore we follow Jupyter Code of Conduct, which you can read about at jupyter.org/conduct[Meeting host insert link in the meeting minutes template]
-
-Before we begin, I want to share how topics make it on to the agenda. Presenters have submitted what they want to discuss or share ahead of time. We’ll have a little time for discussion with each one.
-```
+> Hello and welcome to our [day, month, year] Jupyter [TOPIC_HERE] call. I’m
+> [host name] and I’ll be your host today.
+> This is a place to for contributors to connect with each other
+> and the community about [TOPIC_HERE] topics. A special highlight and welcome to all first time > participants! We want all newcomers to feel
+> welcome, we invite you to join in on discussions, introduce yourself,
+> or add items to the agenda.
+> 
+> Please keep in mind that this call will be recorded and posted to YouTube for the community to view. This call is a part of the Jupyter community, therefore we follow Jupyter Code of Conduct, which you can read about at jupyter.org/conduct[Meeting host insert link in the meeting minutes template]
+> 
+> Before we begin, I want to share how topics make it on to the agenda. Presenters have submitted what they want to discuss or share ahead of time. We’ll have a little time for discussion with each one.
 
 Prepare to start the recording:
 
