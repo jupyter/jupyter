@@ -47,12 +47,6 @@ and are focused around demonstrations and sharing information across all of the 
 - Watch previous calls on `our YouTube channel <https://www.youtube.com/playlist?list=PLUrHeD2K9Cmkoamm4NjLmvXC4Y6E1o8SP>`_.
 - Read the `notes from previous calls <community-call-notes/index.html>`_.
 
-In addition, you can find the notes from previous community meetings below.
-
-.. toctree::
-
-   community-call-notes/index
-
 Jupyter Project meetings
 ------------------------
 
