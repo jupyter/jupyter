@@ -96,13 +96,11 @@ recording :)
 
 ### &#x1F3BA; Closing message 
 
-```
-Thank you to everyone for joining! I’m happy to have you all as a part
-of the Jupyter community.
-If you have any feedback, please direct it at [platform/link - could be Discourse, SSC rep email, Subproject email, Team Compass]. We’d love to hear what
-you think about the call or how to improve future meetings.
-Our next call will be [day, month]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar)to see what other types of meetings are happening in between.
-```
+> Thank you to everyone for joining! I’m happy to have you all as a part
+> of the Jupyter community.
+> If you have any feedback, please let us know at [platform/link - could be Discourse, SSC rep email, Subproject email, Team Compass]. We’d love to hear what
+> you think about the call or how to improve future meetings.
+> Our next call will be [day, month]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar)to see what other types of meetings are happening.
 
 For Community Call, delete if not: 
 ```
