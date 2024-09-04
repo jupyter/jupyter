@@ -26,7 +26,8 @@ Meetings should be...
 Each meeting should have a list of topics that are generally discussed. Contributors can propose topics before or during the meeting.
 
 (If using this document as a template, replace this section with a list of topics that are discussed at your meeting.)
-&#x1F4AA; Host Responsibilities - Martha
+
+## &#x1F4AA; Host Responsibilities
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
