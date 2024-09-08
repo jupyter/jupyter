@@ -4,4 +4,4 @@ myst_parser
 nbsphinx
 pydata-sphinx-theme
 sphinxext-rediraffe
-sphinx-panels
+sphinx-design
