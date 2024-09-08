@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # What is Jupyter?
 
 ![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_lab_small.png)
@@ -22,7 +25,7 @@ The term "Jupyter" is often used as a shorthand to refer to one of those
 products or ideas (which might cause confusion). Let's take a look at each piece,
 and provide some clarity, below.
 
-# What is a "Computational Notebook" anyway?
+## What is a "Computational Notebook" anyway?
 
 A famous computer programmer ([Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth))
 popularized the idea to combine explanatory plain english text with computer
@@ -46,7 +49,7 @@ can do inside of a notebook. For example, a notebook file might be used to:
   from the James Webb Space Telescope (JWST)
 - Generate an [image of a black hole](https://numfocus.org/case-studies/first-photograph-black-hole)
   by processing telescope data
-- Calculate the presence of [gravitational waves]((https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborations-from-project-jupyter-5923247be019))
+- Calculate the presence of [gravitational waves](https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborations-from-project-jupyter-5923247be019)
   from observatory data
 
 Those last three are real world examples that demonstrate the scientific
@@ -80,7 +83,7 @@ And the term "Jupyter" might refer to:
 The name Jupyter comes from the three programming languages the project
 originally supported: Julia (ju), Python (pyt) and R (r).
 
-# How do the Jupyter notebook-editor programs work?
+## How do the Jupyter notebook-editor programs work?
 
 It is common for notebook-editor programs like JupyterLab, or Jupyter
 Notebook, to share some features and workflows, because they are influenced
@@ -89,7 +92,7 @@ and how best to work with them effectively.
 
 Let's take a look at some of those ideas.
 
-## Interactive programming (the REPL)
+### Interactive programming (the REPL)
 
 In the past, writing programs, running them, and seeing results was commonly
 a slower and more deliberative process than it is today.
@@ -122,7 +125,7 @@ New snippets of code can refer to variables defined in previous Eval steps,
 because the REPL keeps objects that were created (by previous runs of the
 loop) in-memory, until the user closes their REPL.
 
-## Kernels
+### Kernels
 
 Notebook editor programs like JupyterLab create a REPL (read more about those
 above) for each of your open notebook files, in a language of your choice. In
@@ -142,7 +145,7 @@ The kernels that run in the background for each of your notebooks are what
 power the fast, exploratory programming workflows that Jupyter notebook
 editor programs excel at.
 
-## Multiple programs, one experience (client-server architecture)
+### Multiple programs, one experience (client-server architecture)
 
 Most Notebook editor programs in Project Jupyter, like JupyterLab, may seem like
 a single experience, but when you run JupyterLab on your laptop, there are
@@ -185,7 +188,7 @@ kernels in virtually any way you can imagine. You can invent new editing
 and viewing experiences for your data this way, using the interactive
 computing capabilities provided by the kernels.
 
-## Benefits of a many-piece design
+### Benefits of a many-piece design
 
 By breaking up a program like JupyterLab into multiple component pieces, you
 can customize the software to meet your needs. If one piece is missing something,
@@ -224,7 +227,7 @@ Because Project Jupyter is free and open, it encourages anyone to explore
 new ways of working with their notebooks and kernels, and likes to offer
 compatibility and interoperation with other software.
 
-# What else should I know about Project Jupyter?
+## What else should I know about Project Jupyter?
 
 Jupyter software is free and open-source, developed by a global community
 of volunteers and contributors, available for the benefit of all.
@@ -252,7 +255,7 @@ subprojects handle the actual development of the various software components.
 Some subprojects take care of broader topics, such as the [Accessibility](https://jupyter-accessibility.readthedocs.io/en/latest/),
 [Security](https://jupyter.org/security), [Community](https://docs.jupyter.org/en/latest/community/content-community.html), and [Documentation](https://github.com/jupyter/docs-team-compass) projects.
 
-# A (Partial) Tour of the Jupyter Universe
+## A (Partial) Tour of the Jupyter Universe
 
 In the following sections, we are going to look at some popular components of
 the Jupyter ecosystem. This is *not* a comprehensive reference of every aspect

@@ -47,7 +47,10 @@ This is a place to make short announcements (without a need for discussion).
         * Cross-references
         * Inline execution in markdown cells
             * Syntax subject to change
-            * Roles and directives e.g. "{eval}`1+1`"
+            * Roles and directives e.g.
+            ```
+              {eval}`1+1`
+            ```
             * Embed Jupyter widgets directly in markdown, figures, sparklines
             * Better weaving of documentation and code
     * Ongoing nbformat workshop and MyST

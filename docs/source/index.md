@@ -8,6 +8,7 @@ notebook authoring and editing applications. The Jupyter project and its
 subprojects all center around providing tools (and [standards](https://docs.jupyter.org/en/latest/#sub-project-documentation))
 for interactive computing with [computational notebooks](#what-is-a-notebook).
 
+(what-is-a-notebook)=
 ## What is a Notebook?
 
 ![jupyterlab.png](_static/_images/jupyterlab.png)
