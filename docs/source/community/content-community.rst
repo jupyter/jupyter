@@ -16,6 +16,7 @@ may change, and we will do our best to keep it up to date.
    :hidden:
 
    community-call-notes/index
+   host-guide
 
 Jupyter Community Meetings
 ==========================

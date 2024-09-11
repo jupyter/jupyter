@@ -10,7 +10,6 @@ Contributing
    docs-contributions/index
    communication-contributions
    ipython-dev-guide/index
-   ../community/host-guide
 
 Whether you are a new, returning, or current contributor to Project
 Jupyter's subprojects or IPython, **we welcome you**.
