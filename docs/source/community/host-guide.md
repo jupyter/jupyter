@@ -80,7 +80,7 @@ connection, a good quality microphone, and a quiet environment.
 
 > Hello and welcome to our [day, month, year] Jupyter [TOPIC_HERE] call. I’m
 > [host name] and I’ll be your host today.
-> This is a place to for contributors to connect with each other
+> This is a place to for all contributors to connect with each other
 > and the community about [TOPIC_HERE] topics. A special highlight and welcome to all first time > participants! We want all newcomers to feel
 > welcome, we invite you to join in on discussions, introduce yourself,
 > or add items to the agenda.
