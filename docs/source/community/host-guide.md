@@ -36,19 +36,19 @@ Each meeting should have a list of topics that are generally discussed. Contribu
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
-- [ ] Going through the agenda:
+- Going through the agenda:
   - *Do time checks/pause + move on to hit all items when there are time concerns*
-- [ ] Guiding discussion:
+- Guiding discussion:
   - *Read chats aloud for participants + the recording*
-- [ ] Maintaining order / Making sure everyone has a chance to speak:
+- Maintaining order / Making sure everyone has a chance to speak:
   - *Interject when someone has their hand raised*
-- [ ] Mention/link to the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html) and how everyone is bound to it (including the host)
+- Mention/link to the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html) and how everyone is bound to it (including the host)
 
 Partner with another contributor (a meeting facilitator) to do the following:
 
-- [ ] Log in as the “Project Jupyter” host account for meeting management perks (removing spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
-- [ ] Record the meeting, if that is intended. The host starts and stops the recording. These are posted to YouTube.
-- [ ] Remove unwelcome recording bots:
+- Log in as the “Project Jupyter” host account for meeting management perks (removing spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
+- Record the meeting, if that is intended. The host starts and stops the recording. These are posted to YouTube.
+- Remove unwelcome recording bots:
   - Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
@@ -60,11 +60,11 @@ Partner with another contributor (a meeting facilitator) to do the following:
 
 ### &#x23F3; Prior to meeting start
 
-- [ ] Log in to Zoom from the Project Jupyter account (request access by emailing [security@ipython.org](mailto:security@ipython.org)). This is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
+- Log in to Zoom from the Project Jupyter account (request access by emailing [security@ipython.org](mailto:security@ipython.org)). This is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
 *from the Jupyter Security group if needed*)
-- [ ] Make sure you have a stable internet
+- Make sure you have a stable internet
 connection, a good quality microphone, and a quiet environment.
-- [ ] Check the [meeting agenda](insert agenda)
+- Check the [meeting agenda](insert agenda)
   - *The agenda is a collaboratively created document made by the participants.*
     *Ensure a section for today's meeting is created, with today's date and a table*
     *for participants to record their names (which can be copied/pasted from lower*
@@ -118,8 +118,8 @@ After the recording ends:
 
 A few post-meeting items for either the host or meeting-facilitator to complete:
 
-- [ ] Finalize meeting minutes: Go back to the notes and make any needed additions, corrections and formatting needed in order to make the notes easy to understand by someone who did not participate in the meeting.
-- [ ] Publish the minutes: Convert document to markdown and publish
+- Finalize meeting minutes: Go back to the notes and make any needed additions, corrections and formatting needed in order to make the notes easy to understand by someone who did not participate in the meeting.
+- Publish the minutes: Convert document to markdown and publish
 it to the relevant location [insert name] [(link to minutes location)].
 
 &#x1F305; The Jupyter community depends on volunteers like you, so again we
