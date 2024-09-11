@@ -4,6 +4,10 @@ Welcome to the Host Guide, a place for call hosts to get help,
 info, advice and best practices for conducting engaging and effective
 meetings.
 
+Check the [Suggested Meeting Script section](#meeting-script-and-checklist)
+if you want a TL;DR for quick tips to follow for running a great meeting, and
+peruse the other sections for basic info and additional context.
+
 ## &#x23F0; Basic Meeting Event Info 
 
 You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time of each meeting in your time zone.
@@ -23,6 +27,7 @@ Meetings should be...
   chime in, discuss, participate, or to simply observe if that is their preference.
 
 ## &#x1F4AC; Topics
+
 Each meeting should have a list of topics that are generally discussed. Contributors can propose topics before or during the meeting.
 
 (If using this document as a template, replace this section with a list of topics that are discussed at your meeting.)
@@ -37,7 +42,7 @@ First and foremost, the host should facilitate the flow of a meeting. That means
   - *Read chats aloud for participants + the recording*
 - [ ] Maintaining order / Making sure everyone has a chance to speak:
   - *Interject when someone has their hand raised*
-- [ ] Mention/link to the Jupyter Code of Conduct and how everyone is bound to it (including the host)
+- [ ] Mention/link to the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html) and how everyone is bound to it (including the host)
 
 Partner with another contributor (a meeting facilitator) to do the following:
 
@@ -53,7 +58,7 @@ Partner with another contributor (a meeting facilitator) to do the following:
 
 ## &#x270f; Suggested Meeting Script and Checklist 
 
-### &#x23F3; Before the Meeting Starts
+### &#x23F3; Prior to meeting start
 
 - [ ] Log in to Zoom from the Project Jupyter account (request access by emailing [security@ipython.org](mailto:security@ipython.org)). This is necessary in order to record and manage meeting participants.  Alternatively, provided that someone who has host privileges logs onto the call they can grant host privileges in real time at the start of the meeting. 
 *from the Jupyter Security group if needed*)
@@ -87,15 +92,16 @@ connection, a good quality microphone, and a quiet environment.
 Prepare to start the recording:
 
 > Before we start the recording, does anyone have anything they'd like
-> to say off the record? (Make an announcement immediately before starting and after ending the recording.)
+> to say off the record? (Say "We will now begin recording/The recording has ended" before starting/stopping
+recording :)
 
 ### &#x1F3BA; Closing message 
 
 > Thank you to everyone for joining! I’m happy to have you all as a part
 > of the Jupyter community.
-> If you have any feedback, please let us know at [platform/link - could be Discourse, SSC rep email, Subproject email, Team Compass]. We’d love to hear what
+> If you have any feedback, please direct it at [platform/link - could be Discourse, SSC rep email, Subproject email, Team Compass]. We’d love to hear what
 > you think about the call or how to improve future meetings.
-> Our next call will be [day, month]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar)to see what other types of meetings are happening.
+> Our next call will be [day, month]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar)to see what other types of meetings are happening in between.
 
 The following message is recommended for Community Calls or similar events that engage with the broader contributor community:
 
@@ -110,7 +116,7 @@ After the recording ends:
 
 *Congratulations &#x1F680; on a finished meeting. Pat yourself on the back. Contributions like yours help to make the Jupyter community better!*
 
-A few post-meeting items to complete:
+A few post-meeting items for either the host or meeting-facilitator to complete:
 
 - [ ] Finalize meeting minutes: Go back to the notes and make any needed additions, corrections and formatting needed in order to make the notes easy to understand by someone who did not participate in the meeting.
 - [ ] Publish the minutes: Convert document to markdown and publish
