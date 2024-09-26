@@ -29,8 +29,8 @@ is particularly useful because the Jupyter codebase is scattered across several
 repositories within the jupyter organization, as opposed to a single
 repository. You can click the link below to find sprint-friendly issues.
 
-```{link-button} https://github.com/search?q=is%3Aissue+is%3Aopen+is%3Asprint-friendly+user%3Ajupyter&type=Issues&ref=searchresults
-:text: is:issue is:open is:sprint-friendly user:jupyter
+```{button-link} https://github.com/search?q=is%3Aissue+is%3Aopen+is%3Asprint-friendly+user%3Ajupyter&type=Issues&ref=searchresults
+is:issue is:open is:sprint-friendly user:jupyter
 ```
 
 Once you've found an issue that you are eager to solve, you can use the guide

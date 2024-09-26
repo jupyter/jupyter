@@ -8,6 +8,7 @@ notebook authoring and editing applications. The Jupyter project and its
 subprojects all center around providing tools (and [standards](https://docs.jupyter.org/en/latest/#sub-project-documentation))
 for interactive computing with [computational notebooks](#what-is-a-notebook).
 
+(what-is-a-notebook)=
 ## What is a Notebook?
 
 ![jupyterlab.png](_static/_images/jupyterlab.png)
@@ -92,7 +93,10 @@ Individual sub-projects are typically organized around a key feature of the
 Jupyter ecosystem, and have their own community, documentation and governance.
 Below is a list of documentation for major parts of the Jupyter ecosystem.
 
-```{panels}
+````{grid} 1 1 2 2
+:gutter: 3
+
+```{grid-item-card}
 User Interfaces
 ^^^^^^
 * [JupyterLab](https://github.com/jupyterlab/jupyterlab)
@@ -101,8 +105,9 @@ User Interfaces
 * [Jupyter Console](https://jupyter-console.readthedocs.io/en/latest)
 * [Qt console](https://qtconsole.readthedocs.io/en/stable)
 * [Voilà](https://voila.readthedocs.io/)
+```
 
----
+```{grid-item-card}
 JupyterHub
 ^^^^^^
 * [JupyterHub](https://jupyterhub.readthedocs.io/en/latest)
@@ -111,8 +116,9 @@ JupyterHub
 * Spawners: [sudo](https://github.com/jupyterhub/sudospawner), [Docker](https://jupyterhub-dockerspawner.readthedocs.io/en/latest/), [Kubernetes](https://jupyterhub-kubespawner.readthedocs.io/en/latest/)
 * [Zero to JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
 * [All JupyterHub Projects...](https://github.com/jupyterhub)
+```
 
----
+```{grid-item-card}
 Working with Notebooks
 ^^^^^^
 * [nbclient](https://nbclient.readthedocs.io/en/latest/) - execution
@@ -121,8 +127,9 @@ Working with Notebooks
 * [nbdime](https://nbdime.readthedocs.io/) - comparing and merging
 * [nbgrader](https://nbgrader.readthedocs.io/en/latest/) - grading
 * [nbformat](https://nbformat.readthedocs.io/en/latest/) - modification and validation
+```
 
----
+```{grid-item-card}
 Kernels
 ^^^^^^
 * [IPython](https://ipython.readthedocs.io/en/stable/)
@@ -130,16 +137,18 @@ Kernels
 * [IJulia](https://github.com/JuliaLang/IJulia.jl)
 * [Xeus kernels](https://xeus.readthedocs.io/en/latest/)
 * [Community maintained kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+```
 
----
+```{grid-item-card}
 IPython
 ^^^^^^
 * [IPython](https://ipython.readthedocs.io/en/stable/)
 * [ipykernel](https://ipython.readthedocs.io/en/stable/)
 * [ipyparallel](https://ipyparallel.readthedocs.io/en/latest/)
 * [traitlets](https://traitlets.readthedocs.io/en/stable/)
+```
 
----
+```{grid-item-card}
 Architecture and Specification
 ^^^^^^
 * [nbformat](https://nbformat.readthedocs.io/en/latest/api.html) - Jupyter Notebook Format
@@ -147,22 +156,24 @@ Architecture and Specification
 * [jupyter-core](https://jupyter-core.readthedocs.io/en/latest/)
 * [jupyter-server](https://jupyter-server.readthedocs.io/)
 * [jupyterlab-server](https://jupyterlab-server.readthedocs.io/en/stable/)
+```
 
----
+```{grid-item-card}
 Deployment
 ^^^^^^
 * [Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
 * [Kernel Gateway](https://jupyter-kernel-gateway.readthedocs.io/en/latest/)
 * [Enterprise Gateway](https://jupyter-enterprise-gateway.readthedocs.io/en/latest/)
+```
 
----
+```{grid-item-card}
 Widgets
 ^^^^^^
 * [ipywidgets](https://ipywidgets.readthedocs.io/)
 * [widget-cookiecutter](https://github.com/jupyter-widgets/widget-cookiecutter/)
 * [All Widget Projects...](https://github.com/jupyter-widgets)
-
 ```
+````
 
 ## Table of Contents
 
