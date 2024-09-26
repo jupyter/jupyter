@@ -10,6 +10,13 @@ provide information about the Jupyter community such as background, events,
 and communication channels. As our community is highly dynamic, information
 may change, and we will do our best to keep it up to date.
 
+.. toctree::
+   :hidden:
+
+   community-call-notes/index
+   host-guide
+
+
 Jupyter Community Meetings
 ==========================
 

@@ -56,6 +56,7 @@ Partner with another contributor (a meeting facilitator) to do the following:
   - If they get no response from the account, the host should assume
     it's recording, and remove it from the meeting.
 
+(meeting-script-and-checklist)=
 ## &#x270f; Suggested Meeting Script and Checklist 
 
 ### &#x23F3; Prior to meeting start
