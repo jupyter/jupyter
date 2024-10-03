@@ -145,7 +145,7 @@ Sessions API
 | HTTP       | URL             | Action                                 |
 | verb       |                 |                                        |
 +============+=================+========================================+
-| ``GET``    | /api/sesions    | Return model of active sessions.       |
+| ``GET``    | /api/sessions   | Return model of active sessions.       |
 +------------+-----------------+----------------------------------------+
 | ``POST``   | /api/sessions   | If session does not already exist,     |
 |            |                 | create a new session with given        |

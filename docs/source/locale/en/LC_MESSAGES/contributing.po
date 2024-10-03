@@ -130,7 +130,7 @@ msgstr ""
 #: ../../source/contributing/communication-contributions.rst:47
 #: c8e7bc7057b24f8d9554020875627fb4
 msgid ""
-"Alway check in the metadata fields that a blog post has a title and a "
+"Always check in the metadata fields that a blog post has a title and a "
 "canonical URL. It is possible to put the date in the canonical URL, in "
 "particular for events like jupyter-day, that can occur several times. The"
 " date of the event can differ from the date of the blog post."
@@ -257,7 +257,7 @@ msgid ""
 "the information in the body of the blog is wrong, try not to replace it, "
 "and just use strike-through to mark it as obsolete. This would help "
 "reader determine which information is correct when dealing with multiple "
-"source giving different informations."
+"source giving different information."
 msgstr ""
 
 #: ../../source/contributing/communication-contributions.rst:128
@@ -5314,7 +5314,7 @@ msgstr ""
 
 #: ../../source/contributing/ipython-dev-guide/rest_api.rst:148
 #: 0b6b02fafd1a477c8d4ed22f5d276d9b
-msgid "/api/sesions"
+msgid "/api/sessions"
 msgstr ""
 
 #: ../../source/contributing/ipython-dev-guide/rest_api.rst:148
@@ -5483,7 +5483,7 @@ msgstr ""
 #: c675d65e6b244f109ca45c19aff7f5aa
 msgid ""
 "creates a new notebook with profile (or default, if no profile exists) "
-"setings"
+"settings"
 msgstr ""
 
 #: ../../source/contributing/ipython-dev-guide/rest_api.rst:224
@@ -6011,7 +6011,7 @@ msgstr ""
 
 #: ../../source/contributing/ipython-dev-guide/testing.rst:51
 #: 02e44e402c5d43d4905fa6f75ca39ba9
-msgid "To start the webbased notebook you can use:"
+msgid "To start the web-based notebook you can use:"
 msgstr ""
 
 #: ../../source/contributing/ipython-dev-guide/testing.rst:57
@@ -6326,7 +6326,7 @@ msgstr ""
 msgid ""
 "This section is a set of notes on the key points of the IPython testing "
 "needs, that were used when writing the system and should be kept for "
-"reference as it eveolves."
+"reference as it evolves."
 msgstr ""
 
 #: ../../source/contributing/ipython-dev-guide/testing.rst:430
@@ -7523,7 +7523,7 @@ msgstr ""
 #~ "Select the name of the target "
 #~ "language from the Language drop down "
 #~ "(e.g. es -> Spanish, es-mx -> "
-#~ "Mexican Spanish, pt-br -> Brazillian "
+#~ "Mexican Spanish, pt-br -> Brazilian "
 #~ "Portuguese)."
 #~ msgstr ""
 

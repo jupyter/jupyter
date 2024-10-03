@@ -808,7 +808,7 @@ msgstr ""
 #: 7223bc91a6354627bad6750fdeabbbd4
 msgid ""
 "Select the name of the target language from the Language drop down (e.g. "
-"es -> Spanish, es-mx -> Mexican Spanish, pt-br -> Brazillian Portuguese)."
+"es -> Spanish, es-mx -> Mexican Spanish, pt-br -> Brazilian Portuguese)."
 msgstr ""
 
 #: ../../source/contrib_docs/doc-new-translation.md:361

@@ -360,7 +360,7 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-april.md:53
 #: 75207649f7724730944135eced65c12c
 msgid ""
-"[Jupyter Commnity Hackathon on NBGrader in "
+"[Jupyter Community Hackathon on NBGrader in "
 "Edinburgh](https://thinking.is.ed.ac.uk/noteable/2018/12/07/jupyter-"
 "community-workshop-proposal-nbgrader-and-jupyter-in-teaching/)."
 msgstr ""
@@ -1495,7 +1495,7 @@ msgstr ""
 #: ../../source/community/community-call-notes/2019-march.md:46
 #: 3b9b884e349a407bb19f245df07e84d7
 msgid ""
-"By default it prevents more than 100 concurent launches of the same repo."
+"By default it prevents more than 100 concurrent launches of the same repo."
 " You can ask for more if you are nice."
 msgstr ""
 
@@ -1648,7 +1648,7 @@ msgstr ""
 # 6e2574521fe94e9ebb42406d92ce0894
 #: ../../source/community/community-call-notes/2019-march.md:72
 #: 0c3cfc00cd1a490fb08d942765c33e04
-msgid "Are those suposed to be extension ? Built-in ?...?"
+msgid "Are those supposed to be extension ? Built-in ?...?"
 msgstr ""
 
 # 012c1ebe05084778a57c646dc99871f8
@@ -1711,7 +1711,7 @@ msgstr ""
 # 9a919edea46042fda80ad5719ba42c25
 #: ../../source/community/community-call-notes/2019-march.md:83
 #: feb3053e773948d688e91464db171806
-msgid "Don't get limited to technical discusions !"
+msgid "Don't get limited to technical discussions !"
 msgstr ""
 
 # 6a1d536f3f6c46b2b79fcdecd6491c4c
@@ -3213,7 +3213,7 @@ msgid ""
 "[Current packages and state](https://crowdin.com/project/jupyterlab)  "
 "(showing first 10) ![The top 10 translations by percent completed are "
 "Spanish at 100%, Chinese Simplified at 100%, Hebrew at 88%, Turkish at "
-"86%, Brazilian Portuguese at 83%, Ukranian at 83%, Japanese at 83% French"
+"86%, Brazilian Portuguese at 83%, Ukrainian at 83%, Japanese at 83% French"
 " at 83%, Russian at 74%, and Polish at "
 "60%](https://i.imgur.com/vNeRe8s.png)"
 msgstr ""
@@ -5283,7 +5283,7 @@ msgstr ""
 #~ msgid "Pilot phase of Noteable."
 #~ msgstr ""
 
-#~ msgid "Jupyter Commnity Hackathon on NBGrader in Edinburgh."
+#~ msgid "Jupyter Community Hackathon on NBGrader in Edinburgh."
 #~ msgstr ""
 
 #~ msgid ""
@@ -5850,7 +5850,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "[Jupyter Commnity Hackathon on NBGrader "
+#~ "[Jupyter Community Hackathon on NBGrader "
 #~ "in Edinburgh](https://thinking.is.ed.ac.uk/noteable/2018/12/07"
 #~ "/jupyter-community-workshop-proposal-nbgrader-"
 #~ "and-jupyter-in-teaching/)."
