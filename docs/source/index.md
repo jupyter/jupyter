@@ -237,7 +237,7 @@ reference/content-reference
 [Jupyter mailing list](https://groups.google.com/forum/#!forum/jupyter), General discussion of Jupyter's use
 [Jupyter in Education group](https://groups.google.com/forum/#!forum/jupyter-education), Discussion of Jupyter's use in education
 [NumFocus](https://www.numfocus.org), "Promotes world-class, innovative, open source scientific software"
-[Donate to Project Jupyter](https://numfocus.org/donate-to-jupyter), Please contribute to open science collaboration and sustainability
+[Donate to Project Jupyter](https://jupyter.org/about#donate), Please contribute to open science collaboration and sustainability
 ```
 
 
