@@ -62,7 +62,7 @@ Jupyter Notebook, JupyterLab, and IPyWidgets use JavaScript and TypeScript.
 
 * `Jupyter Notebook <https://github.com/jupyter/notebook>`__
     * `Notable Issues <https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
-    * `Development Installation <https://github.com/jupyter/notebook/blob/master/CONTRIBUTING.rst>`__
+    * `Development Installation <https://github.com/jupyter/notebook/blob/master/CONTRIBUTING.md>`__
     * `Gitter Channel <https://gitter.im/jupyter/notebook>`__
 * `JupyterLab <https://github.com/jupyterlab/jupyterlab>`__
     * `Notable Issues <https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22>`__
