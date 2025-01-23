@@ -107,11 +107,6 @@ html_theme_options = {
             "url": "https://discourse.jupyter.org",
             "icon": "fab fa-discourse",
         },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/projectjupyter",
-            "icon": "fab fa-twitter-square",
-        },
     ],
   "external_links": [
       {"name": "jupyter.org", "url": "https://jupyter.org"},

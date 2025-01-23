@@ -42,7 +42,7 @@ This is a place to make short announcements (without a need for discussion).
 
 This is a space to store links shared during community call discussions related to or separate from the agenda items.
 
-- Today's date is an anagram! [a 22-02-2022 tweet](https://twitter.com/simongerman600/status/1495870748866621441)
+- Today's date is an anagram! 22-02-2022
 - [CarpenPi project](https://github.com/CarpenPi)
 - [mamba-org/quetz-frontend repository](https://github.com/mamba-org/quetz-frontend/pull/98)
 - [ipydrawio in JupyterLite](https://ipydrawio--92.org.readthedocs.build/en/92/_static/lab/index.html)

@@ -90,7 +90,6 @@ relevant information.
 - Blog `<https://blog.jupyter.org/>`_
 - Newsletter `<https://newsletter.jupyter.org/>`_
 - Website `<https://jupyter.org>`_
-- Twitter `<https://twitter.com/ProjectJupyter>`_
 - Gitter `<https://gitter.im/jupyter/jupyter>`_
 - Mailing lists (Jupyter, Jupyter in Education) `<https://jupyter.org/community.html>`_
 
