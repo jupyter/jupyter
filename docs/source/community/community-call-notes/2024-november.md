@@ -75,8 +75,4 @@ This is a space to store links shared during community call discussions related 
 
 - Link to nebari blog post: https://quansight.com/post/a-quick-overview-of-nebari/
 
-### topic title
-
-* placeholder for interesting thing 
-* placeholder for interesting link
 
