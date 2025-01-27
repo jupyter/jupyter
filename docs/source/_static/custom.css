@@ -14,6 +14,18 @@
     --pst-color-h6: var(--color-dark-grey);
 
     --pst-color-active-navigation: var(--color-dark-orange);
+
+    /* TODO:
+
+    --pst-color-link:
+
+    --pst-color-secondary: 
+    --pst-color-secondary-highlight:
+
+    --pst-color-table-row-zebra-low-bg:
+    --pst-color-table-row-zebra-high-bg:
+    --pst-color-table-row-hover-bg:
+    */
 }
 
 /* -- navbar ------------------------------------------------------------- */
