@@ -34,6 +34,7 @@ setup_args = dict(
     ],
     url                 = "https://jupyter.org",
     license             = "BSD",
+    python_requires     = '>=3.6',
     classifiers         = [
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
@@ -45,6 +46,10 @@ setup_args = dict(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
     ],
 )
 
