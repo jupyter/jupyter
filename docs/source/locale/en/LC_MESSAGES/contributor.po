@@ -294,7 +294,7 @@ msgstr ""
 #: ../../source/contributor/contrib_guide_blog.rst:47
 #: 427ff4b043874fa690c2859c8a9da814
 msgid ""
-"Alway check in the metadata fields that a blog post has a title and a "
+"Always check in the metadata fields that a blog post has a title and a "
 "canonical URL. It is possible to put the date in the canonical URL, in "
 "particular for events like jupyter-day, that can occur several times. The"
 " date of the event can differ from the date of the blog post."
@@ -437,7 +437,7 @@ msgid ""
 "the information in the body of the blog is wrong, try not to replace it, "
 "and just use strike-through to mark it as obsolete. This would help "
 "reader determine which information is correct when dealing with multiple "
-"source giving different informations."
+"source giving different information."
 msgstr ""
 
 # 5fa61a2b985e43aa94c3cc695b08eed1

@@ -31,7 +31,7 @@ extensions = [
     'sphinx.ext.graphviz', # Add the graphviz extension
     'sphinxext.rediraffe',
     'myst_parser',
-    'sphinx_panels'
+    'sphinx_design',
 ]
 
 panels_add_bootstrap_css = False

@@ -1908,7 +1908,7 @@ msgstr ""
 # 712a90ba320f4bda9acb4e6df9b85bc2
 #~ msgid ""
 #~ "To list the config directories "
-#~ "currrently being used you can run "
+#~ "currently being used you can run "
 #~ "the below command from the "
 #~ ":term:`command line`::"
 #~ msgstr ""
@@ -2016,7 +2016,7 @@ msgstr ""
 #~ msgstr ""
 
 # e1f07d1d80ef45ab86cfab2a02a686e2
-#~ msgid "The following command shows the data directory specificially:::"
+#~ msgid "The following command shows the data directory specifically:::"
 #~ msgstr ""
 
 # b93aebf5941e4312998c3a4c9f1e295e

@@ -65,7 +65,11 @@ p.first.admonition-title {
     padding-bottom: .3em;
 }
 
-div.card ul.simple {
+div.sd-card ul.simple {
     list-style: none;
     padding-left: 1em;
+}
+
+.bd-content .sd-card .sd-card-header {
+    background-color: var(--pst-color-surface);
 }
