@@ -396,11 +396,6 @@ msgstr "Newsletter `<https://newsletter.jupyter.org/>`_"
 msgid "Website `<https://jupyter.org>`_"
 msgstr "Sitio Web `<https://jupyter.org>`_"
 
-# 8e575a689ab845919c525a57feacbdb3
-#: ../../source/community/content-community.rst:58
-msgid "Twitter `<https://twitter.com/ProjectJupyter>`_"
-msgstr "Twitter `<https://twitter.com/ProjectJupyter>`_"
-
 # 80103b709d94489da4c958855044ce23
 #: ../../source/community/content-community.rst:59
 msgid "Gitter `<https://gitter.im/jupyter/jupyter>`_"

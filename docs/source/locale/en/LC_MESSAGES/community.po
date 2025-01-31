@@ -1949,7 +1949,6 @@ msgstr ""
 #: 0c93328bbe024ec29899fae6d0b11d15
 msgid ""
 "New binderhub in the world :baby: :confetti_ball: "
-"https://twitter.com/gerardjgorman/status/1131097133292183553"
 msgstr ""
 
 # cb3cf9c7532e4eefafef21622f5e5ee3
@@ -4961,12 +4960,6 @@ msgstr ""
 msgid "Website `<https://jupyter.org>`_"
 msgstr ""
 
-# 8e575a689ab845919c525a57feacbdb3
-#: ../../source/community/content-community.rst:88
-#: f4b4b65d3ff64e748f5f6c6cc207e67d
-msgid "Twitter `<https://twitter.com/ProjectJupyter>`_"
-msgstr ""
-
 # 80103b709d94489da4c958855044ce23
 #: ../../source/community/content-community.rst:89
 #: 4c17016b385c4851843b96ef217158d9
@@ -5597,7 +5590,6 @@ msgstr ""
 #~ msgid ""
 #~ "New binderhub in the world :baby: "
 #~ ":confetti_ball: "
-#~ "https://twitter.com/gerardjgorman/status/1131097133292183553"
 #~ msgstr ""
 
 #~ msgid ""
@@ -6210,7 +6202,6 @@ msgstr ""
 #~ " * Project list: https://github.com/research-"
 #~ "software-reactor * New binderhub in "
 #~ "the world :baby: :confetti_ball: "
-#~ "https://twitter.com/gerardjgorman/status/1131097133292183553"
 #~ msgstr ""
 
 #~ msgid ""
