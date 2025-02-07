@@ -27,6 +27,15 @@ to run the notebook server. You can start the notebook server from the
 
     jupyter notebook
 
+
+or if you installed jupyter through pip3::
+
+    python3 -m notebook
+
+or if you installed jupyter through legacy pip::
+
+    python -m notebook
+
 This will print some information about the notebook server in your terminal,
 including the URL of the web application
 (by default, ``http://localhost:8888``):
