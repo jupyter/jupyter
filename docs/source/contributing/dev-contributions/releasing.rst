@@ -34,7 +34,7 @@ A release may be ready to go when it has zero open issues or pull requests.
 Release notes
 =============
 
-Once all of the issues and pull requests are dealt with,
+Once all the issues and pull requests are dealt with,
 it's time to make release notes.
 The smaller projects generally have a :file:`changelog.rst` in the docs directory,
 where you can add a section for the new release.
@@ -80,7 +80,7 @@ Tag the commit::
 
     git tag -am "release $V" $V
 
-And finally, publish everything, to github and PyPI using `twine <https://github.com/pypa/twine>`_::
+And finally, publish everything, to GitHub and PyPI using `twine <https://github.com/pypa/twine>`_::
 
     twine upload dist/*
     git push origin
@@ -95,4 +95,4 @@ by editing :file:`<pkg>/_version.py` (or similar) again, and commit::
 .. note::
 
     The pushes assume that `origin` points to the main jupyter/ipython repo.
-    Depending how you use git, this could be `upstream` or something else.
+    Depending on how you use git, this could be `upstream` or something else.
