@@ -11,7 +11,7 @@ below, you can reach out to the Jupyter team on Gitter or the mailing list for
 assistance. If you are nervous about asking questions in public, you can also
 reach out to one of the Jupyter developers in private. You can use the public
 Gitter to find someone who has the best knowledge about the code you are
-working with and interact with the in a personal chat.
+working with and interact with them in a personal chat.
 
 As you begin your open source journey, remember that it's OK if you don't
 understand something, it's OK to make mistakes, and it's OK to only contribute
