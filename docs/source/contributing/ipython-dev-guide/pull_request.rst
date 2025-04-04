@@ -26,7 +26,7 @@ IPython has to work on:
 
 Much of our code base deals with strings and unicode. This needs to be
 done in a manner that is unicode aware and works on Python 2 and 3.
-[This article] (http://www.joelonsoftware.com/articles/Unicode.html) is
+`This article <http://www.joelonsoftware.com/articles/Unicode.html>`__ is
 a good intro to unicode.
 
 4. Adheres to our coding style
@@ -34,7 +34,7 @@ a good intro to unicode.
 
 Coding style refers to how source code is formatted and how variables,
 functions, methods and classes are named. Your code should follow our
-coding style, which is described [[here\|Dev: Coding style]].
+coding style, which is described `here <coding_style.html>`__.
 
 5. Clean & commented
 --------------------
@@ -51,7 +51,7 @@ If it fixes a bug, the pull request should ideally add an automated test
 that fails without the fix, and passes with it. Normally it should be
 sufficient to copy an existing test and tweak it. New functionality
 should come with its own tests as well. Details about testing IPython
-can be found [[here\|Dev: Testing]].
+can be found `here <testing.html>`__.
 
 7. Well documented
 ------------------
@@ -60,5 +60,4 @@ Don't forget to update docstrings, and any relevant parts of `the
 official
 documentation <https://ipython.readthedocs.io/en/stable/>`__. New
 features or significant changes warrant an entry in the *What's New*
-section too. Details about documenting IPython can be found [[here\|Dev:
-Documenting IPython]].
+section too. Details about documenting IPython can be found `here <documenting_ipython.html>`__.
