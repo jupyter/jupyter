@@ -1,3 +1,25 @@
+import pandas as pd
+
+# Create a DataFrame
+data = {
+    "Insurance Type": [
+        "Equine-Assisted Therapy",
+        "Animal Therapy Programs",
+        "Property Insurance (Bungalows & Ranch Structures)",
+        "Workers' Compensation Insurance",
+        "Commercial Auto Insurance"
+    ],
+    "Estimated Annual Cost (Low)": [1500, 500, 2000, 1440, 1000],
+    "Estimated Annual Cost (High)": [3500, 1500, 4500, 2000, 2500]
+}
+
+df = pd.DataFrame(data)
+
+# Add totals row
+df.loc[len(df.index)] = ["Total Estimated Annual Cost", df["Estimated Annual Cost (Low)"].sum(), df["Estimated Annual Cost (High)"].sum()]
+
+# Export to Excel
+df.to_excel("Cactus_Blossom_Ranch_Insurance_Budget.xlsx", index=False)
 .. _install:
 
 ===============
