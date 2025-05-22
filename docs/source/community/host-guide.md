@@ -131,7 +131,8 @@ Create a script from these talking points *or* use the script below if you want\
 
 Sample Script
 
-> Thank you to everyone for joining\! I’m happy to have you all as a part of the Jupyter community. If you have any feedback, please direct it to [Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668/103). We’d love to hear what you think about the call or how to improve future meetings. Our next call will be \[day, month\]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar) to see what other types of meetings are happening in between.  
+> Thank you to everyone for joining\! I’m happy to have you all as a part of the Jupyter community. If you have any feedback, please direct it to [Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668/103). We’d love to hear what you think about the call or how to improve future meetings. Our next call will be \[day, month\]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar) to see what other types of meetings are happening in between. 
+ 
 The following message is recommended for Community Calls or similar events that engage with the broader contributor community:
 
 > If you have any interest in sharing in future \[title\] calls, please do\! It doesn’t have to be a big share, a polished share, or a technical share, just show off what you do with Jupyter that excites you. Submit topics here \[platform/link\]. If you’re interested in hosting a community call, feel free to reach out. It would be great to get different people interacting with the community.
