@@ -2,7 +2,7 @@
 
 Welcome to the Host Guide, a place for call hosts to get help, info, advice and best practices for conducting engaging and effective meetings.
 
-Check the [Suggested Meeting Script section](https://docs.jupyter.org/en/latest/community/host-guide.html#meeting-script-and-checklist) if you want more info for running a great meeting, and peruse the other sections for basic info and additional context. This documentation can be used as a template, the host can duplicate the guide and update the links to reflect their individual meeting or simply use it as a reference point in planning. 
+Check the [Suggested Meeting Script section](#meeting-script-and-checklist) if you want more info for running a great meeting, and peruse the other sections for basic info and additional context. This documentation can be used as a template, the host can duplicate the guide and update the links to reflect their individual meeting or simply use it as a reference point in planning. 
 
 ## &#x23F0; Basic Meeting Event Info 
 
@@ -90,7 +90,7 @@ Partner with another contributor (who has recording privileges) to do the follow
 
 * Make sure you have a solid tech environment that will allow you to focus on your hosting duties. This includes a stable internet connection, a good quality microphone, and a quiet environment. Ideally, the ability to share your camera may support your ability to connect with the participants in the call.   
 * Share the agenda in the Zoom chat the \[meeting agenda\](insert agenda)  
-  * *The agenda is a collaboratively created document made by the participants.* *Ensure a section for today’s meeting is created, with today’s date and a table* *for participants to record their names (which can be copied/pasted from lower* *entries). The agenda will also be used as meeting minutes.*
+  * *The agenda is a collaboratively created document made by the participants.Ensure a section for today’s meeting is created, with today’s date and a table for participants to record their names (which can be copied/pasted from lower entries). The agenda will also be used as meeting minutes.*
 
 ### &#x1F517; *Links to copy/paste into the meeting chat:*
 
@@ -132,7 +132,7 @@ Create a script from these talking points *or* use the script below if you want\
 Sample Script
 
 > Thank you to everyone for joining\! I’m happy to have you all as a part of the Jupyter community. If you have any feedback, please direct it to [Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668/103). We’d love to hear what you think about the call or how to improve future meetings. Our next call will be \[day, month\]. Check out the [Jupyter community calendar](https://jupyter.org/community#calendar) to see what other types of meetings are happening in between. 
- 
+
 The following message is recommended for Community Calls or similar events that engage with the broader contributor community:
 
 > If you have any interest in sharing in future \[title\] calls, please do\! It doesn’t have to be a big share, a polished share, or a technical share, just show off what you do with Jupyter that excites you. Submit topics here \[platform/link\]. If you’re interested in hosting a community call, feel free to reach out. It would be great to get different people interacting with the community.
