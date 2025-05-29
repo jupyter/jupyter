@@ -158,4 +158,4 @@ A few post-meeting items for either the host or meeting-facilitator to complete:
 
 ## Current System for Zoom Host Priviledges
 
-To get the recording afterwards, you will need to have the person with host privileges request the recording from Linux Foundation. 
+To get the recording afterwards, you will need to have a person with host privileges request the recording from Linux Foundation. 
