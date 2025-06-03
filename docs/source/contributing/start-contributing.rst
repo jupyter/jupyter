@@ -33,6 +33,7 @@ IPython, nbgrader, JupyterHub, repo2docker, and Binder are major repos written p
     * `Notable Issues <https://github.com/ipython/ipython/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
     * `Development Installation <https://github.com/ipython/ipython#development-and-instant-running>`__
     * `Gitter Channel <https://gitter.im/ipython/ipython>`__
+
 * `nbgrader <https://github.com/jupyter/nbgrader>`__
     * `Notable Issues <https://github.com/jupyter/nbgrader/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
     * `Development Installation <https://nbgrader.readthedocs.io/en/latest/contributor_guide/installation_developer.html>`__
@@ -64,10 +65,13 @@ Jupyter Notebook, JupyterLab, and IPyWidgets use JavaScript and TypeScript.
     * `Notable Issues <https://github.com/jupyter/notebook/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
     * `Development Installation <https://github.com/jupyter/notebook/blob/master/CONTRIBUTING.md>`__
     * `Gitter Channel <https://gitter.im/jupyter/notebook>`__
+    * `Discourse Channel <https://discourse.jupyter.org/c/notebook/31>`__
 * `JupyterLab <https://github.com/jupyterlab/jupyterlab>`__
     * `Notable Issues <https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22>`__
     * `Development Installation <https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md>`__
     * `Gitter Channel <https://gitter.im/jupyterlab/jupyterlab>`__
+    * `Zulip Channel <https://jupyter.zulipchat.com/#narrow/channel/469762-jupyterlab/topic>`__
+    * `Discourse Channel <https://discourse.jupyter.org/c/jupyterlab/17>`__
 * `IPyWidgets <https://github.com/jupyter-widgets/ipywidgets>`__
     * `Notable Issues <https://github.com/jupyter-widgets/ipywidgets/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
     * `Development Installation <https://ipywidgets.readthedocs.io/en/latest/dev_install.html>`__
