@@ -29,20 +29,21 @@ Each meeting should have a list of topics that are generally discussed. Contribu
 ## **Before the Meeting**
 
 * Select date (at least 4 weeks in advance) and time  
-  * In the past we’ve taken over JupyterLab weekly time slot. This encourages participation from subproject that is accustomed to meeting during a particular time. [Link to template email](https://docs.google.com/document/d/1GJjHs21XcmT67755Hu6ryR0FGE_5JQYruaNjBRdqR4c/edit?tab=t.yxduni8mhh1z).  
+  * In the past we’ve taken over JupyterLab weekly time slot. This encourages participation from subproject that is accustomed to meeting during a particular time. See example [email](sample_scripts.md#meeting-time-slot-request).  
 * Create HackMD  
   * Create HackMD account   
   * Start a new note  
-  * Use template [here](https://drive.google.com/file/d/1IQ5T7VJCI1dKk_CMXDjbtrKG8W_uf4E2/view?usp=sharing)  
+  * Use template [here](sample_scripts.md#hackmd-note-template)  
   * Set permissions (Edit mode, Read: Everyone, Write: Signed in Users\]  
   * Generate a link to use in announcements  
 * Announce date on public Jupyter channels  
-  * Blog: [https://blog.jupyter.org/november-2024-jupyter-community-call-f5d0761c67a1](https://blog.jupyter.org/november-2024-jupyter-community-call-f5d0761c67a1)  
+  * Blog: [https://blog.jupyter.org/november-2024-jupyter-community-call-f5d0761c67a1](https://blog.jupyter.org/november-2024-jupyter-community-call-f5d0761c67a1)
+    * [Sample blog post](sample_scripts.md#blog-post)
     * Get permissions  
       * Create an account on Medium  
       * Ask Jupyter Media Strategy (JMS) working group for permissions to be a writer on the [Jupyter blog](https://blog.jupyter.org/) by sending them an email: [jupyter-media-strategy@googlegroups.com](mailto:jupyter-media-strategy@googlegroups.com)  
     * Write blog post \+ social media posts  
-      * Use draft as a template ([Templates for blog and social media posts](https://docs.google.com/document/d/1GJjHs21XcmT67755Hu6ryR0FGE_5JQYruaNjBRdqR4c/edit?usp=sharing))  
+      * Use draft as a template ([samples for blog and social media posts](sample_scripts.md#sample-scripts))  
     * Submit for JMS review  
       * See instructions here: [https://jupyter.org/social](https://jupyter.org/social)  
       * Email [jupyter-media-strategy@googlegroups.com](mailto:jupyter-media-strategy@googlegroups.com) requesting their review on the blog post and requesting they post on all social media channels  
