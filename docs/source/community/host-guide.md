@@ -35,7 +35,14 @@ Each meeting should have a list of topics that are generally discussed. Contribu
   * Start a new note  
   * Use template [here](sample_scripts.md#hackmd-note-template)  
   * Set permissions (Edit mode, Read: Everyone, Write: Signed in Users\]  
-  * Generate a link to use in announcements  
+  * Generate a link to use in announcements 
+* Add the meeting to the community calendar
+  * The [Project Jupyter community calendar](https://docs.jupyter.org/en/latest/community/content-community.html#jupyter-community-meetings) (linked to projectjupyter@gmail.com) is used to share events with the broader Jupyter community. A number of people—including members of the EC, SSC, and others—already have access, including Martha.
+    * Request Access or Delegate
+        *  If you don’t have access to the calendar, ask someone who does to create the event for you. You can reach out to the EC or SSC if needed. Plan ahead and give at least two weeks’ notice—avoid last-minute requests.
+    * Add the Event
+        * If you do have access, open your calendar, use the left-hand navigation to select 'Project Jupyter', and create a 'new event'. Make sure to include: a link to the relevant blog post and Zoom details for the meeting or presentation
+  * Once added, your event will automatically appear on the Jupyter community calendar.
 * Announce date on public Jupyter channels  
   * Blog: [https://blog.jupyter.org/november-2024-jupyter-community-call-f5d0761c67a1](https://blog.jupyter.org/november-2024-jupyter-community-call-f5d0761c67a1)
     * [Sample blog post](sample_scripts.md#blog-post)
