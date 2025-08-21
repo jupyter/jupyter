@@ -73,7 +73,7 @@ Participating in the community
 
 The most important part of Jupyter is its community - this is a large and diverse group of
 people spread across the globe. One of the best ways to contribute to Jupyter is to simply
-be a positive and helpful member of this community. Whether it **participating in online conversations**,
+be a positive and helpful member of this community. Whether it is **participating in online conversations**,
 **offering to help others**, **coming to community meetings**, or **teaching others about Jupyter**,
 there are many ways to improve the Jupyter community. For more information about this, we
 recommend starting with the :ref:`community-guide`.
