@@ -215,3 +215,6 @@ locale_dirs = ['locale/']
 
 def setup(app):
     app.add_css_file("custom.css")
+    # Plausible.io tracking
+    app.add_js_file("https://plausible.io/js/script.file-downloads.hash.outbound-links.js", **{"data-comain": "docs.jupyter.org", "defer": ""})
+    app.add_js_file(filename=None, body="window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }")
