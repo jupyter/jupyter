@@ -1,0 +1,19 @@
+/**
+ * Jupyter CSS colors for PyData Sphinx Theme Sites
+ * This file defines a few common colors to align with Jupyter's branding.
+ */
+html[data-theme="light"], html[data-theme="dark"] {
+    /* colors from from https://github.com/jupyter/jupyter.github.io/blob/master/_sass/settings/_colors.scss */
+    --color-jupyter-orange: rgb(243, 119, 38);
+    --pst-color-primary: var(--color-jupyter-orange);
+    --pst-color-secondary: var(--color-jupyter-orange);
+    --pst-color-secondary-bg: var(--color-jupyter-orange);
+    --pst-color-table-row-hover-bg: var(--pst-gray-200);
+}
+
+.bd-header-announcement a {
+  color: var(--bs-blue) !important;
+}
+.bd-header-announcement a:hover {
+  color: var(--bs-cyan) !important;
+}

@@ -1,21 +1,3 @@
-/* -- theme ------------------------------------------------------------ */
-
-:root {
-    /* colors from from https://github.com/jupyter/jupyter.github.io/blob/master/_sass/settings/_colors.scss */
-    --color-dark-orange: 197, 84, 11;
-    --color-dark-grey: 77, 77, 77;
-    --pst-color-link: var(--color-dark-orange);
-
-    --pst-color-h1: var(--color-dark-grey);
-    --pst-color-h2: var(--color-dark-grey);
-    --pst-color-h3: var(--color-dark-grey);
-    --pst-color-h4: var(--color-dark-grey);
-    --pst-color-h5: var(--color-dark-grey);
-    --pst-color-h6: var(--color-dark-grey);
-
-    --pst-color-active-navigation: var(--color-dark-orange);
-}
-
 /* -- navbar ------------------------------------------------------------- */
 
 .navbar-brand {
