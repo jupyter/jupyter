@@ -127,10 +127,70 @@ information.
 Newsletter
 ==========
 
-Documentation in progress.
+Newsletter Overview
+-------------------
 
+Jupyter periodically sends out newsletters to keep the community informed about
+important updates, events, releases, and other relevant information. These are
+typically shared via email and posted on our website.
+
+Contributing to the Newsletter
+------------------------------
+
+If you have an announcement, event, or update you'd like to share with the
+broader Jupyter community, you can submit it for inclusion in the next
+newsletter. Please email the core team with your proposed content.
+
+Content Guidelines
+------------------
+
+* Keep submissions brief, clear, and to the point.
+* Include relevant dates, links, and contact information.
+* Use proper grammar and avoid jargon when possible.
+* Please submit any images or logos along with alt-text descriptions.
+
+Schedule and Archive
+--------------------
+
+Newsletters are typically published monthly or quarterly. Past issues are
+archived on the Jupyter website and may also be linked in future
+communications for reference.
 
 Website
 =======
 
-Documentation in progress.
+Overview
+--------
+
+The Jupyter website (https://jupyter.org) is the main portal for accessing
+project information, documentation, downloads, and community resources.
+
+Contributing to the Website
+---------------------------
+
+The website source is maintained as a GitHub repository. If you find a typo,
+broken link, or want to improve content, you can:
+
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request
+
+Website contributions go through the same review process as other
+documentation and must follow the style and tone of the project.
+
+Structure and Content
+---------------------
+
+The website is built using static site generators and includes:
+
+* Overview of the Jupyter ecosystem
+* Links to key projects like JupyterLab and Jupyter Notebook
+* Tutorials and getting started guides
+* Community and contributor information
+
+Hosting and Deployment
+----------------------
+
+The site is deployed via GitHub Pages and updates automatically when changes
+are merged into the main branch of the repository. Make sure to test your
+changes locally before submitting them for review.
