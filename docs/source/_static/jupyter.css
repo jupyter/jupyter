@@ -13,10 +13,12 @@ html[data-theme="light"], html[data-theme="dark"] {
 
 .bd-header-announcement {
   color: var(--pst-color-white);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 33%);
 }
 
 .bd-header-announcement a {
   color: var(--bs-primary-text-emphasis) !important;
+  text-shadow: none;
 }
 .bd-header-announcement a:hover {
   color: var(--bs-blue) !important;
