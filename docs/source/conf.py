@@ -168,23 +168,25 @@ texinfo_documents = [
 
 # -- Options for intersphinx -----------------------------------------------
 
-intersphinx_mapping = {
-    'ipython': ('https://ipython.readthedocs.io/en/latest/', None),
-    'nbconvert': ('https://nbconvert.readthedocs.io/en/latest/', None),
-    'nbformat': ('https://nbformat.readthedocs.io/en/latest/', None),
-    'ipywidgets': ('https://ipywidgets.readthedocs.io/en/latest/', None),
-    'traitlets': ('https://traitlets.readthedocs.io/en/latest/', None),
-    'ipyparallel': ('https://ipyparallel.readthedocs.io/en/latest/', None),
-    'notebook': ('https://jupyter-notebook.readthedocs.io/en/latest/', None),
-    'jupyterclient': ('https://jupyter-client.readthedocs.io/en/latest/', None),
-    'qtconsole': ('https://jupyter.org/qtconsole/dev/', None),
-    'jupytercore': ('https://jupyter-core.readthedocs.io/en/latest/', None),
-    'hub': ('https://jupyterhub.readthedocs.io/en/latest/', None),
-    'z2jh': ('https://zero-to-jupyterhub.readthedocs.io/en/latest/', None),
-    'tljh': ('https://tljh.jupyter.org/en/latest/', None),
-    'bhub': ('https://binderhub.readthedocs.io/en/latest/', None),
-    'lab': ('https://jupyterlab.readthedocs.io/en/latest/', None),
-}
+from intersphinx_registry import get_intersphinx_mapping
+
+intersphinx_mapping = get_intersphinx_mapping(
+    packages={
+        "ipython",
+        "nbconvert",
+        "nbformat",
+        "ipywidgets",
+        "traitlets",
+        "ipyparallel",
+        "notebook",
+        "jupyterclient",
+        "qtconsole",
+        "jupytercore",
+        "hub",
+        "lab",
+    }
+)
+
 
 intersphinx_cache_limit = 5
 
