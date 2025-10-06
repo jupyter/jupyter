@@ -5,3 +5,4 @@ nbsphinx
 pydata-sphinx-theme
 sphinxext-rediraffe
 sphinx-design
+intersphinx_registry
