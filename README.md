@@ -66,6 +66,7 @@ See [`notebooks/README.md`](notebooks/README.md) for detailed information on eac
 ## 📚 Documentation
 
 - **[Template Guide](TEMPLATE_GUIDE.md)** - Comprehensive guide to using this template
+- **[Branching Strategy](BRANCHING_STRATEGY.md)** - Creating notebook-specific branches while keeping main generic
 - **[Notebooks README](notebooks/README.md)** - Documentation for notebook templates
 - **[Data README](data/README.md)** - Data management guidelines
 - **[Source Code README](src/README.md)** - Guidelines for reusable modules
@@ -81,13 +82,40 @@ See [`notebooks/README.md`](notebooks/README.md) for detailed information on eac
 
 ## 📖 Usage Example
 
-```python
+```bash
 # Copy a template
 cp notebooks/templates/02_data_analysis_template.ipynb notebooks/my_analysis.ipynb
 
 # Start working in Jupyter
 jupyter notebook notebooks/my_analysis.ipynb
 ```
+
+## 🌿 Creating Specialized Branches
+
+This template is designed to stay **generic and reusable** in the `main` branch. For domain-specific work (e.g., physical product development, financial modeling), create specialized branches:
+
+```bash
+# Create a domain-specific branch
+git checkout -b domain/physical-product-development
+
+# Add specialized notebooks and utilities
+cp notebooks/templates/02_data_analysis_template.ipynb \
+   notebooks/product_lifecycle_analysis.ipynb
+
+# Customize for your specific domain
+# Commit and push your specialized branch
+git add .
+git commit -m "Add product lifecycle development notebooks"
+git push origin domain/physical-product-development
+```
+
+**Key Benefits:**
+- ✅ Keep `main` clean and generic for reuse
+- ✅ Create unlimited specialized branches for different domains
+- ✅ Merge template improvements from `main` into domain branches
+- ✅ Share the generic template without domain-specific clutter
+
+See **[BRANCHING_STRATEGY.md](BRANCHING_STRATEGY.md)** for complete guide and examples.
 
 ## 🤝 Contributing
 

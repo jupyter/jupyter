@@ -119,6 +119,38 @@ mkdir -p logs
 
 ## Next Steps
 
+### Creating Specialized Notebooks
+
+**Option 1: Single Project Approach**
+Work directly in your cloned repository for a single project.
+
+**Option 2: Domain-Specific Branch**
+If you need specialized notebooks for a specific domain (e.g., physical product development, financial modeling), create a domain branch:
+
+```bash
+# Create domain-specific branch
+git checkout -b domain/physical-product-development
+
+# Add specialized notebooks
+cp notebooks/templates/02_data_analysis_template.ipynb \
+   notebooks/product_lifecycle_notebook.ipynb
+
+# Customize for your domain
+# Add domain-specific utilities in src/domain/
+# Commit your specializations
+git add .
+git commit -m "Add physical product development domain"
+git push origin domain/physical-product-development
+```
+
+**Why use branches?**
+- Keep the `main` branch generic and reusable
+- Create multiple specialized branches for different domains
+- Update domain branches with improvements from `main`
+- Share the template without domain-specific clutter
+
+See **[BRANCHING_STRATEGY.md](BRANCHING_STRATEGY.md)** for detailed guidance.
+
 ### Development Workflow
 
 1. **Create a new branch** for each feature:
@@ -146,6 +178,7 @@ mkdir -p logs
 - [ ] Keep notebooks focused and well-organized
 - [ ] Use version control regularly
 - [ ] Review the [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for best practices
+- [ ] Consider [BRANCHING_STRATEGY.md](BRANCHING_STRATEGY.md) for specialized work
 
 ## Resources
 

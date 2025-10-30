@@ -216,6 +216,30 @@ c.NotebookApp.open_browser = True
 
 ## Advanced Features
 
+### Creating Notebook-Specific Branches
+
+This template is designed to remain **generic and reusable**. For specialized use cases (e.g., physical product development, financial analysis), create domain-specific branches:
+
+```bash
+# Create a domain-specific branch
+git checkout -b domain/physical-product-development
+
+# Add specialized notebooks and utilities
+cp notebooks/templates/02_data_analysis_template.ipynb \
+   notebooks/product_lifecycle_analysis.ipynb
+
+# Customize for your domain
+# Add domain-specific code, examples, and documentation
+```
+
+**Key Principle:** Keep `main` branch generic, create branches for specialization.
+
+See **[BRANCHING_STRATEGY.md](BRANCHING_STRATEGY.md)** for complete guide on:
+- Creating domain-specific branches
+- Maintaining the generic template
+- Synchronizing changes between branches
+- Branch naming conventions
+
 ### Custom Modules
 
 Create reusable code in `src/`:
