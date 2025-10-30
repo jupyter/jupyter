@@ -1,8 +1,107 @@
-# Jupyter
+# Jupyter Inquiry Labors - Template Repository
 
 *Read this in other languages: [English](README.md), [Español](README.es-ES.md), [Português](README.pt-BR.md), [Français](README.fr-FR.md)*
 
-Jupyter metapackage for installation and documents
+A comprehensive template repository for Jupyter-based data science and analysis projects. This template provides a standardized structure, ready-to-use notebook templates, and best practices for organizing your data science work.
+
+## 🚀 Quick Start
+
+### Using This Template
+
+1. Click the "Use this template" button on GitHub to create your own repository
+2. Clone your new repository:
+   ```bash
+   git clone https://github.com/your-username/your-project-name.git
+   cd your-project-name
+   ```
+
+3. Set up your environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+4. Start Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+
+## 📁 Repository Structure
+
+```
+├── notebooks/              # Jupyter notebooks
+│   ├── templates/         # Reusable notebook templates
+│   ├── examples/          # Example notebooks
+│   └── README.md          # Notebook documentation
+├── data/                  # Data files (gitignored)
+│   ├── raw/              # Original data
+│   ├── processed/        # Cleaned data
+│   └── external/         # External sources
+├── src/                   # Reusable Python modules
+│   ├── data/             # Data processing
+│   ├── features/         # Feature engineering
+│   ├── models/           # Model code
+│   └── visualization/    # Plotting utilities
+├── output/                # Generated outputs (gitignored)
+│   ├── figures/          # Plots and visualizations
+│   ├── models/           # Trained models
+│   └── reports/          # Analysis reports
+├── tests/                 # Unit tests
+├── docs/                  # Documentation
+└── requirements.txt       # Python dependencies
+```
+
+## 📓 Notebook Templates
+
+This repository includes four comprehensive notebook templates:
+
+1. **Basic Python Template** - General-purpose Python notebook with standard structure
+2. **Data Analysis Template** - Complete data analysis workflow with EDA and statistics
+3. **Machine Learning Template** - Full ML pipeline from preprocessing to evaluation
+4. **Visualization Template** - Comprehensive guide to creating various plot types
+
+See [`notebooks/README.md`](notebooks/README.md) for detailed information on each template.
+
+## 📚 Documentation
+
+- **[Template Guide](TEMPLATE_GUIDE.md)** - Comprehensive guide to using this template
+- **[Notebooks README](notebooks/README.md)** - Documentation for notebook templates
+- **[Data README](data/README.md)** - Data management guidelines
+- **[Source Code README](src/README.md)** - Guidelines for reusable modules
+
+## 🛠️ Features
+
+- **Standardized Structure** - Consistent organization across projects
+- **Ready-to-Use Templates** - Four comprehensive notebook templates
+- **Best Practices** - Built-in guidelines for data science workflows
+- **Reusable Modules** - Structure for extracting common code
+- **Documentation** - Comprehensive docs and examples
+- **Git-Ready** - Pre-configured `.gitignore` for data science projects
+
+## 📖 Usage Example
+
+```python
+# Copy a template
+cp notebooks/templates/02_data_analysis_template.ipynb notebooks/my_analysis.ipynb
+
+# Start working in Jupyter
+jupyter notebook notebooks/my_analysis.ipynb
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the BSD License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Original Jupyter Metapackage Documentation
+
+This repository is built on top of the Jupyter metapackage for installation and documents
 
 ## Documentation structure
 
