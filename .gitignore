@@ -56,3 +56,37 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Jupyter Notebook outputs (optional - uncomment to ignore outputs)
+# *.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Data files (add specific patterns as needed)
+*.csv
+*.xlsx
+*.json
+*.parquet
+!**/examples/**/*.csv
+!**/examples/**/*.json
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.pth
+*.joblib
+
+# Output directories
+output/
+results/
+models/
+data/raw/
+data/processed/
