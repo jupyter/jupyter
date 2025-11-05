@@ -1,0 +1,152 @@
+from docx import Document
+from fpdf import FPDF
+
+# ---------- Create the Word Document ----------
+doc = Document()
+
+# Title
+doc.add_heading("The Effect of Natural Fertilizers on Plant Growth", level=1)
+doc.add_paragraph(
+    "An Agriscience Fair Documentary by Mardasha Watson\n"
+    "Southview High FFA\n"
+    "September 1, 2025 – November 1, 2025"
+)
+
+# Introduction
+doc.add_heading("Introduction", level=2)
+doc.add_paragraph(
+    "This documentary explores the Agriscience Fair project conducted by Mardasha Watson. "
+    "The purpose of the study was to determine whether natural fertilizers such as compost and manure "
+    "could promote better plant growth than commercial synthetic fertilizers in tomato plants. "
+    "The project aligns with the FFA Plant Systems category, focusing on sustainable agricultural practices "
+    "and soil health improvement."
+)
+
+# Background Research
+doc.add_heading("Background Research", level=2)
+doc.add_paragraph(
+    "Synthetic fertilizers are widely used in agriculture for quick nutrient availability, but they often lead to soil degradation "
+    "and water pollution. Natural fertilizers, like compost and manure, are more sustainable alternatives that improve soil structure "
+    "and support long-term fertility. Research from the USDA Sustainable Agriculture Program and the University of Florida’s IFAS Extension "
+    "suggests that organic matter enhances soil health and moisture retention, though results vary based on soil and plant type."
+)
+
+# Hypothesis
+doc.add_heading("Hypothesis", level=2)
+doc.add_paragraph(
+    "If tomato plants are fertilized with natural compost, then they will grow taller and healthier than those fertilized with synthetic "
+    "fertilizers because compost improves soil structure and retains nutrients longer."
+)
+
+# Experimental Design
+doc.add_heading("Experimental Design", level=2)
+doc.add_paragraph(
+    "The experiment involved growing twelve tomato plants under identical conditions, except for the type of fertilizer used. "
+    "Four plants received compost, four received cow manure, and four were treated with a 10-10-10 synthetic fertilizer. "
+    "All plants were watered equally, grown in the same soil type, and placed in similar sunlight conditions."
+)
+
+doc.add_paragraph(
+    "Measurements of plant height and leaf count were taken twice a week for six weeks. Observations included plant color, stem thickness, "
+    "and general health."
+)
+
+# Data and Observations
+doc.add_heading("Data and Observations", level=2)
+doc.add_paragraph(
+    "Throughout the six-week period, tomato plants treated with compost consistently showed the best overall growth. "
+    "By week six, compost-fertilized plants averaged 18 inches tall, manure-fertilized plants averaged 16 inches, "
+    "and synthetic-fertilized plants averaged 15.5 inches. The compost plants also developed thicker stems and produced early flower buds."
+)
+
+# Data Table Summary
+doc.add_paragraph("Summary of average results:")
+table = doc.add_table(rows=1, cols=3)
+hdr_cells = table.rows[0].cells
+hdr_cells[0].text = 'Fertilizer Type'
+hdr_cells[1].text = 'Average Final Height (inches)'
+hdr_cells[2].text = 'Average Leaf Count'
+
+data = [
+    ('Compost', '18', '42'),
+    ('Manure', '16', '38'),
+    ('Synthetic', '15.5', '36')
+]
+
+for fert, height, leaves in data:
+    row_cells = table.add_row().cells
+    row_cells[0].text = fert
+    row_cells[1].text = height
+    row_cells[2].text = leaves
+
+# Analysis
+doc.add_heading("Data Analysis and Discussion", level=2)
+doc.add_paragraph(
+    "The results supported the original hypothesis. Compost-fertilized plants grew the tallest and displayed the healthiest appearance. "
+    "Manure-treated plants grew well initially but slowed down toward the end of the experiment, while synthetic fertilizer promoted fast early "
+    "growth but weaker stems later on. These results suggest that compost provides more balanced and long-term nutrient availability."
+)
+
+# Conclusion
+doc.add_heading("Conclusion", level=2)
+doc.add_paragraph(
+    "The experiment demonstrated that natural compost fertilizer is an effective and environmentally friendly option for improving plant growth. "
+    "It enhances soil quality, promotes sustainable agriculture, and can reduce the need for synthetic chemical inputs. "
+    "This supports the growing movement toward more sustainable farming methods."
+)
+
+# Reflection
+doc.add_heading("Reflection", level=2)
+doc.add_paragraph(
+    "Conducting this project helped develop scientific and agricultural research skills. Challenges included maintaining consistent watering "
+    "and avoiding over-fertilization. These experiences taught the importance of careful observation and data recording in experiments."
+)
+doc.add_paragraph(
+    "This research connects directly to careers in agronomy, soil science, and environmental sustainability. "
+    "It also reinforces the importance of innovation in agriculture to balance productivity with environmental care."
+)
+doc.add_paragraph(
+    "The project is significant because it demonstrates how simple, natural methods can yield impressive results while protecting our planet’s resources."
+)
+
+# Save Word version
+doc.save("Mardasha_Watson_Agriscience_Fair_Documentary.docx")
+
+# ---------- Create the PDF version ----------
+pdf = FPDF()
+pdf.add_page()
+pdf.set_font("Arial", size=12)
+
+content = [
+    "The Effect of Natural Fertilizers on Plant Growth",
+    "An Agriscience Fair Documentary by Mardasha Watson",
+    "Southview High FFA | September 1, 2025 – November 1, 2025",
+    "",
+    "INTRODUCTION:",
+    "This project examined whether natural fertilizers like compost and manure improve tomato plant growth compared to synthetic fertilizer.",
+    "",
+    "BACKGROUND RESEARCH:",
+    "Research from USDA and the University of Florida shows compost improves soil structure and water retention while reducing pollution.",
+    "",
+    "HYPOTHESIS:",
+    "Tomato plants fertilized with compost will grow taller and healthier than those with synthetic fertilizer.",
+    "",
+    "EXPERIMENTAL DESIGN:",
+    "Twelve plants were tested under identical conditions with different fertilizers: compost, manure, and synthetic. Measurements were taken over six weeks.",
+    "",
+    "RESULTS:",
+    "Compost plants grew to 18 in., manure 16 in., synthetic 15.5 in. Compost also improved leaf count and plant strength.",
+    "",
+    "CONCLUSION:",
+    "Compost proved the most effective and sustainable fertilizer, supporting healthy growth and better soil conditions.",
+    "",
+    "REFLECTION:",
+    "This project taught scientific research, sustainability awareness, and practical agricultural skills. It highlights the value of natural methods in farming."
+]
+
+for line in content:
+    pdf.multi_cell(0, 10, line)
+
+pdf.output("Mardasha_Watson_Agriscience_Fair_Documentary.pdf")
+
+print("✅ Both files have been saved:\n- Mardasha_Watson_Agriscience_Fair_Documentary.docx\n- Mardasha_Watson_Agriscience_Fair_Documentary.pdf")
