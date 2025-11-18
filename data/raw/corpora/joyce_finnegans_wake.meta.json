@@ -1,0 +1,17 @@
+{
+  "title": "Finnegans Wake",
+  "author": "James Joyce",
+  "translator": "None (English original)",
+  "edition": "Faber and Faber, 1939",
+  "language": "English (multilingual portmanteau language)",
+  "original_language": "English with 60+ embedded languages",
+  "excerpt": "Part I, Chapter 1, Opening passage",
+  "genre": "Experimental Novel",
+  "tradition": "Modernist",
+  "period": "1939 CE",
+  "themes": ["cyclical time", "linguistic recursion", "fall and resurrection", "vico's cycles", "dream consciousness"],
+  "formulaic_patterns": ["riverrun", "commodius vicus of recirculation", "brings us back"],
+  "linguistic_features": "Portmanteau words, multilingual puns, no sentence start (begins mid-word)",
+  "structural_notes": "Circular structure—last sentence flows into first, infinite recursion",
+  "notes": "Opening establishes cyclical time via riverrun; book ends mid-sentence to restart"
+}
