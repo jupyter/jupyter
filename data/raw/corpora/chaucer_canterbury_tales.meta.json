@@ -1,0 +1,16 @@
+{
+  "title": "The Canterbury Tales",
+  "author": "Geoffrey Chaucer",
+  "translator": "None (Middle English original)",
+  "edition": "Original Middle English text",
+  "language": "Middle English",
+  "original_language": "Middle English",
+  "excerpt": "General Prologue, Lines 1-27",
+  "genre": "Frame Narrative / Poetry",
+  "tradition": "Medieval English",
+  "period": "c. 1387-1400 CE",
+  "themes": ["pilgrimage", "springtime renewal", "social estates", "storytelling", "community"],
+  "formulaic_patterns": ["whan that Aprille", "seken straunge strondes", "sondry folk"],
+  "poetic_features": "Iambic pentameter, rhyming couplets",
+  "notes": "Famous spring opening establishing the pilgrimage frame narrative"
+}

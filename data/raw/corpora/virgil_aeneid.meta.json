@@ -1,0 +1,15 @@
+{
+  "title": "Aeneid",
+  "author": "Virgil (Publius Vergilius Maro)",
+  "translator": "Theodore C. Williams",
+  "edition": "Houghton Mifflin, 1910",
+  "language": "English (from Latin)",
+  "original_language": "Latin",
+  "excerpt": "Book 1, Lines 1-26",
+  "genre": "Epic Poetry",
+  "tradition": "Roman",
+  "period": "29-19 BCE",
+  "themes": ["fate", "founding", "duty (pietas)", "divine wrath", "empire", "exile"],
+  "formulaic_patterns": ["arms and the man", "predestined exile", "sleepless wrath"],
+  "notes": "Opening invocation establishing Aeneas's journey from Troy to Italy"
+}

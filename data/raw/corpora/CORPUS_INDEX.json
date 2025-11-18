@@ -1,0 +1,91 @@
+{
+  "corpus_collection": "Epic Literary Traditions",
+  "description": "Comparative corpus for recursive research framework—spanning Greek, Roman, Medieval, and Modernist epic traditions",
+  "total_works": 7,
+  "works": [
+    {
+      "id": "homer_odyssey",
+      "file": "homer_odyssey.txt",
+      "metadata": "homer_odyssey.meta.json",
+      "tradition": "Greek",
+      "period": "8th century BCE",
+      "language": "Ancient Greek → English",
+      "genre": "Epic Poetry",
+      "themes": ["homecoming", "nostos", "wandering", "heroism"]
+    },
+    {
+      "id": "ovid_metamorphoses",
+      "file": "ovid_metamorphoses.txt",
+      "metadata": "ovid_metamorphoses.meta.json",
+      "tradition": "Roman",
+      "period": "8 CE",
+      "language": "Latin → English",
+      "genre": "Epic Poetry",
+      "themes": ["transformation", "metamorphosis", "creation", "chaos to order"]
+    },
+    {
+      "id": "virgil_aeneid",
+      "file": "virgil_aeneid.txt",
+      "metadata": "virgil_aeneid.meta.json",
+      "tradition": "Roman",
+      "period": "29-19 BCE",
+      "language": "Latin → English",
+      "genre": "Epic Poetry",
+      "themes": ["fate", "founding", "duty", "empire", "exile"]
+    },
+    {
+      "id": "dante_divine_comedy",
+      "file": "dante_divine_comedy.txt",
+      "metadata": "dante_divine_comedy.meta.json",
+      "tradition": "Medieval Italian",
+      "period": "1308-1320 CE",
+      "language": "Tuscan Italian → English",
+      "genre": "Visionary Epic",
+      "themes": ["spiritual journey", "descent", "redemption", "allegory"]
+    },
+    {
+      "id": "beowulf",
+      "file": "beowulf.txt",
+      "metadata": "beowulf.meta.json",
+      "tradition": "Anglo-Saxon",
+      "period": "8th-11th century CE",
+      "language": "Old English → Modern English",
+      "genre": "Epic Poetry",
+      "themes": ["heroism", "kinship", "fame", "wyrd"]
+    },
+    {
+      "id": "chaucer_canterbury_tales",
+      "file": "chaucer_canterbury_tales.txt",
+      "metadata": "chaucer_canterbury_tales.meta.json",
+      "tradition": "Medieval English",
+      "period": "c. 1387-1400 CE",
+      "language": "Middle English",
+      "genre": "Frame Narrative Poetry",
+      "themes": ["pilgrimage", "social estates", "storytelling", "community"]
+    },
+    {
+      "id": "joyce_finnegans_wake",
+      "file": "joyce_finnegans_wake.txt",
+      "metadata": "joyce_finnegans_wake.meta.json",
+      "tradition": "Modernist",
+      "period": "1939 CE",
+      "language": "Multilingual English",
+      "genre": "Experimental Novel",
+      "themes": ["cyclical time", "linguistic recursion", "fall and resurrection", "dream consciousness"]
+    }
+  ],
+  "comparative_dimensions": [
+    "Entropy metrics across traditions",
+    "Formulaic patterns (oral vs. written)",
+    "Recursion structures (linear vs. circular)",
+    "Lexical diversity by period",
+    "N-gram evolution (Ancient → Medieval → Modern)",
+    "Symbolic compression via glyph mapping"
+  ],
+  "usage_notes": [
+    "All texts are public domain excerpts (opening passages)",
+    "Metadata files contain linguistic and thematic annotations",
+    "Use batch_atomize_corpora.py for comparative analysis",
+    "See notebooks/recursive_research/03_comparative_epic_analysis.ipynb for cross-work synthesis"
+  ]
+}
