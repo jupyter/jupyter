@@ -9,6 +9,7 @@ The Jupyter Community Call is an open video call. Think of this as a "monthly, v
 .. toctree::
    :maxdepth: 1
 
+   December 2025 <2025-december.md>
    September 2025 <2025-september.md>
    June 2025 <2025-june.md>
    February 2025 <2025-february.md>
