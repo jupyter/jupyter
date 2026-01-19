@@ -1,0 +1,18 @@
+# Core runtime
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Scientific stack
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# Geospatial stack
+geopandas>=0.13
+rasterio>=1.3
+shapely>=2.0
+pyproj>=3.6
+
+# Optional helpers (uncomment if needed)
+# rioxarray>=0.15
+# xarray>=2023.7
