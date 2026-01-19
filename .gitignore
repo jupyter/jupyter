@@ -56,3 +56,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+.venv/
+
+CooperLiDAR_DEM_25m_EPSG4283.tif
+.venv/
