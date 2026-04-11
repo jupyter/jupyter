@@ -99,8 +99,9 @@ Below is a list of documentation for major parts of the Jupyter ecosystem.
 ```{grid-item-card}
 User Interfaces
 ^^^^^^
-* [JupyterLab](https://github.com/jupyterlab/jupyterlab)
+* [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
 * [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
+* [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/)
 * [nbclassic](https://github.com/jupyterlab/nbclassic)
 * [Jupyter Console](https://jupyter-console.readthedocs.io/en/latest)
 * [Qt console](https://qtconsole.readthedocs.io/en/stable)
@@ -172,6 +173,14 @@ Widgets
 * [ipywidgets](https://ipywidgets.readthedocs.io/)
 * [widget-cookiecutter](https://github.com/jupyter-widgets/widget-cookiecutter/)
 * [All Widget Projects...](https://github.com/jupyter-widgets)
+```
+
+```{grid-item-card}
+Artificial Intelligence
+^^^^^^^^^^^^^^^^^^^^^^^
+* [jupyter-ai]([https://ipywidgets.readthedocs.io/](https://jupyter-ai.readthedocs.io/en/latest/))
+* [jupyterlite/ai](https://github.com/jupyterlite/ai)
+* [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib) - unofficial
 ```
 ````
 
