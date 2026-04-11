@@ -178,7 +178,7 @@ Widgets
 ```{grid-item-card}
 Artificial Intelligence
 ^^^^^^^^^^^^^^^^^^^^^^^
-* [jupyter-ai]([https://ipywidgets.readthedocs.io/](https://jupyter-ai.readthedocs.io/en/latest/))
+* [jupyter-ai](https://jupyter-ai.readthedocs.io/en/latest/)
 * [jupyterlite/ai](https://github.com/jupyterlite/ai)
 * [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib) - unofficial
 ```
