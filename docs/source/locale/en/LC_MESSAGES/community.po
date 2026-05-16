@@ -4963,7 +4963,7 @@ msgstr ""
 # 80103b709d94489da4c958855044ce23
 #: ../../source/community/content-community.rst:89
 #: 4c17016b385c4851843b96ef217158d9
-msgid "Gitter `<https://gitter.im/jupyter/jupyter>`_"
+msgid "Zulip <https://jupyter.zulipchat.com>_"
 msgstr ""
 
 # dd12e64a1c6242688e11b1e72d4b7d17

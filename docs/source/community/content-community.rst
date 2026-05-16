@@ -84,7 +84,7 @@ relevant information.
 - Blog `<https://blog.jupyter.org/>`_
 - Newsletter `<https://newsletter.jupyter.org/>`_
 - Website `<https://jupyter.org>`_
-- Gitter `<https://gitter.im/jupyter/jupyter>`_
+- Zulip <https://jupyter.zulipchat.com>_
 - Discourse `<https://discourse.jupyter.org/>`_
 - Zulip `<https://jupyter.zulipchat.com>`_
 - Mailing lists (Jupyter, Jupyter in Education) `<https://jupyter.org/community.html>`_
