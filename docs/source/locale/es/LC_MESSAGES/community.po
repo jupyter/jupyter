@@ -398,8 +398,8 @@ msgstr "Sitio Web `<https://jupyter.org>`_"
 
 # 80103b709d94489da4c958855044ce23
 #: ../../source/community/content-community.rst:59
-msgid "Gitter `<https://gitter.im/jupyter/jupyter>`_"
-msgstr "Gitter `<https://gitter.im/jupyter/jupyter>`_"
+msgid "Zulip `<https://jupyter.zulipchat.com>`_"
+msgstr "Zulip `<https://jupyter.zulipchat.com>`_"
 
 # dd12e64a1c6242688e11b1e72d4b7d17
 #: ../../source/community/content-community.rst:60
