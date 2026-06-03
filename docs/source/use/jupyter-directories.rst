@@ -86,21 +86,21 @@ search path. For example, kernel specs are in ``kernels`` subdirectories.
    Directories given in :envvar:`JUPYTER_PATH` are searched before other
    locations. This is used in addition to other entries, rather than replacing any.
 
-+-------------------------------+----------------------------+----------------------------+
-| Linux (& other free desktops) | Mac                        | Windows                    |
-+===============================+============================+============================+
-| :envvar:`JUPYTER_PATH`                                                                  |
-+-------------------------------+----------------------------+----------------------------+
-| :envvar:`JUPYTER_DATA_DIR`    | :envvar:`JUPYTER_DATA_DIR` | :envvar:`JUPYTER_DATA_DIR` |
-| or (if not set)               | or (if not set)            | or (if not set)            |
-| ``~/.local/share/jupyter/``   | ``~/Library/Jupyter``      | ``%APPDATA%\jupyter``      |
-| (respects ``$XDG_DATA_HOME``) |                            |                            |
-+-------------------------------+----------------------------+----------------------------+
-| ``{sys.prefix}/share/jupyter/``                                                         |
-+-------------------------------+----------------------------+----------------------------+
-| ``/usr/local/share/jupyter``                               | ``%PROGRAMDATA\jupyter``   |
-| ``/usr/share/jupyter``                                     |                            |
-+-------------------------------+----------------------------+----------------------------+
++-------------------------------+-------------------------------------------+----------------------------+
+| Linux (& other free desktops) | Mac                                       | Windows                    |
++===============================+===========================================+============================+
+| :envvar:`JUPYTER_PATH`                                                                                 |
++-------------------------------+-------------------------------------------+----------------------------+
+| :envvar:`JUPYTER_DATA_DIR`    | :envvar:`JUPYTER_DATA_DIR`                | :envvar:`JUPYTER_DATA_DIR` |
+| or (if not set)               | or (if not set)                           | or (if not set)            |
+| ``~/.local/share/jupyter/``   | ``~/Library/Application Support/Jupyter`` | ``%APPDATA%\jupyter``      |
+| (respects ``$XDG_DATA_HOME``) |                                           |                            |
++-------------------------------+-------------------------------------------+----------------------------+
+| ``{sys.prefix}/share/jupyter/``                                                                        |
++-------------------------------+-------------------------------------------+----------------------------+
+| ``/usr/local/share/jupyter``                                              | ``%PROGRAMDATA\jupyter``   |
+| ``/usr/share/jupyter``                                                    |                            |
++-------------------------------+-------------------------------------------+----------------------------+
 
 .. _jupyter_data_dir:
 
