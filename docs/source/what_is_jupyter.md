@@ -1,7 +1,13 @@
 ---
 orphan: true
 ---
-# What is Jupyter?
+
+# A Guide to Jupyter in 2025
+
+<!-- # Other possible titles:
+# A Guide to Jupyter in 2024
+# Understanding Jupyter in 2024
+# What is Jupyter? (2024 Edition) -->
 
 ![The JupyterLab notebook editor, with an open notebook showing an interactive view of the insulin receptor](_static/_images/notebook_insulin_lab_small.png)
 **Pictured above:** *A notebook inside JupyterLab, showing an interactive*
@@ -16,8 +22,9 @@ Above all, "Project Jupyter" is a large umbrella project that covers
 many different software offerings and tools. That includes [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
 and [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/),
 which are both popular notebook-editor programs. **The Jupyter project, and**
-**its subprojects, all center around providing tools (and standards) for**
-**interactive computing with computational notebooks.** If you're not familiar
+**its subprojects, all provide software, standards, and reusable parts for**
+**interactive computing and computational notebooks, centered around the goal**
+**of facilitating human understanding of complex topics.** If you're not familiar
 with some of those things, you can take a guided tour below that explains each
 one from the start.
 
