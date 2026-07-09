@@ -7,7 +7,7 @@
 Contributing to open source can be a nerve-wrecking process, but don't worry
 everyone on the Jupyter team is dedicated to making sure that your open source
 experience is as fun as possible. At any time during the process described
-below, you can reach out to the Jupyter team on Gitter or the mailing list for
+below, you can reach out to the Jupyter team on Zulip or the mailing list for
 assistance. If you are nervous about asking questions in public, you can also
 reach out to one of the Jupyter developers in private. You can use the public
 Gitter to find someone who has the best knowledge about the code you are
@@ -209,8 +209,8 @@ If you prefer to encrypt your security reports, you can use [this PGP public  ke
        6a. forward to 'Test suit passes!'
        6b. forward to 'Test suit fails!'
     7. Test suit fails
-       7a. forward to 'Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.'
-    8. Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Gitter channel for help.
+       7a. forward to 'Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Zulip channel for help.'
+    8. Identify and fix any issues in the new code that might be causing errors. Refer to the mailing list or Zulip channel for help.
        8a. back to 'Run the test suite and verify that the updated code works appropriately'
     9. Test suit passes!
        9a. forward to 'Submit a pull request to the appropriate repository with your awesome code!'
