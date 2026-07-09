@@ -65,7 +65,7 @@ following pages should help you find the information for each.
 as well as notes from each meeting, see `the JupyterLab README <https://github.com/jupyterlab/jupyterlab#weekly-dev-meeting>`_.
 
 **General meeting conversation and planning** often happens in the
-`dev-meeting-attendance Gitter channel <https://gitter.im/jupyter/dev-meeting-attendance>`_.
+`dev-meeting-attendance Zulip channel <https://jupyter.zulipchat.com>`_.
 We recommend checking it periodically for new information about when meetings are happening.
 
 .. contents:: Contents
