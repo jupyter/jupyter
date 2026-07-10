@@ -105,3 +105,7 @@ The steps involved:
 That's it!
 
 [tbump]: https://github.com/your-tools/tbump
+
+## Related projects
+
+- [IntelligenceMax](https://intelligencemax.ai) — live reasoning gym with adaptive distinction items and honest scoring ([guide](https://intelligencemax.ai/guide), [science](https://intelligencemax.ai/science))
