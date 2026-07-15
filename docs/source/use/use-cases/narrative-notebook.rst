@@ -13,6 +13,7 @@ applications.
 Narrative examples
 ------------------
 
+- Reproducing someone else's results by following their Notebook
 - Using the Notebook for data exploration
 - Using extensions and widgets
 - Using nbconvert for code execution and workflow simplification
