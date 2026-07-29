@@ -9,7 +9,7 @@ subprojects all center around providing tools (and [standards](https://docs.jupy
 for interactive computing with [computational notebooks](#what-is-a-notebook).
 
 (what-is-a-notebook)=
-## What is a Notebook?
+## ## What is a Notebook? 📓
 
 ![jupyterlab.png](_static/_images/jupyterlab.png)
 
@@ -23,6 +23,26 @@ figures, and interactive controls. A notebook, along with an editor (like
 JupyterLab), provides a fast interactive environment for prototyping and
 explaining code, exploring and visualizing data, and sharing ideas with
 others.
+
+### Example: Data Analysis in a Notebook
+
+\`\`\`python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load your data
+df = pd.read_csv('sales_data.csv')
+
+# Quick analysis
+print(df.head())
+print(df.describe())
+
+# Visualize
+df['sales'].plot(kind='hist')
+plt.show()
+\`\`\`
+
+This code runs right inside your notebook, and you can modify it and see results instantly!
 
 ## Where do I start?
 
@@ -38,6 +58,17 @@ and making their first notebook document:
 
 You can also develop your own extensions or applications on top of existing Jupyter
 software. Check out the subproject sites below for more information.
+
+## For Data Analysts 📊
+
+If you're a data analyst, here's what you'll love about Jupyter:
+
+- **Explore data interactively** – No need to rerun entire scripts
+- **Visualize instantly** – Charts update as you change code
+- **Document your analysis** – Combine code, results, and explanations
+- **Share reports** – Export as HTML, PDF, or even interactive dashboards
+
+> 💡 **Pro tip:** Use `!pip install pandas matplotlib seaborn` to get started with data analysis tools right in your notebook!
 
 ## More information
 
