@@ -15,6 +15,7 @@ may change, and we will do our best to keep it up to date.
 
    community-call-notes/index
    host-guide
+   sample_scripts
 
 
 Jupyter Community Meetings
