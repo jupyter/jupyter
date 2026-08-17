@@ -190,6 +190,8 @@ intersphinx_mapping = get_intersphinx_mapping(
         "jupytercore",
         "hub",
         "lab",
+        "z2jh",
+        "bhub",
     }
 )
 
