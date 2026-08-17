@@ -37,7 +37,7 @@ If you are joining the Jupyter Community Call, we ask that you sign in below at 
 | Zach Sailer | Apple | @Zsailer |
 
 
-### Icebreaker
+## Icebreaker
 
 | Name | First programming language used? |
 |--------|-----------|
