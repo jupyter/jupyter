@@ -38,14 +38,14 @@ Notebook Conversion and Formatting
 
 Kernels
 -------
-* `IPython <https://ipython.readthedocs.io/en/stable/>`_
+* `IPython <https://ipython.readthedocs.io/en/stable/>`__
 * `IRkernel <https://irkernel.github.io/>`_
 * `IJulia <https://github.com/JuliaLang/IJulia.jl>`_
 * `List of community maintained language kernels <https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages>`_
 
 IPython
 -------
-* `IPython`_
+* `IPython <https://ipython.readthedocs.io/en/stable/>`__
 * `ipykernel <https://ipython.readthedocs.io/en/stable/>`_
 * `ipyparallel <https://ipyparallel.readthedocs.io/en/latest/>`_
 
