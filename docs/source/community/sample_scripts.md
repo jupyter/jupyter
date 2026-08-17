@@ -97,6 +97,7 @@ If needed, update the Discourse link to a more recent post.
 
 ### HackMD Note Template
 
+```
 ---
 tags: jupyter
 ---
@@ -150,4 +151,5 @@ Add agenda items here **before** the meeting. The event host will reorganize the
 
 ## Other Links Shared
 * 
+```
 

@@ -36,6 +36,10 @@ extensions = [
 
 panels_add_bootstrap_css = False
 
+# Generate anchors for markdown headings (H1-H3) so that cross-document
+# `[text](doc.md#anchor)` links resolve. MyST 5.x defaults to 0 (off).
+myst_heading_anchors = 3
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -186,6 +190,8 @@ intersphinx_mapping = get_intersphinx_mapping(
         "jupytercore",
         "hub",
         "lab",
+        "z2jh",
+        "bhub",
     }
 )
 

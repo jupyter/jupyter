@@ -33,11 +33,6 @@ implementation of kernels for Jupyter and provides a number of kernels such as
 
 .. glossary::
 
-    `IPython <https://ipython.org>`__
-        interactive computing in Python.
-        `Documentation <https://ipython.readthedocs.io/en/stable/>`__ |
-        `Repo <https://github.com/ipython/ipython>`__
-
     `ipykernel <https://ipykernel.readthedocs.io/en/stable/>`__
         the wrapper around IPython which enables using IPython as a kernel
         `Repo <https://github.com/ipython/ipykernel>`__
