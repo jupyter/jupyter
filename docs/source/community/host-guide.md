@@ -161,7 +161,7 @@ A few post-meeting items for either the host or meeting-facilitator to complete:
   1. Copy the contents of the minutes into a markdown file in this folder: [https://github.com/jupyter/jupyter/tree/master/docs/source/community/community-call-notes](https://github.com/jupyter/jupyter/tree/master/docs/source/community/community-call-notes).  
   2. **You’ll also have to add a table of contents entry [here](https://github.com/jupyter/jupyter/blob/master/docs/source/community/community-call-notes/index.rst) once you add the actual file.**   
 * ***Upload video to YouTube***: You can share the link to the recording along with the thumbnail image for the video, with someone who has access to upload to the Project Jupyter YouTube channel. The thumbnail can be created from the slide here: [Video title slide](https://docs.google.com/presentation/d/1E32UwXA81kqZG2Ruo8vBFYFSNPBLjh3PUYVHYiRhCBQ/edit?usp=drive_link)  
-* Post recording on the following [thread on Discourse](%20https://discourse.jupyter.org/t/jupyter-community-calls/668/102?u=ruv7) (this link lives in the HackMD and should be kept up to date).
+* Post recording on the following [thread on Discourse](https://discourse.jupyter.org/t/jupyter-community-calls/668/102?u=ruv7) (this link lives in the HackMD and should be kept up to date).
 
 &#x1F305; The Jupyter community depends on volunteers like you, so again we would like to thank you for helping Jupyter bring open source tools for interactive computing to the world.
 
