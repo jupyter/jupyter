@@ -92,6 +92,7 @@ Partner with another contributor (who has recording privileges) to do the follow
     * To identify themselves and state whether they’re recording  
     * If they get no response from the account, the host should assume it’s recording, and remove it from the meeting.
 
+(meeting-script-and-checklist)=
 ## &#x270f;  Meeting Checklist and Script
 
 ### &#x23F3; Prior to meeting start
