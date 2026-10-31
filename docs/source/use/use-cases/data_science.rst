@@ -21,3 +21,18 @@ The following Jupyter kernels are widely used in data science:
      - IJulia Kernel (`GitHub Repo <https://github.com/JuliaLang/IJulia.jl>`__)
      - Interactive Widgets (`GitHub Repo <https://github.com/JuliaLang/Interact.jl>`__)
 * Bash (`GitHub Repo <https://github.com/takluyver/bash_kernel>`__)
+
+Querying Redis from a Python notebook
+=====================================
+
+Python kernels can use the external Redis ADBC driver to query Redis SQL data
+and fetch Arrow tables for pandas or NumPy analysis. Install the driver in the
+kernel's Python environment, configure the Redis endpoint before starting the
+kernel, and run Redis separately with Search enabled.
+
+The `Redis ADBC notebook guide
+<https://github.com/redis/redis-adbc-driver/blob/a48432273a0f9978e893bca27057b9f128e7603e/docs/integrations/jupyter.md>`_
+includes installation, kernel selection and a complete query example.
+A remote kernel needs its own driver installation and network access to Redis;
+installing a package on the browser's computer does not configure that kernel.
+This is a Python-client workflow, not a built-in Jupyter database connector.
