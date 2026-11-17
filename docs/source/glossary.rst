@@ -74,7 +74,7 @@ Glossary
 
    Jovyan
        A term for fans of Jupyter and members of the Jupyter community. This term
-       is `derived from <https://jupyter--681.org.readthedocs.build/en/681/community/content-community.html#what-is-a-jovyan>`_
+       is `derived from <https://docs.jupyter.org/en/latest/community/content-community.html#what-is-a-jovyan>`_
        the astronomical term "Jovian", meaning "Like Jupiter".
 
    Jupyter
