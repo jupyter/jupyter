@@ -84,5 +84,5 @@ Getting Access to Jupyter Managed Accounts
 As a contributor, you may need to access accounts managed by Jupyter, for instance,
 to write a blog post or update information posted to a Jupyter site.
 
-To request access, email the security group at `security@ipython.org`, or make
+To request access, email the security group at `security@jupyter.org`, or make
 an issue on the `Jupyter Security subproject repo <https://github.com/jupyter/security/issues/new>`_.
